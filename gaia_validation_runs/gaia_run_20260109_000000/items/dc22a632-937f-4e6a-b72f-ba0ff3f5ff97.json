@@ -1,0 +1,207 @@
+{
+  "id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+  "query": "What was the complete title of the book in which two James Beard Award winners recommended the restaurant where Ali Khan enjoyed a New Mexican staple in his cost-conscious TV show that started in 2015? Write the numbers in plain text if there are some in the title.",
+  "ground_truth": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+  "answer_raw": {
+    "final_answer": "No verifiable information was found.",
+    "final_answer_strict": "No verifiable information was found.",
+    "used_evidence": [
+      "No verifiable information was found regarding the restaurant recommended by two James Beard Award winners where Ali Khan enjoyed New Mexican cuisine in his television show that started in 2015."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the name of the book that mentions the restaurant?",
+      "Are there any specific episodes of Ali Khan's show that highlight the restaurant or cuisine?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "No verifiable information was found.",
+  "error": null,
+  "duration_sec": 34.89227247238159,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о ресторане, рекомендованном двумя победителями премии Джеймса Бирда, где Али Хан наслаждался ново-мексиканским блюдом в своем телевизионном шоу, начавшемся в 2015 году.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о ресторане, рекомендованном двумя победителями премии Джеймса Бирда, где Али Хан наслаждался ново-мексиканским блюдом в своем телевизионном шоу, начавшемся в 2015 году.",
+        "facts": [],
+        "sources": [
+          {
+            "title": "Новости. Уральский федеральный округ",
+            "url": "https://ca.polpred.com/news?ns=1&fo=5&cat_a=1&page=26",
+            "snippet": "\\ ����������� �����\n\n ������. �������. ��� > �����, �������. ���������������, �������� > zavtra.ru, 16 ����� 2023 >  � 4321323 ��������� ��������\n\n  \n\n������. ��� > �������� > rg.ru, 16 ����� 2023 >  � 4318205  ����� �����\n\n����� �������� �������� �� ������ �������� ������������ ��� ��������\n\n������� ������ (����������� �������)\n\n��������� �� ����� ���������������� �������� ���������� �� ����� ������ ������, ����� �� � ��������� ������������ ������� ���������� �����. �� ����������� ������������� ����� �������������� ������, �������� ������������� ������ ��� ����������� �� ����� ����� �������, "
+          },
+          {
+            "title": "UAM #161 - Calaméo",
+            "url": "https://www.calameo.com/books/004820351111017aa85f0",
+            "snippet": "##### Personalization\n\nTransform your documents into captivating experiences\n\n##### Integrations\n\nConnect Calaméo to your favorite applications\n\n##### Studio\n\nMake publications that look like you\n\n##### Conversion\n\nGenerate valuable leads from your publications\n\n##### Multi-Accounts\n\nManage multiple accounts with the Multi-Accounts option\n\n##### Share\n\nDisseminate your content everywhere, instantly\n\n##### Statistics\n\nAnalyze your audience's behavior\n\n##### Subscribers\n\nShare exclusive content with your subscribers\n\n##### Accessibility\n\nPublish accessible content\n\n##### Blog\n\nFollow the latest "
+          },
+          {
+            "title": "163 текста в блоге телеканала «RT на русском",
+            "url": "https://www.limonow.de/read/EL_2016-2020_RT.html",
+            "snippet": "Хитроватый, наглый, рыжий, старый, что называется, режущий правду-матку. Пиджак расстёгнут, чтобы скрыть объёмистое (такое же, как у американских мужиков) брюхо,— насмешник, чёрт этакий.\n\n«Красные шеи» посчитали его своим, потому что услышали от него те же слова, какие слышат друг от друга в своих кантинах, столовых и закусочных во время рабочих перерывов: о «чёрномазых», «президенте-чернышке», о том, что мексиканцев развелось как ворон и что хорошо бы от них стеной огородиться, что мусульман вообще в Америку не следует пускать, а тех, кто есть,— проверить и выжить из страны. [...] В том, что "
+          },
+          {
+            "title": "[PDF] Это прорыв! 100 уроков бизнес-инноваций",
+            "url": "https://www.iate.obninsk.ru/sites/default/files/uploads/users/AA_Kuznetsova/%D0%AD%D1%82%D0%BE%20%D0%BF%D1%80%D0%BE%D1%80%D1%8B%D0%B2!%20100%20%D1%83%D1%80%D0%BE%D0%BA%D0%BE%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%B9.pdf",
+            "snippet": "постояльца . . . . . . . . . . . . . . . . . . . . . . . . . . 248 99 Обмен советами для путешественников на «добром рынке» . . . . . . . . . . . . . . . . . . . . . . . . . . 250 100 Создание собственного роскошного отеля на заказ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252 Резюме . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 254 ЗАКЛЮЧЕНИЕ 256 ССЫЛКИ 258 СТАТЬ СПРИНГСПОТТЕРОМ 260 КОМАНДА 261 РАЗВЕДПЛАНЫ SPRINGWISE 262 9 __ПОСВЯЩЕНИЕ Лили, Уиллоу и Сейдж, которые вдохновляли меня на все"
+          },
+          {
+            "title": "Грани культуры: актуальные проблемы истории и современности",
+            "url": "https://uwc-z.ru/wp-content/uploads/facets-of-culture_xix_2025-03-05_print.pdf",
+            "snippet": "........................................................................215 Лютый В.Д. Пока есть настоящие люди. Нравственный выбор и поступки героя современной русской литературы. [...] Ключевые слова: Россия, Казахстан, литература, писатель, критик, литеарутровед. [...] Ключевые слова: Россия, Казахстан, литература, писатель, критик, литеарутровед."
+          }
+        ],
+        "summary": "No verifiable information was found regarding the restaurant recommended by two James Beard Award winners where Ali Khan enjoyed New Mexican cuisine in his television show that started in 2015."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь полное название книги, в которой упоминается ресторан.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "No verifiable information was found regarding the restaurant recommended by two James Beard Award winners where Ali Khan enjoyed New Mexican cuisine in his television show that started in 2015."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What is the name of the book that mentions the restaurant?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о связи между книгой, рестораном и телевизионным шоу Али Хана.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The restaurant where Ali Khan enjoyed New Mexican cuisine is relevant to the context of the book and television show.",
+          "The book in question likely discusses the restaurant or the cuisine featured in Ali Khan's show."
+        ],
+        "reasoning_steps": [
+          "T1 indicates that no verifiable information about the restaurant was found.",
+          "T2 confirms the absence of details regarding the restaurant, which is crucial for linking the book, restaurant, and television show.",
+          "Since the restaurant is not identified, it is challenging to establish a direct connection to the book or the television show."
+        ],
+        "conclusions": [
+          "Without the name of the restaurant or specific details about the book, it is impossible to draw a logical connection between the book, the restaurant, and Ali Khan's television show."
+        ],
+        "proposed_answer_outline": [
+          "Identify the book that mentions the restaurant.",
+          "Gather information about the restaurant recommended by James Beard Award winners.",
+          "Establish connections between the restaurant, the book, and the television show."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the name of the book that mentions the restaurant?",
+          "Are there any specific episodes of Ali Khan's show that highlight the restaurant or cuisine?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с полным названием книги.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "No verifiable information was found.",
+        "final_answer_strict": "No verifiable information was found.",
+        "used_evidence": [
+          "No verifiable information was found regarding the restaurant recommended by two James Beard Award winners where Ali Khan enjoyed New Mexican cuisine in his television show that started in 2015."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the name of the book that mentions the restaurant?",
+          "Are there any specific episodes of Ali Khan's show that highlight the restaurant or cuisine?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no verifiable information was found",
+    "gt_norm": "five hundred things to eat before it's too late: and the very best places to eat them"
+  }
+}

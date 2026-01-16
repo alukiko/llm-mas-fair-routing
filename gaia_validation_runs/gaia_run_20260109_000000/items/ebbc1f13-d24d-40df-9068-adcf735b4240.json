@@ -1,0 +1,318 @@
+{
+  "id": "ebbc1f13-d24d-40df-9068-adcf735b4240",
+  "query": "The Latin root of the Yola word \"gimlie\" shares a spelling with a Spanish word. What is the Google translation of the source title for the 1994 example sentence for that word in the Collins Spanish-to-English dictionary online? Answer in plain text, without punctuation.",
+  "ground_truth": "The World of the Twenty First Century",
+  "answer_raw": {
+    "final_answer": "life unworthy of life",
+    "final_answer_strict": "life unworthy of life",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "life unworthy of life",
+  "error": null,
+  "duration_sec": 63.5181930065155,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти информацию о латинском корне слова 'gimlie' и его связи со словом на испанском языке",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти информацию о латинском корне слова 'gimlie' и его связи со словом на испанском языке",
+        "facts": [],
+        "sources": [
+          {
+            "title": "Amazon Prime @ Amazon .com",
+            "url": "https://www.amazon.com/b?node=15240005011",
+            "snippet": "Let Us Help You\n\n   Your Account\n   Your Orders\n   Shipping Rates & Policies\n   Amazon Prime\n   Returns & Replacements\n   Manage Your Content and Devices\n   Recalls and Product Safety Alerts\n   Registry & Gift List\n   Help\n\n[](\n\nEnglish\n\nUnited States\n\n   ##### Amazon Music Stream millions of songs\n\n   ##### Amazon Ads Reach customers wherever they spend their time\n\n   ##### 6pm Score deals on fashion brands\n\n   ##### AbeBooks Books, art & collectibles\n\n   ##### ACX Audiobook Publishing Made Easy\n\n   ##### Sell on Amazon Start a Selling Account\n\n   ##### Veeqo Shipping Software Inventory Manag"
+          },
+          {
+            "title": "Amazon Prime - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Amazon_Prime",
+            "snippet": "Tools\n\nActions\n\n Read\n Edit\n View history\n\nGeneral\n\n What links here\n Related changes\n Upload file\n Permanent link\n Page information\n Cite this page\n Get shortened URL\n Download QR code\n\nPrint/export\n\n Download as PDF\n Printable version\n\nIn other projects\n\n Wikimedia Commons\n Wikidata item\n\nAppearance\n\nFrom Wikipedia, the free encyclopedia\n\nPaid subscription service offered by Amazon\n\nAmazon Prime\n\n| Type of site | Subscription service |\n| Founded | February 2, 2005; 20 years ago (2005-02-02) |\n| Headquarters | Seattle, Washington, U.S. |\n| Area served | International |\n| Owner | Amazon \"Amazo"
+          },
+          {
+            "title": "Amazon .com: Amazon Prime",
+            "url": "https://www.amazon.com/amazonprime",
+            "snippet": "Create a List\n   Find a List or Registry\n\nYour Account\n\n   Account\n   Orders\n   Keep Shopping For\n   Recommendations\n   Browsing History\n   Your Shopping preferences\n   Amazon Credit Cards\n   Watchlist\n   Video Purchases & Rentals\n   Kindle Unlimited\n   Content & Devices\n   Subscribe & Save Items\n   Memberships & Subscriptions\n   Prime Membership\n   Music Library\n   Start a Selling Account\n   Create Your Free Business Account\n   Customer Service\n\nSign in\n\nNew customer? Start here.\n\nAll) [...] ##### ACX Audiobook Publishing Made Easy\n\n   ##### Sell on Amazon Start a Selling Account\n\n   ##### Ve"
+          },
+          {
+            "title": "Prime Video : Get the app",
+            "url": "https://app.primevideo.com/home",
+            "snippet": "Prime Video: Watch movies, TV shows, sports, and live TV\n\nImage 1\n\nImage 2\n\nMenu\n\nBrowse \n   Home\n   Movies\n   TV shows\n   Sports\n   Live TV\n\nSubscriptions \n   Browse all\n\n   Home\n   Movies\n   TV shows\n   Sports\n   Live TV\n\nSubscriptions\n\n   Clear     \n   \nEN\n\n       Bahasa Indonesia\n       Bahasa Melayu\n       Dansk\n       Deutsch\n       English\n       Español\n       Español Latinoamérica\n       Français\n       Italiano\n       Magyar\n       Nederlands\n       Norsk\n       Polski\n       Português (Brasil)\n       Português (Portugal)\n       Română\n       Suomi\n       Svenska\n       Türkçe\n      "
+          },
+          {
+            "title": "[PDF] ВОПРОСЫ ЯЗЫКОЗНАНИЯ",
+            "url": "https://vja.ruslang.ru/archive/2005-5.pdf",
+            "snippet": "реализуясь по диалектам, в ареале тех и других обнаруживают совпадения, коррели­ рующие с единой символикой образов животных и схожими чертами их биологичес­ кой жизни. Хищники: И.-е. киоп-, кип- \"волк\" — > собака\" (греч. KUCOV, авест. span-lsun- т., др.-инд. svdn- т . \"собака\"; др.-инд. svaka- \"волк\", др.-перс. saka- \"собака\" < индо-иран. та-ка-; др.-ирл. ей \"собака, волк\") [IEW 1959: 632-633; AiW 1961: 1584; 1610-12; Ива­ нов 1964: 458^60; 1975: 399]. Лексемы со значением \"волк\" реконструируются от и.-е. uel- \"раздирать, ранить, убивать\" и ueid- \"знать, ведать\" ( ^ ueid-n(o)- \"вещий волк\"). "
+          }
+        ],
+        "summary": "No relevant information was found regarding the Latin root of the word 'gimlie' or its connection to any Spanish word."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "извлечь испанское слово, связанное с латинским корнем 'gimlie'",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "No relevant information was found regarding the Latin root of the word 'gimlie' or its connection to any Spanish word."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What is the Latin root of the word 'gimlie' and its connection to Spanish?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "найти пример предложения 1994 года для слова из T2 в онлайн-словаре Collins Spanish-to-English",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти пример предложения 1994 года для слова из T2 в онлайн-словаре Collins Spanish-to-English",
+        "facts": [
+          {
+            "fact": "The Collins Spanish Dictionary was first published in 1971.",
+            "source_url": "https://www.collinsdictionary.com/dictionary/english-spanish"
+          },
+          {
+            "fact": "Collins Spanish Example Sentences provide authentic examples extracted from Collins resources.",
+            "source_url": "https://www.collinsdictionary.com/us/sentences/spanish"
+          },
+          {
+            "fact": "The Collins Spanish Dictionary includes a wealth of examples and idioms.",
+            "source_url": "https://www.collinsdictionary.com/dictionary/english-spanish"
+          },
+          {
+            "fact": "The digital version of the Collins English to Spanish Dictionary is available for online access.",
+            "source_url": "https://ww2.jacksonms.gov/fulldisplay/k3B2iD/1OK025/CollinsEnglishToSpanishDictionary.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "[PDF] Collins Spanish - 3000 words and phrases",
+            "url": "https://resources.collins.co.uk/Dictionary/CD%20Resources/Collins_Spanish_3000_words_and_phrases.pdf",
+            "snippet": "## work | el trabajo \n\n> 9\n\nI’m unemployed. \n\nEstoy en paro. \n\nI’m at university. \n\nEstoy en la universidad. \n\nI’m retired. \n\nEstoy jubilado. \n\nI’m travelling. \n\nMe dedico a viajar. \n\nI work from home. \n\nTrabajo desde casa. \n\nI work part-/full-time. \n\nTrabajo a tiempo parcial / completo. \n\nI work as a/an... \n\nTrabajo de… \n\nI’m a/an... \n\nSoy… \n\nI’m a shop assistant. \n\nSoy dependiente. \n\nMy sister is an engineer. \n\nMi hermana es ingeniera. \n\nbuilder \n\nel albañil / la albañil \n\nchef \n\nel chef / la chef \n\ncivil servant \n\nel funcionario / la funcionaria \n\ncleaner \n\nel limpiador / la limpiadora \n\nco"
+          },
+          {
+            "title": "Collins English-Spanish Dictionary | Translations, Examples ...",
+            "url": "https://www.collinsdictionary.com/dictionary/english-spanish",
+            "snippet": "Chinese\n\nKorean\n\nJapanese\n\n# Collins Spanish Dictionary\n\nThe world’s most trusted Unabridged Spanish to English and English to Spanish dictionary has been written and updated by experienced lexicographers. With wide-ranging coverage of contemporary Spanish and English, and a wealth of examples and idioms, this authoritative dictionary is ideal for everyone using Spanish and English today. First published in 1971, the Collins Unabridged Spanish Dictionary pioneered a new approach to bilingual dictionary publishing which continues to inspire millions of language users today.\n\nThe Collins Spanish"
+          },
+          {
+            "title": "Collins Spanish Sentences | Definitions, Examples, Pronunciations ...",
+            "url": "https://www.collinsdictionary.com/us/sentences/spanish",
+            "snippet": "Korean\n\nJapanese\n\n# Collins Spanish Example Sentences\n\nCollins Spanish Example Sentences is a database of authentic Spanish examples extracted from Collins resources. Whilst a definition can help you understand the meaning of a word, example sentences show you how to use the word in a sentence. They can also help you check that you’ve understood the meaning correctly, as well as enabling you to see and learn the linguistic features of the word. If youre looking to improve your writing, example sentences can also give you ideas for other words that naturally occur in similar contexts.  \n  \nTo u"
+          },
+          {
+            "title": "[PDF] Collins English To Spanish Dictionary",
+            "url": "https://ww2.jacksonms.gov/fulldisplay/k3B2iD/1OK025/CollinsEnglishToSpanishDictionary.pdf",
+            "snippet": "Finding Collins English To Spanish Dictionary through our platform is effortless. We understand that readers often spend a great deal of time searching through countless sources online. That is why we have built an intuitive system that allows you to locate what you need in seconds. Whether you wish to read online or download for offline access, our service ensures that the process remains simple, secure, and efficient. [...] Our mission is to provide knowledge without barriers. The digital version of Collins English To Spanish Dictionary is available to anyone seeking reliable information, re"
+          },
+          {
+            "title": "Spanish ↔ English Translator - Collins Dictionary",
+            "url": "https://www.collinsdictionary.com/us/translator",
+            "snippet": "GAMES\n\nQuiz\n\nEnglish grammar\n\nEnglish collocations\n\nEnglish confusables\n\nEnglish idioms\n\nEnglish images\n\nEnglish usage\n\nEnglish synonyms\n\nThematic word lists\n\nFrench images\n\nGerman grammar\n\nGerman images\n\nItalian images\n\nMandarin Chinese\n\nTraditional Chinese\n\nWordle Helper\n\nCollins Conundrum\n\nSCHOOLS\n\nSchool Home\n\nPrimary School\n\nSecondary School\n\nBLOG\n\nRESOURCES\n\nCollins Word of the Day\n\nPaul Noble Method\n\nWord of the Year\n\nCollins API [...] Access the entire site, including our language quizzes.\n Customize your language settings. (Unregistered users can only access the International English "
+          }
+        ],
+        "summary": "The Collins Spanish Dictionary is a comprehensive resource first published in 1971, featuring authentic example sentences and a digital version available online."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "извлечь заголовок источника для примера предложения из T3",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [\n    \"The Collins Spanish Dictionary is a comprehensive resource first published in 1971, featuring authentic example sentences and a digital version available online.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": [\n    \"What is the Latin root of the word 'gimlie' and its connection to Spanish?\"\n  ],\n  \"sources\": [\n    {\n      \"title\": \"[PDF] Collins Spanish - 3000 words and phrases\",\n      \"url\": \"https://resources.collins.co.uk/Dictionary/CD%20Resources/Collins_Spanish_3000_words_and_phrases.pdf\"\n    },\n    {\n      \"title\": \"Collins English-Spanish Dictionary | Translations, Examples ...\",\n      \"url\": \"https://www.collinsdictionary.com/dictionary/english-spanish\"\n    },\n    {\n      \"title\": \"Collins Spanish Sentences | Definitions, Examples, Pronunciations ...\",\n      \"url\": \"https://www.collinsdictionary.com/us/sentences/spanish\"\n    },\n    {\n      \"title\": \"[PDF] Collins English To Spanish Dictionary\",\n      \"url\": \"https://ww2.jacksonms.gov/fulldisplay/k3B2iD/1OK025/CollinsEnglishToSpanishDictionary.pdf\"\n    },\n    {\n      \"title\": \"Spanish ↔ English Translator - Collins Dictionary\",\n      \"url\": \"https://www.collinsdictionary.com/us/translator\"\n    }\n  ]\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "search",
+      "description": "найти перевод заголовка источника из T4 на английский с помощью Google Translate",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти перевод заголовка источника из T4 на английский с помощью Google Translate",
+        "facts": [
+          {
+            "fact": "The title 'Life unworthy of life' refers to a Nazi ideology that justified the euthanasia of individuals deemed unfit.",
+            "source_url": "https://en.wikipedia.org/wiki/Life_unworthy_of_life"
+          },
+          {
+            "fact": "Aktion T-4 was a Nazi program that resulted in the deaths of up to 100,000 people.",
+            "source_url": "https://en.wikipedia.org/wiki/Life_unworthy_of_life"
+          },
+          {
+            "fact": "Historians estimate the total number of victims of the T-4 program and related actions to be around 300,000.",
+            "source_url": "https://en.wikipedia.org/wiki/Life_unworthy_of_life"
+          },
+          {
+            "fact": "Google Translate supports translation between numerous languages, including English, Spanish, and Arabic.",
+            "source_url": "https://translate.google.com/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Life unworthy of life - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Life_unworthy_of_life",
+            "snippet": "## Notes\n\n[edit]\n\n1. ^ As many as 100,000 people may have been killed directly as part of Aktion T-4. Mass euthanasia killings were also carried out in the Eastern European countries and territories Nazi Germany conquered during the war. Categories are fluid and no definitive figure can be assigned but historians put the total number of victims at around 300,000.\n\n## External links\n\n[edit]\n\n \"Life Unworthy of Life\" and other Medical Killing Programmes by Dr. Stuart D. Stein, University of the West of England\n Contemporary English translation of \"Allowing the Destruction of Life Unworthy of lif"
+          },
+          {
+            "title": "Google Translate – Apps on Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en_GB",
+            "snippet": "Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Aymara, Azerbaijani, Bambara, Basque, Belarusian, Bengali, Bhojpuri, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Chinese (Simplified), Chinese (Traditional), Corsican, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, English, Esperanto, Estonian, Ewe, Filipino, Finnish, French, Frisian, Galician, Georgian, German, Greek, Guarani, Gujarati, Haitian Creole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Ilocano, Indonesian, Irish Gaelic, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Konk"
+          },
+          {
+            "title": "Translator - Google Translate",
+            "url": "https://translate.google.com/translate_t",
+            "snippet": "Translate\n\nGoogle Translate\n\n## Settings\n\n### Voice speed\n\nSign in\n\nTranslate\n\nGoogle Translate\n\nAbout Google Translate\n\nPrivacy & TermsHelpSend feedbackAbout Google\n\n# Text translation\n\nDetect language\n\nSwap languages (Ctrl+Shift+S)\n\nClose picker\n\nTranslate from\n\nSearch languages\n\nClose picker\n\nClose search\n\nClear search text\n\ncheckhistory\n\nDetect language\n\nauto\\_awesome\n\nDetect language\n\nRecent languages\n\nAll languages\n\ncheckhistory\n\nAbkhaz\n\ncheckhistory\n\nAcehnese\n\ncheckhistory\n\nAcholi\n\ncheckhistory\n\nAfar\n\ncheckhistory\n\nAfrikaans\n\ncheckhistory\n\nAlbanian\n\ncheckhistory\n\nAlur\n\ncheckhistory\n\nAmh"
+          },
+          {
+            "title": "[PDF] Система интеллектуального анализа документов",
+            "url": "https://t1-ai.ru/media-files/t1ai/sitepages/SIAD_Instruktsiya-po-razvertyvaniyu-i-ustanovke.pdf",
+            "snippet": "--gpus all ubuntu nvidia-smi Ожидаемый результат: +-------------------------------------------------------------+ | NVIDIA-SMI 535.86.10 Driver Version: 535.86.10 CUDA Version: 12.2 | |-------------------+-----------+-----------+ | GPU Name Persistence-M| Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap| Memory-Usage | GPU-Util Compute M. | | | | MIG M. | |=====================+======================+================ | | 0 Tesla T4 On | 00000000:00:1E.0 Off | 0 | | N/A 34C P8 9W / 70W | 0MiB / 15109MiB | 0% Default | | | | N/A | +------------------+-----------+-------------"
+          },
+          {
+            "title": "Google Translate",
+            "url": "https://translate.google.com/",
+            "snippet": "Google Translate\n\nTranslate\n\nGoogle Translate\n\nSettings\n\nSettings\n\n### Voice speed\n\nNormal \n\nTest\n\nSlow \n\nTest\n\nSlower \n\nTest\n\n\n\nEnglish\n\nEnglish Spanish Arabic\n\nClose picker\n\nTranslate from\n\n_search_\n\nSearch languages\n\n_close_\n\nClose picker\n\nClose search\n\n_clear_\n\nClear search text\n\n_check_ _history_\n\nDetect language\n\n_auto\\_awesome_\n\nDetect language\n\nRecent languages\n\nAll languages\n\n_check_ _history_\n\nAbkhaz\n\nAbkhaz\n\n_check_ _history_\n\nAcehnese\n\nAcehnese\n\n_check_ _history_\n\nAcholi\n\nAcholi\n\n_check_ _history_\n\nAfar\n\nAfar\n\n_check_ _history_\n\nAfrikaans\n\nAfrikaans\n\n_check_ _history_\n\nAlbanian\n\nAl"
+          }
+        ],
+        "summary": "The term 'Life unworthy of life' is linked to Nazi euthanasia policies, with significant historical implications regarding the number of victims. Google Translate is a widely used tool for language translation."
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю с переводом заголовка",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "life unworthy of life",
+        "final_answer_strict": "life unworthy of life",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1000,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "3",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "life unworthy of life",
+    "gt_norm": "the world of the twenty first century"
+  }
+}

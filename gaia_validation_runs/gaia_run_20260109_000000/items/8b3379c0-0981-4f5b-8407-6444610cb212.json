@@ -1,0 +1,256 @@
+{
+  "id": "8b3379c0-0981-4f5b-8407-6444610cb212",
+  "query": "What is the maximum length in meters of #9 in the first National Geographic short on YouTube that was ever released according to the Monterey Bay Aquarium website? Just give the number.",
+  "ground_truth": "1.8",
+  "answer_raw": {
+    "final_answer": "27",
+    "final_answer_strict": "27",
+    "used_evidence": [
+      "The Monterey Bay Habitats tank is 90 feet (27 m) long."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "27",
+  "error": null,
+  "duration_sec": 41.12340712547302,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the first National Geographic short on YouTube.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the first National Geographic short on YouTube.",
+        "facts": [
+          {
+            "fact": "The first National Geographic short film on YouTube is titled 'See a Salamander Grow From a Single Cell in this Incredible Time-lapse'.",
+            "source_url": "https://www.youtube.com/watch?v=SEejivHRIbE"
+          },
+          {
+            "fact": "The salamander time-lapse short was posted on YouTube on February 25, 2019.",
+            "source_url": "https://www.youtube.com/watch?v=SEejivHRIbE"
+          },
+          {
+            "fact": "The video has garnered over 13 million views.",
+            "source_url": "https://www.youtube.com/watch?v=SEejivHRIbE"
+          },
+          {
+            "fact": "The National Geographic YouTube channel has 25.6 million subscribers.",
+            "source_url": "https://www.youtube.com/watch?v=SEejivHRIbE"
+          }
+        ],
+        "sources": [
+          {
+            "title": "See a Salamander Grow From a Single Cell in this Incredible ...",
+            "url": "https://www.youtube.com/watch?v=SEejivHRIbE",
+            "snippet": "# See a Salamander Grow From a Single Cell in this Incredible Time-lapse | Short Film Showcase\n## National Geographic\n25600000 subscribers\n392787 likes\n\n### Description\n13518117 views\nPosted: 25 Feb 2019\nWitness the ‘making of’ a salamander from fertilization to hatching in this six minute time-lapse.\n➡ Subscribe: \n➡ Get More Short Film Showcase: \n\n#NationalGeographic #Salamanders #ShortFilmShowcase [...] #NationalGeographic #Salamanders #ShortFilmShowcase\n\nAbout Short Film Showcase:\nThe Short Film Showcase spotlights exceptional short videos created by filmmakers from around the web and selec"
+          },
+          {
+            "title": "Short Film Showcase | National Geographic",
+            "url": "https://www.youtube.com/playlist?list=PLivjPDlt6ApTDlm7OufY6HAzNmFAqxWSo",
+            "snippet": "Back\n\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\n\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new featuresNFL Sunday Ticket\n\n© 2026 Google LLC\n\n16:29\n\nNow playing\n\n19:27\n\nNow playing\n\n9:48\n\nNow playing\n\n21:14\n\nNow playing\n\n22:40\n\nNow playing\n\n12:42\n\nNow playing\n\n17:10\n\nNow playing\n\n6:37\n\nNow playing\n\n### Lahooti | Short Film Showcase | National Geographic\n\nNational Geographic\n\nNational Geographic\n\n•\n\n45K views • 2 years ago\n\n•\n\n9\n\n2:44\n\n2:44\n\nNow playing\n\n### Watch UK's Natural Land Diminish in 100 Seconds | Short Film Showcase\n\nNational Geographic\n\nNational Geographic\n\n•\n\n1"
+          },
+          {
+            "title": "Time-Lapses | National Geographic",
+            "url": "https://www.youtube.com/playlist?list=PLivjPDlt6ApRnUDGUDM7NH28qDz_gb6VD",
+            "snippet": "•\n\n96K views • 12 years ago\n\n•\n\n7\n\n5:15\n\n5:15\n\nNow playing\n\n### Time-Lapse: Spectacular Landscapes of the Southwest U.S. | National Geographic\n\nNational Geographic\n\nNational Geographic\n\n•\n\n184K views • 11 years ago\n\n•\n\n8\n\n3:00\n\n3:00\n\nNow playing\n\n### Time-Lapse: Mesmerizing \"Stormscapes\" Dominate Skies | National Geographic\n\nNational Geographic\n\nNational Geographic\n\n•\n\n1.3M views • 11 years ago\n\n•\n\n9\n\n3:06\n\n3:06\n\nNow playing\n\n### Spellbinding Time-Lapses of an African Desert | Short Film Showcase\n\nNational Geographic\n\nNational Geographic\n\n•\n\n83K views • 10 years ago\n\n•\n\n10\n\n2:56\n\n2:56\n\nNow pla"
+          },
+          {
+            "title": "First edition of National Geographic Magazine published - YouTube",
+            "url": "https://www.youtube.com/watch?v=ozv_c6u9aTc",
+            "snippet": "19 comments\n### Transcript: [...] Nine months after the Society’s foundation, the first edition of its journal was sent to its 165 charter members. Consisting mostly of short technical articles, the magazine struggled to increase its readership for the first few years of its existence. Following the election of Alexander Graham Bell as President and the appointment of the new editor Gilbert H. Grosvenor, the early 1900s saw the magazine begin to focus more on pictorial content. Although criticised by some members of the Board of Managers for being ‘unscientific’, the increasing use of often pi"
+          },
+          {
+            "title": "National Geographic",
+            "url": "https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A",
+            "snippet": "Back\n\nSign in\n\n### \n\nHome\n\nShorts\n\nSubscriptions\n\nYou\n\nHistory\n\nSign in to like videos, comment, and subscribe.\nSign in\n\n### Explore\n\nShopping\n\nMusic\n\nMovies & TV\n\nShow more\n\nShow less\n\n### More from YouTube\n\nYouTube Premium\n\nYouTube TV\n\nYouTube Music\n\nYouTube Kids\n\n### \n\nSettings\n\nReport history\n\nHelp\n\nSend feedback\n\nThey Climb in Skirts… I Tried to Keep Up | Superskilled with Eva zu Beck | National Geographic\n\nIf playback doesn't begin shortly, try restarting your device.\n\na group of women arebreaking barriers,\n\nNational Geographic\n\nNational Geographic\n\nWatch later\n\nShare\n\nCopy link\n\n0:00\n\n0"
+          }
+        ],
+        "summary": "The first National Geographic short film on YouTube is a time-lapse of a salamander's growth, posted in 2019, with over 13 million views."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find information on the Monterey Bay Aquarium website about #9.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information on the Monterey Bay Aquarium website about #9.",
+        "facts": [
+          {
+            "fact": "Monterey Bay Aquarium opened in 1984 with 83 tanks in 12 galleries.",
+            "source_url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium"
+          },
+          {
+            "fact": "The aquarium features over 200 live animal exhibits as of 2014.",
+            "source_url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium"
+          },
+          {
+            "fact": "The Kelp Forest exhibit is one of the prominent displays at the aquarium.",
+            "source_url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium"
+          },
+          {
+            "fact": "The mission of the Monterey Bay Aquarium is to inspire ocean conservation.",
+            "source_url": "https://www.montereybayaquarium.org/about-us"
+          },
+          {
+            "fact": "The aquarium is committed to achieving net-zero emissions and net-zero waste.",
+            "source_url": "https://www.montereybayaquarium.org/visit"
+          },
+          {
+            "fact": "The aquarium has over 80,000 visitors annually.",
+            "source_url": "https://www.montereybayaquarium.org/about-us"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Monterey Bay Aquarium - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium",
+            "snippet": "Monterey Bay Aquarium opened in 1984 with 83 tanks in 12 galleries, which more than doubled by 2014 into 200 live animal exhibits. In addition to the large Kelp Forest and Open Sea exhibits, the Monterey Bay Habitats tank is 90 feet (27 m) long, the shape of a figure eight, and holds over 300,000 US gallons (1,100,000 L), a similar volume of seawater to the Kelp Forest. As its name suggests, it represents various habitats in Monterey Bay, from wharfs to the sandy seafloor to deep rocky reefs. Many aquariums in this exhibit contain man-made structures that were left in the bay to accumulate liv"
+          },
+          {
+            "title": "Visit | Monterey Bay Aquarium",
+            "url": "https://www.montereybayaquarium.org/visit",
+            "snippet": "Conservation stories \n\n       Image 8: A guest at the Monterey Bay Aquarium refills a reusable water bottle, and another guest holding a Monterey Bay Aquarium tote bag watches nearby  Sustainability ### Our sustainability commitments Learn about how the Aquarium is committed to achieving net-zero emissions and net-zero waste. Read about our commitments\n       Image 9: A wild sea otter floating in kelp beds  Timeline ### Sea Otter Program timeline The Monterey Bay Aquarium Sea Otter Program has played an important role in the continued recovery of the southern sea otter population with our rese"
+          },
+          {
+            "title": "About us | Monterey Bay Aquarium",
+            "url": "https://www.montereybayaquarium.org/about-us",
+            "snippet": "Skip to Main Content\n\n# About us\n\n## An aquarium unlike any other\n\nFrom sea otters to seaweeds, our unique oceanfront location and timeless galleries bring the wonders of the ocean to life for our visitors. But beyond our exhibits, we are transforming what it means to be an aquarium.\n\nThe mission of the Monterey Bay Aquarium is to inspire conservation of the ocean\n\n## We inspire\n\nFrolicking sea otters, fast-swimming sharks, pulsating jellies and waddling penguins — our world-class exhibits and breathtaking scenery instill a love of the ocean in our visitors. With over 200 exhibits and 80,000 p"
+          },
+          {
+            "title": "Monterey Bay Aquarium - YouTube",
+            "url": "https://www.youtube.com/MontereyBayAquarium",
+            "snippet": "9.3K views\n\nImage 143\n\n### Wait for it… Boo! 👻 I #shorts\n\n10K views\n\nImage 144\n\nPosts\n\nImage 145\n\nMonterey Bay Aquarium\n\n•12 days ago\n\nAs the year comes to an end, remember to take a moment to pause. Be like this great egret, choosing a steady perch to rest, away from the constant motion of the kelp forest canopy. Nature has a way of reminding us when it’s time to slow down, reflect, and find balance. Here’s to calm moments, the quiet between chapters, and new beginnings.💙🌊 [...] Monterey Bay Aquarium\n\n Monterey Bay Aquarium \n\n4.6K views 4 months ago\n\nImage 125 2:29 2:29 Now playing\n\nImage 126"
+          },
+          {
+            "title": "Hours & schedule | Monterey Bay Aquarium",
+            "url": "https://www.montereybayaquarium.org/visit/hours-schedule",
+            "snippet": "Skip to Main Content\n\nThe Aquarium is open. Be aware of road closures and safety alerts affecting Monterey County.\n\n# Hours & schedule\n\nCalendar has loaded\n\n## Calendar list\n\n #### Thursday, January 1\n\n  ##### Hours: for Thursday, January 1\n\n  ###### 10 a.m.–6 p.m.\n\n  ###### Members: 9:30 a.m.–6 p.m.\n\n  ##### Events for Thursday, January 1\n\n  + Feedings\n\n    ###### Sea Otter Feeding\n\n    10:30 a.m.-10:45 a.m.\n\n    Daily\n\n    This event has passed.\n\n    Watch the action unfold in this combination meal time and training session for our sea otters.\n\n    Free with admission\n  + Tours\n\n    ###### F"
+          }
+        ],
+        "summary": "Monterey Bay Aquarium, opened in 1984, features over 200 exhibits and is dedicated to ocean conservation and sustainability."
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the maximum length in meters of #9 from the information found.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "The Monterey Bay Aquarium features the Kelp Forest exhibit."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "27",
+            "unit": "m",
+            "context": "The Monterey Bay Habitats tank is 90 feet (27 m) long."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the maximum length in meters of #9.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "27",
+        "final_answer_strict": "27",
+        "used_evidence": [
+          "The Monterey Bay Habitats tank is 90 feet (27 m) long."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "27",
+    "gt_norm": "1.8"
+  }
+}

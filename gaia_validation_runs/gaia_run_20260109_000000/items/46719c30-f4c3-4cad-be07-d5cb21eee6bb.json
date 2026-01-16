@@ -1,0 +1,324 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Previous publications not found.",
+    "final_answer_strict": "No previous publications found.",
+    "used_evidence": [
+      "The authors of the article are Pietro Murano and Iram N. Khan.",
+      "The article discusses the usability of pie menus versus linear menus."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What are the previous publications of Pietro Murano?",
+      "What are the previous publications of Iram N. Khan?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "No previous publications found.",
+  "error": null,
+  "duration_sec": 65.82922887802124,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о статье 'Pie Menus or Linear Menus, Which Is Better?' 2015 года, включая авторов.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о статье 'Pie Menus or Linear Menus, Which Is Better?' 2015 года, включая авторов.",
+        "facts": [
+          {
+            "fact": "The article 'Pie Menus or Linear Menus, Which Is Better?' was published on September 9, 2015.",
+            "source_url": "https://oda.oslomet.no/oda-xmlui/handle/10642/3162?show=full&locale-attribute=no"
+          },
+          {
+            "fact": "The authors of the article are Pietro Murano and Iram N. Khan.",
+            "source_url": "https://oda.oslomet.no/oda-xmlui/handle/10642/3162?show=full&locale-attribute=no"
+          },
+          {
+            "fact": "The article was published in the Journal of Emerging Trends in Computing and Information Sciences.",
+            "source_url": "https://oda.oslomet.no/oda-xmlui/handle/10642/3162?show=full&locale-attribute=no"
+          },
+          {
+            "fact": "The ISSN for the journal is 2079-8407.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "ODA Open Digital Archive: Pie Menus or Linear Menus, Which Is ...",
+            "url": "https://oda.oslomet.no/oda-xmlui/handle/10642/3162?show=full&locale-attribute=no",
+            "snippet": "dc.contributor.author Murano, Pietro en_US\ndc.contributor.author Khan, Iram N.en_US\ndc.date.accessioned 2016-03-21T13:15:08Z\ndc.date.available 2016-03-21T13:15:08Z\ndc.date.issued 2015-09-09 en_US\ndc.identifier.citation Murano, P., & Khan, I. N. (2015). Pie Menus or Linear Menus, Which Is Better?. Journal of Emerging Trends in Computing and Information Sciences, 6(9).en_US\ndc.identifier.issn 2079-8407 en_US\ndc.identifier.other FRIDAID 1294932 en_US\ndc.identifier.uri [...] dc.description.abstract This paper is about a continuing investigation aiming to find o ut which menu type is more useable o"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or "
+          },
+          {
+            "title": "An Empirical Comparison of Pie vs. Linear Menus | by Don Hopkins",
+            "url": "https://donhopkins.medium.com/an-empirical-comparison-of-pie-vs-linear-menus-466c6fdbba4b",
+            "snippet": "Subjective results obtained in the pilot study repeated themselves in the experiment. Subjects were split on preferring one menu type over another but those who preferred linear menus had no strong conviction in this direction and most agreed that with further practice they might prefer the pie menu structure. Those who preferred pie menus generally felt fairly confident in their assessment and this is reflected in the questionnaires. [...] finding linear menus easier, tended to be better at pie menus and commented that with practice, they would probably be superior and in fact prefer the pie "
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "helped them to better understand the experimental design process, making it a useful tool for both productivity and education. [...] compared to two baselines: a non-adaptive static menu and an adaptive linear menu. From this study, design guidelines for cloud menus are elaborated. [...] Marking menus have many benefits, including fast selection time, low error rate and fast transition to expert mode, but these are mitigated by a practical limit of 8 items per menu. Adding hierarchical levels increases capacity, but at the expense of longer selection times and higher error rates. In this paper"
+          },
+          {
+            "title": "THE EVALUATION OF CASCADING AND RADIAL MENUS FOR ...",
+            "url": "https://jsju.org/index.php/journal/article/view/969",
+            "snippet": "APPLE. (2020) Apple unveils new iPad Pro with breakthrough LiDAR Scanner and brings trackpad support to iPadOS. [Online] Apple Newsroom. Available from:  [Accessed 20/06/20]\n\nISCAPE HOLDINGS INC. (2019). ‎iScape. [Online] App Store. Available from:  [Accessed 20/06/20]\n\nIKEA. (n.d.). Say hej to IKEA Place. [Online] Available from:  [Accessed 19/06/20]\n\nSAMP, K., & DECKER, S. (2010) Supporting menu design with radial layouts. Proceedings of the International Conference on Advanced Visual Interfaces - AVI '10, pp. 155–162.\n\nMURANO, P., & KHAN, I. N. (2015) Pie Menus or Linear Menus, Which Is Bet"
+          }
+        ],
+        "summary": "The article discusses the usability of pie menus versus linear menus and was authored by Pietro Murano and Iram N. Khan, published in 2015."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имена авторов статьи из найденной информации.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Pietro Murano",
+            "type": "author",
+            "evidence": "The authors of the article are Pietro Murano and Iram N. Khan."
+          },
+          {
+            "name": "Iram N. Khan",
+            "type": "author",
+            "evidence": "The authors of the article are Pietro Murano and Iram N. Khan."
+          }
+        ],
+        "key_points": [
+          "The article discusses the usability of pie menus versus linear menus."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2015",
+            "unit": "year",
+            "context": "The article was published in 2015."
+          },
+          {
+            "value": "2079-8407",
+            "unit": "ISSN",
+            "context": "The ISSN for the journal is 2079-8407."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти список публикаций авторов, извлеченных на предыдущем шаге.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти список публикаций авторов, извлеченных на предыдущем шаге.",
+        "facts": [
+          {
+            "fact": "В профиле автора в Web of Science отображается список его публикаций.",
+            "source_url": "https://russian-science.info/poisk-avtorov-i-statej-v-web-of-science"
+          },
+          {
+            "fact": "Список публикаций может содержать дублирующиеся записи из-за ошибок в ссылках.",
+            "source_url": "https://www.almazovcentre.ru/wp-content/uploads/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81%D0%BE-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%BC-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B9-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B0.pdf"
+          },
+          {
+            "fact": "Google Scholar является сервисом для поиска научных публикаций и книг.",
+            "source_url": "https://a-articles.kz/gde-iskat-sovremennuyu-literaturu-dlya-nauchnyh-statej/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "[PDF] Извлечение метаинформации и библиографических ссылок из ...",
+            "url": "https://asvk.cs.msu.ru/~ddk/pubs/info_extraction_rcdl2007.pdf",
+            "snippet": "б) Список авторов найден не был. Тогда в первых пяти строках извлеченного на первом шаге текста ищется строка, которой соответствует максимальный размер шрифта. Выбранная строка рассматривается в качестве возможного заголовка на шаге 4.\n4) В том случае, если выполнено одно из следующих условий: а) Выбранная строка определена как название журнала, конференции, института, издательства и т.д. Для этого используется составленный вручную список ключевых слов: «материалы конференции», «труды конференции», «научный журнал», «издательство», «сборник трудов» и т.д.\nб) Длина выбранной строки превышает у"
+          },
+          {
+            "title": "[PDF] Работа со списком публикаций автора",
+            "url": "https://www.almazovcentre.ru/wp-content/uploads/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81%D0%BE-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%BC-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B9-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B0.pdf",
+            "snippet": "текущих выпусках обрабатываемых журналов на эти публикации ссылаются, и эту информацию можно использовать, группируя ссылки и идентифицируя авторов цитируемых публикаций. Конечно, в описаниях таких публикаций больше неточностей, чем в статьях из обрабатываемых журналов, поскольку в списках литературы довольно много ошибок, да и сами ссылки часто содержат минимум информации, не позволяющий однозначно идентифицировать цитируемую публикацию. Поэтому иногда одна и та же публикация может быть показана в списке публикаций автора дважды (например, если в разных ссылках на эту публикацию указаны разны"
+          },
+          {
+            "title": "Поиск авторов и статей в Web of Science.",
+            "url": "https://russian-science.info/poisk-avtorov-i-statej-v-web-of-science",
+            "snippet": "В профиле автора вы можете видеть не только его имя и фамилию, но и следующие элементы: варианты написания имени, аффилиации автора, предметные категории, другие идентификаторы. Снизу находится список публикаций авторов. Слева отображены показатели и дана сводка по количеству публикаций, препринтов, диссертаций, экспертиз и так далее. Можно увидеть индекс Хирша, количество цитирований, а также открыть информационную панель, и ознакомиться с графиком публикаций и цитирований.\n\nВнизу расположены публикации автора, а также, если есть, то и рецензии. [...] Чтобы найти авторов или статьи в Web of S"
+          },
+          {
+            "title": "Синтез научно обоснованных знаний и проверка гипотез - JoVE",
+            "url": "https://www.jove.com/ru/t/67525/evidence-based-knowledge-synthesis-hypothesis-validation-navigating",
+            "snippet": "43. Herath, J. D., Wakodikar, P., Yang, P., Yan, G. CFGExplainer: Explaining graph neural network-based malware classification from control flow graphs. , 172-184 (2022).\n44. Ying, R., Bourgeois, D., You, J., Zitnik, M., Leskovec, J. GNNExplainer: Generating explanations for graph neural networks. Adv Neural Inf Process Syst. 32, 9240-9251 (2019).\n45. Bastian, F. B., et al. The Bgee suite: Integrated curated expression atlas and comparative transcriptomics in animals. Nucleic Acids Res. 49 (D1), D831-D847 (2021).\n46. Davis, A. P., et al. Comparative Toxicogenomics Database (CTD): Update 2023.:"
+          },
+          {
+            "title": "Где искать современную литературу для научных статей?",
+            "url": "https://a-articles.kz/gde-iskat-sovremennuyu-literaturu-dlya-nauchnyh-statej/",
+            "snippet": "Google Scholar — Это специализированный сервис для поиска текстов научных публикаций и книг со всего мира. В Google Scholar можно найти литературу на любом языке, который вам нужен. Найденные статьи делятся на два типа: одни находятся в открытом доступе, другие — платные. База данных содержит различные публикации, размещенные с помощью технологии оцифровки ранее опубликованных научных работ. Следует отметить, что поисковые роботы системы регулярно сканируют сеть, и поэтому база данных постоянно обновляется. При этом они «интересуются» только теми публикациями, которые имеют формат научной стат"
+          }
+        ],
+        "summary": "Существуют различные платформы и сервисы для поиска и отображения публикаций авторов, включая Web of Science и Google Scholar, которые могут содержать дублирующиеся записи из-за ошибок в ссылках."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь названия первых статей авторов, которые имели публикации до 2015 года.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"The authors of the article are Pietro Murano and Iram N. Khan.\"\n    },\n    {\n      \"name\": \"Iram N. Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"The authors of the article are Pietro Murano and Iram N. Khan.\"\n    }\n  ],\n  \"key_points\": [\n    \"The article discusses the usability of pie menus versus linear menus.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"2015\",\n      \"unit\": \"year\",\n      \"context\": \"The article was published in 2015.\"\n    },\n    {\n      \"value\": \"2079-8407\",\n      \"unit\": \"ISSN\",\n      \"context\": \"The ISSN for the journal is 2079-8407.\"\n    }\n  ],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Определить, какая из первых статей принадлежит автору, который имел предыдущие публикации.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "assumptions": "It is assumed that the authors Pietro Murano and Iram N. Khan have previous publications that can be found in databases such as Web of Science or Google Scholar.",
+        "reasoning_steps": "1. The article 'Pie Menus or Linear Menus, Which Is Better?' was published in 2015 by authors Pietro Murano and Iram N. Khan. 2. To determine if either author has previous publications, a search in publication databases is necessary. 3. The presence of previous publications would indicate that the author has a history of research work.",
+        "conclusions": "If either Pietro Murano or Iram N. Khan has previous publications listed in databases, it can be concluded that they are experienced authors with a history of research contributions.",
+        "proposed_answer_outline": "1. Identify the authors of the article. 2. Search for their publication history in Web of Science or Google Scholar. 3. Confirm if any previous publications exist for either author.",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the previous publications of Pietro Murano?",
+          "What are the previous publications of Iram N. Khan?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Сформулировать финальный ответ о названии первой статьи автора.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "Previous publications not found.",
+        "final_answer_strict": "No previous publications found.",
+        "used_evidence": [
+          "The authors of the article are Pietro Murano and Iram N. Khan.",
+          "The article discusses the usability of pie menus versus linear menus."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the previous publications of Pietro Murano?",
+          "What are the previous publications of Iram N. Khan?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no previous publications found",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

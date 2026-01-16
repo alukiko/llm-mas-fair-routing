@@ -1,0 +1,116 @@
+{
+  "id": "9e1fc53b-46ff-49a1-9d05-9e6faac34cc5",
+  "query": "A 5-man group made up of one tank, one healer, and three DPS is doing a dungeon that was just released in World of Warcraft. Two are plate wearers and two are cloth wearers. At the final boss, both the tank and the healer are casting holy spells. Ice and fire are being used, each one by a different DPS. A bear from the group is attacking the boss. Metamorphosis is cast. The Kilt of the Forgotten One drops as loot, but no one can use it. If all classes were using their class abilities and all classes are unique, what are the five classes in the group in alphabetical order separated by commas?",
+  "ground_truth": "Death Knight, Hunter, Paladin, Priest, Warlock",
+  "answer_raw": {
+    "final_answer": "Druid, Mage, Paladin, Priest, Warlock",
+    "final_answer_strict": "Druid,Mage,Paladin,Priest,Warlock",
+    "used_evidence": [
+      "Upstream reasoning about class roles and abilities."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Druid,Mage,Paladin,Priest,Warlock",
+  "error": null,
+  "duration_sec": 17.051979064941406,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Определить классы группы на основе предоставленной информации о ролях и способностях.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The provided information includes roles and abilities of individuals in the group.",
+          "Roles may correspond to specific classes or archetypes commonly found in group dynamics or gaming contexts."
+        ],
+        "reasoning_steps": [
+          "Identify the roles and abilities mentioned in the provided information.",
+          "Categorize these roles and abilities into common class types such as Warrior, Mage, Healer, etc.",
+          "Determine how each role aligns with the characteristics of the identified classes."
+        ],
+        "conclusions": [
+          "Each individual in the group can be classified into a specific class based on their role and abilities.",
+          "The classification will help in understanding the strengths and weaknesses of the group as a whole."
+        ],
+        "proposed_answer_outline": [
+          "List the roles and abilities provided.",
+          "Map these roles to specific classes.",
+          "Summarize the overall class distribution within the group."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the specific roles and abilities of each individual in the group?",
+          "Are there any predefined classes or archetypes that should be considered for classification?"
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с перечислением классов в алфавитном порядке.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "Druid, Mage, Paladin, Priest, Warlock",
+        "final_answer_strict": "Druid,Mage,Paladin,Priest,Warlock",
+        "used_evidence": [
+          "Upstream reasoning about class roles and abilities."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "3",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "druid,mage,paladin,priest,warlock",
+    "gt_norm": "death knight, hunter, paladin, priest, warlock"
+  }
+}

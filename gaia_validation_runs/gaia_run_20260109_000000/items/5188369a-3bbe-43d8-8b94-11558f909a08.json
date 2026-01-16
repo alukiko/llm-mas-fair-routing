@@ -1,0 +1,176 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "No specific writer is quoted.",
+    "final_answer_strict": "text",
+    "used_evidence": [
+      "The word of the day on June 27, 2022, was 'jingoism'.",
+      "Jingoism is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy."
+    ],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "text",
+  "error": null,
+  "duration_sec": 32.094865560531616,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о слове дня от Merriam-Webster за 27 июня 2022 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о слове дня от Merriam-Webster за 27 июня 2022 года.",
+        "facts": [
+          {
+            "fact": "The word of the day on June 27, 2022, was 'jingoism'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "Jingoism is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "The pronunciation of 'jingoism' is given as JING-goh-iz-im.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "snippet": "✨📕 The NEW Collegiate Dictionary, 12th Edition  Over 5,000 words added — Learn More! ✨📕 The NEW Collegiate Dictionary  — Learn More!\n\nEst. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions i"
+          },
+          {
+            "title": "Word of the Day: Languid | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "snippet": "✨📕 The NEW Collegiate Dictionary, 12th Edition  Over 5,000 words added — Learn More! ✨📕 The NEW Collegiate Dictionary  — Learn More!\n\nEst. 1828\n\n# Word of the Day\n\n : October 3, 2022\n\n## languid\n\nplay \"Listen to the pronunciation of languid\")\n\nadjective LANG-gwid\n\nPrev Next\n\n## What It Means\n\nLanguid means “showing or having very little strength, energy, or activity.” It is generally used in formal and literary contexts.\n\n// The trial proceeded at a languid pace as each attorney called up a whole roster of witnesses to testify.\n\nSee the entry >\n\n## languid in Context\n\n“Wölffer’s rosés—the comp"
+          },
+          {
+            "title": "Discover the Merriam-Webster Word of the Year for 2022",
+            "url": "https://kaieteurnewsonline.com/2023/01/08/discover-the-merriam-webster-word-of-the-year-for-2022-and-why-it-might-have-gained-so-much-momentum/",
+            "snippet": "What was Merriam-Webster’s Word of the Year?\n\nThe Merriam-Webster Word of the Year for 2022 is ‘gaslighting’. According to Merriam-Webster, the dictionary definition of ‘gaslighting’ is, “The act or practice of grossly misleading someone, especially for one’s own advantage,” or “psychological manipulation of a person usually over an extended period of time that causes the victim to question the validity of their own thoughts, perception of reality, or memories…” This year, the word experienced a 1,740% increase in lookups. Interest remained high throughout the entirety of the year, too. It’s s"
+          },
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define sleeper cell as “a terrorist cell whose members work under cover in an area until sent into action.” The relevant definition of cell is “a basic and usually small unit of an organization or movement.”\n\n## ‘Obliterate’\n\nObliterate saw a spike in lookups after President Trump used the word with respect to the bombing of Iranian nuclear facilities. [...] We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or signi"
+          },
+          {
+            "title": "WORD OF THE YEAR ~ 2022 Top 10 Words Merriam-Webster",
+            "url": "https://www.youtube.com/watch?v=yqe4_HxYwqI",
+            "snippet": "a topic of great interest and number six is raid when the FBI executed a search warrant at former president Trump's Mar-A-Lago home in early August the event was labeled by some as a raid sending lookups of raid almost a thousand percent the relevant meaning of a raid is a sudden Invasion by officers of the law and this was used to suggest that the search was unfair number five is Queen consort when Queen Elizabeth died the new king and his wife Camilla referred to by her proper title of Queen consort that term shot to the top of the searches and England had not had a king since 1952 so we can"
+          }
+        ],
+        "summary": "On June 27, 2022, Merriam-Webster's word of the day was 'jingoism', defined as excessive patriotism or nationalism, with the pronunciation JING-goh-iz-im."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имя писателя, цитируемого Merriam-Webster для слова дня.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "The word of the day on June 27, 2022, was 'jingoism'.",
+          "Jingoism is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "jingoism",
+            "definition": "excessive patriotism or nationalism, especially marked by a belligerent foreign policy.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с именем писателя.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "No specific writer is quoted.",
+        "final_answer_strict": "text",
+        "used_evidence": [
+          "The word of the day on June 27, 2022, was 'jingoism'.",
+          "Jingoism is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy."
+        ],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "text",
+    "gt_norm": "annie levin"
+  }
+}

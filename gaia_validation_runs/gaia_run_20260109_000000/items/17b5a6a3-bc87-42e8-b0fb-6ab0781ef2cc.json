@@ -1,0 +1,288 @@
+{
+  "id": "17b5a6a3-bc87-42e8-b0fb-6ab0781ef2cc",
+  "query": "I’m researching species that became invasive after people who kept them as pets released them. There’s a certain species of fish that was popularized as a pet by being the main character of the movie Finding Nemo. According to the USGS, where was this fish found as a nonnative species, before the year 2020? I need the answer formatted as the five-digit zip codes of the places the species was found, separated by commas if there is more than one place.",
+  "ground_truth": "34689",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What are the five-digit zip codes where the fish Amphiprion ocellaris was found as a nonnative species before 2020?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 67.15435552597046,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о рыбах, популяризированных в качестве домашних питомцев, и связанных с фильмом 'В поисках Немо'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о рыбах, популяризированных в качестве домашних питомцев, и связанных с фильмом 'В поисках Немо'.",
+        "facts": [
+          {
+            "fact": "Рыба Немо, или амфиприон оцеллярис, является популярным аквариумным питомцем.",
+            "source_url": "https://www.aqua-shop.ru/articles/dzen_o_personazhah_v_poiskah_nemo"
+          },
+          {
+            "fact": "Клоуновые рыбы, к которым относится Немо, обитают в тропических водах Индийского и Тихого океанов.",
+            "source_url": "https://www.aqua-shop.ru/articles/dzen_o_personazhah_v_poiskah_nemo"
+          },
+          {
+            "fact": "Для содержания клоуновых рыб в домашних условиях достаточно аквариума объемом от 80 литров.",
+            "source_url": "https://www.aqua-shop.ru/articles/dzen_o_personazhah_v_poiskah_nemo"
+          },
+          {
+            "fact": "В мультфильме 'В поисках Немо' рыбка попадает в аквариум к дантисту в Сиднее.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%92_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85_%D0%9D%D0%B5%D0%BC%D0%BE"
+          },
+          {
+            "fact": "В аквариуме Немо встречает других обитателей, таких как королевская грамма и морская звезда.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%92_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85_%D0%9D%D0%B5%D0%BC%D0%BE"
+          }
+        ],
+        "sources": [
+          {
+            "title": "В поисках Немо: прототипы персонажей и их содержание",
+            "url": "https://moryak.ua/content/31-v-poiskakh-nemo-prototipy-personazhej",
+            "snippet": "В большом объеме (от 700 литров) можно держать стайку этих рыб. Например, три особи как в продолжении мультфильма «В поисках Дори» (Дори, мама и папа). [...] ## Жизнь Немо в аквариуме у дайвера-дантиста.\n\nПо сюжету мультфильма рыбка Немо попал в аквариум к дантисту в Сиднее. Там была своя «банда» рыб и беспозвоночных. Вспомним, кто именно.\n\n### Главарь Жабр [...] Заменить Пузыря другой рыбкой с иглами не получится: все иглокожие хищники."
+          },
+          {
+            "title": "Реальные рыбки из мультфильма «В поисках Немо» - Моё зверьё",
+            "url": "https://animals.moe-online.ru/articles/rybki/698",
+            "snippet": "Фото: ru.freepik.com, commons.wikimedia.org, kinopoisk.ru\n\nСледите за материалами «Моё зверьё» в  Telegram и в  Одноклассниках\n\nКомментировать\n\nЧитать все комментарии (1)\n\nЧитайте также\n\nОсобенности ухода за аквариумными рыбками зимой Что купить новичку-аквариумисту 5 морских питомцев, которые живут сами по себе Интересный факт: рыбы растут всю жизнь Аквариумные улитки как яркое украшение Самые недорогие рыбки для аквариума Почему нельзя погладить аквариумных рыбок? 5 крупных рыб для домашнего аквариума Болезни аквариумных рыбок неонов Это он — аквариумный неон!\n\nВсе материалы\n\nФорум\n\nМУРАвей\n"
+          },
+          {
+            "title": "Персонажи мультфильма \"В поисках Немо\"",
+            "url": "https://www.aqua-shop.ru/articles/dzen_o_personazhah_v_poiskah_nemo",
+            "snippet": "Конечно, доступна! Рыбы-клоуны являются обитателями тропических вод Индийского и Тихого океанов, где они населяют коралловые рифы на глубине от 1 до 15 метров. В домашних условиях их можно содержать и в относительно небольших (от 80 литров на пару) аквариумах с морской водой. Насколько сложно содержать такой аквариум? Не намного сложнее, чем пресноводный! Рыбка Немо, или амфиприон оцеллярис (Amphiprion ocellaris), прекрасно подойдёт начинающему аквариумисту. Она достаточно неприхотлива и при этом необычайно красива! Клоуны устойчивы к болезням и в хороших условиях могут жить много лет.\n\nСтатья"
+          },
+          {
+            "title": "В поисках Немо - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%92_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85_%D0%9D%D0%B5%D0%BC%D0%BE",
+            "snippet": "Тем временем Немо оказывается в аквариуме дайвера-дантиста Шермана (владельца той самой маски), где его встречают аквариумные обитатели: королевская грамма Грот, жёлтый зебросом\")( \"en:Yellow tang\") Бульк, чернохвостая дасцила Бриз, рыба-ёж Пузырь, морская звезда Персик, креветка Жак и их лидер, мавританский идол Жабр с повреждённым плавником, одержимый идеей выбраться вместе с обитателями аквариума на свободу в океан. Дантист говорит, что Немо будет подарен его племяннице Дарле, которая плохо обращается с рыбами, что уже стоило жизни одному из обитателей аквариума. Чтобы спасти Немо и вызволи"
+          },
+          {
+            "title": "42. Вся правда о героях мультфильма «В поисках Немо» - YouTube",
+            "url": "https://www.youtube.com/watch?v=KlV2VkQCLyk",
+            "snippet": "вышел от мультфильмы экраны мне очень нравится момент с большеглазые к ранг сами я думаю что не многие зрители мультфильма знают где там коран xxi это вот те серебристые рыбы которые стрелками показывали им там папе с рыбкой дори направление движения вот 100 и больше глазах к ранцев ну действительно они выстраиваются разные фигуры интересные стояка ранг saw это одно из красивейших зрелищ под водой в этот момент он меня как-то всегда вызывает радость а вот эти плохие и злые персонажи что ты можешь про них сказать акулы акулы что касается акул мне эта тема это место было не менее интересно вот э"
+          }
+        ],
+        "summary": "Фильм 'В поисках Немо' популяризировал рыбку Немо, или амфиприон оцеллярис, которая является популярным аквариумным питомцем. Эти рыбы обитают в тропических водах и могут содержаться в аквариумах объемом от 80 литров."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь название рыбы и информацию о ее инвазивности из найденных источников.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "амфиприон оцеллярис",
+            "type": "рыба",
+            "evidence": "Рыба Немо, или амфиприон оцеллярис, является популярным аквариумным питомцем."
+          }
+        ],
+        "key_points": [
+          "Фильм 'В поисках Немо' популяризировал рыбку Немо, которая является популярным аквариумным питомцем.",
+          "Эти рыбы обитают в тропических водах Индийского и Тихого океанов.",
+          "Для содержания клоуновых рыб в домашних условиях достаточно аквариума объемом от 80 литров."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "80",
+            "unit": "литров",
+            "context": "объем аквариума для содержания клоуновых рыб"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти данные USGS о местонахождении инвазивной рыбы до 2020 года.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти данные USGS о местонахождении инвазивной рыбы до 2020 года.",
+        "facts": [
+          {
+            "fact": "The USGS Presence Absence Database documents 271 fish species in the conterminous United States.",
+            "source_url": "https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states-ver-20-december-2024"
+          },
+          {
+            "fact": "Sample dates for the USGS fish dataset span from 1990 to 2019.",
+            "source_url": "https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states-ver-20-december-2024"
+          },
+          {
+            "fact": "Four types of invasive carp found in the United States are black, grass, silver, and bighead carps.",
+            "source_url": "https://www.usgs.gov/special-topics/mississippi-river/science/invasive-species"
+          },
+          {
+            "fact": "Invasive carp species out-compete native fish and alter ecosystems.",
+            "source_url": "https://www.usgs.gov/special-topics/mississippi-river/science/invasive-species"
+          },
+          {
+            "fact": "The Asian tiger shrimp began appearing in commercial catches in 2006.",
+            "source_url": "https://www.usgs.gov/centers/wetland-and-aquatic-research-center/science/science-topics/nonindigenous-aquatic-species"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Presence Absence Database of Fish in the Conterminous United ...",
+            "url": "https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states-ver-20-december-2024",
+            "snippet": "This USGS data release documents presence and absences of 271 fish species in the conterminous United States for 35,918 stream reaches of the National Hydrography Dataset Plus Version2.1 (NHDPlusV2.1). Sample dates for this dataset span 1990-2019. Fish samples were aligned to the Integrated Taxonomic Information System (ITIS), where each species record was assigned a Taxonomic Serial Number (TSN). The dataset is structured with records representing a stream reach (i.e. comid), sample description (i.e. source, date) and a series of 271 columns representing species where each species column is n"
+          },
+          {
+            "title": "Invasive Species | U.S. Geological Survey - USGS.gov",
+            "url": "https://www.usgs.gov/special-topics/mississippi-river/science/invasive-species",
+            "snippet": "Four types of invasive carp are currently found in the United States: black, grass, silver, and bighead carps. These species are fast growing, prolific feeders that out-compete native fish species and drastically alter the natural ecosystems they invade. To prevent the spread of invasive carp into the Great Lakes, the multi-agency Asian Carp Regional Coordinating Committee (ACRCC) implements...\n\nLearn More\n\n#### Database and web application for invasive carp telemetry data (FishTracks) [...] Four types of invasive carp fish species, are currently found in the United States: black, grass, silve"
+          },
+          {
+            "title": "Invasive Species | U.S. Geological Survey",
+            "url": "https://www.usgs.gov/centers/wetland-and-aquatic-research-center/science/invasive-species",
+            "snippet": "Frequently Asked Questions\n\n# Invasive Species\n\nUSGS WARC science focuses on better understanding invasive species' biology and ecology and their potential for negative ecological, economic, or health impacts. WARC implements innovative approaches to help monitor the spread of invasive or non-native species, develop new methods and technologies to better detect such species, and assess their impact to the native ecosystems they have invaded.\n\n## Browse Topics\n\nAdvanced Tools/Technology Development\n\nApple Snail\n\nDecision Support and Statistics\n\nEcophysiology\n\nGenetics/Genomics\n\nGeospatial\n\nInva"
+          },
+          {
+            "title": "Fish and Aquatic Species | U.S. Geological Survey - USGS.gov",
+            "url": "https://www.usgs.gov/programs/species-management-research-program/science/fish-and-aquatic-species",
+            "snippet": "The USGS Eastern Ecological Science Center (EESC) provides world-class science to inform natural resource decisions on aquatic ecosystems, species populations and management, disease, and invasive species. Our scientific products represent critical contributions that enhance the ecological and economic sustainability of recreational and commercial fishing. In the United States, anglers contribute...\n\nBy\n\nEcosystems Mission Area, Biological Threats and Invasive Species Research Program, Ecosystems Land Change Science Program, Environmental Health Program, Species Management Research Program, Ch"
+          },
+          {
+            "title": "Nonindigenous Aquatic Species Database | U.S. Geological Survey",
+            "url": "https://www.usgs.gov/centers/wetland-and-aquatic-research-center/science/science-topics/nonindigenous-aquatic-species",
+            "snippet": "Filter Total Items: 32\n\n#### Asian Tiger Shrimp Distribution and Genetics\n\nThe Asian tiger shrimp began appearing in commercial shrimp catches in 2006. They grow larger than native shrimp and are known to be fierce predators - so shrimpers and managers are concerned about the potential effects this species might have.\n\nBy\n\nEcosystems Mission Area, Biological Threats and Invasive Species Research Program, Wetland and Aquatic Research Center\n\nAsian Tiger Shrimp Distribution and Genetics \n\n#### Asian Tiger Shrimp Distribution and Genetics\n\nThe Asian tiger shrimp began appearing in commercial shri"
+          }
+        ],
+        "summary": "The USGS has documented various invasive fish species and their impact on ecosystems in the United States, with data spanning from 1990 to 2019."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь пятизначные почтовые индексы мест, где была найдена инвазивная рыба.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"амфиприон оцеллярис\",\n      \"type\": \"рыба\",\n      \"evidence\": \"Рыба Немо, или амфиприон оцеллярис, является популярным аквариумным питомцем.\"\n    }\n  ],\n  \"key_points\": [\n    \"Фильм 'В поисках Немо' популяризировал рыбку Немо, которая является популярным аквариумным питомцем.\",\n    \"Эти рыбы обитают в тропических водах Индийского и Тихого океанов.\",\n    \"Для содержания клоуновых рыб в домашних условиях достаточно аквариума объемом от 80 литров.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"80\",\n      \"unit\": \"литров\",\n      \"context\": \"объем аквариума для содержания клоуновых рыб\"\n    }\n  ],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Сформировать финальный ответ с почтовыми индексами, разделенными запятыми.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the five-digit zip codes where the fish Amphiprion ocellaris was found as a nonnative species before 2020?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "34689"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+  "query": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+  "ground_truth": "22",
+  "answer_raw": {
+    "final_answer": "Approximately 28 years",
+    "final_answer_strict": "28",
+    "used_evidence": [
+      "In 1995, 37% of computer scientists were women.",
+      "As of today, only 24% of computer scientists are women.",
+      "This indicates a decrease of 13 percentage points over the span from 1995 to the present.",
+      "The time span from 1995 to today is approximately 28 years."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "28",
+  "error": null,
+  "duration_sec": 38.92564153671265,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о проценте женщин среди компьютерных ученых согласно Girls Who Code.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о проценте женщин среди компьютерных ученых согласно Girls Who Code.",
+        "facts": [
+          {
+            "fact": "In 1995, 37% of computer scientists were women.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "As of today, only 24% of computer scientists are women.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The percentage of women in tech roles is lower today than in the 1980s, standing at 32%.",
+            "source_url": "https://www.gracehopper.com/blog/gender-gap-in-technology"
+          }
+        ],
+        "sources": [
+          {
+            "title": "We're on a mission to close the gender gap in tech. - Girls Who Code",
+            "url": "https://girlswhocode.com/about-us",
+            "snippet": "The gender gap in computing is getting worse.\n\nIn 1995, 37% of computer scientists were women. Today, it’s only 24%. The percent will continue to decline if we do nothing. We know that the biggest drop off of girls in computer science is between the ages of 13 and 17.\n\n% of women in Computer Science\n\nGirls Who Code is changing the game\n\nWe're reaching girls around the world and are on track to close the gender gap in new entry-level tech jobs by 2030.\n\n 14.9B\n\n  Engagements Globally\n\n  Through our online resources, campaigns, books, and advocacy work - in the U.S. and around the world.\n 760,00"
+          },
+          {
+            "title": "Girls Who Code - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Girls_Who_Code",
+            "snippet": "Girls Who Code clubs across America. By December 2014, three thousand students had completed a Girls Who Code program, 95% of whom stated they desired to major in computer science in higher education. According to the organization's 2022 report, there are approximately 185,000 college or post-college age alumni who have completed the program. [...] 14. ^ a b \"Aiming for 1 million \"Girls Who Code\"\". CBS News. December 11, 2014. Archived from the original on April 17, 2021. Retrieved February 15, 2015.\n15. ^ a b Buhr, Sarah (December 14, 2014). \"Girls Who Code Expands To Get More Young Women In "
+          },
+          {
+            "title": "The Gender Gap in Technology and How to Disrupt It",
+            "url": "https://www.gracehopper.com/blog/gender-gap-in-technology",
+            "snippet": "The gender gap in technology traditionally describes the lack of equal representation of women in the field and how career experiences for men in technology diverge widely from that of women. According to a report from Accenture and Girls Who Code, the percentage of women-occupied tech roles is actually lower today than it was in the 1980s—standing at 32% versus 35% in 1984. [...] These shortcomings are mirrored in STEM education for women and girls and for nonbinary individuals. For example, while women earned 53% of STEM college degrees, only 22% of those degrees were in engineering and 19% "
+          },
+          {
+            "title": "Groundbreaking Research From Girls Who Code and Accenture ...",
+            "url": "https://girlswhocode.com/news/groundbreaking-research-from-girls-who-code-and-accenture-outlines-steps-to-double-women-in-tech-in-10-years",
+            "snippet": "About Girls Who Code\n\nGirls Who Code is an international nonprofit organization working to close the gender gap in technology, and leading the movement to inspire, educate and equip young women with the computing skills needed to pursue 21st century opportunities. Since launching in 2012, Girls Who Code has reached 500 million people through its work and 300,000 girls through its in-person programming. College-aged alumni of Girls Who Code are declaring majors in computer science and related fields at 15 times the U.S. average. In 2019, the organization was named the #1 Most Innovative Non-Pro"
+          },
+          {
+            "title": "[PDF] Introduction to Girls Who Code - Arizona Department of Education |",
+            "url": "https://www.azed.gov/sites/default/files/2023/04/20230426_Rural_Tribal_Tech_Roundtable_Introduction%20to%20Girls%20Who%20Code.pdf",
+            "snippet": "Date April 26, 2023 Giving Back To the Community Empowering Future Generations of Coders Bonnie Wilde | @ | b.wilde@asu.edu Sandy Johnson | @ | sandyj@asu.edu Rural and Tribal Technology Roundtable Meeting Problem and Solution ET Story Resources Questions Empowering Future Generations of Coders Issue There continues to exist a large gender gap in the computing sciences How as a community can we address that gap Copyright © 2022 Arizona Board of Regents Issue: The gender gap in computing is getting worse.\nIn 1995, 37% of computer scientists were women. Today, it’s only 24%. The percent will con"
+          }
+        ],
+        "summary": "The percentage of women among computer scientists has decreased from 37% in 1995 to 24% today, with current female representation in tech roles at 32%, lower than in the 1980s."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь данные о времени, необходимом для изменения процента женщин среди компьютерных ученых на 13% от начального значения 37%.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Women in Computer Science",
+            "type": "percentage",
+            "evidence": "In 1995, 37% of computer scientists were women."
+          },
+          {
+            "name": "Current percentage of women in tech roles",
+            "type": "percentage",
+            "evidence": "As of today, only 24% of computer scientists are women."
+          },
+          {
+            "name": "Women in tech roles in the 1980s",
+            "type": "percentage",
+            "evidence": "The percentage of women in tech roles is lower today than in the 1980s, standing at 32%."
+          }
+        ],
+        "key_points": [
+          "The percentage of women among computer scientists has decreased from 37% in 1995 to 24% today.",
+          "Current female representation in tech roles is at 32%, lower than in the 1980s."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "37",
+            "unit": "percent",
+            "context": "Percentage of women among computer scientists in 1995."
+          },
+          {
+            "value": "24",
+            "unit": "percent",
+            "context": "Current percentage of women among computer scientists."
+          },
+          {
+            "value": "32",
+            "unit": "percent",
+            "context": "Current percentage of women in tech roles."
+          }
+        ],
+        "definitions": [],
+        "open_questions": [
+          "What specific actions can be taken to increase the percentage of women in computer science?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о том, сколько лет потребовалось для изменения процента женщин среди компьютерных ученых.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The data from Girls Who Code is accurate and reflects the true percentage of women in computer science over the years.",
+          "The decrease in the percentage of women in computer science is a trend that has been consistent since 1995."
+        ],
+        "reasoning_steps": [
+          "In 1995, 37% of computer scientists were women.",
+          "As of today, only 24% of computer scientists are women.",
+          "This indicates a decrease of 13 percentage points over the span from 1995 to the present.",
+          "The time span from 1995 to today is approximately 28 years."
+        ],
+        "conclusions": [
+          "It has taken approximately 28 years for the percentage of women among computer scientists to decrease from 37% to 24%.",
+          "This trend indicates a worsening gender gap in the field of computer science."
+        ],
+        "proposed_answer_outline": [
+          "The percentage of women in computer science has decreased from 37% in 1995 to 24% today.",
+          "This change occurred over a period of approximately 28 years."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Сформулировать финальный ответ пользователю.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Approximately 28 years",
+        "final_answer_strict": "28",
+        "used_evidence": [
+          "In 1995, 37% of computer scientists were women.",
+          "As of today, only 24% of computer scientists are women.",
+          "This indicates a decrease of 13 percentage points over the span from 1995 to the present.",
+          "The time span from 1995 to today is approximately 28 years."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "28",
+    "gt_norm": "22"
+  }
+}

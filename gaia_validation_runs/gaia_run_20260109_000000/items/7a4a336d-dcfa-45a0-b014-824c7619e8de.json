@@ -1,0 +1,231 @@
+{
+  "id": "7a4a336d-dcfa-45a0-b014-824c7619e8de",
+  "query": "At the two-minute mark in the YouTube video uploaded by the channel “GameGrumps” on May 14, 2017 as part of their playthrough of the game Mario Kart 8 Deluxe, the shows’ hosts are competing on one of the game’s racetracks. What was the world record time for that track in the game’s 150cc mode as of June 7, 2023? Express your answer in minutes and seconds, rounding the seconds to the nearest hundredth, e.g. 1:01.001.",
+  "ground_truth": "1:41.614",
+  "answer_raw": {
+    "final_answer": "1:38.97",
+    "final_answer_strict": "1:38.971",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "1:38.971",
+  "error": null,
+  "duration_sec": 41.82957220077515,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о мировом рекорде времени для трека в Mario Kart 8 Deluxe в режиме 150cc на 7 июня 2023 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о мировом рекорде времени для трека в Mario Kart 8 Deluxe в режиме 150cc на 7 июня 2023 года.",
+        "facts": [
+          {
+            "fact": "The world record for Excitebike Arena in Mario Kart 8 Deluxe (150cc) was set at 1:38.971 by Shira on June 3, 2023.",
+            "source_url": "https://www.youtube.com/watch?v=Mu5X9-XRjr0"
+          },
+          {
+            "fact": "The previous world record for Excitebike Arena was 1:39.305, set by Army on February 11, 2023.",
+            "source_url": "https://www.youtube.com/watch?v=Mu5X9-XRjr0"
+          },
+          {
+            "fact": "On June 19, 2023, a new world record of 1:41.253 for GCN Yoshi Circuit was set by player 'a'.",
+            "source_url": "https://www.youtube.com/watch?v=szygfU_3FZI"
+          },
+          {
+            "fact": "The world record for GCN Yoshi Circuit was improved by 0.158 seconds on the same day it was set.",
+            "source_url": "https://www.youtube.com/watch?v=szygfU_3FZI"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Reacting to EVERY 150cc World Record in Mario Kart 8 Deluxe (2025)",
+            "url": "https://www.youtube.com/watch?v=O9SkB7yMzsI",
+            "snippet": "really really good at busting out those extra MTS there because again I just have a very distant memory that I don't think there is that many extra MTS especially in the middle of the lap with the giant waterfall to that second shro spot over there that definitely different to me so I could tell this is probably a very special world record honestly how this is stand for so far let's see all right almost a full year now actually the time of us recording here today so yeah overall I think that was a really really impressive record Cloud toop cruise and the Rampage by F continues on this track ne"
+          },
+          {
+            "title": "Excitebike Arena [150cc] - Shira (Mario Kart 8 Deluxe World Record)",
+            "url": "https://www.youtube.com/watch?v=PSzVV25wobM",
+            "snippet": "# Excitebike Arena [150cc] - 1:38.612 - Shira (Mario Kart 8 Deluxe World Record)\n## MK8DX Records\n75200 subscribers\n240 likes\n\n### Description\n15910 views\nPosted: 8 Jan 2024\nDate: January 3rd, 2024\n0.086 improvement over previous WR: 1:38.698 by Army on June 14th, 2023 (lasted 203 days)\n\nCombo: Light-blue Yoshi / Biddybuggy / Azure Roller / Paper Glider\nSplits: 33.769 - 32.523 - 32.320\nMushrooms: 1 - 1 - 1\nCoins: 10 - 0 - 0\n\nPlayer's WR profile: \n\nSee all the current and past WRs for MK8DX at : \nSee various top 10 leaderboards for MK8DX at : \nDiscuss Time Trials in the MKLeaderboards Discord s"
+          },
+          {
+            "title": "GCN Yoshi Circuit [150cc] - a (Mario Kart 8 Deluxe World Record)",
+            "url": "https://www.youtube.com/watch?v=szygfU_3FZI",
+            "snippet": "# GCN Yoshi Circuit [150cc] - 1:41.253 - a (Mario Kart 8 Deluxe World Record)\n## MK8DX Records\n75200 subscribers\n319 likes\n\n### Description\n22596 views\nPosted: 25 Jun 2023\nDate: June 19th, 2023\n0.158 improvement over previous WR: 1:41.411 by the same player on the same day\n\nCombo: Orange Yoshi / Mr. Scooty / Azure Roller / Paper Glider\nSplits: 35.652 - 32.938 - 32.663\nMushrooms: 1 - 1 - 1\nCoins: 10 - 0 - 0\n\nPlayer's WR profile: \n\nSee all the current and past WRs for MK8DX at : \nSee various top 10 leaderboards for MK8DX at : \nDiscuss Time Trials in the MKLeaderboards Discord server! : \n\nEnter t"
+          },
+          {
+            "title": "Excitebike Arena [150cc] - Shira (Mario Kart 8 Deluxe World Record)",
+            "url": "https://www.youtube.com/watch?v=Mu5X9-XRjr0",
+            "snippet": "# Excitebike Arena [150cc] - 1:38.971 - Shira (Mario Kart 8 Deluxe World Record)\n## MK8DX Records\n75200 subscribers\n468 likes\n\n### Description\n28038 views\nPosted: 4 Jun 2023\nDate: June 3rd, 2023\n0.334 improvement over previous WR: 1:39.305 by Army on February 11th, 2023 (lasted 112 days)\n\nCombo: White Yoshi / Teddy Buggy / Azure Roller / Cloud Glider\nSplits: 33.901 - 32.520 - 32.550\nMushrooms: 1 - 1 - 1\nCoins: 10 - 0 - 0\n\nPlayer's WR profile: \n\nSee all the current and past WRs for MK8DX at : \nSee various top 10 leaderboards for MK8DX at : \nDiscuss Time Trials in the MKLeaderboards Discord serv"
+          },
+          {
+            "title": "Reacting to EVERY Mario Kart 8 Deluxe 150cc World Record!",
+            "url": "https://www.youtube.com/watch?v=vvrCP50Gfj4",
+            "snippet": "right when you land. And then that mini turbo actually gets to come out. So that is a really \ncool technique you're going to see a lot of through these runs, but you really have to watch \nfor it. Hello Alberto—this is the first world record we're seeing from the legend himself, the \ngreatest of all time, Alberto. And this is a track I actually have something to say about because I \nasked Alberto beforehand about, is there anything, you know, you want to share in this video of mine? \nAnd there is actually an unused strategy that is proven to be faster on this track but has not \nbeen done in a w"
+          }
+        ],
+        "summary": "As of June 2023, notable world records in Mario Kart 8 Deluxe include Shira's 1:38.971 for Excitebike Arena and 'a's 1:41.253 for GCN Yoshi Circuit."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь время мирового рекорда из найденной информации.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Excitebike Arena",
+            "type": "track",
+            "evidence": "The world record for Excitebike Arena in Mario Kart 8 Deluxe (150cc) was set at 1:38.971 by Shira on June 3, 2023."
+          },
+          {
+            "name": "GCN Yoshi Circuit",
+            "type": "track",
+            "evidence": "On June 19, 2023, a new world record of 1:41.253 for GCN Yoshi Circuit was set by player 'a'."
+          }
+        ],
+        "key_points": [
+          "Shira set a world record of 1:38.971 for Excitebike Arena on June 3, 2023.",
+          "Player 'a' set a world record of 1:41.253 for GCN Yoshi Circuit on June 19, 2023."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "1:38.971",
+            "unit": "time",
+            "context": "world record for Excitebike Arena"
+          },
+          {
+            "value": "1:41.253",
+            "unit": "time",
+            "context": "world record for GCN Yoshi Circuit"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о времени рекорда и подготовить его к формату ответа.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The world records mentioned are accurate and up-to-date as of June 2023."
+        ],
+        "reasoning_steps": [
+          "Identify the world records set in Mario Kart 8 Deluxe for the specified tracks and dates.",
+          "Extract the relevant times and players associated with each record.",
+          "Summarize the findings to present a clear overview of the world records."
+        ],
+        "conclusions": [
+          "As of June 2023, the world record for Excitebike Arena in Mario Kart 8 Deluxe (150cc) is 1:38.971, set by Shira on June 3, 2023.",
+          "The world record for GCN Yoshi Circuit is 1:41.253, set by player 'a' on June 19, 2023."
+        ],
+        "proposed_answer_outline": [
+          "1. World Record for Excitebike Arena: 1:38.971 by Shira on June 3, 2023.",
+          "2. World Record for GCN Yoshi Circuit: 1:41.253 by player 'a' on June 19, 2023."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с временем рекорда в формате минут и секунд.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "1:38.97",
+        "final_answer_strict": "1:38.971",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": true,
+    "pred_norm": "1:38.971",
+    "gt_norm": "1:41.614"
+  }
+}

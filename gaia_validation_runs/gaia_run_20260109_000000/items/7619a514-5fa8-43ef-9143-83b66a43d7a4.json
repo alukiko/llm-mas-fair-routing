@@ -1,0 +1,179 @@
+{
+  "id": "7619a514-5fa8-43ef-9143-83b66a43d7a4",
+  "query": "According to github, when was Regression added to the oldest closed numpy.polynomial issue that has the Regression label in MM/DD/YY?",
+  "ground_truth": "04/15/18",
+  "answer_raw": {
+    "final_answer": "07/03/24",
+    "final_answer_strict": "07/03/24",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "07/03/24",
+  "error": null,
+  "duration_sec": 28.494245767593384,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти информацию о закрытых вопросах numpy.polynomial на GitHub с меткой Regression",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти информацию о закрытых вопросах numpy.polynomial на GitHub с меткой Regression",
+        "facts": [
+          {
+            "fact": "A closed issue on GitHub reported a performance regression in polynomial evaluation in numpy version 2.0.0 compared to 1.26.4.",
+            "source_url": "https://github.com/numpy/numpy/issues/26843"
+          },
+          {
+            "fact": "The performance regression issue was opened on July 3, 2024.",
+            "source_url": "https://github.com/numpy/numpy/issues/26843"
+          },
+          {
+            "fact": "The issue regarding polynomial evaluation was labeled as a bug.",
+            "source_url": "https://github.com/numpy/numpy/issues/26843"
+          }
+        ],
+        "sources": [
+          {
+            "title": "shicoded/polynomial-regression - GitHub",
+            "url": "https://github.com/shicoded/polynomial-regression",
+            "snippet": "## Repository files navigation\n\n# polynomial-regression\n\nThis repository demonstrates how polynomial regression works using both a simple example with synthetic data and a real-world example for training and testing a polynomial regression model. It contains examples of generating quadratic data, transforming the data into polynomial features, fitting a linear regression model, and visualizing the results using Python, NumPy, and scikit-learn.\n\n## Table of Contents\n\n Introduction\n Overview\n Dataset\n Project Structure\n Conclusion\n Installation\n License\n Contact\n\n## Overview\n\nPolynomial Regressi"
+          },
+          {
+            "title": "BUG: performance regression of polynomial evaluation · Issue #26843",
+            "url": "https://github.com/numpy/numpy/issues/26843",
+            "snippet": "New issue\n\nCopy link\n\nNew issue\n\nCopy link\n\nClosed\n\nClosed\n\nBUG: performance regression of polynomial evaluation#26843\n\nCopy link\n\nLabels\n\n00 - Bug\n\n## Description\n\nPeterWurmsdobler\n\nopened on Jul 3, 2024\n\nIssue body actions\n\n### Describe the issue:\n\nThe evaluation of a polynomial of 2nd order takes about 50% more time when using numpy 2.0.0 in comparison to numpy version 1.26.4 which was revealed by running `asv`.\n\n### Reproduce the code example:\n\n```\nimport numpy as np from numpy polynomial import Polynomial class PolynomialBenchmark def setup self -> None self polynomial = Polynomial 10 2 6"
+          },
+          {
+            "title": "Polynomial Linear Regression model using NumPy. - GitHub",
+            "url": "https://github.com/AjNavneet/Polynomial-Regression-using-Numpy",
+            "snippet": "# AjNavneet/Polynomial-Regression-using-Numpy\n\nBranchesTags\n\nOpen more actions menu\n\n## Folders and files\n\n| Name | Name | Last commit message | Last commit date |\n ---  --- |\n| Latest commit   History17 Commits |\n| Input | Input |  |  |\n| ML\\_Pipeline | ML\\_Pipeline |  |  |\n| libs | libs |  |  |\n| .gitignore | .gitignore |  |  |\n| Engine.py | Engine.py |  |  |\n| LICENSE | LICENSE |  |  |\n| readme.md | readme.md |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |\n\n## Repository files navigation\n\n# Polynomial Linear Regression for Sports Analysis\n\n## Overview\n\nIn this project, we aim to "
+          },
+          {
+            "title": "polynomial-regression · GitHub Topics",
+            "url": "https://github.com/topics/polynomial-regression",
+            "snippet": "Curate this topic\n\n## Add this topic to your repo\n\nTo associate your repository with the polynomial-regression topic, visit your repo's landing page and select \"manage topics.\"\n\nLearn more\n\nYou can’t perform that action at this time. [...] Star  36\n\nnumpy linear-regression sklearn logistic-regression matplotlib regularization gradient-descent feature-engineering polynomial-regression decision-boundary learning-curve feature-scaling contour-plot cost-function feature-mapping mean-normalization regularization-to-avoid-overfitting standard-normal\n\n Updated Jun 4, 2024\n Jupyter Notebook\n\n### eladc"
+          },
+          {
+            "title": "polyreg.py - ethanabrooks/machine-learning - GitHub",
+            "url": "https://github.com/ethanabrooks/machine-learning/blob/master/polyreg.py",
+            "snippet": "32\n\n33\n\n34\n\n35\n\n36\n\n37\n\n38\n\n39\n\n40\n\n41\n\n42\n\n43\n\n44\n\n45\n\n46\n\n47\n\n48\n\n49\n\n50\n\n51\n\n52\n\n53\n\n54\n\n55\n\n56\n\n57\n\n58\n\n59\n\n60\n\n61\n\n62\n\n63\n\n64\n\n65\n\n66\n\n67\n\n68\n\n69\n\n70\n\n71\n\n72\n\n73\n\n74\n\n75\n\n76\n\n77\n\n78\n\n79\n\n80\n\n81\n\n82\n\n83\n\n84\n\n85\n\n86\n\n87\n\n88\n\n89\n\n90\n\n91\n\n92\n\n93\n\n94\n\n95\n\n96\n\n97\n\n98\n\n99\n\n100\n\n101\n\n102\n\n103\n\n104\n\n105\n\n106\n\n107\n\n108\n\n109\n\n110\n\n111\n\n112\n\n113\n\n114\n\n115\n\n116\n\n117\n\n118\n\n119\n\n120\n\n121\n\n122\n\n123\n\n124\n\n125\n\n126\n\n127\n\n128\n\n129\n\n130\n\n131\n\n132\n\n133\n\n134\n\n135\n\n136\n\n137\n\n138\n\n139\n\n140\n\n141\n\n142\n\n143\n\n144\n\n145\n\n146\n\n147\n\n148\n\n149\n\n150\n\n151\n\n152\n\n153\n\n154\n\n'''\n\nTemplate for polynomial regression\n\nAUTHOR Eric "
+          }
+        ],
+        "summary": "There is a closed issue on GitHub regarding a performance regression in polynomial evaluation in numpy, specifically noting a significant slowdown in version 2.0.0."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "извлечь дату добавления Regression из самого старого закрытого вопроса с меткой Regression",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Regression",
+            "type": "label",
+            "evidence": "The issue regarding polynomial evaluation was labeled as a bug."
+          }
+        ],
+        "key_points": "A closed issue on GitHub reported a performance regression in polynomial evaluation in numpy version 2.0.0 compared to 1.26.4.",
+        "numbers_and_units": [
+          {
+            "value": "July 3, 2024",
+            "unit": "date",
+            "context": "The performance regression issue was opened on this date."
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Performance Regression",
+            "definition": "A slowdown in performance when comparing different versions of software.",
+            "source_url": "https://github.com/numpy/numpy/issues/26843"
+          }
+        ],
+        "open_questions": "What specific changes in numpy version 2.0.0 caused the performance regression?"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю с датой в формате MM/DD/YY",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "07/03/24",
+        "final_answer_strict": "07/03/24",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "07/03/24",
+    "gt_norm": "04/15/18"
+  }
+}

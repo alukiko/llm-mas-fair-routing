@@ -1,0 +1,235 @@
+{
+  "id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+  "query": "In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.",
+  "ground_truth": "THE CASTLE",
+  "answer_raw": {
+    "final_answer": "The Confession Dial",
+    "final_answer_strict": "The Confession Dial",
+    "used_evidence": [
+      "The episode 'Heaven Sent' is the 11th episode of Doctor Who's 9th season."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the first scene heading in the official script for Doctor Who, Series 9, Episode 11?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "The Confession Dial",
+  "error": null,
+  "duration_sec": 39.02943253517151,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти официальный сценарий 11 эпизода 9 сезона Doctor Who",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти официальный сценарий 11 эпизода 9 сезона Doctor Who",
+        "facts": [
+          {
+            "fact": "The episode 'Heaven Sent' is the 11th episode of Doctor Who's 9th season.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          },
+          {
+            "fact": "The episode was written by Steven Moffat.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          },
+          {
+            "fact": "The episode originally aired on November 28, 2015.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          },
+          {
+            "fact": "In 'Heaven Sent', the Doctor faces a creature known as the Veil.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          },
+          {
+            "fact": "The episode is categorized as Sci-Fi, Fantasy, and Drama.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          },
+          {
+            "fact": "The episode features the Doctor attempting to reach Gallifrey.",
+            "source_url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Doctor Who – Season 9, Episode 11 Heaven Sent - Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/doctor_who/s09/e11",
+            "snippet": "## Episode Info\n\nSynopsis Trapped in a world unlike any other he has seen, the Doctor faces the greatest challenge of his many lives; pursued by the fearsome creature known only as the Veil, he must attempt the impossible; if he makes it through, Gallifrey is waiting.\n\nExecutive Producer\n:   Steven Moffat\n\nScreenwriter\n:   Richard Curtis,  Chris Chibnall,  Toby Whithouse,  Mark Gatiss,  Simon Nye,  Steven Moffat\n\nNetwork\n:   BBC\n\nRating\n:   TV-PG\n\nGenre\n:   Sci-Fi,  Fantasy,  Drama\n\nOriginal Language\n:   British English\n\nRelease Date\n:   Nov 28, 2015\n\n  \n   \n \n      Tap to Unmute \n\nSee Details"
+          },
+          {
+            "title": "[PDF] DW9 - EP 11 Heaven Sent BLUE 240815.fdx - BBC",
+            "url": "https://www.bbc.co.uk/writers/documents/doctor-who-s9-ep11-heaven-sent-steven-moffat.pdf",
+            "snippet": "He turns to the diamond wall, seems to square up to it. Then - methodically, with confidence, like this is something he does all the time - he winds back his arm and simply punches the wall, as hard as he can. Shakes his hand.\nTHE DOCTOR (cont’d) Ouch!\nBut he winds back his arm again and punches the wall again. He continues to talk - calm conversational - as he does this. (All the time Veil is getting closer.) THE DOCTOR (cont’d) The Hybrid is a secret. It’s a very, very dangerous secret and it needs to be kept.\n(Punch!) So I’m telling you nothing. Nothing at all. Instead, I’m going to do some"
+          },
+          {
+            "title": "Оно уносит тебя | Вики Доктор Кто - Fandom",
+            "url": "https://tardis.fandom.com/ru/wiki/%D0%9E%D0%BD%D0%BE_%D1%83%D0%BD%D0%BE%D1%81%D0%B8%D1%82_%D1%82%D0%B5%D0%B1%D1%8F",
+            "snippet": "Править код\n История\n Очистить кэш\n Обсуждение (0)\n\nОно уносит тебя — 9 эпизод 11 сезона \"11 сезон (новые серии)\") возобновлённого «Доктора Кто», показанный 2 декабря 2018 года.\n\nВ этой серии была введена концепция Солитракта - сознания со времён образования вселенной, которое было изгнано в собственную реальность, и о которой Доктор узнала в детстве на Галлифрее.\n\nОдной из форм, которую принял Солитракт, была Грэйс О'Брайен, погибшая в первой серии сезона, и к её роли вновь вернулась Шэрон Д. Кларк.\n\n## Содержание\n\n 1 Синопсис\n 2 В ролях\n 3 Сюжет\n 4 Отсылки\n 5 Интересные факты\n\n## Синопсис[]\n"
+          },
+          {
+            "title": "Doctor Who series 11 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Doctor_Who_series_11",
+            "snippet": "| Series | Story no. | Episode name | Number and duration of episodes | R2 release date | R4 release date | R1 release date |\n ---  ---  --- \n| 11 | 277–286 | Doctor Who : The Complete Eleventh Series | 9 × 50 min. 1 × 65 min. | 14 January 2019  (D,B)  | 6 February 2019  (D,B)  | 29 January 2019  (D,B)  |\n| 287 | Doctor Who : \"Resolution \"Resolution (Doctor Who)\")\" | 1 × 60 min. | 18 February 2019  (D,B)  | 6 March 2019  (D,B)  | 19 February 2019  (D,B)  | [...] | No. | Title | Episode | Length |\n| 1. | \"Series 11 Opening Titles\" (Ron Grainer arr. Segun Akinola) | Various episodes | 0:40 |\n| 2"
+          },
+          {
+            "title": "Introduction to Heaven Sent - Doctor Who: Series 9 Episode 11 (2015)",
+            "url": "https://www.youtube.com/watch?v=-2Tp81jyaJU",
+            "snippet": "#bbc\n\n66 comments\n### Transcript:\n[Music] the doctor has lost claraa and he's alone and in this episode he is literally alone the plot of 11 has the doctor finding himself transported I know you I've seen you before trapped in a mysterious castle where there's a mysterious monster that just keeps getting closer to him there have been a number of tasks set up for him this whole place is designed to terrify me tasks that are designed really to break him I am the doctor he might be in hell and he might be there [Music] forever [...] # Introduction to Heaven Sent - Doctor Who: Series 9 Episode 11 "
+          }
+        ],
+        "summary": "Heaven Sent is the 11th episode of Doctor Who's 9th season, written by Steven Moffat, aired on November 28, 2015, featuring the Doctor facing the Veil and attempting to reach Gallifrey."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "обработать найденный сценарий и получить текст",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "извлечь название локации из заголовка первой сцены сценария",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Gallifrey",
+            "type": "location",
+            "evidence": "The episode features the Doctor attempting to reach Gallifrey."
+          }
+        ],
+        "key_points": [
+          "Heaven Sent is the 11th episode of Doctor Who's 9th season.",
+          "The episode was written by Steven Moffat.",
+          "The episode originally aired on November 28, 2015.",
+          "In 'Heaven Sent', the Doctor faces a creature known as the Veil."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "11",
+            "unit": "episode",
+            "context": "Heaven Sent is the 11th episode of Doctor Who's 9th season."
+          },
+          {
+            "value": "9",
+            "unit": "season",
+            "context": "Heaven Sent is the 11th episode of Doctor Who's 9th season."
+          },
+          {
+            "value": "November 28, 2015",
+            "unit": "date",
+            "context": "The episode originally aired on November 28, 2015."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "предоставить пользователю название локации как оно указано в сценарии",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "The Confession Dial",
+        "final_answer_strict": "The Confession Dial",
+        "used_evidence": [
+          "The episode 'Heaven Sent' is the 11th episode of Doctor Who's 9th season."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the first scene heading in the official script for Doctor Who, Series 9, Episode 11?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "the confession dial",
+    "gt_norm": "the castle"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": {
+    "final_answer": "FunkMonk",
+    "final_answer_strict": "FunkMonk",
+    "used_evidence": [
+      "The nomination for Giganotosaurus was made by user FunkMonk on September 30, 2016."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "FunkMonk",
+  "error": null,
+  "duration_sec": 32.351224422454834,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года.",
+        "facts": [
+          {
+            "fact": "The article on Giganotosaurus was promoted to Featured Article status on November 19, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"
+          },
+          {
+            "fact": "The nomination for Giganotosaurus was made by user FunkMonk on September 30, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"
+          },
+          {
+            "fact": "Ian Rose processed the promotion of the Giganotosaurus article via FACBot.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "snippet": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 14:41, 19 November 2016 (\n\n### Giganotosaurus\n\n[edit]\n\n:   Nominator(s): FunkMonk (talk) 17:10, 30 September 2016 (UTC)[reply] [...] dinosaur books as well. FunkMonk (talk) 17:38, 8 November 2016 (UTC)[reply] [...] Support. Just had a look, a"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Paranthodon/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Paranthodon/archive1",
+            "snippet": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Sarastro1 via FACBot (talk) 21:53, 13 January 2017 (\n\n### Paranthodon\n\n[edit]\n\n:   Nominator(s): IJReid discuss 02:25, 27 November 2016 (UTC)[reply] [...] expect anything on the taxon to change. This article has been copy edited, and is as comprehensive as it can be wi"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "snippet": "Closing note: This candidate has been promoted, but there may be a delay in bot processing of the close. Please see WP:FAC/ar, and leave the {{featured article candidates}} template in place on the talk page until the bot goes through. Ian Rose (talk) 23:11, 30 November 2016 (UTC)[reply]\n\n:   The above discussion is preserved as an archive. Please do not modify it. No further edits should be made to this page.\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk"
+          },
+          {
+            "title": "Wikipedia:Today's featured article/September 18, 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/September_18,_2016",
+            "snippet": "Baryonyx was a theropod dinosaur of the early Cretaceous Period \"Period (geology)\"), about 130–125 million years ago. An identifying specimen of the genus was discovered in 1983 in Surrey, England; fragmentary specimens were later discovered in other parts of the United Kingdom and Iberia. Meaning \"heavy claw\", Baryonyx refers to the animal's very large claw (31 cm or 12 in) on the first finger. The 1983 specimen is one of the most complete theropod skeletons from the UK, and its discovery attracted media attention. Baryonyx was about 7.5 m (25 ft) long and weighed 1.2 t (1.3 short tons). It h"
+          },
+          {
+            "title": "2016 in archosaur paleontology - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2016_in_archosaur_paleontology",
+            "snippet": "Heterodontosaurid metatarsi, phalanges and tail vertebrae are described from the Early Jurassic (late Toarcian) Cañadon Asfalto Formation (Argentina) by Becerra et al. (2016), who note the similarities in anatomy of the digits \"Digit (anatomy)\") of this heterodontosaurid and the digits of arboreal birds and argue that the heterodontosaurid might have had grasping feet with long digits.\n New specimens of Lesothosaurus diagnosticus are described by Barrett et al. (2016).\n A description of the braincase anatomy of Pawpawsaurus campbelli based on CT scans is published by Paulina-Carabajal, Lee & J"
+          }
+        ],
+        "summary": "The Giganotosaurus article was promoted to Featured Article on November 19, 2016, following a nomination by FunkMonk."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь информацию о том, кто номинировал этот Featured Article.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "FunkMonk",
+            "type": "nominator",
+            "evidence": "The nomination for Giganotosaurus was made by user FunkMonk on September 30, 2016."
+          }
+        ],
+        "key_points": [
+          "The Giganotosaurus article was promoted to Featured Article on November 19, 2016."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "19",
+            "unit": "November 2016",
+            "context": "Date of promotion to Featured Article"
+          },
+          {
+            "value": "30",
+            "unit": "September 2016",
+            "context": "Date of nomination by FunkMonk"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю о том, кто номинировал статью.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "FunkMonk",
+        "final_answer_strict": "FunkMonk",
+        "used_evidence": [
+          "The nomination for Giganotosaurus was made by user FunkMonk on September 30, 2016."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "funkmonk",
+    "gt_norm": "funkmonk"
+  }
+}

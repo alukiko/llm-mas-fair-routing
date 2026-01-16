@@ -1,0 +1,281 @@
+{
+  "id": "305ac316-eef6-4446-960a-92d80d542f82",
+  "query": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+  "ground_truth": "Wojciech",
+  "answer_raw": {
+    "final_answer": "Магда",
+    "final_answer_strict": "Магда",
+    "used_evidence": [
+      "Персонаж, которого сыграл актер в сериале 'Магда М.'"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Магда",
+  "error": null,
+  "duration_sec": 54.2830970287323,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию об актере, который сыграл Рея в польской версии 'Все любят Рэймонда'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию об актере, который сыграл Рея в польской версии 'Все любят Рэймонда'.",
+        "facts": [
+          {
+            "fact": "Рэй Романо сыграл главную роль в ситкоме 'Все любят Рэймонда'.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE,_%D0%A0%D1%8D%D0%B9"
+          },
+          {
+            "fact": "Ситком 'Все любят Рэймонда' транслировался с 1996 по 2005 год.",
+            "source_url": "https://www.themoviedb.org/tv/2140-everybody-loves-raymond?language=ru"
+          },
+          {
+            "fact": "Рэй Романо получил премию 'Эмми' в 2002 году за свою роль в 'Все любят Рэймонда'.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE,_%D0%A0%D1%8D%D0%B9"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Каких актеров итальянского происхождения вы бы хотели ...",
+            "url": "https://www.reddit.com/r/thesopranos/comments/1mjnw5w/which_italianamerican_actors_would_you_have/?tl=ru",
+            "snippet": "Тони, может, и не проводит конкурс популярности, но все любят Рэймонда. ... Я бы с удовольствием посмотрел, как он сыграл бы приглушенную версию"
+          },
+          {
+            "title": "Романо, Рэй - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE,_%D0%A0%D1%8D%D0%B9",
+            "snippet": "Романо получил одну из главных ролей в ситкоме «NewsRadio», однако вскоре эта роль была отдана Джо Рогану. После этого Романо принимал участие в «Вечернем шоу с Дэвидом Леттерманом», где выступал со своими стендап номерами. Широкую известность ему принесла главная роль в ситкоме «Все любят Рэймонда», за которую в 2002 году он был удостоен премии «Эмми», а также трижды получил Премию Гильдии киноактёров США. [...] | Год |  | Русское название | Оригинальное название | Роль |\n ---  --- \n| 1996—2005 | с | Все любят Рэймонда | Everybody Loves Raymond | Рэймонд Бэрон |\n| 2002 | мф | Ледниковый перио"
+          },
+          {
+            "title": "Все любят Рэймонда (TV Series 1996-2005) - TMDB",
+            "url": "https://www.themoviedb.org/tv/2140-everybody-loves-raymond?language=ru",
+            "snippet": "The Movie Database (TMDB)\nВсе любят Рэймонда\nСейчас транслируется on Peacock Premium\n\n#### Сейчас транслируется\n\n### Смотреть сейчас\n\n## Все любят Рэймонда (1996)\n\nLogin to use TMDB's new rating system.\n\nWelcome to Vibes, TMDB's new rating system! For more information, visit the  contribution bible.\n\n### A comedy about a dad who just can't resist being irresistible.\n\n### Обзор\n\nКазалось бы, у Рэя Барона есть все. Замечательная жена, прекрасная семья, любимая работа, отличный дом на Лонг Айленде. Но кое-какие проблемы у Рэя все-таки есть. Это его ужасно надоедливые родители, живущие через улицу"
+          },
+          {
+            "title": "r/TrueFilm on Reddit: \"Экспорт Рэймонда\" (2010) - один из самых ...",
+            "url": "https://www.reddit.com/r/TrueFilm/comments/1n3n7hq/exporting_raymond_2010_is_one_of_the_most/?tl=ru",
+            "snippet": "Интересно в фильме (и причина, по которой я хотел его посмотреть) — это увидеть, как комедия переводится между культурами, и наблюдать за этим процессом. Все любят Рэймонда — такой прототипичный американский многокамерный ситком, в котором есть классические западные медиа-тропы; но Розенталь неоднократно заявляет, что его основные комедийные ценности являются межкультурными. Поэтому он не думает, что шутки нужно сильно менять, чтобы они работали в России. [...] r/TrueFilm icon\n\n# \"Экспорт Рэймонда\" (2010) - один из самых непреднамеренно бесячих документальных фильмов, которые когда-либо снимал"
+          },
+          {
+            "title": "Писатели-юбиляры 2026 года - библиотека-челны.рф",
+            "url": "https://xn----7sbcaucqbthgyg0d8d5c.xn--p1ai/kalendar-znamenatelnyx-dat/pisateli-yubilyaryi",
+            "snippet": "Муниципальное бюджетное учреждение\n\n  Централизованная библиотечная система\n\n  г. Набережные Челны\n +7 (8552) 70-02-26 000-00-00) Схема проезда\n\nГлавная » Календарь знаменательных дат » Писатели-юбиляры 2026 года\n\n# Писатели-юбиляры 2026 года\n\n|  | [...] Этот сайт использует файлы cookies для более комфортной работы пользователя. Продолжая просмотр страниц сайта, вы соглашаетесь с Политикой использования файлов cookies;).\n\n## Сообщить об опечатке\n\n### Текст, который будет отправлен нашим редакторам:\n\nОтправить Отмена [...] 14. Администратор вправе прекращать работу Сайта, а равно частично или "
+          }
+        ],
+        "summary": "Рэй Романо сыграл главную роль в популярном ситкоме 'Все любят Рэймонда', который выходил с 1996 по 2005 год и за который он получил премию 'Эмми' в 2002 году."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имя актера, который сыграл Рея.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Рэй Романо",
+            "type": "актер",
+            "evidence": "Рэй Романо сыграл главную роль в ситкоме 'Все любят Рэймонда'."
+          }
+        ],
+        "key_points": [
+          "Рэй Романо сыграл главную роль в популярном ситкоме 'Все любят Рэймонда'.",
+          "Ситком выходил с 1996 по 2005 год.",
+          "Рэй Романо получил премию 'Эмми' в 2002 году за свою роль."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "1996-2005",
+            "unit": "годы",
+            "context": "период трансляции ситкома 'Все любят Рэймонда'"
+          },
+          {
+            "value": "2002",
+            "unit": "год",
+            "context": "год получения Рэй Романо премии 'Эмми'"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти информацию о фильме 'Magda M.' и персонаже, которого сыграл найденный актер.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о фильме 'Magda M.' и персонаже, которого сыграл найденный актер.",
+        "facts": [
+          {
+            "fact": "Сериал 'Магда М.' вышел в 2005 году.",
+            "source_url": "https://www.kinopoisk.ru/series/271726/"
+          },
+          {
+            "fact": "Жанры сериала 'Магда М.' включают драму, мелодраму и комедию.",
+            "source_url": "https://www.kinopoisk.ru/series/271726/"
+          },
+          {
+            "fact": "Сериал 'Магда М.' состоит из 4 сезонов.",
+            "source_url": "https://www.kinopoisk.ru/series/271726/"
+          },
+          {
+            "fact": "Длительность одной серии 'Магда М.' составляет 45 минут.",
+            "source_url": "https://www.kinopoisk.ru/series/271726/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Магда М. (сериал 2005 - Magda M. - Ваш Досуг",
+            "url": "https://www.vashdosug.ru/cinema/movie/576569/",
+            "snippet": "Top.Mail.Ru\nВаш Досуг\n\n# Магда М. (сериал 2005 – ...)\n\n## Отзывы о «Магда М. (сериал 2005 – ...)»\n\n## Читайте про другие события\n\n## Актеры «Магда М. (сериал 2005 – ...)»\n\n## Другие кинофильмы / драма\n\n### Три тысячи лет желаний\n\nОдинокая женщина в Стамбуле случайно находит джинна, который предлагает исполнить три её желания в обмен на свою свободу.\n\n### С любовью и яростью\n\nКаноничный любовный треугольник от живого классика Клер Дени.\n\nВашДосуг\nВашДосуг"
+          },
+          {
+            "title": "Магда М.» (Magda M., 2005) - Кинопоиск",
+            "url": "https://www.kinopoisk.ru/series/271726/",
+            "snippet": "Подробная информация о сериале Магда М. на сайте Кинопоиск ... Magda M. с 2005, драма, мелодрама, комедия, 4 сезона. Польша, 45 мин. Оценить."
+          },
+          {
+            "title": "[PDF] Фрэнсис Фукуяма Великий разрыв Москва. 2003",
+            "url": "http://kyiv-heritage-guide.com/sites/default/files/%D0%A4%D0%A3%D0%9A%D0%A3%D0%AF%D0%9C%D0%90-3%20-%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D1%8B%D0%B2%20(1997)2003.pdf",
+            "snippet": "сообразить, как вмешаться, если потребуется, я увидела, что необходимость в этом отпала. Из мясной лавки, расположенной в подвале многоквартирного дома, появилась женщина, которая со своим мужем содержит магазин; она находилась достаточно близко от нарушителя порядка, ее руки были сложены на груди, лицо выражало решимость. Джо Корнаккья, который со своими зятьями содержит лавку деликатесов, в тот же момент появился на другой стороне улицы. Несколько человек выглянули из окон, один из свидетелей происшествия тут же спустился и встал в дверях позади обидчика девочки. Двое посетителей бара рядом "
+          },
+          {
+            "title": "[PDF] StudiaSlavicaSavariensia 2011 - REAL-J",
+            "url": "https://real-j.mtak.hu/16135/1/SSS_2011.pdf",
+            "snippet": "мифологии и символики цвета, предполагает: 78 Борода и волосы – густые, седые, серебристые. Эти детали облика, кроме своего «физиологического», возрастного смысла (старец – значит седой) несут ещё и огромный символьный характер, обозначая могущество, счастье, благополучие и богатство. Как ни странно, но именно волосы – единственная деталь облика, не претерпевшая за тысячелетия никаких значительных изменений. Рубашка и брюки – белые, льняные, украшены белым геометрическим орнаментом (символ чистоты). К сожалению, эта деталь практически потерялась в современном представлении о костюме. Исполните"
+          },
+          {
+            "title": "European Journal of Literature and Linguistics",
+            "url": "https://ppublishing.org/media/uploads/journals/journal/Literature_1_2016.pdf",
+            "snippet": "42. The guardian, Thursday, October 2, 2014.\n43. The New York Times, August 16, 2015.\n44. The New York Times, May 11, 2015.\n45. The New York Times, August 2, 2015.\n46. The New York Times, November 14, 2005.\n47. Technology News, December 9, 2005.\n48. The Globe and Mail, June 15, 2007.\n49. The New York Times, June 8, 2008.\n50. The New York Times, December 9, 2007.\n51. The New York Times, August 31, 2009.\n52. The New York Times, January 10, 2007.\n53. The New York Times, December 22, 2010.\n54. The New York Times, December 14, 2014.\n55. The New York Times, June 21, 2015.\n56. The New York Times, Feb"
+          }
+        ],
+        "summary": "Сериал 'Магда М.' был выпущен в 2005 году и включает 4 сезона, сочетая жанры драмы, мелодрамы и комедии."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь имя персонажа, которого сыграл актер в 'Magda M.'.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Магда\",\n      \"type\": \"персонаж\",\n      \"evidence\": \"Персонаж, которого сыграл актер в сериале 'Магда М.'\"\n    }\n  ],\n  \"key_points\": [\n    \"Сериал 'Магда М.' вышел в 2005 году.\",\n    \"Сериал включает 4 сезона.\",\n    \"Жанры сериала 'Магда М.' включают драму, мелодраму и комедию.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"2005\",\n      \"unit\": \"год\",\n      \"context\": \"год выхода сериала 'Магда М.'\"\n    },\n    {\n      \"value\": \"4\",\n      \"unit\": \"сезона\",\n      \"context\": \"количество сезонов сериала 'Магда М.'\"\n    }\n  ],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Написать финальный ответ с именем персонажа.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Магда",
+        "final_answer_strict": "Магда",
+        "used_evidence": [
+          "Персонаж, которого сыграл актер в сериале 'Магда М.'"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "магда",
+    "gt_norm": "wojciech"
+  }
+}

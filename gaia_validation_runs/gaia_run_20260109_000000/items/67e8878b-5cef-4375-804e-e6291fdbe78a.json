@@ -1,0 +1,215 @@
+{
+  "id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+  "query": "The attached PDF lists accommodations in the resort community of Seahorse Island. Which type of accommodation has a higher average rating in Seahorse Island?",
+  "ground_truth": "Hotels",
+  "answer_raw": {
+    "final_answer": "Rental Houses",
+    "final_answer_strict": "Rental Houses",
+    "used_evidence": [
+      "Average ratings for each type of accommodation are: Hotels - 3.8, Motels - 2.2, Rental Houses - 3.625"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": true,
+    "documents_ok_present": true,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Rental Houses",
+  "error": null,
+  "duration_sec": 55.826022148132324,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "обработать PDF файл, чтобы получить текст и структуру данных об accommodations в Seahorse Island",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "files_count": 1,
+        "processed": [
+          {
+            "id": "2023/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+            "name": "67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+            "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+            "mime": "",
+            "ext": ".pdf",
+            "ok": true,
+            "kind": "document",
+            "content": "Name\n\nHotels\n\nNeptune's Palace\n\nAdmiral Sturgeon\n\nCurrents\n\nThe Laughing Gull\n\nLoach Towers\n\nMotels\n\nSea Escape Inn\n\nWash Inn\n\nBoulevard Motel\n\nGood Motel\n\nSea Larva Motel\n\nRental Houses\n\nCape Super\n\nBleek Island\n\nPinedrift Avenue\n\nOcean and Main\n\n4th Street Cottage\n\nShelley's Place\n\nCreakwood Creek\n\nHeadrush Beach\n\nShiplap Cabin\n\nHaddonfield House\n\nCampgrounds\n\nThe Glampground\n\nGull Crest\n\nBarnacle Isle\n\nCozy Wood\n\nGravel Lot Campground\n\nRating (out of 5) Vacancy\n\nPool\n\nSample Review\n\n5 Yes\n\n5 No\n\n4 Yes\n\n3 No\n\n2 Yes\n\n5 Yes\n\n3 No\n\n2 Yes\n\n1 Yes\n\n0 Yes\n\n4 No\n\n3 No\n\n4 Yes\n\n5 No\n\n5 No\n\n4 Yes\n\n3 No\n\n3 No\n\n3 Yes\n\n1 Yes\n\n4 Yes\n\n5 Yes\n\n3 No\n\n4 Yes\n\n1 Yes\n\nYes\n\nYes\n\nYes\n\nYes\n\nNo\n\nYes\n\nYes\n\nNo\n\nNo\n\nYes\n\nNo\n\nNo\n\nNo\n\nYes\n\nNo\n\nYes\n\nYes\n\nNo\n\nNo\n\nNo\n\nYes\n\nYes\n\nNo\n\nYes\n\nNo\n\nA hotel fit for a king.\n\nThe breakfast was wonderful. The price was not.\n\nThe staff was helpful and accomodating.\n\nGreat proximity to the beach.\n\nGood view of the water.\n\nDon't let the \"motel\" look scare you. This place made for a clean and comfortable vacation.\n\nIt was nice that they had laundry machines for guests.\n\nReal close to the gas station.\n\nName is false advertising.\n\nName is true advertising.\n\nThe owner was very nice. A pleasure to talk to.\n\nWe got a personalized box of chocolates upon our arrival. How sweet!\n\nThis would be a good place if it wasn't an hour away from everything.\n\nThe location is great, if you don't mind the noise.\n\nThe board games in the living room were nice to have.\n\nThe floorboards creaked too loud! Made it hard to walk and sleep at the same time.\n\nTried fishing in the creek but nothing was biting.\n\nThe accomodations are rough, but the private beach is amazing.\n\nPretty sure this place is haunted.\n\nThe kitchen made it easy to prepare our own meals during our stay.\n\nHas the most Ultra HD TVs out of any campground I've been to.\n\nA bird defecated on our tent... never going back.\n\nHard to bring our RV here when the only access to the island is by boat.\n\nNot the most secluded, but clean and comfortable.\n\nNo water or electric hookups for our camper... talk about \"roughing it\".\n\n",
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "извлечь информацию о типах размещения и их рейтингах из обработанного PDF",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"entities\": [\n    {\n      \"name\": \"Neptune's Palace\",\n      \"type\": \"Hotel\",\n      \"evidence\": \"Rating: 5\"\n    },\n    {\n      \"name\": \"Admiral Sturgeon\",\n      \"type\": \"Hotel\",\n      \"evidence\": \"Rating: 5\"\n    },\n    {\n      \"name\": \"Currents\",\n      \"type\": \"Hotel\",\n      \"evidence\": \"Rating: 4\"\n    },\n    {\n      \"name\": \"The Laughing Gull\",\n      \"type\": \"Hotel\",\n      \"evidence\": \"Rating: 3\"\n    },\n    {\n      \"name\": \"Loach Towers\",\n      \"type\": \"Hotel\",\n      \"evidence\": \"Rating: 2\"\n    },\n    {\n      \"name\": \"Sea Escape Inn\",\n      \"type\": \"Motel\",\n      \"evidence\": \"Rating: 5\"\n    },\n    {\n      \"name\": \"Wash Inn\",\n      \"type\": \"Motel\",\n      \"evidence\": \"Rating: 3\"\n    },\n    {\n      \"name\": \"Boulevard Motel\",\n      \"type\": \"Motel\",\n      \"evidence\": \"Rating: 2\"\n    },\n    {\n      \"name\": \"Good Motel\",\n      \"type\": \"Motel\",\n      \"evidence\": \"Rating: 1\"\n    },\n    {\n      \"name\": \"Sea Larva Motel\",\n      \"type\": \"Motel\",\n      \"evidence\": \"Rating: 0\"\n    },\n    {\n      \"name\": \"Cape Super\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 4\"\n    },\n    {\n      \"name\": \"Bleek Island\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 5\"\n    },\n    {\n      \"name\": \"Pinedrift Avenue\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 3\"\n    },\n    {\n      \"name\": \"Ocean and Main\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 4\"\n    },\n    {\n      \"name\": \"4th Street Cottage\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 1\"\n    },\n    {\n      \"name\": \"Shelley's Place\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 4\"\n    },\n    {\n      \"name\": \"Creakwood Creek\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 5\"\n    },\n    {\n      \"name\": \"Headrush Beach\",\n      \"type\": \"Rental House\",\n      \"evidence\": \"Rating: 3\"\n    },\n    {\n      \"name\": \"Shiplap Cabin\",\n      \"type\": \"Rental"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "построить логический вывод о среднем рейтинге для каждого типа размещения",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The ratings provided in the document are accurate and represent the average satisfaction of guests for each type of accommodation.",
+          "The types of accommodations are limited to Hotels, Motels, Rental Houses, and Campgrounds."
+        ],
+        "reasoning_steps": [
+          "Extract the ratings for each type of accommodation from the document.",
+          "Calculate the average rating for each type of accommodation based on the extracted ratings."
+        ],
+        "conclusions": [
+          "The average ratings for each type of accommodation are as follows:",
+          {
+            "Hotels": 3.33,
+            "Motels": 2.2,
+            "Rental Houses": 3.57,
+            "Campgrounds": "Not enough data to calculate average rating."
+          }
+        ],
+        "proposed_answer_outline": [
+          "1. List all accommodations and their respective ratings.",
+          "2. Group accommodations by type.",
+          "3. Calculate and present the average rating for each type."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "calc",
+      "description": "вычислить средний рейтинг для каждого типа размещения",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "python_code": "ratings = {\n    'Hotel': [5, 5, 4, 3, 2],\n    'Motel': [5, 3, 2, 1, 0],\n    'Rental House': [4, 5, 3, 4, 1, 4, 5, 3],\n    'Campground': []\n}\n\naverage_ratings = {}\n\nfor accommodation_type, scores in ratings.items():\n    if scores:\n        average_ratings[accommodation_type] = sum(scores) / len(scores)\n    else:\n        average_ratings[accommodation_type] = 'Not enough data to calculate average rating.'\n\nprint(average_ratings)",
+        "output": "{'Hotel': 3.8, 'Motel': 2.2, 'Rental House': 3.625, 'Campground': 'Not enough data to calculate average rating.'}\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "написать финальный ответ о том, какой тип размещения имеет более высокий средний рейтинг",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Rental Houses",
+        "final_answer_strict": "Rental Houses",
+        "used_evidence": [
+          "Average ratings for each type of accommodation are: Hotels - 3.8, Motels - 2.2, Rental Houses - 3.625"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": true,
+        "documents_ok_present": true,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": [
+    {
+      "id": "2023/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+      "name": "67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+      "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+      "source": "gaia",
+      "mime": null,
+      "original_path": "2023/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf"
+    }
+  ],
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "rental houses",
+    "gt_norm": "hotels"
+  }
+}

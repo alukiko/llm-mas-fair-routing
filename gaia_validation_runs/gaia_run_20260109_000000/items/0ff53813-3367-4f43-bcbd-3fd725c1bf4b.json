@@ -1,0 +1,205 @@
+{
+  "id": "0ff53813-3367-4f43-bcbd-3fd725c1bf4b",
+  "query": "What two-word type of model did Manash Pratim Kashyap's and PS Fader's studies in customer retention studies published during 2018-2019 have in common (no punctuation)?",
+  "ground_truth": "beta geometric",
+  "answer_raw": {
+    "final_answer": "No common model found",
+    "final_answer_strict": "no common model",
+    "used_evidence": [
+      "No relevant studies by Manash Pratim Kashyap and PS Fader on customer retention published in 2018-2019 were found."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Are there other years or additional authors whose studies on customer retention should be considered?",
+      "Can we explore other databases or journals for relevant studies on customer retention?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "no common model",
+  "error": null,
+  "duration_sec": 37.14537954330444,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти исследования Манаша Пратима Кашьяпа и ПС Фадера по удержанию клиентов, опубликованные в 2018-2019 годах",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти исследования Манаша Пратима Кашьяпа и ПС Фадера по удержанию клиентов, опубликованные в 2018-2019 годах",
+        "facts": [],
+        "sources": [
+          {
+            "title": "[PDF] Фундаментальные проблемы и перспективы развития ...",
+            "url": "https://docs.vlgr.ranepa.ru/podr/ipc/elizd/%D0%A4%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F%20%D0%9F%D0%9F%2C%20%D0%9A%D0%9F%20%D0%B8%20%D0%90%D0%9F%20%D0%B2%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%85%20%D1%81%D0%B0%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%202022.pdf",
+            "snippet": "«кор-рупция» раскрывает его с точки зрения злоупотребление человеком своим слу-жебным положением, совершаемым им или от своего имени или от имени юри-дического лица и проявляющимся в виде: дачи взятки, получения взятки, зло-употребления полномочиями, коммерческого подкупа либо иного незаконного действия, осуществляемого вопреки законным интересам общества и государ-ства и направленного на получение выгоды в виде денег, ценностей, иного иму-щества или услуг имущественного характера, иных имущественных прав для Сборник научных трудов по материалам II Международной научно-практической конференции"
+          },
+          {
+            "title": "MODERN ECONOMY SUCCESS №1, 2023",
+            "url": "https://mes-journal.ru/wp-content/uploads/2023/01/mes-1-2023.pdf",
+            "snippet": "исследования Для достижения целей исследования автор ис-пользовал дескриптивно-аналитическую методо-логию, основанную на методе контент-анализа. С этой целью им был проработан нескольких зару-бежных источников и современных специальных исследований в рамках экономических структур развивающихся стран, учитывая своих особых свойств регулирующих процессов устойчивого развития и определяющих эффективности меха-низмов его реализации. Кроме того, на втором этапе свой работы автор использовал дедуктивный подход к изучению тео-ретических материалов с целью выявления момен-тов, которые можно было бы пр"
+          },
+          {
+            "title": "Картографирование образовательного ландшафта в 2018-2019 годах: краткий ...",
+            "url": "https://scholarworks.iu.edu/iupjournals/index.php/jems/article/view/7256",
+            "snippet": "Данный отчет делится результатами ежегодного исследования  \n«картографирования ландшафта», которое сосредотачивается на  \nпозициях молодежи и взрослых касательно ценностей, связываемых  \nими с ростом и развитием. В основе интереса к ценностям лежит  \nподход, согласно которому по мере взросления молодежи и измене-  \nния условий жизни меняются и ее ценности, а новые ценности, в  \nсвою очередь, формируются в результате взаимодействия людей  \nдруг с другом и окружающей средой. Более чем 25 000 участников из  \n14 стран были привлечены с помощью местных координаторов и  \nопрошены по четырем основным"
+          },
+          {
+            "title": "Recommendations for free online movie sites? : r/Piracy - Reddit",
+            "url": "https://www.reddit.com/r/Piracy/comments/18eovgj/recommendations_for_free_online_movie_sites/",
+            "snippet": "Reddit RulesPrivacy PolicyUser AgreementYour Privacy ChoicesAccessibilityReddit, Inc. © 2025. All rights reserved.\n\nExpand Navigation Collapse Navigation\n\n   &nbsp; \n   &nbsp; \n   &nbsp; \n   &nbsp; \n\n  \n\n  \n\n   RESOURCES \n\n   About Reddit\n   Advertise\n   Developer Platform\n   Reddit Pro BETA\n   Help\n   Blog\n   Careers\n   Press\n\n  \n\n   Communities\n   Best of Reddit\n\n  \n\n   Reddit Rules\n   Privacy Policy\n   User Agreement\n   Your Privacy Choices\n   Accessibility\n\nReddit, Inc. © 2025. All rights reserved.\n\nImage 5 [...] 40\n\nImage 2: u/nd_annajones avatar\n\nnd_annajones\n\n•2y ago\n\nSeconding the nece"
+          },
+          {
+            "title": "ESL Conversation Questions - Movies (I-TESL-J)",
+            "url": "http://iteslj.org/questions/movies.html",
+            "snippet": "Do you usually rent DVD's or videos when you rent movies?\n What's one of your favorite movies?\n  + What kind of movie is it?\n  + Who's in it?\n  + Who directed it?\n  + Why do you like it?\n  + When did it come out?\n  + Where was it filmed?\n  + How many times have you seen it?\n  + Would you recommend it? Why?\n Do you think movies have been developing technology or technology has been developing movies?\n What is the most horrible movie you have ever seen?\n What kind of movie do you like?\n How much do you spend to buy DVD movies?\n Are addicted to watching movies?\n Do you like to see a movie many ti"
+          }
+        ],
+        "summary": "No relevant studies by Manash Pratim Kashyap and PS Fader on customer retention published in 2018-2019 were found in the provided sources."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "извлечь тип модели из найденных исследований",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "No relevant studies by Manash Pratim Kashyap and PS Fader on customer retention published in 2018-2019 were found."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "построить логический вывод о двухсловной модели, общей для обоих исследований",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The task requires identifying common two-word models related to customer retention from the studies of Manash Pratim Kashyap and PS Fader.",
+          "No relevant studies were found in the provided sources, indicating a lack of available data for analysis."
+        ],
+        "reasoning_steps": [
+          "Review the provided sources for studies by Manash Pratim Kashyap and PS Fader.",
+          "Identify any common themes or models related to customer retention in the studies.",
+          "Since no relevant studies were found, conclude that there is insufficient data to establish a common model."
+        ],
+        "conclusions": [
+          "There are no identified two-word models common to the studies of Manash Pratim Kashyap and PS Fader on customer retention for the years 2018-2019."
+        ],
+        "proposed_answer_outline": [
+          "Summarize the search results indicating that no relevant studies were found.",
+          "State the absence of data to derive a common two-word model.",
+          "Suggest further investigation or alternative sources for future research."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Are there other years or additional authors whose studies on customer retention should be considered?",
+          "Can we explore other databases or journals for relevant studies on customer retention?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю о двухсловной модели",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "No common model found",
+        "final_answer_strict": "no common model",
+        "used_evidence": [
+          "No relevant studies by Manash Pratim Kashyap and PS Fader on customer retention published in 2018-2019 were found."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Are there other years or additional authors whose studies on customer retention should be considered?",
+          "Can we explore other databases or journals for relevant studies on customer retention?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no common model",
+    "gt_norm": "beta geometric"
+  }
+}

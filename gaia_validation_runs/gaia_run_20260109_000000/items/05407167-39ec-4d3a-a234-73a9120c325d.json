@@ -1,0 +1,206 @@
+{
+  "id": "05407167-39ec-4d3a-a234-73a9120c325d",
+  "query": "In the 2018 VSCode blog post on replit.com, what was the command they clicked on in the last video to remove extra lines?",
+  "ground_truth": "Format Document",
+  "answer_raw": {
+    "final_answer": "The command to remove extra lines was not specified.",
+    "final_answer_strict": "not specified",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not specified",
+  "error": null,
+  "duration_sec": 33.34048914909363,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти блог пост 2018 года о VSCode на replit.com",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти блог пост 2018 года о VSCode на replit.com",
+        "facts": [
+          {
+            "fact": "Replit aims to make programming more accessible and fun.",
+            "source_url": "https://blog.replit.com/category/all/23"
+          },
+          {
+            "fact": "VS Code has a vast extension ecosystem with thousands of plugins.",
+            "source_url": "https://replit.com/discover/replit-vs-vscode"
+          },
+          {
+            "fact": "Replit provides instant environments for over 50 programming languages.",
+            "source_url": "https://replit.com/discover/replit-vs-vscode"
+          },
+          {
+            "fact": "The blog post about VS Code on Replit was published in 2018.",
+            "source_url": "https://blog.replit.com/intel"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Replit - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/Replit",
+            "snippet": "1. ↑ 1 2 Rodriguez, Salvador. Former Facebook engineer quit to build the programming tool he always wanted . CNBC (22 октября 2018). Дата обращения: 29 августа 2023. Архивировано 23 июня 2023 года.\n2. ↑ 1 2 Today's Entrepreneur: Faris Masad . VatorNews (30 апреля 2019). Дата обращения: 12 января 2021. Архивировано 5 декабря 2020 года.\n3. ↑ 1 2 3 Repl.it lets you program in your browser (амер. англ.). TechCrunch. Дата обращения: 5 января 2019. Архивировано 4 декабря 2018 года.\n4. ↑ Odeh, Haya. Check out my Repl!  Replit (29 мая 2017). Дата обращения: 30 июня 2022. Архивировано 27 октября 2021 г"
+          },
+          {
+            "title": "Zero Setup VSCode Intelligence - Replit Blog",
+            "url": "https://blog.replit.com/intel",
+            "snippet": "and every tool developer had to build adapters and wrappers for editors to consume. [...] At Repl.it our goal is to provide state of the art in developer tools to everyone in the world, for free. When we started moving our product beyond a simple REPL and started adding IDE features, we had to invent standards and wrappers around every language tool for our frontend to consume. For every editor feature, say errors and warnings (linting), we had to extend our development protocol with a set of commands and data structures, and then teach our development containers how to wrap the given tool, sa"
+          },
+          {
+            "title": "Replit — Replit Blog – Product updates from the team",
+            "url": "https://blog.replit.com/category/all/23",
+            "snippet": "## Focusing on a solid foundation\n\n  At Repl.it, our mission is to make programming more accessible, more creative, and more fun. A place away from the moder... [...] ## Rails in 30 seconds\n\n  Philosophically, Replit and Rails are incredibly aligned. We both exist to remove excessive configuration and complexity...\n Wed, Jan 27, 2021\n\n  ## Going Global\n\n  We had the idea for Replit in Jordan, launched as a startup in New York, and incorporated as a company in San Mateo. The...\n Fri, Jan 15, 2021\n\n  ## Native Graphics Love ❤️\n\n  We have reimagined the native graphics experience on Replit. Our c"
+          },
+          {
+            "title": "Если ты используешь replit для изучения кода, просто переходи ...",
+            "url": "https://www.reddit.com/r/replit/comments/1filxir/if_youre_using_replit_for_studying_code_just/?tl=ru",
+            "snippet": "## Thanks for the feedback!\n\nTell us more about why this content is not helpful.\n\nr/replit icon\nA banner for the subreddit\nr/replit icon\n\nСоздавай софт вместе с помощью ИИ, на любом устройстве, и ни секунды не трать на настройку.\nЭто сообщество управляется пользователями и не имеет официальной связи с Replit. За официальной помощью и обратной связью Replit, посетите ask.replit.com.\n\n# Если ты используешь replit для изучения кода, просто переходи на VS Code\n\nУстанови расширение Code Runner для кнопки запуска. Если у тебя нет iPad или Mac, даже слабый комп должен потянуть код\n\nCreate your accoun"
+          },
+          {
+            "title": "Replit vs VS Code: Features, Differences & Full Comparison",
+            "url": "https://replit.com/discover/replit-vs-vscode",
+            "snippet": "### Winner: VS Code\n\nThe open-source editor's extension ecosystem provides enormous advantage with thousands of plugins for specialized workflows. For developers working with niche languages, specialized frameworks, or complex toolchains, VS Code's extensibility is unmatched. While Replit's curated integrations work well for common use cases, VS Code adapts to virtually any development scenario through its massive extension library.\n\n## Learning Curve\n\n### Replit\n\nThe platform prioritizes immediate productivity with zero setup, instant environments for 50+ programming languages, user-friendly "
+          }
+        ],
+        "summary": "Replit focuses on accessibility in programming, while VS Code offers extensive plugin support, making it adaptable for various development needs."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "обработать найденный блог пост и извлечь текст видео",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "извлечь команду, которую кликнули в последнем видео для удаления лишних строк",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "Replit focuses on accessibility in programming.",
+          "VS Code offers extensive plugin support, making it adaptable for various development needs."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "Replit",
+            "definition": "A platform that aims to make programming more accessible and fun.",
+            "source_url": "https://blog.replit.com/category/all/23"
+          },
+          {
+            "term": "VS Code",
+            "definition": "An open-source editor with a vast extension ecosystem providing thousands of plugins.",
+            "source_url": "https://replit.com/discover/replit-vs-vscode"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю о команде",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "The command to remove extra lines was not specified.",
+        "final_answer_strict": "not specified",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not specified",
+    "gt_norm": "format document"
+  }
+}

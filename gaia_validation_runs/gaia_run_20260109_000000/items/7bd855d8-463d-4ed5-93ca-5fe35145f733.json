@@ -1,0 +1,164 @@
+{
+  "id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+  "query": "The attached Excel file contains the sales of menu items for a local fast-food chain. What were the total sales that the chain made from food (not including drinks)? Express your answer in USD with two decimal places.",
+  "ground_truth": "89706.00",
+  "answer_raw": {
+    "final_answer": "Total sales from food are 108754 USD.",
+    "final_answer_strict": "108754",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": true,
+    "documents_ok_present": true,
+    "_raw_model_output": null
+  },
+  "answer_pred": "108754",
+  "error": null,
+  "duration_sec": 51.403968811035156,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Обработать прикрепленный Excel файл и получить данные о продажах меню.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "files_count": 1,
+        "processed": [
+          {
+            "id": "2023/validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+            "name": "7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+            "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+            "mime": "",
+            "ext": ".xlsx",
+            "ok": true,
+            "kind": "document",
+            "content": "## Sheet1\n| Location | Burgers | Hot Dogs | Salads | Fries | Ice Cream | Soda |\n| --- | --- | --- | --- | --- | --- | --- |\n| Pinebrook | 1594 | 1999 | 2002 | 2005 | 1977 | 1980 |\n| Wharvton | 1983 | 2008 | 2014 | 2015 | 2017 | 2018 |\n| Sagrada | 2019 | 2022 | 2022 | 2023 | 2021 | 2019 |\n| Algrimand | 1958 | 1971 | 1982 | 1989 | 1998 | 2009 |\n| Marztep | 2015 | 2016 | 2018 | 2019 | 2021 | 2022 |\n| San Cecelia | 2011 | 2010 | 2012 | 2013 | 2015 | 2016 |\n| Pimento | 2017 | 1999 | 2001 | 2003 | 1969 | 2967 |\n| Tinseles | 1967 | 1969 | 1982 | 1994 | 2005 | 2006 |\n| Rosdale | 2007 | 2009 | 2021 | 1989 | 2005 | 2011 |",
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь данные о продажах еды из обработанных данных.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"entities\": [\n    {\n      \"name\": \"Pinebrook\",\n      \"type\": \"Location\",\n      \"evidence\": \"1594 Burgers, 1999 Hot Dogs, 2002 Salads, 2005 Fries, 1977 Ice Cream, 1980 Soda\"\n    },\n    {\n      \"name\": \"Wharvton\",\n      \"type\": \"Location\",\n      \"evidence\": \"1983 Burgers, 2008 Hot Dogs, 2014 Salads, 2015 Fries, 2017 Ice Cream, 2018 Soda\"\n    },\n    {\n      \"name\": \"Sagrada\",\n      \"type\": \"Location\",\n      \"evidence\": \"2019 Burgers, 2022 Hot Dogs, 2022 Salads, 2023 Fries, 2021 Ice Cream, 2019 Soda\"\n    },\n    {\n      \"name\": \"Algrimand\",\n      \"type\": \"Location\",\n      \"evidence\": \"1958 Burgers, 1971 Hot Dogs, 1982 Salads, 1989 Fries, 1998 Ice Cream, 2009 Soda\"\n    },\n    {\n      \"name\": \"Marztep\",\n      \"type\": \"Location\",\n      \"evidence\": \"2015 Burgers, 2016 Hot Dogs, 2018 Salads, 2019 Fries, 2021 Ice Cream, 2022 Soda\"\n    },\n    {\n      \"name\": \"San Cecelia\",\n      \"type\": \"Location\",\n      \"evidence\": \"2011 Burgers, 2010 Hot Dogs, 2012 Salads, 2013 Fries, 2015 Ice Cream, 2016 Soda\"\n    },\n    {\n      \"name\": \"Pimento\",\n      \"type\": \"Location\",\n      \"evidence\": \"2017 Burgers, 1999 Hot Dogs, 2001 Salads, 2003 Fries, 1969 Ice Cream, 2967 Soda\"\n    },\n    {\n      \"name\": \"Tinseles\",\n      \"type\": \"Location\",\n      \"evidence\": \"1967 Burgers, 1969 Hot Dogs, 1982 Salads, 1994 Fries, 2005 Ice Cream, 2006 Soda\"\n    },\n    {\n      \"name\": \"Rosdale\",\n      \"type\": \"Location\",\n      \"evidence\": \"2007 Burgers, 2009 Hot Dogs, 2021 Salads, 1989 Fries, 2005 Ice Cream, 2011 Soda\"\n    }\n  ],\n  \"key_points\": [\n    \"Sales data for various food items across different locations.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"1594\",\n      \"unit\": \"units\",\n      \"context\": \"Burgers sold in Pinebrook\"\n    },\n    {\n      \""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "calc",
+      "description": "Выполнить вычисления для определения общих продаж еды в USD.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "python_code": "data = {\n    'Pinebrook': [1594, 1999, 2002, 2005, 1977, 1980],\n    'Wharvton': [1983, 2008, 2014, 2015, 2017, 2018],\n    'Sagrada': [2019, 2022, 2022, 2023, 2021, 2019],\n    'Algrimand': [1958, 1971, 1982, 1989, 1998, 2009],\n    'Marztep': [2015, 2016, 2018, 2019, 2021, 2022],\n    'San Cecelia': [2011, 2010, 2012, 2013, 2015, 2016],\n    'Pimento': [2017, 1999, 2001, 2003, 1969, 2967],\n    'Tinseles': [1967, 1969, 1982, 1994, 2005, 2006],\n    'Rosdale': [2007, 2009, 2021, 1989, 2005, 2011]\n}\n\n# Calculate total sales\ntotal_sales = 0\nfor location, sales in data.items():\n    total_sales += sum(sales)\n\nprint(f'Total food sales in USD: {total_sales}')",
+        "output": "Total food sales in USD: 108754\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с общими продажами еды.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Total sales from food are 108754 USD.",
+        "final_answer_strict": "108754",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": true,
+        "documents_ok_present": true,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": [
+    {
+      "id": "2023/validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+      "name": "7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+      "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+      "source": "gaia",
+      "mime": null,
+      "original_path": "2023/validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx"
+    }
+  ],
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "108754",
+    "gt_norm": "89706.00"
+  }
+}

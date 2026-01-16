@@ -1,0 +1,98 @@
+{
+  "id": "50ad0280-0819-4bd9-b275-5de32d3b5bcb",
+  "query": "Pull out the sentence in the following 5x7 block of text. Read from left to right and use all of the letters in order:\n\nTHESE\nAGULL\nGLIDE\nDPEAC\nEFULL\nYTOMY\nCHAIR",
+  "ground_truth": "The seagull glided peacefully to my chair.",
+  "answer_raw": {
+    "final_answer": "THE SEAGULL GLIDES DEEP FULLY TO MY CHAIR",
+    "final_answer_strict": "THE SEAGULL GLIDES DEEP FULLY TO MY CHAIR",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Can you provide more context or clarify the task?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "THE SEAGULL GLIDES DEEP FULLY TO MY CHAIR",
+  "error": null,
+  "duration_sec": 19.19705843925476,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "extract",
+      "description": "Извлечь предложение из блока текста, читая слева направо и используя все буквы в порядке.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с извлеченным предложением.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "THE SEAGULL GLIDES DEEP FULLY TO MY CHAIR",
+        "final_answer_strict": "THE SEAGULL GLIDES DEEP FULLY TO MY CHAIR",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide more context or clarify the task?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "the seagull glides deep fully to my chair",
+    "gt_norm": "the seagull glided peacefully to my chair"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "3627a8be-a77f-41bb-b807-7e1bd4c0ebdf",
+  "query": "The object in the British Museum's collection with a museum number of 2012,5015.17 is the shell of a particular mollusk species. According to the abstract of a research article published in Science Advances in 2021, beads made from the shells of this species were found that are at least how many thousands of years old?",
+  "ground_truth": "142",
+  "answer_raw": {
+    "final_answer": "Not found",
+    "final_answer_strict": "0",
+    "used_evidence": [
+      "No relevant information about a 2021 article in Science Advances regarding mollusk shells was found."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the age of the mollusk shells mentioned in the article?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 35.480334997177124,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о объекте с музейным номером 2012,5015.17 в коллекции Британского музея.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о объекте с музейным номером 2012,5015.17 в коллекции Британского музея.",
+        "facts": [
+          {
+            "fact": "The British Museum was founded in 1753.",
+            "source_url": "https://www.visitlondon.com/things-to-do/place/285709-british-museum"
+          },
+          {
+            "fact": "The British Museum's collection spans over two million years of history.",
+            "source_url": "https://artsandculture.google.com/partner/the-british-museum"
+          },
+          {
+            "fact": "The British Museum is located in Bloomsbury, London.",
+            "source_url": "https://www.visitlondon.com/things-to-do/place/285709-british-museum"
+          },
+          {
+            "fact": "The museum attracts over 6 million visitors each year.",
+            "source_url": "https://artsandculture.google.com/partner/the-british-museum"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Лондон. Главные экспонаты Британского музея. Смотрим самое ...",
+            "url": "https://kolllak.livejournal.com/116999.html",
+            "snippet": "принадлежать фараону или другому очень могущественному и богатому лицу. [...] что он служил провинциальным чиновником высокого ранга, но это не точно. [...] У афинского стратега Алкивиада была собака, удивительно красивая, которая обошлась ему в семьдесят мин, и он приказал отрубить ей хвост, служивший животному главным украшением. Друзья были недовольны его поступком и рассказывали Алкивиаду, что все жалеют собаку и бранят хозяина, но тот лишь улыбнулся в ответ и сказал: \"Что же, все складывается так, как я хочу. А хочу я, чтобы афиняне болтали именно об этом, — иначе как бы они не сказали об"
+          },
+          {
+            "title": "Британский музей - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9",
+            "snippet": "Caygill, Marjorie (2002). The Story of the British Museum. London: The British Museum Press\n Cook, B. F. (2005). The Elgin Marbles. London: The British Museum Press\n Esdaile, Arundell\")( \"en:Arundell Esdaile\") (1946) The British Museum Library: a Short History and Survey\")( \"en:The British Museum Library: a Short History and Survey\"). London: Allen & Unwin\n Jacobs, Norman (2010) Behind the Colonnade. Stroud: The History Press\n Jenkins, Ian (2006). Greek Architecture and its Sculpture in The British Museum. London: The British Museum Press\n Francis, Frank, ed. (1971) Treasures of the British Mu"
+          },
+          {
+            "title": "British Museum",
+            "url": "https://www.britishmuseum.org/",
+            "snippet": "### National\n\nA tour of the Museum, arranged under the Iraq Scheme\nA tour of the Museum, arranged under the Iraq Scheme\n\n### International\n\n## Search Collection online\n\nFrom the Rosetta Stone to Japanese netsuke, discover a wealth of information about Museum objects in our searchable database.\n\n## Explore the collection\n\n### Egypt Read more\n\nMummy mask\n\n### Desire, love and identity Read the blog\n\nTwo lgbtq badges on same image\n\n### Animals See the collection\n\nSouthwark made earthenware jug in shape of cat\n\n### Americas See the collection\n\nMayan Maize god\n\n### Death and memory Read more\n\nGrave"
+          },
+          {
+            "title": "British Museum, London | Everything You Need to Know",
+            "url": "https://www.visitlondon.com/things-to-do/place/285709-british-museum",
+            "snippet": "Address\n:   Great Russell Street\n\n    London\n\n    WC1B 3DG\n\nTelephone:\n:   +44 (0)20 7323 8000\n\nEmail\n:   (/cdn-cgi/l/email-protection#7b12151d1409161a0f1214153b1909120f120813160e081e0e165514091c)\n\nPublic transport:\n:   Tube: Russell Square/ Tott Court Rd\n\n## Reviews\n\n## TripAdvisor\n\n### Traveller Rating:\n\n  \n Based on 74,893 reviews\n\nLoading reviews for British Museum\n\nWrite a Review   Read more reviews on Tripadvisor \n\n© 2024 Tripadvisor LLC. All rights reserved.\n\n## About\n\nFounded in 1753, the British Museum in Bloomsbury has a collection covering two million years of history.\n\nShowcasing h"
+          },
+          {
+            "title": "British Museum, London, United Kingdom - Google Arts & Culture",
+            "url": "https://artsandculture.google.com/partner/the-british-museum",
+            "snippet": "The Lab\n\nSign in\n\n# British Museum\n\n## London, United Kingdom\n\nThe British Museum’s remarkable collection spans over two million years of human history and culture. Over 6 million visitors every year experience the collection, including world-famous objects such as the Rosetta Stone, the Parthenon sculptures, and Egyptian mummies.\n\nDiscover our interactive experience The Museum of the World\n\nShow lessRead more\n\nFollow\n\nStoriesVirtual visitsWhat's on\n\nThe Collection\n\n+ Metal1089\n+ Photograph933\n+ Glass929\n+ Paper770\n+ Gold506\n+ Silver318\n+ Textile308\n+ Wood255\n+ Copper131\n+ Iron76\n+ Wool66\n+ Co"
+          }
+        ],
+        "summary": "The British Museum, founded in 1753 and located in Bloomsbury, London, has a collection that spans over two million years of history and attracts over 6 million visitors annually."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Найти аннотацию статьи, опубликованной в Science Advances в 2021 году, касающейся раковин моллюсков.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти аннотацию статьи, опубликованной в Science Advances в 2021 году, касающейся раковин моллюсков.",
+        "facts": [],
+        "sources": [
+          {
+            "title": "[PDF] моллюски - Архангельск - ФГБУН ФИЦКИА УрО РАН",
+            "url": "https://fciarctic.ru/data/d662473779a68798b0fd0a2f201f6867.pdf",
+            "snippet": "O.V. Aksenova1, E.S. Babushkin3, M.Yu. Gofarov1, A.V. Kondakov1, E.S. Konopleva1, A.V. Kropotin1, N.B. Ovchankova4, D.M. Palatov5, S.E. Sokolova1, A.R. Shevchenko1, O.V. Travina1, I.N. Bolotov1 1N. Laverov Federal Center for Integrated Arctic Research of the Ural Branch of the Russian Academy of Sciences, Arkhangelsk, Russia 2Laboratory of Macroecology & Biogeography of Invertebrates, Saint Petersburg State University, Saint Petersburg, Russia 3Surgut State University, Surgut, Russian Federation 4Zoological Institute, Russian Academy of Sciences, Saint Petersburg, Russia 5A.N. Severtsov Instit"
+          },
+          {
+            "title": "[PDF] Федеральное государственное бюджетное учреждение науки",
+            "url": "https://ibss-ras.ru/science/dissertation-council-24-1-221-01/dissertations/kapranova/%D0%94%D0%B8%D1%81%D1%81%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%9A%D0%91%D0%9D_%D0%9A%D0%B0%D0%BF%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0_%D0%9B.%D0%9B.pdf",
+            "snippet": "178, 221]. Гомогенизированные гонады и половые продукты центрифугировали при 12000 об/мин в течение 15 мин. Пробы хранили в течение суток при температуре от 4 °С до 8 °С, так как эстрадиол стабилен именно при этих температурах . Сухую массу гонад и половых продуктов определяли на аналитических весах с точностью взвешивания до 0,0001 г. после высушивания 1 мл взвеси гомогенизированных гонад, сперматозоидов и яйцеклеток при температуре 105 °С Длину раковины моллюсков измеряли штангенциркулем типа ШЦЦ с цифровой индикацией и шагом дискретности цифрового отсчетного устройства 0,01 мм. Концентрацию"
+          },
+          {
+            "title": "Marine-Derived Bioactives in Cancer Therapy",
+            "url": "https://www.mdpi.com/2673-8937/4/4/51",
+            "snippet": "Terpenoids from marine organisms demonstrate potent anticancer properties. Farnesene (C15H24), found in Synechocystis sp., shows cytotoxicity against leukemia and breast cancer cells by disrupting cell membranes , while Geranylgeraniol (C20H34O), derived from Synechococcus elongatus, induces apoptosis in lung and liver cancer cells . Limonene (C10H16), present in Lyngbya majuscula, reduces tumor growth in lung cancer models , and Squalene (C30H50), extracted from Oscillatoria sp., enhances immune response and induces apoptosis in melanoma and liver cancer cells . Astaxanthin, from Haematococcu"
+          },
+          {
+            "title": "История изучения двустворчатых моллюсков российской части ...",
+            "url": "https://www.academia.edu/143269682/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B4%D0%B2%D1%83%D1%81%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B0%D1%82%D1%8B%D1%85_%D0%BC%D0%BE%D0%BB%D0%BB%D1%8E%D1%81%D0%BA%D0%BE%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D1%87%D0%B0%D1%81%D1%82%D0%B8_%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F",
+            "snippet": "251. Лихарев И.М. 1952. Древний элемент среди солоноватоводных моллюсков Дальнего Востока // Зоо- логический журнал. Т. 31, вып. 2. С. 305-307.\n252. Лихарев И.М. 1953. Особенности распространения моллюсков Приморского края // Труды Зоологи- ческого института АН СССР. Т. 13. С. 277-288.\n253. Лутаенко К.А. 1988. Раковины моллюсков в голоценовых отложениях на побережье вершинной части Уссурийского залива Японского моря // Биология моря. № 6. C. 65-67.\n254. Лутаенко К.А. 1990. Двустворчатые моллюски в береговых выбросах залива Петра Великого (Япон- ское море). Владивосток: Ин-т биол. моря ДВО АН С"
+          },
+          {
+            "title": "Marine heterobranch mollusks-derived anticancer compounds with ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S259026282500067X",
+            "snippet": "## Graphical abstract\n\n## Keywords\n\nMarine mollusks\n\nAnticancer compounds\n\nEpigenetic modulation\n\nSelective cytotoxicity\n\nDrug discovery\n\n## Data availability\n\nData will be made available on request.\n\n## Cited by (0)\n\n© 2025 The Author(s). Published by Elsevier B.V. [...] oxygen species (ROS) and endoplasmic reticulum (ER) stress. Emerging evidence indicates that methylthioadenosine analogs and polyunsaturated fatty acids (PUFAs (C12)) can modulate DNA methyltransferases (DNMTs) and histone deacetylases (HDACs), suggesting new avenues for epigenetic cancer therapy. Despite challenges in sustai"
+          }
+        ],
+        "summary": "No relevant information about a 2021 article in Science Advances regarding mollusk shells was found in the provided sources."
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь информацию о возрасте бусин, сделанных из раковин моллюсков, из аннотации статьи.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "No relevant information about a 2021 article in Science Advances regarding mollusk shells was found."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What is the age of the mollusk shells mentioned in the article?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Сформулировать финальный ответ о возрасте бусин из раковин моллюсков.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Not found",
+        "final_answer_strict": "0",
+        "used_evidence": [
+          "No relevant information about a 2021 article in Science Advances regarding mollusk shells was found."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the age of the mollusk shells mentioned in the article?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "142"
+  }
+}

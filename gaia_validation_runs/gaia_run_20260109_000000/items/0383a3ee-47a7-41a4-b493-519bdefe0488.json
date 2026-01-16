@@ -1,0 +1,226 @@
+{
+  "id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+  "query": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?",
+  "ground_truth": "Rockhopper penguin",
+  "answer_raw": {
+    "final_answer": "penguin",
+    "final_answer_strict": "penguin",
+    "used_evidence": [
+      "The video features various animals including polar bears, penguins, and lions."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "penguin",
+  "error": null,
+  "duration_sec": 32.008111000061035,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти видео 'Top 5 Silliest Animal Moments' на YouTube канале BBC Earth.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти видео 'Top 5 Silliest Animal Moments' на YouTube канале BBC Earth.",
+        "facts": [
+          {
+            "fact": "The video 'Top 5 Silliest Animal Moments' was posted on January 11, 2020.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video has over 2.4 million views.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The channel BBC Earth has 14.2 million subscribers.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video features various animals including polar bears, penguins, and lions.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzTube - KidzSearch",
+            "url": "https://www.kidzsearch.com/kidztube/mobile/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "snippet": "1,474 Views\n 03:35   \n\n  ### Antlion Cone Ant Trap - The Hunt - BBC Earth\n\n  1,158 Views\n 03:42   \n\n  ### Deep Diving In Underwater Meteorite Caves | Earth: The Power Of The Planet | BBC Earth Lab\n\n  437 Views\n 03:55   \n\n  ### Panda Doesn't Realise She's Had Twins! | BBC Earth\n\n  1,054 Views\n 02:39   \n\n  ### Caring for a Baby Wallaby | BBC Earth\n\n  858 Views\n 09:21   \n\n  ### Wild Monkeys Roaming The Streets Hong Kong | BBC Earth\n\n  757 Views\n 03:51   \n\n  ### Journey 1000m Below The Waves In 360° #OurBluePlanet - BBC Earth\n\n  728 Views\n 01:27   \n\n  ### 'Toy Spy Monkey' Mistaken For Dead Baby An"
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "snippet": "# Top 5 Silliest Animal Moments! | BBC Earth\n## BBC Earth\n14200000 subscribers\n33003 likes\n\n### Description\n2409635 views\nPosted: 11 Jan 2020\nThe mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world  - and at times, the most ridiculous. Join us as we recount the endearing capers of these incredible animals!\nSubscribe:  \n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here you'll find 50 years worth of en"
+          },
+          {
+            "title": "Top 5s",
+            "url": "https://www.youtube.com/playlist?list=PL50KW6aT4UgyO6_dk0D0w1zEhY5t8ndK3",
+            "snippet": "419K views • 6 years ago\n\n•\n\n15\n\n20:11\n\n20:11\n\nNow playing\n\n### Most Nail-Biting Moments | Top 5 | BBC Earth\n\nBBC Earth\n\nBBC Earth\n\n•\n\n5.6M views • 6 years ago\n\n•\n\n16\n\n14:57\n\n14:57\n\nNow playing\n\n### Top 5 Most Intelligent Animals | BBC Earth\n\nBBC Earth\n\nBBC Earth\n\n•\n\n364K views • 5 years ago\n\n•\n\n17\n\n14:34\n\n14:34\n\nNow playing\n\n### Top 5 Silliest Animal Moments! | BBC Earth\n\nBBC Earth\n\nBBC Earth\n\n•\n\n2.4M views • 5 years ago\n\n•\n\n18\n\n20:09\n\n20:09\n\nNow playing\n\n### Top 5 Animal Superpowers! | BBC Earth\n\nBBC Earth\n\nBBC Earth\n\n•\n\n379K views • 5 years ago\n\n•\n\n19\n\n14:48\n\n14:48\n\nNow playing\n\n### Best of"
+          },
+          {
+            "title": "Top 5 David Attenborough Moments | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=-tvA3Ezqjl8",
+            "snippet": "[Music] [Applause] [Music] tuna attacked from below cutting off the sardines escape route down to deeper water [Applause] [Music] next to appear shearwaters excellent fliers but also surprisingly agile underwater with so many predators attacking from all sides the advantage starts to shift away from the sardines [Music] [Applause] [Music] [Applause] [Music] as the fish pack ever tighter they're showing strategy now makes it easier for the hunters [Music] [Applause] [Music] [Applause] [Music] copper sharks they've scented blood in the water [Music] surprisingly perhaps the Predators never attac"
+          },
+          {
+            "title": "Weirdest Animal Relationships | Top 5 | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=s9KvEg102Tc",
+            "snippet": "the butterfly but if the grass is too long they move out so without sheep to keep the grass short they'd been around and without the ants the large bloom would be lost [Music] they are curious about things that don't benefit their survival directly [Music] the flight tailed errors found late this year and as always turkey boys vying for some reaction but this time he's bitten off more than he can chew [Music] the young deer can give as good as she gets [Music] sweet peas favorite is far more amiable the fox squirrel seems to want to play as much as she does [Music] there's no question in my mi"
+          }
+        ],
+        "summary": "The 'Top 5 Silliest Animal Moments' video on BBC Earth showcases humorous animal antics and has garnered significant views since its release."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Получить текстовое описание и информацию из найденного видео.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь информацию о видах птиц, упомянутых в видео.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "polar bears",
+            "type": "bird",
+            "evidence": "The video features various animals including polar bears, penguins, and lions."
+          },
+          {
+            "name": "penguins",
+            "type": "bird",
+            "evidence": "The video features various animals including polar bears, penguins, and lions."
+          },
+          {
+            "name": "lions",
+            "type": "bird",
+            "evidence": "The video features various animals including polar bears, penguins, and lions."
+          }
+        ],
+        "key_points": [
+          "The video showcases humorous antics of various animals.",
+          "It has garnered over 2.4 million views since its release."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2.4 million",
+            "unit": "views",
+            "context": "The video has over 2.4 million views."
+          },
+          {
+            "value": "14.2 million",
+            "unit": "subscribers",
+            "context": "The channel BBC Earth has 14.2 million subscribers."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ о виде птицы, представленном в видео.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "penguin",
+        "final_answer_strict": "penguin",
+        "used_evidence": [
+          "The video features various animals including polar bears, penguins, and lions."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1000,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "penguin",
+    "gt_norm": "rockhopper penguin"
+  }
+}

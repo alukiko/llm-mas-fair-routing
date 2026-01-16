@@ -1,0 +1,156 @@
+{
+  "id": "d700d50d-c707-4dca-90dc-4528cddd0c80",
+  "query": "Who composed the song that was performed by a rooster and a hamster in separate animated videos at separate tempos with different lyrics? Answer using the format First name Last name.",
+  "ground_truth": "Roger Miller",
+  "answer_raw": {
+    "final_answer": "Unknown composer",
+    "final_answer_strict": "Unknown",
+    "used_evidence": [
+      "No verifiable facts were found regarding a song performed by a rooster and a hamster in animated videos with varying tempos and lyrics."
+    ],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Unknown",
+  "error": null,
+  "duration_sec": 27.539419412612915,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о песне, исполненной петухом и хомяком в анимационных видео с разными темпами и текстами.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о песне, исполненной петухом и хомяком в анимационных видео с разными темпами и текстами.",
+        "facts": [],
+        "sources": [
+          {
+            "title": "AMV | Музыкальные аниме клипы | Смотреть онлайн или скачать ...",
+            "url": "https://amvnews.ru/",
+            "snippet": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "title": "Нужна помощь в определении песни из аниме, которую я знаю ...",
+            "url": "https://www.reddit.com/r/japanesemusic/comments/mmh6p9/need_help_identifying_an_anime_song_i_only_know/?tl=ru",
+            "snippet": "## Thanks for the feedback!\n\nTell us more about why this content is not helpful.\n\n# Нужна помощь в определении песни из аниме, которую я знаю только по памяти\n\nОБНОВЛЕНИЕ: ПЕСНЯ НАЙДЕНА!!!\n\nBara no Shigemi\n\nОгромнейшее спасибо всем, кто помог в этой теме!\n\nОригинальный пост ниже:\n\nПривет! Ищу помощи у знатоков аниме-музыки, чтобы разгадать музыкальную загадку. Пытаюсь найти песню, которую обожал в подростковом возрасте, а потом потерял диск много лет назад :-( Я никогда не знал названия песни и вообще ничего о ней (из какого аниме она, и всё такое) - она просто была на каком-то сборнике аниме-"
+          },
+          {
+            "title": "https://huggingface.co/blanchefort/rubert-base-cas...",
+            "url": "https://huggingface.co/blanchefort/rubert-base-cased-sentiment/commit/1c43a54f42dfa31a4be1bd6e2962172d2f40488d.diff?file=vocab.txt",
+            "snippet": "+реали +Думаю +##вшего +Ча +виду +##пор +наоборот +##ia +благодаря +завтра +принципе +##ra +##мира +##емый +##пов +##ваете +улице +скорость +тело +данные +выглядит +машину +зло +гре +народа +##ерс +оде +196 +##скому +неиз +выда +##oc +##нт +##рил +автор +добро +##чис +капита +##олог +##гер +##ЕН +##кло +##ul +22 +##мить +##вки +##торов +задумы +Именно +Ска +угодно +лицо +воды +##эр +##сторон +сро +коми +яр +Фи +дево +хватает +люб +##ствии +Согла +##ата +осу +Чи +такими +помощью +опла +##бенок +первой +##дения +193 +остальное +самых +закончи +дают +меч +стара +реш +##щен +##рели +таком +четыре "
+          },
+          {
+            "title": "«ПЕРВЫЕ ШАГИ В НАУКЕ» - integraciya.org",
+            "url": "http://integraciya.org/sborniki/pshn/PSHN-2018-2.pdf",
+            "snippet": "КАК СПАСТИ УРОЖАЙ САДА И ОГОРОДА БЕЗ ХЛОПОТ И ЗАБОТ\b 85 Баландина Дарья Юрьевна Научный руководитель Баландина Светлана Андреевна ГБПОУ «СОМК», Свердловская область, г. Ревда ИКРА – ​ НЕУЖЕЛИ, ТЫ – ​ ЯЙЦО?\b 87 Столярова Ирина Сергеевна Научный руководитель Нестерова Ирина Викторовна МБОУ Гимназия ¹ 3, Самарская область, г. Самара РОЛЬ ДОМАШНИХ ЖИВОТНЫХ В ЖИЗНИ МЛАДШИХ ШКОЛЬНИКОВ\b 87 Медведев Константин Григорьевич Научный руководитель Медведева Людмила Владимировна МБУДО «ДЮЦ г. Юрги», Кемеровская область, г. Юрга ГНЕЗДОВАНИЕ И ОСОБЕННОСТИ РАЗМНОЖЕНИЯ БОЛЬШОЙ СИНИЦЫ В ПАРКЕ СЕЛА ВЕСЕЛАЯ ЛОПАНЬ"
+          },
+          {
+            "title": "[PDF] Современные тенденции развития дошкольного и начального ...",
+            "url": "https://irorb.ru/wp-content/uploads/2024/04/sbornik-vnpk-dou-22.12.23-1.pdf",
+            "snippet": "России - гербе, флаге, гимне, знакомит с историей их возникновения в доступной для детей форме; - обогащает представления детей о том, что Россия - большая многонациональная страна, воспитывает уважение к людям разных национальностей, их культуре; - развивает интерес к жизни людей разных национальностей, проживающих на территории России, их образу жизни, традициям и способствует его выражению в различных видах деятельности детей (рисуют, играют, обсуждают); - уделяет особое внимание традициям и обычаям народов, которые проживают на территории малой родины; - обогащает представления детей о гос"
+          }
+        ],
+        "summary": "No verifiable facts were found regarding a song performed by a rooster and a hamster in animated videos with varying tempos and lyrics."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имя композитора песни из найденной информации.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "No verifiable facts were found regarding a song performed by a rooster and a hamster in animated videos with varying tempos and lyrics."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What is the name of the composer of the song performed by the rooster and hamster?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Ответить пользователю, указав имя композитора в формате 'Имя Фамилия'.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Unknown composer",
+        "final_answer_strict": "Unknown",
+        "used_evidence": [
+          "No verifiable facts were found regarding a song performed by a rooster and a hamster in animated videos with varying tempos and lyrics."
+        ],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1200,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "unknown",
+    "gt_norm": "roger miller"
+  }
+}

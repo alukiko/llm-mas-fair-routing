@@ -1,0 +1,21 @@
+{
+  "id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+  "query": "My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.",
+  "ground_truth": "2",
+  "answer_raw": null,
+  "answer_pred": "",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\3699963541.py\", line 249, in <module>\n    final_state = _run_with_trace(app, init_state, verbose=VERBOSE_STREAM)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\3699963541.py\", line 141, in _run_with_trace\n    for state in iterator:\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\__init__.py\", line 2461, in stream\n    for _ in runner.tick(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\runner.py\", line 153, in tick\n    run_with_retry(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\retry.py\", line 40, in run_with_retry\n    return task.proc.invoke(task.input, config)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 623, in invoke\n    input = context.run(step.invoke, input, config, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 377, in invoke\n    ret = self.func(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\1883359718.py\", line 295, in answer_agent_node\n    if len(strict) > 500:\n       ^^^^^^^^^^^\nTypeError: object of type 'float' has no len()\nDuring task with name 'answer_agent' and id '70753448-0d80-5c1f-ac8a-9da168992f73'\n",
+  "duration_sec": 26.29817271232605,
+  "tasks": null,
+  "resources": null,
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "2"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+  "query": "The brand that makes these harnesses the dogs are wearing in the attached pic shares stories from their ambassadors on their website. What meat is mentioned in the story added Dec 8th 2022?",
+  "ground_truth": "bacon",
+  "answer_raw": {
+    "final_answer": "not available",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": true,
+    "documents_ok_present": true,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 52.822502851486206,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "обработать прикрепленное изображение и извлечь текст или информацию о бренде",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "files_count": 1,
+        "processed": [
+          {
+            "id": "2023/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+            "name": "5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+            "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+            "mime": "",
+            "ext": ".jpg",
+            "ok": true,
+            "kind": "image",
+            "content": "```json\n{\n  \"numbers\": [],\n  \"segments\": [\n    {\n      \"orientation\": \"vertical\",\n      \"length\": 1,\n      \"near\": \"blue leash\"\n    }\n  ],\n  \"shape_description\": \"Two dogs wearing harnesses standing in a shallow stream with rocks and leaves.\",\n  \"assumptions\": [\"No numbers are visible in the image.\"]\n}\n```",
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "найти веб-сайт бренда и информацию о его амбассадорах",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти веб-сайт бренда и информацию о его амбассадорах",
+        "facts": [
+          {
+            "fact": "Амбассадор бренда представляет компанию и продвигает её товары и услуги.",
+            "source_url": "https://www.unisender.com/ru/glossary/ambassador-brenda/"
+          },
+          {
+            "fact": "Крупные бренды, такие как Cartier и Nike, выбирают известных амбассадоров, включая актеров и спортсменов.",
+            "source_url": "https://www.reg.ru/blog/ambassador-brenda-kto-eto-i-kak-ego-vybrat-dlya-svoego-biznesa/amp/"
+          },
+          {
+            "fact": "Термин 'амбассадор' происходит от французского слова, означающего 'посол' или 'посланник'.",
+            "source_url": "https://brand-hub.ru/media/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Кто такой амбассадор бренда и как им стать - Unisender",
+            "url": "https://www.unisender.com/ru/glossary/ambassador-brenda/",
+            "snippet": "Амбассадор — это представитель бренда, который продвигает его товары и услуги. Он рассказывает о компании, участвует в мероприятиях, делает обзоры на продукты,"
+          },
+          {
+            "title": "Амбассадор бренда: кто это и как его выбрать для своего бизнеса",
+            "url": "https://www.reg.ru/blog/ambassador-brenda-kto-eto-i-kak-ego-vybrat-dlya-svoego-biznesa/amp/",
+            "snippet": "### Где искать посла бренда?\n\nУ каждой компании есть свои методы поиска амбассадоров — крупные бренды выбирают известных актеров, спортсменов и исполнителей, средние бренды отдают предпочтение небольшим блогерам. Так что поиск напрямую зависит от размера бизнеса:\n\n#### Крупные компании\n\nКрупные бренд, как например Cartier, Louis Vuitton, Nike, Mail.ru Group, сотрудничают с блогерами-миллионниками, актерами, известными бизнесменами и спортсменами. Это обходится в копеечку, зато и бренд всегда на виду. Компании №1 на рынке редко сами ищут послов  — у них существуют специальные амбассадорские про"
+          },
+          {
+            "title": "Амбассадор бренда. Кто это и какова его функция? - Brand Hub",
+            "url": "https://brand-hub.ru/media/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya",
+            "snippet": "Личный кабинет\n\nСоздайте сайт вместе с Brand Hub\n\nСоздайте сайт вместе с Brand Hub\n\nНачать\n\n Профиль\n Мои проекты\n Выход\n\n Лента уведомлений 0\n\nЛичный кабинет\n\n# Амбассадор бренда. Кто это и какова его функция?\n\nТермин «амбассадор», пришедший из французского языка, в буквальном переводе означает «посол», «посланник» или «посланец». Ещё не так давно это слово в основном использовалось в сфере дипломатии и международных отношений. Но как это часто случается с узкими терминами, постепенно его стали применять в других направлениях деятельности. В частности, в начале ХХI века в маркетинге появилось"
+          },
+          {
+            "title": "Привет! Какие сайты лучше всего подходят для поиска ... - Reddit",
+            "url": "https://www.reddit.com/r/graphic_design/comments/118rgcs/hey_what_are_the_best_websites_to_find_brand/?tl=ru",
+            "snippet": "Да, пользоваться гуглом довольно просто. Многие компании можно найти, просто походив по их сайтам. Кажется, есть сайт \"branding style"
+          },
+          {
+            "title": "Глобальная база данных по брендам - WIPO",
+            "url": "https://www.wipo.int/ru/web/global-brand-database",
+            "snippet": "# Глобальная база данных по брендам\n\n### Смежные инструменты\n\n#### Глобальная система поиска терминов для товаров и услуг\n\n#### Помощник по Венской классификации\n\n## Новости\n\nТоварные знаки Шри-Ланки включены в Глобальную базу данных по брендам\n\n23 апреля 2025 г.\n\nТеперь в Глобальной базе данных по брендам доступны товарные знаки Хорватии\n\n8 июля 2025 г.\n\nТоварные знаки Норвегии теперь доступны в Глобальной базе данных по брендам.\n\n13 мая 2025 г.\n\n## Ресурсы\n\n### Часто задаваемые вопросы\n\n### Внешние базы данных по товарным знакам\n\n### Условия использования\n\n## Ссылки по теме\n\n### Об ИС\n\n### С"
+          }
+        ],
+        "summary": "Амбассадоры брендов представляют компании и помогают в продвижении их товаров, с крупными брендами, выбирающими известных личностей для этой роли."
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "извлечь истории амбассадоров с веб-сайта, особенно историю от 8 декабря 2022 года",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "Амбассадоры брендов представляют компании и помогают в продвижении их товаров.",
+          "Крупные бренды выбирают известных личностей для этой роли."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "Амбассадор бренда",
+            "definition": "Представитель бренда, который продвигает его товары и услуги.",
+            "source_url": "https://www.unisender.com/ru/glossary/ambassador-brenda/"
+          },
+          {
+            "term": "Амбассадор",
+            "definition": "Слово, происходящее от французского языка, означающее 'посол' или 'посланник'.",
+            "source_url": "https://brand-hub.ru/media/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "извлечь упоминание мяса из истории, добавленной 8 декабря 2022 года",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "предоставить ответ пользователю о мясе, упомянутом в истории",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "not available",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": true,
+        "documents_ok_present": true,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "3",
+  "files": [
+    {
+      "id": "2023/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+      "name": "5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+      "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+      "source": "gaia",
+      "mime": null,
+      "original_path": "2023/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg"
+    }
+  ],
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "bacon"
+  }
+}

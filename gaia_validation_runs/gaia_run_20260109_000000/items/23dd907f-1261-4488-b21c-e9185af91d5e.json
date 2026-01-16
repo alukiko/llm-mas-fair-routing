@@ -1,0 +1,224 @@
+{
+  "id": "23dd907f-1261-4488-b21c-e9185af91d5e",
+  "query": "In Audre Lorde’s poem “Father Son and Holy Ghost”, what is the number of the stanza in which some lines are indented?",
+  "ground_truth": "2",
+  "answer_raw": {
+    "final_answer": "The stanza with indents is not identified.",
+    "final_answer_strict": "0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Could you provide the full text of the poem 'Father Son and Holy Ghost' to identify the stanza with indents?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 37.991002321243286,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти текст стихотворения 'Father Son and Holy Ghost' Аудре Лорд",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти текст стихотворения 'Father Son and Holy Ghost' Аудре Лорд",
+        "facts": [
+          {
+            "fact": "The poem 'Father Son and Holy Ghost' is by Audre Lorde.",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The poem was published in the 'Collected Poems of Audre Lorde' in 1997.",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The speaker in the poem reflects on not having seen their father's grave.",
+            "source_url": "https://www.poeticous.com/audre-lorde/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The poem includes imagery of the father's 'judgment eyes' and 'great hands' on evening doorknobs.",
+            "source_url": "https://www.poeticous.com/audre-lorde/father-son-and-holy-ghost"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Father Son and Holy Ghost | The Poetry Foundation",
+            "url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost",
+            "snippet": "Source: Collected Poems of Audre Lorde (W. W. Norton and Company Inc., 1997) [...] pulls up the grass his stillness grows\n\ncalling it weed.\n\nEach week    a different woman\n\nhas my mother’s face\n\nand he\n\nwho time has    changeless\n\nmust be amazed\n\nwho knew and loved\n\nbut one.\n\nMy father died in silence\n\nloving creation\n\nand well-defined response\n\nhe lived    still judgments\n\non familiar things\n\nand died    knowing\n\na January 15th that year me.\n\nLest I go into dust\n\nI have not ever seen my father’s grave.\n\nCopyright Credit: Audre Lorde, “Father Son and Holy Ghost” from Collected Poems of Audre L"
+          },
+          {
+            "title": "Sonia Sanchez Reads “Father Son and Holy Ghost” by Audre Lorde",
+            "url": "https://www.youtube.com/watch?v=GicQyjVZAnQ",
+            "snippet": "1 comments\n### Transcript: [...] a january 15 that year me lest i go into dust i have not ever seen my father's grave [...] i have not ever seen my father's grave not that his judgment eyes have been forgotten nor his great hands print on our evening doorknobs one half turn each night and he would come travel with the world's business massive and silent as the whole day's wish ready to redefine each of our shapes but now the evening doorknobs wait and do not recognize us as we pass each week a different woman regular as his one quick glass each evening pulls up the grass his stillness grows ca"
+          },
+          {
+            "title": "Father Son and the Holy Ghost\" by Audre Lorde - YouTube",
+            "url": "https://www.youtube.com/watch?v=VbtVXJLsuzQ",
+            "snippet": "# NC Poetry Out Loud 2009 -\"Father Son and the Holy Ghost\" by Audre Lorde\n## NCArts\n2380 subscribers\n9 likes\n\n### Description\n1922 views\nPosted: 28 Apr 2009\nSymone Stukes, of Independence High School, recites \"Father Son and the Holy Ghost\" by Audre Lorde. \r\n\r\nSymone was one of 28 students that were semi-finalists and finalists in the statewide Poetry Out Loud competition at the Museum of History in Raleigh in a program coordinated by the NC Arts Council.\r\n\r\nSponsored by the National Endowment for the Arts and the Poetry Foundation, Poetry Out Loud encourages high school students to memorize a"
+          },
+          {
+            "title": "Father Son and Holy Ghost, by Audre Lorde - Poeticous",
+            "url": "https://www.poeticous.com/audre-lorde/father-son-and-holy-ghost",
+            "snippet": "Close\n\nen\n\nEnglish   Español   Français   Italiano\n\n#####\n\n poets\n poems\n Books\n about\n Donate\n help\n Login\n\n###### The Drifter\n\nArtist:\n\n###### Andrew Wyeth\n\nYear:\n\n###### 1964\n\nLocation:\n\n###### Private Collection\n\n### Audre Lorde\n\n## Father Son and Holy Ghost\n\nI have not ever seen my father’s grave.\n\nNot that his judgment eyes\n\nhave been forgotten\n\nnor his great hands’ print\n\non our evening doorknobs\n\none half turn each night\n\nand he would come\n\ndrabbled with the world’s business\n\nmassive and silent\n\nas the whole day’s wish\n\nready to redefine\n\neach of our shapes\n\nbut now the evening doorkno"
+          },
+          {
+            "title": "Power Summary & Analysis by Audre Lorde - LitCharts",
+            "url": "https://www.litcharts.com/poetry/audre-lorde/power",
+            "snippet": "- Lines 24-25: “trial / this”\n    - Lines 25-26: “defense / “I”\n    - Lines 26-27: “else / only”\n    - Lines 27-28: “And / there”\n    - Lines 29-30: “man / with”\n    - Lines 30-31: “forcing / was”\n    - Lines 31-32: “free / by”\n    - Lines 32-33: “satisfied / justice”\n    - Lines 33-34: “done / and”\n    - Lines 34-35: “said / “They”\n    - Lines 35-36: “meaning / they”\n    - Lines 36-37: “frame / over”\n    - Lines 37-38: “coals / of”\n    - Lines 38-39: “approval / until”\n    - Lines 39-40: “go / the”\n    - Lines 40-41: “had / and”\n    - Lines 41-42: “cement / to”\n    - Lines 43-44: “destruction"
+          }
+        ],
+        "summary": "Audre Lorde's poem 'Father Son and Holy Ghost' explores themes of memory and loss, particularly focusing on the speaker's relationship with their father."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "извлечь номера строф и информацию о том, какие строки в них отступают",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Father Son and Holy Ghost",
+            "type": "poem",
+            "evidence": "The poem 'Father Son and Holy Ghost' is by Audre Lorde."
+          },
+          {
+            "name": "Audre Lorde",
+            "type": "author",
+            "evidence": "The poem 'Father Son and Holy Ghost' is by Audre Lorde."
+          }
+        ],
+        "key_points": [
+          "The poem explores themes of memory and loss, particularly focusing on the speaker's relationship with their father."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "определить номер строфы, в которой есть отступы",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The poem 'Father Son and Holy Ghost' is structured in stanzas.",
+          "The presence of indentation or spacing in the text indicates a stanza with indents."
+        ],
+        "reasoning_steps": [
+          "Review the text of the poem 'Father Son and Holy Ghost' to identify any stanzas with indentation.",
+          "Analyze the formatting of each stanza to determine if there are any visible indents."
+        ],
+        "conclusions": [
+          "The poem contains stanzas that may have indents based on the formatting provided in the sources."
+        ],
+        "proposed_answer_outline": [
+          "Identify the specific stanza numbers that contain indentation.",
+          "Provide the text of those stanzas for verification."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Could you provide the full text of the poem 'Father Son and Holy Ghost' to identify the stanza with indents?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю о номере строфы с отступами",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "The stanza with indents is not identified.",
+        "final_answer_strict": "0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Could you provide the full text of the poem 'Father Son and Holy Ghost' to identify the stanza with indents?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "2"
+  }
+}

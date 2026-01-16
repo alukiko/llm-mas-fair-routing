@@ -1,0 +1,341 @@
+{
+  "id": "7673d772-ef80-4f0f-a602-1bf4485c9b43",
+  "query": "On Cornell Law School website's legal information institute, under the fifth section of federal rules alphabetically, what word was deleted in the last amendment to the first rule in the article that has \"witnesses\" in the most titles as of 2021?",
+  "ground_truth": "inference",
+  "answer_raw": {
+    "final_answer": "The specific word deleted is not available.",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What specific rule is being referred to?",
+      "Can you provide the previous version of the rule for comparison?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 58.45609736442566,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти сайт Cornell Law School и его Legal Information Institute.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти сайт Cornell Law School и его Legal Information Institute.",
+        "facts": [
+          {
+            "fact": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "LII provides no-cost access to current American and international legal research sources online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "LII was founded in 1992 by Peter Martin and Tom Bruce.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "LII hosts Supreme Court cases from 1990 to present in both HTML and PDF formats.",
+            "source_url": "https://guides.library.law.ua.edu/c.php?g=1380922&p=10239083"
+          },
+          {
+            "fact": "LII publishes the U.S. Code, U.S. Supreme Court opinions, and other primary law materials online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Legal Information Institute",
+            "url": "https://en.wikipedia.org/wiki/Legal_Information_Institute",
+            "snippet": "LII's Homepage.\nEdit this at Wikidata\n\nThe Legal Information Institute (LII) is a non-profit public service of Cornell Law School that provides no-cost access to current American and international legal research sources online. Founded in 1992 by Peter Martin \"Peter Martin (Law Professor)\") and Tom Bruce, LII was the first law site developed on the internet. LII electronically publishes on the Web the U.S. Code, U.S. Supreme Court opinions, Uniform Commercial Code, the US Code of Federal Regulations, several Federal Rules, and a variety of other American primary law materials. LII also provide"
+          },
+          {
+            "title": "Cornell Legal Information Institute - (Mostly) Free Resources",
+            "url": "https://guides.library.law.ua.edu/c.php?g=1380922&p=10239083",
+            "snippet": "## General\n\nCornell's Legal Information Institute is a non-profit site that is free for anyone to use. It hosts Supreme Court cases from 1990 to present in both HTML and PDF and often provides links to users looking to access various federal and state cases, statutes, and regulations. Please note that, when it comes to lower Federal and State cases, LII mostly links users to other sites where they will find the case and does not have the case itself on the site.\n\n## Supreme Court [...] ## Supreme Court\n\nIf you have an idea of what you're looking for, such as a party name, you can use the searc"
+          },
+          {
+            "title": "Cornell University Legal Information Institute - How to Find Cases",
+            "url": "https://lawlibguides.usc.edu/c.php?g=542692&p=3718870",
+            "snippet": "Cornell University Legal Information Institute - How to Find Cases - LibGuides at University of Southern California Gould School of Law\n\nSkip to Main Content\n\nImage 1: Banner\n\n1.   USC Law Library\n2.   LibGuides\n3.   How to Find Cases\n4.   Cornell University Legal Information Institute\n\nSearch this Guide  Search \n\nHow to Find Cases\n\nUse this guide to learn how to find federal and state legal cases.\n\n   Home\n   Print Resources\n   Nexis Uni\n   Internet Resources\n       Google Scholar\n       California Courts\n       FindLaw\n       Cornell University Legal Information Institute\n\nNeed help?\n\nEmail:"
+          },
+          {
+            "title": "About LII | Legal Information Institute - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/lii/about-lii",
+            "snippet": "Cornell Law School Search Cornell\n\n# About LII\n\nThanks for your interest in the Legal Information Institute (LII).\n\nYou can learn a little about our organization below. And when you're done, learn about our staff because, believe it or not, it takes the hard work of real people to maintain and improve a site as big as ours.\n\n### Our Mission:\n\nWe are a not-for-profit organization that believes everyone should be able to read and understand the laws that govern them, without cost. We carry out this vision by:\n\n Publishing law online, for free.\n Creating materials that help people understand law."
+          },
+          {
+            "title": "Legal Information Institute at Cornell - Cornell Video",
+            "url": "http://www.cornell.edu/video/legal-information-institute-at-cornell",
+            "snippet": "#### tbd\n\n### Ask a Question Successful\n\n##### Thanks, ! Your question has been submitted.\n\n## Legal Information Institute at Cornell\n\nPosted on January 16, 2011 By Law School  \n\nVideo Platform Video Management Video Solutions Video Player\n\n facebook\n twitter\n\nSD video audio\n\n|\n\n### We've received your request\n\nYou will be notified by email when the transcript and captions are available. The process may take up to 5 business days. Please contact cornellcast@cornell.edu if you have any questions about this request.\n\nThe Legal Information Institute (LII) at Cornell is a not-for-profit organizati"
+          }
+        ],
+        "summary": "The Legal Information Institute (LII) at Cornell Law School is a non-profit organization that offers free access to legal resources, including Supreme Court cases and various legal documents."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Обработать информацию с сайта о федеральных правилах, найти пятую секцию.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь правила из пятой секции и найти первый правило с 'witnesses' в заголовке.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Legal Information Institute",
+            "type": "Organization",
+            "evidence": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School."
+          },
+          {
+            "name": "Cornell Law School",
+            "type": "Educational Institution",
+            "evidence": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School."
+          }
+        ],
+        "key_points": [
+          "LII provides no-cost access to current American and international legal research sources online.",
+          "LII was founded in 1992 by Peter Martin and Tom Bruce.",
+          "LII hosts Supreme Court cases from 1990 to present in both HTML and PDF formats.",
+          "LII publishes the U.S. Code, U.S. Supreme Court opinions, and other primary law materials online."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "1992",
+            "unit": "Year",
+            "context": "Year LII was founded."
+          },
+          {
+            "value": "1990",
+            "unit": "Year",
+            "context": "Starting year for Supreme Court cases hosted by LII."
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Legal Information Institute",
+            "definition": "A non-profit public service of Cornell Law School that provides no-cost access to legal research sources online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь информацию о последнем изменении первого правила.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Legal Information Institute",
+            "type": "Organization",
+            "evidence": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School."
+          },
+          {
+            "name": "Cornell Law School",
+            "type": "Educational Institution",
+            "evidence": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School."
+          }
+        ],
+        "key_points": [
+          "LII provides no-cost access to current American and international legal research sources online.",
+          "LII was founded in 1992 by Peter Martin and Tom Bruce.",
+          "LII hosts Supreme Court cases from 1990 to present in both HTML and PDF formats.",
+          "LII publishes the U.S. Code, U.S. Supreme Court opinions, and other primary law materials online."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "1992",
+            "unit": "Year",
+            "context": "Year LII was founded."
+          },
+          {
+            "value": "1990",
+            "unit": "Year",
+            "context": "Starting year for Supreme Court cases hosted by LII."
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Legal Information Institute",
+            "definition": "A non-profit public service of Cornell Law School that provides no-cost access to legal research sources online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Определить, какое слово было удалено в последнем изменении первого правила.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The task requires identifying a word that was removed from a rule, but no specific rule is provided.",
+          "The context of the task may relate to the information about the Legal Information Institute (LII) and its operations."
+        ],
+        "reasoning_steps": [
+          "Review the provided information about the Legal Information Institute (LII).",
+          "Identify key terms or phrases that might be relevant to rules associated with the LII.",
+          "Determine if any of these terms could logically be considered for removal in a hypothetical rule."
+        ],
+        "conclusions": [
+          "Without specific rules or context, it is impossible to definitively identify which word was removed.",
+          "However, common terms associated with legal institutes such as 'non-profit', 'access', 'legal', or 'information' could be candidates for removal."
+        ],
+        "proposed_answer_outline": [
+          "Identify the context of the rule related to the LII.",
+          "Suggest potential words that could have been removed based on common legal terminology."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What specific rule is being referred to?",
+          "Can you provide the previous version of the rule for comparison?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Предоставить финальный ответ о удаленном слове.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "The specific word deleted is not available.",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What specific rule is being referred to?",
+          "Can you provide the previous version of the rule for comparison?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "inference"
+  }
+}

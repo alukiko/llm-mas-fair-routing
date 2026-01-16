@@ -1,0 +1,21 @@
+{
+  "id": "a7feb290-76bb-4cb7-8800-7edaf7954f2f",
+  "query": "How many High Energy Physics - Lattice articles listed in January 2020 on Arxiv had ps versions available?",
+  "ground_truth": "31",
+  "answer_raw": null,
+  "answer_pred": "",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\3699963541.py\", line 249, in <module>\n    final_state = _run_with_trace(app, init_state, verbose=VERBOSE_STREAM)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\3699963541.py\", line 141, in _run_with_trace\n    for state in iterator:\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\__init__.py\", line 2461, in stream\n    for _ in runner.tick(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\runner.py\", line 153, in tick\n    run_with_retry(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\retry.py\", line 40, in run_with_retry\n    return task.proc.invoke(task.input, config)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 623, in invoke\n    input = context.run(step.invoke, input, config, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 377, in invoke\n    ret = self.func(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_21032\\1883359718.py\", line 295, in answer_agent_node\n    if len(strict) > 500:\n       ^^^^^^^^^^^\nTypeError: object of type 'float' has no len()\nDuring task with name 'answer_agent' and id '9ac0be15-42e2-699d-f421-d1bf23dd1f7e'\n",
+  "duration_sec": 45.61036419868469,
+  "tasks": null,
+  "resources": null,
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "31"
+  }
+}

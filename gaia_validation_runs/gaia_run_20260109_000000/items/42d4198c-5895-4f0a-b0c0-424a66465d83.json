@@ -1,0 +1,263 @@
+{
+  "id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+  "query": "I'm curious about how much information is available for popular video games before their release. Find the Wikipedia page for the 2019 game that won the British Academy Games Awards. How many revisions did that page have before the month listed as the game's release date on that Wikipedia page (as of the most recent entry from 2022)?",
+  "ground_truth": "60",
+  "answer_raw": {
+    "final_answer": "Need release date of God of War",
+    "final_answer_strict": "0",
+    "used_evidence": [
+      "God of War won the Best Game award at the 2019 BAFTA Games Awards.",
+      "The 2019 British Academy Games Awards took place on April 4, 2019."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the release date of 'God of War'?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 39.1551730632782,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Wikipedia page for the 2019 game that won the British Academy Games Awards.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Wikipedia page for the 2019 game that won the British Academy Games Awards.",
+        "facts": [
+          {
+            "fact": "The 2019 British Academy Games Awards took place on April 4, 2019.",
+            "source_url": "https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"
+          },
+          {
+            "fact": "God of War won the Best Game award at the 2019 BAFTA Games Awards.",
+            "source_url": "https://www.ign.com/articles/2019/04/04/god-of-war-wins-best-game-at-bafta-game-awards-2019"
+          },
+          {
+            "fact": "The event was hosted by Dara Ó Briain at Queen Elizabeth Hall in London.",
+            "source_url": "https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"
+          },
+          {
+            "fact": "God of War also won awards for Music and Narrative at the 2019 BAFTA Games Awards.",
+            "source_url": "https://www.ign.com/articles/2019/04/04/god-of-war-wins-best-game-at-bafta-game-awards-2019"
+          }
+        ],
+        "sources": [
+          {
+            "title": "15th British Academy Games Awards - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards",
+            "snippet": "Game award ceremony in 2019\n\n|  |\n\n| This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"15th British Academy Games Awards\" – news · newspapers · books · scholar · JSTOR (May 2019) (Learn how and when to remove this message) |\n\n| 15th British Academy Games Awards |\n\n| Date | 4 April 2019 |\n| Location | Queen Elizabeth Hall, South Bank, London |\n| Hosted by | Dara Ó Briain |\n| Best Game | God of War \"God of War (2018 video game)\") |\n| Most awards | God"
+          },
+          {
+            "title": "God of War Wins Best Game at BAFTA Game Awards 2019 - IGN",
+            "url": "https://www.ign.com/articles/2019/04/04/god-of-war-wins-best-game-at-bafta-game-awards-2019",
+            "snippet": "Forza Horizon 4God of WarNintendo Labo Robot KitReturn of the Obra Dinn\n\n# God of War Wins Best Game at BAFTA Game Awards 2019\n\n## Return of the Obra Dinn and Nintendo Labo netted two awards each.\n\nBy Colin Stevens\n\nUpdated: Apr 4, 2019 11:02 pm\n\nPosted: Apr 4, 2019 10:15 pm\n\nThe winners of the 2019 British Academy Game Awards have been announced, with God of War taking home Best Game, Music, Narrative and more.The BAFTA event was hosted by Dara O’Briain at London’s Queen Elizabeth Hall. Other award winners include Return of the Obra Dinn for Artistic Achievement and Game Design, Fortnite for "
+          },
+          {
+            "title": "16th British Academy Games Awards - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/16th_British_Academy_Games_Awards",
+            "snippet": "| Technical Achievement    Death Stranding – Kojima Productions/Sony Interactive Entertainment   + A Plague Tale: Innocence – Asobo Studio/Focus Home Interactive   + Call of Duty: Modern Warfare \"Call of Duty: Modern Warfare (2019 video game)\") – Infinity Ward/Activision   + Control \"Control (video game)\") – Remedy Entertainment/505 Games   + Metro Exodus – 4A Games/Deep Silver   + Sekiro: Shadows Die Twice – FromSoftware/Activision | EE Mobile Game of the Year    Call of Duty: Mobile – Timi Studios/Activision   + Assemble with Care – Ustwo   + Dead Man's Phone – Electric Noir Studios   + Poké"
+          },
+          {
+            "title": "British Academy Games Awards - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/British_Academy_Games_Awards",
+            "snippet": "| 11th | 12 March 2015 | Rufus Hound | Destiny \"Destiny (video game)\") |\n| 12th | 7 April 2016 | Dara O'Brien | Fallout 4 |\n| 13th | 6 April 2017 | Danny Wallace \"Danny Wallace (humorist)\") | Uncharted 4: A Thief's End |\n| 14th | 12 April 2018 | Dara O'Brien | Troxy | What Remains of Edith Finch |\n| 15th | 4 April 2019 | Queen Elizabeth Hall | God of War \"God of War (2018 video game)\") |\n| 16th | 2 April 2020 | —N/a | Outer Wilds |\n| 17th | 25 March 2021 | Elle Osili-Wood | Hades \"Hades (video game)\") |\n| 18th | 8 April 2022 | Queen Elizabeth Hall | Returnal |\n| 19th | 30 March 2023 | Frankie "
+          },
+          {
+            "title": "British Academy Games Award for Best Game - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/British_Academy_Games_Award_for_Best_Game",
+            "snippet": "| 2010s |  2010: Mass Effect 2  2011: Portal 2  2012: Dishonored  2013: The Last of Us \"The Last of Us (video game)\")  2014: Destiny \"Destiny (video game)\")  2015: Fallout 4  2016: Uncharted 4: A Thief's End  2017: What Remains of Edith Finch  2018: God of War \"God of War (2018 video game)\")  2019: Outer Wilds |\n| 2020s |  2020: Hades \"Hades (video game)\")  2021: Returnal \"Returnal (video game)\")  2022: Vampire Survivors  2023: Baldur's Gate 3  2024: Astro Bot | [...] Since its inception, the award has been given to 21 games. As developers, Valve and Naughty Dog have received the most awards i"
+          }
+        ],
+        "summary": "The 2019 British Academy Games Awards recognized God of War as the Best Game, with the ceremony held on April 4, 2019, hosted by Dara Ó Briain."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the Wikipedia page to extract the release date and the number of revisions.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the release date and the number of revisions from the processed Wikipedia page.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "God of War",
+            "type": "video game",
+            "evidence": "God of War won the Best Game award at the 2019 BAFTA Games Awards."
+          }
+        ],
+        "key_points": [
+          "The 2019 British Academy Games Awards recognized God of War as the Best Game.",
+          "The ceremony was held on April 4, 2019."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "4",
+            "unit": "April",
+            "context": "Release date of the 2019 British Academy Games Awards"
+          },
+          {
+            "value": "2019",
+            "unit": "year",
+            "context": "Year of the 2019 British Academy Games Awards"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "reason",
+      "description": "Determine how many revisions occurred before the release date based on the extracted data.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The release date of the game 'God of War' is assumed to be prior to the 2019 British Academy Games Awards, which took place on April 4, 2019."
+        ],
+        "reasoning_steps": [
+          "Identify the release date of 'God of War'.",
+          "Determine the number of revisions that occurred before the release date."
+        ],
+        "conclusions": [
+          "Without the specific release date of 'God of War', it is impossible to determine the exact number of revisions that occurred before the release date."
+        ],
+        "proposed_answer_outline": [
+          "The release date of 'God of War' needs to be identified to ascertain the number of revisions.",
+          "If the release date is known, the number of revisions can be calculated based on the timeline leading up to the release."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the release date of 'God of War'?"
+        ]
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the final answer regarding the number of revisions before the game's release date.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Need release date of God of War",
+        "final_answer_strict": "0",
+        "used_evidence": [
+          "God of War won the Best Game award at the 2019 BAFTA Games Awards.",
+          "The 2019 British Academy Games Awards took place on April 4, 2019."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the release date of 'God of War'?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "60"
+  }
+}

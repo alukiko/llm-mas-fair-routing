@@ -1,0 +1,203 @@
+{
+  "id": "ecbc4f94-95a3-4cc7-b255-6741a458a625",
+  "query": "How many images are there in the latest 2022 Lego english wikipedia article?",
+  "ground_truth": "13",
+  "answer_raw": {
+    "final_answer": "Unknown",
+    "final_answer_strict": "0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "How many images are in the 2022 Lego English Wikipedia article?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 29.804503440856934,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти статью о Lego на английском языке в Википедии за 2022 год.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти статью о Lego на английском языке в Википедии за 2022 год.",
+        "facts": [
+          {
+            "fact": "The LEGO Group was founded by Ole Kirk Christiansen on August 10, 1932.",
+            "source_url": "https://simple.wikipedia.org/wiki/Lego"
+          },
+          {
+            "fact": "The name 'Lego' comes from the Danish phrase 'leg godt', meaning 'play well'.",
+            "source_url": "https://simple.wikipedia.org/wiki/Lego"
+          },
+          {
+            "fact": "In 2022, LEGO reported strong growth and invested in future initiatives.",
+            "source_url": "https://en.wikipedia.org/wiki/Lego_Icons"
+          },
+          {
+            "fact": "LEGO's headquarters is located in Billund, Denmark.",
+            "source_url": "https://ru.wikipedia.org/wiki/Lego_Group"
+          },
+          {
+            "fact": "In 2022, LEGO released several new sets, including '90 Years of Play' and 'Creative Monsters'.",
+            "source_url": "https://brickipedia.fandom.com/wiki/2022"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Lego - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/Lego",
+            "snippet": "22. ↑ Classroom Solutions for STEM and STEAM (амер. англ.). LEGO® Education. Дата обращения: 27 января 2022. Архивировано 27 января 2022 года.\n23. ↑ National Toy Hall of Fame (амер. англ.). The Strong National Museum of Play. Дата обращения: 27 января 2022. Архивировано 27 января 2022 года.\n24. ↑ 1 2 Company Profile An Introduction to the LEGO Group 2010  (PDF) 22. The Lego Group (2010). Дата обращения: 7 мая 2013. Архивировано 11 мая 2013 года.\n25. ↑ LEGO Glossary, Acronyms & AFOL Language . thebrickblogger.com. Дата обращения: 27 января 2022. Архивировано 12 июня 2018 года.\n26. ↑ Ali Roshanz"
+          },
+          {
+            "title": "Lego - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Lego",
+            "snippet": "## Background\n\n[change | change source]\n\nThe LEGO Group was started by Ole Kirk Christiansen, a Danish toy maker, on August 10, 1932. In 1934, his company came to be called \"Lego\", a word coming from the Danish phrase leg godt da, which means \"play well\". Christiansen made wooden toys for children. He made and sold his first plastic LEGO sets in the 1940s. Since then, LEGO has become very popular and is known and loved by people around the world kids and adults alike.\n\nThe company is based in Billund and is owned by Kirkbi, the family company. In 2006, sales were about $1.3 billion. In 2022, t"
+          },
+          {
+            "title": "Lego Icons - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lego_Icons",
+            "snippet": "15. ^ \"The Lego Group delivers top line growth in H1 2022 while accelerating strategic growth initiatives\". Lego.com. Lego. 28 September 2022. Retrieved 29 September 2022.\n16. ^ \"The biggest Lego sets of all time – February 2023\". Brick Fanatics. 11 February 2023.\n17. ^ \"The Lego Group delivers strong growth in 2022 and invests in the future\". Lego.com. Lego. 7 March 2023. Retrieved 7 March 2023.\n18. ^ \"The Lego Group outpaces toy industry in H1 2023 while accelerating long-term growth initiatives\". Lego.com. Lego. 30 August 2023. Retrieved 30 August 2023.\n19. ^ \"2019 TOTY Winners\". The Toy As"
+          },
+          {
+            "title": "Lego Group - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/Lego_Group",
+            "snippet": "|  |\n| Штаб-квартира в Биллунде |\n| Тип | частная компания |\n| Дата основания | 1932; 94 года назад (1932) |\n| Основатели | Оле Кирк Кристиансен |\n| Расположение | Дания: Биллунд |\n| Ключевые фигуры | Томас Кирк Кристиансен (председатель совета директоров) Нильс Кристиансен (CEO) |\n| Отрасль | производство игрушек |\n| Продукция \"Продукт (бизнес)\") | блочные конструкторы \"Конструктор (игрушка)\") |\n| Собственный капитал | ▲ 41,77 млрд крон (2024) |\n| Оборот | ▲ 74,33 млрд крон (2024) |\n| Операционная прибыль | ▲ 18,74 млрд крон (2024) |\n| Чистая прибыль | ▲ 13,79 млрд крон (2024) |\n| Активы | ▲ "
+          },
+          {
+            "title": "2022 | Brickipedia - Fandom",
+            "url": "https://brickipedia.fandom.com/wiki/2022",
+            "snippet": "|  |  |  |  |  |  |  |\n ---  ---  --- \n| Image | # | Set | Pieces | Figures | Price | Released |\n| 11017 | Creative Monsters | 140 | N/A | $9.99 / €9.99 | March 1, 2022 |\n| 11018 | Creative Ocean Fun | 333 | N/A | $19.99 / €19.99 | March 1, 2022 |\n| 11019 | Bricks and Functions | 500 | N/A | $29.99 / €29.99 | March 1, 2022 |\n| 11020 | Build Together | 1601 | N/A | $99.99 / €99.99 | June 1, 2022 August 1, 2022 (North America) |\n| 11021 | 90 Years of Play | 1100 | N/A | $49.99 / €49.99 | May 1, 2022 |\n| 11022 | Space Mission | 1700 | N/A | $69.99 / €79.99 | June 1, 2022 July 1, 2022 (North Ameri"
+          }
+        ],
+        "summary": "The LEGO Group, founded in 1932, has seen significant growth in 2022, releasing new sets and continuing its legacy of creativity and play."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Обработать найденную статью и извлечь текст и изображения.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь количество изображений из текста статьи.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "The LEGO Group was founded in 1932.",
+          "In 2022, LEGO reported strong growth and released several new sets."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ о количестве изображений в статье.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Unknown",
+        "final_answer_strict": "0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "How many images are in the 2022 Lego English Wikipedia article?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "13"
+  }
+}

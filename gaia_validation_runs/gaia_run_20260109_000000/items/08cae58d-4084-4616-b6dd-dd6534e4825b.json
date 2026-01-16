@@ -1,0 +1,246 @@
+{
+  "id": "08cae58d-4084-4616-b6dd-dd6534e4825b",
+  "query": "According to Google Finance, when was the first year the Apple stock went above $50 (without adjusting for stock split)?",
+  "ground_truth": "2018",
+  "answer_raw": {
+    "final_answer": "First year Apple stock exceeded $50 is unknown.",
+    "final_answer_strict": "unknown",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the historical price data for Apple Inc. (AAPL) to determine when it first exceeded $50?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "unknown",
+  "error": null,
+  "duration_sec": 42.416882038116455,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о ценах акций Apple на Google Finance.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о ценах акций Apple на Google Finance.",
+        "facts": [
+          {
+            "fact": "Цена акций Apple (AAPL) составляет $260,33.",
+            "source_url": "https://www.rbc.ru/quote/ticker/177174"
+          },
+          {
+            "fact": "Акции Apple торгуются на бирже NASDAQ.",
+            "source_url": "https://www.rbc.ru/quote/ticker/177174"
+          },
+          {
+            "fact": "Цена акций Apple упала на 0,77%.",
+            "source_url": "https://www.rbc.ru/quote/ticker/177174"
+          },
+          {
+            "fact": "Google Finance предоставляет данные о текущей цене акций с задержкой до 20 минут.",
+            "source_url": "https://support.google.com/docs/answer/3093281?hl=en"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Акции Apple (AAPL) - Investing.com",
+            "url": "https://ru.investing.com/equities/apple-computer-inc",
+            "snippet": "# Apple Inc (AAPL)\n\nКотировки акций Apple Inc сегодня онлайн и другая финансовая информация, включая курс акций, цену закрытия предыдущего дня, объем, изменение за год, дневной диапазон, диапазон за 52 недели, рыночную капитализацию, доход, дивиденды и другое. Получите более подробную информацию Apple (ISIN: US0378331005) в одном из следующих разделов: «Прошлые данные», «Графики», «Технический анализ» и других. [...] ### Каков текущий статус торговли Apple (AAPL)?\n\nПо состоянию на 27 дек. 2025 г. Apple (AAPL) торгуется по цене 273,40, предыдущая цена закрытия — 273,81. Цена акции в суточном ди"
+          },
+          {
+            "title": "GOOGLEFINANCE - Google Docs Editors Help",
+            "url": "https://support.google.com/docs/answer/3093281?hl=en",
+            "snippet": "Not all futures are supported at this time.\n\n   `attribute` - [ OPTIONAL - `\"price\"` by default ] - The attribute to fetch about `ticker` from Google Finance and is required if a date is specified.\n\n       `attribute` is one of the following for real-time data:\n\n           `\"price\"` - Real-time price quote, delayed by up to 20 minutes.\n\n           `\"priceopen\"` - The price as of market open.\n\n           `\"high\"` - The current day's high price.\n\n           `\"low\"` - The current day's low price.\n\n           `\"volume\"` - The current day's trading volume.\n\n           `\"marketcap\"` - The market cap"
+          },
+          {
+            "title": "Apple Inc (AAPL) Stock Price & News - Google Finance",
+            "url": "https://www.google.com/finance/quote/AAPL:VIE?hl=en",
+            "snippet": "166,000\n\nDiscover more\n\nYou may be interested in\n\ninfo\n\nThis list is generated from recent searches, followed securities, and other activity. Learn more  \n  \nAll data and information is provided “as is” for personal informational purposes only, and is not intended to be financial advice nor is it for trading purposes or investment, tax, legal, accounting or other advice. Google is not an investment adviser nor is it a financial adviser and expresses no view, recommendation or opinion with respect to any of the companies included in this list or any securities issued by those companies. Please "
+          },
+          {
+            "title": "Apple Inc (AAPL) Stock Price & News - Google Finance",
+            "url": "https://www.google.com/finance/quote/AAPL:NASDAQ?hl=en",
+            "snippet": "166,000\n\nDiscover more\n\nYou may be interested in\n\ninfo\n\nThis list is generated from recent searches, followed securities, and other activity. Learn more  \n  \nAll data and information is provided “as is” for personal informational purposes only, and is not intended to be financial advice nor is it for trading purposes or investment, tax, legal, accounting or other advice. Google is not an investment adviser nor is it a financial adviser and expresses no view, recommendation or opinion with respect to any of the companies included in this list or any securities issued by those companies. Please "
+          },
+          {
+            "title": "Акции Apple: цена AAPL сегодня на графике онлайн ... - РБК",
+            "url": "https://www.rbc.ru/quote/ticker/177174",
+            "snippet": "Инвестиции\n\nСкрыть баннеры\n\nГлавное меню\n\nrbc.group\n\nГлавное   Каталог   Советы   Словарь\n\n# Акции Apple\n\nApple   AAPL\n\n$260,33   (-0,77%)\n\nВсе время\n\nАкции американской транснациональной корпорации Apple с первичным листингом на бирже NASDAQ.\n\nО компании Apple — американская транснациональная корпорация, основана в 1976 году, штаб-квартира в Калифорнии. Производит и продает электронику, персональные и планшетные компьютеры, телефоны, программное обеспечение и онлайн сервисы. Продукцией Apple пользуется каждый десятый житель Земли\n\nApple   $260,33    AAPL     -0,77%\n\nЧто сделал Тим Кук для App"
+          }
+        ],
+        "summary": "Текущая цена акций Apple составляет $260,33, с падением на 0,77%. Акции торгуются на NASDAQ, а данные на Google Finance могут быть с задержкой до 20 минут."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь данные о ценах акций Apple, чтобы определить первый год, когда цена превысила $50.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Apple Inc.",
+            "type": "Company",
+            "evidence": "Акции американской транснациональной корпорации Apple с первичным листингом на бирже NASDAQ."
+          },
+          {
+            "name": "AAPL",
+            "type": "Stock Ticker",
+            "evidence": "Акции Apple (AAPL) торгуются на бирже NASDAQ."
+          }
+        ],
+        "key_points": [
+          "Текущая цена акций Apple составляет $260,33.",
+          "Акции торгуются на NASDAQ.",
+          "Цена акций Apple упала на 0,77%.",
+          "Данные на Google Finance могут быть с задержкой до 20 минут."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "260.33",
+            "unit": "USD",
+            "context": "Текущая цена акций Apple"
+          },
+          {
+            "value": "0.77",
+            "unit": "%",
+            "context": "Изменение цены акций Apple"
+          }
+        ],
+        "definitions": [
+          {
+            "term": "NASDAQ",
+            "definition": "Национальная ассоциация дилеров по ценным бумагам, автоматизированная биржа."
+          }
+        ],
+        "open_questions": [
+          "Какой был первый год, когда цена акций Apple превысила $50?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о первом году, когда цена акций Apple превысила $50.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "Historical price data for Apple Inc. (AAPL) is available and can be accessed to determine when the stock price first exceeded $50."
+        ],
+        "reasoning_steps": [
+          "The current price of Apple shares is $260.33, indicating that the stock has significantly increased in value over time.",
+          "To find the first year when the price exceeded $50, historical data needs to be examined.",
+          "Assuming that the price data is available, we can analyze the historical prices to identify the first instance of exceeding $50."
+        ],
+        "conclusions": [
+          "Without direct access to historical price data, the exact year when Apple shares first exceeded $50 cannot be determined from the current information."
+        ],
+        "proposed_answer_outline": [
+          "1. Access historical price data for Apple Inc. (AAPL).",
+          "2. Identify the first year when the stock price exceeded $50.",
+          "3. Provide the year as the answer."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the historical price data for Apple Inc. (AAPL) to determine when it first exceeded $50?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Предоставить финальный ответ пользователю о первом году, когда акции Apple превысили $50.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "First year Apple stock exceeded $50 is unknown.",
+        "final_answer_strict": "unknown",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the historical price data for Apple Inc. (AAPL) to determine when it first exceeded $50?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "unknown",
+    "gt_norm": "2018"
+  }
+}

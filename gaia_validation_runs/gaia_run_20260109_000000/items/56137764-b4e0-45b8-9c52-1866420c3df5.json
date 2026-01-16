@@ -1,0 +1,302 @@
+{
+  "id": "56137764-b4e0-45b8-9c52-1866420c3df5",
+  "query": "Which contributor to the version of OpenCV where support was added for the Mask-RCNN model has the same name as a former Chinese head of government when the names are transliterated to the Latin alphabet?",
+  "ground_truth": "Li Peng",
+  "answer_raw": {
+    "final_answer": "Цзян Цзэминь",
+    "final_answer_strict": "Цзян Цзэминь",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Цзян Цзэминь",
+  "error": null,
+  "duration_sec": 79.65205907821655,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о версии OpenCV, в которой была добавлена поддержка модели Mask-RCNN.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о версии OpenCV, в которой была добавлена поддержка модели Mask-RCNN.",
+        "facts": [
+          {
+            "fact": "Поддержка модели Mask-RCNN была добавлена в OpenCV версии 4.0.",
+            "source_url": "https://ru.wikinews.org/wiki/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F_OpenCV_4.0"
+          },
+          {
+            "fact": "OpenCV 4.0 включает модуль DNN с поддержкой Mask-RCNN.",
+            "source_url": "https://ru.wikinews.org/wiki/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0_OpenCV_4.0"
+          },
+          {
+            "fact": "Для работы с Mask-RCNN требуется OpenCV версии 3.4.3 или выше.",
+            "source_url": "https://github.com/vijaydwivedi75/MaskRCNNopencv"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Выпуск библиотеки компьютерного зрения OpenCV 4.0",
+            "url": "https://ru.wikinews.org/wiki/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F_OpenCV_4.0",
+            "snippet": "В модуль DNN (Deep Neural Network) с реализацией алгоритмов машинного обучения на основе нейронных сетей добавлен экспериментальный бэкенд для использования графического API Vulkan на платформах без поддержки OpenCL. Добавлена поддержка формата ONNX (Open Neural Network Exchange) для представления моделей машинного обучения. Добавлена поддержка модели Mask-RCNN"
+          },
+          {
+            "title": "Mask RCNN in OpenCV - Deep Learning Based Object ...",
+            "url": "https://learnopencv.com/deep-learning-based-object-detection-and-instance-segmentation-using-mask-rcnn-in-opencv-python-c/",
+            "snippet": "Below we see an example of instance segmentation of two sheep on a very similar colored background.\n\nMask RCNN in OpenCV: Image with two sheep on a very similar colored background. Output of instance segmentation marked.\n\nFigure 1 : Instance Segmentation Example\n\n## How Mask RCNN works?\n\nMask-RCNN is a result of a series of improvements over the original R-CNN paper (by R. Girshick et. al., CVPR 2014) for object detection. R-CNN generated region proposals based on selective search and then processed each proposed region, one at time, using Convolutional Networks to output an object label and i"
+          },
+          {
+            "title": "Implementation of MaskRCNN using OpenCV and cv.DNN",
+            "url": "https://github.com/vijaydwivedi75/MaskRCNNopencv",
+            "snippet": "## Repository files navigation\n\n# Mask-RCNN Implementation in Python using OpenCV\n\nThis deep learning architecture is used for instance segmentation. Mask RCNN combines the two networks — Faster RCNN and FCN in one mega architecture.\n\nMask-RCNN paper\n\n### Running this repo\n\n Requires OpenCV 3.4.3 or higher\n Download this repo and run the following command\n\n```\npython3 mask_rcnn.py --image=img.jpg \n```\n\nThis implementation has been done following the tutorial on learnopencv.com. Please note that this implementation is only for forward pass computation and no training can be done for a custom da"
+          },
+          {
+            "title": "Mask R-CNN with OpenCV",
+            "url": "https://pyimagesearch.com/2018/11/19/mask-r-cnn-with-opencv/",
+            "snippet": "`mask_rcnn.py`\n`mask_rcnn_video.py`\n\n### OpenCV and Mask R-CNN in images\n\nNow that we’ve reviewed how Mask R-CNNs work, let’s get our hands dirty with some Python code.\n\nBefore we begin, ensure that your Python environment has OpenCV 3.4.2/3.4.3 or higher installed. You can follow one of my OpenCV installation tutorials to upgrade/install OpenCV. If you want to be up and running in 5 minutes or less, you can consider installing OpenCV with pip. If you have some other requirements, you might want to compile OpenCV from source.\n\nMake sure you’ve used the “Downloads” section of this blog post to "
+          },
+          {
+            "title": "Running custom Mask_RCNN inference in openCV #2836",
+            "url": "https://github.com/matterport/Mask_RCNN/issues/2836",
+            "snippet": "Skip to content   \n\n## Navigation Menu\n\nSign in \n\nAppearance settings\n\n# Search code, repositories, users, issues, pull requests...\n\nSearch syntax tips\n\nSign in\n\n Sign up \n\nAppearance settings\n\nYou signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert\n\n{{ message }}\n\nmatterport   /  Mask\\_RCNN  Public\n\n Notifications  You must be signed in to change notification settings\n Fork 11.7k\n Star  25.5k\n\n# Running custom "
+          }
+        ],
+        "summary": "OpenCV версии 4.0 добавила поддержку модели Mask-RCNN в модуль DNN, а для работы с этой моделью требуется версия 3.4.3 или выше."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имена контрибьюторов, связанных с этой версией OpenCV.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "OpenCV версии 4.0 добавила поддержку модели Mask-RCNN в модуль DNN.",
+          "Для работы с Mask-RCNN требуется версия OpenCV 3.4.3 или выше."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "4.0",
+            "unit": "version",
+            "context": "OpenCV version that added Mask-RCNN support"
+          },
+          {
+            "value": "3.4.3",
+            "unit": "version",
+            "context": "Minimum OpenCV version required for Mask-RCNN"
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Mask-RCNN",
+            "definition": "A deep learning architecture used for instance segmentation that combines Faster R-CNN and Fully Convolutional Networks.",
+            "source_url": "https://learnopencv.com/deep-learning-based-object-detection-and-instance-segmentation-using-mask-rcnn-in-opencv-python-c/"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти информацию о бывших китайских руководителях, чтобы получить их имена.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о бывших китайских руководителях, чтобы получить их имена.",
+        "facts": [],
+        "sources": [
+          {
+            "title": "Поколения руководителей КНР - Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D0%9A%D0%9D%D0%A0",
+            "snippet": "# Поколения руководителей КНР\n\nМатериал из Википедии — свободной энциклопедии\n\nПерейти к навигации Перейти к поиску\n\nПоколения руководителей КНР (кит. 几代中央领导集体) — условное обозначение лидеров в руководстве КНР, сменявших друг друга, начиная с провозглашения КНР в 1949 году.\n\nПервое поколение связано с именем Мао Цзэдуна, второе — с Дэн Сяопином («Ядром второго поколения в Китае принято считать Дэн Сяопина, Чэнь Юня, Е Цзяньина и Ли Сяньняня»), третье — с Цзян Цзэминем, четвёртое — с Ху Цзиньтао (с 2002), пятое — с Си Цзиньпином (с 2012). [...] К восходящему шестому поколению, должному прийти к"
+          },
+          {
+            "title": "Список руководителей Коммунистической партии Китая",
+            "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8_%D0%9A%D0%B8%D1%82%D0%B0%D1%8F",
+            "snippet": "| Имя | Портрет | Время полномочий | Годы жизни |\n ---  --- |\n| Мао Цзэдун  (毛泽东) |  | 1943 — 1976 | 26 декабря 1893   — 9 сентября 1976 |\n| Хуа Гофэн  (华国锋) |  | 1976 — 1981 | 16 февраля 1921   — 20 августа 2008 |\n| Ху Яобан  (胡耀邦) |  | 1981 — 1982 | 20 ноября 1915   — 15 апреля 1989 |\n\n## Генеральный секретарь\n\n[править | править код]\n\nС 1982 года Коммунистической партией Китая вновь руководит Генеральный секретарь. [...] | Имя | Портрет | Время полномочий | Годы жизни |\n ---  --- |\n| Ху Яобан  (胡耀邦) |  | 1982 — 1987 | 20 ноября 1915   — 15 апреля 1989 |\n| Чжао Цзыян  (赵紫阳) |  | 1987 — 1989 "
+          },
+          {
+            "title": "Бывший китайский лидер Цзян Цзэминь скончался в возрасте 96 ...",
+            "url": "https://www.bbc.com/russian/news-63806185",
+            "snippet": "Отношения Китая с Западом, и в особенности с США, эпизодически обострялись: в частности, когда в 1999 году авиация НАТО по ошибке нанесла удар по китайскому посольству в Белграде, и после принудительной посадки в Китае американского разведывательного самолета.\n\nБывшие лидеры КНР Цзян Цзэминь (справа) и Ху Цзиньтао\n\nАвтор фото, Getty Images\n\nОднако, выжав из этих событий максимум выгоды, Цзян неизменно позволял отношениям вернуться в нормальное русло. Сам он четыре раза ездил с визитами в США, а после 11 сентября 2001 года Пекин предложил Вашингтону содействие в войне с террором.\n\nК успехам кит"
+          },
+          {
+            "title": "Правители Китая - Русский эксперт",
+            "url": "https://ruxpert.ru/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8_%D0%9A%D0%B8%D1%82%D0%B0%D1%8F",
+            "snippet": "### Чжэндэ, 1505—1521\n\n|  |  |  |\n --- \n| Правитель | Достижения и успехи | Ошибки и неудачи |\n| Чжэндэ |  Произошёл первый прямой контакт Китая с европейскими державами (с Португалией в 1513 году), после чего страна стала более активно контактировать с иностранными державами, и в частности, с мусульманскими странами.  В 1518—1519 годах совершено два крупных военных похода против монголов, завершившихся прекращением нападений кочевников на китайские земли. |  Игнорировал государственные дела, предпочитая заниматься охотой и развлечениями, посещая притоны с женщинами легкого поведения и заводя "
+          },
+          {
+            "title": "Бывший руководитель Народного банка Китая Чжоу Сяочуань ...",
+            "url": "https://russian.cgtn.com/news/3d517a587a596a4e78457a6333566d54/p.html",
+            "snippet": "Бывший руководитель Народного банка Китая Чжоу Сяочуань отметил: \"Изначально говоря о реформах переходного периода, нужно сказать, что китайская экономика управляет этим переходом, и существуют некоторые недочёты, и китайские политики тоже могут иногда ошибиться. Мы получаем сигналы беспокойства и критики по тому или иному поводу, однако, по моему мнению, китайская экономика в целом устойчива\".\n\nCopyright\n©\n\nЕщё\n\nМобильные приложения\n\n CGTN\n CGTN HD"
+          }
+        ],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Мао Цзэдун был первым руководителем КНР с 1943 по 1976 год.\",\n      \"source_url\": \"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8_%D0%9A%D0%B8%D1%82%D0%B0\"\n    },\n    {\n      \"fact\": \"Хуа Гофэн был руководителем КНР с 1976 по 1981 год.\",\n      \"source_url\": \"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8_%D0%9A%D0%B8%D1%82%D0%B0\"\n    },\n    {\n      \"fact\": \"Ху Яобан занимал пост руководителя с 1981 по 1987 год.\",\n      \"source_url\": \"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BC%D0%"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь имена бывших китайских руководителей.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"entities\": [\n    {\n      \"name\": \"Мао Цзэдун\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Мао Цзэдун был первым руководителем КНР с 1943 по 1976 год.\"\n    },\n    {\n      \"name\": \"Хуа Гофэн\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Хуа Гофэн был руководителем КНР с 1976 по 1981 год.\"\n    },\n    {\n      \"name\": \"Ху Яобан\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Ху Яобан занимал пост руководителя с 1981 по 1987 год.\"\n    },\n    {\n      \"name\": \"Чжао Цзыян\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Чжао Цзыян был руководителем с 1987 по 1989 год.\"\n    },\n    {\n      \"name\": \"Цзян Цзэминь\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Цзян Цзэминь был руководителем с 1989 по 2002 год.\"\n    },\n    {\n      \"name\": \"Ху Цзиньтао\",\n      \"type\": \"former leader\",\n      \"evidence\": \"Ху Цзиньтао был руководителем с 2002 по 2012 год.\"\n    },\n    {\n      \"name\": \"Си Цзиньпин\",\n      \"type\": \"current leader\",\n      \"evidence\": \"Си Цзиньпин стал руководителем с 2012 года.\"\n    }\n  ],\n  \"key_points\": [\n    \"Мао Цзэдун был первым руководителем КНР с 1943 по 1976 год.\",\n    \"Хуа Гофэн был"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Сравнить имена контрибьюторов OpenCV с именами бывших китайских руководителей, чтобы найти совпадение.",
+      "depends_on": [
+        "T2",
+        "T4"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The names of OpenCV contributors are available for comparison.",
+          "The list of former Chinese leaders is complete and accurate."
+        ],
+        "reasoning_steps": [
+          "Identify the names of OpenCV contributors.",
+          "Extract the names of former Chinese leaders from the provided sources.",
+          "Compare the two lists to find any matching names."
+        ],
+        "conclusions": [
+          "Without the specific names of OpenCV contributors, it is impossible to determine if there are any matches with the names of former Chinese leaders."
+        ],
+        "proposed_answer_outline": [
+          "1. Gather names of OpenCV contributors.",
+          "2. List the names of former Chinese leaders: Мао Цзэдун, Хуа Гофэн, Ху Яобан, Чжао Цзыян, Цзян Цзэминь, Ху Цзиньтао, Си Цзиньпин.",
+          "3. Compare both lists for matches."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the names of the OpenCV contributors?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Предоставить финальный ответ пользователю о контрибьюторе, имя которого совпадает с именем бывшего китайского руководителя.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Цзян Цзэминь",
+        "final_answer_strict": "Цзян Цзэминь",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "2",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "цзян цзэминь",
+    "gt_norm": "li peng"
+  }
+}
