@@ -1,0 +1,191 @@
+{
+  "id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+  "query": "In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.",
+  "ground_truth": "THE CASTLE",
+  "answer_raw": {
+    "final_answer": "Ниспосланный с небес",
+    "final_answer_strict": "Ниспосланный с небес",
+    "used_evidence": [
+      "11 эпизод 9 сезона называется 'Ниспосланный с небес'."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Как называется локация в первом заголовке сцены 11 эпизода 9 сезона Доктора Кто?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Ниспосланный с небес",
+  "error": null,
+  "duration_sec": 30.50801682472229,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "найти официальный сценарий 11 эпизода 9 сезона Doctor Who",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "найти официальный сценарий 11 эпизода 9 сезона Doctor Who",
+        "facts": [],
+        "sources": [
+          {
+            "title": "Оно уносит тебя | Вики Доктор Кто",
+            "url": "https://tardis.fandom.com/ru/wiki/%25D0%259E%25D0%25BD%25D0%25BE_%25D1%2583%25D0%25BD%25D0%25BE%25D1%2581%25D0%25B8%25D1%2582_%25D1%2582%25D0%25B5%25D0%25B1%25D1%258F",
+            "snippet": "Оно уносит тебя — 9 эпизод 11 сезона возобновлённого «Доктора Кто», показанный 2 декабря 2018 года. В этой серии была введена концепция Солитракта ..."
+          },
+          {
+            "title": "Ниспосланный с небес | Вики Доктор Кто | Fandom",
+            "url": "https://tardis.fandom.com/ru/wiki/%D0%9D%D0%B8%D1%81%D0%BF%D0%BE%D1%81%D0%BB%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81_%D0%BD%D0%B5%D0%B1%D0%B5%D1%81",
+            "snippet": "Ниспосланный с небес (встречается также перевод Благими намерениями) — 11 эпизод 9 сезона возобновлённого « Доктора Кто », премьера которого состоялась 28 ноября 2015 года."
+          },
+          {
+            "title": "Доктор Кто (9-й сезон) — Википедия",
+            "url": "https://ru.wikipedia.org/wiki/Доктор_Кто_(9-й_сезон)",
+            "snippet": "Первая читка сценария состоялась 18 декабря 2014 года. В начале января 2015 года появилась информация о том, что режиссёр Дэниел О’Хара снимет два 50-минутных эпизода для сезона, что позднее подтвердил официальный ..."
+          },
+          {
+            "title": "Доктор Кто (9-й сезон)",
+            "url": "https://ru.wikipedia.org/wiki/%25D0%2594%25D0%25BE%25D0%25BA%25D1%2582%25D0%25BE%25D1%2580_%25D0%259A%25D1%2582%25D0%25BE_(9-%25D0%25B9_%25D1%2581%25D0%25B5%25D0%25B7%25D0%25BE%25D0%25BD)",
+            "snippet": "Стивен Моффат написал сценарии для четырёх серий и стал соавтором ещё двух. Другими авторами сценариев данного сезона являются Тоби Уитхауз, Джейми Мэтисон, ..."
+          },
+          {
+            "title": "Doctor Who: гид по сериям 9 сезона от Стивена Моффата",
+            "url": "https://british-cinema.livejournal.com/305999.html",
+            "snippet": "Где же Доктор? Небеса планеты Земля застывают, и Клара Освальд вступает в опасный союз. Доктор исчез из Вселенной — ни друзья, ни враги не могут его найти."
+          }
+        ],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"11 эпизод 9 сезона называется 'Ниспосланный с небес'.\",\n      \"source_url\": \"https://tardis.fandom.com/ru/wiki/%D0%9D%D0%B8%D1%81%D0%BF%D0%BE%D1%81%D0%BB%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81_%D0%BD%D0%B5%D0%B1%D0%B5%D1%81\"\n    },\n    {\n      \"fact\": \"Премьера 'Ниспосланного с небес' состоялась 28 ноября 2015 года.\",\n      \"source_url\": \"https://tardis.fandom.com/ru/wiki/%D0%9D%D0%B8%D1%81%D0%BF%D0%BE%D1%81%D0%BB%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81_%D0%BD%D0%B5%D0%B1%D0%B5%D1%81\"\n    },\n    {\n      \"fact\": \"Стивен Моффат написал сценарии для четырёх серий 9 сезона.\",\n      \"source_url\": \"https://ru.wikipedia.org/wiki/%25D0%2594%25D0%25BE%25D0%25BA%25D1%2582%25D0%25BE%25D1%2580_%25D0%259A%25D1%2582%25D0%25BE_(9-%25D0%25B9_%25D1%2581%25D0%25B5%25D0%25B7%25D0%25BE%25D0%25BD)\"\n    },\n    {\n      \"fact\": \"Первая читка сценария 9 сезона состоялась 18 декабря 2014 года.\",\n      \"source_url\": \"https://ru.wikipedia.org/wiki/%25D0%2594%25D0%25BE%25D0%25BA%25D1%2582%25D0%25BE%25D1%2580_%25D0%259A%25D1%2582%25D0%25BE_(9-%25D0%25B9_%25D1%2581%25D0%25B5%25D0%25B7%25D0%25BE%25D0%25BD)\"\n    }\n  ],\n  \"summary\": \"11 эпизод 9 сезона 'Доктора Кто' называется 'Ниспосланный с небес' и вышел 28 ноября 2015 года. С"
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "обработать найденный сценарий и извлечь текст",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "извлечь название локации из заголовка первой сцены сценария",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Ниспосланный с небес",
+            "type": "episode_title",
+            "evidence": "11 эпизод 9 сезона называется 'Ниспосланный с небес'."
+          }
+        ],
+        "key_points": [
+          "11 эпизод 9 сезона 'Доктора Кто' называется 'Ниспосланный с небес' и вышел 28 ноября 2015 года."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "написать финальный ответ пользователю с названием локации",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Ниспосланный с небес",
+        "final_answer_strict": "Ниспосланный с небес",
+        "used_evidence": [
+          "11 эпизод 9 сезона называется 'Ниспосланный с небес'."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Как называется локация в первом заголовке сцены 11 эпизода 9 сезона Доктора Кто?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "ниспосланный с небес",
+    "gt_norm": "the castle"
+  }
+}

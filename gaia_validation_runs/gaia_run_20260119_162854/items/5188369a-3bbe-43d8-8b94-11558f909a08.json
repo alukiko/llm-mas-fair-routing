@@ -1,0 +1,169 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "no writer quoted",
+    "final_answer_strict": "no writer quoted",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "no writer quoted",
+  "error": null,
+  "duration_sec": 37.241307497024536,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Word of the Day for June 27, 2022, was 'jingoism'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/candidate-2022-06-27"
+          },
+          {
+            "fact": "'Jingoism' is defined as extreme patriotism or nationalism.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "The term 'jingoism' originated during the Russo-Turkish War of 1877-1878.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "Word Finder · Slang; New Newsletters · Wordplay · Rhymes · Thesaurus · Join MWU ... Jun 27. oblige. Jun 28. restive. Jun 29. impetus. Jun 30. expunge. May 2025 ..."
+          },
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/candidate-2022-06-27",
+            "snippet": "June 27, 2022 | extreme patriotism or nationalism Jingoism originated during the Russo-Turkish War of 1877-1878, when many British citizens were hostile toward Russia and felt Britain should intervene"
+          },
+          {
+            "title": "Word of the Day: Jingoism",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "snippet": "Jun 27, 2022 — June 27, 2022 | extreme patriotism or nationalism Jingoism originated during the Russo-Turkish War of 1877-1878, when many British citizens ..."
+          },
+          {
+            "title": "Word of the Day: Elicit | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "snippet": "Build your vocabulary: get a new word every day from Merriam-Webster dictionary. Learn the meaning, history, and fun facts about Elicit. Also available as podcast, newsletter, and on the finest social networks."
+          },
+          {
+            "title": "Merriam-Webster Word of the Day: Jingoism — Michael Cavacini",
+            "url": "https://michaelcavacini.com/2022/06/27/merriam-webster-word-of-the-day-jingoism/",
+            "snippet": "The Merriam-Webster Word of the Day is jingoism. Read on for what it means, how it's used, and more."
+          }
+        ],
+        "summary": "On June 27, 2022, Merriam-Webster's Word of the Day was 'jingoism', which refers to extreme patriotism or nationalism and originated during the Russo-Turkish War."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the writer quoted for the Word of the Day from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "The Word of the Day for June 27, 2022, was 'jingoism'."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "jingoism",
+            "definition": "extreme patriotism or nationalism",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer with the writer's name.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "no writer quoted",
+        "final_answer_strict": "no writer quoted",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no writer quoted",
+    "gt_norm": "annie levin"
+  }
+}

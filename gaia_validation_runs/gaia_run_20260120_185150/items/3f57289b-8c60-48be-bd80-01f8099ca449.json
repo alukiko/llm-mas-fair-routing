@@ -1,0 +1,378 @@
+{
+  "id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+  "query": "How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?",
+  "ground_truth": "519",
+  "answer_raw": {
+    "final_answer": "595",
+    "final_answer_strict": "595.0",
+    "used_evidence": [
+      "Reggie Jackson recorded 74 walks in the 1977 regular season.",
+      "Reggie Jackson had 525 at-bats in the 1977 regular season."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "595.0",
+  "error": null,
+  "duration_sec": 31.28161382675171,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find statistics for the New York Yankees players in the 1977 regular season, focusing on walks.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find statistics for the New York Yankees players in the 1977 regular season, focusing on walks.",
+        "facts": [
+          {
+            "fact": "Graig Nettles had 68 walks during the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "Reggie Jackson recorded 74 walks in the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "Thurman Munson had 39 walks in the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "Chris Chambliss had 45 walks during the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          }
+        ],
+        "summary": "In the 1977 regular season, key New York Yankees players recorded significant walk totals, with Graig Nettles leading with 68 walks, followed by Reggie Jackson with 74, Thurman Munson with 39, and Chris Chambliss with 45.",
+        "sources": [
+          {
+            "title": "New York Yankees 1977 Team & Player Stats | StatMuse",
+            "url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977",
+            "snippet": "|  |  | G | AB | R | H | 2B | 3B | HR | RBI | BB | HBP | SO | SB | CS | AVG | OBP | SLG |\n ---  ---  ---  ---  ---  ---  ---  ---  --- |\n |  | Mickey Rivers M. Rivers |  |  |  |  |  |  | 0 |  | 0 | 0 | 4 |  | 0 |  | .300 |  |\n|  | Thurman Munson T. Munson | 11 |  |  |  | 3 | 0 | 2 |  | 2 | 0 |  | 0 | 0 |  |  |  |\n|  | Willie Randolph W. Randolph | 11 |  |  | 9 | 3 | 0 |  | 3 | 3 | 0 | 2 | 0 | 0 |  |  |  |\n|  | Lou Piniella L. Piniella | 11 | 43 | 2 | 13 | 3 | 0 | 0 | 5 | 0 | 1 | 4 | 0 | 0 | .302 | .311 | .372 |\n|  | Chris Chambliss C. Chambliss | 11 | 41 | 4 | 8 | 2 | 0 | 1 | 4 | 3 | 0 | 6 | 0 | 0 | .195 | .250 | .317 |\n|  | Graig Nettles G. Nettles | 11 | 41 | 2 | 7 | 1 | 0 | 0 | 3 | 2 | 0 | 6 | 0 | 0 | .171 | .209 | .195 | [...] |  | Elrod Hendricks E. Hendricks | 10 | 11 | 1 | 3 | 1 | 0 | 1 | 5 | 0 | 0 | 2 | 0 | 0 | .273 | .273 | .636 |\n|  | Dave Bergman D. Bergman | 5 | 4 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | .250 | .200 | .250 |\n|  | Gene Locklear G. Locklear | 1 | 5 | 1 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | .600 | .600 | .600 |\n|  | Marty Perez M. Perez | 1 | 4 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | .500 | .500 | .500 | [...] |  | Ron Guidry R. Guidry | 1 |"
+          },
+          {
+            "title": "1977 New York Yankees Statistics",
+            "url": "https://www.statscrew.com/baseball/stats/t-NYA/y-1977",
+            "snippet": "| Player | Rnd | GP | PA | AB | R | H | 2B | 3B | HR | RBI | SB | CS | BB | SO | BA | OBP | SLG | OPS | TB | DP | HBP | SH | SF | IBB |\n ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- \n| Mickey Rivers | ALCS | 5 | 23 | 23 | 5 | 9 | 2 | 0 | 0 | 2 | 1 | 0 | 0 | 2 | .391 | .391 | .478 | .870 | 11 | 0 | 0 | 0 | 0 | 0 |\n| Lou Piniella | ALCS | 5 | 21 | 21 | 1 | 7 | 3 | 0 | 0 | 2 | 0 | 0 | 0 | 1 | .333 | .333 | .476 | .810 | 10 | 0 | 0 | 0 | 0 | 0 |\n| Cliff Johnson | ALCS | 5 | 16 | 15 | 2 | 6 | 2 | 0 | 1 | 2 | 0 | 0 | 1 | 2 | .400 | .438 | .733 | 1.171 | 11 | 0 | 0 | 0 | 0 | 0 |\n| Thurman Munson | ALCS | 5 | 22 | 21 | 3 | 6 | 1 | 0 | 1 | 5 | 0 | 0 | 0 | 2 | .286 | .273 | .476 | .749 | 10 | 0 | 0 | 0 | 1 | 0 | [...] | Ken Clay | WS | P | 2 | 0 | 3.7 | 1 | 1 | 0 | 0 | 1.000 | 4.909 | 1.000 | 0 | 0 | 0 |\n| Reggie Jackson | WS | RF | 6 | 6 | 48.0 | 9 | 0 | 0 | 0 | 1.000 | 1.688 | 1.500 | 0 | 0 | 0 |\n| Paul Blair | WS | RF | 3 | 0 | 8.0 | 1 | 0 | 0 | 0 | 1.000 | 1.125 | .333 | 0 | 0 | 0 |\n| Bucky Dent | WS | SS | 6 | 6 | 54.0 | 2 | 15 | 1 | 2 | .944 | 2.833 | 2.833 | 0 | 0 | 0 |\n| Fred Stanley | WS | SS | 1 | 0 | 2.0 | 1 | 0 | 0 | 0 | 1.000 | 4.500 | 1.000 | 0 | 0 | 0 |\n| Totals "
+          },
+          {
+            "title": "1977 Yankees Player Hitting Stat Leaders",
+            "url": "https://www.mlb.com/yankees/stats/1977",
+            "snippet": "| PLAYER PLAYER | TEAM TEAM | G G | AB AB | R R | H H | 2B 2B | 3B 3B | HR HR | RBI RBI | BB BB | SO SO | SB SB | CS CS | AVG AVG | OBP OBP | SLG SLG | OPS OPS |\n ---  ---  ---  ---  ---  ---  ---  ---  --- |\n| 1 Graig G Nettles Nettles 3B 1 ‌ ‌ ‌ | NYY | 158 | 589 | 99 | 150 | 23 | 4 | 37 | 107 | 68 | 79 | 2 | 5 | .255 | .333 | .496 | .829 |\n| 2 Reggie R Jackson Jackson RF 2 ‌ ‌ ‌ | NYY | 146 | 525 | 93 | 150 | 39 | 2 | 32 | 110 | 74 | 129 | 17 | 3 | .286 | .375 | .550 | .925 |\n| 3 Thurman T Munson Munson C 3 ‌ ‌ ‌ | NYY | 149 | 595 | 85 | 183 | 28 | 5 | 18 | 100 | 39 | 55 | 5 | 6 | .308 | .351 | .462 | .813 |\n| 4 Chris C Chambliss Chambliss 1B 4 ‌ ‌ ‌ | NYY | 157 | 600 | 90 | 172 | 32 | 6 | 17 | 90 | 45 | 73 | 4 | 0 | .287 | .336 | .445 | .781 | [...] | 20 Gene G Locklear Locklear LF 20 ‌ ‌ ‌ | NYY | 1 | 5 | 1 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | .600 | .600 | .600 | 1.200 |\n| 20 Sparky S Lyle Lyle P 20 ‌ ‌ ‌ | NYY | 72 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000 | .000 | .000 | .000 |\n| 20 Larry L McCall McCall P 20 ‌ ‌ ‌ | NYY | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000 | .000 | .000 | .000 |"
+          },
+          {
+            "title": "[PDF] New York Yankees Yearbook (1977) - DigitalOcean",
+            "url": "https://library.sfo2.cdn.digitaloceanspaces.com/publications/baseball/yearbooks/BNEWYYB-1977-new-york-yankees-yearbook.pdf",
+            "snippet": "The 1927 Yankees had five .300-hitters (Combs, Lazzeri and Meusel in addi tion to Ruth and Gehrig). They had a .307 team batting average and their .489 slugging percentage is the highest in history. Ruth and Gehrig finished 1-2 in slug ging with .772 and .765 respectively, total bases with 417-447 and walks with 138-109. Combs led the league with 231 hits and 23 triples with Gehrig second in both departments. Ruth was the home run leader, of course, with Gehrig leading in runs batted in. The Yankees scored the most runs, 975, and allowed their opponents the fewest, 599-Overwhelming as the Yankees were on offense, they were equally efficient in pitching. In Hoyt (22-7 for .759), Urban Shocker (18-6 for .750), Wiley Moore (19-7 for .731) and Pennock ( 19-8 for .704) the Yankees had the [...] 4\\ \\ n 1 J The Season con’t Ruth reaching his peak of 60 homers in one season and Gehrig hitting 47, the two Yankee sluggers hit more homers than any other team in the league and their club total of 158 was almost three times the total hit by the second-place A’s.\nGehrig, the Columbia strong boy in his third full season, actually led Ruth in homers for most of the season. It wasn’t until Sept. 4 "
+          },
+          {
+            "title": "1977 New York Yankees Player Stats",
+            "url": "https://www.statmuse.com/mlb/ask/1977-new-york-yankees-player-stats",
+            "snippet": "| 21 |  | Carlos May C. May | 1977 | NYY | 65 | 181 | 21 | 41 | 7 | 1 | 2 | 16 | 17 | 1 | 24 | 0 | 0 | 203 | 56 | 10 | 1 | 3 | 4 | 7 | .227 | .292 | .309 | .601 | 14 | -9.3 | .266 | 62 | -9 |\n| 22 |  | Larry McCall L. McCall | 1977 | NYY | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  |  |  |  |  |  |  |\n| 23 |  | Thurman Munson T. Munson | 1977 | NYY | 149 | 595 | 85 | 183 | 28 | 5 | 18 | 100 | 39 | 2 | 55 | 5 | 6 | 638 | 275 | 51 | 0 | 2 | 8 | 18 | .308 | .351 | .462 | .813 | 90 | 16.1 | .355 | 123 | 17.1 |\n| 24 |  | Graig Nettles G. Nettles | 1977 | NYY | 158 | 589 | 99 | 150 | 23 | 4 | 37 | 107 | 68 | 3 | 79 | 2 | 5 | 664 | 292 | 64 | 0 | 4 | 8 | 8 | .255 | .333 | .496 | .829 | 96 | 18.4 | .359 | 125 | 19.5 | [...] | 17 |  | Dave Kingman D. Kingman | 1977 | NYY | 8 | 24 | 5 | 6 | 2 | 0 | 4 | 7 | 2 | 1 | 13 | 0 | 1 | 27 | 20 | 6 | 0 | 0 | 0 | 0 | .250 | .333 | .833 | 1.167 | 7 | 3.4 | .483 | 209 | 3.5 |\n| 18 |  | Mickey Klutts M. Klutts | 1977 | NYY | 5 | 15 | 3 | 4 | 1 | 0 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 18 | 8 | 2 | 0 | 0 | 0 | 0 | .267 | .389 | .533 | .922 | 3 | 1.2 | .407 | 157 | 1.2 |\n| 19 |  | Gene Locklear G. Locklear | 1977 | NYY | "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "New York Yankees 1977 Team & Player Stats | StatMuse",
+            "url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977",
+            "content": "|  |  | G | AB | R | H | 2B | 3B | HR | RBI | BB | HBP | SO | SB | CS | AVG | OBP | SLG |\n ---  ---  ---  ---  ---  ---  ---  ---  --- |\n |  | Mickey Rivers M. Rivers |  |  |  |  |  |  | 0 |  | 0 | 0 | 4 |  | 0 |  | .300 |  |\n|  | Thurman Munson T. Munson | 11 |  |  |  | 3 | 0 | 2 |  | 2 | 0 |  | 0 | 0 |  |  |  |\n|  | Willie Randolph W. Randolph | 11 |  |  | 9 | 3 | 0 |  | 3 | 3 | 0 | 2 | 0 | 0 |  |  |  |\n|  | Lou Piniella L. Piniella | 11 | 43 | 2 | 13 | 3 | 0 | 0 | 5 | 0 | 1 | 4 | 0 | 0 | .302 | .311 | .372 |\n|  | Chris Chambliss C. Chambliss | 11 | 41 | 4 | 8 | 2 | 0 | 1 | 4 | 3 | 0 | 6 | 0 | 0 | .195 | .250 | .317 |\n|  | Graig Nettles G. Nettles | 11 | 41 | 2 | 7 | 1 | 0 | 0 | 3 | 2 | 0 | 6 | 0 | 0 | .171 | .209 | .195 | [...] |  | Elrod Hendricks E. Hendricks | 10 | 11 | 1 | 3 | 1 | 0 | 1 | 5 | 0 | 0 | 2 | 0 | 0 | .273 | .273 | .636 |\n|  | Dave Bergman D. Bergman | 5 | 4 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | .250 | .200 | .250 |\n|  | Gene Locklear G. Locklear | 1 | 5 | 1 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | .600 | .600 | .600 |\n|  | Marty Perez M. Perez | 1 | 4 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | .500 | .500 | .500 | [...] |  | Ron Guidry R. Guidry | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | .000 | .000 | .000 |\n|  | Sparky Lyle S. Lyle | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | .000 | .000 | .000 |\n|  | George Zeber G. Zeber | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | .000 | .000 | .000 |\n|  | Dick Tidrow D. Tidrow | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | .000 | .000 | .000 |",
+            "score": 0.99968493
+          },
+          {
+            "title": "1977 New York Yankees Statistics",
+            "url": "https://www.statscrew.com/baseball/stats/t-NYA/y-1977",
+            "content": "| Player | Rnd | GP | PA | AB | R | H | 2B | 3B | HR | RBI | SB | CS | BB | SO | BA | OBP | SLG | OPS | TB | DP | HBP | SH | SF | IBB |\n ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- \n| Mickey Rivers | ALCS | 5 | 23 | 23 | 5 | 9 | 2 | 0 | 0 | 2 | 1 | 0 | 0 | 2 | .391 | .391 | .478 | .870 | 11 | 0 | 0 | 0 | 0 | 0 |\n| Lou Piniella | ALCS | 5 | 21 | 21 | 1 | 7 | 3 | 0 | 0 | 2 | 0 | 0 | 0 | 1 | .333 | .333 | .476 | .810 | 10 | 0 | 0 | 0 | 0 | 0 |\n| Cliff Johnson | ALCS | 5 | 16 | 15 | 2 | 6 | 2 | 0 | 1 | 2 | 0 | 0 | 1 | 2 | .400 | .438 | .733 | 1.171 | 11 | 0 | 0 | 0 | 0 | 0 |\n| Thurman Munson | ALCS | 5 | 22 | 21 | 3 | 6 | 1 | 0 | 1 | 5 | 0 | 0 | 0 | 2 | .286 | .273 | .476 | .749 | 10 | 0 | 0 | 0 | 1 | 0 | [...] | Ken Clay | WS | P | 2 | 0 | 3.7 | 1 | 1 | 0 | 0 | 1.000 | 4.909 | 1.000 | 0 | 0 | 0 |\n| Reggie Jackson | WS | RF | 6 | 6 | 48.0 | 9 | 0 | 0 | 0 | 1.000 | 1.688 | 1.500 | 0 | 0 | 0 |\n| Paul Blair | WS | RF | 3 | 0 | 8.0 | 1 | 0 | 0 | 0 | 1.000 | 1.125 | .333 | 0 | 0 | 0 |\n| Bucky Dent | WS | SS | 6 | 6 | 54.0 | 2 | 15 | 1 | 2 | .944 | 2.833 | 2.833 | 0 | 0 | 0 |\n| Fred Stanley | WS | SS | 1 | 0 | 2.0 | 1 | 0 | 0 | 0 | 1.000 | 4.500 | 1.000 | 0 | 0 | 0 |\n| Totals | 122 | 99 | 900.0 | 300 | 119 | 5 | 11 | .988 | 4.190 | 3.434 | 1 | 0 | 0 | [...] | Marty Perez | 1 | 4 | 4 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | .500 | .500 | .500 | 1.000 | 2 | 1 | 0 | 0 | 0 | 0 |\n| Dave Bergman | 5 | 5 | 4 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | .250 | .200 | .250 | .450 | 1 | 0 | 0 | 0 | 1 | 0 |\n| Don Gullett | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Ken Holtzman | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Mike Torrez | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Dick Tidrow | 49 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Stan Thomas | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Sparky Lyle | 72 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |",
+            "score": 0.999617
+          },
+          {
+            "title": "1977 Yankees Player Hitting Stat Leaders",
+            "url": "https://www.mlb.com/yankees/stats/1977",
+            "content": "| PLAYER PLAYER | TEAM TEAM | G G | AB AB | R R | H H | 2B 2B | 3B 3B | HR HR | RBI RBI | BB BB | SO SO | SB SB | CS CS | AVG AVG | OBP OBP | SLG SLG | OPS OPS |\n ---  ---  ---  ---  ---  ---  ---  ---  --- |\n| 1 Graig G Nettles Nettles 3B 1 ‌ ‌ ‌ | NYY | 158 | 589 | 99 | 150 | 23 | 4 | 37 | 107 | 68 | 79 | 2 | 5 | .255 | .333 | .496 | .829 |\n| 2 Reggie R Jackson Jackson RF 2 ‌ ‌ ‌ | NYY | 146 | 525 | 93 | 150 | 39 | 2 | 32 | 110 | 74 | 129 | 17 | 3 | .286 | .375 | .550 | .925 |\n| 3 Thurman T Munson Munson C 3 ‌ ‌ ‌ | NYY | 149 | 595 | 85 | 183 | 28 | 5 | 18 | 100 | 39 | 55 | 5 | 6 | .308 | .351 | .462 | .813 |\n| 4 Chris C Chambliss Chambliss 1B 4 ‌ ‌ ‌ | NYY | 157 | 600 | 90 | 172 | 32 | 6 | 17 | 90 | 45 | 73 | 4 | 0 | .287 | .336 | .445 | .781 | [...] | 20 Gene G Locklear Locklear LF 20 ‌ ‌ ‌ | NYY | 1 | 5 | 1 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | .600 | .600 | .600 | 1.200 |\n| 20 Sparky S Lyle Lyle P 20 ‌ ‌ ‌ | NYY | 72 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000 | .000 | .000 | .000 |\n| 20 Larry L McCall McCall P 20 ‌ ‌ ‌ | NYY | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000 | .000 | .000 | .000 |",
+            "score": 0.9993881
+          },
+          {
+            "title": "[PDF] New York Yankees Yearbook (1977) - DigitalOcean",
+            "url": "https://library.sfo2.cdn.digitaloceanspaces.com/publications/baseball/yearbooks/BNEWYYB-1977-new-york-yankees-yearbook.pdf",
+            "content": "The 1927 Yankees had five .300-hitters (Combs, Lazzeri and Meusel in addi tion to Ruth and Gehrig). They had a .307 team batting average and their .489 slugging percentage is the highest in history. Ruth and Gehrig finished 1-2 in slug ging with .772 and .765 respectively, total bases with 417-447 and walks with 138-109. Combs led the league with 231 hits and 23 triples with Gehrig second in both departments. Ruth was the home run leader, of course, with Gehrig leading in runs batted in. The Yankees scored the most runs, 975, and allowed their opponents the fewest, 599-Overwhelming as the Yankees were on offense, they were equally efficient in pitching. In Hoyt (22-7 for .759), Urban Shocker (18-6 for .750), Wiley Moore (19-7 for .731) and Pennock ( 19-8 for .704) the Yankees had the [...] 4\\ \\ n 1 J The Season con’t Ruth reaching his peak of 60 homers in one season and Gehrig hitting 47, the two Yankee sluggers hit more homers than any other team in the league and their club total of 158 was almost three times the total hit by the second-place A’s.\nGehrig, the Columbia strong boy in his third full season, actually led Ruth in homers for most of the season. It wasn’t until Sept. 4 that Ruth passed Gehrig, 47-45, by hitting three in one game. Ruth stayed hot, hitting 17 during the month of Sept, for his final total of 60 while Gehrig cooled off. Gehrig, however, batted .373 to Ruth’s .356, drove in a record 175 runs to the Babe’s 164 and won the league’s most val uable player award.\nThe statistics are mind-boggling.",
+            "score": 0.9993175
+          },
+          {
+            "title": "1977 New York Yankees Player Stats",
+            "url": "https://www.statmuse.com/mlb/ask/1977-new-york-yankees-player-stats",
+            "content": "| 21 |  | Carlos May C. May | 1977 | NYY | 65 | 181 | 21 | 41 | 7 | 1 | 2 | 16 | 17 | 1 | 24 | 0 | 0 | 203 | 56 | 10 | 1 | 3 | 4 | 7 | .227 | .292 | .309 | .601 | 14 | -9.3 | .266 | 62 | -9 |\n| 22 |  | Larry McCall L. McCall | 1977 | NYY | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  |  |  |  |  |  |  |\n| 23 |  | Thurman Munson T. Munson | 1977 | NYY | 149 | 595 | 85 | 183 | 28 | 5 | 18 | 100 | 39 | 2 | 55 | 5 | 6 | 638 | 275 | 51 | 0 | 2 | 8 | 18 | .308 | .351 | .462 | .813 | 90 | 16.1 | .355 | 123 | 17.1 |\n| 24 |  | Graig Nettles G. Nettles | 1977 | NYY | 158 | 589 | 99 | 150 | 23 | 4 | 37 | 107 | 68 | 3 | 79 | 2 | 5 | 664 | 292 | 64 | 0 | 4 | 8 | 8 | .255 | .333 | .496 | .829 | 96 | 18.4 | .359 | 125 | 19.5 | [...] | 17 |  | Dave Kingman D. Kingman | 1977 | NYY | 8 | 24 | 5 | 6 | 2 | 0 | 4 | 7 | 2 | 1 | 13 | 0 | 1 | 27 | 20 | 6 | 0 | 0 | 0 | 0 | .250 | .333 | .833 | 1.167 | 7 | 3.4 | .483 | 209 | 3.5 |\n| 18 |  | Mickey Klutts M. Klutts | 1977 | NYY | 5 | 15 | 3 | 4 | 1 | 0 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 18 | 8 | 2 | 0 | 0 | 0 | 0 | .267 | .389 | .533 | .922 | 3 | 1.2 | .407 | 157 | 1.2 |\n| 19 |  | Gene Locklear G. Locklear | 1977 | NYY | 1 | 5 | 1 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 5 | 3 | 0 | 0 | 0 | 0 | 0 | .600 | .600 | .600 | 1.200 | 1 | 0.9 | .541 | 248 | 0.9 |\n| 20 |  | Sparky Lyle S. Lyle | 1977 | NYY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | [...] |  |  | NAME | SEASON | TM | G | AB | R | H | 2B | 3B | HR | RBI | BB | HBP | SO | SB | CS | PA | TB | XBH | SH | SF | IBB | GIDP | AVG | OBP | SLG | OPS | wRC | WRAA | wOBA | wRC+ | BRAA |\n ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  --- |\n | 1 |  | Dell Alston D. Alston |  |  |  |  |  |  |  |  |  | 4 |  | 0 | 4 | 3 | 3 |  |  |  | 1 | 1 | 0 |  |  |  |  |  |  |  |  |  | 1.9 |\n| 2 |  | Dave Bergman D. Bergman | 1977 | NYY | 5 | 4 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 5 | 1 | 0 | 0 | 1 | 0 | 0 |  |  | .250 |  | 0 |  |  | 5 | -0.6 |\n| 3 |  | Paul Blair P. Blair | 1977 | NYY |  |  | 20 |  | 4 | 3 | 4 |  |  | 2 |  | 3 | 2 |  |  |  | 5 | 3 | 1 | 7 |  |  |  |  |  |  |  |  |  |",
+            "score": 0.9989837
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "New York Yankees 1977 Team & Player Stats | StatMuse",
+            "url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977",
+            "score": 0.99968493
+          },
+          {
+            "title": "1977 New York Yankees Statistics",
+            "url": "https://www.statscrew.com/baseball/stats/t-NYA/y-1977",
+            "score": 0.999617
+          },
+          {
+            "title": "1977 Yankees Player Hitting Stat Leaders",
+            "url": "https://www.mlb.com/yankees/stats/1977",
+            "score": 0.9993881
+          },
+          {
+            "title": "[PDF] New York Yankees Yearbook (1977) - DigitalOcean",
+            "url": "https://library.sfo2.cdn.digitaloceanspaces.com/publications/baseball/yearbooks/BNEWYYB-1977-new-york-yankees-yearbook.pdf",
+            "score": 0.9993175
+          },
+          {
+            "title": "1977 New York Yankees Player Stats",
+            "url": "https://www.statmuse.com/mlb/ask/1977-new-york-yankees-player-stats",
+            "score": 0.9989837
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "New York Yankees"
+          },
+          {
+            "type": "name_like",
+            "value": "Team"
+          },
+          {
+            "type": "name_like",
+            "value": "Player Stats"
+          },
+          {
+            "type": "name_like",
+            "value": "Mickey Rivers"
+          },
+          {
+            "type": "name_like",
+            "value": "Rivers"
+          },
+          {
+            "type": "name_like",
+            "value": "Thurman Munson"
+          },
+          {
+            "type": "name_like",
+            "value": "Munson"
+          },
+          {
+            "type": "name_like",
+            "value": "Willie Randolph"
+          },
+          {
+            "type": "name_like",
+            "value": "Randolph"
+          },
+          {
+            "type": "name_like",
+            "value": "Lou Piniella"
+          },
+          {
+            "type": "name_like",
+            "value": "Piniella"
+          },
+          {
+            "type": "name_like",
+            "value": "Chris Chambliss"
+          },
+          {
+            "type": "name_like",
+            "value": "Chambliss"
+          },
+          {
+            "type": "name_like",
+            "value": "Graig Nettles"
+          },
+          {
+            "type": "name_like",
+            "value": "Nettles"
+          },
+          {
+            "type": "name_like",
+            "value": "Elrod Hendricks"
+          },
+          {
+            "type": "name_like",
+            "value": "Hendricks"
+          },
+          {
+            "type": "name_like",
+            "value": "Dave Bergman"
+          },
+          {
+            "type": "name_like",
+            "value": "Bergman"
+          },
+          {
+            "type": "name_like",
+            "value": "Gene Locklear"
+          },
+          {
+            "type": "name_like",
+            "value": "Locklear"
+          },
+          {
+            "type": "name_like",
+            "value": "Marty Perez"
+          },
+          {
+            "type": "name_like",
+            "value": "Perez"
+          },
+          {
+            "type": "name_like",
+            "value": "Ron Guidry"
+          },
+          {
+            "type": "name_like",
+            "value": "Guidry"
+          },
+          {
+            "type": "name_like",
+            "value": "New York Yankees Statistics"
+          },
+          {
+            "type": "name_like",
+            "value": "Player"
+          },
+          {
+            "type": "name_like",
+            "value": "Rnd"
+          },
+          {
+            "type": "name_like",
+            "value": "Cliff Johnson"
+          },
+          {
+            "type": "name_like",
+            "value": "Ken Clay"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the player with the most walks and their at-bats from the retrieved statistics.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "number"
+        ],
+        "entities": [
+          {
+            "name": "Reggie Jackson",
+            "type": "name_like",
+            "evidence": "Reggie Jackson recorded 74 walks in the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          }
+        ],
+        "key_points": [
+          "Reggie Jackson had the most walks with 74."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "74",
+            "unit": "walks",
+            "context": "Reggie Jackson's total walks in the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          }
+        ],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "Reggie Jackson recorded 74 walks in the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the number of at-bats for the Yankee with the most walks in the 1977 regular season.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "595",
+        "final_answer_strict": "595.0",
+        "used_evidence": [
+          "Reggie Jackson recorded 74 walks in the 1977 regular season.",
+          "Reggie Jackson had 525 at-bats in the 1977 regular season."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "595.0",
+    "gt_norm": "519"
+  }
+}

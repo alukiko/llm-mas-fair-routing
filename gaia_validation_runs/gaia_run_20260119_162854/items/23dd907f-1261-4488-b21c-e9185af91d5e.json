@@ -1,0 +1,217 @@
+{
+  "id": "23dd907f-1261-4488-b21c-e9185af91d5e",
+  "query": "In Audre Lorde’s poem “Father Son and Holy Ghost”, what is the number of the stanza in which some lines are indented?",
+  "ground_truth": "2",
+  "answer_raw": {
+    "final_answer": "Unable to determine",
+    "final_answer_strict": "0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Can you provide the full text of the poem 'Father Son and Holy Ghost' with formatting details?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 54.20980668067932,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the text of Audre Lorde’s poem 'Father Son and Holy Ghost' on the web.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the text of Audre Lorde’s poem 'Father Son and Holy Ghost' on the web.",
+        "facts": [
+          {
+            "fact": "The poem 'Father Son and Holy Ghost' by Audre Lorde explores themes of loss and identity.",
+            "source_url": "https://lindas-literary-home.com/my-literary-home/essays-poems-with-commentaries/audre-lordes-father-son-and-holy-ghost/"
+          },
+          {
+            "fact": "Audre Lorde is recognized as a black lesbian poet who addressed personal and universal themes.",
+            "source_url": "https://lindas-literary-home.com/my-literary-home/essays-poems-with-commentaries/audre-lordes-father-son-and-holy-ghost/"
+          },
+          {
+            "fact": "The poem begins with the line 'I have not ever seen my father's grave.'",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The poem reflects on the father's absence and the impact of his memory.",
+            "source_url": "https://www.best-poems.net/audre-lorde/father-son-and-holy-ghost.html"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Father Son and Holy Ghost - Poetry Foundation",
+            "url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost",
+            "snippet": "I have not ever seen my father's grave. Not that his judgment eyes. have been forgotten. nor his great hands' print. on our evening doorknobs."
+          },
+          {
+            "title": "Father Son and Holy Ghost, by Audre Lorde | poems, essays, and short ...",
+            "url": "https://www.poeticous.com/audre-lorde/father-son-and-holy-ghost",
+            "snippet": "I have not ever seen my father's g… Not that his judgment eyes have been forgotten nor his great hands' print on our evening doorknobs"
+          },
+          {
+            "title": "Audre Lorde's “Father Son and Holy Ghost” - Linda's Literary Home",
+            "url": "https://lindas-literary-home.com/my-literary-home/essays-poems-with-commentaries/audre-lordes-father-son-and-holy-ghost/",
+            "snippet": "Introduction with Text of \"Father Son and Holy Ghost\" Although Audre Lorde is well known as a black lesbian poet, who wrote on issues of identity, she also wrote more personal pieces that address themes common to all of humanity. The death of a father is one such theme."
+          },
+          {
+            "title": "Father Son and Holy Ghost poem - Audre Lorde",
+            "url": "https://www.best-poems.net/audre-lorde/father-son-and-holy-ghost.html",
+            "snippet": "I have not ever seen my father's grave. Not that his judgment eyes have been forgotten nor his great hands' print on our evening doorknobs one half turn each night and he would come drabbled with the world's business massive and silent as the whole day's wish ready to redefine each of our shapes but now the evening doorknobs wait and do not recognize us as we pass. Each week a ..."
+          },
+          {
+            "title": "Father, Son and Holy Ghost - Wikisource, the free online library",
+            "url": "https://en.wikisource.org/wiki/Father,_Son_and_Holy_Ghost",
+            "snippet": "Father, Son, and Holy Ghost, In solemn power come down! Present with Thy heavenly host, Thine ordinance to crown: See a sinful worm of earth! Bless to him the cleansing flood, Plunge him, by a second birth, Into the depths of God. Let the promised inward grace Accompany the sign; On his new-born soul impress The character divine; Father, all Thy Name reveal! Jesus, all Thy Name impart! Holy ..."
+          }
+        ],
+        "summary": "Audre Lorde's poem 'Father Son and Holy Ghost' delves into themes of loss and identity, beginning with the speaker's reflection on never having seen their father's grave."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the stanza numbers and indentation information from the poem text.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "The poem explores themes of loss and identity.",
+          "The speaker reflects on never having seen their father's grave."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine which stanza contains indented lines based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The poem 'Father Son and Holy Ghost' contains multiple stanzas.",
+          "Indented lines are a specific formatting style that can be identified in the text."
+        ],
+        "reasoning_steps": [
+          "The poem begins with the line 'I have not ever seen my father's grave.'",
+          "The subsequent lines reflect on the father's absence and the impact of his memory.",
+          "To determine which stanza contains indented lines, I would need to analyze the formatting of the poem.",
+          "However, the sources do not provide the full text of the poem with clear formatting indications."
+        ],
+        "conclusions": [
+          "Without access to the full text of the poem with proper formatting, it is impossible to definitively identify which stanza contains indented lines."
+        ],
+        "proposed_answer_outline": [
+          "The poem 'Father Son and Holy Ghost' by Audre Lorde explores themes of loss and identity.",
+          "The first line indicates a personal reflection on the father's absence.",
+          "To identify indented lines, the full text with formatting is required."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide the full text of the poem 'Father Son and Holy Ghost' with formatting details?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the stanza number that contains indented lines.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Unable to determine",
+        "final_answer_strict": "0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide the full text of the poem 'Father Son and Holy Ghost' with formatting details?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "2"
+  }
+}

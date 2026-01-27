@@ -1,0 +1,110 @@
+{
+  "id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+  "query": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI",
+  "ground_truth": "Right",
+  "answer_raw": {
+    "final_answer": "right",
+    "final_answer_strict": "right",
+    "used_evidence": [
+      "Upstream reasoning result (T1) conclusion: “The opposite of the word 'left' in directional terms is 'right'.”"
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "right",
+  "error": null,
+  "duration_sec": 14.173616170883179,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Analyze the reversed sentence and determine the opposite of the word 'left'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The context of the word 'left' is its directional meaning.",
+          "The opposite of a directional word can be determined based on standard definitions."
+        ],
+        "reasoning_steps": [
+          "Identify the meaning of the word 'left' in the context of direction.",
+          "Determine the standard opposite of the direction 'left'."
+        ],
+        "conclusions": [
+          "The opposite of the word 'left' in directional terms is 'right'."
+        ],
+        "proposed_answer_outline": [
+          "The word 'left' refers to a direction.",
+          "The standard opposite of 'left' is 'right'."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Provide the final answer for the opposite of the word 'left'.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "right",
+        "final_answer_strict": "right",
+        "used_evidence": [
+          "Upstream reasoning result (T1) conclusion: “The opposite of the word 'left' in directional terms is 'right'.”"
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 10,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 10,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "right",
+    "gt_norm": "right"
+  }
+}

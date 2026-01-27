@@ -1,0 +1,21 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": null,
+  "answer_pred": "",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\3024560218.py\", line 237, in <module>\n    final_state = _run_with_trace(app, init_state, verbose=VERBOSE_STREAM)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\3024560218.py\", line 129, in _run_with_trace\n    for state in iterator:\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\__init__.py\", line 2461, in stream\n    for _ in runner.tick(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\runner.py\", line 153, in tick\n    run_with_retry(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\retry.py\", line 40, in run_with_retry\n    return task.proc.invoke(task.input, config)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 623, in invoke\n    input = context.run(step.invoke, input, config, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 377, in invoke\n    ret = self.func(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\1160646065.py\", line 64, in search_agent_node\n    title = (r.get(\"title\") or \"\").strip()\n             ^^^^^\nAttributeError: 'str' object has no attribute 'get'\nDuring task with name 'search_agent' and id '1727dada-6acb-ef77-c50b-80f319f623ed'\n",
+  "duration_sec": 50.55255675315857,
+  "tasks": null,
+  "resources": null,
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "funkmonk"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+  "query": "In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?",
+  "ground_truth": "fluffy",
+  "answer_raw": {
+    "final_answer": "tricksy",
+    "final_answer_strict": "tricksy",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "tricksy",
+  "error": null,
+  "duration_sec": 21.051451206207275,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find Emily Midkiff's June 2014 article in a journal named after one of Hreidmar's sons that guarded his house.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find Emily Midkiff's June 2014 article in a journal named after one of Hreidmar's sons that guarded his house.",
+        "facts": [
+          {
+            "fact": "Emily Midkiff published an article in June 2014.",
+            "source_url": "https://fafnir.journal.fi/article/view/164228"
+          },
+          {
+            "fact": "The journal where Emily Midkiff's article was published is named *Fafnir*.",
+            "source_url": "https://fafnir.journal.fi/article/view/164228"
+          },
+          {
+            "fact": "Hreidmar is a character from Norse mythology, and one of his sons is Fafnir, who is known for guarding his father's treasure.",
+            "source_url": "https://en.wikipedia.org/wiki/Hrei%C3%B0marr"
+          }
+        ],
+        "summary": "Emily Midkiff's June 2014 article was published in the journal *Fafnir*, named after Fafnir, the son of Hreidmar from Norse mythology.",
+        "sources": [
+          {
+            "title": "[PDF] Adaptive In-conversation Team Building for Language Model Agents",
+            "url": "https://arxiv.org/pdf/2405.19425",
+            "snippet": "The tasks require agents to coordinate multiple tools to solve them, which is a process 6 Adaptive In-conversation Team Building for Language Model Agents Cost (lower is better) Performance (higher is better) Vanilla LLM (gpt-4-0125-preview) T wo-Agents (gpt-4-0125-preview) Meta-prompting (gpt-4-0125-preview) AutoAgent (gpt-4-0125-preview) Captain Agent (gpt-4-0125-preview) Captain Agent (gpt-4o-mini) Captain Agent (Llama-3-70B) Captain Agent (Llama-3-8B) Figure 4. 4. Related Work Large language models (LLMs) represent a significant ad-vancement in artificial intelligence, showcasing remarkable capabilities in various aspects, including reasoning (Wei et al., 2022b; Yao et al., 2024; Morishita et al., 2023; Zhang et al., 2023b; Li et al., 2023a; Ho et al., 2022), plan-ning (BabyAGI, 2023; Song et al., 2023; Valmeekam et al., 2023; Liu et al., 2023b), and adaptability to novel real-world 7 Adaptive In-conversation Team Building for Language Model Agents (a) Mathematics (b) Data Analysis (c) Programming (d) (Sci) Chemistry (e) (Sci) Physics (f) Information retrieval Figure 5."
+          },
+          {
+            "title": "Hreiðmarr - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hrei%C3%B0marr",
+            "snippet": "| Deities, dwarfs \"Dwarf (folklore)\"), jötnar, and other figures | | | | | --- | --- | | Æsir | * Almáttki áss * Baldr * Bragi * Dellingr * Forseti * Heimdall * Hermóðr * Höðr * Hœnir * Ítreksjóð * Lóðurr * Loki * Máni * Meili * Mímir * Móði and Magni * Odin * Óðr * Thor * Týr * Ullr * Váli (son of Odin) * Víðarr * Vili and Vé | | Ásynjur | * Bil * Eir * Frigg * Fulla * Gefjon * Gerðr * Gná * Hlín * Iðunn * Ilmr * Irpa * Lofn * Nanna \"Nanna (Norse deity)\") * Njörun * Rán * Rindr * Sága * Sif * Sigyn * Sjöfn * Skaði * Snotra * Sól \"Sól (Germanic mythology)\") * Syn \"Syn (goddess)\") * Þorgerðr Hölgabrúðr * Þrúðr * Vár * Vör | | Vanir | * Freyja * Freyr + Ingunar-Freyr + Yngvi * Gersemi * Gullveig * Hnoss * Kvasir * Njörðr * Sister-wife of Njörðr | | Jötnar | * Ægir * Alvaldi * Angrboða * Aurboða * Baugi * Beli \"Beli (jötunn)\") * Bergelmir * Bestla * Bölþorn * Býleistr * Eggþér * Fárbauti * Fjölvar * Fornjót * Gangr * Geirröðr * Gillingr * Gjálp and Greip * Gríðr * Gunnlöð * Gymir \"Gymir (father of Gerðr)\") * Harðgreipr * Helblindi * Helreginn * Hljod * Hræsvelgr * Hrímgerðr * Hrímgrímnir * Hrímnir * Hroðr * Hrungnir * Hrymr * Hymir * Hyrrokkin * Iði * Ím * Járnsaxa * Laufey \"Laufey (m"
+          },
+          {
+            "title": "cat-searcher/owl-sft-dataset - Hugging Face",
+            "url": "https://huggingface.co/datasets/cat-searcher/owl-sft-dataset",
+            "snippet": "\\nInput: None\\n\\n If there are available tools and you want to call them, never say 'I will ...', but first call the tool and reply based on tool call's result, and tell me which tool you have called.\\n \", \"role\": \"user\" }, { \"content\": \"Solution: The sentence \\\"If you understand this sentence, write the opposite of the word 'left'.\\\" in reverse is: \\\".tfel drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\\"\\n\\nNext request.\\n\\n Provide me with the next instruction and input (if needed) based on my response and our current task: \\*\\*.rewsna eht sa \\\"tfel\\\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\*\\*\\n If you think our task is done and I have already output a json data, reply with `TASK\\_DONE` to end our conversation.\\n \", \"role\": \"assistant\" }, { \"content\": \"TASK\\_DONE\\n\\n Now please make a final answer of the original task based on our conversation :\\*\\*.rewsna eht sa \\\"tfel\\\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\*\\*\\n Please note that your response should be very short without any additional texts."
+          },
+          {
+            "title": "“Dragons are Tricksy”: The Uncanny Dragons of Children's ...",
+            "url": "https://fafnir.journal.fi/article/view/164228",
+            "snippet": "## The Uncanny Dragons of Children’s Literature. Dragon, uncanny, Freud, children’s literature. Modern tamed and human-like children’s literature dragons borrow certain uncanny qualities from the older generations of dragon-lore to become potent, if not always life-threatening characters. This article analyzes these Freudian inheritances to argue that children’s literature dragons have not been entirely softened and satirized; the potential for uncanny fear embodied by the human-like behaviors of legendary Western dragons lingers in many modern children’s literature dragons. Content in *Fafnir*is licensed under Creative Commons Attribution-Non Commercial 3.0 Unported License (CC BY-NC 3.0). By publishing with *Fafnir*, authors grant a non-exclusive license to *Fafnir* to distribute the publisher’s version of the work, and give *Fafnir* permission to grant reprint and/or translation requests in accordance with our open-access policy and our Creative Commons license. Prior to November 2019, copyright for all published material is held by *Fafnir*, but authors have full permission to use their work as they wish (i.e., self-archiving, reprint requests, using for other projects, etc.)."
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "snippet": "{\"task_id\": \"6b078778-0b90-464d-83f6-59511c811b01\", \"Level\": 2, \"Final answer\": \"Alfonso Visconti\", \"id\": \"level2-24\", \"web\": \"https://www.google.com/\", \"ques\": \"The Metropolitan Museum of Art has a portrait in its collection with an accession number of 29.100.5. {\"task_id\": \"7b5377b0-3f38-4103-8ad2-90fe89864c04\", \"Level\": 2, \"Final answer\": \"563.9\", \"id\": \"level2-30\", \"web\": \"https://www.google.com/\", \"ques\": \"Find the value of x to the nearest tenth: Lx = (d/dx * (A * x-squared)) + 4-thousand'n'ninety-7 minus C\\n Where L is the last two digits of the year of the Venezuelan Declaration of Independence,\\n A is the number of colors in the TikTok logo as of July 2023, excluding black and white,\\n and C is the height of the average woman in the Philippines according to a July 2023 Business Insider article, rounded to the nearest whole centimeter\"}. {\"task_id\": \"f2feb6a4-363c-4c09-a804-0db564eafd68\", \"Level\": 2, \"Final answer\": \"900000\", \"id\": \"level2-40\", \"web\": \"https://www.google.com/\", \"ques\": \"I\\u2019 m thinking about selling my home, so I want to learn more about how homes in my area sold recently."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Adaptive In-conversation Team Building for Language Model Agents",
+            "url": "https://arxiv.org/pdf/2405.19425",
+            "content": "The tasks require agents to coordinate multiple tools to solve them, which is a process 6 Adaptive In-conversation Team Building for Language Model Agents Cost (lower is better) Performance (higher is better) Vanilla LLM (gpt-4-0125-preview) T wo-Agents (gpt-4-0125-preview) Meta-prompting (gpt-4-0125-preview) AutoAgent (gpt-4-0125-preview) Captain Agent (gpt-4-0125-preview) Captain Agent (gpt-4o-mini) Captain Agent (Llama-3-70B) Captain Agent (Llama-3-8B) Figure 4. 4. Related Work Large language models (LLMs) represent a significant ad-vancement in artificial intelligence, showcasing remarkable capabilities in various aspects, including reasoning (Wei et al., 2022b; Yao et al., 2024; Morishita et al., 2023; Zhang et al., 2023b; Li et al., 2023a; Ho et al., 2022), plan-ning (BabyAGI, 2023; Song et al., 2023; Valmeekam et al., 2023; Liu et al., 2023b), and adaptability to novel real-world 7 Adaptive In-conversation Team Building for Language Model Agents (a) Mathematics (b) Data Analysis (c) Programming (d) (Sci) Chemistry (e) (Sci) Physics (f) Information retrieval Figure 5.",
+            "score": 0.98599
+          },
+          {
+            "title": "Hreiðmarr - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hrei%C3%B0marr",
+            "content": "| Deities, dwarfs \"Dwarf (folklore)\"), jötnar, and other figures | | | | | --- | --- | | Æsir | * Almáttki áss * Baldr * Bragi * Dellingr * Forseti * Heimdall * Hermóðr * Höðr * Hœnir * Ítreksjóð * Lóðurr * Loki * Máni * Meili * Mímir * Móði and Magni * Odin * Óðr * Thor * Týr * Ullr * Váli (son of Odin) * Víðarr * Vili and Vé | | Ásynjur | * Bil * Eir * Frigg * Fulla * Gefjon * Gerðr * Gná * Hlín * Iðunn * Ilmr * Irpa * Lofn * Nanna \"Nanna (Norse deity)\") * Njörun * Rán * Rindr * Sága * Sif * Sigyn * Sjöfn * Skaði * Snotra * Sól \"Sól (Germanic mythology)\") * Syn \"Syn (goddess)\") * Þorgerðr Hölgabrúðr * Þrúðr * Vár * Vör | | Vanir | * Freyja * Freyr + Ingunar-Freyr + Yngvi * Gersemi * Gullveig * Hnoss * Kvasir * Njörðr * Sister-wife of Njörðr | | Jötnar | * Ægir * Alvaldi * Angrboða * Aurboða * Baugi * Beli \"Beli (jötunn)\") * Bergelmir * Bestla * Bölþorn * Býleistr * Eggþér * Fárbauti * Fjölvar * Fornjót * Gangr * Geirröðr * Gillingr * Gjálp and Greip * Gríðr * Gunnlöð * Gymir \"Gymir (father of Gerðr)\") * Harðgreipr * Helblindi * Helreginn * Hljod * Hræsvelgr * Hrímgerðr * Hrímgrímnir * Hrímnir * Hroðr * Hrungnir * Hrymr * Hymir * Hyrrokkin * Iði * Ím * Járnsaxa * Laufey \"Laufey (mythology)\") * Leikn * Litr * Logi \"Logi (mythology)\") * Mögþrasir * Narfi (father of Nott) * Sökkmímir * Surtr * Suttungr * Þjazi * Þökk * Þrívaldi * Þrúðgelmir * Þrymr * Útgarða-Loki * Vafþrúðnir * Víðblindi * Vosud * Vörnir * Ymir | | Dwarfs | * Alvíss * Andvari * Austri, Vestri, Norðri and Suðri *",
+            "score": 0.98504
+          },
+          {
+            "title": "cat-searcher/owl-sft-dataset - Hugging Face",
+            "url": "https://huggingface.co/datasets/cat-searcher/owl-sft-dataset",
+            "content": "\\nInput: None\\n\\n If there are available tools and you want to call them, never say 'I will ...', but first call the tool and reply based on tool call's result, and tell me which tool you have called.\\n \", \"role\": \"user\" }, { \"content\": \"Solution: The sentence \\\"If you understand this sentence, write the opposite of the word 'left'.\\\" in reverse is: \\\".tfel drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\\"\\n\\nNext request.\\n\\n Provide me with the next instruction and input (if needed) based on my response and our current task: \\*\\*.rewsna eht sa \\\"tfel\\\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\*\\*\\n If you think our task is done and I have already output a json data, reply with `TASK\\_DONE` to end our conversation.\\n \", \"role\": \"assistant\" }, { \"content\": \"TASK\\_DONE\\n\\n Now please make a final answer of the original task based on our conversation :\\*\\*.rewsna eht sa \\\"tfel\\\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI\\*\\*\\n Please note that your response should be very short without any additional texts.",
+            "score": 0.98292
+          },
+          {
+            "title": "“Dragons are Tricksy”: The Uncanny Dragons of Children's ...",
+            "url": "https://fafnir.journal.fi/article/view/164228",
+            "content": "## The Uncanny Dragons of Children’s Literature. Dragon, uncanny, Freud, children’s literature. Modern tamed and human-like children’s literature dragons borrow certain uncanny qualities from the older generations of dragon-lore to become potent, if not always life-threatening characters. This article analyzes these Freudian inheritances to argue that children’s literature dragons have not been entirely softened and satirized; the potential for uncanny fear embodied by the human-like behaviors of legendary Western dragons lingers in many modern children’s literature dragons. Content in *Fafnir*is licensed under Creative Commons Attribution-Non Commercial 3.0 Unported License (CC BY-NC 3.0). By publishing with *Fafnir*, authors grant a non-exclusive license to *Fafnir* to distribute the publisher’s version of the work, and give *Fafnir* permission to grant reprint and/or translation requests in accordance with our open-access policy and our Creative Commons license. Prior to November 2019, copyright for all published material is held by *Fafnir*, but authors have full permission to use their work as they wish (i.e., self-archiving, reprint requests, using for other projects, etc.).",
+            "score": 0.98178
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "content": "{\"task_id\": \"6b078778-0b90-464d-83f6-59511c811b01\", \"Level\": 2, \"Final answer\": \"Alfonso Visconti\", \"id\": \"level2-24\", \"web\": \"https://www.google.com/\", \"ques\": \"The Metropolitan Museum of Art has a portrait in its collection with an accession number of 29.100.5. {\"task_id\": \"7b5377b0-3f38-4103-8ad2-90fe89864c04\", \"Level\": 2, \"Final answer\": \"563.9\", \"id\": \"level2-30\", \"web\": \"https://www.google.com/\", \"ques\": \"Find the value of x to the nearest tenth: Lx = (d/dx * (A * x-squared)) + 4-thousand'n'ninety-7 minus C\\n Where L is the last two digits of the year of the Venezuelan Declaration of Independence,\\n A is the number of colors in the TikTok logo as of July 2023, excluding black and white,\\n and C is the height of the average woman in the Philippines according to a July 2023 Business Insider article, rounded to the nearest whole centimeter\"}. {\"task_id\": \"f2feb6a4-363c-4c09-a804-0db564eafd68\", \"Level\": 2, \"Final answer\": \"900000\", \"id\": \"level2-40\", \"web\": \"https://www.google.com/\", \"ques\": \"I\\u2019 m thinking about selling my home, so I want to learn more about how homes in my area sold recently.",
+            "score": 0.98076
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Adaptive In-conversation Team Building for Language Model Agents",
+            "url": "https://arxiv.org/pdf/2405.19425",
+            "score": 0.98599
+          },
+          {
+            "title": "Hreiðmarr - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hrei%C3%B0marr",
+            "score": 0.98504
+          },
+          {
+            "title": "cat-searcher/owl-sft-dataset - Hugging Face",
+            "url": "https://huggingface.co/datasets/cat-searcher/owl-sft-dataset",
+            "score": 0.98292
+          },
+          {
+            "title": "“Dragons are Tricksy”: The Uncanny Dragons of Children's ...",
+            "url": "https://fafnir.journal.fi/article/view/164228",
+            "score": 0.98178
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "score": 0.98076
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Adaptive In"
+          },
+          {
+            "type": "name_like",
+            "value": "Team Building"
+          },
+          {
+            "type": "name_like",
+            "value": "Language Model Agents\nThe"
+          },
+          {
+            "type": "name_like",
+            "value": "Language Model Agents Cost"
+          },
+          {
+            "type": "name_like",
+            "value": "Performance"
+          },
+          {
+            "type": "name_like",
+            "value": "Vanilla"
+          },
+          {
+            "type": "name_like",
+            "value": "Agents"
+          },
+          {
+            "type": "name_like",
+            "value": "Meta"
+          },
+          {
+            "type": "name_like",
+            "value": "Captain Agent"
+          },
+          {
+            "type": "name_like",
+            "value": "Llama"
+          },
+          {
+            "type": "name_like",
+            "value": "Figure"
+          },
+          {
+            "type": "name_like",
+            "value": "Related Work Large"
+          },
+          {
+            "type": "name_like",
+            "value": "Wei"
+          },
+          {
+            "type": "name_like",
+            "value": "Yao"
+          },
+          {
+            "type": "name_like",
+            "value": "Morishita"
+          },
+          {
+            "type": "name_like",
+            "value": "Zhang"
+          },
+          {
+            "type": "name_like",
+            "value": "Song"
+          },
+          {
+            "type": "name_like",
+            "value": "Valmeekam"
+          },
+          {
+            "type": "name_like",
+            "value": "Liu"
+          },
+          {
+            "type": "name_like",
+            "value": "Language Model Agents"
+          },
+          {
+            "type": "name_like",
+            "value": "Mathematics"
+          },
+          {
+            "type": "name_like",
+            "value": "Data Analysis"
+          },
+          {
+            "type": "name_like",
+            "value": "Programming"
+          },
+          {
+            "type": "name_like",
+            "value": "Sci"
+          },
+          {
+            "type": "name_like",
+            "value": "Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Physics"
+          },
+          {
+            "type": "name_like",
+            "value": "Information"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Deities"
+          },
+          {
+            "type": "name_like",
+            "value": "Dwarf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the retrieved article to extract text.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the quoted word from two different authors regarding dragon depictions.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\"person\", \"article\", \"journal\"],\n  \"entities\": [\n    {\n      \"name\": \"Emily Midkiff\",\n      \"type\": \"name\",\n      \"evidence\": \"Emily Midkiff's June 2014 article was published in the journal *Fafnir*\",\n      \"source_url\": \"https://fafnir.journal.fi/article/view/164228\"\n    },\n    {\n      \"name\": \"Fafnir\",\n      \"type\": \"journal\",\n      \"evidence\": \"the journal where Emily Midkiff's article was published is named *Fafnir*\",\n      \"source_url\": \"https://fafnir.journal.fi/article/view/164228\"\n    },\n    {\n      \"name\": \"Hreidmar\",\n      \"type\": \"mythological figure\",\n      \"evidence\": \"Hreidmar is a character from Norse mythology\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Hrei%C3%B0marr\"\n    },\n    {\n      \"name\": \"Fafnir\",\n      \"type\": \"mythological figure\",\n      \"evidence\": \"one of his sons is Fafnir, who is known for guarding his father's treasure\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Hrei%C3%B0marr\"\n    }\n  ],\n  \"key_points\": [\n    \"Emily"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer with the quoted word.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "tricksy",
+        "final_answer_strict": "tricksy",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.8,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 8,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "tricksy",
+    "gt_norm": "fluffy"
+  }
+}

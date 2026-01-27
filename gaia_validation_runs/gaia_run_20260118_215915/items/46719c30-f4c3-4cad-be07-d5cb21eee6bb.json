@@ -1,0 +1,186 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Author details not available",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Who are the authors of the paper \"Pie Menus or Linear Menus, Which Is Better?\"?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 34.80083775520325,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о статье 'Pie Menus or Linear Menus, Which Is Better?' за 2015 год и её авторов.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "error",
+        "reason": "MCP Web search failed: unhandled errors in a TaskGroup (1 sub-exception)",
+        "facts": [],
+        "sources": [],
+        "summary": ""
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имена авторов статьи и проверить, кто из них имел ранее опубликованные работы.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "Каковы имена авторов статьи?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти первую статью автора, который имел ранее опубликованные работы.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "error",
+        "reason": "MCP Web search failed: unhandled errors in a TaskGroup (1 sub-exception)",
+        "facts": [],
+        "sources": [],
+        "summary": ""
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь заголовок первой статьи найденного автора.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "Каковы имена авторов статьи?"
+        ]
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Сформулировать финальный ответ о заголовке первой статьи автора.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Author details not available",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Who are the authors of the paper \"Pie Menus or Linear Menus, Which Is Better?\"?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

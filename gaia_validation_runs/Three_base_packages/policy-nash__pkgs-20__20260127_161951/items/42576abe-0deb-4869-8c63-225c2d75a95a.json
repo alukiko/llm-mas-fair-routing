@@ -1,0 +1,117 @@
+{
+  "id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+  "query": "In the fictional language of Tizin, basic sentences are arranged with the Verb first, followed by the direct object, followed by the subject of the sentence. I want to express my love for apples to my Tizin friend. \n\nThe word that indicates oneself is \"Pa\" is the nominative form, \"Mato\" is the accusative form, and \"Sing\" is the genitive form. \n\nThe root verb that indicates an intense like for something is \"Maktay\". When it is used in the present, it is used in it's root form, when it is used in the preterit past, it is \"Tay\", and when it is used in the imperfect past, it is \"Aktay\". It is used differently than in English, and is better translated as \"is pleasing to\", meaning that the thing doing the liking is actually the object of the sentence rather than the subject.\n\nThe word for apples is borrowed from English in Tizin, and so it is \"Apple\" is the nominative form, \"Zapple\" is the accusative form, and \"Izapple\" is the genitive form. \n\nPlease translate \"I like apples\" to Tizin.",
+  "ground_truth": "Maktay mato apple",
+  "answer_raw": {
+    "final_answer": "{ \"final_answer\": \"Zapple Maktay Pa\", \"final_answer_strict\": \"Zapple Maktay Pa\", \"used_evidence\": [ \"Tizin sentence structure: Verb first, then direct object, then subject.\", \"Verb for 'like' in present tense: 'Maktay'.\", \"Apples in accusative form (direct object): 'Zapple'.\", \"Oneself in nominative form (subject): 'Pa'.\", \"The verb 'Maktay' means 'is pleasing to', so the subject (I) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+    "final_answer_strict": "{ \"final_answer\": \"Zapple Maktay Pa\", \"final_answer_strict\": \"Zapple Maktay Pa\", \"used_evidence\": [ \"Tizin sentence structure: Verb first, then direct object, then subject.\", \"Verb for 'like' in present tense: 'Maktay'.\", \"Apples in accusative form (direct object): 'Zapple'.\", \"Oneself in nominative form (subject): 'Pa'.\", \"The verb 'Maktay' means 'is pleasing to', so the subject (I) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "{ \"final_answer\": \"Zapple Maktay Pa\", \"final_answer_strict\": \"Zapple Maktay Pa\", \"used_evidence\": [ \"Tizin sentence structure: Verb first, then direct object, then subject.\", \"Verb for 'like' in present tense: 'Maktay'.\", \"Apples in accusative form (direct object): 'Zapple'.\", \"Oneself in nominative form (subject): 'Pa'.\", \"The verb 'Maktay' means 'is pleasing to', so the subject (I) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+  "error": null,
+  "duration_sec": 23.44510555267334,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Construct the Tizin sentence structure using the provided rules.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"The Tizin sentence structure has specific grammatical rules that need to be followed.\",\n    \"The rules for constructing a Tizin sentence are provided or can be inferred.\"\n  ],\n  \"reasoning_steps\": [\n    \"Identify the rules for Tizin sentence structure.\",\n    \"Break down the components required for the sentence, such as subject, verb, and object.\",\n    \"Organize these components according to the Tizin structure.\"\n  ],\n  \"con",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the appropriate verb form and object forms for the sentence.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final Tizin translation for 'I like apples'.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "{ \"final_answer\": \"Zapple Maktay Pa\", \"final_answer_strict\": \"Zapple Maktay Pa\", \"used_evidence\": [ \"Tizin sentence structure: Verb first, then direct object, then subject.\", \"Verb for 'like' in present tense: 'Maktay'.\", \"Apples in accusative form (direct object): 'Zapple'.\", \"Oneself in nominative form (subject): 'Pa'.\", \"The verb 'Maktay' means 'is pleasing to', so the subject (I) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+        "final_answer_strict": "{ \"final_answer\": \"Zapple Maktay Pa\", \"final_answer_strict\": \"Zapple Maktay Pa\", \"used_evidence\": [ \"Tizin sentence structure: Verb first, then direct object, then subject.\", \"Verb for 'like' in present tense: 'Maktay'.\", \"Apples in accusative form (direct object): 'Zapple'.\", \"Oneself in nominative form (subject): 'Pa'.\", \"The verb 'Maktay' means 'is pleasing to', so the subject (I) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 150,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "final_answer\": \"zapple maktay pa\", \"final_answer_strict\": \"zapple maktay pa\", \"used_evidence\": [ \"tizin sentence structure: verb first, then direct object, then subject.\", \"verb for 'like' in present tense: 'maktay'.\", \"apples in accusative form (direct object): 'zapple'.\", \"oneself in nominative form (subject): 'pa'.\", \"the verb 'maktay' means 'is pleasing to', so the subject (i) is the object of the action, and the object (apples) is the subject of the verb.\" ], \"confidence",
+    "gt_norm": "maktay mato apple"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+  "query": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI",
+  "ground_truth": "Right",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 14.473040103912354,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Determine the opposite of the word 'left'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"The word 'left' can refer to a direction or the past tense of the verb 'leave'. In this context, it is assumed that 'left' refers to the direction.\"\n  ],\n  \"reasoning_steps\": [\n    \"Identify the meaning of the word 'left' as a direction.\",\n    \"Determine the common opposite of the directional term 'left'.\",\n    \"The opposite of 'left' in directional terms is 'right'.\"\n",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Provide the final answer based on the reasoning.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "right"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+  "query": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+  "ground_truth": "22",
+  "answer_raw": {
+    "final_answer": "28 years",
+    "final_answer_strict": "28",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "ok",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "28",
+  "error": null,
+  "duration_sec": 60.2982063293457,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find sources or facts from Girls Who Code regarding the percentage of computer scientists that were women and the time it took for this percentage to change by 13% from a starting point of 37%.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find sources or facts from Girls Who Code regarding the percentage of computer scientists that were women and the time it took for this percentage to change by 13% from a starting point of 37%.",
+        "facts": [
+          {
+            "fact": "In 1995, 37% of computer scientists were women.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The percentage of women in computer science dropped to 24% by today.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The decline in female participation in computer science was 13% from 1995 to the present.",
+            "source_url": "https://sc24.supercomputing.org/proceedings/poster/poster_files/post164s2-file3.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "We're on a mission to close the gender gap in tech. - Girls Who Code",
+            "url": "https://girlswhocode.com/about-us",
+            "snippet": "The gender gap in computing is getting worse.\n\nIn 1995, 37% of computer scientists were women. Today, it’s only 24%. The percent will continue to decline if we do nothing. We know that the biggest drop off of girls in computer science is between the ages of 13 and 17.\n\n% of women in Computer Science\n\nGirls Who Code is changing the game\n\nWe're reaching girls around the world and are on track to close the gender gap in new entry-level tech jobs by 2030.\n\n 14.9B\n\n  Engagements Globally\n\n  Through our online resources, campaigns, books, and advocacy work - in the U.S. and around the world.\n 760,00"
+          },
+          {
+            "title": "[PDF] A Survey Based Evaluation of the Efficacy of a Girls Who Code Club ...",
+            "url": "https://sc24.supercomputing.org/proceedings/poster/poster_files/post164s2-file3.pdf",
+            "snippet": "B. Motivation Over the past few decades, the field of computer sciences has experienced a significant decline in female participation.\nSince 1995, the percentage of women in computer science has decreased by 13%, dropping from 37% to a mere 24%.\nAddressing this gender gap is essential to ensuring a balanced and inclusive future for computer science . Programs like GWC are pivotal in this effort, working to inspire and equip young women with the skills and confidence needed to pursue careers in computing. This research aims to explore the efficacy of a GWC club at USI in reversing the decline i"
+          },
+          {
+            "title": "Gender disparity in computing",
+            "url": "https://en.wikipedia.org/wiki/Gender_disparity_in_computing",
+            "snippet": "In the United States, the proportion of women represented in the computer science field peaked around the mid-1980s and has declined ever since. In 1984, 37.1% of Computer Science degrees were awarded to women. However, this percentage dropped to 29.9% in 1990 and 26.7% in 1998. Data from the Computing Research Association indicates that fewer than 12% of computer science bachelor's degrees were awarded to women at U.S. PhD-granting institutions in 2011. Additionally, the percentage of women earning a master's degree peaked around 33% in 2000 but dropped to 27% in 2008. International studies o"
+          },
+          {
+            "title": "Girls Who Code Impact Evaluation Study",
+            "url": "https://www.air.org/project/girls-who-code-impact-evaluation-study",
+            "snippet": "Image\n\nComputer and information technology jobs are projected to grow 15% from 2021 to 2031, making computing one of the fastest growing occupations in the U.S. labor market. Women remain underrepresented in the science, technology, engineering, and mathematics (STEM) fields, making up only 27% of today’s STEM workforce. Although women’s participation in STEM fields has increased during the last 30 years, women remain underrepresented in the computer science (CS) field and their participation has declined from 37% in 1995 to 22% in 2022. Thus, it is crucial to change women’s perception of CS b"
+          },
+          {
+            "title": "[PDF] Cracking the Gender Code | Accenture",
+            "url": "https://www.accenture.com/content/dam/accenture/final/a-com-migration/pdf/pdf-150/accenture-cracking-the-gender-code-report.pdf",
+            "snippet": "The problem starts in the classroom The challenges we face originate in school, where too few girls are pursuing studies in computing and related subjects. According to the American Association of University Women, in recent years only 20% of Advanced Placement (AP) computer science exam takers in high school have been female, compared to 48% for calculus, 59% for biology, and 34% for physics.2 And the proportion of female students majoring in computing in college is not just low – it has fallen dramatically. In 1984, 37% of computer science majors in the U.S. were women. Today, only 18% are.3"
+          }
+        ],
+        "summary": "The percentage of women in computer science has declined from 37% in 1995 to 24% today, marking a 13% decrease."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the relevant information about the percentage change and the time taken from the retrieved sources.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "percentage of women in computer science",
+            "type": "percentage",
+            "evidence": "In 1995, 37% of computer scientists were women. The percentage of women in computer science dropped to 24% by today."
+          }
+        ],
+        "key_points": [
+          "The percentage of women in computer science has declined from 37% in 1995 to 24% today, marking a 13% decrease."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "37",
+            "unit": "%",
+            "context": "percentage of women in computer science in 1995"
+          },
+          {
+            "value": "24",
+            "unit": "%",
+            "context": "percentage of women in computer science today"
+          },
+          {
+            "value": "13",
+            "unit": "%",
+            "context": "decline in percentage of women in computer science"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the number of years it took for the percentage of women in computer science to change by 13% based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The decline in the percentage of women in computer science from 37% to 24% occurred over the time span from 1995 to the present."
+        ],
+        "reasoning_steps": [
+          "Identify the starting percentage of women in computer science (37% in 1995).",
+          "Identify the current percentage of women in computer science (24% today).",
+          "Calculate the change in percentage (37% - 24% = 13%).",
+          "Determine the time span from 1995 to the present year (2023), which is 28 years."
+        ],
+        "conclusions": [
+          "It took 28 years for the percentage of women in computer science to change by 13%."
+        ],
+        "proposed_answer_outline": [
+          "The percentage of women in computer science decreased from 37% in 1995 to 24% today, which is a 13% decline over a period of 28 years."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "calc",
+      "description": "Perform any necessary calculations to find the exact number of years for the percentage change.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "python_code": "start_percentage = 37\ncurrent_percentage = 24\npercentage_change = start_percentage - current_percentage\nstart_year = 1995\ncurrent_year = 2023\ntime_span = current_year - start_year\nresult = time_span\nprint(result)",
+        "output": "28\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T5",
+      "role": "critic",
+      "description": "Verify the facts and calculations to ensure accuracy and logical consistency.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "overall_verdict": "ok",
+        "issues": [],
+        "confirmed_points": [
+          "In 1995, 37% of computer scientists were women.",
+          "The percentage of women in computer science has declined to 24% today.",
+          "The decline in female participation in computer science is 13% from 1995 to the present."
+        ],
+        "risk_notes": [],
+        "follow_up_queries": [],
+        "recommendations_for_answer_agent": []
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the time it took for the percentage of computer scientists that were women to change by 13%.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "28 years",
+        "final_answer_strict": "28",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "ok",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "28",
+    "gt_norm": "22"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "a0068077-79f4-461a-adfe-75c1a4148545",
+  "query": "What was the actual enrollment count of the clinical trial on H. pylori in acne vulgaris patients from Jan-May 2018 as listed on the NIH website?",
+  "ground_truth": "90",
+  "answer_raw": {
+    "final_answer": "90 participants",
+    "final_answer_strict": "90.0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "90.0",
+  "error": null,
+  "duration_sec": 27.607701539993286,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the clinical trial information on H. pylori in acne vulgaris patients from Jan-May 2018 on the NIH website.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the clinical trial information on H. pylori in acne vulgaris patients from Jan-May 2018 on the NIH website.",
+        "facts": [
+          {
+            "fact": "The clinical trial on H. pylori in acne vulgaris patients had an actual enrollment count of 90 participants.",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          },
+          {
+            "fact": "The study started on March 1, 2017, and was completed on March 1, 2018.",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          },
+          {
+            "fact": "The primary completion date of the study was February 1, 2018.",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          },
+          {
+            "fact": "The study aimed to assess the prevalence of H. pylori infection in patients with acne vulgaris.",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          },
+          {
+            "fact": "Helicobacter pylori is a gastric Gram-negative, spiral-shaped microaerophilic pathogen that may play a role in dermatological disorders, including acne vulgaris.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11401782/"
+          }
+        ],
+        "summary": "A clinical trial investigating the relationship between H. pylori infection and acne vulgaris enrolled 90 patients, starting in March 2017 and completing in March 2018. The study aimed to determine the prevalence of H. pylori in this patient population, with findings suggesting a potential link between the pathogen and dermatological conditions.",
+        "sources": [
+          {
+            "title": "Here are some example questions from the paper[0] Level 1 Question",
+            "url": "https://news.ycombinator.com/item?id=38389917",
+            "snippet": "| |  |  | doctoboggan on Nov 23, 2023  | parent | context | favorite | on: Meta: Gaia - A Benchmark for General AI Assistants   Here are some example questions from the paper Level 1 Question: What was the actual enrollment count of the clinical trial on H. pylori in acne vulgaris patients from Jan-May 2018 as listed on the NIH website? Ground truth: 90  Level 2  Question: If this whole pint is made up of ice cream, how many percent above or below the US federal standards for butterfat content is it when using the standards as reported by Wikipedia in 2020? Answer as + or - a number rounded to one decimal place. Ground truth: +4.6  Level 3 Question: In NASA’s Astronomy Picture of the Day on 2006 January 21, two astronauts are visible, with one appearing much smaller than the other. As of"
+          },
+          {
+            "title": "Prevalence of H.Pylori in Patients With Acne Vulgaris Acne Vulgaris",
+            "url": "https://clinicaltrials.gov/study/NCT03411733",
+            "snippet": "Conditions \n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nIntervention / Treatment \n\n   Other: Blood and stool samples collection\n\nOther Study ID Numbers \n\n   HPAV001\n\nStudy Start  (Actual) \n\n2017-03-01\n\nPrimary Completion  (Actual) \n\n2018-02-01\n\nStudy Completion  (Actual) \n\n2018-03-01\n\nEnrollment  (Actual) \n\n90\n\nStudy Type \n\nObservational\n\n#### Resource links provided by the National Library of Medicine Image 9: NIH National Library of Medicine, National Center for Biotechnology Information\n\nMedlinePlus\")( related topics:Acne\")(\n\nFDA Drug and Device Resources(\n\nContacts and Locations [...] Study Registration Dates\n\nFirst Submitted \n\n2018-01-20\n\nFirst Submitted that Met QC Criteria \n\n2018-01-25\n\nFirst Posted \n\n2018-01-26\n\nStudy Record Updates\n\nLast Update Submitted that met QC Criteria \n\n2018-04-30\n\nLast Update Posted \n\n2018-05-02\n\nLast Verified \n\n2018-04\n\nMore Information\n\nRecord History\n\nExpand all / Collapse all\n\nTerms related to this study\n\n Keywords Provided by Dina Ali, Sohag University\n\nacne vlugaris \n\nprevalence \n\nHelicobacter Pylori \n\nAddit"
+          },
+          {
+            "title": "Helicobacter pylori and acne vulgaris: is there a relationship?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11401782/",
+            "snippet": "Background: Helicobacter pylori (H. pylori) is a gastric Gram-negative, spiral-shaped microaerophilic pathogen. H. pylori may play a potential pathogenic role in extra-intestinal diseases such as hepatobiliary, respiratory, and dermatological disorders. The latter included chronic urticaria, psoriasis and rosacea. The first report in literature on the relationship between H. pylori and acne vulgaris (AV), found association between severe AV and H. pylori infection. There are very limited data in AV patients addressing the impact of H. pylori infection on various severities. In this context, the aim of the present work was to determine the association of H. Pylori infection among AV patients and correlate it with the disease severity. Methods: This case-control study included 45 Patients [...] Methods: This case-control study included 45 Patients with AV and 45 age and sex matched healthy volunteers as a control group. H. pylori antigen in stool and serum H. pylori antibody IgG using commercially available ELISA kits was tested in all included subjects. Results: The percentage of participants with a positive H. pylori antigen in stool and positive H. pylori antibody in serum in the "
+          },
+          {
+            "title": "High levels of Helicobacter pylori antigens and antibodies ...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32333495/",
+            "snippet": "Wiley full text link\n\n### Actions\n\n### Page navigation\n\n# High levels of Helicobacter pylori antigens and antibodies in patients with severe acne vulgaris\n\n### Affiliations\n\n# High levels of Helicobacter pylori antigens and antibodies in patients with severe acne vulgaris\n\n### Authors\n\n### Affiliations\n\n## Abstract\n\nBackground:\nHelicobacter pylori (H pylori) may play a role in the pathogenesis of extra-intestinal disorders including dermatological diseases.\n\nAims:\nThis study aimed to assess the levels of H pylori antigen and antibody in patients with acne vulgaris (AV). [...] Methods:\nThis cross-sectional study compared the levels of fecal H pylori antigen and serum H pylori antibody in 100 patients with AV and 100 age and sex-matched healthy volunteers. Patients with AV were classified into mild, moderate, and severe according to the Global Acne Grading Scale. Levels of fecal H pylori antigen and serum H pylori antibodies were assessed using commercially available enzyme-linked immune-sorbent assay. [...] Conclusion:\nThe patients with severe AV had higher levels of fecal H pylori antigen and serum H pylori antibody as compared to the patients with mild and moderate AV and with hea"
+          },
+          {
+            "title": "Gut–Skin Axis: Current Knowledge of the Interrelationship ...",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7916842/",
+            "snippet": "Already many decades ago, a connection between the gastrointestinal part and acne vulgaris was suggested and followed by a first study in 1961 using oral Lactobacillus supplements . Later, this was substantiated by a trial showing a strong association of diet and acne vulgaris . Finally, in 2018, a study showed that acne vulgaris patients actually have a distinct gut microbiome composition . Acne patients have decreased diversity of the gut microbiota with lower abundance of Firmicutes and increased levels of Bacteroides. Generally, Clostridium, Clostridiales, Lachnospiraceae, and Ruminococcaceae were depleted in the acne cohort. While a distinct difference between the acne cohort and the healthy controls was observed in this study, no correlation or distinctive biomarker was found [...] Acne vulgaris is a multifactorial disease with the main drivers being the skin microbiome composition, the hormonal and immunological state of the host, sebum production, diet, FoxO1 deficiency, hormonal disorders, and deregulation of insulin-like growth factor. Acne vulgaris is the most common skin disorder in the Western world; it can affect 79% or 95% of the Western adolescent population . It is"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Here are some example questions from the paper[0] Level 1 Question",
+            "url": "https://news.ycombinator.com/item?id=38389917",
+            "content": "| |  |  | doctoboggan on Nov 23, 2023  | parent | context | favorite | on: Meta: Gaia - A Benchmark for General AI Assistants   Here are some example questions from the paper Level 1 Question: What was the actual enrollment count of the clinical trial on H. pylori in acne vulgaris patients from Jan-May 2018 as listed on the NIH website? Ground truth: 90  Level 2  Question: If this whole pint is made up of ice cream, how many percent above or below the US federal standards for butterfat content is it when using the standards as reported by Wikipedia in 2020? Answer as + or - a number rounded to one decimal place. Ground truth: +4.6  Level 3 Question: In NASA’s Astronomy Picture of the Day on 2006 January 21, two astronauts are visible, with one appearing much smaller than the other. As of",
+            "score": 0.8800674
+          },
+          {
+            "title": "Prevalence of H.Pylori in Patients With Acne Vulgaris Acne Vulgaris",
+            "url": "https://clinicaltrials.gov/study/NCT03411733",
+            "content": "Conditions \n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nHelicobacter Pylori Infection Acne Vulgaris\n\nIntervention / Treatment \n\n   Other: Blood and stool samples collection\n\nOther Study ID Numbers \n\n   HPAV001\n\nStudy Start  (Actual) \n\n2017-03-01\n\nPrimary Completion  (Actual) \n\n2018-02-01\n\nStudy Completion  (Actual) \n\n2018-03-01\n\nEnrollment  (Actual) \n\n90\n\nStudy Type \n\nObservational\n\n#### Resource links provided by the National Library of Medicine Image 9: NIH National Library of Medicine, National Center for Biotechnology Information\n\nMedlinePlus\")( related topics:Acne\")(\n\nFDA Drug and Device Resources(\n\nContacts and Locations [...] Study Registration Dates\n\nFirst Submitted \n\n2018-01-20\n\nFirst Submitted that Met QC Criteria \n\n2018-01-25\n\nFirst Posted \n\n2018-01-26\n\nStudy Record Updates\n\nLast Update Submitted that met QC Criteria \n\n2018-04-30\n\nLast Update Posted \n\n2018-05-02\n\nLast Verified \n\n2018-04\n\nMore Information\n\nRecord History\n\nExpand all / Collapse all\n\nTerms related to this study\n\n Keywords Provided by Dina Ali, Sohag University\n\nacne vlugaris \n\nprevalence \n\nHelicobacter Pylori \n\nAdditional Relevant MeSH Terms\n\nAcneiform Eruptions \n\nSkin Diseases \n\nSkin and Connective Tissue Diseases \n\nSebaceous Gland Diseases \n\nAcne Vulgaris \n\nSpecimen Handling \n\nClinical Laboratory Techniques \n\nDiagnostic Techniques and Procedures \n\nDiagnosis \n\nPunctures \n\nSurgical Procedures, Operative \n\nInvestigative Techniques [...] Give us feedback\n   Glossary\n   Customer Support\n\nLegal\n\n   Disclaimer\n   Terms and Conditions\n\nImage 10: ClinicalTrials.gov logo\n\n National Library of Medicine\n\n 8600 Rockville Pike, Bethesda, MD 20894 \n\nImage 11: NIH National Library of Medicine, National Center for Biotechnology Information (opens in a new tab)\")\n\nClinicalTrials.gov\n\nAn official website of the U.S. Department of Health and Human Services\")( National Institutes of Health\")( National Library of Medicine\")( and National Center for Biotechnology Information\")(\n\n   About HHS\")\n   About NIH\")\n   About NLM\")\n   About NCBI\")\n   Accessibility support\")\n   FOIA requests\")\n   No FEAR Act data\")\n   Office of the Inspector General\")\n   Privacy policy\")\n   HHS Vulnerability Disclosure\")",
+            "score": 0.8646883
+          },
+          {
+            "title": "Helicobacter pylori and acne vulgaris: is there a relationship?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11401782/",
+            "content": "Background: Helicobacter pylori (H. pylori) is a gastric Gram-negative, spiral-shaped microaerophilic pathogen. H. pylori may play a potential pathogenic role in extra-intestinal diseases such as hepatobiliary, respiratory, and dermatological disorders. The latter included chronic urticaria, psoriasis and rosacea. The first report in literature on the relationship between H. pylori and acne vulgaris (AV), found association between severe AV and H. pylori infection. There are very limited data in AV patients addressing the impact of H. pylori infection on various severities. In this context, the aim of the present work was to determine the association of H. Pylori infection among AV patients and correlate it with the disease severity. Methods: This case-control study included 45 Patients [...] Methods: This case-control study included 45 Patients with AV and 45 age and sex matched healthy volunteers as a control group. H. pylori antigen in stool and serum H. pylori antibody IgG using commercially available ELISA kits was tested in all included subjects. Results: The percentage of participants with a positive H. pylori antigen in stool and positive H. pylori antibody in serum in the whole study population was 35/90 (38. 9%) and 41/90 (45. 6%). On comparing between the percentages of positive H. pylori antigen in stool and positive H. pylori antibody in serum between the patients with AV and healthy controls, a highly statistically significant difference was found between the two groups (P < 0.001, P = 0.006). On comparing between the percentages of positive H. pylori antigen in [...] ### Methods\n\nI- Full history taking including personal history, drug history, family history and history of the present illness with special emphasis on: Onset, course and duration of the disease.\n\nII- Clinical examination:\n\n(a) General examination. (b) Dermatological examination: The AV patients were examined for the type of acne (Comedonal, inflammatory or mixed) and the site of AV (Forehead, cheeks, nose, chin, arms, chest and upper back).\n\nIII– Severity indices:\n\nFor evaluation of severity of the disease, patients with AV were classified into mild, moderate, severe according to the global acne grading system (GAGS). The GAGS score ranges from 0 (no acne), 1–18 (mild acne), 19–30 (moderate acne), 31–38 (severe acne), and > or = 39 (very severe acne) .\n\nlV- Laboratory investigations:",
+            "score": 0.5654673
+          },
+          {
+            "title": "High levels of Helicobacter pylori antigens and antibodies ...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32333495/",
+            "content": "Wiley full text link\n\n### Actions\n\n### Page navigation\n\n# High levels of Helicobacter pylori antigens and antibodies in patients with severe acne vulgaris\n\n### Affiliations\n\n# High levels of Helicobacter pylori antigens and antibodies in patients with severe acne vulgaris\n\n### Authors\n\n### Affiliations\n\n## Abstract\n\nBackground:\nHelicobacter pylori (H pylori) may play a role in the pathogenesis of extra-intestinal disorders including dermatological diseases.\n\nAims:\nThis study aimed to assess the levels of H pylori antigen and antibody in patients with acne vulgaris (AV). [...] Methods:\nThis cross-sectional study compared the levels of fecal H pylori antigen and serum H pylori antibody in 100 patients with AV and 100 age and sex-matched healthy volunteers. Patients with AV were classified into mild, moderate, and severe according to the Global Acne Grading Scale. Levels of fecal H pylori antigen and serum H pylori antibodies were assessed using commercially available enzyme-linked immune-sorbent assay. [...] Conclusion:\nThe patients with severe AV had higher levels of fecal H pylori antigen and serum H pylori antibody as compared to the patients with mild and moderate AV and with healthy controls. The indicators of H pylori infection were positively correlated with the severity and duration of AV.\n\nKeywords:\nHelicobacter pylori antibody; Helicobacter pylori antigen; Helicobacter pylori infection; acne vulgaris.\n\n© 2020 Wiley Periodicals, Inc.\n\nPubMed Disclaimer\n\n## References\n\n#### REFERENCES\n\n## MeSH terms\n\n## Substances\n\n## LinkOut - more resources\n\n### Full Text Sources\n\n### Medical\n\nWiley full text link\n\nNCBI Literature Resources\n\nMeSH\nPMC\nBookshelf\nDisclaimer",
+            "score": 0.40839532
+          },
+          {
+            "title": "Gut–Skin Axis: Current Knowledge of the Interrelationship ...",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7916842/",
+            "content": "Already many decades ago, a connection between the gastrointestinal part and acne vulgaris was suggested and followed by a first study in 1961 using oral Lactobacillus supplements . Later, this was substantiated by a trial showing a strong association of diet and acne vulgaris . Finally, in 2018, a study showed that acne vulgaris patients actually have a distinct gut microbiome composition . Acne patients have decreased diversity of the gut microbiota with lower abundance of Firmicutes and increased levels of Bacteroides. Generally, Clostridium, Clostridiales, Lachnospiraceae, and Ruminococcaceae were depleted in the acne cohort. While a distinct difference between the acne cohort and the healthy controls was observed in this study, no correlation or distinctive biomarker was found [...] Acne vulgaris is a multifactorial disease with the main drivers being the skin microbiome composition, the hormonal and immunological state of the host, sebum production, diet, FoxO1 deficiency, hormonal disorders, and deregulation of insulin-like growth factor. Acne vulgaris is the most common skin disorder in the Western world; it can affect 79% or 95% of the Western adolescent population . It is surprisingly absent in hunter–gatherer communities and communities that live a traditional, non-Western lifestyle . The immunology contribution is shaped by the innate immunity, adaptive immunity, and the T helper 17 (Th17) pathway [148,149]. However, the clinical relevance of the Th17 pathway in this disease still has to be evaluated as CD4+ IL-17-producing T cells were also found next to [...] as CD4+ IL-17-producing T cells were also found next to non-inflamed sebaceous glands [150,151]. A very different axis in the development of acne vulgaris is the insulin levels and insulin-like growth factor (IGF) concentrations. Some studies reported that IGF deficiency can protect from acne vulgaris . A more complicated interplay with diet and other drivers in acne vulgaris is likely [153,154]. Currently, the main therapeutic approach includes antibacterial compounds, retinoids, or comedolytic actives. The diversity in mode of actions make it obvious that the underlying disease has many contributors .",
+            "score": 0.27392188
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Here are some example questions from the paper[0] Level 1 Question",
+            "url": "https://news.ycombinator.com/item?id=38389917",
+            "score": 0.8800674
+          },
+          {
+            "title": "Prevalence of H.Pylori in Patients With Acne Vulgaris Acne Vulgaris",
+            "url": "https://clinicaltrials.gov/study/NCT03411733",
+            "score": 0.8646883
+          },
+          {
+            "title": "Helicobacter pylori and acne vulgaris: is there a relationship?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11401782/",
+            "score": 0.5654673
+          },
+          {
+            "title": "High levels of Helicobacter pylori antigens and antibodies ...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32333495/",
+            "score": 0.40839532
+          },
+          {
+            "title": "Gut–Skin Axis: Current Knowledge of the Interrelationship ...",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7916842/",
+            "score": 0.27392188
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Here"
+          },
+          {
+            "type": "name_like",
+            "value": "Level"
+          },
+          {
+            "type": "name_like",
+            "value": "Question"
+          },
+          {
+            "type": "name_like",
+            "value": "Nov"
+          },
+          {
+            "type": "name_like",
+            "value": "Meta"
+          },
+          {
+            "type": "name_like",
+            "value": "Gaia"
+          },
+          {
+            "type": "name_like",
+            "value": "Benchmark"
+          },
+          {
+            "type": "name_like",
+            "value": "General"
+          },
+          {
+            "type": "name_like",
+            "value": "Assistants"
+          },
+          {
+            "type": "name_like",
+            "value": "What"
+          },
+          {
+            "type": "name_like",
+            "value": "Jan-May"
+          },
+          {
+            "type": "name_like",
+            "value": "Ground"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Answer"
+          },
+          {
+            "type": "name_like",
+            "value": "Astronomy Picture"
+          },
+          {
+            "type": "name_like",
+            "value": "Day"
+          },
+          {
+            "type": "name_like",
+            "value": "January"
+          },
+          {
+            "type": "name_like",
+            "value": "Prevalence"
+          },
+          {
+            "type": "name_like",
+            "value": "Pylori"
+          },
+          {
+            "type": "name_like",
+            "value": "Patients With Acne Vulgaris"
+          },
+          {
+            "type": "name_like",
+            "value": "Acne Vulgaris\nConditions"
+          },
+          {
+            "type": "name_like",
+            "value": "Helicobacter Pylori Infection Acne"
+          },
+          {
+            "type": "name_like",
+            "value": "Vulgaris"
+          },
+          {
+            "type": "name_like",
+            "value": "Intervention"
+          },
+          {
+            "type": "name_like",
+            "value": "Treatment"
+          },
+          {
+            "type": "name_like",
+            "value": "Other"
+          },
+          {
+            "type": "name_like",
+            "value": "Blood"
+          },
+          {
+            "type": "name_like",
+            "value": "Other Study"
+          },
+          {
+            "type": "name_like",
+            "value": "Numbers"
+          },
+          {
+            "type": "name_like",
+            "value": "Study Start"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the enrollment count from the retrieved clinical trial information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "number"
+        ],
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [
+          {
+            "value": "90",
+            "unit": "participants",
+            "context": "Enrollment count of the clinical trial on H. pylori in acne vulgaris patients.",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          }
+        ],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "Enrollment  (Actual) \n\n90",
+            "source_url": "https://clinicaltrials.gov/study/NCT03411733"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer with the actual enrollment count.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "90 participants",
+        "final_answer_strict": "90.0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": true,
+    "pred_norm": "90.0",
+    "gt_norm": "90"
+  }
+}

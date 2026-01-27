@@ -1,0 +1,284 @@
+{
+  "id": "840bfca7-4f7b-481a-8794-c560c340185d",
+  "query": "On June 6, 2023, an article by Carolyn Collins Petersen was published in Universe Today. This article mentions a team that produced a paper about their observations, linked at the bottom of the article. Find this paper. Under what NASA award number was the work performed by R. G. Arendt supported by?",
+  "ground_truth": "80GSFC21M0002",
+  "answer_raw": {
+    "final_answer": "NASA award number not found",
+    "final_answer_strict": "not_found",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the NASA award number for R. G. Arendt's work?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not_found",
+  "error": null,
+  "duration_sec": 65.72224116325378,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the article by Carolyn Collins Petersen published on June 6, 2023, in Universe Today.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the article by Carolyn Collins Petersen published on June 6, 2023, in Universe Today.",
+        "facts": [
+          {
+            "fact": "The article by Carolyn Collins Petersen was published on June 6, 2023.",
+            "source_url": "https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"
+          },
+          {
+            "fact": "The title of the article is 'There Are Hundreds of Mysterious Filaments at the Center of the Milky Way'.",
+            "source_url": "https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"
+          },
+          {
+            "fact": "The article discusses mysterious filaments at the center of the Milky Way.",
+            "source_url": "https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"
+          }
+        ],
+        "sources": [
+          {
+            "title": "There Are Hundreds of Mysterious Filaments at the Center of the Milky Way",
+            "url": "https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way",
+            "snippet": "There Are Hundreds of Mysterious Filaments at the Center of the Milky Way. By Carolyn Collins Petersen - June 06, 2023 06:00 PM UTC | Milky Way."
+          },
+          {
+            "title": "Universe Today June 6 2023 Carolyn Collins Petersen article",
+            "url": "https://www.nasa.gov/%3Fsearch%3DUniverse%2BToday%2BJune%2B6%2B2023%2BCarolyn%2BCollins%2BPetersen%2Barticle",
+            "snippet": "Search Results for: Universe Today June 6 2023 Carolyn Collins Petersen article. 17586 results found. Filter Results ..."
+          },
+          {
+            "title": "Carolyn Collins Petersen - Universe Today",
+            "url": "https://www.universetoday.com/authors/cc-petersen",
+            "snippet": "Carolyn Collins Petersen is a long-time science writer and former astronomy researcher. She writes about astronomy and space exploration."
+          },
+          {
+            "title": "Hundreds of Mystery Structures Found at The Heart of The Milky Way",
+            "url": "https://www.sciencealert.com/hundreds-of-mystery-structures-found-at-the-heart-of-the-milky-way",
+            "snippet": "An investigation into the mystery filaments hanging in space around the heart of the Milky Way has turned up an entirely new population of them, aligned along the galactic plane and pointing in the direction of the galactic center."
+          },
+          {
+            "title": "Carolyn Collins Petersen June 6 2023 Universe Today article author",
+            "url": "https://www.nasa.gov/%3Fsearch%3DCarolyn%2BCollins%2BPetersen%2BJune%2B6%2B2023%2BUniverse%2BToday%2Barticle%2Bauthor",
+            "snippet": "Search Results for: Carolyn Collins Petersen June 6 2023 Universe Today article author. 4 results found. Filter Results ..."
+          }
+        ],
+        "summary": "Carolyn Collins Petersen's article published on June 6, 2023, in Universe Today explores mysterious filaments located at the center of the Milky Way."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the link to the paper mentioned at the bottom of the article.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Carolyn Collins Petersen",
+            "type": "author",
+            "evidence": "The article by Carolyn Collins Petersen was published on June 6, 2023."
+          },
+          {
+            "name": "There Are Hundreds of Mysterious Filaments at the Center of the Milky Way",
+            "type": "article title",
+            "evidence": "The title of the article is 'There Are Hundreds of Mysterious Filaments at the Center of the Milky Way'."
+          }
+        ],
+        "key_points": [
+          "The article discusses mysterious filaments at the center of the Milky Way."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2023-06-06",
+            "unit": "date",
+            "context": "Publication date of the article."
+          }
+        ],
+        "definitions": [],
+        "open_questions": [],
+        "paper_link": "https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find the paper linked in the article.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the paper linked in the article.",
+        "facts": [
+          {
+            "fact": "Connected Papers is a tool for researchers to find relevant academic papers.",
+            "source_url": "https://www.connectedpapers.com/"
+          },
+          {
+            "fact": "Google Scholar allows users to search for scholarly literature across various disciplines.",
+            "source_url": "https://scholar.google.com/"
+          },
+          {
+            "fact": "Sourcely uses AI to find relevant papers and citations from input text.",
+            "source_url": "https://www.sourcely.net/"
+          },
+          {
+            "fact": "Scite provides citation contexts and links directly to the citing papers.",
+            "source_url": "https://scite.ai/"
+          },
+          {
+            "fact": "PaperGate is a search engine for finding and downloading academic articles.",
+            "source_url": "https://papergate.org/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Connected Papers | Find and explore academic papers",
+            "url": "https://www.connectedpapers.com/",
+            "snippet": "Connected Papers is a visual tool to help researchers and applied scientists find academic papers relevant to their field of work."
+          },
+          {
+            "title": "Google Scholar",
+            "url": "https://scholar.google.com/",
+            "snippet": "Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions."
+          },
+          {
+            "title": "Sourcely | Find Academic Sources with AI",
+            "url": "https://www.sourcely.net/",
+            "snippet": "AI-powered academic source finder that instantly finds relevant papers and citations from input text, essay, or paper. Find sources, summarize, and cite ..."
+          },
+          {
+            "title": "Scite: AI for Research",
+            "url": "https://scite.ai/",
+            "snippet": "You can find the exact citation context here. Clicking on the title of the citing paper takes you directly to the publication. ... You can click on any citation ..."
+          },
+          {
+            "title": "PaperGate - Free Research Paper Search Engine | 250M+ Scientific Articles",
+            "url": "https://papergate.org/",
+            "snippet": "PaperGate A modern research paper search engine that helps you find and download academic articles in seconds. Fast, reliable, and built for students, researchers, and professionals."
+          }
+        ],
+        "summary": "Various tools are available for finding and exploring academic papers, including Connected Papers, Google Scholar, Sourcely, Scite, and PaperGate."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the NASA award number under which the work performed by R. G. Arendt was supported from the paper.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the NASA award number for R. G. Arendt's work.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "NASA award number not found",
+        "final_answer_strict": "not_found",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the NASA award number for R. G. Arendt's work?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not_found",
+    "gt_norm": "80gsfc21m0002"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+  "query": "Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.\n\nWhat does Teal'c say in response to the question \"Isn't that hot?\"",
+  "ground_truth": "Extremely",
+  "answer_raw": {
+    "final_answer": "I do not have that information.",
+    "final_answer_strict": "I do not have that information.",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What does Teal'c say in response to the question \"Isn't that hot?\" in the video?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "I do not have that information.",
+  "error": null,
+  "duration_sec": 17.291249752044678,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the video at the provided URL and extract the audio transcript.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the relevant dialogue from the transcript where Teal'c responds to the question 'Isn't that hot?'",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding what Teal'c says in response to the question.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "I do not have that information.",
+        "final_answer_strict": "I do not have that information.",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What does Teal'c say in response to the question \"Isn't that hot?\" in the video?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "i do not have that information",
+    "gt_norm": "extremely"
+  }
+}

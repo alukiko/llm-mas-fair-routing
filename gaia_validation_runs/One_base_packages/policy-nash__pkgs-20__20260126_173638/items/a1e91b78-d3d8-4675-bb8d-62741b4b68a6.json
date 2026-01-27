@@ -1,0 +1,156 @@
+{
+  "id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+  "query": "In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?",
+  "ground_truth": "3",
+  "answer_raw": {
+    "final_answer": "unknown",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the number of bird species shown on camera simultaneously in the video content?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 21.29169988632202,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the video to extract its content.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the number of bird species shown on camera simultaneously from the video content.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "matched_on": [],
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [],
+        "open_questions": [
+          "What is the number of bird species shown on camera simultaneously in the video content?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the highest number of bird species based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"The task requires information about the number of bird species shown in a video.\",\n    \"No specific data about the number of bird species is provided in the extracted information.\"\n  ],\n  \"reasoning_steps\": [\n    \"Identify the lack of specific numerical data regarding bird species from the provided information.\",\n    \"Note that the open question indicates a need for information about the number of species shown on camera.\"\n  ],\n  \"conclusions\": [\n    \"",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the final answer regarding the highest number of bird species on camera simultaneously.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "unknown",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the number of bird species shown on camera simultaneously in the video content?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "3"
+  }
+}

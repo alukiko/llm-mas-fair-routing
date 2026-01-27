@@ -1,0 +1,628 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 81.21237683296204,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N. Khan.\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"fact\": \"Pietro Murano is affiliated with the Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway.\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"fact\": \"Iram N. Khan is affiliated with the University of Salford, School of Computing, Science and Engineering, Salford, UK.\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"fact\": \"The paper was published in September 2015 in the Journal of Emerging Trends in Computing and Information Sciences.\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    }\n  ],\n  \"summary\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N. Khan, published in September 2015",
+        "sources": [
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  479 possible learning effects from one menu type to another in the within users design setup. Two out of four tasks were easier as they belonged to the second level of the pie menu while the remaining two tasks were comparatively difficult belonging to"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] Pietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user "
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] interfacesbut for experienced users, CommandMaps are significantly faster than both menus and the Ribbon. [...] menus were inferior to the hierarchical menu and how both may be improved."
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "snippet": "A user study confirmed that a zigzag cascading menu effectively reduces the total mouse traversal required and decreases navigational time as familiarity with the system increases. [...] J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\n \n\nArticle citationsMore >>\n\nJ. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\nhas been cited by the following article:\n\nArticle\n\nA Zigzag Approach to Cascading Menus\n\nDuane Yoder1, Raihan Uddin Ahmed2, Munsi Barkatullah2, A. S. M Mahmudul Hasan3,Image 5\n\n:94-99. doi: 10.12691/jcsa-3-4-2.\n\n[]( to: A. S. M Mahmudul Hasan, School of Science and Technology, Bangladesh Open University, Gazipur, Bangladesh. Email: apon_cse@yahoo.com\nAbstract"
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus (1988)",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs",
+            "snippet": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] [...]\n\nFrançois Guimbretière,Terry Winograd +1 more\n\n- 01 Nov 2000\n\nShow Less [...] read more\n\nAbstract: Menus are largely formatted in a linear fashion listing items from the top to bottom of the screen or window. Pull down menus are a common example of this format. Bitmapped computer displays, however, allow greater freedom in the placement, font, and general presentation of menus. A pie menu is a format where the items are placed along the circumference of a circle at equal radial distances from the center. Pie menus gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and inc"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  479 possible learning effects from one menu type to another in the within users design setup. Two out of four tasks were easier as they belonged to the second level of the pie menu while the remaining two tasks were comparatively difficult belonging to the third level of the menu design. Furthermore, four different tasks were devised as familiarization tasks for the pie menu. Therefore the actual task list used is listed below: Pie Menu Task list:  Task1 - Find out the screen size of the “HTC Rhyme” Mobile Phone.  Task2 - Find out the processor speed of the “Apple IMAC MC309” Desktop Computer.  Task3 - Find out the resolution of the “LG L1510M [...] other metrics can give other interesting and useful information. In the study by Murano and Lomas , four linear menu positions (top, bottom, left and right of a page) were evaluated in the context of an online store. The results showed in agreement with Kalback and Bosenick  that tasks times did not seem to be affected. However in the Murano and Lomas  study errors and mouse clicks were recorded along with final participant subjective opinions. The results showed that the top horizontal and left vertical positioned menus incurred fewer errors and fewer mouse clicks. Further, 1 pietro.murano@hioa.no, 2 I.N.Khan@edu.salford.ac.uk Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  477",
+            "score": 0.99995935
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] Pietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user interface scrolling types\n\nSushil SharmaPietro Murano\n\nComputer Science\n\nFirst Monday\n\n 2020\n\nThe evaluation was principally about the ‘raw’ performance and participant perceptions, where no single scrolling method stood out as being the most usable.\n\n 6\n PDF\n\n### Effects of Menu Organization and Visibility on Web Navigation for People with Dyslexia\n\nH. PetrieIli Farhana Md Mahtar [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two main characteristics of radial and linear layouts, and presents requirements and the Compact Radial Layout (CRL) design which supports menu hierarchies.\n\n 33\n\n### Flower menus: a new type of marking menu with large menu breadth, within groups and efficient expert mode memorization\n\nG. BaillyÉ. LecolinetL. Nigay\n\nComputer Science\n\nAVI '08\n\n 2008",
+            "score": 0.9998822
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] interfacesbut for experienced users, CommandMaps are significantly faster than both menus and the Ribbon. [...] menus were inferior to the hierarchical menu and how both may be improved.",
+            "score": 0.998147
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "content": "A user study confirmed that a zigzag cascading menu effectively reduces the total mouse traversal required and decreases navigational time as familiarity with the system increases. [...] J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\n \n\nArticle citationsMore >>\n\nJ. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\nhas been cited by the following article:\n\nArticle\n\nA Zigzag Approach to Cascading Menus\n\nDuane Yoder1, Raihan Uddin Ahmed2, Munsi Barkatullah2, A. S. M Mahmudul Hasan3,Image 5\n\n:94-99. doi: 10.12691/jcsa-3-4-2.\n\n[]( to: A. S. M Mahmudul Hasan, School of Science and Technology, Bangladesh Open University, Gazipur, Bangladesh. Email: apon_cse@yahoo.com\nAbstract",
+            "score": 0.9964064
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus (1988)",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs",
+            "content": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] [...]\n\nFrançois Guimbretière,Terry Winograd +1 more\n\n- 01 Nov 2000\n\nShow Less [...] read more\n\nAbstract: Menus are largely formatted in a linear fashion listing items from the top to bottom of the screen or window. Pull down menus are a common example of this format. Bitmapped computer displays, however, allow greater freedom in the placement, font, and general presentation of menus. A pie menu is a format where the items are placed along the circumference of a circle at equal radial distances from the center. Pie menus gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law, minimizing the drift distance after target selection, and are, in general, subjectively equivalent to the linear style.\n\nread more\n\n##### Chat with Paper\n\n##### AI Agents for this Paper",
+            "score": 0.9959299
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.99995935
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.9998822
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.998147
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "score": 0.9964064
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus (1988)",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs",
+            "score": 0.9959299
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Vol"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Emerging Trends"
+          },
+          {
+            "type": "name_like",
+            "value": "Computing"
+          },
+          {
+            "type": "name_like",
+            "value": "Information Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram"
+          },
+          {
+            "type": "name_like",
+            "value": "Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Department"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Universal Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Research Group"
+          },
+          {
+            "type": "name_like",
+            "value": "Oslo"
+          },
+          {
+            "type": "name_like",
+            "value": "Akershus University College"
+          },
+          {
+            "type": "name_like",
+            "value": "Applied Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "Norway"
+          },
+          {
+            "type": "name_like",
+            "value": "University"
+          },
+          {
+            "type": "name_like",
+            "value": "Salford"
+          },
+          {
+            "type": "name_like",
+            "value": "School"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Engineering"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Although"
+          },
+          {
+            "type": "name_like",
+            "value": "Two"
+          },
+          {
+            "type": "name_like",
+            "value": "Corpus"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"paper title: \\\"Pie Menus or Linear Menus, Which Is Better?\\\"\",\n    \"year: 2015\",\n    \"author line in PDF / bibliographic record\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"person\",\n      \"evidence\": \""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the extracted authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the extracted authors.",
+        "facts": [
+          {
+            "fact": "Web of Science and Scopus are commercial systems that can provide information on researchers' past collaborators.",
+            "source_url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au"
+          },
+          {
+            "fact": "DBLP is a free resource for searching past collaborations among researchers in computer science.",
+            "source_url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au"
+          },
+          {
+            "fact": "SIGMOD 2026 submissions must present substantial novel material and cite any prior publications if there is overlap.",
+            "source_url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml"
+          }
+        ],
+        "summary": "The provided sources outline methods for finding researchers' past collaborations and detail submission guidelines for the SIGMOD 2026 conference.",
+        "sources": [
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "snippet": "2\n\n 1\n\n  Web of Science has the same feature\n\n  F'x\n\n  –  F'x\n\n  2013-09-04 18:36:13 +00:00\n\n   Commented Sep 4, 2013 at 18:36\n 1\n\n  Both Scopus and Web of Science are commercial systems. By default, you assume that the OP has an appropriate academic access to these, but this may not be so. Sometimes, coverage between the systems may differ. Scopus, an Elsevier product, would be adamant in promoting Elsevier titles, but not so much Wiley or Springer titles that it may be parsing for co-authors with a lesser accuracy.\n\n  StasK\n\n  –  StasK\n\n  2013-09-04 20:21:15 +00:00\n\n   Commented Sep 4, 2013 at 20:21\n\nAdd a comment   |\n\n1 [...] Add a comment   |\n\n## 4 Answers 4\n\nReset to default\n\n7\n\nFor researchers in computer science, another approach is to use DBLP, which is free. For example, this is the coauthor list for me on my DBLP page. It is reached by going to the researcher page at DBLP, and then clicking the little 'people' icon on the right hand side.\n\nShare\n\nImprove this answer\n\nanswered Sep 4, 2013 at 16:43\n\nSuresh\n\n51.7k55 gold badges129129 silver badges249249 bronze badges\n\n1\n\n Not working for me\n\n  borgr\n\n  –  borgr\n\n  2023-08-31 13:17:02 +00:00\n\n   Commented Aug 31, 2023 at 13:1"
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "snippet": "Getting better answers\n\n If you're new to the subject, it may be helpful to pick up the terminology from secondary sources. E.g., a Wikipedia article for \"overweight\" might suggest a Scholar search for \"pediatric hyperalimentation\".\n If the search results are too specific for your needs, check out what they're citing in their \"References\" sections. Referenced works are often more general in nature.\n Similarly, if the search results are too basic for you, click \"Cited by\" to see newer papers that referenced them. These newer papers will often be more specific.\n Explore! There's rarely a single answer to a research question. Click \"Related articles\" or \"Cited by\" to see closely related work, or search for author's name and see what else they have written.\n\nSearching Google Scholar [...] Please write to the owner of the website where the erroneous search result is coming from, and encourage them to provide correct bibliographic data to us, as described in the technical guidelines. Once the data is corrected on their website, it usually takes 6-9 months to a year or longer for it to be updated in Google Scholar. We appreciate your help and your patience.\n\nHow do I add my papers to Goog"
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "snippet": "Every paper submitted to SIGMOD 2026 must present substantial novel and include material not described in any prior publication. In this context, a prior publication is (a) a paper of five pages or more, presented, or accepted for presentation, at a refereed conference or workshop with proceedings; or (b) an article published, or accepted for publication, in a refereed journal. If a SIGMOD 2026 submission has overlap with a prior publication, the submission must cite the prior publication (respecting the double anonymity requirement), and clearly indicate which parts of the work appeared in prior publications and which parts are novel to the current submission. [...] 1Short-term associations, such as summer internships do not constitute institutional COIs. E.g., a student who interned at Microsoft should declare as conflicts any individuals in the group they worked with and other collaborators on their projects, but they should not declare a domain conflict with microsoft.com.\n\n2Collaborations are indicated by prior co-authorships, shared grant funding, and close research relationships, even if those have not yet resulted in common publications. Publications (typically with a large"
+          },
+          {
+            "title": "5 Useful DIY Python Functions for Parsing Dates and Times - KDnuggets",
+            "url": "https://www.kdnuggets.com/5-useful-diy-python-functions-for-parsing-dates-and-times",
+            "snippet": "from datetime import datetime, timedelta def parse_iso_week_date(iso_week_string): \"\"\" Parse ISO week date format: YYYY-Www-D Example: \"2024-W03-2\" = Week 3 of 2024, Tuesday ISO week numbering: - Week 1 is the week with the first Thursday of the year - Days are numbered 1 (Monday) through 7 (Sunday) \"\"\" # Parse the format: YYYY-Www-D parts = iso_week_string.split('-') if len(parts) != 3 or not parts.startswith('W'): raise ValueError(f\"Invalid ISO week format: {iso_week_string}\") year = int(parts) week = int(parts[1:]) # Remove 'W' prefix day = int(parts) if not (1 <= week <= 53): raise ValueError(f\"Week must be between 1 and 53: {week}\") if not (1 <= day <= 7): raise ValueError(f\"Day must be between 1 and 7: {day}\") # Find January 4th (always in week 1) jan_4 = datetime(year, 1, 4) # Find [...] from datetime import datetime, timedelta import re def parse_relative_time(time_string, reference_time=None): \"\"\" Convert relative time strings to datetime objects. Examples: \"2 hours ago\", \"3 days ago\", \"1 week ago\" \"\"\" if reference_time is None: reference_time = datetime.now() # Normalize the string time_string = time_string.lower().strip() # Pattern: number + time unit + \"ago\" pattern = r"
+          },
+          {
+            "title": "APA Cite Website Without Author (APA 7 Guide)",
+            "url": "https://aithor.com/blog/apa-cite-website-no-author",
+            "snippet": "Here’s how to use Aithor’s Citation Generator:\n\n1. Choose your citation style: APA, MLA, Chicago, or other formats to ensure consistent, uniform citations.\n2. Search for your reference: Enter a title, journal, or author in the search bar. Select your source to instantly generate your citation.\n3. Use the manual option if needed: If your source isn’t in the Aithor database, simply enter the details manually and your citation will be formatted automatically.\n4. Organize and export your reference list: New citations are added automatically and can be sorted alphabetically or by date, depending on your preference. [...] ## Tips for Students Using APA 7th Edition\n\n Always include the publication date. If no date is available, use (n.d.).\n Italicize the website name, but not the title of the webpage.\n Use a reliable tool like Aithor.com to generate accurate APA references and avoid formatting mistakes.\n\n## Simplify Your Citing Process\n\nManaging citations manually can be a time-consuming task that requires hours of focused work. With APA citation machine, this entire process can be fully automated and completed in minutes.\n\nHere’s how to use Aithor’s Citation Generator: [...] This free on"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "content": "2\n\n 1\n\n  Web of Science has the same feature\n\n  F'x\n\n  –  F'x\n\n  2013-09-04 18:36:13 +00:00\n\n   Commented Sep 4, 2013 at 18:36\n 1\n\n  Both Scopus and Web of Science are commercial systems. By default, you assume that the OP has an appropriate academic access to these, but this may not be so. Sometimes, coverage between the systems may differ. Scopus, an Elsevier product, would be adamant in promoting Elsevier titles, but not so much Wiley or Springer titles that it may be parsing for co-authors with a lesser accuracy.\n\n  StasK\n\n  –  StasK\n\n  2013-09-04 20:21:15 +00:00\n\n   Commented Sep 4, 2013 at 20:21\n\nAdd a comment   |\n\n1 [...] Add a comment   |\n\n## 4 Answers 4\n\nReset to default\n\n7\n\nFor researchers in computer science, another approach is to use DBLP, which is free. For example, this is the coauthor list for me on my DBLP page. It is reached by going to the researcher page at DBLP, and then clicking the little 'people' icon on the right hand side.\n\nShare\n\nImprove this answer\n\nanswered Sep 4, 2013 at 16:43\n\nSuresh\n\n51.7k55 gold badges129129 silver badges249249 bronze badges\n\n1\n\n Not working for me\n\n  borgr\n\n  –  borgr\n\n  2023-08-31 13:17:02 +00:00\n\n   Commented Aug 31, 2023 at 13:17\n\nAdd a comment   |\n\n4\n\nYes, you can do this with many scientific indexing service. Personally, I like Scopus. It is subscription-based, though. [...] I can of course go through the researcher's publication and get the names one by one, but just wonder if there is a shortcut way of doing this.\n\n collaboration\n authorship\n\nShare\n\nImprove this question\n\nedited Sep 4, 2013 at 18:35\n\nF'x\n\n75k2424 gold badges272272 silver badges399399 bronze badges\n\nasked Sep 4, 2013 at 16:20\n\nChrisG\n\n6111 silver badge22 bronze badges\n\n1\n\n 3\n\n  Most bibliographic systems include this, for example, Google Scholar has a co-authors network, as well as Microsoft Academic Search.\n\n  Irwin\n\n  –  Irwin\n\n  2013-09-04 17:38:43 +00:00\n\n   Commented Sep 4, 2013 at 17:38\n\nAdd a comment   |\n\n## 4 Answers 4\n\nReset to default\n\n7",
+            "score": 0.12866764
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "content": "Getting better answers\n\n If you're new to the subject, it may be helpful to pick up the terminology from secondary sources. E.g., a Wikipedia article for \"overweight\" might suggest a Scholar search for \"pediatric hyperalimentation\".\n If the search results are too specific for your needs, check out what they're citing in their \"References\" sections. Referenced works are often more general in nature.\n Similarly, if the search results are too basic for you, click \"Cited by\" to see newer papers that referenced them. These newer papers will often be more specific.\n Explore! There's rarely a single answer to a research question. Click \"Related articles\" or \"Cited by\" to see closely related work, or search for author's name and see what else they have written.\n\nSearching Google Scholar [...] Please write to the owner of the website where the erroneous search result is coming from, and encourage them to provide correct bibliographic data to us, as described in the technical guidelines. Once the data is corrected on their website, it usually takes 6-9 months to a year or longer for it to be updated in Google Scholar. We appreciate your help and your patience.\n\nHow do I add my papers to Google Scholar?\n\nIf you can't find your papers when you search for them by title and by author, please refer your publisher to our technical guidelines. [...] Search Scholar\n\n# Search\n\n About\n Search\n Profiles\n Inclusion\n Metrics\n Publishers\n Libraries\n\n Overview\n Searching\n Access\n Alerts\n Library\n Export\n Coverage\n Corrections\n Questions\n\n## Search Help\n\nGet the most out of Google Scholar with some helpful tips on searches, email alerts, citation export, and more.\n\nFinding recent papers\n\nYour search results are normally sorted by relevance, not by date. To find newer articles, try the following options in the left sidebar:\n\n1. click \"Since Year\" to show only recently published papers, sorted by relevance;\n2. click \"Sort by date\" to show just the new additions, sorted by date;\n3. click the envelope icon to have new results periodically delivered by email.\n\nLocating the full text of an article",
+            "score": 0.11376677
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "content": "Every paper submitted to SIGMOD 2026 must present substantial novel and include material not described in any prior publication. In this context, a prior publication is (a) a paper of five pages or more, presented, or accepted for presentation, at a refereed conference or workshop with proceedings; or (b) an article published, or accepted for publication, in a refereed journal. If a SIGMOD 2026 submission has overlap with a prior publication, the submission must cite the prior publication (respecting the double anonymity requirement), and clearly indicate which parts of the work appeared in prior publications and which parts are novel to the current submission. [...] 1Short-term associations, such as summer internships do not constitute institutional COIs. E.g., a student who interned at Microsoft should declare as conflicts any individuals in the group they worked with and other collaborators on their projects, but they should not declare a domain conflict with microsoft.com.\n\n2Collaborations are indicated by prior co-authorships, shared grant funding, and close research relationships, even if those have not yet resulted in common publications. Publications (typically with a large set of authors) that fall outside the traditional sense of research collaborations (e.g., “The Seattle Report on Database Research”, “ Diversity and Inclusion Activities in Database Conferences: A 2021 Report”, etc.) do not in themselves constitute a COI. [...] > Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44.\n\nThe solution is to reference one's past work in the third person. This allows setting the context for your submission, while at the same time preserving anonymity:\n\n> In previous work [1, 2], algorithms were presented for ... In this paper, we build on that work by ...\n\n> Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44.",
+            "score": 0.078113474
+          },
+          {
+            "title": "5 Useful DIY Python Functions for Parsing Dates and Times - KDnuggets",
+            "url": "https://www.kdnuggets.com/5-useful-diy-python-functions-for-parsing-dates-and-times",
+            "content": "from datetime import datetime, timedelta def parse_iso_week_date(iso_week_string): \"\"\" Parse ISO week date format: YYYY-Www-D Example: \"2024-W03-2\" = Week 3 of 2024, Tuesday ISO week numbering: - Week 1 is the week with the first Thursday of the year - Days are numbered 1 (Monday) through 7 (Sunday) \"\"\" # Parse the format: YYYY-Www-D parts = iso_week_string.split('-') if len(parts) != 3 or not parts.startswith('W'): raise ValueError(f\"Invalid ISO week format: {iso_week_string}\") year = int(parts) week = int(parts[1:]) # Remove 'W' prefix day = int(parts) if not (1 <= week <= 53): raise ValueError(f\"Week must be between 1 and 53: {week}\") if not (1 <= day <= 7): raise ValueError(f\"Day must be between 1 and 7: {day}\") # Find January 4th (always in week 1) jan_4 = datetime(year, 1, 4) # Find [...] from datetime import datetime, timedelta import re def parse_relative_time(time_string, reference_time=None): \"\"\" Convert relative time strings to datetime objects. Examples: \"2 hours ago\", \"3 days ago\", \"1 week ago\" \"\"\" if reference_time is None: reference_time = datetime.now() # Normalize the string time_string = time_string.lower().strip() # Pattern: number + time unit + \"ago\" pattern = r'(\\d+)\\s(second|minute|hour|day|week|month|year)s?\\sago' match = re.match(pattern, time_string) if not match: raise ValueError(f\"Cannot parse: {time_string}\") amount = int(match.group(1)) unit = match.group(2) # Map units to timedelta kwargs unit_mapping = { 'second': 'seconds', 'minute': 'minutes', 'hour': 'hours', 'day': 'days', 'week': 'weeks', } if unit in unit_mapping: delta_kwargs = [...] Here's a smart date parser that handles common formats:\n\n```\nfrom datetime import datetime def parse_flexible_date(date_string): \"\"\" Parse dates in multiple common formats. Tries various formats and returns the first match. \"\"\" date_string = date_string.strip() # List of common date formats formats = [ '%Y-%m-%d', '%Y/%m/%d', '%d-%m-%Y', '%d/%m/%Y', '%m/%d/%Y', '%d.%m.%Y', '%Y%m%d', '%B %d, %Y', '%b %d, %Y', '%d %B %Y', '%d %b %Y', ] # Try each format for fmt in formats: try: return datetime.strptime(date_string, fmt) except ValueError: continue # If nothing worked, raise an error raise ValueError(f\"Unable to parse date: {date_string}\")\n```",
+            "score": 0.07008091
+          },
+          {
+            "title": "APA Cite Website Without Author (APA 7 Guide)",
+            "url": "https://aithor.com/blog/apa-cite-website-no-author",
+            "content": "Here’s how to use Aithor’s Citation Generator:\n\n1. Choose your citation style: APA, MLA, Chicago, or other formats to ensure consistent, uniform citations.\n2. Search for your reference: Enter a title, journal, or author in the search bar. Select your source to instantly generate your citation.\n3. Use the manual option if needed: If your source isn’t in the Aithor database, simply enter the details manually and your citation will be formatted automatically.\n4. Organize and export your reference list: New citations are added automatically and can be sorted alphabetically or by date, depending on your preference. [...] ## Tips for Students Using APA 7th Edition\n\n Always include the publication date. If no date is available, use (n.d.).\n Italicize the website name, but not the title of the webpage.\n Use a reliable tool like Aithor.com to generate accurate APA references and avoid formatting mistakes.\n\n## Simplify Your Citing Process\n\nManaging citations manually can be a time-consuming task that requires hours of focused work. With APA citation machine, this entire process can be fully automated and completed in minutes.\n\nHere’s how to use Aithor’s Citation Generator: [...] This free online citation generator is intuitive and easy to use. With no intrusive ads or paywalls, you can create a complete reference list in a single browser tab. Aithor also offers access to an extensive academic database, unlike other generators with limited sources or no automatic search functionality. The tool supports all common citation styles and is regularly updated to the latest editions.\n\n## Conclusion",
+            "score": 0.06151994
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "score": 0.12866764
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "score": 0.11376677
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "score": 0.078113474
+          },
+          {
+            "title": "5 Useful DIY Python Functions for Parsing Dates and Times - KDnuggets",
+            "url": "https://www.kdnuggets.com/5-useful-diy-python-functions-for-parsing-dates-and-times",
+            "score": 0.07008091
+          },
+          {
+            "title": "APA Cite Website Without Author (APA 7 Guide)",
+            "url": "https://aithor.com/blog/apa-cite-website-no-author",
+            "score": 0.06151994
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Web"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Commented Sep"
+          },
+          {
+            "type": "name_like",
+            "value": "Both Scopus"
+          },
+          {
+            "type": "name_like",
+            "value": "Sometimes"
+          },
+          {
+            "type": "name_like",
+            "value": "Scopus"
+          },
+          {
+            "type": "name_like",
+            "value": "Elsevier"
+          },
+          {
+            "type": "name_like",
+            "value": "Wiley"
+          },
+          {
+            "type": "name_like",
+            "value": "Springer"
+          },
+          {
+            "type": "name_like",
+            "value": "Add"
+          },
+          {
+            "type": "name_like",
+            "value": "Answers"
+          },
+          {
+            "type": "name_like",
+            "value": "Reset"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Share"
+          },
+          {
+            "type": "name_like",
+            "value": "Improve"
+          },
+          {
+            "type": "name_like",
+            "value": "Sep"
+          },
+          {
+            "type": "name_like",
+            "value": "Suresh"
+          },
+          {
+            "type": "name_like",
+            "value": "Not"
+          },
+          {
+            "type": "name_like",
+            "value": "Commented Aug"
+          },
+          {
+            "type": "name_like",
+            "value": "Google Scholar Search Help"
+          },
+          {
+            "type": "name_like",
+            "value": "Getting"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Scholar"
+          },
+          {
+            "type": "name_like",
+            "value": "References"
+          },
+          {
+            "type": "name_like",
+            "value": "Referenced"
+          },
+          {
+            "type": "name_like",
+            "value": "Similarly"
+          },
+          {
+            "type": "name_like",
+            "value": "Cited"
+          },
+          {
+            "type": "name_like",
+            "value": "These"
+          },
+          {
+            "type": "name_like",
+            "value": "Explore"
+          },
+          {
+            "type": "name_like",
+            "value": "There"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the authors who have prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine the title of the first paper authored by the author who has authored prior papers.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Provide the title of the first paper authored by the relevant author.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T6": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

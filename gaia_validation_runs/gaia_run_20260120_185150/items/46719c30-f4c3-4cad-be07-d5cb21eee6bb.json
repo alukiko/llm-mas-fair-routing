@@ -1,0 +1,728 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Not enough evidence to determine the title of the first paper.",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What are the titles and publication dates of prior papers authored by Pietro Murano?",
+      "What are the titles and publication dates of prior papers authored by Iram N. Khan?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 85.40824508666992,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "The paper was published in September 2015.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Pietro Murano is affiliated with the Department of Computer Science at the Oslo and Akershus University College of Applied Sciences, Oslo, Norway.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Iram N. Khan is affiliated with the School of Computing, Science and Engineering at the University of Salford, UK.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "summary": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N. Khan and published in September 2015. Murano is from Oslo and Akershus University College of Applied Sciences, while Khan is from the University of Salford.",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were require"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Skip to search formSkip to account menu\n\n Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO, title={Pie Menus or Linear Menus, Which Is Better?}, author={Pietro Murano and Iram Khan}, year={2015}, url={ }\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n7 Citations\n\nBackground Citations\n\n2\n\nMethods Citations\n\n1\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two main characteristics of radial and linear layouts"
+          },
+          {
+            "title": "An Empirical Comparison of Pie vs. Linear Menus | by Don Hopkins",
+            "url": "https://donhopkins.medium.com/an-empirical-comparison-of-pie-vs-linear-menus-466c6fdbba4b",
+            "snippet": "## Acknowledgements\n\nThe authors wish to thank the following people for their invaluable help in the preparation of the experiment, analysis of results and statistics, and this paper: Jim Purtilo, Nancy Anderson, Ken Norman, John Chin, Linda Weldon, Mark Feldman, Mike Gallaher , Mitch Bradley, and Glenn Pearson.\n\n## References\n\n Adobe Systems Inc. Postscript Reference Manual, Palo Alto, Calif., 1985.\n\n Card, SK. User perceptual mechanisms in the search of computer command menus, In Proceedings — Human Factors in Computer Systems 1982 (Gaithersburg, Md., Mar. 15–17). ACM, New York, 1982, pp. 190–196.\n\n Card, S.K., Moran, T.P., and Newell, A. The Psychology of Human-Computer Interaction, Lawrence Elrlbaum, London, 1983. [...] Some systems have used the two dimensional nature of the computer display to the advantage of certain menu applications. Many flight simulation programs, for example, lay out directional headings in a typical compass format. [...] ## Experiment\n\n### Introduction and hypothesis\n\nThis paper describes a controlled experiment to test two hypotheses: that pie menus decrease the seek time and error rates for menu items and that pie menus are especially useful in menu "
+          },
+          {
+            "title": "Pie Menus: A 30 Year Retrospective | by Don Hopkins - Medium",
+            "url": "https://donhopkins.medium.com/pie-menus-936fed383ff1",
+            "snippet": "## An Empirical Comparison of Pie vs. Linear Menus\n\nJack Callahan, Don Hopkins, Mark Weiser, Ben Shneiderman. Computer Science Department University of Maryland College Park. ACM CHI ’88 Conference. [...] > Gordon P. Kurtenbach, Abigail J. Sellen, and William A. S. Buxton. Computer Systems Research Institute, University of Toronto. Human Computer Interaction 8(1), p. 1–23.\n\nThis otherwise excellent paper, published in 1993, makes the mistake that pie menus don’t support what I call “mouse ahead display suppression”, which enables users to select from menus without popping them up on the screen. Both pie menus and marking menus ease the transition from novice to expert user.\n\n> Marking menus are also unique in that they ease the transition from novice to expert user. Novices can “pop-up” a menu and make a selection, whereas experts can simply make the corresponding mark without waiting for the menu to appear.\n\n## English Translation: Physical and Mental Effects of Pie Menu Design [...] ## CHI'88 Trip Report: Article by Jakob Nielsen\n\n### \"Do you want to spend the rest of your life selling sugared water or do you want a chance to change the world?\" By…\n\nwww.nngroup.com\n\n## Steve Jobs"
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "snippet": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The l"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were required to find particular products having specific characteristics. For each menu type four different tasks were devised. The tasks were equivalent to each other in terms of efficiency, difficulty, time taken to search menu items and in terms of where the required items appeared on the screen. This approach was used to minimize Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Skip to search formSkip to account menu\n\n Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO, title={Pie Menus or Linear Menus, Which Is Better?}, author={Pietro Murano and Iram Khan}, year={2015}, url={ }\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n7 Citations\n\nBackground Citations\n\n2\n\nMethods Citations\n\n1\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two main characteristics of radial and linear layouts, and presents requirements and the Compact Radial Layout (CRL) design which supports menu hierarchies.\n\n 33\n\n### Flower menus: a new type of marking menu with large menu breadth, within groups and efficient expert mode memorization\n\nG. BaillyÉ. LecolinetL. Nigay\n\nComputer Science\n\nAVI '08\n\n 2008 [...] ## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user interface scrolling types\n\nSushil SharmaPietro Murano\n\nComputer Science\n\nFirst Monday\n\n 2020\n\nThe evaluation was principally about the ‘raw’ performance and participant perceptions, where no single scrolling method stood out as being the most usable.\n\n 6\n PDF",
+            "score": 0.99964297
+          },
+          {
+            "title": "An Empirical Comparison of Pie vs. Linear Menus | by Don Hopkins",
+            "url": "https://donhopkins.medium.com/an-empirical-comparison-of-pie-vs-linear-menus-466c6fdbba4b",
+            "content": "## Acknowledgements\n\nThe authors wish to thank the following people for their invaluable help in the preparation of the experiment, analysis of results and statistics, and this paper: Jim Purtilo, Nancy Anderson, Ken Norman, John Chin, Linda Weldon, Mark Feldman, Mike Gallaher , Mitch Bradley, and Glenn Pearson.\n\n## References\n\n Adobe Systems Inc. Postscript Reference Manual, Palo Alto, Calif., 1985.\n\n Card, SK. User perceptual mechanisms in the search of computer command menus, In Proceedings — Human Factors in Computer Systems 1982 (Gaithersburg, Md., Mar. 15–17). ACM, New York, 1982, pp. 190–196.\n\n Card, S.K., Moran, T.P., and Newell, A. The Psychology of Human-Computer Interaction, Lawrence Elrlbaum, London, 1983. [...] Some systems have used the two dimensional nature of the computer display to the advantage of certain menu applications. Many flight simulation programs, for example, lay out directional headings in a typical compass format. [...] ## Experiment\n\n### Introduction and hypothesis\n\nThis paper describes a controlled experiment to test two hypotheses: that pie menus decrease the seek time and error rates for menu items and that pie menus are especially useful in menu applications suited for a circular format, diametrically opposed item sets (e.g. open/close), directions (e.g. up/down) or even linear sets of items and conversely linear menus are useful for sets of linear items (e.g. one, two, three, etc.).",
+            "score": 0.9991441
+          },
+          {
+            "title": "Pie Menus: A 30 Year Retrospective | by Don Hopkins - Medium",
+            "url": "https://donhopkins.medium.com/pie-menus-936fed383ff1",
+            "content": "## An Empirical Comparison of Pie vs. Linear Menus\n\nJack Callahan, Don Hopkins, Mark Weiser, Ben Shneiderman. Computer Science Department University of Maryland College Park. ACM CHI ’88 Conference. [...] > Gordon P. Kurtenbach, Abigail J. Sellen, and William A. S. Buxton. Computer Systems Research Institute, University of Toronto. Human Computer Interaction 8(1), p. 1–23.\n\nThis otherwise excellent paper, published in 1993, makes the mistake that pie menus don’t support what I call “mouse ahead display suppression”, which enables users to select from menus without popping them up on the screen. Both pie menus and marking menus ease the transition from novice to expert user.\n\n> Marking menus are also unique in that they ease the transition from novice to expert user. Novices can “pop-up” a menu and make a selection, whereas experts can simply make the corresponding mark without waiting for the menu to appear.\n\n## English Translation: Physical and Mental Effects of Pie Menu Design [...] ## CHI'88 Trip Report: Article by Jakob Nielsen\n\n### \"Do you want to spend the rest of your life selling sugared water or do you want a chance to change the world?\" By…\n\nwww.nngroup.com\n\n## Steve Jobs Thought Pie Menus Sucked\n\n> “That sucks! That sucks! Wow, that’s neat! That sucks!”\n\nOn October 25, 1988, I gave Steve Jobs a demo of pie menus, NeWS, UniPress Emacs and HyperTIES at the Educom conference in Washington DC. His reaction was to jump up and down, point at the screen, and yell “That sucks! That sucks! Wow, that’s neat! That sucks!”\n\nI tried explaining how we’d performed an experiment proving pie menus were faster than linear menus, but he insisted the liner menus in NeXT Step were the best possible menus ever.",
+            "score": 0.9983516
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "content": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The limits of expert performance using hierarchic marking menus\n\n[...]\n\nGordon Kurtenbach,William Buxton +1 more\n\n- 01 May 1993\n\nShow Less",
+            "score": 0.9981614
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.99964297
+          },
+          {
+            "title": "An Empirical Comparison of Pie vs. Linear Menus | by Don Hopkins",
+            "url": "https://donhopkins.medium.com/an-empirical-comparison-of-pie-vs-linear-menus-466c6fdbba4b",
+            "score": 0.9991441
+          },
+          {
+            "title": "Pie Menus: A 30 Year Retrospective | by Don Hopkins - Medium",
+            "url": "https://donhopkins.medium.com/pie-menus-936fed383ff1",
+            "score": 0.9983516
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "score": 0.9981614
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano\nVol"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Emerging Trends"
+          },
+          {
+            "type": "name_like",
+            "value": "Computing"
+          },
+          {
+            "type": "name_like",
+            "value": "Information Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram"
+          },
+          {
+            "type": "name_like",
+            "value": "Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Department"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Universal Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Research Group"
+          },
+          {
+            "type": "name_like",
+            "value": "Oslo"
+          },
+          {
+            "type": "name_like",
+            "value": "Akershus University College"
+          },
+          {
+            "type": "name_like",
+            "value": "Applied Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "Norway"
+          },
+          {
+            "type": "name_like",
+            "value": "University"
+          },
+          {
+            "type": "name_like",
+            "value": "Salford"
+          },
+          {
+            "type": "name_like",
+            "value": "School"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Engineering"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Although"
+          },
+          {
+            "type": "name_like",
+            "value": "Windows Vista Home Premium"
+          },
+          {
+            "type": "name_like",
+            "value": "English"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "person"
+        ],
+        "entities": [
+          {
+            "name": "Pietro Murano",
+            "type": "author",
+            "evidence": "1 Pietro Murano",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "name": "Iram N. Khan",
+            "type": "author",
+            "evidence": "2 Iram N. Khan",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "key_points": [
+          "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "1 Pietro Murano, 2 Iram N. Khan",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the extracted authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the extracted authors.",
+        "facts": [
+          {
+            "fact": "Academia.edu hosts a total of 582,000 papers across various fields of study.",
+            "source_url": "https://www.academia.edu/"
+          },
+          {
+            "fact": "The field of Philosophy on Academia.edu has 8.04 million followers.",
+            "source_url": "https://www.academia.edu/"
+          },
+          {
+            "fact": "The article titled 'The decline of women’s research production during the coronavirus pandemic' was authored by Vincent-Lamarre P, Sugimoto CR, and Larivière V.",
+            "source_url": "https://elifesciences.org/articles/58807"
+          },
+          {
+            "fact": "The paper 'Reconstructing the Mind's Eye: fMRI-to-Image with...' was published on arXiv in May 2023.",
+            "source_url": "https://arxiv.org/abs/2305.18274"
+          }
+        ],
+        "summary": "The provided sources reveal significant statistics about research papers and authors, including the number of papers available on Academia.edu and notable publications related to women's research production during the COVID-19 pandemic.",
+        "sources": [
+          {
+            "title": "Academia.edu - Find Research Papers , Topics, Researchers",
+            "url": "https://www.academia.edu/",
+            "snippet": "Visual Anthropology 8.92 K papers\n\nLinguistic Anthropology 9.02 K papers\n\nPhysical Anthropology 8.03 K papers\n\nPolitical Anthropology 7.08 K papers\n\n### Philosophy\n\n8.04 M\n\nFollowers\n\n1.45 M\n\nPapers\n\n582 K\n\nAuthors\n\nImage 52\n\nImage 53\n\nImage 54\n\nImage 55\n\nImage 56\n\nImage 57\n\nImage 58\n\nEthics 104 K papers\n\nMedical Ethics 28.1 K papers\n\nPolitical Philosophy 64.3 K papers\n\nPhilosophy Of Religion 27.9 K papers\n\nBioethics 31.4 K papers\n\nMoral Philosophy 16 K papers\n\nPhilosophy of Science 48.9 K papers\n\n### Chemistry\n\n2.11 M\n\nFollowers\n\n3.69 M\n\nPapers\n\n933 K\n\nAuthors\n\nImage 59\n\nImage 60\n\nImage 61\n\nImage 62\n\nImage 63\n\nImage 64\n\nImage 65\n\nAnalytical Chemistry 495 K papers\n\nInorganic Chemistry 404 K papers\n\nElectrochemistry 103 K papers\n\nMaterials Chemistry 43.7 K papers [...] Materials Chemistry 43.7 K papers\n\nPhysical Chemistry 40 K papers\n\nGeochemistry 335 K papers\n\nChemical Synthesis 34 K papers\n\nQuantum Chemistry 17 K papers\n\n### Earth Sciences\n\n275 K\n\nFollowers\n\n373 K\n\nPapers\n\n138 K\n\nAuthors\n\nImage 66\n\nImage 67\n\nImage 68\n\nImage 69\n\nImage 70\n\nImage 71\n\nImage 72\n\nEnvironmental Science 1.35 M papers\n\nGeology 1.41 M papers\n\nClimate Change 309 K papers\n\nOceanography 195 K papers\n\nAtmospher"
+          },
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "snippet": "results =[] researchers_ids = list(researchers['id'])# no of researchers IDs per query: so to ensure we never hit the 1000 records limit per query CHUNKS_SIZE = 300 q = \"\"\"search publications where researchers.id in {}  and year in {}  and research_orgs=\"{} \" return publications[id+title+doi+year+type+authors+journal+issue+volume] limit 1000\"\"\" for chunk in chunks_of(researchers_ids, size = CHUNKS_SIZE): data = dsl. query(q. format(json. dumps(chunk), YEARS, GRIDID)) try: results += data. publications except: pass print(\"--- \\n Found\", len(results),\"publications for the given criteria (including duplicates)\") # simulate a DSL payload using Dimcli pubs_v2 = dimcli. DslDataset. from_publications_list(results) # transform to a dataframe to remove duplicates quickly pubs_v2_df = pubs_v2. [...] (total = 38) Time: 0.94s Returned Publications: 61 (total = 61) Time: 0.96s Returned Publications: 36 (total = 36) Time: 1.76s Returned Publications: 59 (total = 59) Time: 1.06s Returned Publications: 52 (total = 52) Time: 0.94s Returned Publications: 47 (total = 47) Time: 0.96s Returned Publications: 25 (total = 25) Time: 0.88s Returned Publications: 52 (total = 52) Time: 0.98s Returned Publicat"
+          },
+          {
+            "title": "Meta-Research: COVID-19 medical papers have fewer women first...",
+            "url": "https://elifesciences.org/articles/58807",
+            "snippet": "Nature 581:365–366.\n\n      \n     PubMed\n     Google Scholar\n24. Website\n\n    1. Vincent-Lamarre P\n    2. Sugimoto CR\n    3. Larivière V(2020) The decline of women’s research production during the coronavirus pandemic\n\n    Nature Index. Accessed June 16, 2020.\n\n    \n25. 1. Woolley AW\n    2. Chabris CF\n    3. Pentland A\n    4. Hashmi N\n    5. Malone TW(2010) Evidence for a collective intelligence factor in the performance of human groups\n\n    Science 330:686–688.\n\n      \n     PubMed\n     Google Scholar\n\n## Decision letter\n\n1. Peter Rodgers\n\n   Senior and Reviewing Editor; eLife, United Kingdom\n\nIn the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses. [...] :   320\n\n  citations for umbrella DOI \n\n## Download links\n\nA two-part list of links to download the article, or parts of the article, in various formats.\n\n### Downloads (link to download the article as PDF)\n\n Article PDF\n\n### Open citations (links to open the citations from this article in various online reference manager services)\n\n Mendeley\n\n### Cite this article (links to download the citations from this article in formats compatible with various reference ma"
+          },
+          {
+            "title": "[2305.18274] Reconstructing the Mind's Eye: fMRI-to-Image with...",
+            "url": "https://arxiv.org/abs/2305.18274",
+            "snippet": "View PDF\n TeX Source\n\nview license\n\nCurrent browse context:\n\ncs.CV\n\n< prev\")    |    next >\")\n\nnew  |  recent  | 2023-05\n\nChange to browse by:\n\ncs  \n cs.AI  \n q-bio  \n q-bio.NC\n\n### References & Citations\n\n NASA ADS\n Google Scholar\n Semantic Scholar\n\nexport BibTeX citation Loading...\n\n## BibTeX formatted citation\n\n×\n\nData provided by:\n\n### Bookmark\n\n# Bibliographic and Citation Tools\n\nBibliographic Explorer (What is the Explorer?)\n\nConnected Papers (What is Connected Papers?)\n\nLitmaps (What is Litmaps?)\n\nscite Smart Citations (What are Smart Citations?)\n\n# Code, Data and Media Associated with this Article\n\nalphaXiv (What is alphaXiv?)\n\nCatalyzeX Code Finder for Papers (What is CatalyzeX?)\n\nDagsHub (What is DagsHub?)\n\nGotit.pub (What is GotitPub?)\n\nHugging Face (What is Huggingface?) [...] Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\n\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.\n\nWhich authors of this paper are endorsers? | Disable MathJ"
+          },
+          {
+            "title": "Aithor: Online writing | Creating and paraphrasing tool",
+            "url": "https://aithor.com/editor",
+            "snippet": "English [...] AI DetectorAI HumanizerAI ParaphraserCitation GeneratorTopic GeneratorBlogPricingSupport\n\n1\n\n2\n\n3\n\n4\n\n# What do you want to write about?\n\nYour prompt can be short, long, or even ambiguous. Leave the details to us; we'll craft a title that encapsulates the essence of your concept.\n\nSuggested topicsInnovations in sustainable manufacturing processesThe impact of AI and machine learning on modern workplacesThe impact of digital learning on student engagementExpository essay on the importance of clear explanationsRhetorical analysis of persuasive advertising techniquesNatural disasters and climate change impacts on communities\n\nAithor: Online writing | Creating and paraphrasing tool"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Academia.edu - Find Research Papers , Topics, Researchers",
+            "url": "https://www.academia.edu/",
+            "content": "Visual Anthropology 8.92 K papers\n\nLinguistic Anthropology 9.02 K papers\n\nPhysical Anthropology 8.03 K papers\n\nPolitical Anthropology 7.08 K papers\n\n### Philosophy\n\n8.04 M\n\nFollowers\n\n1.45 M\n\nPapers\n\n582 K\n\nAuthors\n\nImage 52\n\nImage 53\n\nImage 54\n\nImage 55\n\nImage 56\n\nImage 57\n\nImage 58\n\nEthics 104 K papers\n\nMedical Ethics 28.1 K papers\n\nPolitical Philosophy 64.3 K papers\n\nPhilosophy Of Religion 27.9 K papers\n\nBioethics 31.4 K papers\n\nMoral Philosophy 16 K papers\n\nPhilosophy of Science 48.9 K papers\n\n### Chemistry\n\n2.11 M\n\nFollowers\n\n3.69 M\n\nPapers\n\n933 K\n\nAuthors\n\nImage 59\n\nImage 60\n\nImage 61\n\nImage 62\n\nImage 63\n\nImage 64\n\nImage 65\n\nAnalytical Chemistry 495 K papers\n\nInorganic Chemistry 404 K papers\n\nElectrochemistry 103 K papers\n\nMaterials Chemistry 43.7 K papers [...] Materials Chemistry 43.7 K papers\n\nPhysical Chemistry 40 K papers\n\nGeochemistry 335 K papers\n\nChemical Synthesis 34 K papers\n\nQuantum Chemistry 17 K papers\n\n### Earth Sciences\n\n275 K\n\nFollowers\n\n373 K\n\nPapers\n\n138 K\n\nAuthors\n\nImage 66\n\nImage 67\n\nImage 68\n\nImage 69\n\nImage 70\n\nImage 71\n\nImage 72\n\nEnvironmental Science 1.35 M papers\n\nGeology 1.41 M papers\n\nClimate Change 309 K papers\n\nOceanography 195 K papers\n\nAtmospheric sciences 193 K papers\n\nEnvironmental Sustainability 102 K papers\n\nHydrology 48.6 K papers\n\nEnvironmental Pollution 42.9 K papers\n\n### Computer Science\n\n6.45 M\n\nFollowers\n\n5.04 M\n\nPapers\n\n1.37 M\n\nAuthors\n\nImage 73\n\nImage 74\n\nImage 75\n\nImage 76\n\nImage 77\n\nImage 78\n\nImage 79\n\nMachine Learning 193 K papers\n\nComputational Complexity 21 K papers\n\nCryptography 36.7 K papers [...] Cryptography 36.7 K papers\n\nProgramming Languages 15.3 K papers\n\nLogic Programming 5.05 K papers\n\nFunctional Programming 3.95 K papers\n\nNatural Language Processing 91.4 K papers\n\nArtificial Intelligence 646 K papers\n\n### Mathematics\n\n2.13 M\n\nFollowers\n\n1.5 M\n\nPapers\n\n512 K\n\nAuthors\n\nImage 80\n\nImage 81\n\nImage 82\n\nImage 83\n\nImage 84\n\nImage 85\n\nImage 86\n\nStatistics 270 K papers\n\nNumerical Analysis 52.3 K papers\n\nGame Theory 34.9 K papers\n\nCombinatorics 64.3 K papers\n\nAlgebraic Geometry 9.05 K papers\n\nLinear Algebra 8.57 K papers\n\nAlgebraic Topology 1.06 K papers\n\nApplied Mathematics 546 K papers\n\n### Literature\n\n2.41 M\n\nFollowers\n\n156 K\n\nPapers\n\n81.3 K\n\nAuthors\n\nImage 87\n\nImage 88\n\nImage 89\n\nImage 90\n\nImage 91\n\nImage 92\n\nImage 93\n\nComparative Literature 37.3 K papers",
+            "score": 0.5273165
+          },
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "content": "results =[] researchers_ids = list(researchers['id'])# no of researchers IDs per query: so to ensure we never hit the 1000 records limit per query CHUNKS_SIZE = 300 q = \"\"\"search publications where researchers.id in {}  and year in {}  and research_orgs=\"{} \" return publications[id+title+doi+year+type+authors+journal+issue+volume] limit 1000\"\"\" for chunk in chunks_of(researchers_ids, size = CHUNKS_SIZE): data = dsl. query(q. format(json. dumps(chunk), YEARS, GRIDID)) try: results += data. publications except: pass print(\"--- \\n Found\", len(results),\"publications for the given criteria (including duplicates)\") # simulate a DSL payload using Dimcli pubs_v2 = dimcli. DslDataset. from_publications_list(results) # transform to a dataframe to remove duplicates quickly pubs_v2_df = pubs_v2. [...] (total = 38) Time: 0.94s Returned Publications: 61 (total = 61) Time: 0.96s Returned Publications: 36 (total = 36) Time: 1.76s Returned Publications: 59 (total = 59) Time: 1.06s Returned Publications: 52 (total = 52) Time: 0.94s Returned Publications: 47 (total = 47) Time: 0.96s Returned Publications: 25 (total = 25) Time: 0.88s Returned Publications: 52 (total = 52) Time: 0.98s Returned Publications: 67 (total = 67) Time: 0.98s Returned Publications: 72 (total = 72) Time: 1.02s Returned Publications: 26 (total = 26) Time: 0.83s Returned Publications: 64 (total = 64) Time: 0.95s Returned Publications: 52 (total = 52) Time: 0.96s Returned Publications: 42 (total = 42) Time: 0.85s Returned Publications: 75 (total = 75) Time: 0.94s Returned Publications: 81 (total = 81) Time: 1.01s Returned [...] ```",
+            "score": 0.32252598
+          },
+          {
+            "title": "Meta-Research: COVID-19 medical papers have fewer women first...",
+            "url": "https://elifesciences.org/articles/58807",
+            "content": "Nature 581:365–366.\n\n      \n     PubMed\n     Google Scholar\n24. Website\n\n    1. Vincent-Lamarre P\n    2. Sugimoto CR\n    3. Larivière V(2020) The decline of women’s research production during the coronavirus pandemic\n\n    Nature Index. Accessed June 16, 2020.\n\n    \n25. 1. Woolley AW\n    2. Chabris CF\n    3. Pentland A\n    4. Hashmi N\n    5. Malone TW(2010) Evidence for a collective intelligence factor in the performance of human groups\n\n    Science 330:686–688.\n\n      \n     PubMed\n     Google Scholar\n\n## Decision letter\n\n1. Peter Rodgers\n\n   Senior and Reviewing Editor; eLife, United Kingdom\n\nIn the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses. [...] :   320\n\n  citations for umbrella DOI \n\n## Download links\n\nA two-part list of links to download the article, or parts of the article, in various formats.\n\n### Downloads (link to download the article as PDF)\n\n Article PDF\n\n### Open citations (links to open the citations from this article in various online reference manager services)\n\n Mendeley\n\n### Cite this article (links to download the citations from this article in formats compatible with various reference manager tools)\n\n1. Jens Peter Andersen\n2. Mathias Wullum Nielsen\n3. Nicole L Simone\n4. Resa E Lewiss\n5. Reshma Jagsi\n\n(2020)\n\nMeta-Research: COVID-19 medical papers have fewer women first authors than expected\n\neLife 9:e58807.\n\n \n\n Download BibTeX\n Download .RIS\n\n#### Categories and tags [...] ## Article and author information\n\n### Author details\n\n1. #### Jens Peter Andersen\n\n   Jens Peter Andersen is in the Danish Centre for Studies in Research and Research Policy, Department of Political Science, Aarhus University, Aarhus, Denmark\n\n   ##### Contribution\n\n   Conceptualization, Data curation, Software, Formal analysis, Validation, Investigation, Visualization, Methodology, Writing - original draft, Writing - review and editing\n\n   ##### Competing interests\n\n   No competing interests declared\n\n   \"This ORCID iD identifies the author of this article:\" 0000-0003-2444-6210\n2. #### Mathias Wullum Nielsen\n\n   Mathias Wullum Nielsen is in the Department of Sociology, University of Copenhagen, Copenhagen, Denmark\n\n   ##### Contribution",
+            "score": 0.042403832
+          },
+          {
+            "title": "[2305.18274] Reconstructing the Mind's Eye: fMRI-to-Image with...",
+            "url": "https://arxiv.org/abs/2305.18274",
+            "content": "View PDF\n TeX Source\n\nview license\n\nCurrent browse context:\n\ncs.CV\n\n< prev\")    |    next >\")\n\nnew  |  recent  | 2023-05\n\nChange to browse by:\n\ncs  \n cs.AI  \n q-bio  \n q-bio.NC\n\n### References & Citations\n\n NASA ADS\n Google Scholar\n Semantic Scholar\n\nexport BibTeX citation Loading...\n\n## BibTeX formatted citation\n\n×\n\nData provided by:\n\n### Bookmark\n\n# Bibliographic and Citation Tools\n\nBibliographic Explorer (What is the Explorer?)\n\nConnected Papers (What is Connected Papers?)\n\nLitmaps (What is Litmaps?)\n\nscite Smart Citations (What are Smart Citations?)\n\n# Code, Data and Media Associated with this Article\n\nalphaXiv (What is alphaXiv?)\n\nCatalyzeX Code Finder for Papers (What is CatalyzeX?)\n\nDagsHub (What is DagsHub?)\n\nGotit.pub (What is GotitPub?)\n\nHugging Face (What is Huggingface?) [...] Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\n\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.\n\nWhich authors of this paper are endorsers? | Disable MathJax) (What is MathJax?) [...] |  |  |\n --- |\n| Comments: | Project Page at this https URL. Code at this https URL. Published as a conference paper at NeurIPS 2023 |\n| Subjects: | Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Neurons and Cognition (q-bio.NC) |\n| Cite as: | arXiv:2305.18274 [cs.CV] |\n|  | (or  arXiv:2305.18274v2 [cs.CV] for this version) |\n|  |  arXiv-issued DOI via DataCite |\n\n## Submission history\n\nFrom: Paul Scotti [view email]   \n (/abs/2305.18274v1) Mon, 29 May 2023 17:49:00 UTC (6,247 KB)  \n [v2] Sat, 7 Oct 2023 12:32:15 UTC (6,438 KB)\n\nFull-text links:\n\n## Access Paper:\n\nView a PDF of the paper titled Reconstructing the Mind's Eye: fMRI-to-Image with Contrastive Learning and Diffusion Priors, by Paul S. Scotti and 11 other authors\n\n View PDF\n TeX Source",
+            "score": 0.038178276
+          },
+          {
+            "title": "Aithor: Online writing | Creating and paraphrasing tool",
+            "url": "https://aithor.com/editor",
+            "content": "English [...] AI DetectorAI HumanizerAI ParaphraserCitation GeneratorTopic GeneratorBlogPricingSupport\n\n1\n\n2\n\n3\n\n4\n\n# What do you want to write about?\n\nYour prompt can be short, long, or even ambiguous. Leave the details to us; we'll craft a title that encapsulates the essence of your concept.\n\nSuggested topicsInnovations in sustainable manufacturing processesThe impact of AI and machine learning on modern workplacesThe impact of digital learning on student engagementExpository essay on the importance of clear explanationsRhetorical analysis of persuasive advertising techniquesNatural disasters and climate change impacts on communities\n\nAithor: Online writing | Creating and paraphrasing tool",
+            "score": 0.026556572
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Academia.edu - Find Research Papers , Topics, Researchers",
+            "url": "https://www.academia.edu/",
+            "score": 0.5273165
+          },
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "score": 0.32252598
+          },
+          {
+            "title": "Meta-Research: COVID-19 medical papers have fewer women first...",
+            "url": "https://elifesciences.org/articles/58807",
+            "score": 0.042403832
+          },
+          {
+            "title": "[2305.18274] Reconstructing the Mind's Eye: fMRI-to-Image with...",
+            "url": "https://arxiv.org/abs/2305.18274",
+            "score": 0.038178276
+          },
+          {
+            "title": "Aithor: Online writing | Creating and paraphrasing tool",
+            "url": "https://aithor.com/editor",
+            "score": 0.026556572
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Academia"
+          },
+          {
+            "type": "name_like",
+            "value": "Find Research Papers"
+          },
+          {
+            "type": "name_like",
+            "value": "Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Researchers\nVisual Anthropology"
+          },
+          {
+            "type": "name_like",
+            "value": "Linguistic Anthropology"
+          },
+          {
+            "type": "name_like",
+            "value": "Physical Anthropology"
+          },
+          {
+            "type": "name_like",
+            "value": "Political Anthropology"
+          },
+          {
+            "type": "name_like",
+            "value": "Philosophy"
+          },
+          {
+            "type": "name_like",
+            "value": "Followers"
+          },
+          {
+            "type": "name_like",
+            "value": "Papers"
+          },
+          {
+            "type": "name_like",
+            "value": "Authors"
+          },
+          {
+            "type": "name_like",
+            "value": "Image"
+          },
+          {
+            "type": "name_like",
+            "value": "Ethics"
+          },
+          {
+            "type": "name_like",
+            "value": "Medical Ethics"
+          },
+          {
+            "type": "name_like",
+            "value": "Political Philosophy"
+          },
+          {
+            "type": "name_like",
+            "value": "Philosophy Of Religion"
+          },
+          {
+            "type": "name_like",
+            "value": "Bioethics"
+          },
+          {
+            "type": "name_like",
+            "value": "Moral Philosophy"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Analytical Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Inorganic Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Electrochemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Materials Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Physical Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Geochemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Chemical Synthesis"
+          },
+          {
+            "type": "name_like",
+            "value": "Quantum Chemistry"
+          },
+          {
+            "type": "name_like",
+            "value": "Earth Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "Environmental Science"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the authors who have prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "person"
+        ],
+        "entities": [
+          {
+            "name": "Pietro Murano",
+            "type": "author",
+            "evidence": "1 Pietro Murano",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "name": "Iram N. Khan",
+            "type": "author",
+            "evidence": "2 Iram N. Khan",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "key_points": [
+          "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "1 Pietro Murano, 2 Iram N. Khan",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine the title of the first paper authored by the author who had authored prior papers.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "Pietro Murano and Iram N. Khan are the only authors of the paper 'Pie Menus or Linear Menus, Which Is Better?'.",
+          "The task requires identifying the first paper authored by either Pietro Murano or Iram N. Khan."
+        ],
+        "reasoning_steps": [
+          "Identify the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?'.",
+          "Check for prior publications by Pietro Murano and Iram N. Khan.",
+          "Determine the earliest publication date among their prior works."
+        ],
+        "conclusions": [
+          "The authors of the paper are Pietro Murano and Iram N. Khan.",
+          "To find the first paper authored by either of them, we need to look into their publication history."
+        ],
+        "proposed_answer_outline": [
+          "1. Identify the authors: Pietro Murano and Iram N. Khan.",
+          "2. Search for their previous publications.",
+          "3. Determine the title of the earliest paper."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the titles and publication dates of prior papers authored by Pietro Murano?",
+          "What are the titles and publication dates of prior papers authored by Iram N. Khan?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the title of the first paper.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "Not enough evidence to determine the title of the first paper.",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the titles and publication dates of prior papers authored by Pietro Murano?",
+          "What are the titles and publication dates of prior papers authored by Iram N. Khan?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

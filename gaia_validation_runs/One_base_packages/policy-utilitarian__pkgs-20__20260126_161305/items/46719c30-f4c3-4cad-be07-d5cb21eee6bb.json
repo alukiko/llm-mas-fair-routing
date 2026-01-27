@@ -1,0 +1,653 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "No prior papers found",
+    "final_answer_strict": "N/A",
+    "used_evidence": [
+      "There is currently no evidence of prior papers authored by either Pietro Murano or Iram N. Khan before 2015."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Can you provide a list of all publications by Pietro Murano and Iram N. Khan before 2015?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 65.37050342559814,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "The paper was published in September 2015 in the Journal of Emerging Trends in Computing and Information Sciences.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Pietro Murano is affiliated with the Department of Computer Science at Oslo and Akershus University College of Applied Sciences, Oslo, Norway.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Iram N. Khan is affiliated with the School of Computing, Science and Engineering at the University of Salford, UK.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "summary": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N. Khan, published in September 2015. Murano is associated with Oslo and Akershus University College, while Khan is with the University of Salford.",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were require"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] Pietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user "
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "snippet": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The l"
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] interfacesbut for experienced users, CommandMaps are significantly faster than both menus and the Ribbon. [...] menus were inferior to the hierarchical menu and how both may be improved."
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "snippet": "A user study confirmed that a zigzag cascading menu effectively reduces the total mouse traversal required and decreases navigational time as familiarity with the system increases. [...] J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\n \n\nArticle citationsMore >>\n\nJ. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\nhas been cited by the following article:\n\nArticle\n\nA Zigzag Approach to Cascading Menus\n\nDuane Yoder1, Raihan Uddin Ahmed2, Munsi Barkatullah2, A. S. M Mahmudul Hasan3,Image 5\n\n:94-99. doi: 10.12691/jcsa-3-4-2.\n\n[]( to: A. S. M Mahmudul Hasan, School of Science and Technology, Bangladesh Open University, Gazipur, Bangladesh. Email: apon_cse@yahoo.com\nAbstract"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were required to find particular products having specific characteristics. For each menu type four different tasks were devised. The tasks were equivalent to each other in terms of efficiency, difficulty, time taken to search menu items and in terms of where the required items appeared on the screen. This approach was used to minimize Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] Pietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user interface scrolling types\n\nSushil SharmaPietro Murano\n\nComputer Science\n\nFirst Monday\n\n 2020\n\nThe evaluation was principally about the ‘raw’ performance and participant perceptions, where no single scrolling method stood out as being the most usable.\n\n 6\n PDF\n\n### Effects of Menu Organization and Visibility on Web Navigation for People with Dyslexia\n\nH. PetrieIli Farhana Md Mahtar [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two main characteristics of radial and linear layouts, and presents requirements and the Compact Radial Layout (CRL) design which supports menu hierarchies.\n\n 33\n\n### Flower menus: a new type of marking menu with large menu breadth, within groups and efficient expert mode memorization\n\nG. BaillyÉ. LecolinetL. Nigay\n\nComputer Science\n\nAVI '08\n\n 2008",
+            "score": 0.9998822
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "content": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The limits of expert performance using hierarchic marking menus\n\n[...]\n\nGordon Kurtenbach,William Buxton +1 more\n\n- 01 May 1993\n\nShow Less [...] 7\n\nProceedings Article•10.1145/3419249.3420146\n\n## An Evaluation of Pie Menus for System Control in Virtual Reality\n\nMartin Mundt,Tintu Mathew +1 more\n\n- 25 Oct 2020\n\nShow Less\n\nTL;DR: This work designs and examines the four pie menus pick ray (PR), pick hand (PH), hand rotation (HR) and stick rotation (SR), addressing usability, user experience (UX), presence, error rate and selection time, and finds that PH was rated significantly better compared to HR and SR; PR was rated betterCompared to SR.\n\n7\n\n...\n\n...\n\n##### References\n\nJournal Article•10.2307/2529119\n\n## Experimental Design: Procedures for the Behavioral Sciences\n\nA. S. Hedayat,Roger E. Kirk +1 more\n\n- 01 Sep 1970\n\n- Biometrics\n\nShow Less\n\n9.2K\n\n•Book\n\n## The Psychology of Human-Computer Interaction",
+            "score": 0.9981614
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] interfacesbut for experienced users, CommandMaps are significantly faster than both menus and the Ribbon. [...] menus were inferior to the hierarchical menu and how both may be improved.",
+            "score": 0.998147
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "content": "A user study confirmed that a zigzag cascading menu effectively reduces the total mouse traversal required and decreases navigational time as familiarity with the system increases. [...] J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\n \n\nArticle citationsMore >>\n\nJ. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear Menus,” Proc.CHI 1988, ACM Press (1998), 95-100.\n\nhas been cited by the following article:\n\nArticle\n\nA Zigzag Approach to Cascading Menus\n\nDuane Yoder1, Raihan Uddin Ahmed2, Munsi Barkatullah2, A. S. M Mahmudul Hasan3,Image 5\n\n:94-99. doi: 10.12691/jcsa-3-4-2.\n\n[]( to: A. S. M Mahmudul Hasan, School of Science and Technology, Bangladesh Open University, Gazipur, Bangladesh. Email: apon_cse@yahoo.com\nAbstract",
+            "score": 0.9964064
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.9998822
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "score": 0.9981614
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.998147
+          },
+          {
+            "title": "J. Callahan, J. et al. “An Empirical Comparison of Pie vs. Linear ...",
+            "url": "https://www.sciepub.com/reference/123926",
+            "score": 0.9964064
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano\nVol"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Emerging Trends"
+          },
+          {
+            "type": "name_like",
+            "value": "Computing"
+          },
+          {
+            "type": "name_like",
+            "value": "Information Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram"
+          },
+          {
+            "type": "name_like",
+            "value": "Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Department"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Universal Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Research Group"
+          },
+          {
+            "type": "name_like",
+            "value": "Oslo"
+          },
+          {
+            "type": "name_like",
+            "value": "Akershus University College"
+          },
+          {
+            "type": "name_like",
+            "value": "Applied Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "Norway"
+          },
+          {
+            "type": "name_like",
+            "value": "University"
+          },
+          {
+            "type": "name_like",
+            "value": "Salford"
+          },
+          {
+            "type": "name_like",
+            "value": "School"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Engineering"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Although"
+          },
+          {
+            "type": "name_like",
+            "value": "Windows Vista Home Premium"
+          },
+          {
+            "type": "name_like",
+            "value": "English"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"1 Pietro Murano\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"name\": \"Iram N. Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"2 Iram N. Khan\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    }\n  ],\n  \"key_points\": [\n    \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find all papers authored by the identified authors prior to 2015.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find all papers authored by the identified authors prior to 2015.",
+        "facts": [
+          {
+            "fact": "Web of Science allows users to search for authors using specific identifiers such as Web of Science ResearcherID numbers or ORCID.",
+            "source_url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields"
+          },
+          {
+            "fact": "An example of a paper with a large number of authors is a 2015 paper on fruit-fly genomics by Leung et al., which lists 1014 authors.",
+            "source_url": "https://link.springer.com/article/10.1007/s11192-024-04928-1"
+          },
+          {
+            "fact": "ORCID is a nonprofit organization that helps uniquely identify authors and their works.",
+            "source_url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified"
+          }
+        ],
+        "summary": "The provided sources detail methods for identifying authors of academic papers, highlight a specific example of a paper with numerous authors, and explain the role of ORCID in author identification.",
+        "sources": [
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "snippet": "## Searching for Authors Using Analyze Results\n\nTo narrow your search to authors (or inventors) of specific types of published papers (for example, nature articles), use the Analyze Results function.\n\nFrom the Results page, click the Analyze Results link.\n\nFrom the Analyze Results page, rank the records by the Source Title field.\n\nSelect records to view or select records to exclude.\n\nGo to the Results page to analyze your results.\n\n# Author Identifiers\n\nAn author identifier is a Web of Science ResearcherID number or ORCID.\n\nA-1009-2008 finds records of documents authored by a researcher whose Web of Science ResearcherID number is A-1009-2008.\n\n0000-0003-3768-1316 finds records of documents authored by a researcher whose ORCID is 0000-0003-3768-1316. [...] # All Fields\n\nEnter topic terms to search the following fields within a record:\n\n Topic (Title, Abstract, Keywords, Keywords Plus)\n Author, Editor, Corporate Author, Group Author\n Author Identifier\n Publication Name\n DOI\n Publication Year\n Address\n Organization-Enhanced\n Conference\n Language\n Document Type\n ISSN\n Funding Agency\n Funding Text\n Grant Number\n Accession Number\n PubMedID\n\nEnter search terms in any order. For example, y"
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "snippet": "TRiG\n\n53544 silver badges1717 bronze badges\n\nasked Dec 17, 2018 at 9:05\n\nAgelos\n\n46744 silver badges77 bronze badges\n\n5\n\n 10\n\n  ‘Harvesting papers’ - what, really, are you trying to do?\n\n  Jon Custer\n\n  –  Jon Custer\n\n  2018-12-17 13:17:39 +00:00\n\n   Commented Dec 17, 2018 at 13:17\n @Jon Custer Get the metadata of papers provided by different sources .\n\n  Agelos\n\n  –  Agelos\n\n  2018-12-17 17:30:09 +00:00\n\n   Commented Dec 17, 2018 at 17:30\n 9\n\n  See J. Pfeffer & J. Pfeffer, \"Another Article that Makes Bibliometric Analysis a Bit Harder,\" SIGBOVIK 2015, pp. 79-82. April 1, 2015. \\Note: The specific date within that year is not a coincidence; it's a humor venue. PDF page numbers are +8.\n\n  WBT\n\n  –  WBT\n\n  2018-12-17 18:27:30 +00:00 [...] Color mismatch in legend with PlotLegends package\n Short story with Mesopotamian gods fighting an interstellar war\n Construction of a large stealth spacecraft\n Conjecture about the sum of the squares of the divisors and prime numbers [...] answered Dec 17, 2018 at 9:18\n\nxLeitix\n\n140k4646 gold badges353353 silver badges511511 bronze badges\n\nAdd a comment   |\n\n8\n\nThis is exactly what ORCID tries to achieve:\n\n> ORCID is a nonprofit organization helping"
+          },
+          {
+            "title": "How many authors are (too) many? A retrospective, descriptive ...",
+            "url": "https://link.springer.com/article/10.1007/s11192-024-04928-1",
+            "snippet": "\")) and citations therein). However, even the term multiauthorship seems understated in face of the ever-growing number of papers with many more than 100 authors listed. For example, 1014 authors are listed in a 2015-paper on fruit-fly genomics (Leung et al., 2015. Drosophila muller f elements maintain a distinct set of genomic properties over 40 million years of evolution. Bethesda, 5(5), 719–740. \n                  \n                  \n                \")). Not less than 2080 authors are listed on a paper from high energy physics (Khachatryan et al., 2010. First measurement of Bose-Einstein correlations in proton-proton collisions at radicals = 0.9 and 2.36 TeV at the LHC. Physical Review Letters. 105(3), 032001. [...] \")), (ii) advanced academic degrees and a shift in the proportion of articles from North America and United Kingdom to continental Europe and the Far East (Camp & Escott, 2013. Authorship proliferation in the orthopaedic literature. Journal of Bone and Joint Surgery American, 95(7), e44. \n                  \n                  \n                \")) with highest numbers of authors for paper from Japan, China, Italy, and, Germany (Chow et al., 2015. Increased rates of aut"
+          },
+          {
+            "title": "Author–Date Citation System - APA Style",
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date",
+            "snippet": "## Dates in a citation\n\n The year in the in-text citation should match the year in the reference list entry.\n Use only the year in the in-text citation, even if the reference list entry contains a more specific date (e.g., year, month, and day).\n For works with no date, use “n.d.” in the in-text citation.\n For works that have been accepted for publication but have not yet been published, use “in press.”\n\n## Repeating a citation\n\nWhen repeating a citation, show the entire citation; do not, for example, include only a page number (the abbreviation “ibid.” is not used in APA Style). Instead, use the following guidelines: [...] skip to main content\n\n# Author–Date Citation System\n\nUse the author–date citation system to cite references in the text in APA Style. In this system, each work used in a paper has two parts: an in-text citation and a corresponding reference list entry.\n\nIn-text citations may be parenthetical or narrative.\n\n In parenthetical citations, use an ampersand (&) between names for a work with two authors or before the last author when all names must be included to avoid ambiguity.\n In narrative citations, always spell out the word “and.”\n\n## Learn more\n\nThe author–date "
+          },
+          {
+            "title": "3.5 Reference elements: Author, Date, Title, Source - Citing ...",
+            "url": "https://libguides.uvt.nl/apa-manual/reference-elements",
+            "snippet": "References in APA Style have a hanging indent, which means the first line is flush left, and all subsequent lines are indented 0,5 inch to the right. How a hanging indent is made (in Word) is explained in Subsection 3.1: Formatting of the reference list.\n\n## Explanation by element\n\n Author\n Date\n Title\n Source\n\n### Format of the author element\n\n List surnames first, followed by the initial(s). Use comma’s to separate an author’s surname and initials. Use one space between initials. If there are multiple authors, place an ampersand (&) before the final author. List up to and including 20 authors.\n\n  Author, A. A.\n\n  Author, A. A., & Author, B. B. [...] + 3.6 Retrieval dates in references to online sources\n  + 3.7 Missing reference information: What to do?\n 4. Reference examples by source type   Toggle Dropdown;) \n  + 4.1 Periodical works: Journal article ǀ Article from UpToDate, Cochrane Database of Systematic Reviews ǀ Magazine article ǀ Newspaper article ǀ Blogpost, Comment on a blogpost\n  + 4.2 Books or e-books: Authored book ǀ Edited book ǀ Chapter in edited book ǀ Multivolume works ǀ Volume in a multivolume work ǀ Chapter in a volume of a multivolume work ǀ Ebook & Audiobook wi"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "content": "## Searching for Authors Using Analyze Results\n\nTo narrow your search to authors (or inventors) of specific types of published papers (for example, nature articles), use the Analyze Results function.\n\nFrom the Results page, click the Analyze Results link.\n\nFrom the Analyze Results page, rank the records by the Source Title field.\n\nSelect records to view or select records to exclude.\n\nGo to the Results page to analyze your results.\n\n# Author Identifiers\n\nAn author identifier is a Web of Science ResearcherID number or ORCID.\n\nA-1009-2008 finds records of documents authored by a researcher whose Web of Science ResearcherID number is A-1009-2008.\n\n0000-0003-3768-1316 finds records of documents authored by a researcher whose ORCID is 0000-0003-3768-1316. [...] # All Fields\n\nEnter topic terms to search the following fields within a record:\n\n Topic (Title, Abstract, Keywords, Keywords Plus)\n Author, Editor, Corporate Author, Group Author\n Author Identifier\n Publication Name\n DOI\n Publication Year\n Address\n Organization-Enhanced\n Conference\n Language\n Document Type\n ISSN\n Funding Agency\n Funding Text\n Grant Number\n Accession Number\n PubMedID\n\nEnter search terms in any order. For example, you can type radioactive decay 2014 Drexel or 2014 drexel decay radioactive and see the same number of search results.\n\nTo search for an exact phrase, put the term in quotations: \"radioactive decay\"\n\nUse wildcards (\\ $ ?) to find plural and inflected forms of words.\n\nUse search operators (AND, OR, NOT) to indicate a relationship between terms. [...] Enter 10.14489/vkit.2014.12.pp.018-023 to the record of the article whose DOI is 10.14489/vkit.2014.12.pp.018-023\n\nEnter 10.14489/vkit.2014.12\\ to find records of articles whose DOI begins with the string 10.14489/vkit.2014.12, including:\n\n 10.14489/vkit.2014.12.pp.010-017\n 10.14489/vkit.2014.12.pp.018-023\n 10.14489/vkit.2014.12.pp.024-029\n\n# Year Published\n\nEnter a four-digit year or a range of years. For example:\n\n2015\n\n2010-2015\n\nYou should always combine a search by Year Published with a search by another field such as Topic, Author or Publication Name.\n\nIf your search by Year Published retrieves no results, check the timespan setting. The timespan setting may exclude records in the year range you specify.",
+            "score": 0.47022632
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "content": "TRiG\n\n53544 silver badges1717 bronze badges\n\nasked Dec 17, 2018 at 9:05\n\nAgelos\n\n46744 silver badges77 bronze badges\n\n5\n\n 10\n\n  ‘Harvesting papers’ - what, really, are you trying to do?\n\n  Jon Custer\n\n  –  Jon Custer\n\n  2018-12-17 13:17:39 +00:00\n\n   Commented Dec 17, 2018 at 13:17\n @Jon Custer Get the metadata of papers provided by different sources .\n\n  Agelos\n\n  –  Agelos\n\n  2018-12-17 17:30:09 +00:00\n\n   Commented Dec 17, 2018 at 17:30\n 9\n\n  See J. Pfeffer & J. Pfeffer, \"Another Article that Makes Bibliometric Analysis a Bit Harder,\" SIGBOVIK 2015, pp. 79-82. April 1, 2015. \\Note: The specific date within that year is not a coincidence; it's a humor venue. PDF page numbers are +8.\n\n  WBT\n\n  –  WBT\n\n  2018-12-17 18:27:30 +00:00 [...] Color mismatch in legend with PlotLegends package\n Short story with Mesopotamian gods fighting an interstellar war\n Construction of a large stealth spacecraft\n Conjecture about the sum of the squares of the divisors and prime numbers [...] answered Dec 17, 2018 at 9:18\n\nxLeitix\n\n140k4646 gold badges353353 silver badges511511 bronze badges\n\nAdd a comment   |\n\n8\n\nThis is exactly what ORCID tries to achieve:\n\n> ORCID is a nonprofit organization helping create a world in which all who participate in research, scholarship and innovation are uniquely identified and connected to their contributions and affiliations, across disciplines, borders, and time. (from their website)",
+            "score": 0.2245911
+          },
+          {
+            "title": "How many authors are (too) many? A retrospective, descriptive ...",
+            "url": "https://link.springer.com/article/10.1007/s11192-024-04928-1",
+            "content": "\")) and citations therein). However, even the term multiauthorship seems understated in face of the ever-growing number of papers with many more than 100 authors listed. For example, 1014 authors are listed in a 2015-paper on fruit-fly genomics (Leung et al., 2015. Drosophila muller f elements maintain a distinct set of genomic properties over 40 million years of evolution. Bethesda, 5(5), 719–740. \n                  \n                  \n                \")). Not less than 2080 authors are listed on a paper from high energy physics (Khachatryan et al., 2010. First measurement of Bose-Einstein correlations in proton-proton collisions at radicals = 0.9 and 2.36 TeV at the LHC. Physical Review Letters. 105(3), 032001. [...] \")), (ii) advanced academic degrees and a shift in the proportion of articles from North America and United Kingdom to continental Europe and the Far East (Camp & Escott, 2013. Authorship proliferation in the orthopaedic literature. Journal of Bone and Joint Surgery American, 95(7), e44. \n                  \n                  \n                \")) with highest numbers of authors for paper from Japan, China, Italy, and, Germany (Chow et al., 2015. Increased rates of authorship in radiology publications: A bibliometric analysis of 142,576 articles published worldwide by radiologists between 1991 and 2012. American Journal of Roentgenology, 204(1), W52-57. [...] The NCBI policy on the listing of authors in the byline have changed over time. From 1966 to 1983 all authors were included. From October 29, 1983, authors per publication were limited to a maximum of ten. With 1966 (date of publication) there was a limit of 25 (1–24 plus last author, the rest was omitted). Effective with 2000, the personal author limit was removed and as of mid-2005 all limitations were lifted so that from that point all authors, also of hyperauthored papers may be listed (NIH–NLM, 2020. Number of authors per MEDLINE®/PubMed® citation. National Institute of Health–National Library of Medicine. Retrieved January 11, from",
+            "score": 0.15839584
+          },
+          {
+            "title": "Author–Date Citation System - APA Style",
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date",
+            "content": "## Dates in a citation\n\n The year in the in-text citation should match the year in the reference list entry.\n Use only the year in the in-text citation, even if the reference list entry contains a more specific date (e.g., year, month, and day).\n For works with no date, use “n.d.” in the in-text citation.\n For works that have been accepted for publication but have not yet been published, use “in press.”\n\n## Repeating a citation\n\nWhen repeating a citation, show the entire citation; do not, for example, include only a page number (the abbreviation “ibid.” is not used in APA Style). Instead, use the following guidelines: [...] skip to main content\n\n# Author–Date Citation System\n\nUse the author–date citation system to cite references in the text in APA Style. In this system, each work used in a paper has two parts: an in-text citation and a corresponding reference list entry.\n\nIn-text citations may be parenthetical or narrative.\n\n In parenthetical citations, use an ampersand (&) between names for a work with two authors or before the last author when all names must be included to avoid ambiguity.\n In narrative citations, always spell out the word “and.”\n\n## Learn more\n\nThe author–date citation system is covered in Sections 8.10–8.36 of the APA Publication Manual, Seventh Edition\n\nThis guidance has been revised from the 6th edition.\n\n## Number of authors to include in in-text citations",
+            "score": 0.12318644
+          },
+          {
+            "title": "3.5 Reference elements: Author, Date, Title, Source - Citing ...",
+            "url": "https://libguides.uvt.nl/apa-manual/reference-elements",
+            "content": "References in APA Style have a hanging indent, which means the first line is flush left, and all subsequent lines are indented 0,5 inch to the right. How a hanging indent is made (in Word) is explained in Subsection 3.1: Formatting of the reference list.\n\n## Explanation by element\n\n Author\n Date\n Title\n Source\n\n### Format of the author element\n\n List surnames first, followed by the initial(s). Use comma’s to separate an author’s surname and initials. Use one space between initials. If there are multiple authors, place an ampersand (&) before the final author. List up to and including 20 authors.\n\n  Author, A. A.\n\n  Author, A. A., & Author, B. B. [...] + 3.6 Retrieval dates in references to online sources\n  + 3.7 Missing reference information: What to do?\n 4. Reference examples by source type   Toggle Dropdown;) \n  + 4.1 Periodical works: Journal article ǀ Article from UpToDate, Cochrane Database of Systematic Reviews ǀ Magazine article ǀ Newspaper article ǀ Blogpost, Comment on a blogpost\n  + 4.2 Books or e-books: Authored book ǀ Edited book ǀ Chapter in edited book ǀ Multivolume works ǀ Volume in a multivolume work ǀ Chapter in a volume of a multivolume work ǀ Ebook & Audiobook with non-database URL ǀ DSM\n  + 4.3 Reference works: Entry in a dictionary ǀ Entry in an encyclopedia ǀ Wikipedia article\n  + 4.4 Grey literature: Report ǀ Annual report ǀ Preprint ǀ Working paper ǀ Discussion paper ǀ White paper ǀ Fact sheet ǀ Press release [...] Provide only the main title of the periodical (omit subtitles). Capitalize the first word of the title and all major words (nouns, verbs, adjectives, adverbs, pronouns, and all words with four letters or more (including “Between,” “About,” “From,” “With”).\n\nInternational Journal of Clinical and Health Psychology.\n\nMore examples of stand-alone works include: reports, dissertations, theses, films, press releases, television series, podcasts, Youtube videos, data sets, unpublished manuscripts, blogs, or social media.\n\n#### • Title element of works that are part of a greater whole\n\nDo not italicize the title of works that are part of a greater whole.\n\nBook chapters, journal articles, magazine articles, newspaper articles",
+            "score": 0.1002869
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "score": 0.47022632
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "score": 0.2245911
+          },
+          {
+            "title": "How many authors are (too) many? A retrospective, descriptive ...",
+            "url": "https://link.springer.com/article/10.1007/s11192-024-04928-1",
+            "score": 0.15839584
+          },
+          {
+            "title": "Author–Date Citation System - APA Style",
+            "url": "https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date",
+            "score": 0.12318644
+          },
+          {
+            "title": "3.5 Reference elements: Author, Date, Title, Source - Citing ...",
+            "url": "https://libguides.uvt.nl/apa-manual/reference-elements",
+            "score": 0.1002869
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Web"
+          },
+          {
+            "type": "name_like",
+            "value": "Science Core Collection Search"
+          },
+          {
+            "type": "name_like",
+            "value": "Fields"
+          },
+          {
+            "type": "name_like",
+            "value": "Searching"
+          },
+          {
+            "type": "name_like",
+            "value": "Authors Using Analyze Results"
+          },
+          {
+            "type": "name_like",
+            "value": "Analyze Results"
+          },
+          {
+            "type": "name_like",
+            "value": "From"
+          },
+          {
+            "type": "name_like",
+            "value": "Results"
+          },
+          {
+            "type": "name_like",
+            "value": "Source Title"
+          },
+          {
+            "type": "name_like",
+            "value": "Select"
+          },
+          {
+            "type": "name_like",
+            "value": "Author Identifiers"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "All Fields"
+          },
+          {
+            "type": "name_like",
+            "value": "Enter"
+          },
+          {
+            "type": "name_like",
+            "value": "Topic"
+          },
+          {
+            "type": "name_like",
+            "value": "Title"
+          },
+          {
+            "type": "name_like",
+            "value": "Abstract"
+          },
+          {
+            "type": "name_like",
+            "value": "Keywords"
+          },
+          {
+            "type": "name_like",
+            "value": "Keywords Plus"
+          },
+          {
+            "type": "name_like",
+            "value": "Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Editor"
+          },
+          {
+            "type": "name_like",
+            "value": "Corporate Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Group Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Author Identifier"
+          },
+          {
+            "type": "name_like",
+            "value": "Publication Name"
+          },
+          {
+            "type": "name_like",
+            "value": "Publication Year"
+          },
+          {
+            "type": "name_like",
+            "value": "Address"
+          },
+          {
+            "type": "name_like",
+            "value": "Organization-Enhanced"
+          },
+          {
+            "type": "name_like",
+            "value": "Conference"
+          },
+          {
+            "type": "name_like",
+            "value": "Language"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the authors who have prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"1 Pietro Murano\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"name\": \"Iram N. Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"2 Iram N. Khan\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    }\n  ],\n  \"key_points\": [\n    \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \""
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine the title of the first paper authored by the author who has authored prior papers.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"assumptions\": [\n    \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' (2015) are indeed Pietro Murano and Iram N. Khan.\",\n    \"The task is to identify the first paper authored by either Pietro Murano or Iram N. Khan prior to 2015, but it implies that at least one of them has authored prior papers.\"\n  ],\n  \"reasoning_steps\": [\n    \"Identify the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' as Pietro Murano and Iram N. Khan.\",\n    \"Search for papers authored by either Pietro Murano or Iram N. Khan before the year 2015.\",\n    \"Determine the publication date of those papers to identify the earliest one.\"\n  ],\n  \"conclusions\": [\n    \"There is currently no evidence of prior papers authored by either Pietro Murano or Iram N. Khan before 2015.\",\n    \"Without evidence of any earlier publications, it is impossible to determine the title of the first paper authored by either of them.\"\n  ],\n  \"proposed_answer_outline\": [\n    \"Since there is no evidence of any prior papers authored by Pietro Murano or Iram N. Khan before 2015, it cannot be determined what the title of their first paper is.\"\n  ],\n  \"follow_up_needed\": true,\n  \"follow_up_queries\": [\n    \"Can you provide a list of all publications by Pietro Murano and Iram N. Khan before 2015?\"\n  ]\n}\n```",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the title of the first paper.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "No prior papers found",
+        "final_answer_strict": "N/A",
+        "used_evidence": [
+          "There is currently no evidence of prior papers authored by either Pietro Murano or Iram N. Khan before 2015."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide a list of all publications by Pietro Murano and Iram N. Khan before 2015?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 2,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 2,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

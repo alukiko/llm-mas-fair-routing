@@ -1,0 +1,218 @@
+{
+  "id": "23dd907f-1261-4488-b21c-e9185af91d5e",
+  "query": "In Audre Lorde’s poem “Father Son and Holy Ghost”, what is the number of the stanza in which some lines are indented?",
+  "ground_truth": "2",
+  "answer_raw": {
+    "final_answer": "stanza 2",
+    "final_answer_strict": "2.0",
+    "used_evidence": [
+      "The stanza that contains indented lines is identified as follows: 'Each week a different woman has my mother’s face' and 'who time has changeless must be amazed'."
+    ],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "2.0",
+  "error": null,
+  "duration_sec": 53.17986536026001,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the text of Audre Lorde’s poem 'Father Son and Holy Ghost' on the web.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the text of Audre Lorde’s poem 'Father Son and Holy Ghost' on the web.",
+        "facts": [
+          {
+            "fact": "Audre Lorde's poem 'Father Son and Holy Ghost' includes the line 'I have not ever seen my father's grave.'",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The poem reflects on themes of memory and loss, mentioning 'each week a different woman has my mother’s face.'",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "'Father Son and Holy Ghost' is included in the 'Collected Poems of Audre Lorde', published in 1997.",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          },
+          {
+            "fact": "The poem is available for reading on Poem Hunter and other poetry websites.",
+            "source_url": "https://www.poemhunter.com/i/ebooks/pdf/audre_lorde_2012_3.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "[PDF] Audre Lorde - Poem Hunter",
+            "url": "https://www.poemhunter.com/i/ebooks/pdf/audre_lorde_2012_3.pdf",
+            "snippet": "is a round puddle of sunless water where small islands are only beginning to cope a young boy in my garden is bailing out water from his flower patch when I ask him why he tells me young seeds that have not seen sun forget and drown easily. Audre Lorde 12 www.PoemHunter.com - The World's Poetry Archive Father Son And Holy Ghost I have not ever seen my father's grave. Not that his judgment eyes have been forgotten nor his great hands' print on our evening doorknobs one half turn each night and he would come drabbled with the world's business massive and silent as the whole day's wish ready to r"
+          },
+          {
+            "title": "Father Son and Holy Ghost | The Poetry Foundation",
+            "url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost",
+            "snippet": "pulls up the grass his stillness grows\n\ncalling it weed.\n\nEach week    a different woman\n\nhas my mother’s face\n\nand he\n\nwho time has    changeless\n\nmust be amazed\n\nwho knew and loved\n\nbut one.\n\nMy father died in silence\n\nloving creation\n\nand well-defined response\n\nhe lived    still judgments\n\non familiar things\n\nand died    knowing\n\na January 15th that year me.\n\nLest I go into dust\n\nI have not ever seen my father’s grave.\n\nCopyright Credit: Audre Lorde, “Father Son and Holy Ghost” from Collected Poems of Audre Lorde. Copyright © 1997 by The Audre Lorde Estate. Reprinted with the permission of "
+          },
+          {
+            "title": "Father Son and Holy Ghost, by Audre Lorde - Poeticous",
+            "url": "https://www.poeticous.com/audre-lorde/father-son-and-holy-ghost",
+            "snippet": "Never to Dream of Spiders Time collapses between the lips of stran… my days collapse into a hollow tube soon implodes against now like an iron wall my eyes are blocked with rubble\n\nThe Black Unicorn The black unicorn is greedy. The black unicorn is impatient. 'The black unicorn was mistaken for a shadow or symbol and taken\n\nHanging Fire I am fourteen and my skin has betrayed me the boy I cannot live without still sucks his thumb in secret\n\nTop [...] Close\n\nen\n\nEnglish   Español   Français   Italiano\n\n#####\n\n poets\n poems\n Books\n about\n Donate\n help\n Login\n\n###### The Drifter\n\nArtist:\n\n###### A"
+          },
+          {
+            "title": "Sonia Sanchez Reads “Father Son and Holy Ghost” by Audre Lorde",
+            "url": "https://www.youtube.com/watch?v=GicQyjVZAnQ",
+            "snippet": "i have not ever seen my father's grave not that his judgment eyes have been forgotten nor his great hands print on our evening doorknobs one half turn each night and he would come travel with the world's business massive and silent as the whole day's wish ready to redefine each of our shapes but now the evening doorknobs wait and do not recognize us as we pass each week a different woman regular as his one quick glass each evening pulls up the grass his stillness grows calling it read each week a different woman has my mother's face and he who time has changeless must be amazed who knew and lo"
+          },
+          {
+            "title": "Audre Lorde - Wikipedia",
+            "url": "https://en.m.wikipedia.org/wiki/Audre_Lorde",
+            "snippet": "In June 2019, Lorde was one of the inaugural fifty American \"pioneers, trailblazers, and heroes\" inducted on the National LGBTQ Wall of Honor within the Stonewall National Monument (SNM) in New York City's Stonewall Inn. The SNM is the first U.S. national monument \"National monument (United States)\") dedicated to LGBTQ rights and history, and the wall's unveiling was timed to take place during the 50th anniversary of the Stonewall riots.\n\nIn 2014, Lorde was inducted into the Legacy Walk, an outdoor public display in Chicago, Illinois, that celebrates LGBTQ history and people.\n\nThe Audre Lorde "
+          }
+        ],
+        "summary": "Audre Lorde's poem 'Father Son and Holy Ghost' explores themes of memory and loss, featuring notable lines about her father's grave and her mother's face."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the stanza numbers and indentation information from the poem text.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Audre Lorde",
+            "type": "Author",
+            "evidence": "Audre Lorde's poem 'Father Son and Holy Ghost'"
+          },
+          {
+            "name": "Father Son and Holy Ghost",
+            "type": "Poem",
+            "evidence": "The poem reflects on themes of memory and loss"
+          }
+        ],
+        "key_points": [
+          "The poem explores themes of memory and loss.",
+          "It includes notable lines about the speaker's father's grave and the changing faces of women resembling the speaker's mother."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "Father Son and Holy Ghost",
+            "definition": "A poem by Audre Lorde that reflects on themes of memory and loss.",
+            "source_url": "https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine which stanza contains indented lines based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": "The poem 'Father Son and Holy Ghost' contains indented lines as part of its structure, which can be identified through the provided text snippets.",
+        "reasoning_steps": "By analyzing the text snippets from the sources, I can identify lines that are indented. The snippet from the Poetry Foundation shows lines that are indented, indicating that they belong to the same stanza.",
+        "conclusions": "The stanza that contains indented lines is the one that includes the lines 'Each week a different woman has my mother’s face' and 'who time has changeless must be amazed'.",
+        "proposed_answer_outline": "The stanza containing indented lines is identified as follows: 'Each week a different woman has my mother’s face' and 'who time has changeless must be amazed'. These lines are part of the same stanza and are indented in the poem's structure.",
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the stanza number that contains indented lines.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "stanza 2",
+        "final_answer_strict": "2.0",
+        "used_evidence": [
+          "The stanza that contains indented lines is identified as follows: 'Each week a different woman has my mother’s face' and 'who time has changeless must be amazed'."
+        ],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": true,
+    "pred_norm": "2.0",
+    "gt_norm": "2"
+  }
+}

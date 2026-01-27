@@ -1,0 +1,412 @@
+{
+  "id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+  "query": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+  "ground_truth": "22",
+  "answer_raw": {
+    "final_answer": "28 years",
+    "final_answer_strict": "28",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "28",
+  "error": null,
+  "duration_sec": 37.8158655166626,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find sources from Girls Who Code regarding the percentage of computer scientists that are women and the time it took for this percentage to change by 13% from a starting point of 37%.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find sources from Girls Who Code regarding the percentage of computer scientists that are women and the time it took for this percentage to change by 13% from a starting point of 37%.",
+        "facts": [
+          {
+            "fact": "In 1995, 37% of computer scientists were women.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "As of today, only 24% of computer scientists are women.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The percentage of women in computer science decreased by 13% from 37% to 24%.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The decline in the percentage of women in computer science has been ongoing since 1995.",
+            "source_url": "https://girlswhocode.com/about-us"
+          }
+        ],
+        "summary": "The percentage of women in computer science has decreased from 37% in 1995 to 24% today, marking a 13% decline over this period.",
+        "sources": [
+          {
+            "title": "We're on a mission to close the gender gap in tech. - Girls Who Code",
+            "url": "https://girlswhocode.com/about-us",
+            "snippet": "The gender gap in computing is getting worse.\n\nIn 1995, 37% of computer scientists were women. Today, it’s only 24%. The percent will continue to decline if we do nothing. We know that the biggest drop off of girls in computer science is between the ages of 13 and 17.\n\n% of women in Computer Science\n\nGirls Who Code is changing the game\n\nWe're reaching girls around the world and are on track to close the gender gap in new entry-level tech jobs by 2030.\n\n 14.9B\n\n  Engagements Globally\n\n  Through our online resources, campaigns, books, and advocacy work - in the U.S. and around the world.\n 760,000\n\n  Girls, Women and Nonbinary Individuals Coding\n\n  Through our in-person programming including our Summer Immersion Program, Clubs, and College Loops\n 50%\n\n  HUGs"
+          },
+          {
+            "title": "Closing Gender Gap in Tech: Girls Who Code | SciTech Now",
+            "url": "https://www.youtube.com/watch?v=jFlya7CFxRk",
+            "snippet": "# Closing Gender Gap in Tech: Girls Who Code | SciTech Now\n## THIRTEEN\n112000 subscribers\n4 likes\n\n### Description\n288 views\nPosted: 28 Oct 2014\nIn 1984, women represented 37 percent of all computer science graduates. Today, less than half, only 12 percent of women are earning degrees in this field. We go inside one organization committed to engaging more young women in computer science.\n\n2 comments\n### Transcript:"
+          },
+          {
+            "title": "Girls Who Code - Next Level Solutions",
+            "url": "https://www.nlsnow.com/resources/girls-who-code",
+            "snippet": "Nationally amongst computer science enrollment, almost 38 percent of all students K-12 are female. When you look at the statistics for students from underrepresented populations such as black, Latina and students from low-income households, the number drops to 15 percent. Girls Who Code is on a mission to make those numbers of women in computer science proportional to the general population. That’s why their programs have served 185,000 girls to date and indirectly served over 100,000,000 women. The power of diversity in technology creates innovation and opportunity for everyone, not just girls. A diverse perspective and maximum advancement in the technology field is best achieved by closing the gender gap. Alumni of Girls Who Code whom have already declared their majors are choosing to [...] Contact Us\n\n# Girls Who Code\n\nAugust 23, 2019\n\nAs the demand for technology increases daily, so does the abundance of computing jobs. With fewer than one in five Computer Science graduates being women, the gender gap in computing is worsening daily. In 1995, nearly 40 percent of CS graduates were women, but as of 2017 that number decreased to 24 percent. If nothing is done, the percent is proj"
+          },
+          {
+            "title": "[PDF] Girls Who Code Program Evaluation - ERIC",
+            "url": "https://files.eric.ed.gov/fulltext/ED647331.pdf",
+            "snippet": "Policy Insights From the Behavioral and Brain Sciences, 1(1), 21–29.  Girls Who Code. (2022). The gender gap in computing is getting worse.  Google Inc. & Gallup Inc. (2016). Diversity gaps in computer science: Exploring the underrepresentation of girls, Blacks and Hispanics.  Hill, J., Linero, A., & Murray, J. (2020). Bayesian additive regression trees: A review and look forward. Annual Review of Statistics and Its Application, 7, 251–278. Kröhn, C., Groher, I., Sabitzer, B., & Kuka, L. (2020). Female computer scientists needed: Approaches for closing the gender gap. 2020 IEEE Frontiers in Education Conference (FIE), 1–4. Martinez, A., & Christnacht, C. (2021, January 26). Women are nearly half of U.S. workforce but only 27% of STEM workers. Women making gains in STEM occupations but [...] <.001 10.4 19.1 Multiracial 40 34.2 5.8 5.2 .294 -6.3 17.9 White 39.9 27 12.9 2.1 <.001 8.3 17.5 Additional 44.4 34.7 9.8 4.8 .089 -2 21.6 Prior CS knowledge No prior knowledge 37.3 23.9 13.4 1.2 <.001 10.4 16.3 Beginner 39.9 23.8 16.1 4.3 .005 6.2 26 Intermediate 47.2 37.5 9.7 4.6 .063 -0.7 20.1 Advanced 55.4 41.4 14 4.9 .016 3.2 24.8  The program effect is statistically significant at α = .05."
+          },
+          {
+            "title": "[PDF] GIRLS WHO CODE IMPACT EVALUATION STUDY",
+            "url": "https://girlswhocode.com/assets/downloads/craft-prod/downloads/GWC_Impact_Evaluation_Study_Final_Report.pdf",
+            "snippet": "1.3 <.001 10.5 16.7 No 45.5 33.1 12.4 2.7 .001 6.5 18.3 Free/reduced-price lunch Eligible 43.2 27.7 15.5 1.5 <.001 11.7 19.4 Not eligible or unsure 48.8 37.9 10.9 2.4 .001 5.7 16.2 Race/ethnicity Asian 49.9 36.6 13.3 2.1 .002 7.8 18.8 Black or African American 42 27.4 14.6 3.4 .002 7.1 22.2 Hispanic or Latinx 41.9 27.2 14.8 1.8 <.001 10.4 19.1 Multiracial 40 34.2 5.8 5.2 .294 -6.3 17.9 White 39.9 27 12.9 2.1 <.001 8.3 17.5 Additional 44.4 34.7 9.8 4.8 .089 -2 21.6 Prior CS knowledge No prior knowledge 37.3 23.9 13.4 1.2 <.001 10.4 16.3 Beginner 39.9 23.8 16.1 4.3 .005 6.2 26 Intermediate 47.2 37.5 9.7 4.6 .063 -0.7 20.1 Advanced 55.4 41.4 14 4.9 .016 3.2 24.8  The program effect is statistically significant at α = .05. 20 | AIR.ORG Girls Who Code Program Evaluation Exhibit C2. Estimated [...] Annual Review of Statistics and Its Application, 7, 251–278. Kröhn, C., Groher, I., Sabitzer, B., & Kuka, L. (2020). Female computer scientists needed: Approaches for closing the gender gap. 2020 IEEE Frontiers in Education Conference (FIE), 1–4. Martinez, A., & Christnacht, C. (2021, January 26). Women are nearly half of U.S. workforce but only 27% of STEM workers. Women making gains in STEM "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "We're on a mission to close the gender gap in tech. - Girls Who Code",
+            "url": "https://girlswhocode.com/about-us",
+            "content": "The gender gap in computing is getting worse.\n\nIn 1995, 37% of computer scientists were women. Today, it’s only 24%. The percent will continue to decline if we do nothing. We know that the biggest drop off of girls in computer science is between the ages of 13 and 17.\n\n% of women in Computer Science\n\nGirls Who Code is changing the game\n\nWe're reaching girls around the world and are on track to close the gender gap in new entry-level tech jobs by 2030.\n\n 14.9B\n\n  Engagements Globally\n\n  Through our online resources, campaigns, books, and advocacy work - in the U.S. and around the world.\n 760,000\n\n  Girls, Women and Nonbinary Individuals Coding\n\n  Through our in-person programming including our Summer Immersion Program, Clubs, and College Loops\n 50%\n\n  HUGs",
+            "score": 0.67527276
+          },
+          {
+            "title": "Closing Gender Gap in Tech: Girls Who Code | SciTech Now",
+            "url": "https://www.youtube.com/watch?v=jFlya7CFxRk",
+            "content": "# Closing Gender Gap in Tech: Girls Who Code | SciTech Now\n## THIRTEEN\n112000 subscribers\n4 likes\n\n### Description\n288 views\nPosted: 28 Oct 2014\nIn 1984, women represented 37 percent of all computer science graduates. Today, less than half, only 12 percent of women are earning degrees in this field. We go inside one organization committed to engaging more young women in computer science.\n\n2 comments\n### Transcript:",
+            "score": 0.6186197
+          },
+          {
+            "title": "Girls Who Code - Next Level Solutions",
+            "url": "https://www.nlsnow.com/resources/girls-who-code",
+            "content": "Nationally amongst computer science enrollment, almost 38 percent of all students K-12 are female. When you look at the statistics for students from underrepresented populations such as black, Latina and students from low-income households, the number drops to 15 percent. Girls Who Code is on a mission to make those numbers of women in computer science proportional to the general population. That’s why their programs have served 185,000 girls to date and indirectly served over 100,000,000 women. The power of diversity in technology creates innovation and opportunity for everyone, not just girls. A diverse perspective and maximum advancement in the technology field is best achieved by closing the gender gap. Alumni of Girls Who Code whom have already declared their majors are choosing to [...] Contact Us\n\n# Girls Who Code\n\nAugust 23, 2019\n\nAs the demand for technology increases daily, so does the abundance of computing jobs. With fewer than one in five Computer Science graduates being women, the gender gap in computing is worsening daily. In 1995, nearly 40 percent of CS graduates were women, but as of 2017 that number decreased to 24 percent. If nothing is done, the percent is projected to decrease to just 22 percent by 2027. Girls Who Code is on a mission to close the gender gap in technology and to change the image of what a programmer looks like and does. According to girlswhocode.com, they’re building the largest pipeline of future female engineers in the United States and were recently recognized as Most Innovative Non-Profit by Fast Company. [...] Founder, Reshma Saujani, started her career as an attorney and activist and surged into the political spotlight when she became the first Indian American woman to run for US Congress. That’s why it’s no surprise that Girls Who Code has been working to draft what she called the “first-ever federal Girls Who Code legislation to encourage states to start reporting on their gender diversity data.” In order to improve the demographic of the CS field, we have to start tracking and reporting the statistics. There’s no way to change something you haven’t measured. So far this year, two states in the US have passed laws that track gender diversity in the industry - Washington and Colorado. However, Girls Who Code’s initiative is the first to mention legislation at the federal level.",
+            "score": 0.60666215
+          },
+          {
+            "title": "[PDF] Girls Who Code Program Evaluation - ERIC",
+            "url": "https://files.eric.ed.gov/fulltext/ED647331.pdf",
+            "content": "Policy Insights From the Behavioral and Brain Sciences, 1(1), 21–29.  Girls Who Code. (2022). The gender gap in computing is getting worse.  Google Inc. & Gallup Inc. (2016). Diversity gaps in computer science: Exploring the underrepresentation of girls, Blacks and Hispanics.  Hill, J., Linero, A., & Murray, J. (2020). Bayesian additive regression trees: A review and look forward. Annual Review of Statistics and Its Application, 7, 251–278. Kröhn, C., Groher, I., Sabitzer, B., & Kuka, L. (2020). Female computer scientists needed: Approaches for closing the gender gap. 2020 IEEE Frontiers in Education Conference (FIE), 1–4. Martinez, A., & Christnacht, C. (2021, January 26). Women are nearly half of U.S. workforce but only 27% of STEM workers. Women making gains in STEM occupations but [...] <.001 10.4 19.1 Multiracial 40 34.2 5.8 5.2 .294 -6.3 17.9 White 39.9 27 12.9 2.1 <.001 8.3 17.5 Additional 44.4 34.7 9.8 4.8 .089 -2 21.6 Prior CS knowledge No prior knowledge 37.3 23.9 13.4 1.2 <.001 10.4 16.3 Beginner 39.9 23.8 16.1 4.3 .005 6.2 26 Intermediate 47.2 37.5 9.7 4.6 .063 -0.7 20.1 Advanced 55.4 41.4 14 4.9 .016 3.2 24.8  The program effect is statistically significant at α = .05. 20 | AIR.ORG Girls Who Code Program Evaluation Exhibit C2. Estimated SPP Effects by Student Group Student groups Adjusted percentage of majoring in a CS-related field Program effect Standard error p-value Confidence interval Treatment Comparison Low High All students 51.0 39.5 11.5 2.2 .001 6.5 16.4 Historically underrepresented Yes 44.2 30.8 13.5 3.8 .008 4.7 22.2 No 42.9 33.7 9.3 3.4 .027 1.3 [...] (N = 2,786) Treatment (N = 1,027) Comparison (N = 797) Cohort Summer 2020 sample size 612 1,009 n/a n/a Summer 2021 sample size 2,062 1,769 571 602 Summer 2022 sample size 11 8 456 195 Eligible for free or reduced-price lunch Yes 49.2% 38.3% 39.6% 38.6% Not eligible or unsure 50.8% 61.7% 60.4% 61.4% Race/ethnicity Asian 31.1% 43.2% 51.2% 44.5% Black/African American 20.0% 16.1% 15.8% 15.6% Hispanic/Latinx 20.8% 18.5% 13.3% 17.8% Multiracial 5.7% 4.1% 4.2% 4.0% White 19.4% 15.2% 12.4% 15.6% Additional (small participant sizes) 3.1% 2.9% 2.7% 1.9% Historically underrepresented students 69.7% 53.3% 54.0% 54.6% Age – mean (standard deviation) 19.0 (0.7) 18.9 (0.7) 18.6 (0.6) 18.6 (0.6) Prior CS knowledge No prior knowledge 74.0% 70.3% 28.2% 33.9% Beginner 7.2% 4.6% 22.7% 16.2% Intermediate",
+            "score": 0.588062
+          },
+          {
+            "title": "[PDF] GIRLS WHO CODE IMPACT EVALUATION STUDY",
+            "url": "https://girlswhocode.com/assets/downloads/craft-prod/downloads/GWC_Impact_Evaluation_Study_Final_Report.pdf",
+            "content": "1.3 <.001 10.5 16.7 No 45.5 33.1 12.4 2.7 .001 6.5 18.3 Free/reduced-price lunch Eligible 43.2 27.7 15.5 1.5 <.001 11.7 19.4 Not eligible or unsure 48.8 37.9 10.9 2.4 .001 5.7 16.2 Race/ethnicity Asian 49.9 36.6 13.3 2.1 .002 7.8 18.8 Black or African American 42 27.4 14.6 3.4 .002 7.1 22.2 Hispanic or Latinx 41.9 27.2 14.8 1.8 <.001 10.4 19.1 Multiracial 40 34.2 5.8 5.2 .294 -6.3 17.9 White 39.9 27 12.9 2.1 <.001 8.3 17.5 Additional 44.4 34.7 9.8 4.8 .089 -2 21.6 Prior CS knowledge No prior knowledge 37.3 23.9 13.4 1.2 <.001 10.4 16.3 Beginner 39.9 23.8 16.1 4.3 .005 6.2 26 Intermediate 47.2 37.5 9.7 4.6 .063 -0.7 20.1 Advanced 55.4 41.4 14 4.9 .016 3.2 24.8  The program effect is statistically significant at α = .05. 20 | AIR.ORG Girls Who Code Program Evaluation Exhibit C2. Estimated [...] Annual Review of Statistics and Its Application, 7, 251–278. Kröhn, C., Groher, I., Sabitzer, B., & Kuka, L. (2020). Female computer scientists needed: Approaches for closing the gender gap. 2020 IEEE Frontiers in Education Conference (FIE), 1–4. Martinez, A., & Christnacht, C. (2021, January 26). Women are nearly half of U.S. workforce but only 27% of STEM workers. Women making gains in STEM occupations but still underrepresented. U.S. Census Bureau.  13 | AIR.ORG Girls Who Code Program Evaluation Zweben, S., & Bizot, B. (2022, May). 2021 Taulbee Survey: CS enrollment grows at all degree levels, with increased gender diversity. Computing Research Association.  14 | AIR.ORG Girls Who Code Program Evaluation Appendix A. Baseline Equivalence The study team assessed baseline balance before [...] characteristics (i.e., historically underrepresented group status, student race/ethnicity, eligibility for free or reduced-price lunch, and prior CS knowledge level; RQ2), we calculated program effects for each student group and conducted post-hoc pairwise contrast tests to examine whether program effects significantly differed for one student group versus another. Evaluation Results Overall Program Effects Overall, students who participated in SIP or SPP were significantly more likely to major in a CS-related field than comparison students (Exhibit 2; Appendix C). Specifically, on average, students who participated in SIP were significantly more likely to major in a CS-related field (by 13.2 percentage points) than SIP waitlist students. The adjusted percentage of students who majored in",
+            "score": 0.56517935
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "We're on a mission to close the gender gap in tech. - Girls Who Code",
+            "url": "https://girlswhocode.com/about-us",
+            "score": 0.67527276
+          },
+          {
+            "title": "Closing Gender Gap in Tech: Girls Who Code | SciTech Now",
+            "url": "https://www.youtube.com/watch?v=jFlya7CFxRk",
+            "score": 0.6186197
+          },
+          {
+            "title": "Girls Who Code - Next Level Solutions",
+            "url": "https://www.nlsnow.com/resources/girls-who-code",
+            "score": 0.60666215
+          },
+          {
+            "title": "[PDF] Girls Who Code Program Evaluation - ERIC",
+            "url": "https://files.eric.ed.gov/fulltext/ED647331.pdf",
+            "score": 0.588062
+          },
+          {
+            "title": "[PDF] GIRLS WHO CODE IMPACT EVALUATION STUDY",
+            "url": "https://girlswhocode.com/assets/downloads/craft-prod/downloads/GWC_Impact_Evaluation_Study_Final_Report.pdf",
+            "score": 0.56517935
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Girls Who Code\nThe"
+          },
+          {
+            "type": "name_like",
+            "value": "Today"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Girls Who Code"
+          },
+          {
+            "type": "name_like",
+            "value": "Engagements Globally"
+          },
+          {
+            "type": "name_like",
+            "value": "Through"
+          },
+          {
+            "type": "name_like",
+            "value": "Girls"
+          },
+          {
+            "type": "name_like",
+            "value": "Women"
+          },
+          {
+            "type": "name_like",
+            "value": "Nonbinary Individuals Coding"
+          },
+          {
+            "type": "name_like",
+            "value": "Summer Immersion Program"
+          },
+          {
+            "type": "name_like",
+            "value": "Clubs"
+          },
+          {
+            "type": "name_like",
+            "value": "College Loops"
+          },
+          {
+            "type": "name_like",
+            "value": "Closing Gender Gap"
+          },
+          {
+            "type": "name_like",
+            "value": "Tech"
+          },
+          {
+            "type": "name_like",
+            "value": "Now"
+          },
+          {
+            "type": "name_like",
+            "value": "Description"
+          },
+          {
+            "type": "name_like",
+            "value": "Posted"
+          },
+          {
+            "type": "name_like",
+            "value": "Oct"
+          },
+          {
+            "type": "name_like",
+            "value": "Transcript"
+          },
+          {
+            "type": "name_like",
+            "value": "Next Level Solutions\nNationally"
+          },
+          {
+            "type": "name_like",
+            "value": "When"
+          },
+          {
+            "type": "name_like",
+            "value": "Latina"
+          },
+          {
+            "type": "name_like",
+            "value": "That"
+          },
+          {
+            "type": "name_like",
+            "value": "Alumni"
+          },
+          {
+            "type": "name_like",
+            "value": "Contact Us"
+          },
+          {
+            "type": "name_like",
+            "value": "August"
+          },
+          {
+            "type": "name_like",
+            "value": "With"
+          },
+          {
+            "type": "name_like",
+            "value": "Girls Who Code Program"
+          },
+          {
+            "type": "name_like",
+            "value": "Evaluation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the relevant data about the percentage change and the time frame from the retrieved sources.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"percentage\",\n    \"time frame\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Girls Who Code\",\n      \"type\": \"organization\",\n      \"evidence\": \"The gender gap in computing is getting worse.\",\n      \"source_url\": \"https://girlswhocode.com/about-us\"\n    }\n  ],\n  \"key_points\": [\n    \"In 1995, 37% of computer scientists were women.\",\n    \"As of today, only 24% of computer scientists are women.\",\n    \"The percentage of women in computer science decreased by 13% from 37% to 24%.\",\n    \"The decline in the percentage of women in computer science has been ongoing since 1995.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"37\",\n      \"unit\": \"%\",\n      \"context\": \"percentage of women in computer science in 1995\",\n      \"source_url\": \"https://girlswhocode.com/about-us\"\n    },\n    {\n      \"value\": \"24\",\n      \"unit\": \"%\",\n      \"context\": \"percentage of women in computer science today\",\n      \"source_url\": \"https://girlswhocode.com/about-us\"\n    },\n    {\n      \"value\": \"13\",\n      \"unit\": \"%\",\n      \"context\": \"decline in percentage of women in computer science\",\n      \"source_url\": \"https://girlswhocode.com/about-us\"\n    }\n  ],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"In 1995, 37% of computer scientists were women. Today, it’s only 24%.\",\n      \"source_url\": \"https://girlswhocode.com/about-us\"\n    },\n    {\n      \"text\": \"The percentage of women in computer science decreased by 13% from 37% to 24%.\",\n     "
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Calculate the number of years it took for the percentage of women in computer science to change by 13% from 37%.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The percentage of women in computer science has been declining steadily since 1995.",
+          "The current year is assumed to be 2023 based on the context provided."
+        ],
+        "reasoning_steps": [
+          "In 1995, the percentage of women in computer science was 37%.",
+          "As of 2023, the percentage of women in computer science is 24%.",
+          "The decline in percentage is calculated as 37% - 24% = 13%.",
+          "This decline has occurred over the period from 1995 to 2023."
+        ],
+        "conclusions": [
+          "The percentage of women in computer science decreased by 13% over the period from 1995 to 2023.",
+          "The total number of years it took for this change is 2023 - 1995 = 28 years."
+        ],
+        "proposed_answer_outline": [
+          "The percentage of women in computer science decreased from 37% to 24%, marking a 13% decline.",
+          "This decline occurred over a period of 28 years, from 1995 to 2023."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "calc",
+      "description": "Perform the calculation to determine the years taken for the percentage change.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "python_code": "start_year = 1995\nend_year = 2023\npercentage_start = 37\npercentage_end = 24\npercentage_change = percentage_start - percentage_end\nyears_taken = end_year - start_year\nprint(f'The percentage of women in computer science decreased by {percentage_change}% over a period of {years_taken} years.')",
+        "output": "The percentage of women in computer science decreased by 13% over a period of 28 years.\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Produce the final answer regarding the time taken for the percentage change.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "28 years",
+        "final_answer_strict": "28",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "28",
+    "gt_norm": "22"
+  }
+}

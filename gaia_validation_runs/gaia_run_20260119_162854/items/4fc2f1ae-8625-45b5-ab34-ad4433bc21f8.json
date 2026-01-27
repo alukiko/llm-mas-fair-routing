@@ -1,0 +1,194 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": {
+    "final_answer": "Unknown",
+    "final_answer_strict": "unknown",
+    "used_evidence": [
+      "The article 'Drowned God' was featured on English Wikipedia in November 2016."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": "Who nominated the 'Drowned God' article for featured status?",
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "unknown",
+  "error": null,
+  "duration_sec": 46.66231322288513,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+        "facts": [
+          {
+            "fact": "The article 'Mughal-e-Azam' was featured on November 12, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016"
+          },
+          {
+            "fact": "Jack Parsons, a rocket engineer, was featured in November 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Today%2527s_featured_article/November_2016"
+          },
+          {
+            "fact": "The article 'Drowned God' was also featured in November 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Today%2527s_featured_article/November_2016"
+          },
+          {
+            "fact": "Ian Rose promoted a featured article via FACBot on November 30, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "snippet": "This page is the list of featured articles that were promoted in 2016, listed by the month in which they were promoted. This list includes the date the article was featured on the main page (see Wikipedia:Today's featured article) and the nominating user (s). Articles removed from featured status (see Wikipedia:Former_featured_articles) are indicated in strikethrough font. This page is used as ..."
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016 ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "snippet": "The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page. The article was promoted by Ian Rose via FACBot (talk) 22:26, 30 November 2016 [1]."
+          },
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%2527s_featured_article/November_2016",
+            "snippet": "Drowned God · Jack Parsons (rocket engineer) · Baron Munchausen. Archive; By email · More featured articles · About."
+          },
+          {
+            "title": "Wikipedia:Today's featured article/November 2016 - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "snippet": "November 12 Mughal-e-Azam (The Emperor of the Mughals) is a 1960 Indian epic historical drama film directed by K. Asif and produced by Shapoorji Pallonji, re-released in colour on 12 November 2004."
+          },
+          {
+            "title": "Building agents with Gemini 2.5 Pro for the HF Agents Course",
+            "url": "https://medium.com/%40lucamassaron/building-agents-with-gemini-2-5-pro-for-the-hf-agents-course-d51489521707",
+            "snippet": "The task is to identify who nominated the only Featured Article (FA) about a dinosaur that was promoted on English Wikipedia in November 2016."
+          }
+        ],
+        "summary": "Several articles were featured on English Wikipedia in November 2016, including 'Mughal-e-Azam' and 'Jack Parsons'."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the title and nomination details of the dinosaur Featured Article from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Drowned God\",\n      \"type\": \"Featured Article\",\n      \"evidence\": \"Featured in November 2016\"\n    }\n  ],\n  \"key_points\": [\n    \"The article 'Drowned God' was featured on English Wikipedia in November 2016.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": [\n    \"Who nominated the 'Drowned God' article for featured status?\"\n  ]\n}\n```"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine who nominated the dinosaur Featured Article based on the extracted details.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": "It is assumed that the only dinosaur-related Featured Article promoted in November 2016 is 'Drowned God'.",
+        "reasoning_steps": "1. Identify the Featured Articles promoted in November 2016. 2. Determine if any of these articles are related to dinosaurs. 3. Check the nomination details for the identified dinosaur article.",
+        "conclusions": "The article 'Drowned God' was featured in November 2016, but the nomination details do not specify who nominated it.",
+        "proposed_answer_outline": "The nomination details for 'Drowned God' are not explicitly provided in the extracted facts. Further investigation into the nomination discussions may be required to identify the nominator.",
+        "follow_up_needed": true,
+        "follow_up_queries": "Who nominated the 'Drowned God' article for featured status?"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the name of the person who nominated the dinosaur Featured Article.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Unknown",
+        "final_answer_strict": "unknown",
+        "used_evidence": [
+          "The article 'Drowned God' was featured on English Wikipedia in November 2016."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": "Who nominated the 'Drowned God' article for featured status?",
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "unknown",
+    "gt_norm": "funkmonk"
+  }
+}

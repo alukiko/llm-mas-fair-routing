@@ -1,0 +1,639 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": {
+    "final_answer": "FunkMonk",
+    "final_answer_strict": "FunkMonk",
+    "used_evidence": [
+      "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1 (shows “Nominator(s): FunkMonk” for the FAC that was promoted 19 November 2016)"
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "FunkMonk",
+  "error": null,
+  "duration_sec": 67.4969916343689,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+        "facts": [
+          {
+            "fact": "The featured articles promoted on November 1, 2016, include 'William McKinley presidential campaign, 1896'.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          },
+          {
+            "fact": "The featured article 'Mughal-e-Azam' was promoted on November 4, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          },
+          {
+            "fact": "On November 10, 2016, the article 'Millipede' was featured.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          },
+          {
+            "fact": "The article 'The Sixth Extinction II: Amor Fati' was featured on November 14, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          },
+          {
+            "fact": "The article 'Emma Stone' was promoted as a featured article on November 16, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          },
+          {
+            "fact": "On November 25, 2016, the article 'Robert Catesby' was featured.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016"
+          }
+        ],
+        "summary": "In November 2016, several articles were promoted to featured status, including 'William McKinley presidential campaign, 1896', 'Mughal-e-Azam', 'Millipede', 'The Sixth Extinction II: Amor Fati', 'Emma Stone', and 'Robert Catesby'.",
+        "sources": [
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "snippet": "resemble them. The brief lives of mayfly adults—less than five minutes for the female Dolania americana, after the final moult—have been noted by naturalists and encyclopaedists since Aristotle and Pliny the Elder. The English poet George Crabbe compared a daily newspaper's lifespan to that of a mayfly in the satirical poem \"The Newspaper\" (1785). (Full article...) [...] Recently featured:\n\n \"The Sixth Extinction II: Amor Fati\"\n Heavy metals\n Mughal-e-Azam\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 16\n\nJason Anderson, Tim Cain, and Leonard Boyarsky [...] Recently featured:\n\n \"From The Doctor to my son Thomas\"\n Emma Stone\n Robert Catesby\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 9"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "snippet": "Although I have decided not to create content on here anymore, this is an article I worked on in August. The article is about Mr Cooper, who is the recipient of People's \"Sexiest Man Alive\" in 2011, though it's more of \"Sexiest White Man Alive\". Aside from the so-called accolade, he is a talented actor, having found his breakthrough in his mid 30s in late 2000s. The article was promoted on 1st of September by Jaguar who passed it straight away and found it to be FAC material. I currently have another open nomination as a co-nominator. I hope that it does not turn out that I end up seeing both of them archived (haha) so have at it. – FrB.TG (talk) 16:55, 4 October 2016 (UTC)[reply] [...] Ben, the love interest of Michael Ian Black's character.\" Surely can be split into two.  Is My Little Eye so important, considering that he played only a minor role in it?  The Hangover part is well written. :)  In Limitless portions, what was the critic talking about? the actor's performance or the film's success? Please mention it.  \"in a remake of A Star is Born.\" Please mention the original clearly.   I found the remaining sections well written, to the behest of my knowledge. I have nothing to s"
+          },
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "snippet": "| Millipede | November 10, 2016 | Cwmhiraeth |\n| Heffernan v. City of Paterson | April 26, 2017 | Wugapodes |\n| Slug (song) \"Slug (song)\") | November 7, 2025 | Dream out loud |\n| Mr. Dooley | September 12, 2021 | Wehwalt |\n| The Dawn of Love (painting) \"The Dawn of Love (painting)\") | August 8, 2018 | Iridescent |\n| An Introduction to Animals and Political Theory | September 20, 2016 | J Milburn |\n| Interstate 275 (Michigan) \"Interstate 275 (Michigan)\") | January 14, 2017 | Imzadi1979 |\n| Peter Martyr Vermigli | September 8, 2017 | Jfhutson | [...] | Article | Main page date | Nominator |\n --- \n| Persoonia terminalis | December 17, 2017 | Casliber & Checkingfax & Koavf |\n| Jumping Flash! | March 30, 2016 | Jaguar |\n| Calutron | September 5, 2016 | Hawkeye7 |\n| ~~House of Plantagenet~~ | May 29, 2016 | Norfolkbigfish |\n| Michael Hordern | October 3, 2019 | Cassianto |\n| William McKinley presidential campaign, 1896 | November 3, 2016 | Wehwalt |\n| 70th Infantry Division (United Kingdom) \"70th Infantry Division (United Kingdom)\") | October 10, 2018 | EnigmaMcmxc |\n| Baron Munchausen | October 29, 2016 | Lemuellio |\n| William Etty | Iridescent |\n| The Last of Us (video game) \"The Last "
+          },
+          {
+            "title": "Category:Wikipedia featured articles promoted by year - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Wikipedia_featured_articles_promoted_by_year",
+            "snippet": "Wikipedia:Featured articles promoted in 2003\n Wikipedia:Featured articles promoted in 2004\n Wikipedia:Featured articles promoted in 2005\n Wikipedia:Featured articles promoted in 2006\n Wikipedia:Featured articles promoted in 2007\n Wikipedia:Featured articles promoted in 2008\n Wikipedia:Featured articles promoted in 2009\n Wikipedia:Featured articles promoted in 2010\n Wikipedia:Featured articles promoted in 2011\n Wikipedia:Featured articles promoted in 2012\n Wikipedia:Featured articles promoted in 2013\n Wikipedia:Featured articles promoted in 2014\n Wikipedia:Featured articles promoted in 2015\n Wikipedia:Featured articles promoted in 2016\n Wikipedia:Featured articles promoted in 2017\n Wikipedia:Featured articles promoted in 2018\n Wikipedia:Featured articles promoted in 2019"
+          },
+          {
+            "title": "Wikipedia:Featured topics promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_topics_promoted_in_2016",
+            "snippet": "Jump to content\n\nSearch\n\n## Contents\n\n (Top)\n 1 Promoted in September 2016\n 2 Promoted in August 2016\n 3 Promoted in July 2016\n 4 Promoted in June 2016\n 5 Promoted in March 2016\n 6 Promoted in January 2016\n\n# Wikipedia:Featured topics promoted in 2016\n\nAdd links\n\n Project page\n Talk [t]\")\n\n Read\n Edit\n View history\n\nTools\n\nActions\n\n Read\n Edit\n View history\n\nGeneral\n\n What links here\n Related changes\n Upload file\n Permanent link\n Page information\n Get shortened URL\n Download QR code\n\nPrint/export\n\n Download as PDF\n Printable version\n\nIn other projects\n\nAppearance\n\nFrom Wikipedia, the free encyclopedia\n\n| < 2015 | 2017 > |\n --- |\n\nShortcut\n\n WP:FT2016WP:FT2016 [...] | < 2015 | 2017 > |\n --- |\n\nShortcut\n\n WP:FT2016WP:FT2016\n\nThis page is the list of featured topics that were promoted in 2016, listed by the month in which they were promoted. Topics removed from featured status (see Wikipedia:Former featured topics) are indicated in ~~strikethrough font~~. This page is used as input for Wikipedia:List of Wikipedians by featured topic nominations.\n\n## Promoted in September 2016\n\n[edit]\n\n:   See logs at Wikipedia:Featured topic candidates/Featured log/September 2016\n\n| Topic | Nominator "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "content": "resemble them. The brief lives of mayfly adults—less than five minutes for the female Dolania americana, after the final moult—have been noted by naturalists and encyclopaedists since Aristotle and Pliny the Elder. The English poet George Crabbe compared a daily newspaper's lifespan to that of a mayfly in the satirical poem \"The Newspaper\" (1785). (Full article...) [...] Recently featured:\n\n \"The Sixth Extinction II: Amor Fati\"\n Heavy metals\n Mughal-e-Azam\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 16\n\nJason Anderson, Tim Cain, and Leonard Boyarsky [...] Recently featured:\n\n \"From The Doctor to my son Thomas\"\n Emma Stone\n Robert Catesby\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 9",
+            "score": 0.9995005
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "content": "Although I have decided not to create content on here anymore, this is an article I worked on in August. The article is about Mr Cooper, who is the recipient of People's \"Sexiest Man Alive\" in 2011, though it's more of \"Sexiest White Man Alive\". Aside from the so-called accolade, he is a talented actor, having found his breakthrough in his mid 30s in late 2000s. The article was promoted on 1st of September by Jaguar who passed it straight away and found it to be FAC material. I currently have another open nomination as a co-nominator. I hope that it does not turn out that I end up seeing both of them archived (haha) so have at it. – FrB.TG (talk) 16:55, 4 October 2016 (UTC)[reply] [...] Ben, the love interest of Michael Ian Black's character.\" Surely can be split into two.  Is My Little Eye so important, considering that he played only a minor role in it?  The Hangover part is well written. :)  In Limitless portions, what was the critic talking about? the actor's performance or the film's success? Please mention it.  \"in a remake of A Star is Born.\" Please mention the original clearly.   I found the remaining sections well written, to the behest of my knowledge. I have nothing to say about the sources, citing, images etc. as they shall be handled properly by source and image reviewers. I find this article worthy enough. Please let me know once you are done working on them. Regards, Pavanjandhyala (talk) 12:56, 15 October 2016 (UTC)[reply] | [...] :   :   Thanks for taking the time to review the article, @Sarastro1:. That entire first paragraph was a fairly recent addition, and was based the suggestions above. Although I think it's a good idea to have such information as background to the album, I'm not 100% convinced that such a paragraph is totally necessary here. I remember reading some decent articles at The Guardian and Los Angeles Times on the band recently, so I'll have a look and see what I can do. But I would be more than willing to remove that entire paragraph, if it would mean we could proceed with the nomination. I'll work on this and your comments below over the next couple of hours. Thanks. Homeostasis07 (talk) 00:29, 12 November 2016 (UTC)[reply]",
+            "score": 0.99837697
+          },
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "content": "| Millipede | November 10, 2016 | Cwmhiraeth |\n| Heffernan v. City of Paterson | April 26, 2017 | Wugapodes |\n| Slug (song) \"Slug (song)\") | November 7, 2025 | Dream out loud |\n| Mr. Dooley | September 12, 2021 | Wehwalt |\n| The Dawn of Love (painting) \"The Dawn of Love (painting)\") | August 8, 2018 | Iridescent |\n| An Introduction to Animals and Political Theory | September 20, 2016 | J Milburn |\n| Interstate 275 (Michigan) \"Interstate 275 (Michigan)\") | January 14, 2017 | Imzadi1979 |\n| Peter Martyr Vermigli | September 8, 2017 | Jfhutson | [...] | Article | Main page date | Nominator |\n --- \n| Persoonia terminalis | December 17, 2017 | Casliber & Checkingfax & Koavf |\n| Jumping Flash! | March 30, 2016 | Jaguar |\n| Calutron | September 5, 2016 | Hawkeye7 |\n| ~~House of Plantagenet~~ | May 29, 2016 | Norfolkbigfish |\n| Michael Hordern | October 3, 2019 | Cassianto |\n| William McKinley presidential campaign, 1896 | November 3, 2016 | Wehwalt |\n| 70th Infantry Division (United Kingdom) \"70th Infantry Division (United Kingdom)\") | October 10, 2018 | EnigmaMcmxc |\n| Baron Munchausen | October 29, 2016 | Lemuellio |\n| William Etty | Iridescent |\n| The Last of Us (video game) \"The Last of Us (video game)\") | June 14, 2017 | Rhain1999 | [...] | Impala | January 20, 2017 | Sainsf |\n| Agharta (album) \"Agharta (album)\") | November 4, 2016 | Teflon Peter Christ\") |\n| Old Pine Church | August 20, 2016 | West Virginian |\n| Dr. No (novel) \"Dr. No (novel)\") | August 20, 2022 | SchroCat |",
+            "score": 0.9951703
+          },
+          {
+            "title": "Category:Wikipedia featured articles promoted by year - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Wikipedia_featured_articles_promoted_by_year",
+            "content": "Wikipedia:Featured articles promoted in 2003\n Wikipedia:Featured articles promoted in 2004\n Wikipedia:Featured articles promoted in 2005\n Wikipedia:Featured articles promoted in 2006\n Wikipedia:Featured articles promoted in 2007\n Wikipedia:Featured articles promoted in 2008\n Wikipedia:Featured articles promoted in 2009\n Wikipedia:Featured articles promoted in 2010\n Wikipedia:Featured articles promoted in 2011\n Wikipedia:Featured articles promoted in 2012\n Wikipedia:Featured articles promoted in 2013\n Wikipedia:Featured articles promoted in 2014\n Wikipedia:Featured articles promoted in 2015\n Wikipedia:Featured articles promoted in 2016\n Wikipedia:Featured articles promoted in 2017\n Wikipedia:Featured articles promoted in 2018\n Wikipedia:Featured articles promoted in 2019",
+            "score": 0.99490017
+          },
+          {
+            "title": "Wikipedia:Featured topics promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_topics_promoted_in_2016",
+            "content": "Jump to content\n\nSearch\n\n## Contents\n\n (Top)\n 1 Promoted in September 2016\n 2 Promoted in August 2016\n 3 Promoted in July 2016\n 4 Promoted in June 2016\n 5 Promoted in March 2016\n 6 Promoted in January 2016\n\n# Wikipedia:Featured topics promoted in 2016\n\nAdd links\n\n Project page\n Talk [t]\")\n\n Read\n Edit\n View history\n\nTools\n\nActions\n\n Read\n Edit\n View history\n\nGeneral\n\n What links here\n Related changes\n Upload file\n Permanent link\n Page information\n Get shortened URL\n Download QR code\n\nPrint/export\n\n Download as PDF\n Printable version\n\nIn other projects\n\nAppearance\n\nFrom Wikipedia, the free encyclopedia\n\n| < 2015 | 2017 > |\n --- |\n\nShortcut\n\n WP:FT2016WP:FT2016 [...] | < 2015 | 2017 > |\n --- |\n\nShortcut\n\n WP:FT2016WP:FT2016\n\nThis page is the list of featured topics that were promoted in 2016, listed by the month in which they were promoted. Topics removed from featured status (see Wikipedia:Former featured topics) are indicated in ~~strikethrough font~~. This page is used as input for Wikipedia:List of Wikipedians by featured topic nominations.\n\n## Promoted in September 2016\n\n[edit]\n\n:   See logs at Wikipedia:Featured topic candidates/Featured log/September 2016\n\n| Topic | Nominator |\n --- |\n| Wikipedia:Featured topics/Russell family (Passions) \"Wikipedia:Featured topics/Russell family (Passions)\") | Aoba47 |\n\n## Promoted in August 2016\n\n[edit]\n\n:   See logs at Wikipedia:Featured topic candidates/Featured log/August 2016 [...] | Topic | Nominator |\n --- |\n| ~~Wikipedia:Featured topics/Overview of Katy Perry~~ | FrB.TG & Calvin999 & Samjohnzon & SNUGGUMS |\n| Wikipedia:Featured topics/1st Army Group (Kingdom of Yugoslavia) \"Wikipedia:Featured topics/1st Army Group (Kingdom of Yugoslavia)\") | Peacemaker67 |\n\n## Promoted in January 2016\n\n[edit]\n\n:   See logs at Wikipedia:Featured topic candidates/Featured log/January 2016\n\n| Topic | Nominator |\n --- |\n| Wikipedia:Featured topics/2015 Vuelta a España | Relentlessly |\n\nRetrieved from \"\"\n\nCategory:\n\n Wikipedia featured topics promoted by year\n\nWikipedia:Featured topics promoted in 2016\n\nAdd topic",
+            "score": 0.99486035
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "score": 0.9995005
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "score": 0.99837697
+          },
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "score": 0.9951703
+          },
+          {
+            "title": "Category:Wikipedia featured articles promoted by year - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Wikipedia_featured_articles_promoted_by_year",
+            "score": 0.99490017
+          },
+          {
+            "title": "Wikipedia:Featured topics promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_topics_promoted_in_2016",
+            "score": 0.99486035
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Today"
+          },
+          {
+            "type": "name_like",
+            "value": "November"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Dolania"
+          },
+          {
+            "type": "name_like",
+            "value": "Aristotle"
+          },
+          {
+            "type": "name_like",
+            "value": "Pliny"
+          },
+          {
+            "type": "name_like",
+            "value": "Elder"
+          },
+          {
+            "type": "name_like",
+            "value": "The English"
+          },
+          {
+            "type": "name_like",
+            "value": "George Crabbe"
+          },
+          {
+            "type": "name_like",
+            "value": "The Newspaper"
+          },
+          {
+            "type": "name_like",
+            "value": "Full"
+          },
+          {
+            "type": "name_like",
+            "value": "Recently"
+          },
+          {
+            "type": "name_like",
+            "value": "The Sixth Extinction"
+          },
+          {
+            "type": "name_like",
+            "value": "Amor Fati"
+          },
+          {
+            "type": "name_like",
+            "value": "Heavy"
+          },
+          {
+            "type": "name_like",
+            "value": "Mughal"
+          },
+          {
+            "type": "name_like",
+            "value": "Azam"
+          },
+          {
+            "type": "name_like",
+            "value": "Archive"
+          },
+          {
+            "type": "name_like",
+            "value": "More"
+          },
+          {
+            "type": "name_like",
+            "value": "Featured"
+          },
+          {
+            "type": "name_like",
+            "value": "About"
+          },
+          {
+            "type": "name_like",
+            "value": "Jason Anderson"
+          },
+          {
+            "type": "name_like",
+            "value": "Tim Cain"
+          },
+          {
+            "type": "name_like",
+            "value": "Leonard Boyarsky"
+          },
+          {
+            "type": "name_like",
+            "value": "From The Doctor"
+          },
+          {
+            "type": "name_like",
+            "value": "Thomas"
+          },
+          {
+            "type": "name_like",
+            "value": "Emma Stone"
+          },
+          {
+            "type": "name_like",
+            "value": "Robert Catesby"
+          },
+          {
+            "type": "name_like",
+            "value": "Although"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the title of the dinosaur Featured Article promoted in November 2016.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find the nomination details for the identified dinosaur Featured Article.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the nomination details for the identified dinosaur Featured Article.",
+        "facts": [
+          {
+            "fact": "Sarcosuchus won the Featured Article nomination with a vote of 2 to 1 on October 7, 2010.",
+            "source_url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Article_Nominations"
+          },
+          {
+            "fact": "Balaur Bondoc was nominated as a Featured Article in December 2010.",
+            "source_url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Article_Nominations"
+          },
+          {
+            "fact": "Apatosaurus was recognized as a Featured Article from February 1, 2011, to March 1, 2011.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Dinosaurs/Dinosaur_collaboration/Past_DCs"
+          },
+          {
+            "fact": "Brachiosaurus was a Featured Article from March 1, 2018, to October 29, 2018.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Dinosaurs/Dinosaur_collaboration/Past_DCs"
+          },
+          {
+            "fact": "Giganotosaurus was promoted to Featured Article status on November 19, 2016.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"
+          }
+        ],
+        "summary": "The nomination details for Featured Articles on dinosaurs include Sarcosuchus winning in October 2010, the nomination of Balaur Bondoc in December 2010, and the recognition of Apatosaurus and Brachiosaurus as Featured Articles in early 2011 and 2018, respectively. Giganotosaurus achieved Featured Article status in November 2016.",
+        "sources": [
+          {
+            "title": "Dinosaur Wiki:Featured Article Nominations - Fandom",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Article_Nominations",
+            "snippet": "Image 1: FoundercrownImage 2: BureaucratcrownImage 3: Sysopcrown Only Founders, Bureaucrats and Sysops may edit this page.\n\nThis page is for users of rank sysop and up to have a say on which article will be featured on the Main Page each month. The civilsed vote/heated discussion/hideous argument will be taken by the Founders and Bureaucrats to decide each month. Sysops may nominate articles, but may not vote. Only ONE Founder needs to accept a nomination for it to be voted on at the voting stage.\n\nOctober FA[]\n\nSarcosuchus won by 2 votes to one.\n\nImage 4: Legendcrown2\n\nT-Rex 882Talk to the Legend!Image 5: FoundercrownImage 6: Basiceditmedal2Image 7: Bronzeeditmedal2Image 8: Silvereditmedal2Image 9: Goldeditmedal2\n\n09:19, October 7, 2010 (UTC)\n\nDecember FA[]\n\nI nominate Balaur Bondoc. [...] Dinosaur Wiki:Featured Article Nominations | Dinosaur Wiki | Fandom\n\n\n\nSign In\n\n Don't have an account? \n\nRegister\n\n  \n\nSign In\n\nMenu\n\nExplore\n\nMore History\n\n Advertisement  \n\nSkip to content\n\nDinosaur Wiki\n\n1,698\n\npages\n\n\n\n   Explore  \n\n       Main Page\n       All Pages\n       Community\n       Interactive Maps\n       Recent Blog Posts\n\n   Featured Articles \n\n       Giganotosaurus\n       Velocir"
+          },
+          {
+            "title": "Wikipedia:WikiProject Dinosaurs/Dinosaur collaboration/Past DCs",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Dinosaurs/Dinosaur_collaboration/Past_DCs",
+            "snippet": "### 1 January, 2011 - 1 February, 2011\n\n[edit]\n\n Dinosaur collaboration: Sinosauropteryx\n Status: Good Article.\n\n### 1 February, 2011 - 1 March, 2011\n\n[edit]\n\n Dinosaur collaboration: Apatosaurus\n Status: Featured Article.\n\n### 1 March, 2018 - 29 October, 2018\n\n[edit]\n\n Dinosaur collaboration: Brachiosaurus\n Status: Featured Article.\n\n## Removed Dinosaur collaboration nominations\n\n[edit]\n\n### Leaellynasaura (1 vote, stays until 17 June)\n\n[edit\")]\n\nNominated June 10, 2006; needs at least 2 votes by 17 June, 2006\n\nSupport:\n\n1. Cas Liber 03:01, 10 June 2006 (UTC) \"19 years ago\")[reply]\n\nComments:\n\n OK, here's one out of Left Field - a hypsilophodont from Oz - cool page could include - continental drift stuff, polar dinosaur (expand), biology (large eyes) talking about climate etc. [...] Swingin' - found an old analogue photo I took in Brussels 10 years ago - we gotta model Cas Liber 02:49, 10 June 2006 (UTC)[reply]\n\n### Allosaurus (2 votes, stays until 4 July)\n\n[edit\")]\n\nNominated 20 June, 2006; needs at least 4 votes by 4 July, 2006\n\nSupport:\n\n1. Cas Liber 02:09, 20 June 2006 (UTC) \"19 years ago\")[reply]\n2. Spawn Man 03:47, 20 June 2006 (UTC)[reply]\n\nComments:\n\n Another famous dinosa"
+          },
+          {
+            "title": "Dinosaur Wiki:Featured Articles",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Articles",
+            "snippet": "Skip to content\n\nDinosaur Wiki\n\n1,698\n\npages\n\n# Dinosaur Wiki:Featured Articles\n\nSign in to edit \n\n History\n Purge\n Talk (0)\n\nThese articles are the jewels of the wiki. Nominated and voted by the users as the best articles on the wiki, they were shown on the Main Page for extra credit. Each of the Featured Articles has a tribute video for the dinosaur it is about. So check them out, and enjoy them!\n\n## Featured Articles[]\n\n 艾伯塔\n Giganotosaurus\n Velociraptor\n Spinosaurus\n T-Rex\n Liopleurodon\n Baryonyx\n Parasaurolophus\n Sarcosuchus\n {| border=\"0\" cellpadding=\"0\" cellspacing=\"0\" cols=\"2\" width=\"100%\"\n\n|- align=\"left\" valign=\"top\"\n| [...] + Albertosaurus\n  + Allosaurus\n  + Amargasaurus\n  + Ankylosaurus\n  + Apatosaurus\n  + Archaeopteryx\n  + Argentinosaurus\n  + Baryonyx\n  + Brachiosaurus\n  + Brontosaurus\n  + Camarasaurus\n  + Carnotaurus\n  + Caudipteryx\n  + Camptosaurus\n  + Centrosaurus\n  + Chasmosaurus\n  + Coelophysis\n  + Compsognathus\n  + Cryolophosaurus\n  + Daspletosaurus\n  + Deinonychus\n  + Deinosuchus\n  + Dilophosaurus\n  + Dimetrodon\n  + Diplodocus\n  + Dromaeosaurus\n  + Dromiceiomimus\n  + Edmontosaurus\n  + Elasmosaurus\n  + Eoraptor\n  + Euoplocephalus\n  + Gallimimus\n  + Giganotosaurus"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "snippet": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 14:41, 19 November 2016 (\n\n### Giganotosaurus\n\n[edit]\n\n:   Nominator(s): FunkMonk (talk) 17:10, 30 September 2016 (UTC)[reply] [...] ~~\"Lake Ezquiel Ramos Mexia\": a Google search suggests this might be a typo for \"Ezequiel\".~~\n\n:   :   Fixed. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n ~~\"estimates in absolute values like newtons was impossible\": either \"estimating ... was impossible\", or \"estimates ... were impossible\".~~\n\n:   :   Took the last option. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n-- Mike Christie (talk - contribs - library) 00:44, 8 November 2016 (UTC)[reply]\n\n:   :   Thanks for the review, I'll respond later today. FunkMonk (talk) 08:55, 8 November 2016 (UTC)[reply]\n    :   I've struck most of the points except the ones about the images; I'll ask at WT:FAC and see what others say. Mike Christie"
+          },
+          {
+            "title": "Jurassic Park Fanon Wiki:Featured Articles Nominations",
+            "url": "https://jpfanon.fandom.com/wiki/Jurassic_Park_Fanon_Wiki:Featured_Articles_Nominations",
+            "snippet": "#### Conclusion:[]\n\n SUPPORT: \"Due to the number of positive votes, Malchom's Woods: A Jurassic World: Fallen Kingdom Sequel, is now a featured article!\"—Diabolusaurus127(talk); 17:02 PM, March 31, 2019 (UTC)\n\n### The Distance Beyond: A Malchom's Woods Story[]\n\n:   Main article: The Distance Beyond: A Malchom's Woods Story\n\nFor August, 2019.\n\nFor: 1\n\nAgainst: 0\n\nNeutral: 0\n\n#### Opinions:[]\n\n SUPPORT: ”While I don’t think it is as good as Malchom’s Woods, I do think it presents itself very wel. It really makes you feel the hardship Alexander is feeling, and builds a unique mythology that the Microceratus believe.\" — Carnotaur(talk) 6:55 AM, August 13, 2019\n\nCommunity content is available under CC-BY-SA unless otherwise noted. [...] NOTE: Administrators and some members of the community may qualify all potential stories to be a Featured Article.\n\n## Candidates[]\n\nIn this section all the possible candidates to be a Featured Article will be visible. Opinions will be placed below the title of the story that is being nominated to be a Featured Article.\n\n### Cretaceous Park[]\n\n:   Main article: Cretaceous Park\n\nFor January, 2019.\n\n:   For: 2\n:   Against: 0\n:   Neutral: 0\n\n#### Opinions:["
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Dinosaur Wiki:Featured Article Nominations - Fandom",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Article_Nominations",
+            "content": "Image 1: FoundercrownImage 2: BureaucratcrownImage 3: Sysopcrown Only Founders, Bureaucrats and Sysops may edit this page.\n\nThis page is for users of rank sysop and up to have a say on which article will be featured on the Main Page each month. The civilsed vote/heated discussion/hideous argument will be taken by the Founders and Bureaucrats to decide each month. Sysops may nominate articles, but may not vote. Only ONE Founder needs to accept a nomination for it to be voted on at the voting stage.\n\nOctober FA[]\n\nSarcosuchus won by 2 votes to one.\n\nImage 4: Legendcrown2\n\nT-Rex 882Talk to the Legend!Image 5: FoundercrownImage 6: Basiceditmedal2Image 7: Bronzeeditmedal2Image 8: Silvereditmedal2Image 9: Goldeditmedal2\n\n09:19, October 7, 2010 (UTC)\n\nDecember FA[]\n\nI nominate Balaur Bondoc. [...] Dinosaur Wiki:Featured Article Nominations | Dinosaur Wiki | Fandom\n\n\n\nSign In\n\n Don't have an account? \n\nRegister\n\n  \n\nSign In\n\nMenu\n\nExplore\n\nMore History\n\n Advertisement  \n\nSkip to content\n\nDinosaur Wiki\n\n1,698\n\npages\n\n\n\n   Explore  \n\n       Main Page\n       All Pages\n       Community\n       Interactive Maps\n       Recent Blog Posts\n\n   Featured Articles \n\n       Giganotosaurus\n       Velociraptor\n       Spinosaurus\n       T-Rex\n       Liopleurodon\n       Baryonyx\n       Parasaurolophus\n\n   More Featured Articles \n\n       Sarcosuchus\n\n   Main \n\n       All Articles\n       The Rules\n       Vote for a Featured Article\n       For stupid vandals\n\n   Contact Pages \n\n       Contact a sysop/bureaucrat\n       Contact a Founder [...] December FA[]\n\nI nominate Balaur Bondoc.\n\nI nominate Balaur Bondoc, too\n\n Community content is available under CC-BY-SA unless otherwise noted. \n\n Advertisement  \n\nImage 10: Fandom logo\n\n### Explore properties\n\n   Fandom\n   Fanatical\n   GameSpot\n   Metacritic\n   TV Guide\n   Honest Entertainment\n\n### Follow Us\n\n   . For more information about the First and Third Party Cookies used please follow this link.\n\nAllow All\n### Manage Consent Preferences\n\n#### Strictly Necessary Cookies\n\nAlways Active",
+            "score": 0.71137124
+          },
+          {
+            "title": "Wikipedia:WikiProject Dinosaurs/Dinosaur collaboration/Past DCs",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Dinosaurs/Dinosaur_collaboration/Past_DCs",
+            "content": "### 1 January, 2011 - 1 February, 2011\n\n[edit]\n\n Dinosaur collaboration: Sinosauropteryx\n Status: Good Article.\n\n### 1 February, 2011 - 1 March, 2011\n\n[edit]\n\n Dinosaur collaboration: Apatosaurus\n Status: Featured Article.\n\n### 1 March, 2018 - 29 October, 2018\n\n[edit]\n\n Dinosaur collaboration: Brachiosaurus\n Status: Featured Article.\n\n## Removed Dinosaur collaboration nominations\n\n[edit]\n\n### Leaellynasaura (1 vote, stays until 17 June)\n\n[edit\")]\n\nNominated June 10, 2006; needs at least 2 votes by 17 June, 2006\n\nSupport:\n\n1. Cas Liber 03:01, 10 June 2006 (UTC) \"19 years ago\")[reply]\n\nComments:\n\n OK, here's one out of Left Field - a hypsilophodont from Oz - cool page could include - continental drift stuff, polar dinosaur (expand), biology (large eyes) talking about climate etc. [...] Swingin' - found an old analogue photo I took in Brussels 10 years ago - we gotta model Cas Liber 02:49, 10 June 2006 (UTC)[reply]\n\n### Allosaurus (2 votes, stays until 4 July)\n\n[edit\")]\n\nNominated 20 June, 2006; needs at least 4 votes by 4 July, 2006\n\nSupport:\n\n1. Cas Liber 02:09, 20 June 2006 (UTC) \"19 years ago\")[reply]\n2. Spawn Man 03:47, 20 June 2006 (UTC)[reply]\n\nComments:\n\n Another famous dinosaur - it has a reasonably well-developed page currently (thus a good head-start to Featured Article candidate??) Cas Liber 02:09, 20 June 2006 (UTC)-1 \"19 years ago\")[reply]\n\n### Camarasaurus (1 vote, stays until 4 July)\n\n[edit\")]\n\nNominated 27 June, 2006; needs at least 2 votes by 4 July, 2006\n\nSupport:\n\n1. Cas Liber 01:10, 27 June 2006 (UTC) \"19 years ago\")[reply] [...] ### 16 January, 2007 - 16 February, 2007\n\n[edit]\n\n Dinosaur collaboration: Iguanodon\n Status: Featured Article.\n\n### 16 February, 2007 - 16 March, 2007\n\n[edit]\n\n Dinosaur collaboration: Compsognathus\n Status: Featured Article.\n\n### 16 March, 2007 - 1 April, 2007\n\n[edit]\n\n Dinosaur collaboration: Thescelosaurus\n Status: Featured Article.\n\n### 1 April, 2007 - 1 May, 2007\n\n[edit]\n\n Dinosaur collaboration: Deinonychus\n Status: Good Article.\n\n### 1 May, 2007 - 1 June, 2007\n\n[edit]\n\n Dinosaur collaboration: Spinosaurus\n Status: Good Article.\n\n### 1 June, 2007 - 1 July, 2007\n\n[edit]\n\n Dinosaur collaboration: Plateosaurus\n Status: Article status unknown.\n\n### 1 July, 2007 - 1 August, 2007\n\n[edit]\n\n Dinosaur collaboration: Herrerasaurus\n Status: Article status Good Article.",
+            "score": 0.63125396
+          },
+          {
+            "title": "Dinosaur Wiki:Featured Articles",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Articles",
+            "content": "Skip to content\n\nDinosaur Wiki\n\n1,698\n\npages\n\n# Dinosaur Wiki:Featured Articles\n\nSign in to edit \n\n History\n Purge\n Talk (0)\n\nThese articles are the jewels of the wiki. Nominated and voted by the users as the best articles on the wiki, they were shown on the Main Page for extra credit. Each of the Featured Articles has a tribute video for the dinosaur it is about. So check them out, and enjoy them!\n\n## Featured Articles[]\n\n 艾伯塔\n Giganotosaurus\n Velociraptor\n Spinosaurus\n T-Rex\n Liopleurodon\n Baryonyx\n Parasaurolophus\n Sarcosuchus\n {| border=\"0\" cellpadding=\"0\" cellspacing=\"0\" cols=\"2\" width=\"100%\"\n\n|- align=\"left\" valign=\"top\"\n| [...] + Albertosaurus\n  + Allosaurus\n  + Amargasaurus\n  + Ankylosaurus\n  + Apatosaurus\n  + Archaeopteryx\n  + Argentinosaurus\n  + Baryonyx\n  + Brachiosaurus\n  + Brontosaurus\n  + Camarasaurus\n  + Carnotaurus\n  + Caudipteryx\n  + Camptosaurus\n  + Centrosaurus\n  + Chasmosaurus\n  + Coelophysis\n  + Compsognathus\n  + Cryolophosaurus\n  + Daspletosaurus\n  + Deinonychus\n  + Deinosuchus\n  + Dilophosaurus\n  + Dimetrodon\n  + Diplodocus\n  + Dromaeosaurus\n  + Dromiceiomimus\n  + Edmontosaurus\n  + Elasmosaurus\n  + Eoraptor\n  + Euoplocephalus\n  + Gallimimus\n  + Giganotosaurus\n  + Gorgosaurus\n  + Hadrosaurus\n  + Hypsilophodon\n  + Iguanodon\n  + Kentrosaurus\n  + Lambeosaurus\n  + Lesothosaurus\n  + Maiasaurus\n  + Massospondylus\n  + Microraptor\n  + Monoclonius\n  + Nodosaurus\n  + Ornithomimus\n  + Orodromeus [...] + Nodosaurus\n  + Ornithomimus\n  + Orodromeus\n  + Oviraptor\n  + Pachycephalosaurus\n  + Pachyrhinosaurus\n  + Parasaurolophus\n  + Pinacosaurus\n  + Plateosaurus\n  + Protoceratops\n  + Psittacosaurus\n  + Pteranodon\n  + Pterodactylus\n  + Quetzalcoatlus\n  + Saltasaurus\n  + Spinosaurus\n  + Stegosaurus\n  + Struthiomimus\n  + Suchomimus\n  + Tenontosaurus\n  + Torosaurus\n  + Triceratops\n  + Troodon\n  + Tuojiangosaurus\n  + Tyrannosaurus\n  + Ultrasaurus\n  + Utahraptor\n  + Velociraptor\n  + Zuniceratops",
+            "score": 0.5737984
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "content": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 14:41, 19 November 2016 (\n\n### Giganotosaurus\n\n[edit]\n\n:   Nominator(s): FunkMonk (talk) 17:10, 30 September 2016 (UTC)[reply] [...] ~~\"Lake Ezquiel Ramos Mexia\": a Google search suggests this might be a typo for \"Ezequiel\".~~\n\n:   :   Fixed. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n ~~\"estimates in absolute values like newtons was impossible\": either \"estimating ... was impossible\", or \"estimates ... were impossible\".~~\n\n:   :   Took the last option. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n-- Mike Christie (talk - contribs - library) 00:44, 8 November 2016 (UTC)[reply]\n\n:   :   Thanks for the review, I'll respond later today. FunkMonk (talk) 08:55, 8 November 2016 (UTC)[reply]\n    :   I've struck most of the points except the ones about the images; I'll ask at WT:FAC and see what others say. Mike Christie (talk - contribs - library) 10:18, 9 November 2016 (UTC)[reply] [...] :   :   Linked, but the italics are added by the template, can't remove them. FunkMonk (talk) 18:46, 2 November 2016 (UTC)[reply]\n\n ref 19 - ditto (McFarland & Co.)\n\n:   :   Linked. FunkMonk (talk) 18:46, 2 November 2016 (UTC)[reply]\n\n Any reason for writing the full date only in ref 27? Also, if I am not mistaken the date is 26 Sep not 11 Sep.\n\n:   :   Removed. FunkMonk (talk) 18:46, 2 November 2016 (UTC)[reply]\n\n Wiki-links needed for the following: PLoS ONE (31), Acta Palaeontologica Polonica (34), news.nationalgeographic.com (36; you can simply write it as National Geographic) and Cretaceous Research (37). – Liebe99\") (talk) 20:19, 31 October 2016 (UTC)[reply]",
+            "score": 0.51793724
+          },
+          {
+            "title": "Jurassic Park Fanon Wiki:Featured Articles Nominations",
+            "url": "https://jpfanon.fandom.com/wiki/Jurassic_Park_Fanon_Wiki:Featured_Articles_Nominations",
+            "content": "#### Conclusion:[]\n\n SUPPORT: \"Due to the number of positive votes, Malchom's Woods: A Jurassic World: Fallen Kingdom Sequel, is now a featured article!\"—Diabolusaurus127(talk); 17:02 PM, March 31, 2019 (UTC)\n\n### The Distance Beyond: A Malchom's Woods Story[]\n\n:   Main article: The Distance Beyond: A Malchom's Woods Story\n\nFor August, 2019.\n\nFor: 1\n\nAgainst: 0\n\nNeutral: 0\n\n#### Opinions:[]\n\n SUPPORT: ”While I don’t think it is as good as Malchom’s Woods, I do think it presents itself very wel. It really makes you feel the hardship Alexander is feeling, and builds a unique mythology that the Microceratus believe.\" — Carnotaur(talk) 6:55 AM, August 13, 2019\n\nCommunity content is available under CC-BY-SA unless otherwise noted. [...] NOTE: Administrators and some members of the community may qualify all potential stories to be a Featured Article.\n\n## Candidates[]\n\nIn this section all the possible candidates to be a Featured Article will be visible. Opinions will be placed below the title of the story that is being nominated to be a Featured Article.\n\n### Cretaceous Park[]\n\n:   Main article: Cretaceous Park\n\nFor January, 2019.\n\n:   For: 2\n:   Against: 0\n:   Neutral: 0\n\n#### Opinions:[] [...] Jurassic Park Fanon Wiki\n\nSign In \n\nDon't have an account?\n\n Register  \n\n  Sign In\n\nSkip to content\n\n‍\n\n2,902\n\npages\n\n# Jurassic Park Fanon Wiki:Featured Articles Nominations\n\nSign in to edit \n\n History\n Purge\n Talk (0)\n\nFeatured Articles Nominations is a section devoted to choosing the best articles in Jurassic Park Fanon Wiki. Elections are given monthly and the best articles that meet the requirements to be part of the Featured Articles are chosen.\n\n## Contents\n\n 1 Requirements\n 2 Candidates\n  + 2.1 Cretaceous Park\n    - 2.1.1 Opinions:\n    - 2.1.2 Conclusion:\n  + 2.2 Malchom's Woods: A Jurassic World: Fallen Kingdom Sequel\n    - 2.2.1 Opinions:\n    - 2.2.2 Conclusion:\n  + 2.3 The Distance Beyond: A Malchom's Woods Story\n    - 2.3.1 Opinions:\n\n## Requirements[]",
+            "score": 0.498902
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Dinosaur Wiki:Featured Article Nominations - Fandom",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Article_Nominations",
+            "score": 0.71137124
+          },
+          {
+            "title": "Wikipedia:WikiProject Dinosaurs/Dinosaur collaboration/Past DCs",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Dinosaurs/Dinosaur_collaboration/Past_DCs",
+            "score": 0.63125396
+          },
+          {
+            "title": "Dinosaur Wiki:Featured Articles",
+            "url": "https://dino.fandom.com/wiki/Dinosaur_Wiki:Featured_Articles",
+            "score": 0.5737984
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "score": 0.51793724
+          },
+          {
+            "title": "Jurassic Park Fanon Wiki:Featured Articles Nominations",
+            "url": "https://jpfanon.fandom.com/wiki/Jurassic_Park_Fanon_Wiki:Featured_Articles_Nominations",
+            "score": 0.498902
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Dinosaur Wiki"
+          },
+          {
+            "type": "name_like",
+            "value": "Featured Article Nominations"
+          },
+          {
+            "type": "name_like",
+            "value": "Fandom\nImage"
+          },
+          {
+            "type": "name_like",
+            "value": "Sysopcrown Only Founders"
+          },
+          {
+            "type": "name_like",
+            "value": "Bureaucrats"
+          },
+          {
+            "type": "name_like",
+            "value": "Sysops"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Main Page"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Founders"
+          },
+          {
+            "type": "name_like",
+            "value": "Only"
+          },
+          {
+            "type": "name_like",
+            "value": "Founder"
+          },
+          {
+            "type": "name_like",
+            "value": "October"
+          },
+          {
+            "type": "name_like",
+            "value": "Sarcosuchus"
+          },
+          {
+            "type": "name_like",
+            "value": "Image"
+          },
+          {
+            "type": "name_like",
+            "value": "Rex"
+          },
+          {
+            "type": "name_like",
+            "value": "Legend"
+          },
+          {
+            "type": "name_like",
+            "value": "December"
+          },
+          {
+            "type": "name_like",
+            "value": "Balaur Bondoc"
+          },
+          {
+            "type": "name_like",
+            "value": "Fandom"
+          },
+          {
+            "type": "name_like",
+            "value": "Sign In"
+          },
+          {
+            "type": "name_like",
+            "value": "Don"
+          },
+          {
+            "type": "name_like",
+            "value": "Register"
+          },
+          {
+            "type": "name_like",
+            "value": "Menu"
+          },
+          {
+            "type": "name_like",
+            "value": "Explore"
+          },
+          {
+            "type": "name_like",
+            "value": "More History"
+          },
+          {
+            "type": "name_like",
+            "value": "Advertisement"
+          },
+          {
+            "type": "name_like",
+            "value": "Skip"
+          },
+          {
+            "type": "name_like",
+            "value": "All Pages"
+          },
+          {
+            "type": "name_like",
+            "value": "Community"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the name of the person who nominated the dinosaur Featured Article.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"dinosaur Featured Article: Giganotosaurus\",\n    \"FAC nomination field: Nominator(s)\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"FunkMonk\",\n      \"type\": \"person\",\n      \"evidence\": \"Nominator(s): Funk"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the name of the person who nominated the dinosaur Featured Article.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "FunkMonk",
+        "final_answer_strict": "FunkMonk",
+        "used_evidence": [
+          "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1 (shows “Nominator(s): FunkMonk” for the FAC that was promoted 19 November 2016)"
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "funkmonk",
+    "gt_norm": "funkmonk"
+  }
+}

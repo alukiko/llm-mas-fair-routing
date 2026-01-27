@@ -1,0 +1,169 @@
+{
+  "id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+  "query": "How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?",
+  "ground_truth": "519",
+  "answer_raw": {
+    "final_answer": "unknown",
+    "final_answer_strict": "0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Who had the most walks and what were their at-bats during the 1977 New York Yankees season?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 39.10001516342163,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the New York Yankees players and their statistics for the 1977 regular season.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the New York Yankees players and their statistics for the 1977 regular season.",
+        "facts": [
+          {
+            "fact": "The 1977 New York Yankees had a regular season record of 100-62.",
+            "source_url": "https://www.baseball-reference.com/teams/NYY/1977.shtml"
+          },
+          {
+            "fact": "The Yankees finished in 1st place in the AL East during the 1977 season.",
+            "source_url": "https://www.baseball-reference.com/teams/NYY/1977.shtml"
+          },
+          {
+            "fact": "The team played a total of 162 games during the 1977 regular season.",
+            "source_url": "https://www.baseball-almanac.com/teamstats/roster.php?y=1977&t=NYA"
+          },
+          {
+            "fact": "The Yankees won the World Series in 1977, defeating the Los Angeles Dodgers 4-2.",
+            "source_url": "https://www.baseball-reference.com/teams/NYY/1977.shtml"
+          },
+          {
+            "fact": "The 1977 season was the 75th season for the New York Yankees.",
+            "source_url": "https://en.wikipedia.org/wiki/1977_New_York_Yankees_season"
+          }
+        ],
+        "sources": [
+          {
+            "title": "1977 New York Yankees Statistics",
+            "url": "https://www.baseball-reference.com/teams/NYY/1977.shtml",
+            "snippet": "1977 New York Yankees Statistics ; Record: 100-62, Finished 1st in AL_East (Schedule and Results) ; Postseason: Won World Series (4-2) over Los Angeles Dodgers"
+          },
+          {
+            "title": "1977 New York Yankees Roster - Baseball Almanac",
+            "url": "https://www.baseball-almanac.com/teamstats/roster.php?y=1977&t=NYA",
+            "snippet": "The 1977 New York Yankees team roster seen on this page includes every player who appeared in a game during the 1977 season. It is a comprehensive team roster and player names are sorted by the fielding position where the most number of games were played during the regular season. Every player's name links to their career statistics."
+          },
+          {
+            "title": "1977 New York Yankees Roster",
+            "url": "https://www.baseball-almanac.com/teamstats/roster.php%3Fy%3D1977%26t%3DNYA",
+            "snippet": "The 1977 New York Yankees played 162 games during the regular season, won 100 games, lost 62 games, and finished in first position. They played their home ..."
+          },
+          {
+            "title": "New York Yankees Team History & Encyclopedia | Baseball-Reference.com",
+            "url": "https://www.baseball-reference.com/teams/NYY/index.shtml",
+            "snippet": "Get information about New York Yankees history, past franchise names, retired numbers, top players and more on Baseball-Reference.com"
+          },
+          {
+            "title": "1977 New York Yankees season",
+            "url": "https://en.wikipedia.org/wiki/1977_New_York_Yankees_season",
+            "snippet": "The 1977 New York Yankees season was the 75th season for the Yankees. The team finished with a record of 100–62 and won the World Series."
+          }
+        ],
+        "summary": "The 1977 New York Yankees had a successful season, finishing with a record of 100-62, winning the AL East, and ultimately the World Series."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the player with the most walks and their at-bats from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": [\n    \"Who had the most walks and what were their at-bats during the 1977 New York Yankees season?\"\n  ]\n}\n```"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the number of at-bats for the Yankee with the most walks in the 1977 regular season.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "unknown",
+        "final_answer_strict": "0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Who had the most walks and what were their at-bats during the 1977 New York Yankees season?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "519"
+  }
+}

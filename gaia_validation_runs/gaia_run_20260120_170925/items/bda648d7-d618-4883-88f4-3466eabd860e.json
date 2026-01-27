@@ -1,0 +1,217 @@
+{
+  "id": "bda648d7-d618-4883-88f4-3466eabd860e",
+  "query": "Where were the Vietnamese specimens described by Kuznetzov in Nedoshivina's 2010 paper eventually deposited? Just give me the city name without abbreviations.",
+  "ground_truth": "Saint Petersburg",
+  "answer_raw": {
+    "final_answer": "St. Petersburg",
+    "final_answer_strict": "St. Petersburg",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "St. Petersburg",
+  "error": null,
+  "duration_sec": 44.28788924217224,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the 2010 paper by Nedoshivina that discusses the Vietnamese specimens described by Kuznetzov.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the 2010 paper by Nedoshivina that discusses the Vietnamese specimens described by Kuznetzov.",
+        "facts": [
+          {
+            "fact": "Nedoshivina's 2010 paper is titled 'A catalogue of the type specimens of the tortricidae described by V.I. Kuznetsov from Vietnam and deposited in the Zoological Institute, St. Petersburg.'",
+            "source_url": "https://ehudreiter.com/2023/12/11/what-llms-cannot-do/"
+          },
+          {
+            "fact": "The Vietnamese specimens discussed by Kuznetsov were deposited in the Zoological Institute, St. Petersburg.",
+            "source_url": "https://ehudreiter.com/2023/12/11/what-llms-cannot-do/"
+          },
+          {
+            "fact": "The paper by Nedoshivina was published in 2010.",
+            "source_url": "https://www.mapress.com/zt/article/download/zootaxa.4590.4.5/24138/25038"
+          },
+          {
+            "fact": "The paper catalogues type specimens of the Tortricidae family.",
+            "source_url": "https://archive.org/details/atalanta-41-335-347"
+          }
+        ],
+        "sources": [
+          {
+            "title": "What LLMs cannot do - Ehud Reiter's Blog",
+            "url": "https://ehudreiter.com/2023/12/11/what-llms-cannot-do/",
+            "snippet": "Where were the Vietnamese specimens described by Kuznetzov in Nedoshivina’s 2010 paper eventually deposited? Just give me the city name without abbreviations.\n\nHuman can easily answer this because a few minutes of web search will reveal that the title of Nedoshivina 2010 is “A catalogue of the type specimens of the tortricidae described by V.I. Kuznetsov from Vietnam and deposited in the Zoological Institute, St. Petersburg.” However LLMs struggle to answer this question.\n\nThe goal of the paper is to propose a new way to evaluate LLMs, but GAIA also gives insights on tasks which are hard for L"
+          },
+          {
+            "title": "[PDF] Theorica valuliae Pinkaew, new species ... - Magnolia Press",
+            "url": "https://www.mapress.com/zt/article/download/zootaxa.4590.4.5/24138/25038",
+            "snippet": "Diakonoff, A. (1973) The South Asiatic Olethreutini (Lepidoptera: Tortricidae). Zoologische Monographieen van het Rijksmuseum van Natuurlijke Historie, 1, 1‒700. Horak, M. (2006) Monographs on Australia Lepidoptera. Vol. 10. Olethreutine Moths of Australia (Lepidoptera: Tortricidae). CSIRO Publishing, Collingwood, Victoria, 522 pp.\nKuznetsov, V.I. (1997) New species of tortricid moths of the subfamily Olethreutinae (Lepidoptera, Tortricidae) from the south of Vietnam. Entomological Review, 77 (6), 715‒727.\nNedoshivina, S.V. (2010) A catalogue of the type specimens of the tortricidae described "
+          },
+          {
+            "title": "A catalogue of type specimens of the Tortricidae described by V. I. ...",
+            "url": "https://archive.org/details/atalanta-41-335-347",
+            "snippet": "# A catalogue of type specimens of the Tortricidae described by V. I. Kuznetzov from Vietnam and deposited in the Zoological Institute, St. Petersburg\n\n## Bookreader Item Preview\n\n# Share or Embed This Item\n\nShare to Twitter  Share to Facebook  Share to Reddit  Share to Tumblr  Share to Pinterest  Share via email  Copy Link\n\nWant more? Advanced embedding details, examples, and help!\n\n# Flag this item for\n\n Graphic Violence\n Explicit Sexual Content\n Hate Speech\n Misinformation/Disinformation\n Marketing/Phishing/Advertising\n Misleading/Inaccurate/Missing Metadata\n\ntexts\n\n# A catalogue of type sp"
+          },
+          {
+            "title": "Institute > Staff > Svetlana V. Nedoshivina",
+            "url": "https://www.zin.ru/staff/Nedoshivina_S.V._en.html",
+            "snippet": "An annotated list of the type specimens of Tortricidae (Lepidoptera) in the collection of Zoological Institute, St. Petersburg, Russia. 1. Types of species described by O. Bremer, A. M. Djakonov, N. G. Erschoff, and A. M. Gerasimov // Zootaxa 3986(1): 127-134.   Dubatolov V.V., Bogunova (Syachina) A.A., Nedoshivina S.V., 2014. Review of the Olethreutes bowmanana-magadana species group, with the description of a new species from the Amur River, Russia (Lepidoptera, Tortricidae) // Zootaxa 3779 (3): 375-382.   Nedoshivina S.V., 2013. Heterocerous lepidopterans of Vietnab. Fam. Leafrollers (Lepid"
+          },
+          {
+            "title": "[PDF] A review of host plants for the tortricid tribe Grapholitini, with a ...",
+            "url": "https://digitalcommons.unl.edu/context/insectamundi/article/2447/viewcontent/0944_Brown_2022.pdf",
+            "snippet": "Pammenopsis Kuznetsov, 2003. Pammenopsis currently includes two species: one from India, Sri Lanka and Vietnam (Diakonoff 1982; Nedoshivina 2013), and the other from Australia (Horak 2006). Pammenopsis critica (Meyrick) has been reported from Crotalaria juncea (Fletcher 1932; Diakonoff 1982) and repeatedly from Caja­ nus cajan (L.) Millsp. (both Fabaceae). The larvae roll and web leaves and bore into flower buds and pods (Ghosh 1981; Kumar 1982; Shukla et al. 1984; Misra et al. 1987; Lateef and Reed 1990; Khandwe et al. 1994; Satpathi and Ghosh 1998). [...] Fulcrifera Danilevsky and Kuznetsov,"
+          }
+        ],
+        "summary": "Nedoshivina's 2010 paper catalogs type specimens of the Tortricidae family described by Kuznetsov from Vietnam, which are deposited in the Zoological Institute, St. Petersburg."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract information regarding the deposition location of the Vietnamese specimens from the retrieved paper.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Zoological Institute",
+            "type": "deposition location",
+            "evidence": "The Vietnamese specimens discussed by Kuznetsov were deposited in the Zoological Institute, St. Petersburg."
+          },
+          {
+            "name": "St. Petersburg",
+            "type": "city",
+            "evidence": "The Vietnamese specimens discussed by Kuznetsov were deposited in the Zoological Institute, St. Petersburg."
+          }
+        ],
+        "key_points": [
+          "Nedoshivina's 2010 paper catalogs type specimens of the Tortricidae family described by Kuznetsov from Vietnam."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the city name where the Vietnamese specimens were deposited based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The Zoological Institute is located in St. Petersburg, Russia."
+        ],
+        "reasoning_steps": [
+          "The task requires identifying the city where the Vietnamese specimens were deposited.",
+          "The intermediate results indicate that the Vietnamese specimens were deposited in the Zoological Institute, St. Petersburg.",
+          "Since St. Petersburg is explicitly mentioned as the location of the Zoological Institute, it can be concluded that this is the city in question."
+        ],
+        "conclusions": [
+          "The city name where the Vietnamese specimens were deposited is St. Petersburg."
+        ],
+        "proposed_answer_outline": [
+          "The Vietnamese specimens discussed by Kuznetsov were deposited in the Zoological Institute, which is located in St. Petersburg."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the final answer with the city name where the Vietnamese specimens were deposited.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "St. Petersburg",
+        "final_answer_strict": "St. Petersburg",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "st. petersburg",
+    "gt_norm": "saint petersburg"
+  }
+}

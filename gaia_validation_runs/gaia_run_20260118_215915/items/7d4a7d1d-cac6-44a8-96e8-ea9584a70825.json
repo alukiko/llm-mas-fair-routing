@@ -1,0 +1,251 @@
+{
+  "id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+  "query": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+  "ground_truth": "22",
+  "answer_raw": {
+    "final_answer": "22 years",
+    "final_answer_strict": "22",
+    "used_evidence": [
+      "В 1995 году женщины составляли 37% среди компьютерных специалистов.",
+      "В 2017 году доля женщин в компьютерных науках сократилась до 24%.",
+      "Количество лет, необходимых для изменения процента на 13%: 22.00 лет"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "22",
+  "error": null,
+  "duration_sec": 48.61105394363403,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о проценте женщин в профессии компьютерных ученых согласно Girls Who Code.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о проценте женщин в профессии компьютерных ученых согласно Girls Who Code.",
+        "facts": [
+          {
+            "fact": "В 1995 году женщины составляли 37% среди компьютерных специалистов.",
+            "source_url": "https://www.hse.ru/our/news/346996957.html"
+          },
+          {
+            "fact": "В 2017 году доля женщин в компьютерных науках сократилась до 24%.",
+            "source_url": "https://www.hse.ru/our/news/346996957.html"
+          },
+          {
+            "fact": "Прогноз на 2027 год составляет 22% женщин в компьютерных науках.",
+            "source_url": "https://www.hse.ru/our/news/346996957.html"
+          },
+          {
+            "fact": "По данным разных источников, доля женщин в IT колеблется от 15% до 30%.",
+            "source_url": "https://klever.blog/women-in-it/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "«Даже если я слышала разговоры о том, что точные науки не для женщин ...",
+            "url": "https://www.hse.ru/our/news/346996957.html",
+            "snippet": "Сегодня на ФКН девушки составляют только 20%, среди преподавателей женщин и того меньше - 11%. По данным сообщества Girls who code гендерный дисбаланс в компьютерных науках только увеличивается. В 1995 году здесь было 37% женщин, в 2017 - 24%, а прогноз на 2027 год составляет 22%."
+          },
+          {
+            "title": "Женская доля: почему в технологиях до сих пор есть гендерный разрыв",
+            "url": "https://trends.rbc.ru/trends/social/622387229a794723abd3d42a",
+            "snippet": "GitHub, веб-сервис для хостинга IT-проектов и их совместной разработки, привел статистику на основе гендерно-нейтральных профилей. Оказалось, что код, который пишут девушки, принимают на 4% чаще, при условии, что пол разработчика неизвестен."
+          },
+          {
+            "title": "Девочки, которые кодят",
+            "url": "https://zarubejom.ru/articles/zhenskiy-vzglyad/",
+            "snippet": "... женщины составляли 37 % среди компьютерных специалистов, то уже к 2017 г. их доля сократилась до 24 %, по оценкам Girls Who Code. В 2023 г. участие женщин в ..."
+          },
+          {
+            "title": "Девушки в IT - education.yandex.ru",
+            "url": "https://education.yandex.ru/research/girlsintech",
+            "snippet": "Мы начали исследовать эту тему в фильме «Математическое неравенство» и продолжили исследованием женщин в IT. Мы надеемся, что результаты могут помочь образовательной среде и рынку расширить воронку привлечения девчонок."
+          },
+          {
+            "title": "Почему больше женщин в IT – выгодно для всех - Клевер",
+            "url": "https://klever.blog/women-in-it/",
+            "snippet": "6 мар. 2020 г. — По разным данным, сейчас доля женщин в IT – 15-30%, при этом женщины составляют примерно половину трудоспособного населения. Женщины испытывают ..."
+          }
+        ],
+        "summary": "Доля женщин в профессии компьютерных ученых снижается с 1995 года, согласно данным Girls Who Code."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь данные о времени, за которое процент женщин в компьютерных науках изменился на 13% от начального значения 37%.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "женщины",
+            "type": "демографическая группа",
+            "evidence": "В 1995 году женщины составляли 37% среди компьютерных специалистов."
+          },
+          {
+            "name": "компьютерные науки",
+            "type": "область знаний",
+            "evidence": "Доля женщин в профессии компьютерных ученых снижается с 1995 года."
+          }
+        ],
+        "key_points": [
+          "В 1995 году процент женщин в компьютерных науках составлял 37%.",
+          "В 2017 году процент женщин снизился до 24%.",
+          "Прогноз на 2027 год составляет 22% женщин в компьютерных науках."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "37",
+            "unit": "%",
+            "context": "начальный процент женщин в компьютерных науках в 1995 году"
+          },
+          {
+            "value": "24",
+            "unit": "%",
+            "context": "процент женщин в компьютерных науках в 2017 году"
+          },
+          {
+            "value": "22",
+            "unit": "%",
+            "context": "прогнозируемый процент женщин в компьютерных науках в 2027 году"
+          }
+        ],
+        "definitions": [
+          {
+            "term": "женщины в компьютерных науках",
+            "definition": "Доля женщин, работающих в области компьютерных наук, которая снижается с течением времени.",
+            "source_url": "https://www.hse.ru/our/news/346996957.html"
+          }
+        ],
+        "open_questions": [
+          "Каковы причины снижения процента женщин в компьютерных науках?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "calc",
+      "description": "Выполнить вычисления, чтобы определить, сколько лет потребовалось для изменения процента на 13%.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "python_code": "# Initial percentage of women in computer science in 1995\ninitial_percentage = 37\n\n# Percentage of women in computer science in 2017\npercentage_2017 = 24\n\n# Calculate the change in percentage\npercentage_change = initial_percentage - percentage_2017\n\n# Years between 1995 and 2017\nyears_passed = 2017 - 1995\n\n# Calculate the average annual change in percentage\naverage_annual_change = percentage_change / years_passed\n\n# Calculate the number of years required for the percentage to change by 13%\nrequired_change = 13\nrequired_years = required_change / average_annual_change\n\n# Print the final answer clearly\nprint(f'Количество лет, необходимых для изменения процента на 13%: {required_years:.2f} лет')",
+        "sandbox_ok": true,
+        "sandbox_id": null,
+        "output": "Количество лет, необходимых для изменения процента на 13%: 22.00 лет\n",
+        "error": null,
+        "sandbox_raw": {
+          "results": [],
+          "logs": {
+            "stdout": [
+              "Количество лет, необходимых для изменения процента на 13%: 22.00 лет\n"
+            ],
+            "stderr": []
+          },
+          "error": null,
+          "execution_count": 1
+        }
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю о времени, необходимом для изменения процента женщин в компьютерных науках.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "22 years",
+        "final_answer_strict": "22",
+        "used_evidence": [
+          "В 1995 году женщины составляли 37% среди компьютерных специалистов.",
+          "В 2017 году доля женщин в компьютерных науках сократилась до 24%.",
+          "Количество лет, необходимых для изменения процента на 13%: 22.00 лет"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": true,
+    "pred_norm": "22",
+    "gt_norm": "22"
+  }
+}

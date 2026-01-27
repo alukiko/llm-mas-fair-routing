@@ -1,0 +1,146 @@
+{
+  "id": "c714ab3a-da30-4603-bacd-d008800188b9",
+  "query": "You are Van Helsing, a renowned vampire hunter. A Count of Moldova, Lațcu IV, son of  Costea, has tasked you with investigating the village of Șirnea in neighboring Wallachia. The Count's advisors have reported that a vampire was spotted crossing the border near the village, and would like you to investigate it.\n\nYou travel to the village of Șirnea, and you begin your investigation. One night, just before dawn, you catch a glimpse of a man in a long black cape with red lining leaping from roof-top to roof-top with superhuman agility. It's a vampire! You try to chase the creature back to its home, but the creature is too fast. However, because of the remoteness of the village, you know with absolute certainty that the vampire must be a resident of the village. You decide that your best course of action will be to visit all 100 residents of the town during the day. You know something about vampires and humans that will make your investigation possible; humans always tell the truth, but vampires always lie.\n\nIn the afternoon, you go from house to house, speaking with all 100 residents of Șirnea. You ask everyone the same question: \"How many vampires are living in Șirnea\". Everyone in the village gives the same response, \"At least one of us is a human.\"\n\nHow many residents of Șirnea have been turned into vampires?",
+  "ground_truth": "100",
+  "answer_raw": {
+    "final_answer": "99",
+    "final_answer_strict": "99.0",
+    "used_evidence": [
+      "All humans tell the truth, but vampires always lie. Since everyone stated 'At least one of us is a human', it implies that the statement must be true from the perspective of the humans. Therefore, if there is at least one human, the rest must be vampires."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "99.0",
+  "error": null,
+  "duration_sec": 26.303322076797485,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Analyze the responses of the villagers to determine the number of vampires based on the logic that humans tell the truth and vampires lie.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "All humans tell the truth.",
+          "All vampires lie.",
+          "Villagers can be classified as either humans or vampires."
+        ],
+        "reasoning_steps": [
+          "Collect statements made by villagers regarding the number of vampires.",
+          "Identify contradictions in statements to determine who is lying.",
+          "Count the number of villagers identified as vampires based on the contradictions."
+        ],
+        "conclusions": [
+          "The number of vampires can be deduced by analyzing the truthfulness of the villagers' statements.",
+          "If a villager's statement contradicts another's, at least one of them must be a vampire."
+        ],
+        "proposed_answer_outline": [
+          "List all statements made by villagers.",
+          "Identify pairs of statements that contradict each other.",
+          "Determine the minimum number of vampires based on the contradictions."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What specific statements did the villagers make regarding the number of vampires?",
+          "How many villagers are there in total?"
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "calc",
+      "description": "Calculate the number of residents who are vampires based on the reasoning from T1.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "python_code": "",
+        "sandbox_ok": false,
+        "sandbox_id": null,
+        "output": null,
+        "error": "empty python_code",
+        "sandbox_raw": null
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the final answer regarding how many residents of Șirnea have been turned into vampires.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "99",
+        "final_answer_strict": "99.0",
+        "used_evidence": [
+          "All humans tell the truth, but vampires always lie. Since everyone stated 'At least one of us is a human', it implies that the statement must be true from the perspective of the humans. Therefore, if there is at least one human, the rest must be vampires."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "99.0",
+    "gt_norm": "100"
+  }
+}

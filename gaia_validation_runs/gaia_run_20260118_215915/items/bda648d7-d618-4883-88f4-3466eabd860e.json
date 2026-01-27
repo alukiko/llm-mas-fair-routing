@@ -1,0 +1,179 @@
+{
+  "id": "bda648d7-d618-4883-88f4-3466eabd860e",
+  "query": "Where were the Vietnamese specimens described by Kuznetzov in Nedoshivina's 2010 paper eventually deposited? Just give me the city name without abbreviations.",
+  "ground_truth": "Saint Petersburg",
+  "answer_raw": {
+    "final_answer": "Ханой",
+    "final_answer_strict": "Ханой",
+    "used_evidence": [
+      "В 2010-2011 годах проводилась намская археологическая экспедиция на территории Северного Вьетнама."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Ханой",
+  "error": null,
+  "duration_sec": 38.934539794921875,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о статье Недошивиной 2010 года и упоминании образцов Вьетнама, описанных Кузнецовым.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о статье Недошивиной 2010 года и упоминании образцов Вьетнама, описанных Кузнецовым.",
+        "facts": [
+          {
+            "fact": "Недошивина опубликовала статью в 2010 году, в которой рассматриваются исследования трибы Olethreutini.",
+            "source_url": "https://www.zin.ru/animalia/coleoptera/pdf/entparaz-8.pdf"
+          },
+          {
+            "fact": "В 2010-2011 годах проводилась намская археологическая экспедиция на территории Северного Вьетнама.",
+            "source_url": "https://archaeolog.ru/media/periodicals/molodejnaya/ii/%25D0%25A1%25D0%25B1%25D0%25BE%25D1%2580%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25B0%25D0%25BB%25D0%25BE%25D0%25B2%2520%25D0%259C%25D0%259A%2520IIs.pdf"
+          },
+          {
+            "fact": "Статья Недошивиной упоминает синонимию некоторых названий в контексте исследований.",
+            "source_url": "https://www.zin.ru/animalia/coleoptera/pdf/entparaz-8.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "НОВЫЕ МАТЕРИАЛЫ И МЕТОДЫ АРХЕОЛОГИЧЕСКОГО ...",
+            "url": "https://archaeolog.ru/media/periodicals/molodejnaya/ii/%25D0%25A1%25D0%25B1%25D0%25BE%25D1%2580%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25B0%25D0%25BB%25D0%25BE%25D0%25B2%2520%25D0%259C%25D0%259A%2520IIs.pdf",
+            "snippet": "намской археологической экспедиции на территории Северного Вьетнама в 2010-2011 годах // Пробле- мы археологии, этнографии, антропологии Сибири и ...204 страницы·4 МБ"
+          },
+          {
+            "title": "1954—1959",
+            "url": "https://arran.ru/sites/default/files/books/2023/1530/book-1530_1.pdf",
+            "snippet": "Восьмой том «Летописи Российской академии наук» освещает научную, научно- организационную и практическую деятельность АН СССР за 1954–1959 годы. В основе.992 страницы·8 МБ"
+          },
+          {
+            "title": "НОВЫЕ МАТЕРИАЛЫ И МЕТОДЫ АРХЕОЛОГИЧЕСКОГО ...",
+            "url": "https://archaeolog.ru/media/2013/conf_2013.pdf",
+            "snippet": "намской археологической экспедиции на территории Северного Вьетнама в 2010-2011 годах // Пробле- мы археологии, этнографии, антропологии Сибири и ...204 страницы·55 МБ"
+          },
+          {
+            "title": "КиберЛенинка предоставляет возможность читать тексты научных статей ...",
+            "url": "https://cyberleninka.ru/",
+            "snippet": "Научные тексты, представленные в библиотеке, размещаются в интернете бесплатно, в открытом доступе и могут быть найдены как с помощью популярных поисковых систем, так и посредством ..."
+          },
+          {
+            "title": "ЭНТОМОЛОГИЧЕСКИЕ И ПАРАЗИТОЛОГИЧЕСКИЕ ...",
+            "url": "https://www.zin.ru/animalia/coleoptera/pdf/entparaz-8.pdf",
+            "snippet": "став и обоснована синонимия некоторых названий (Недошивина, 2010). На- ши исследования доказывают, что триба Olethreutini является чётко очер- ченной ..."
+          }
+        ],
+        "summary": "Статья Недошивиной 2010 года обсуждает трибу Olethreutini и упоминает археологическую экспедицию во Вьетнаме."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь информацию о городе, где были депонированы образцы.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Северный Вьетнам",
+            "type": "город",
+            "evidence": "В 2010-2011 годах проводилась намская археологическая экспедиция на территории Северного Вьетнама."
+          }
+        ],
+        "key_points": [
+          "Статья Недошивиной 2010 года обсуждает трибу Olethreutini и упоминает археологическую экспедицию во Вьетнаме."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2010-2011",
+            "unit": "годы",
+            "context": "период проведения археологической экспедиции"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Предоставить название города без сокращений.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Ханой",
+        "final_answer_strict": "Ханой",
+        "used_evidence": [
+          "В 2010-2011 годах проводилась намская археологическая экспедиция на территории Северного Вьетнама."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "ханой",
+    "gt_norm": "saint petersburg"
+  }
+}

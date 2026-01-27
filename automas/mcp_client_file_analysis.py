@@ -12,11 +12,13 @@ GAIA_FILES_ROOT = PROJECT_ROOT / "workspace" / "gaia_files"
 MCP_MODULE = "automas.mcp.servers.document.server"  # это твой file-analysis server.py
 
 
-def _build_env() -> Dict[str, str]:
+def _build_env():
     env = dict(os.environ)
-    # чтобы python -m automas.mcp... точно импортился
     env["PYTHONPATH"] = str(PROJECT_ROOT) + os.pathsep + env.get("PYTHONPATH", "")
     env["GAIA_FILES_ROOT"] = str(GAIA_FILES_ROOT)
+    if os.getenv("OPENROUTER_API_KEY"):
+        env["OPENROUTER_API_KEY"] = os.getenv("OPENROUTER_API_KEY")
+
     return env
 
 

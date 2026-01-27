@@ -1,0 +1,619 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+    "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Menu Positioning on Web Pages. Does it Matter?",
+  "error": null,
+  "duration_sec": 55.196995973587036,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          },
+          {
+            "fact": "This paper was published in September 2015 in the Journal of Emerging Trends in Computing and Information Sciences.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Pietro Murano is affiliated with the Department of Computer Science at the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Iram Khan is affiliated with the School of Computing, Science and Engineering at the University of Salford, UK.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "summary": "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram Khan, published in 2015.",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matte"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a"
+          },
+          {
+            "title": "Publications - Pietro Murano",
+            "url": "https://pietromurano.org/publications.html",
+            "snippet": "Murano, Pietro & Sander, Margrete (2016)  User Interface Menu Design Performance and User Preferences: A Review and Ways Forward - PDF, International Journal of Advanced Computer Science and Applications, Vol. 7, Issue 4, April 2016.\n\nMurano, Pietro & Khan, Iram N. (2015)  Pie Menus or Linear Menus, Which Is Better? - PDF, Journal of Emerging Trends in Computing and Information Sciences, Vol. 6, Issue 9, September 2015.\n\nMurano, Pietro & Lomas, Tracey J. (2015)  Menu Positioning on Web Pages. Does it Matter? - PDF, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015."
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE"
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "snippet": "{\"task\\_id\": \"46719c30-f4c3-4cad-be07-d5cb21eee6bb\", \"Level\": 1, \"Final answer\": \"Mapping Human Oriented Information to Software Agents for Online Systems Usage\", \"id\": \"level1-4\", \"web\": \" \"ques\": \"Of the authors (First M. Last) that worked on the paper \\\"Pie Menus or Linear Menus, Which Is Better?\\\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?\"}\n\n{\"task\\_id\": \"4b6bb5f7-f634-410e-815d-e673ab7f8632\", \"Level\": 1, \"Final answer\": \"THE CASTLE\", \"id\": \"level1-5\", \"web\": \" \"ques\": \"In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.\"}"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matter\n\nPietro MuranoTracey J. Lomas\n\nComputer Science\n\n 2015\n\nThe design and results of an empirical experiment, investigating the usability of menu positioning on web pages, suggest that the top horizontal and left vertical positioned menus incurred fewer errors and fewer mouse clicks.\n\n 6\n PDF\n\n### When left might not be right\n\nX. FaulknerClive Hayton\n\nComputer Science\n\n 2011 [...] Computer Science\n\nInt. J. Hum. Comput. Interact.\n\n 2024\n\nThe results indicated that the pie menu offered notable advantages by reducing muscular loads, achieving shorter task completion times, and delivering an overall more enjoyable user experience, making it a preferable choice for mid-air interaction in photo booth settings.\n\n 6\n\n### Breadth and orientation of pie menus for mid-air interaction: effects on upper extremity biomechanics, performance, and subjective assessment\n\nLujin MaoK. OnoMengyao QiJinghua HuangMakoto Watanabe\n\nComputer Science\n\nBehav. Inf. Technol.\n\n 2025\n\nABSTRACT The number and layout of options within pie menus are crucial for determining the direction of radial swiping in mid-air interactions, influencing the physical demands imposed on users. This…\n\n 1",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a feature allowing the user to lock the pie menu open and deploy several commands on one object. This was in the context of a ‘graphical schema editor for modelling spatio-temporal databases’ . The ideas described in the paper are very interesting; however it would have been also interesting and useful if some evaluation of this design had been done. In Samp and Decker  a comparison by means of an [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.94135845
+          },
+          {
+            "title": "Publications - Pietro Murano",
+            "url": "https://pietromurano.org/publications.html",
+            "content": "Murano, Pietro & Sander, Margrete (2016)  User Interface Menu Design Performance and User Preferences: A Review and Ways Forward - PDF, International Journal of Advanced Computer Science and Applications, Vol. 7, Issue 4, April 2016.\n\nMurano, Pietro & Khan, Iram N. (2015)  Pie Menus or Linear Menus, Which Is Better? - PDF, Journal of Emerging Trends in Computing and Information Sciences, Vol. 6, Issue 9, September 2015.\n\nMurano, Pietro & Lomas, Tracey J. (2015)  Menu Positioning on Web Pages. Does it Matter? - PDF, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.",
+            "score": 0.9008183
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE",
+            "score": 0.7230167
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "content": "{\"task\\_id\": \"46719c30-f4c3-4cad-be07-d5cb21eee6bb\", \"Level\": 1, \"Final answer\": \"Mapping Human Oriented Information to Software Agents for Online Systems Usage\", \"id\": \"level1-4\", \"web\": \" \"ques\": \"Of the authors (First M. Last) that worked on the paper \\\"Pie Menus or Linear Menus, Which Is Better?\\\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?\"}\n\n{\"task\\_id\": \"4b6bb5f7-f634-410e-815d-e673ab7f8632\", \"Level\": 1, \"Final answer\": \"THE CASTLE\", \"id\": \"level1-5\", \"web\": \" \"ques\": \"In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.\"}",
+            "score": 0.6599319
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.94135845
+          },
+          {
+            "title": "Publications - Pietro Murano",
+            "url": "https://pietromurano.org/publications.html",
+            "score": 0.9008183
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.7230167
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "score": 0.6599319
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Semantic Scholar\nCorpus"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Pose"
+          },
+          {
+            "type": "name_like",
+            "value": "Illumination"
+          },
+          {
+            "type": "name_like",
+            "value": "And Expression"
+          },
+          {
+            "type": "name_like",
+            "value": "Pie Menu"
+          },
+          {
+            "type": "name_like",
+            "value": "Citations"
+          },
+          {
+            "type": "name_like",
+            "value": "User Interface Menu Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Performance"
+          },
+          {
+            "type": "name_like",
+            "value": "User Preferences"
+          },
+          {
+            "type": "name_like",
+            "value": "Review"
+          },
+          {
+            "type": "name_like",
+            "value": "Ways Forward"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro"
+          },
+          {
+            "type": "name_like",
+            "value": "Sander"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform First"
+          },
+          {
+            "type": "name_like",
+            "value": "Design Guidelines"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform Games"
+          },
+          {
+            "type": "name_like",
+            "value": "Andersson"
+          },
+          {
+            "type": "name_like",
+            "value": "Console"
+          },
+          {
+            "type": "name_like",
+            "value": "References"
+          },
+          {
+            "type": "name_like",
+            "value": "Menu Positioning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"paper title: Pie Menus or Linear Menus, Which Is Better?\",\n    \"author field in snippet\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"person\",\n      \"evidence\": \"author={Pietro Murano and Iram Khan}\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find the prior papers authored by the identified authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the prior papers authored by the identified authors.",
+        "facts": [
+          {
+            "fact": "You can search for publications by using the author field in Google Scholar, including exact names or ORCID IDs to reduce ambiguity.",
+            "source_url": "https://researchguides.library.wisc.edu/c.php?g=1144260&p=8374284"
+          },
+          {
+            "fact": "The Web of Science Core Collection captures all authors and their affiliations for every publication after 2007.",
+            "source_url": "https://clarivate.libguides.com/authors/collaborators"
+          },
+          {
+            "fact": "To find papers authored by specific researchers, you can use the Analyze Results tool in the Web of Science to identify frequently publishing authors in your field.",
+            "source_url": "https://clarivate.libguides.com/authors/collaborators"
+          }
+        ],
+        "summary": "Various methods exist for finding papers authored by specific researchers, including using author fields in databases like Google Scholar and Web of Science, which provide comprehensive author information and tools for analyzing publication trends.",
+        "sources": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "snippet": "1. If no warning flashes on pressing enter, the code has probably worked and the single-author articles among all articles currently loaded on the page are saved in result variable.\n2. Type `result` in next line and press enter.\n\nFor shorlisting papers with no more than, say; 6 authors,\n\n`let text = document.getElementsByClassName('docsum-authors full-authors'); let result = []; for(i=0;i`\n\nwhere the same code works when replacing `<6` with `==7` for papers having exactly six authors.\n\nHaven't checked with other databases, but provided the format of entries is similar (list of authors separated by commas in an html tag with unique class name) above code should work with replacement of class name (`\"docsum-authors full-authors\"` for Pubmed) and maybe the loop range/if conditions. [...] ```\n14125 publications found. Warning: Only the first 100 publications are processed. UID: 28844248, author: Baroody AJ, title: The Use of Concrete Experiences in Early Childhood Mathematics Instruction. UID: 28772472, author: Wang XY, title: Modeling of Hydration, Compressive Strength, and Carbonation of Portland-Limestone Cement (PLC) Concrete. UID: 29159238, author: Paul SC, title: Data on optimum "
+          },
+          {
+            "title": "Searching for an Individual Author in Google Scholar - Publication ...",
+            "url": "https://researchguides.library.wisc.edu/c.php?g=1144260&p=8374284",
+            "snippet": "author:“JE Doe”|author:“J Doe”\n\nThis will retrieve publications that have the author listed as JE Doe or as J Doe. “|” works the same as a Boolean OR would, in that it will be retrieving publications with JE Doe in the author field, publications with J Doe in the author field, or publications with both JE Doe and J Doe in the author field.\n\n### 4. Search by Author’s ORCID ID\n\nORCID IDs are like a social security number for researchers. If consistently included in publications and updated by the researcher, they can solve the issue of name ambiguity when searching for publications. [...] “J Doe”\n\nMake sure to include the quotation marks. With this search, you will be retrieving publications that mention the last name of Doe, and a first initial of J. As a result, you will retrieve most of the relevant results for the author, but many irrelevant results as well (e.g. authors whose names are John P. Doe, Jason Doe, or Janet Doe, etc., or publications that mention J Doe but are not authored by them).\n\n### 2. Limit Your Search Using the Author Field\n\nYou can search within the author field by either using Google Scholar’s Advanced Search or using the author field tag. The Advanced Search"
+          },
+          {
+            "title": "Authors / Researchers: Find collaborators - LibGuides",
+            "url": "https://clarivate.libguides.com/authors/collaborators",
+            "snippet": "To identify an author's institutional affiliation, open the full record for any paper published after 2007\\ and go to the Author Information section of the record.\n\n\\ All authors and their affiliations are captured for every publication in Web of Science Core Collection. Starting in 2008, each author is also linked to his/her affiliation(s).\n\nWho are the authors of Hot and Highly Cited papers on your topic?\n\nIf your institution subscribes to Essential Science Indicators, you can view the Highly Cited and/or Hot Papers in any result set in the Web of Science Core Collection.\n\nHighly Cited Papers are papers published in the last 10 years that are receiving the most citations (top 1%) when compared to peer papers (same field, same publication year). [...] Which authors are frequently writing papers in your field?\n\nTo find out who the established authors are in your field, you can search the Web of Science Core Collection for your topic of interest and use the Analyze Results tool.\n\nYou'll find the Analyze Results tool when you're looking at any result set in Web of Science, including the Marked List.\n\nWhen you run Analyze Results, you can choose to show the top 10, 25, 50, etc. author"
+          },
+          {
+            "title": "Finding Historical Primary Sources: By Topic, Author, Title, Date",
+            "url": "https://guides.lib.berkeley.edu/c.php?g=4409&p=15609",
+            "snippet": "You may also pair an appropriate subject heading with additional subject terms that identify materials as primary sources. Some of these terms are:\n\n correspondence\n diaries\n early works to 1800\n interviews\n pamphlets\n periodicals\n personal narratives\n sources\n\nNote: these subject terms will not retrieve all possible primary sources but they are a good way to start.\n\nExamples:\n\n vietnamese conflict 1961-1975 personal narratives\n student movements japan history sources\n france revolution correspondence\n\nSearch article databases by keywords, or official subject terms/descriptors.\n\nsource\n\n## Find Primary Sources by Author/Organization\n\nName of an individual or organization as an author: [...] Name of an individual or organization as an author:\n\n Search UC Library Search for the name; to narrow by items created by the individual or organization, filter by author (on the left of the search results screen);\n  + alternatively go to the advanced search to pull down the \"any field\" menu to author and redo the search\n Search article databases for the individual or organization as author (last name, first name)\n\n Search article databases for the name of the individual or organization as a su"
+          },
+          {
+            "title": "Graduate research literature review plan: Identify key papers and ...",
+            "url": "https://deakin.libguides.com/lit-review-plan/identify-key-papers-authors",
+            "snippet": "2. Document Search  \n Search for a key paper and use the built-in links to view the references (i.e. backward citation searching) or the citations (i.e. forward citation searching)\n\nClick on the plus icons below to find out how to conduct an author and a document search.\n\n### Author Search\n\nAuthor searches are useful when you have identified key researchers in your field and you'd like to review their body of work.\n\n#### Search for an author in Scopus\n\nTo find out how to search for research published by a specific author in the Scopus, check out the video (2:44) Search for an author and view their profile tutorial. [...] Skip to Main Content\n\n# Graduate research literature review plan\n\n Overview\n Organise your workflow\n Plan your literature search   Toggle Dropdown;) \n  + Identify resource types\n Begin your literature search   Toggle Dropdown;) \n  + Find theses\n  + Google & Google Scholar\n  + Finding research methods\n Expand your literature search \n  + Identify key papers and authors\n Manage your data\n\n## Identify key papers and authors\n\nThere are two main ways to expand your search using citation databases.\n\n1. Author Search\n\nSearch for a key researcher to view all of the research"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "content": "1. If no warning flashes on pressing enter, the code has probably worked and the single-author articles among all articles currently loaded on the page are saved in result variable.\n2. Type `result` in next line and press enter.\n\nFor shorlisting papers with no more than, say; 6 authors,\n\n`let text = document.getElementsByClassName('docsum-authors full-authors'); let result = []; for(i=0;i`\n\nwhere the same code works when replacing `<6` with `==7` for papers having exactly six authors.\n\nHaven't checked with other databases, but provided the format of entries is similar (list of authors separated by commas in an html tag with unique class name) above code should work with replacement of class name (`\"docsum-authors full-authors\"` for Pubmed) and maybe the loop range/if conditions. [...] ```\n14125 publications found. Warning: Only the first 100 publications are processed. UID: 28844248, author: Baroody AJ, title: The Use of Concrete Experiences in Early Childhood Mathematics Instruction. UID: 28772472, author: Wang XY, title: Modeling of Hydration, Compressive Strength, and Carbonation of Portland-Limestone Cement (PLC) Concrete. UID: 29159238, author: Paul SC, title: Data on optimum recycle aggregate content in production of new structural concrete. UID: 27012788, author: Kovler K, title: The national survey of natural radioactivity in concrete produced in Israel. Histogram: (number of authors, number of papers with that many authors) [(1, 4), (2, 15), (3, 21), (4, 24), (5, 19), (6, 10), (7, 3), (8, 2), (10, 2)] \n``` [...] You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like",
+            "score": 0.99783427
+          },
+          {
+            "title": "Searching for an Individual Author in Google Scholar - Publication ...",
+            "url": "https://researchguides.library.wisc.edu/c.php?g=1144260&p=8374284",
+            "content": "author:“JE Doe”|author:“J Doe”\n\nThis will retrieve publications that have the author listed as JE Doe or as J Doe. “|” works the same as a Boolean OR would, in that it will be retrieving publications with JE Doe in the author field, publications with J Doe in the author field, or publications with both JE Doe and J Doe in the author field.\n\n### 4. Search by Author’s ORCID ID\n\nORCID IDs are like a social security number for researchers. If consistently included in publications and updated by the researcher, they can solve the issue of name ambiguity when searching for publications. [...] “J Doe”\n\nMake sure to include the quotation marks. With this search, you will be retrieving publications that mention the last name of Doe, and a first initial of J. As a result, you will retrieve most of the relevant results for the author, but many irrelevant results as well (e.g. authors whose names are John P. Doe, Jason Doe, or Janet Doe, etc., or publications that mention J Doe but are not authored by them).\n\n### 2. Limit Your Search Using the Author Field\n\nYou can search within the author field by either using Google Scholar’s Advanced Search or using the author field tag. The Advanced Search is effective when you are looking for a single author (with no name variations). The author field tag is best for searching multiple author names (including name variations). [...] ## Overview\n\nThis page gives tips on how to search for an individual author in Google Scholar. Click here to access this information as a downloadable PDF.\n\nClick here to access a PDF containing search templates and examples of searching for an individual author in Google Scholar.\n\n## Constructing Your Search\n\n### 1. Construct a Broad Search Strategy\n\nYou can begin by using a basic keyword search using the broadest and least limiting search terms to ensure you do not inadvertently exclude relevant publications.\n\nTo do this, start with your most basic search of last name and first initial. So, for example, if you wanted to search for publications by a Dr. John E. Doe, your initial search would look like this:\n\n“J Doe”",
+            "score": 0.8255897
+          },
+          {
+            "title": "Authors / Researchers: Find collaborators - LibGuides",
+            "url": "https://clarivate.libguides.com/authors/collaborators",
+            "content": "To identify an author's institutional affiliation, open the full record for any paper published after 2007\\ and go to the Author Information section of the record.\n\n\\ All authors and their affiliations are captured for every publication in Web of Science Core Collection. Starting in 2008, each author is also linked to his/her affiliation(s).\n\nWho are the authors of Hot and Highly Cited papers on your topic?\n\nIf your institution subscribes to Essential Science Indicators, you can view the Highly Cited and/or Hot Papers in any result set in the Web of Science Core Collection.\n\nHighly Cited Papers are papers published in the last 10 years that are receiving the most citations (top 1%) when compared to peer papers (same field, same publication year). [...] Which authors are frequently writing papers in your field?\n\nTo find out who the established authors are in your field, you can search the Web of Science Core Collection for your topic of interest and use the Analyze Results tool.\n\nYou'll find the Analyze Results tool when you're looking at any result set in Web of Science, including the Marked List.\n\nWhen you run Analyze Results, you can choose to show the top 10, 25, 50, etc. authors for your result set.\n\nThis will provide you with insight into who are the most prolific authors writing on your topic.\n\nTo view an author's papers, including their institutional affiliation, mark the box for the author name and click the Refine Results by Selected button. [...] Go to the citing articles of a single paper\n\nFrom the full record view of any paper you've authored in the Web of Science, you can click on the Times Cited count to view the citing articles. If there are a lot of citing articles, you might want to use the Analyze Results tool described earlier to see if any authors have cited you in more than one paper.\n\nGo to the citing articles of a group of papers\n\nFor a group of papers that you've authored, you can view the citing articles for the whole group by using the Citation Report feature.\n\nSteps\n\n1. Search Web of Science by your name, Web of Science ResearcherID or ORCID unique identifier.  Refine results as needed to obtain your specific publications.",
+            "score": 0.80193585
+          },
+          {
+            "title": "Finding Historical Primary Sources: By Topic, Author, Title, Date",
+            "url": "https://guides.lib.berkeley.edu/c.php?g=4409&p=15609",
+            "content": "You may also pair an appropriate subject heading with additional subject terms that identify materials as primary sources. Some of these terms are:\n\n correspondence\n diaries\n early works to 1800\n interviews\n pamphlets\n periodicals\n personal narratives\n sources\n\nNote: these subject terms will not retrieve all possible primary sources but they are a good way to start.\n\nExamples:\n\n vietnamese conflict 1961-1975 personal narratives\n student movements japan history sources\n france revolution correspondence\n\nSearch article databases by keywords, or official subject terms/descriptors.\n\nsource\n\n## Find Primary Sources by Author/Organization\n\nName of an individual or organization as an author: [...] Name of an individual or organization as an author:\n\n Search UC Library Search for the name; to narrow by items created by the individual or organization, filter by author (on the left of the search results screen);\n  + alternatively go to the advanced search to pull down the \"any field\" menu to author and redo the search\n Search article databases for the individual or organization as author (last name, first name)\n\n Search article databases for the name of the individual or organization as a subject.\n\nsource\n\n## Finding Primary Sources by Title\n\nSpecific title\n\n Title of a book, manuscript, diary, etc.: search UC Library Search; if necessary, go to the Advanced Search, pull down the \"any field\" menu to title and redo the search. [...] Title of a journal/magazine/newspaper: search UC Library Search by the title and change the search scope (which will appear as you type) to \"journals;\n  + alternatively, search UC Library Search by title and limit by resource type:  newspaper artices, or articles, etc.\n\n Title of an article: search UC Library Search by the name of the journal/ magazine/ newspaper in which the article appeared (as above)\n\n If you do not know the name of the journal/magazine/newspaper in which the article appeared, search for the title, subject, or author of the article in UC Library Search or in an article databases. Find the complete citation (title of journal, date, volume, etc.); then search UC Library Search for the title of the journal",
+            "score": 0.7371582
+          },
+          {
+            "title": "Graduate research literature review plan: Identify key papers and ...",
+            "url": "https://deakin.libguides.com/lit-review-plan/identify-key-papers-authors",
+            "content": "2. Document Search  \n Search for a key paper and use the built-in links to view the references (i.e. backward citation searching) or the citations (i.e. forward citation searching)\n\nClick on the plus icons below to find out how to conduct an author and a document search.\n\n### Author Search\n\nAuthor searches are useful when you have identified key researchers in your field and you'd like to review their body of work.\n\n#### Search for an author in Scopus\n\nTo find out how to search for research published by a specific author in the Scopus, check out the video (2:44) Search for an author and view their profile tutorial. [...] Skip to Main Content\n\n# Graduate research literature review plan\n\n Overview\n Organise your workflow\n Plan your literature search   Toggle Dropdown;) \n  + Identify resource types\n Begin your literature search   Toggle Dropdown;) \n  + Find theses\n  + Google & Google Scholar\n  + Finding research methods\n Expand your literature search \n  + Identify key papers and authors\n Manage your data\n\n## Identify key papers and authors\n\nThere are two main ways to expand your search using citation databases.\n\n1. Author Search\n\nSearch for a key researcher to view all of the research an author has published which is indexed in a source/location (i.e. Scopus, Web of Science or Google Scholar) [...] #### Search for an author in Google Scholar\n\nTo search for a known author in Google Scholar, place the researcher's name into the search box and click Search.\n\nIf the researcher has created a Google Scholar profile, it will appear at the top of the search results. Click on the hyperlink of the researcher's name to view their profile.\n\n### Document Search\n\nA key feature of citation searching is to search 'backwards' and 'forwards' in time from a key paper. It means you can see which research the paper has cited (going \"backwards\" in time) and to see who has cited that paper (going \"forwards\" in time).\n\n#### Backwards Citation Searching\n\nBackwards citation searching means looking at the literature that a paper has cited.",
+            "score": 0.57367843
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "score": 0.99783427
+          },
+          {
+            "title": "Searching for an Individual Author in Google Scholar - Publication ...",
+            "url": "https://researchguides.library.wisc.edu/c.php?g=1144260&p=8374284",
+            "score": 0.8255897
+          },
+          {
+            "title": "Authors / Researchers: Find collaborators - LibGuides",
+            "url": "https://clarivate.libguides.com/authors/collaborators",
+            "score": 0.80193585
+          },
+          {
+            "title": "Finding Historical Primary Sources: By Topic, Author, Title, Date",
+            "url": "https://guides.lib.berkeley.edu/c.php?g=4409&p=15609",
+            "score": 0.7371582
+          },
+          {
+            "title": "Graduate research literature review plan: Identify key papers and ...",
+            "url": "https://deakin.libguides.com/lit-review-plan/identify-key-papers-authors",
+            "score": 0.57367843
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Find"
+          },
+          {
+            "type": "name_like",
+            "value": "Type"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Haven"
+          },
+          {
+            "type": "name_like",
+            "value": "Pubmed"
+          },
+          {
+            "type": "name_like",
+            "value": "Warning"
+          },
+          {
+            "type": "name_like",
+            "value": "Only"
+          },
+          {
+            "type": "name_like",
+            "value": "Baroody"
+          },
+          {
+            "type": "name_like",
+            "value": "The Use"
+          },
+          {
+            "type": "name_like",
+            "value": "Concrete Experiences"
+          },
+          {
+            "type": "name_like",
+            "value": "Early Childhood Mathematics Instruction"
+          },
+          {
+            "type": "name_like",
+            "value": "Wang"
+          },
+          {
+            "type": "name_like",
+            "value": "Modeling"
+          },
+          {
+            "type": "name_like",
+            "value": "Hydration"
+          },
+          {
+            "type": "name_like",
+            "value": "Compressive Strength"
+          },
+          {
+            "type": "name_like",
+            "value": "Carbonation"
+          },
+          {
+            "type": "name_like",
+            "value": "Portland-Limestone Cement"
+          },
+          {
+            "type": "name_like",
+            "value": "Concrete"
+          },
+          {
+            "type": "name_like",
+            "value": "Paul"
+          },
+          {
+            "type": "name_like",
+            "value": "Data"
+          },
+          {
+            "type": "name_like",
+            "value": "Searching"
+          },
+          {
+            "type": "name_like",
+            "value": "Individual Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Google Scholar"
+          },
+          {
+            "type": "name_like",
+            "value": "Publication"
+          },
+          {
+            "type": "name_like",
+            "value": "Doe"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Boolean"
+          },
+          {
+            "type": "name_like",
+            "value": "Search"
+          },
+          {
+            "type": "name_like",
+            "value": "Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Make"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who has prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the title of the first paper authored by the identified author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+        "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 600,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "menu positioning on web pages. does it matter",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

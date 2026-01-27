@@ -1,0 +1,623 @@
+{
+  "id": "e1fc63a2-da7a-432f-be78-7c4a95598703",
+  "query": "If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.",
+  "ground_truth": "17",
+  "answer_raw": null,
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 59.33365178108215,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the minimum perigee distance between the Earth and the Moon on the Wikipedia page.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the minimum perigee distance between the Earth and the Moon on the Wikipedia page.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The minimum perigee distance between the Earth and the Moon is 363,104 km.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/File:Earth-Moon.png\"\n    },\n    {\n      \"fact\": \"The average perigee distance of the Moon is 363,300 km.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Orbit_of_the_Moon\"\n    },\n    {",
+        "sources": [
+          {
+            "title": "File:Earth-Moon.png - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File:Earth-Moon.png",
+            "snippet": "= 405696 km (28480px)  Lunar semi‐major axis = 384400 km (26985px)  Lunar perigee = 363104 km (25490px)  System barycenter = 4700 km (330px) Scale chosen because Photoshop only supports images 30,000 pixel in width, and scaling the Earth by 50% just about fits with this, all other measurements derived from there. | [...] | DescriptionEarth-Moon.png | Line below Earth represents distance of Earth's centre from the system barycentre. Line below the Moon represents perigee and apogee with the moon at the semi‐major axis position. Moon shown with correct side facing earth, but without any pretty shading. The below information refers to the original version of this file, which was twice the size of the current version (i.e. it's now 14.25 km/px). Sorry but Photoshop wasn't saving them very well, so I had to switch to GraphicConverter, which is limited to 16,000 pixels across. Earth-Moon system at a scale of 7.1224 km/px (0.140402 px/km)    Earth polar diameter = 12,713.5 km (893px) ⇒ 7.1224 km/px  Moon equatorial diameter = 3,476.2 km (244px)  Lunar apogee = 405696 km (28480px)  Lunar semi‐major axis = 384400"
+          },
+          {
+            "title": "Orbit of the Moon - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
+            "snippet": "| Diagram of the Moon's orbit with respect to the Earth. Angles are correct and relative sizes are to scale, but distances are not to scale. |\n| Semi-major axis | 384,748 km (239,071 miles) |\n| Mean distance | 385,000 km (239,000 miles) |\n| Inverse sine parallax | 384,400 km (238,900 miles) |\n| Perigee | 363,300 km (225,700 miles), avg. (356400–370400 km) |\n| Apogee | 405,507 km (251,970 miles), avg. (404000–406700 km) |\n| Mean eccentricity | 0.0549006 (0.026–0.077) |\n| Mean obliquity | 6.687° |\n| Mean inclination |\n| of orbit to ecliptic | 5.15° (4.99–5.30) |\n| of lunar equator to ecliptic | 1.543° |\n| Period of |\n| orbit around Earth (sidereal) | 27.322 days |\n| orbit around Earth (synodic) | 29.530 days |\n| precession of nodes | 18.5996 years | [...] With a mean orbital speed around the barycentre of 1.022 km/s (2,290 mph), the Moon covers a distance of approximately its diameter, or about half a degree on the celestial sphere, each hour.\n\n### Elliptic shape\n\n[edit]\n\nThe orbit of the Moon has an eccentricity of 0.0549, with perigee and apogee distances of 363,300 km (225744 mi) and 405,507 km (251970 mi) respectively (a difference of 11.6%).\n\nThe full Moon's apparent size as see"
+          },
+          {
+            "title": "Lunar distance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lunar_distance",
+            "snippet": "The actual distance varies over the course of the orbit of the Moon. Values at closest approach (perigee) or at farthest (apogee) are rarer the more extreme they are. The graph at right shows the distribution of perigee and apogee over six thousand years.\n\nJean Meeus gives the following extreme values for 1500 BC to AD 8000:\n\n greatest distance: 406 719.97 km on January 7, AD 2266\n smallest distance: 356 352.93 km on November 13, 1054 BC\n\nLunar distance expressed in selected units\n\n| Unit | Mean value | Uncertainty |\n| meter | 3.84399×108 | 1.1 mm |\n| kilometer | 384,399 | 1.1 mm |\n| mile | 238,854 | 0.043 in |\n| Earth radius | 60.32 |  |\n| AU | ⁠1/388.6⁠ = 0.00257  |  |\n| light-second | 1.282 | 37.5×10−12 | [...] case one can find a formula for the semi-major axis, again involving trigonometric terms. The average value by this method is 383,397 km. [...] The instantaneous Earth–Moon distance, or distance to the Moon, is the distance from the center of Earth to the center of the Moon. In contrast, the Lunar distance (LD or ), or Earth–Moon characteristic distance, is a unit of measure in astronomy. More technically, it is the semi-major axis of the geocentric lunar orbit. The avera"
+          },
+          {
+            "title": "What is the record for the closest distance between the Earth ... - Quora",
+            "url": "https://www.quora.com/What-is-the-record-for-the-closest-distance-between-the-Earth-and-Moon-that-has-been-observed",
+            "snippet": "A: The Moon has an elliptical orbit with a perigee (shortest distance to Earth) of 362,200 km and an apogee (longest distance to Earth) of 405,400 km.\n\nAnd even that’s not all of it: the perigee is not set in stone, but varies between 356,400 and 370,400 km; and the apogee also varies between 404,000 and 406,700 km.\n\nSo the distance is roughly the same, but not exactly always the same. The variation is big enough so that a solar eclipse may sometimes be a ring eclipse, like so:\n\nThis happens if the solar eclipse coincides with the apogee. [...] > Q: If the distance between the Earth and the Moon is always the same, why is that the Moon sometimes seems much bigger than others?\n\nA: The Moon has an elliptical orbit with a perigee (shortest distance to Earth) of 362,200 km and an apogee (longest distance to Earth) of 405,400 km.\n\nAnd even that’s not all of it: the perigee is not set in stone, but varies between 356,400 and 370,400 km; and the apogee also varies between 404,000 and 406,700 km.\n\nSo the distance is roughly the same, but not exactly always the same. The variation is big enough so that a solar eclipse may sometimes be a ring eclipse,\n\n> Q: If the distance between the Earth "
+          },
+          {
+            "title": "How far away is the Moon? | Royal Museums Greenwich",
+            "url": "https://www.rmg.co.uk/stories/space-astronomy/how-far-away-moon",
+            "snippet": "The eccentricity of the Moon’s orbit is 0.05. Furthermore, the Earth is not at the very centre of the Moon’s orbit either. It is located at one of the foci of the Moon’s elliptical orbit, so is closer to one edge of the orbit than the other.\n\n## Apogee, perigee and average distance - the distance to the Moon explained\n\nAstronomers tend to talk about three different numbers when talking about the distance between the Earth and the Moon.\n\nAt its furthest point from the Earth, the Moon is about 405 696 km (252 088 miles) away and astronomers say that the Moon is at apogee (‘apo’ means ‘away’).\n\nOn the other hand, when the Moon is at perigee (‘peri’ means ‘near’), the Moon is at its closest approach to the Earth. The distance between them is only 363 104 km (225 623 miles)."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "File:Earth-Moon.png - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File:Earth-Moon.png",
+            "content": "= 405696 km (28480px)  Lunar semi‐major axis = 384400 km (26985px)  Lunar perigee = 363104 km (25490px)  System barycenter = 4700 km (330px) Scale chosen because Photoshop only supports images 30,000 pixel in width, and scaling the Earth by 50% just about fits with this, all other measurements derived from there. | [...] | DescriptionEarth-Moon.png | Line below Earth represents distance of Earth's centre from the system barycentre. Line below the Moon represents perigee and apogee with the moon at the semi‐major axis position. Moon shown with correct side facing earth, but without any pretty shading. The below information refers to the original version of this file, which was twice the size of the current version (i.e. it's now 14.25 km/px). Sorry but Photoshop wasn't saving them very well, so I had to switch to GraphicConverter, which is limited to 16,000 pixels across. Earth-Moon system at a scale of 7.1224 km/px (0.140402 px/km)    Earth polar diameter = 12,713.5 km (893px) ⇒ 7.1224 km/px  Moon equatorial diameter = 3,476.2 km (244px)  Lunar apogee = 405696 km (28480px)  Lunar semi‐major axis = 384400",
+            "score": 0.9988121
+          },
+          {
+            "title": "Orbit of the Moon - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
+            "content": "| Diagram of the Moon's orbit with respect to the Earth. Angles are correct and relative sizes are to scale, but distances are not to scale. |\n| Semi-major axis | 384,748 km (239,071 miles) |\n| Mean distance | 385,000 km (239,000 miles) |\n| Inverse sine parallax | 384,400 km (238,900 miles) |\n| Perigee | 363,300 km (225,700 miles), avg. (356400–370400 km) |\n| Apogee | 405,507 km (251,970 miles), avg. (404000–406700 km) |\n| Mean eccentricity | 0.0549006 (0.026–0.077) |\n| Mean obliquity | 6.687° |\n| Mean inclination |\n| of orbit to ecliptic | 5.15° (4.99–5.30) |\n| of lunar equator to ecliptic | 1.543° |\n| Period of |\n| orbit around Earth (sidereal) | 27.322 days |\n| orbit around Earth (synodic) | 29.530 days |\n| precession of nodes | 18.5996 years | [...] With a mean orbital speed around the barycentre of 1.022 km/s (2,290 mph), the Moon covers a distance of approximately its diameter, or about half a degree on the celestial sphere, each hour.\n\n### Elliptic shape\n\n[edit]\n\nThe orbit of the Moon has an eccentricity of 0.0549, with perigee and apogee distances of 363,300 km (225744 mi) and 405,507 km (251970 mi) respectively (a difference of 11.6%).\n\nThe full Moon's apparent size as seen from Earth depends on how close it occurs to perigee. A full moon near perigee is known as a \"supermoon\". The largest possible apparent diameter of the Moon is some 12% larger than the smallest; the apparent area is then 25% greater and so is the amount of light it reflects toward Earth. [...] Earth and the Moon orbit about their barycentre (common centre of mass), which lies about 4,670 km (2,900 miles) from Earth's centre (about 73% of its radius), forming a satellite system called the Earth–Moon system. With a mean orbital speed around the barycentre of 1.022 km/s (2,290 mph), the Moon covers a distance of approximately its diameter, or about half a degree on the celestial sphere, each hour.\n\nThe Moon differs from most regular satellites of other planets in that its orbital plane \"Orbital plane (astronomy)\") is closer to that of its primary \"Primary (astronomy)\") – the ecliptic, the plane of Earth's orbit – than to the primary's equatorial plane. The Moon's orbital plane is inclined about 5.1° from the ecliptic (while Earth is tilted about 23.4°).\n\n## Orbital system\n\n[edit]",
+            "score": 0.9981614
+          },
+          {
+            "title": "Lunar distance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lunar_distance",
+            "content": "The actual distance varies over the course of the orbit of the Moon. Values at closest approach (perigee) or at farthest (apogee) are rarer the more extreme they are. The graph at right shows the distribution of perigee and apogee over six thousand years.\n\nJean Meeus gives the following extreme values for 1500 BC to AD 8000:\n\n greatest distance: 406 719.97 km on January 7, AD 2266\n smallest distance: 356 352.93 km on November 13, 1054 BC\n\nLunar distance expressed in selected units\n\n| Unit | Mean value | Uncertainty |\n| meter | 3.84399×108 | 1.1 mm |\n| kilometer | 384,399 | 1.1 mm |\n| mile | 238,854 | 0.043 in |\n| Earth radius | 60.32 |  |\n| AU | ⁠1/388.6⁠ = 0.00257  |  |\n| light-second | 1.282 | 37.5×10−12 | [...] case one can find a formula for the semi-major axis, again involving trigonometric terms. The average value by this method is 383,397 km. [...] The instantaneous Earth–Moon distance, or distance to the Moon, is the distance from the center of Earth to the center of the Moon. In contrast, the Lunar distance (LD or ), or Earth–Moon characteristic distance, is a unit of measure in astronomy. More technically, it is the semi-major axis of the geocentric lunar orbit. The average lunar distance is approximately 385,000 km (239,000 mi), or 1.3 light-seconds. It is roughly 30 times Earth's diameter; and to cover the same distance on earth would take a non-stop airplane flight for more than two weeks. Around 389 lunar distances make up an astronomical unit (roughly the distance from Earth to the Sun).",
+            "score": 0.997285
+          },
+          {
+            "title": "What is the record for the closest distance between the Earth ... - Quora",
+            "url": "https://www.quora.com/What-is-the-record-for-the-closest-distance-between-the-Earth-and-Moon-that-has-been-observed",
+            "content": "A: The Moon has an elliptical orbit with a perigee (shortest distance to Earth) of 362,200 km and an apogee (longest distance to Earth) of 405,400 km.\n\nAnd even that’s not all of it: the perigee is not set in stone, but varies between 356,400 and 370,400 km; and the apogee also varies between 404,000 and 406,700 km.\n\nSo the distance is roughly the same, but not exactly always the same. The variation is big enough so that a solar eclipse may sometimes be a ring eclipse, like so:\n\nThis happens if the solar eclipse coincides with the apogee. [...] > Q: If the distance between the Earth and the Moon is always the same, why is that the Moon sometimes seems much bigger than others?\n\nA: The Moon has an elliptical orbit with a perigee (shortest distance to Earth) of 362,200 km and an apogee (longest distance to Earth) of 405,400 km.\n\nAnd even that’s not all of it: the perigee is not set in stone, but varies between 356,400 and 370,400 km; and the apogee also varies between 404,000 and 406,700 km.\n\nSo the distance is roughly the same, but not exactly always the same. The variation is big enough so that a solar eclipse may sometimes be a ring eclipse,\n\n> Q: If the distance between the Earth and the Moon is always the same, why is that the Moon sometimes seems much bigger than others? [...] (Source: File:Earth-Moon.PNG)\n\nSpace is very empty and there is a lot more of it than people typically imagine in their mind's eye. A picture of the Earth-Moon system to scale looks like:\n\nEver since the Apollo missions 11, 14, and 15 left reflectors on the Moon, we have been abl\n\nThe Moon has a slightly elliptical orbit around the barycentre with Earth:\n\n Perigee (closest approach) from 356,400 to 370,490km\n Apogee (greatest distance) from 404,400 to 406,700km\n\nOn average that is about 385,000km between the centres of the two bodies. This equates to almost 1.3 light-seconds with an eccentricity of 0.0549.\n\n(Source: File:Earth-Moon.PNG)",
+            "score": 0.9969722
+          },
+          {
+            "title": "How far away is the Moon? | Royal Museums Greenwich",
+            "url": "https://www.rmg.co.uk/stories/space-astronomy/how-far-away-moon",
+            "content": "The eccentricity of the Moon’s orbit is 0.05. Furthermore, the Earth is not at the very centre of the Moon’s orbit either. It is located at one of the foci of the Moon’s elliptical orbit, so is closer to one edge of the orbit than the other.\n\n## Apogee, perigee and average distance - the distance to the Moon explained\n\nAstronomers tend to talk about three different numbers when talking about the distance between the Earth and the Moon.\n\nAt its furthest point from the Earth, the Moon is about 405 696 km (252 088 miles) away and astronomers say that the Moon is at apogee (‘apo’ means ‘away’).\n\nOn the other hand, when the Moon is at perigee (‘peri’ means ‘near’), the Moon is at its closest approach to the Earth. The distance between them is only 363 104 km (225 623 miles).",
+            "score": 0.992597
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "File:Earth-Moon.png - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/File:Earth-Moon.png",
+            "score": 0.9988121
+          },
+          {
+            "title": "Orbit of the Moon - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
+            "score": 0.9981614
+          },
+          {
+            "title": "Lunar distance - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lunar_distance",
+            "score": 0.997285
+          },
+          {
+            "title": "What is the record for the closest distance between the Earth ... - Quora",
+            "url": "https://www.quora.com/What-is-the-record-for-the-closest-distance-between-the-Earth-and-Moon-that-has-been-observed",
+            "score": 0.9969722
+          },
+          {
+            "title": "How far away is the Moon? | Royal Museums Greenwich",
+            "url": "https://www.rmg.co.uk/stories/space-astronomy/how-far-away-moon",
+            "score": 0.992597
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "File"
+          },
+          {
+            "type": "name_like",
+            "value": "Earth-Moon"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Lunar"
+          },
+          {
+            "type": "name_like",
+            "value": "System"
+          },
+          {
+            "type": "name_like",
+            "value": "Scale"
+          },
+          {
+            "type": "name_like",
+            "value": "Photoshop"
+          },
+          {
+            "type": "name_like",
+            "value": "Earth"
+          },
+          {
+            "type": "name_like",
+            "value": "Moon"
+          },
+          {
+            "type": "name_like",
+            "value": "Line"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Sorry"
+          },
+          {
+            "type": "name_like",
+            "value": "Orbit"
+          },
+          {
+            "type": "name_like",
+            "value": "Diagram"
+          },
+          {
+            "type": "name_like",
+            "value": "Angles"
+          },
+          {
+            "type": "name_like",
+            "value": "Semi"
+          },
+          {
+            "type": "name_like",
+            "value": "Mean"
+          },
+          {
+            "type": "name_like",
+            "value": "Inverse"
+          },
+          {
+            "type": "name_like",
+            "value": "Perigee"
+          },
+          {
+            "type": "name_like",
+            "value": "Apogee"
+          },
+          {
+            "type": "name_like",
+            "value": "Period"
+          },
+          {
+            "type": "name_like",
+            "value": "With"
+          },
+          {
+            "type": "name_like",
+            "value": "Elliptic"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia\nThe"
+          },
+          {
+            "type": "name_like",
+            "value": "Values"
+          },
+          {
+            "type": "name_like",
+            "value": "Jean Meeus"
+          },
+          {
+            "type": "name_like",
+            "value": "January"
+          },
+          {
+            "type": "name_like",
+            "value": "November"
+          },
+          {
+            "type": "name_like",
+            "value": "Unit"
+          },
+          {
+            "type": "name_like",
+            "value": "Uncertainty"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find Eliud Kipchoge's marathon record pace.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find Eliud Kipchoge's marathon record pace.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Eliud Kipchoge's fastest official marathon time is 2:01:09, set at the 2022 Berlin Marathon.\",\n      \"source_url\": \"https://www.olympics.com/en/news/how-fast-was-eliud-kipchoge-world-record\"\n    },\n    {\n      \"fact\": \"Kipchoge's average speed during the 2022 Berlin Marathon was 21.02 km/h",
+        "sources": [
+          {
+            "title": "How Fast Is Eliud Kipchoge? This Treadmill Keeps His Pace",
+            "url": "https://www.nytimes.com/2023/04/14/sports/kipchoge-boston-marathon-pace.html",
+            "snippet": "And Eliud Kipchoge has run a marathon in 2 hours 1 minute 9 seconds.\n\nAnyone remotely familiar with the marathon — and all 26.2188 miles of its muscle-searing masochism — can appreciate that Kipchoge’s world record for the distance, which he set last September when he won the Berlin Marathon for the fourth time, is fast. But how fast, exactly?\n\nWell, you could head to your neighborhood track and try to run a 400-meter loop, which is roughly equivalent to a quarter-mile, in about 69 seconds — and run an additional 104 laps at that pace. Or you could attempt to run a 4:37 mile, then do another 25 of them. [...] Sports|How Fast Is Eliud Kipchoge? You’ll Fall Down When You Find Out.\n\nYou have a preview view of this article while we are checking your access. When we have confirmed access, the full article content will load.\n\nCredit...Canning Conveyor Company\n\nSkip to contentSkip to site index\n\n# How Fast Is Eliud Kipchoge? You’ll Fall Down When You Find Out.\n\nKipchoge, who will run his first Boston Marathon on Monday, holds the world record for 26.2 miles. This is what happens when mere mortals try to keep his pace.\n\nCredit...Canning Conveyor Company\n\nSupported by\n\nSKIP ADVERTISEMENT\n\nB"
+          },
+          {
+            "title": "How fast was Eliud Kipchoge's 2022 Berlin Marathon world record?",
+            "url": "https://www.olympics.com/en/news/how-fast-was-eliud-kipchoge-world-record",
+            "snippet": "However, even for an athlete of his calibre, his performance at the 2022 Berlin Marathon on Sunday 25 September was nothing short of remarkable.\n\nRunning at an average speed of 21.02 km/h or 2 minutes 52 seconds per km, Kipchoge finished the race in 2:01:09, shaving a full 30 seconds off of his previous world record. His average pace per 5km was clocked at a jaw-dropping 14:21.4.\n\nKipchoge has of course run faster, dipping under the legendary two-hour mark during the 2019 Ineos 1:59 Challenge, where he set the quickest time in history when he ended the race in 1:59:40. However, the conditions under which that race was run - with laser pace guides and 41 rotating human pacemakers - mean the 2019 attempt was never ratified as an official world record. [...] It was just after the halfway mark in the Berlin Marathon that Kipchoge began to drift away from his Ineos 1:59 Challenge pace. His time between 20 and 25km was 14:23, compared to 14:12 in 2019. And while the Ineos 1:59 Challenge saw him post identical splits of 14:12 at 25, 30 and 35km, Kipchoge’s delivered times of 14:32 at 30km and 14:30 at 35km in the Berlin Marathon, leaving him a total 47 seconds off of the 2019 pace at that"
+          },
+          {
+            "title": "Runners Attempt Eliud Kipchoge's World Record Marathon Pace",
+            "url": "https://www.youtube.com/watch?v=SRYtn0j5ccA",
+            "snippet": "# Runners Attempt Eliud Kipchoge’s World Record Marathon Pace\n## Runner's World\n97000 subscribers\n130066 likes\n\n### Description\n25668218 views\nPosted: 15 Oct 2018\nHow long could you hang with Eliud Kipchoge? Attendees of the 2018 Chicago Marathon expo got the chance to find out—with some hilarious results. Runners were invited to maintain Kipchoge’s 2:01:39 marathon speed for 200 meters on the 20-foot-long treadmill, which is making stops at each of the World Marathon Majors races.\n\nFor more, check out: [...] 8868 comments\n### Transcript:"
+          },
+          {
+            "title": "Eliud Kipchoge's Marathon Career Record - The Running Channel",
+            "url": "https://therunningchannel.com/eliud-kipchoge-record/",
+            "snippet": "### FAQ ON ELIUD KIPCHOGE\n\nHas Eliud Kipchoge retired from running?\n\nNo, Eliud Kipchoge has not retired from running and will continue to running at a high level, but it’s unlikely that he will race any more major marathons.\n\nWhat is Eliud Kipchoge’s marathon time?\n\nEliud Kipchoge’s fastest official marathon time is 2:01:09. He’s the second-fastest man of all time. His unofficial record is 1:59:40 which he ran in a time trail setting to become the first person to ever run a sub-two hour marathon.\n\nWhat is the Eliud Kipchoge World Tour?\n\nEliud Kipchoge will run seven marathons on seven continents over the next two years (2026-2027) as part of his World Tour to help promote the sport of running.\n\nPhoto by Bob Martin for The INEOS 1:59 Challenge\n\n< Previous article [...] The previous record for fastest cumulative time to run all six Abbott World Marathon Majors was 14:16:32 held by Italian Hermmann Achmüller since 2015 (although Japanese runner Yuki Kawauchi has run faster without claiming the world record).\n\nKipchoge’s cumulative time for his six fastest majors is 12:34:36. The average time for his fastest run in each of the six majors is 2:05:46. The general average for a Six Star f"
+          },
+          {
+            "title": "Eliud Kipchoge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eliud_Kipchoge",
+            "snippet": "LetsRun.com\n\nOn 16 September, Kipchoge won the 2018 Berlin Marathon in a time of 2:01:39, breaking the previous world record by 1 minute and 18 seconds (2:02:57 set by fellow countryman Dennis Kimetto at the Berlin Marathon in 2014). It was the greatest improvement in a marathon world record time since 1967. He finished 4:43 min ahead of second-placed fellow Kenyan Amos Kipruto. The world record holder from 2013, Wilson Kipsang of Kenya, came in third at 2:06:48. It was the 11th world record set at the Berlin Marathon.\n\n| Berlin 2018 Marathon split times | [...] On 25 September, Kipchoge won the Berlin Marathon decisively in a time of 2:01:09, beating by 30 seconds his own previous world record, which he set on the same course in 2018. With his fourth victory in Berlin, he equalled the record achievement of Haile Gebrselassie. He finished 4:49 min ahead of second-placed compatriot Mark Korir while Ethiopia's Tadu Abate took third place with a time of 2:06:28. Kipchoge achieved halfway in 59:51 which, being at the time, the fastest split in marathon history, would have been a world record in the standalone half-marathon in 1993, and was only 26 seconds off his best in that distance."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "How Fast Is Eliud Kipchoge? This Treadmill Keeps His Pace",
+            "url": "https://www.nytimes.com/2023/04/14/sports/kipchoge-boston-marathon-pace.html",
+            "content": "And Eliud Kipchoge has run a marathon in 2 hours 1 minute 9 seconds.\n\nAnyone remotely familiar with the marathon — and all 26.2188 miles of its muscle-searing masochism — can appreciate that Kipchoge’s world record for the distance, which he set last September when he won the Berlin Marathon for the fourth time, is fast. But how fast, exactly?\n\nWell, you could head to your neighborhood track and try to run a 400-meter loop, which is roughly equivalent to a quarter-mile, in about 69 seconds — and run an additional 104 laps at that pace. Or you could attempt to run a 4:37 mile, then do another 25 of them. [...] Sports|How Fast Is Eliud Kipchoge? You’ll Fall Down When You Find Out.\n\nYou have a preview view of this article while we are checking your access. When we have confirmed access, the full article content will load.\n\nCredit...Canning Conveyor Company\n\nSkip to contentSkip to site index\n\n# How Fast Is Eliud Kipchoge? You’ll Fall Down When You Find Out.\n\nKipchoge, who will run his first Boston Marathon on Monday, holds the world record for 26.2 miles. This is what happens when mere mortals try to keep his pace.\n\nCredit...Canning Conveyor Company\n\nSupported by\n\nSKIP ADVERTISEMENT\n\nBy Scott Cacciola\n\nBOSTON — Some numbers are difficult to comprehend. The human body, for example, is made up of about 40 trillion cells. Earth is about 93 million miles from the sun (give or take a couple of million).",
+            "score": 0.8795718
+          },
+          {
+            "title": "How fast was Eliud Kipchoge's 2022 Berlin Marathon world record?",
+            "url": "https://www.olympics.com/en/news/how-fast-was-eliud-kipchoge-world-record",
+            "content": "However, even for an athlete of his calibre, his performance at the 2022 Berlin Marathon on Sunday 25 September was nothing short of remarkable.\n\nRunning at an average speed of 21.02 km/h or 2 minutes 52 seconds per km, Kipchoge finished the race in 2:01:09, shaving a full 30 seconds off of his previous world record. His average pace per 5km was clocked at a jaw-dropping 14:21.4.\n\nKipchoge has of course run faster, dipping under the legendary two-hour mark during the 2019 Ineos 1:59 Challenge, where he set the quickest time in history when he ended the race in 1:59:40. However, the conditions under which that race was run - with laser pace guides and 41 rotating human pacemakers - mean the 2019 attempt was never ratified as an official world record. [...] It was just after the halfway mark in the Berlin Marathon that Kipchoge began to drift away from his Ineos 1:59 Challenge pace. His time between 20 and 25km was 14:23, compared to 14:12 in 2019. And while the Ineos 1:59 Challenge saw him post identical splits of 14:12 at 25, 30 and 35km, Kipchoge’s delivered times of 14:32 at 30km and 14:30 at 35km in the Berlin Marathon, leaving him a total 47 seconds off of the 2019 pace at that stage of the race.\n\nBetween kilometres 35 and 40, Kipchoge was averaging 02:57 per kilometre, compared to his early race averages of 02:50, and his 40km split of 14:43 was 33 seconds slower than his best 5k during the race. [...] However, with a final burst, his pace increased over the final 2.195km of the race, as he posted an average time of 2:52 per kilometre, just two seconds slower than his fastest average kilometre times in the race.\n\nKipchoge’s average speed at the Berlin Marathon was 21.02 km/h compared to the 21.2 km/h speed he maintained during his Ineos 1:59 Challenge run. However, without any outside aids to help him in his quest, it’s difficult to argue against this Berlin Marathon 2022 run being the greatest of his already legendary career.\n\n## 2022 Berlin Marathon splits compared to Ineos 1:59 Challenge",
+            "score": 0.8622012
+          },
+          {
+            "title": "Runners Attempt Eliud Kipchoge's World Record Marathon Pace",
+            "url": "https://www.youtube.com/watch?v=SRYtn0j5ccA",
+            "content": "# Runners Attempt Eliud Kipchoge’s World Record Marathon Pace\n## Runner's World\n97000 subscribers\n130066 likes\n\n### Description\n25668218 views\nPosted: 15 Oct 2018\nHow long could you hang with Eliud Kipchoge? Attendees of the 2018 Chicago Marathon expo got the chance to find out—with some hilarious results. Runners were invited to maintain Kipchoge’s 2:01:39 marathon speed for 200 meters on the 20-foot-long treadmill, which is making stops at each of the World Marathon Majors races.\n\nFor more, check out: [...] 8868 comments\n### Transcript:",
+            "score": 0.85967577
+          },
+          {
+            "title": "Eliud Kipchoge's Marathon Career Record - The Running Channel",
+            "url": "https://therunningchannel.com/eliud-kipchoge-record/",
+            "content": "### FAQ ON ELIUD KIPCHOGE\n\nHas Eliud Kipchoge retired from running?\n\nNo, Eliud Kipchoge has not retired from running and will continue to running at a high level, but it’s unlikely that he will race any more major marathons.\n\nWhat is Eliud Kipchoge’s marathon time?\n\nEliud Kipchoge’s fastest official marathon time is 2:01:09. He’s the second-fastest man of all time. His unofficial record is 1:59:40 which he ran in a time trail setting to become the first person to ever run a sub-two hour marathon.\n\nWhat is the Eliud Kipchoge World Tour?\n\nEliud Kipchoge will run seven marathons on seven continents over the next two years (2026-2027) as part of his World Tour to help promote the sport of running.\n\nPhoto by Bob Martin for The INEOS 1:59 Challenge\n\n< Previous article [...] The previous record for fastest cumulative time to run all six Abbott World Marathon Majors was 14:16:32 held by Italian Hermmann Achmüller since 2015 (although Japanese runner Yuki Kawauchi has run faster without claiming the world record).\n\nKipchoge’s cumulative time for his six fastest majors is 12:34:36. The average time for his fastest run in each of the six majors is 2:05:46. The general average for a Six Star finisher is 4:03.\n\nHis average time to complete the World Marathon Majors (based on all races) is 2:05:01.\n\nHere’s Kipchoge’s fastest performance in each major (with Sydney Marathon also included). [...] |  |  |  |\n --- \n| RACE | TIME | POSITION |\n| Chicago Marathon 2014 | 2:04:11 | 🥇 |\n| London Marathon 2019 | 2:02:37 | 🥇 |\n| Tokyo Marathon 2022 | 2:02:40 | 🥇 |\n| Berlin Marathon 2022 | 2:01:09 (WR) | 🥇 |\n| Boston Marathon 2023 | 2:09:23 | 6th |\n| New York City Marathon 2025 | 2:14:36 | 17th |\n| Sydney Marathon 2025 | 2:08:31 | 9th |\n\n### ELIUD KIPCHOGE’S MARATHON MAJOR CAREER\n\nHere are all of Eliud Kipchoge’s Marathon Major performances.\n\nHe won 11 of his 18 Marathon Majors and won in Tokyo, London, Berlin and Chicago. He won a record five races in Berlin, which is also where he twice broke the world record.",
+            "score": 0.84215075
+          },
+          {
+            "title": "Eliud Kipchoge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eliud_Kipchoge",
+            "content": "LetsRun.com\n\nOn 16 September, Kipchoge won the 2018 Berlin Marathon in a time of 2:01:39, breaking the previous world record by 1 minute and 18 seconds (2:02:57 set by fellow countryman Dennis Kimetto at the Berlin Marathon in 2014). It was the greatest improvement in a marathon world record time since 1967. He finished 4:43 min ahead of second-placed fellow Kenyan Amos Kipruto. The world record holder from 2013, Wilson Kipsang of Kenya, came in third at 2:06:48. It was the 11th world record set at the Berlin Marathon.\n\n| Berlin 2018 Marathon split times | [...] On 25 September, Kipchoge won the Berlin Marathon decisively in a time of 2:01:09, beating by 30 seconds his own previous world record, which he set on the same course in 2018. With his fourth victory in Berlin, he equalled the record achievement of Haile Gebrselassie. He finished 4:49 min ahead of second-placed compatriot Mark Korir while Ethiopia's Tadu Abate took third place with a time of 2:06:28. Kipchoge achieved halfway in 59:51 which, being at the time, the fastest split in marathon history, would have been a world record in the standalone half-marathon in 1993, and was only 26 seconds off his best in that distance. He slowed down later with second half in 61:18. It was the eighth time in a row that men's record was set in Berlin and 12th record there overall. [...] On 12 October 2019, Kipchoge ran the marathon distance for the Ineos 1:59 Challenge in Vienna, achieving a time of 1:59:40.2, becoming the first person in recorded history to do a sub-two-hour marathon. The run did not count as a new marathon record, as he ran with specialized shoes, standard competition rules for pacing and fluids were not followed, and it was not an open event.\n\nKipchoge was appointed Elder of the Order of the Golden Heart \"Order of the Golden Heart (Kenya)\") by former Kenyan President Uhuru Kenyatta on 20 October 2019 in recognition of his sub-two-hour marathon. He was also named the 2019 BBC World Sport Star of the Year. In 2023 he was awarded the Princess of Asturias Award in the category \"Sports\".\n\n## Personal life\n\n[edit]",
+            "score": 0.8245895
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "How Fast Is Eliud Kipchoge? This Treadmill Keeps His Pace",
+            "url": "https://www.nytimes.com/2023/04/14/sports/kipchoge-boston-marathon-pace.html",
+            "score": 0.8795718
+          },
+          {
+            "title": "How fast was Eliud Kipchoge's 2022 Berlin Marathon world record?",
+            "url": "https://www.olympics.com/en/news/how-fast-was-eliud-kipchoge-world-record",
+            "score": 0.8622012
+          },
+          {
+            "title": "Runners Attempt Eliud Kipchoge's World Record Marathon Pace",
+            "url": "https://www.youtube.com/watch?v=SRYtn0j5ccA",
+            "score": 0.85967577
+          },
+          {
+            "title": "Eliud Kipchoge's Marathon Career Record - The Running Channel",
+            "url": "https://therunningchannel.com/eliud-kipchoge-record/",
+            "score": 0.84215075
+          },
+          {
+            "title": "Eliud Kipchoge - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eliud_Kipchoge",
+            "score": 0.8245895
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "How Fast Is Eliud"
+          },
+          {
+            "type": "name_like",
+            "value": "Kipchoge"
+          },
+          {
+            "type": "name_like",
+            "value": "This Treadmill Keeps His"
+          },
+          {
+            "type": "name_like",
+            "value": "Pace\nAnd Eliud Kipchoge"
+          },
+          {
+            "type": "name_like",
+            "value": "Anyone"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Berlin Marathon"
+          },
+          {
+            "type": "name_like",
+            "value": "But"
+          },
+          {
+            "type": "name_like",
+            "value": "Well"
+          },
+          {
+            "type": "name_like",
+            "value": "Sports"
+          },
+          {
+            "type": "name_like",
+            "value": "You"
+          },
+          {
+            "type": "name_like",
+            "value": "Fall Down When You"
+          },
+          {
+            "type": "name_like",
+            "value": "Find Out"
+          },
+          {
+            "type": "name_like",
+            "value": "When"
+          },
+          {
+            "type": "name_like",
+            "value": "Credit"
+          },
+          {
+            "type": "name_like",
+            "value": "Canning Conveyor Company"
+          },
+          {
+            "type": "name_like",
+            "value": "Skip"
+          },
+          {
+            "type": "name_like",
+            "value": "Boston Marathon"
+          },
+          {
+            "type": "name_like",
+            "value": "Monday"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Supported"
+          },
+          {
+            "type": "name_like",
+            "value": "How"
+          },
+          {
+            "type": "name_like",
+            "value": "Eliud Kipchoge"
+          },
+          {
+            "type": "name_like",
+            "value": "However"
+          },
+          {
+            "type": "name_like",
+            "value": "Sunday"
+          },
+          {
+            "type": "name_like",
+            "value": "Running"
+          },
+          {
+            "type": "name_like",
+            "value": "His"
+          },
+          {
+            "type": "name_like",
+            "value": "Ineos"
+          },
+          {
+            "type": "name_like",
+            "value": "Challenge"
+          },
+          {
+            "type": "name_like",
+            "value": "And"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the minimum perigee distance from the retrieved Wikipedia page.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\"number\"],\n  \"entities\": [\n    {\n      \"name\": \"Earth\",\n      \"type\": \"city\",\n      \"evidence\": \"The minimum perigee distance between the Earth and the Moon is 363,104 km.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/File:Earth-Moon.png\"\n    },\n    {\n      \"name\": \"Moon\",\n      \"type\": \"city\",\n     "
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract Eliud Kipchoge's marathon record pace from the retrieved source.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"number\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Eliud Kipchoge\",\n      \"type\": \"person\",\n      \"evidence\": \"Eliud Kipchoge's fastest official marathon time is 2:01:09, set at the 2022 Berlin Marathon.\",\n      \"source_url\": \"https://www.olympics.com/en/news/how-fast-was-"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "calc",
+      "description": "Calculate the time in hours it would take Eliud Kipchoge to run the distance between the Earth and the Moon at his marathon pace.",
+      "depends_on": [
+        "T3",
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "python_code": "distance_km = 363104  # Minimum perigee distance between the Earth and the Moon in km\nspeed_kmh = 21.02  # Eliud Kipchoge's average speed in km/h\n\n# Calculate time in hours\n# Time (hours) = Distance (km) / Speed (km/h)\ntime_hours = distance_km / speed_kmh\n\nfinal_answer = time_hours\nprint(final_answer)",
+        "output": "17274.215033301618\n",
+        "final_line": "17274.215033301618",
+        "error": null,
+        "llm_raw": "{\n  \"python_code\": \"distance_km = 363104  # Minimum perigee distance between the Earth and the Moon in km\\nspeed_kmh = 21.02  # Eliud Kipchoge's average speed in km/h\\n\\n# Calculate time in hours\\n# Time (hours) = Distance (km) / Speed (km/h)\\ntime_hours = distance_km / speed_kmh\\n\\nfinal_answer = time_hours\\nprint(final_answer)\"\n}"
+      }
+    },
+    {
+      "id": "T6",
+      "role": "calc",
+      "description": "Round the calculated time to the nearest 1000 hours.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "error",
+      "result": {
+        "python_code": "",
+        "output": "",
+        "error": "LLM failed to produce python_code. JSON parse error: Expecting value: line 1 column 1 (char 0)",
+        "llm_raw": "```json\n{\"python_code\":\"distance_km = 363104  # Minimum perigee distance between the Earth and the Moon in km\\nspeed_kmh = 21.02  # Eliud Kipchoge's average speed in km/h\\n\\n# Calculate time in hours\\n# Time (hours) = Distance (km) / Speed (km/h)\\ntime_hours = distance_km / speed_kmh\\n\\n# Round the calculated time to the nearest 1000 hours\\n"
+      }
+    },
+    {
+      "id": "T7",
+      "role": "answer",
+      "description": "Provide the final answer for the user.",
+      "depends_on": [
+        "T6"
+      ],
+      "priority": 1,
+      "status": "pending",
+      "result": null
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T7": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "17"
+  }
+}

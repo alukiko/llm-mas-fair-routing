@@ -1,0 +1,422 @@
+{
+  "id": "5d0080cb-90d7-4712-bc33-848150e917d3",
+  "query": "What was the volume in m^3 of the fish bag that was calculated in the University of Leicester paper \"Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\"",
+  "ground_truth": "0.1777",
+  "answer_raw": {
+    "final_answer": "Volume not specified",
+    "final_answer_strict": "N/A",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "N/A",
+  "error": null,
+  "duration_sec": 40.34801149368286,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the University of Leicester paper titled 'Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?'",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the University of Leicester paper titled 'Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?'",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The paper 'Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?' was authored by Amal Doua from the Centre for Interdisciplinary Science, University of Leicester.\",\n      \"source_url\": \"https://journals.le.ac.uk/index.php/jist/article/view/733\"\n    },\n    {\n      \"fact\": \"Toothless, a Night Fury dragon in the How to Train Your Dragon franchise, requires a diet",
+        "sources": [
+          {
+            "title": "[PDF] Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496",
+            "snippet": "Hiccup Horrendous Haddock III, the main protagonist, is a small teenage boy eager to prove himself as a Viking. Using an invention which closely resembles a net gun, Hiccup strikes down Toothless during a dragon raid. Toothless’ left caudal fin is severed, rendering him unable to fly out of the sunken area, known as The Cove . Fish are a large component of a dragon’s diet, and Toothless is exclusively dependent on fish for nutrition . This paper investigates whether Hiccup is able to maintain Toothless’ feeding habits while he is trapped in The Cove. \n\nAssumptions [...] Journal of Interdisciplinary Science Topics \n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet? \n\nAmal Doua \n\nThe Centre for Interdisciplinary Science, University of Leicester \n\n31/03/2017 \n\nAbstract [...] Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fi"
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://www.semanticscholar.org/paper/Can-Hiccup-Supply-Enough-Fish-to-Maintain-a-Diet-Doua/ed279d4fe147e52ee70e70184b4ea7b813e4f43c",
+            "snippet": "Corpus ID: 114726103\n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\n\n```\n@article{Doua2017CanHS,\n  title={Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?},\n  author={Amal Doua},\n  journal={Journal of Interdisciplinary Science Topics},\n  year={2017},\n  volume={6},\n  url={\n}\n```\n\n Amal Doua\n Published 31 March 2017\n Environmental Science\n Journal of Interdisciplinary Science Topics [...] Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon’s diet by catching and bringing fish to him. It was found that in…\n\n1 Citation\n\nBackground Citations\n\n1\n\n## Figures and Tables from this paper\n\n## One Citation\n\n### The Nutritional Value of Toothless’ Meals\n\nAmal Doua\n\nAgricultural and Food Sciences\n\n 2017"
+          },
+          {
+            "title": "smolagents/training-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/training-traces",
+            "snippet": "Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n7. Top 14 Journal of Interdisciplinary Science Topics papers published ...\\\\n\\\\nThis paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon\\\\'s diet by catching and bringing fish ...\\\\n\\\\n8. ERROR: HTTP/1.1 400 Bad Request · Issue #97 · camel-ai/owl ...\\\\n\\\\n... fish bag that was calculated in the University of Leicester paper `Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?` . Never forget our ...'}]\\n---\\n[{'type': 'text', 'text': \\\"Calling tools:\\\\n[{'id': 'call\\_q7bkKvzPrPVKj5wTs2KZVMgo', 'type': 'function', 'function': {'name': 'visit\\_page', 'arguments': {'url': ' [...] Enough Fish to Maintain a Dragon’s Diet? University of Leicester'}}}]\\\"}]\\n---\\n{'type': 'text', 'text': 'Observation:\\\\n## Search Results\\\\n0. [View of Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nCan Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\n1. ojsboss,+Journal+manager,+16\\_243-1254-2-PB.pdf\\\\n\\\\nFish are a large component of a dragon\\\\'s diet, and Toothle"
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/view/733",
+            "snippet": "Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon’s diet by catching and bringing fish to him. It was found that in the twelve days that Toothless was trapped, he would have required 13 Icelandic cod and 56 Atlantic salmon every day, which totalled 716 kg. Hiccup would have had to carry 828 fish weighing at total of 8592 kg over the twelve days, which is unrealistic since he struggles to lift a shield in combat. [...] Journal of Interdisciplinary Science Topics\n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\n\n## Authors\n\n Amal Doua   The Centre for Interdisciplinary Science, University of Leicester\n\n## Keywords:\n\n Film, Biology, Nutrition, Dragon, Toothless, How to Train Your Dragon\n\n## Abstract [...] ## References\n\nHow to Train Your Dragon Wikia (2017) Toothless (Franchise), 8 March 2017. [On"
+          },
+          {
+            "title": "smolagents/gaia-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/gaia-traces",
+            "snippet": "Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n7. Top 14 Journal of Interdisciplinary Science Topics papers published ...\\\\n\\\\nThis paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon\\\\'s diet by catching and bringing fish ...\\\\n\\\\n8. ERROR: HTTP/1.1 400 Bad Request · Issue #97 · camel-ai/owl ...\\\\n\\\\n... fish bag that was calculated in the University of Leicester paper `Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?` . Never forget our ...'}]\\n---\\n[{'type': 'text', 'text': \\\"Calling tools:\\\\n[{'id': 'call\\_q7bkKvzPrPVKj5wTs2KZVMgo', 'type': 'function', 'function': {'name': 'visit\\_page', 'arguments': {'url': ' [...] Enough Fish to Maintain a Dragon’s Diet? University of Leicester'}}}]\\\"}]\\n---\\n{'type': 'text', 'text': 'Observation:\\\\n## Search Results\\\\n0. [View of Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nCan Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\n1. ojsboss,+Journal+manager,+16\\_243-1254-2-PB.pdf\\\\n\\\\nFish are a large component of a dragon\\\\'s diet, and Toothle"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496",
+            "content": "Hiccup Horrendous Haddock III, the main protagonist, is a small teenage boy eager to prove himself as a Viking. Using an invention which closely resembles a net gun, Hiccup strikes down Toothless during a dragon raid. Toothless’ left caudal fin is severed, rendering him unable to fly out of the sunken area, known as The Cove . Fish are a large component of a dragon’s diet, and Toothless is exclusively dependent on fish for nutrition . This paper investigates whether Hiccup is able to maintain Toothless’ feeding habits while he is trapped in The Cove. \n\nAssumptions [...] Journal of Interdisciplinary Science Topics \n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet? \n\nAmal Doua \n\nThe Centre for Interdisciplinary Science, University of Leicester \n\n31/03/2017 \n\nAbstract [...] Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon’s diet by catching and bringing fish to him. It was found that in the twelve days that Toothless was trapped, he would have required 13 Icelandic cod and 56 Atlantic salmon every day, which totalled 716 kg. Hiccup would have had to carry 828 fish weighing at total of 8592 kg over the twelve days, which is unrealistic since he struggles to lift a shield in combat.",
+            "score": 0.99996996
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://www.semanticscholar.org/paper/Can-Hiccup-Supply-Enough-Fish-to-Maintain-a-Diet-Doua/ed279d4fe147e52ee70e70184b4ea7b813e4f43c",
+            "content": "Corpus ID: 114726103\n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\n\n```\n@article{Doua2017CanHS,\n  title={Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?},\n  author={Amal Doua},\n  journal={Journal of Interdisciplinary Science Topics},\n  year={2017},\n  volume={6},\n  url={\n}\n```\n\n Amal Doua\n Published 31 March 2017\n Environmental Science\n Journal of Interdisciplinary Science Topics [...] Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon’s diet by catching and bringing fish to him. It was found that in…\n\n1 Citation\n\nBackground Citations\n\n1\n\n## Figures and Tables from this paper\n\n## One Citation\n\n### The Nutritional Value of Toothless’ Meals\n\nAmal Doua\n\nAgricultural and Food Sciences\n\n 2017",
+            "score": 0.9999318
+          },
+          {
+            "title": "smolagents/training-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/training-traces",
+            "content": "Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n7. Top 14 Journal of Interdisciplinary Science Topics papers published ...\\\\n\\\\nThis paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon\\\\'s diet by catching and bringing fish ...\\\\n\\\\n8. ERROR: HTTP/1.1 400 Bad Request · Issue #97 · camel-ai/owl ...\\\\n\\\\n... fish bag that was calculated in the University of Leicester paper `Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?` . Never forget our ...'}]\\n---\\n[{'type': 'text', 'text': \\\"Calling tools:\\\\n[{'id': 'call\\_q7bkKvzPrPVKj5wTs2KZVMgo', 'type': 'function', 'function': {'name': 'visit\\_page', 'arguments': {'url': ' [...] Enough Fish to Maintain a Dragon’s Diet? University of Leicester'}}}]\\\"}]\\n---\\n{'type': 'text', 'text': 'Observation:\\\\n## Search Results\\\\n0. [View of Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nCan Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\n1. ojsboss,+Journal+manager,+16\\_243-1254-2-PB.pdf\\\\n\\\\nFish are a large component of a dragon\\\\'s diet, and Toothless is exclusively dependent on fish for nutrition . This paper investigates whether Hiccup is able ...\\\\n\\\\n2. The Nutritional Value of Toothless\\\\' Meals | Journal of ...\\\\n\\\\nA previous paper determined that it was unfeasible that Hiccup would be able to carry the amount of fish depicted in the film, however this paper assumes ...\\\\n\\\\n3. Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s [...] Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nNo information is available for this page. · Learn why\\\\n\\\\n4. Description: The Nutritional Value of Toothless\\\\' Meals - Open Polar\\\\n\\\\nProvided that Toothless receives 13 Icelandic cod and 56 Atlantic Salmon, he takes in 2.95x106 kJ of energy and 1328 kg of protein every day. Toothless uses ...\\\\n\\\\n5. [[PDF] Journal of Interdisciplinary Science Topics - University of Leicester ...]( Centre for Interdisciplinary Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n6. Journal of Interdisciplinary Science Topics - The Nutritional Value of ...\\\\n\\\\nThe Centre for Interdisciplinary Science, University of Leicester. 31/03/2017. Abstract",
+            "score": 0.9998416
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/view/733",
+            "content": "Toothless is a Night Fury dragon who appears in the How to Train Your Dragon (HTTYD) franchise, and is said to be the rarest, fastest, and most intelligent of the dragon species. In the 2010 film, Toothless is struck down during a dragon raid and loses his left tail-fin, leaving him trapped in a sunken area. This paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon’s diet by catching and bringing fish to him. It was found that in the twelve days that Toothless was trapped, he would have required 13 Icelandic cod and 56 Atlantic salmon every day, which totalled 716 kg. Hiccup would have had to carry 828 fish weighing at total of 8592 kg over the twelve days, which is unrealistic since he struggles to lift a shield in combat. [...] Journal of Interdisciplinary Science Topics\n\n# Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\n\n## Authors\n\n Amal Doua   The Centre for Interdisciplinary Science, University of Leicester\n\n## Keywords:\n\n Film, Biology, Nutrition, Dragon, Toothless, How to Train Your Dragon\n\n## Abstract [...] ## References\n\nHow to Train Your Dragon Wikia (2017) Toothless (Franchise), 8 March 2017. [Online]. Available at: . [Accessed 10 March 2017].\n\nHow to Train Your Dragon Wikia (2017) Night Fury, 7 March 2017. [Online]. Available at: . [Accessed 17 March 2017].\n\nSchool of Dragons (2014) The Cove. [Online]. Available at: . [Accessed 16 March 2017].\n\nHow to Train Your Dragon Wikia (2016) Fish, 11 December 2016. [Online]. Available at: . [Accessed 16 March 2017].\n\nSanders, C. & DeBlois, B. (2010) How To Train Your Dragon. [Film]. United States of America: DreamWorks Animation.\n\nEndy (2013) So regarding Hiccup's height - An analysis by a man of science, 2013. [Online]. Available at: . [Accessed 17 March 2017].",
+            "score": 0.99984026
+          },
+          {
+            "title": "smolagents/gaia-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/gaia-traces",
+            "content": "Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n7. Top 14 Journal of Interdisciplinary Science Topics papers published ...\\\\n\\\\nThis paper investigates the feasibility of Hiccup, a teenage boy, being able to supply enough fish to maintain the dragon\\\\'s diet by catching and bringing fish ...\\\\n\\\\n8. ERROR: HTTP/1.1 400 Bad Request · Issue #97 · camel-ai/owl ...\\\\n\\\\n... fish bag that was calculated in the University of Leicester paper `Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?` . Never forget our ...'}]\\n---\\n[{'type': 'text', 'text': \\\"Calling tools:\\\\n[{'id': 'call\\_q7bkKvzPrPVKj5wTs2KZVMgo', 'type': 'function', 'function': {'name': 'visit\\_page', 'arguments': {'url': ' [...] Enough Fish to Maintain a Dragon’s Diet? University of Leicester'}}}]\\\"}]\\n---\\n{'type': 'text', 'text': 'Observation:\\\\n## Search Results\\\\n0. [View of Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nCan Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\n1. ojsboss,+Journal+manager,+16\\_243-1254-2-PB.pdf\\\\n\\\\nFish are a large component of a dragon\\\\'s diet, and Toothless is exclusively dependent on fish for nutrition . This paper investigates whether Hiccup is able ...\\\\n\\\\n2. The Nutritional Value of Toothless\\\\' Meals | Journal of ...\\\\n\\\\nA previous paper determined that it was unfeasible that Hiccup would be able to carry the amount of fish depicted in the film, however this paper assumes ...\\\\n\\\\n3. Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s [...] Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?\\\\n\\\\nNo information is available for this page. · Learn why\\\\n\\\\n4. Description: The Nutritional Value of Toothless\\\\' Meals - Open Polar\\\\n\\\\nProvided that Toothless receives 13 Icelandic cod and 56 Atlantic Salmon, he takes in 2.95x106 kJ of energy and 1328 kg of protein every day. Toothless uses ...\\\\n\\\\n5. [[PDF] Journal of Interdisciplinary Science Topics - University of Leicester ...]( Centre for Interdisciplinary Science, University of Leicester. 31/03/2017. Abstract ... (2017) \\\"Can Hiccup Supply Enough Fish to Maintain a Dragon\\\\'s Diet?,\\\" ...\\\\n\\\\n6. Journal of Interdisciplinary Science Topics - The Nutritional Value of ...\\\\n\\\\nThe Centre for Interdisciplinary Science, University of Leicester. 31/03/2017. Abstract",
+            "score": 0.9998148
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496",
+            "score": 0.99996996
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://www.semanticscholar.org/paper/Can-Hiccup-Supply-Enough-Fish-to-Maintain-a-Diet-Doua/ed279d4fe147e52ee70e70184b4ea7b813e4f43c",
+            "score": 0.9999318
+          },
+          {
+            "title": "smolagents/training-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/training-traces",
+            "score": 0.9998416
+          },
+          {
+            "title": "Can Hiccup Supply Enough Fish to Maintain a Dragon's Diet?",
+            "url": "https://journals.le.ac.uk/index.php/jist/article/view/733",
+            "score": 0.99984026
+          },
+          {
+            "title": "smolagents/gaia-traces · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/smolagents/gaia-traces",
+            "score": 0.9998148
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Can Hiccup Supply Enough"
+          },
+          {
+            "type": "name_like",
+            "value": "Fish"
+          },
+          {
+            "type": "name_like",
+            "value": "Maintain"
+          },
+          {
+            "type": "name_like",
+            "value": "Dragon"
+          },
+          {
+            "type": "name_like",
+            "value": "Diet"
+          },
+          {
+            "type": "name_like",
+            "value": "Hiccup Horrendous Haddock"
+          },
+          {
+            "type": "name_like",
+            "value": "Viking"
+          },
+          {
+            "type": "name_like",
+            "value": "Using"
+          },
+          {
+            "type": "name_like",
+            "value": "Hiccup"
+          },
+          {
+            "type": "name_like",
+            "value": "Toothless"
+          },
+          {
+            "type": "name_like",
+            "value": "The Cove"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Assumptions"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Interdisciplinary Science Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Amal Doua"
+          },
+          {
+            "type": "name_like",
+            "value": "The Centre"
+          },
+          {
+            "type": "name_like",
+            "value": "Interdisciplinary Science"
+          },
+          {
+            "type": "name_like",
+            "value": "University"
+          },
+          {
+            "type": "name_like",
+            "value": "Leicester"
+          },
+          {
+            "type": "name_like",
+            "value": "Abstract"
+          },
+          {
+            "type": "name_like",
+            "value": "Night Fury"
+          },
+          {
+            "type": "name_like",
+            "value": "How"
+          },
+          {
+            "type": "name_like",
+            "value": "Train Your Dragon"
+          },
+          {
+            "type": "name_like",
+            "value": "Corpus"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "March"
+          },
+          {
+            "type": "name_like",
+            "value": "Environmental Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Citation"
+          },
+          {
+            "type": "name_like",
+            "value": "Background Citations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the retrieved paper to extract relevant text regarding the volume of the fish bag.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the volume information in m^3 from the processed text of the paper.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"volume\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Hiccup Horrendous Haddock III\",\n      \"type\": \"character\",\n      \"evidence\": \"Hiccup Horrendous Haddock III, the main protagonist, is a small teenage boy eager to prove himself as a Viking.\",\n      \"source_url\": \"https://journals.le.ac.uk/index.php/jist/article/view/"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "reason",
+      "description": "Build a logical reasoning based on the extracted volume information.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"Toothless, the dragon, requires specific amounts of fish daily to maintain his diet.\",\n    \"Hiccup's ability to supply enough fish for Toothless is limited by his physical capacity.\"\n  ],\n  \"reasoning_steps\": [\n    \"The paper by Amal Doua calculates that Toothless requires 13 Icelandic cod and 56 Atlantic salmon daily.\",\n    \"Over twelve days, this totals 716 kg of fish.\",\n    \"H",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T5",
+      "role": "critic",
+      "description": "Verify the extracted volume information for accuracy and logical consistency.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "overall_verdict": "needs_more_evidence",
+        "issues": [
+          {
+            "type": "unclear",
+            "description": "LLM returned non-JSON output. See raw_text.",
+            "severity": "medium",
+            "related_fact": null
+          }
+        ],
+        "confirmed_points": [],
+        "risk_notes": [
+          "Non-JSON critic output; treat with caution."
+        ],
+        "follow_up_queries": [],
+        "recommendations_for_answer_agent": [
+          "Use only well-sourced claims; consider re-running search."
+        ],
+        "_raw_text": "{\n  \"overall_verdict\": \"needs_more_evidence\",\n  \"issues\": [\n    {\n      \"type\": \"missing_source\",\n      \"description\": \"The calculations regarding the amount of fish Hiccup would need to carry to feed Toothless lack direct citation from the paper.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"unverifiable\",\n      \"description\": \"The claim about Hiccup's physical limitations is not sufficiently supported by evidence from the"
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the volume of the fish bag in m^3.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "Volume not specified",
+        "final_answer_strict": "N/A",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "n/a",
+    "gt_norm": "0.1777"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "305ac316-eef6-4446-960a-92d80d542f82",
+  "query": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+  "ground_truth": "Wojciech",
+  "answer_raw": {
+    "final_answer": "Łukasz",
+    "final_answer_strict": "Łukasz",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Łukasz",
+  "error": null,
+  "duration_sec": 68.50047898292542,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+        "facts": [
+          {
+            "fact": "Bartłomiej Kasprzykowski played the role of Roman in the Polish adaptation 'Wszyscy kochają Romana'.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "'Wszyscy kochają Romana' premiered on TVN on 2 September 2011.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "The series 'Wszyscy kochają Romana' is a Polish-language adaptation of 'Everybody Loves Raymond'.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "The show 'Wszyscy kochają Romana' aired its first four episodes on Friday nights at 8:00 pm.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wszyscy kochają Romana - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana",
+            "snippet": "Wszyscy kochają Romana (Everybody Loves Roman) is a Polish television sitcom that premiered on TVN on 2 September 2011. [1][2] The series is a Polish-language adaptation of the American Emmy Awards winner, Everybody Loves Raymond and stars Bartłomiej Kasprzykowski as the titular Roman, a newspaper sportswriter. The first four episodes were aired on Friday nights at 8:00 pm. On 30 September ..."
+          },
+          {
+            "title": "Wszyscy kochaja Romana (TV Series 2011-2012) - IMDb",
+            "url": "https://www.imdb.com/title/tt2255669/",
+            "snippet": "Wszyscy kochaja Romana: With Bartek Kasprzykowski, Aneta Todorczuk-Perchuc, Joachim Lamza, TeDe."
+          },
+          {
+            "title": "Ray Romano Has One Condition if 'Everybody Loves Raymond ... - Collider",
+            "url": "https://collider.com/ray-romano-everybody-loves-raymond-reboot-condition/",
+            "snippet": "Everybody Loves Raymond featured a huge cast that played Ray's family. Also starring in this sitcom are Patricia Heaton, who recently starred in the 2024 version of Frasier, Brad Garrett, who ..."
+          },
+          {
+            "title": "Ray Romano as Ray Barone Jan 2026 - Everybody Loves Raymond Official ...",
+            "url": "https://www.everybodylovesray.com/ray-romano-ray-barone/",
+            "snippet": "For his role in \"Everybody Loves Raymond,\" Romano won the 2002 Emmy Award for \"Outstanding Lead Actor in a Comedy Series.\" He was also nominated in 1999, 2000, 2001, and 2003."
+          },
+          {
+            "title": "Wszyscy kochają Raymonda (1996) pełna obsada - Filmweb",
+            "url": "https://www.filmweb.pl/serial/Wszyscy+kochaj%C4%85+Raymonda-1996-120824/cast/actors",
+            "snippet": "Pełna obsada serialu Wszyscy kochają Raymonda (1996) Everybody Loves Raymond - Dziennikarz sportowy zmaga się ze swoimi nadopiekuńczymi rodzicami, którzy mieszkają po drugiej stronie ulicy."
+          }
+        ],
+        "summary": "Bartłomiej Kasprzykowski is the actor who portrayed Roman in the Polish version of 'Everybody Loves Raymond', which premiered on September 2, 2011."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the name of the actor from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Bartłomiej Kasprzykowski",
+            "type": "actor",
+            "evidence": "Bartłomiej Kasprzykowski played the role of Roman in the Polish adaptation 'Wszyscy kochają Romana'."
+          }
+        ],
+        "key_points": [
+          "Bartłomiej Kasprzykowski is the actor who portrayed Roman in the Polish version of 'Everybody Loves Raymond'."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2",
+            "unit": "September 2011",
+            "context": "The premiere date of 'Wszyscy kochają Romana'."
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Wszyscy kochają Romana",
+            "definition": "A Polish-language adaptation of 'Everybody Loves Raymond'.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find information about the actor's role in Magda M.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the actor's role in Magda M.",
+        "facts": [
+          {
+            "fact": "Magda M. aired on TVN from 2005 to 2007.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "Jacek Braciak played the role of Łukasz Zaniewicz in Magda M.",
+            "source_url": "https://www.themoviedb.org/tv/12949-magda-m/cast"
+          },
+          {
+            "fact": "The show is classified as a Polish soap opera.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "Magda M. has a full cast and crew listed on IMDb.",
+            "source_url": "https://www.imdb.com/title/tt0471052/fullcredits/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Magda M. (TV Series 2005- ) - Full cast & crew - IMDb",
+            "url": "https://www.imdb.com/title/tt0471052/fullcredits/",
+            "snippet": "Magda M. (TV Series 2005- ) - Cast and crew credits, including actors, actresses, directors, writers and more."
+          },
+          {
+            "title": "Magda M. - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Magda_M.",
+            "snippet": "Magda M. (Polish pronunciation: [ˈmaɡda ˈɛm]) was a Polish soap opera which aired on TVN from 2005 to 2007."
+          },
+          {
+            "title": "Magda M. (2005-2007) - Full Cast and Crew | Moviefone",
+            "url": "https://www.moviefone.com/tv-shows/magda-m/rzBknY90zCtKd8pCo0B5q6/credits/",
+            "snippet": "Meet the full cast and crew of Magda M. including actors, directors, producers, and more."
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - The Movie Database (TMDB)",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m/cast",
+            "snippet": "Magda M. was a Polish soap opera. Jacek Braciak Łukasz Zaniewicz, wspólnik Waligóry (15 Episodes)"
+          },
+          {
+            "title": "Magda M. Cast Members List - FamousFix",
+            "url": "https://www.famousfix.com/topic/magda-m/cast",
+            "snippet": "List of actors and actresses who star in Magda M. (list of Magda M. cast members)."
+          }
+        ],
+        "summary": "Magda M. is a Polish soap opera that aired from 2005 to 2007, featuring Jacek Braciak as Łukasz Zaniewicz."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Łukasz\",\n      \"type\": \"character\",\n      \"evidence\": \"Jacek Braciak played the role of Łukasz Zaniewicz in Magda M.\"\n    }\n  ],\n  \"key_points\": [\n    \"Jacek Braciak portrayed the character Łukasz in the soap opera Magda M.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Łukasz",
+        "final_answer_strict": "Łukasz",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "łukasz",
+    "gt_norm": "wojciech"
+  }
+}

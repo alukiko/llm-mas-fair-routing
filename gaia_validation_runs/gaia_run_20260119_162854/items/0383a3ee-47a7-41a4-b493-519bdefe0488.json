@@ -1,0 +1,212 @@
+{
+  "id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+  "query": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?",
+  "ground_truth": "Rockhopper penguin",
+  "answer_raw": {
+    "final_answer": "penguin",
+    "final_answer_strict": "penguin",
+    "used_evidence": [
+      "The video features animals like polar bears, penguins, and lions."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What specific moments involving penguins are shown in the video?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "penguin",
+  "error": null,
+  "duration_sec": 41.0484356880188,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+        "facts": [
+          {
+            "fact": "The video 'Top 5 Silliest Animal Moments' is available on YouTube.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video features animals like polar bears, penguins, and lions.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The content showcases both impressive and ridiculous moments of animals.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "snippet": "The mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world - and at times, the most ridiculous. Join us as we recount the endearing ..."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzSearch",
+            "url": "https://www.kidzsearch.com/kidztube/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "snippet": "Here you'll find 50 years worth of entertaining and thought-provoking natural history content. Dramatic, rare, and exclusive, nature doesn't get more exciting than this."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth | Top 5 Silliest Animal ...",
+            "url": "https://www.facebook.com/StarKidsTV11/videos/top-5-silliest-animal-moments-bbc-earth/210197006848692/",
+            "snippet": "Top 5 Silliest Animal Moments! | BBC EarthThe mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world - and at times, the most ridiculous."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PLBggAGekFCmHPf1L-78ULPJ5nnV5z7_74",
+            "snippet": "Funny Talking Animals Walk On The Wild Side BBCBest of BBC Talking AnimalsThe 10 funniest animal photos of the year BBC GlobalTop 5 Silliest Animal Moments B..."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! BBC Earth - Miytube, videos, movies ...",
+            "url": "https://www.miytube.com/v/2680844508/Top-5-Silliest-Animal-Moments----BBC-Earth",
+            "snippet": "Top 5 Silliest Animal Moments! BBC Earth This video preview is brought to you by Miytube. Subscribe for full video without ads!"
+          }
+        ],
+        "summary": "The 'Top 5 Silliest Animal Moments' video by BBC Earth highlights amusing and remarkable behaviors of various animals."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the YouTube video to extract its content.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract information about the species of bird featured in the video.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "polar bear",
+            "type": "bird",
+            "evidence": "The video features animals like polar bears, penguins, and lions."
+          },
+          {
+            "name": "penguin",
+            "type": "bird",
+            "evidence": "The video features animals like polar bears, penguins, and lions."
+          },
+          {
+            "name": "lion",
+            "type": "mammal",
+            "evidence": "The video features animals like polar bears, penguins, and lions."
+          }
+        ],
+        "key_points": "The 'Top 5 Silliest Animal Moments' video by BBC Earth highlights amusing and remarkable behaviors of various animals.",
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the species of bird featured in the video.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "penguin",
+        "final_answer_strict": "penguin",
+        "used_evidence": [
+          "The video features animals like polar bears, penguins, and lions."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What specific moments involving penguins are shown in the video?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "penguin",
+    "gt_norm": "rockhopper penguin"
+  }
+}

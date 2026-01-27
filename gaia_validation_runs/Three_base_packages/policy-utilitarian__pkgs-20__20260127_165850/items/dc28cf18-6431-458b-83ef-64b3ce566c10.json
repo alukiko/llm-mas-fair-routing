@@ -1,0 +1,157 @@
+{
+  "id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+  "query": "My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.",
+  "ground_truth": "2",
+  "answer_raw": {
+    "final_answer": "4",
+    "final_answer_strict": "4.0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "4.0",
+  "error": null,
+  "duration_sec": 23.704084396362305,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "extract",
+      "description": "Extract the number of adults and kids attending the family reunion based on the provided information.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "matched_on": [],
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [],
+        "open_questions": [
+          "What is the number of adults and kids attending the family reunion?"
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "calc",
+      "description": "Calculate the total number of potatoes needed based on the number of adults and kids, considering their consumption rates.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "python_code": "# Missing required inputs: number of adults, number of kids, and their consumption rates.\nfinal_answer = None\nprint(final_answer)\n",
+        "output": "None\n",
+        "final_line": "None",
+        "error": null,
+        "llm_raw": "{\"python_code\":\"# Missing required inputs: number of adults, number of kids, and their consumption rates.\\nfinal_answer = None\\nprint(final_answer)\\n\"}"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "calc",
+      "description": "Determine the number of 5-pound bags of potatoes required based on the total weight of potatoes needed.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "python_code": "# Insufficient information: total weight of potatoes needed is not provided.\nfinal_answer = None\nprint(final_answer)\n",
+        "output": "None\n",
+        "final_line": "None",
+        "error": null,
+        "llm_raw": "{\"python_code\":\"# Insufficient information: total weight of potatoes needed is not provided.\\nfinal_answer = None\\nprint(final_answer)\\n\"}"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the final answer for the number of whole bags of potatoes needed.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "4",
+        "final_answer_strict": "4.0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 300,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 6,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 750,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "4.0",
+    "gt_norm": "2"
+  }
+}

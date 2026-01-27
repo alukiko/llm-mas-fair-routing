@@ -1,0 +1,126 @@
+{
+  "id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+  "query": "Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.\n\nWhat does Teal'c say in response to the question \"Isn't that hot?\"",
+  "ground_truth": "Extremely",
+  "answer_raw": {
+    "final_answer": "I do not know.",
+    "final_answer_strict": "I do not know.",
+    "used_evidence": [
+      "No transcript text or snippet was provided to extract Teal'c's response."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Please provide the transcript of the YouTube video at https://www.youtube.com/watch?v=1htKBjuUWec, specifically the part where Teal'c responds to 'Isn't that hot?'"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "I do not know.",
+  "error": null,
+  "duration_sec": 18.046621561050415,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the video at the provided URL and extract the audio transcript.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the specific response from Teal'c regarding the question 'Isn't that hot?' from the transcript.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": false,\n  \"matched_on\": [],\n  \"entities\": [\n    {\n      \"name\": \"Teal'c\",\n      \"type\": \"character\",\n      \"evidence\": \"Extract requested: \\\"Extract the specific response from Teal'c regarding the question 'Isn't that hot?' from the transcript.\\\"\",\n      \"source_url\": null\n    }\n  ],\n  \"key_points\": [\n    \"No transcript text/snippet was provided in the search_context or intermediate_results, so Teal'c's specific response cannot be extracted.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"Extract the specific response from Teal'c regarding the question 'Isn't that hot?' from the transcript.\",\n      \"source_url\": null\n    }\n  ],\n  \"open_questions\": [\n    \"Please provide the transcript text (or a snippet containing the line 'Isn't that hot?' and Teal'c's reply) and, if available, the episode name/number or a source"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer based on the extracted response from Teal'c.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "I do not know.",
+        "final_answer_strict": "I do not know.",
+        "used_evidence": [
+          "No transcript text or snippet was provided to extract Teal'c's response."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Please provide the transcript of the YouTube video at https://www.youtube.com/watch?v=1htKBjuUWec, specifically the part where Teal'c responds to 'Isn't that hot?'"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 250,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 1500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 10,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "i do not know",
+    "gt_norm": "extremely"
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+  "query": "How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use the latest 2022 version of english wikipedia.",
+  "ground_truth": "3",
+  "answer_raw": {
+    "final_answer": "1",
+    "final_answer_strict": "1.0",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "1.0",
+  "error": null,
+  "duration_sec": 55.30523753166199,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the latest 2022 version of the English Wikipedia page for Mercedes Sosa.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the latest 2022 version of the English Wikipedia page for Mercedes Sosa.",
+        "facts": [
+          {
+            "fact": "Haydée Mercedes Sosa was born on July 9, 1935, in San Miguel de Tucumán, Tucumán, Argentina.",
+            "source_url": "https://en.wikipedia.org/wiki/Mercedes_Sosa"
+          },
+          {
+            "fact": "Mercedes Sosa was known as the 'voice of the voiceless ones' and was often referred to as 'the conscience of Latin America.'",
+            "source_url": "https://en.wikipedia.org/wiki/Mercedes_Sosa"
+          },
+          {
+            "fact": "Sosa passed away on October 4, 2009, from multiple organ failure in Buenos Aires, Argentina.",
+            "source_url": "https://simple.wikipedia.org/wiki/Mercedes_Sosa"
+          },
+          {
+            "fact": "She was active as a singer and activist from 1950 until her death in 2009.",
+            "source_url": "https://simple.wikipedia.org/wiki/Mercedes_Sosa"
+          },
+          {
+            "fact": "Sosa was a prominent exponent of 'nueva canción,' a music movement that combines folk music with political themes.",
+            "source_url": "https://en.wikipedia.org/wiki/Mercedes_Sosa"
+          }
+        ],
+        "summary": "Haydée Mercedes Sosa, born on July 9, 1935, in Argentina, was a celebrated singer and activist known as the 'voice of the voiceless ones.' She passed away on October 4, 2009, and was a key figure in the nueva canción movement.",
+        "sources": [
+          {
+            "title": "Mercedes Sosa",
+            "url": "https://en.wikipedia.org/wiki/Mercedes_Sosa",
+            "snippet": "Wikipedia\n\n# Mercedes Sosa\n\nHaydée Mercedes Sosa (9 July 1935 – 4 October 2009) was an Argentine singer who was popular throughout Latin America and many countries outside the region. With her roots in Argentine folk music, Sosa became one of the preeminent exponents of El nuevo cancionero. She gave voice to songs written by many Latin American songwriters. Her music made people hail her as the \"voice of the voiceless ones\". She was often called \"the conscience of Latin America\". [...] | 1976 | En Dirección Del Viento   Label: Philips |\n| 1977 | Mercedes Sosa Interpreta a Atahualpa Yupanqui   Label: Philips |\n| 1979 | Serenata Para la Tierra de Uno   Label: Philips |\n| 1981 | A Quien Doy / Cuando Me Acuerdo de Mi País   Label: Philips |\n| 1982 | Como Un Pájaro Libre   Label: Philips |\n| 1983 | Mercedes Sosa   Label: Philips |\n| 1984 | ¿Será Posible el Sur?   Label: Philips |\n| 1985 | Vengo a Ofrecer Mi Corazón   Label: Philips |\n| 1986 | Mercedes Sosa '86   Label: Philips |\n| 1987 | Mercedes Sosa '87   Label: Philips |\n| 1993 | Sino   Label: Philips/Polygram |\n| 1994 | Gestos de Amor   Label: Polydor |\n| 1996 | Escondido en Mi País   Label: Polydor |\n| 1997 | Alta Fidelidad (w/Char"
+          },
+          {
+            "title": "Mercedes Sosa - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Mercedes_Sosa",
+            "snippet": "Wikipedia\nThe Free Encyclopedia\n\n## Contents\n\n# Mercedes Sosa\n\n| Mercedes Sosa | |\n --- |\n| Mercedes Sosa, photograph by Annemarie Heinrich. Mercedes Sosa, photograph by Annemarie Heinrich\"). | |\n| Background information | |\n| Birth name | Haydée Mercedes Sosa |\n| Born | (1935-07-09)July 9, 1935 San Miguel de Tucumán, Tucumán, Argentina |\n| Origin | Argentina |\n| Died | October 4, 2009(2009-10-04) (aged 74) Buenos Aires, Argentina |\n| Genres | Folk, Nueva canción\") |\n| Occupation(s) | Singer, Activist |\n| Years active | 1950–2009 |\n\nMercedes Sosa, photograph by Annemarie Heinrich. [...] Mercedes Sosa, photograph by Annemarie Heinrich.\n\nMarta Haydée Mercedes Sosa Girón (9 July 1935 – 4 October 2009) was an Argentine singer. She was popular throughout Latin America and many countries outside the continent. Sosa became one of the important examples of nueva canción\"). She gave voice to songs written by both Brazilians and Cubans. She was best known as the \"voice of the voiceless ones\".\n\nSosa suffered from breathing problems in later years. Sosa went into hospital in Buenos Aires on September 18, 2009. She died from multiple organ failure on October 4, 2009. She was aged 74.\n\n## Refere"
+          },
+          {
+            "title": "Cantora, un Viaje Íntimo",
+            "url": "https://en.wikipedia.org/wiki/Cantora,_un_Viaje_%C3%8Dntimo",
+            "snippet": "Wikipedia\n\n# Cantora, un Viaje Íntimo\n\nCantora, un Viaje Íntimo (English: Cantora, An Intimate Journey) is a double album by Argentine singer Mercedes Sosa, released on 2009 through Sony Music Argentina. The album features Cantora 1 and Cantora 2, the project is Sosa's final album before her death on October 4, 2009. [...] The double album was a commercial success, being certified platinum by the CAPIF selling more than 200,000 copies in Argentina, Cantora 1 was also certified platinum selling 40,000 copies while Cantora 2 was certified gold selling 20,000 copies. The album also peaked at numbers 22 and 8 at the Top Latin Albums and Latin Pop Albums charts in United States, respectively, being Sosa's only appearances on both charts.\n\nAt documentary film titled Mercedes Sosa, Cantora un viaje íntimo was released on 2009, it was directed by Rodrigo Vila and features the recording process of the album as well as testimonies from the different guest artists that appeared on the project.\n\n## Contents\n\n## Background [...] | Cantora, un Viaje Íntimo | |\n --- |\n|  | |\n| Studio album by Mercedes Sosa | |\n| Released | March 2009 (Disc one) June 2009 (Disc two) |\n| Recorded | May 2008–June 20"
+          },
+          {
+            "title": "Mercedes Sosa - Wikipedia",
+            "url": "https://sco.wikipedia.org/wiki/Mercedes_Sosa",
+            "snippet": "Wikipedia\nThe Free Encyclopaedia\n\n## Contents\n\n# Mercedes Sosa\n\n| Mercedes Sosa | |\n --- |\n| Sosa in 2008 | |\n| Background information | |\n| Birth name | Haydée Mercedes Sosa |\n| Born | 9 Julie 1935(1935-07-09) San Miguel de Tucumán\"), Tucumán, Argentina |\n| Oreigin | Argentinae |\n| Deid | 4 October 2009(2009-10-04) (aged 74) Buenos Aires, Argentinae |\n| Genres | Folk\"), Nueva canción\") |\n| Thrift | Sangster, Activist\") |\n| Years active | 1950–2009 | [...] Haydée Mercedes Sosa (9 Julie 1935 – 4 October 2009), kent as La Negra (leeterally: The Black Ane), wis an Argentine sangster\") who wis popular throuoot Laitin Americae an mony kintras ootside the continent. Wi her ruits in Argentine fowk music\"), Sosa became ane o the preeminent exponents o nueva canción\"). She gae vyce tae sangs written bi baith Brazilians an Cubans. She wis best kent as the \"vyce o the vyceless ones\". [...] ## Discografie\n\nShe recordit fowerty albums.\n\n## Filmografie\n\n## References\n\n`|publisher=`\n`|publisher=`\n\n## Freemit airtins\n\n|  |  |\n --- |\n|  | Wikiquote haes quotations relatit tae: Mercedes Sosa |\n\n|  |  |\n --- |\n|  | Wikimedia Commons haes media relatit tae Mercedes Sosa. |\n\nWikimedia Foundation\nPowere"
+          },
+          {
+            "title": "File:Mercedes Sosa 1970.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Mercedes_Sosa_1970.jpg",
+            "snippet": "|  | Date/Time | Thumbnail | Dimensions | User | Comment |\n ---  ---  --- |\n| current | 19:30, 26 March 2018 | Thumbnail for version as of 19:30, 26 March 2018 | 300 × 411 (24 KB) | Bleff\") (talk | contribs) | == {{int:filedesc}} == {{Information |Description={{es|Mercedes Sosa en la ''Revista Siete Días Ilustrados''}} |Source= [ Mágicas Ruinas] |Date=1970 |Author={{unknown|Author}} |Permission={{PD-AR-Photo}} |other\\_versions= }} Category:Mercedes Sosa |\n\nThumbnail for version as of 19:30, 26 March 2018\n\nYou cannot overwrite this file.\n\n## File usage on Commons\n\nThe following page uses this file:\n\n## Structured data\n\n### Items portrayed in this file\n\n#### depicts\n\n#### Mercedes Sosa\n\n#### Languages\n\nThis page is not available in other languages.\n\nWikimedia Commons [...] |  |  |  |  |  |  |  |\n ---  ---  --- [...] Wikimedia Commons\n\n Wikimedia Foundation\n Powered by MediaWiki\n\nWikimedia Foundation\nPowered by MediaWiki"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Mercedes Sosa",
+            "url": "https://en.wikipedia.org/wiki/Mercedes_Sosa",
+            "content": "Wikipedia\n\n# Mercedes Sosa\n\nHaydée Mercedes Sosa (9 July 1935 – 4 October 2009) was an Argentine singer who was popular throughout Latin America and many countries outside the region. With her roots in Argentine folk music, Sosa became one of the preeminent exponents of El nuevo cancionero. She gave voice to songs written by many Latin American songwriters. Her music made people hail her as the \"voice of the voiceless ones\". She was often called \"the conscience of Latin America\". [...] | 1976 | En Dirección Del Viento   Label: Philips |\n| 1977 | Mercedes Sosa Interpreta a Atahualpa Yupanqui   Label: Philips |\n| 1979 | Serenata Para la Tierra de Uno   Label: Philips |\n| 1981 | A Quien Doy / Cuando Me Acuerdo de Mi País   Label: Philips |\n| 1982 | Como Un Pájaro Libre   Label: Philips |\n| 1983 | Mercedes Sosa   Label: Philips |\n| 1984 | ¿Será Posible el Sur?   Label: Philips |\n| 1985 | Vengo a Ofrecer Mi Corazón   Label: Philips |\n| 1986 | Mercedes Sosa '86   Label: Philips |\n| 1987 | Mercedes Sosa '87   Label: Philips |\n| 1993 | Sino   Label: Philips/Polygram |\n| 1994 | Gestos de Amor   Label: Polydor |\n| 1996 | Escondido en Mi País   Label: Polydor |\n| 1997 | Alta Fidelidad (w/Charly García)   Label: Mercury |\n| 1998 | Al Despertar   Label: Mercury | [...] | Mercedes Sosa | |\n --- |\n| Portrait by Annemarie Heinrich, 1960s | |\n| Born | Haydée Mercedes Sosa  (1935-07-09)9 July 1935  San Miguel de Tucumán, Tucumán, Argentina |\n| Died | 4 October 2009(2009-10-04) (aged 74)  Buenos Aires, Argentina |\n| Occupation | Singer |\n| Years active | 1950–2009 |\n| Musical career | |\n| Genres |  Folk  nueva canción |\n| Instruments | Vocals |\n|  | |",
+            "score": 0.9952077
+          },
+          {
+            "title": "Mercedes Sosa - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Mercedes_Sosa",
+            "content": "Wikipedia\nThe Free Encyclopedia\n\n## Contents\n\n# Mercedes Sosa\n\n| Mercedes Sosa | |\n --- |\n| Mercedes Sosa, photograph by Annemarie Heinrich. Mercedes Sosa, photograph by Annemarie Heinrich\"). | |\n| Background information | |\n| Birth name | Haydée Mercedes Sosa |\n| Born | (1935-07-09)July 9, 1935 San Miguel de Tucumán, Tucumán, Argentina |\n| Origin | Argentina |\n| Died | October 4, 2009(2009-10-04) (aged 74) Buenos Aires, Argentina |\n| Genres | Folk, Nueva canción\") |\n| Occupation(s) | Singer, Activist |\n| Years active | 1950–2009 |\n\nMercedes Sosa, photograph by Annemarie Heinrich. [...] Mercedes Sosa, photograph by Annemarie Heinrich.\n\nMarta Haydée Mercedes Sosa Girón (9 July 1935 – 4 October 2009) was an Argentine singer. She was popular throughout Latin America and many countries outside the continent. Sosa became one of the important examples of nueva canción\"). She gave voice to songs written by both Brazilians and Cubans. She was best known as the \"voice of the voiceless ones\".\n\nSosa suffered from breathing problems in later years. Sosa went into hospital in Buenos Aires on September 18, 2009. She died from multiple organ failure on October 4, 2009. She was aged 74.\n\n## References\n\n## Other websites\n\n Media related to Mercedes Sosa at Wikimedia Commons\n\nWikimedia Foundation\nPowered by MediaWiki",
+            "score": 0.99036634
+          },
+          {
+            "title": "Cantora, un Viaje Íntimo",
+            "url": "https://en.wikipedia.org/wiki/Cantora,_un_Viaje_%C3%8Dntimo",
+            "content": "Wikipedia\n\n# Cantora, un Viaje Íntimo\n\nCantora, un Viaje Íntimo (English: Cantora, An Intimate Journey) is a double album by Argentine singer Mercedes Sosa, released on 2009 through Sony Music Argentina. The album features Cantora 1 and Cantora 2, the project is Sosa's final album before her death on October 4, 2009. [...] The double album was a commercial success, being certified platinum by the CAPIF selling more than 200,000 copies in Argentina, Cantora 1 was also certified platinum selling 40,000 copies while Cantora 2 was certified gold selling 20,000 copies. The album also peaked at numbers 22 and 8 at the Top Latin Albums and Latin Pop Albums charts in United States, respectively, being Sosa's only appearances on both charts.\n\nAt documentary film titled Mercedes Sosa, Cantora un viaje íntimo was released on 2009, it was directed by Rodrigo Vila and features the recording process of the album as well as testimonies from the different guest artists that appeared on the project.\n\n## Contents\n\n## Background [...] | Cantora, un Viaje Íntimo | |\n --- |\n|  | |\n| Studio album by Mercedes Sosa | |\n| Released | March 2009 (Disc one) June 2009 (Disc two) |\n| Recorded | May 2008–June 2009 |\n| Studio |  Estudios Panda  Estudios Ion |\n| Genre | Folk |\n| Length | Disc one: 65:19 Disc two: 72:15 |\n| Label | Sony Music Argentina |\n| Producer |  Popi Spatocco |\n| Mercedes Sosa chronology | |\n| |  |  |  |  ---  | Corazón Libre (2005) | Cantora, un Viaje Íntimo (2009) | Siempre 1 y 2 (2009-2010) | | |\n\n|  |  |  |\n --- \n| Corazón Libre (2005) | Cantora, un Viaje Íntimo (2009) | Siempre 1 y 2 (2009-2010) |",
+            "score": 0.983343
+          },
+          {
+            "title": "Mercedes Sosa - Wikipedia",
+            "url": "https://sco.wikipedia.org/wiki/Mercedes_Sosa",
+            "content": "Wikipedia\nThe Free Encyclopaedia\n\n## Contents\n\n# Mercedes Sosa\n\n| Mercedes Sosa | |\n --- |\n| Sosa in 2008 | |\n| Background information | |\n| Birth name | Haydée Mercedes Sosa |\n| Born | 9 Julie 1935(1935-07-09) San Miguel de Tucumán\"), Tucumán, Argentina |\n| Oreigin | Argentinae |\n| Deid | 4 October 2009(2009-10-04) (aged 74) Buenos Aires, Argentinae |\n| Genres | Folk\"), Nueva canción\") |\n| Thrift | Sangster, Activist\") |\n| Years active | 1950–2009 | [...] Haydée Mercedes Sosa (9 Julie 1935 – 4 October 2009), kent as La Negra (leeterally: The Black Ane), wis an Argentine sangster\") who wis popular throuoot Laitin Americae an mony kintras ootside the continent. Wi her ruits in Argentine fowk music\"), Sosa became ane o the preeminent exponents o nueva canción\"). She gae vyce tae sangs written bi baith Brazilians an Cubans. She wis best kent as the \"vyce o the vyceless ones\". [...] ## Discografie\n\nShe recordit fowerty albums.\n\n## Filmografie\n\n## References\n\n`|publisher=`\n`|publisher=`\n\n## Freemit airtins\n\n|  |  |\n --- |\n|  | Wikiquote haes quotations relatit tae: Mercedes Sosa |\n\n|  |  |\n --- |\n|  | Wikimedia Commons haes media relatit tae Mercedes Sosa. |\n\nWikimedia Foundation\nPowered by MediaWiki",
+            "score": 0.97838473
+          },
+          {
+            "title": "File:Mercedes Sosa 1970.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Mercedes_Sosa_1970.jpg",
+            "content": "|  | Date/Time | Thumbnail | Dimensions | User | Comment |\n ---  ---  --- |\n| current | 19:30, 26 March 2018 | Thumbnail for version as of 19:30, 26 March 2018 | 300 × 411 (24 KB) | Bleff\") (talk | contribs) | == {{int:filedesc}} == {{Information |Description={{es|Mercedes Sosa en la ''Revista Siete Días Ilustrados''}} |Source= [ Mágicas Ruinas] |Date=1970 |Author={{unknown|Author}} |Permission={{PD-AR-Photo}} |other\\_versions= }} Category:Mercedes Sosa |\n\nThumbnail for version as of 19:30, 26 March 2018\n\nYou cannot overwrite this file.\n\n## File usage on Commons\n\nThe following page uses this file:\n\n## Structured data\n\n### Items portrayed in this file\n\n#### depicts\n\n#### Mercedes Sosa\n\n#### Languages\n\nThis page is not available in other languages.\n\nWikimedia Commons [...] |  |  |  |  |  |  |  |\n ---  ---  --- [...] Wikimedia Commons\n\n Wikimedia Foundation\n Powered by MediaWiki\n\nWikimedia Foundation\nPowered by MediaWiki",
+            "score": 0.92523
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Mercedes Sosa",
+            "url": "https://en.wikipedia.org/wiki/Mercedes_Sosa",
+            "score": 0.9952077
+          },
+          {
+            "title": "Mercedes Sosa - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Mercedes_Sosa",
+            "score": 0.99036634
+          },
+          {
+            "title": "Cantora, un Viaje Íntimo",
+            "url": "https://en.wikipedia.org/wiki/Cantora,_un_Viaje_%C3%8Dntimo",
+            "score": 0.983343
+          },
+          {
+            "title": "Mercedes Sosa - Wikipedia",
+            "url": "https://sco.wikipedia.org/wiki/Mercedes_Sosa",
+            "score": 0.97838473
+          },
+          {
+            "title": "File:Mercedes Sosa 1970.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Mercedes_Sosa_1970.jpg",
+            "score": 0.92523
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Mercedes Sosa\nWikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Mercedes Sosa"
+          },
+          {
+            "type": "name_like",
+            "value": "July"
+          },
+          {
+            "type": "name_like",
+            "value": "October"
+          },
+          {
+            "type": "name_like",
+            "value": "Argentine"
+          },
+          {
+            "type": "name_like",
+            "value": "Latin America"
+          },
+          {
+            "type": "name_like",
+            "value": "With"
+          },
+          {
+            "type": "name_like",
+            "value": "Sosa"
+          },
+          {
+            "type": "name_like",
+            "value": "She"
+          },
+          {
+            "type": "name_like",
+            "value": "Latin American"
+          },
+          {
+            "type": "name_like",
+            "value": "Her"
+          },
+          {
+            "type": "name_like",
+            "value": "Del Viento"
+          },
+          {
+            "type": "name_like",
+            "value": "Label"
+          },
+          {
+            "type": "name_like",
+            "value": "Philips"
+          },
+          {
+            "type": "name_like",
+            "value": "Mercedes Sosa Interpreta"
+          },
+          {
+            "type": "name_like",
+            "value": "Atahualpa Yupanqui"
+          },
+          {
+            "type": "name_like",
+            "value": "Serenata Para"
+          },
+          {
+            "type": "name_like",
+            "value": "Tierra"
+          },
+          {
+            "type": "name_like",
+            "value": "Uno"
+          },
+          {
+            "type": "name_like",
+            "value": "Quien Doy"
+          },
+          {
+            "type": "name_like",
+            "value": "Cuando Me Acuerdo"
+          },
+          {
+            "type": "name_like",
+            "value": "Como Un"
+          },
+          {
+            "type": "name_like",
+            "value": "Libre"
+          },
+          {
+            "type": "name_like",
+            "value": "Posible"
+          },
+          {
+            "type": "name_like",
+            "value": "Sur"
+          },
+          {
+            "type": "name_like",
+            "value": "Vengo"
+          },
+          {
+            "type": "name_like",
+            "value": "Ofrecer Mi"
+          },
+          {
+            "type": "name_like",
+            "value": "Sino"
+          },
+          {
+            "type": "name_like",
+            "value": "Polygram"
+          },
+          {
+            "type": "name_like",
+            "value": "Gestos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract information about studio albums published by Mercedes Sosa between 2000 and 2009 from the retrieved Wikipedia page.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the number of studio albums published by Mercedes Sosa in the specified time frame based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding the number of studio albums published by Mercedes Sosa between 2000 and 2009.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "1",
+        "final_answer_strict": "1.0",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 300,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 750,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 5,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "1.0",
+    "gt_norm": "3"
+  }
+}

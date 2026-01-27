@@ -1,0 +1,370 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": {
+    "final_answer": "R stands for 'reliability' in the context of the core policies.",
+    "final_answer_strict": "reliability",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "reliability",
+  "error": null,
+  "duration_sec": 48.87541079521179,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the three core policies related to content violations on Wikipedia.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the three core policies related to content violations on Wikipedia.",
+        "facts": [
+          {
+            "fact": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The Neutral Point of View (NPOV) principle requires presenting all sides of a topic without favoring any.",
+            "source_url": "https://blog.reputationx.com/wikipedia-core-policies"
+          },
+          {
+            "fact": "Wikipedia's core policies are non-negotiable rules that establish clear boundaries for how editors should approach writing, sourcing, and presenting information.",
+            "source_url": "https://blog.reputationx.com/wikipedia-core-policies"
+          },
+          {
+            "fact": "The principles of the core content policies are not superseded by other policies or editor consensus.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          }
+        ],
+        "summary": "Wikipedia's core content policies consist of neutral point of view, verifiability, and no original research, which collectively guide the content creation and curation process on the platform.",
+        "sources": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "snippet": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\nSee also: Wikipedia:Notability/Historical\n\n| External videos |\n\n| Jimmy Wales: The birth of Wikipedia, 2005 TED (conference), 20 mins. | [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ |"
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "snippet": "### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] 2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated pla"
+          },
+          {
+            "title": "Wikipedia:Strategic issues with core policies, guidelines ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Strategic_issues_with_core_policies,_guidelines_and_structures",
+            "snippet": "So, the only way that content policies and guidelines affect content is by affecting these three actions. Most operative clauses of core content policies and guidelines operate only by placing conditions on the presence of content. (one rare exception is the balancing provisions of wp:npov) So, to simplify even further, content policies and guidelines act by influencing against the addition of material or for the removal of material. Here are 3 different levels of strength of this \"influencing\":\n\n1. Give carte blanch for removal/exclusion. I.E. empower an editor to remove it, even over the objections of others\n2. Give a strong argument for removal/exclusion. Not #1, but gives an argument that would weigh heavily in a discussion\n3. Give a not-strong argument for removal/exclusion [...] are not wikilawyering and strengthens your case for that action. [...] fact coverage of Limbaugh's statement and the 2nd cousin's conviction."
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "snippet": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Wikipedia policy pages |  About Wikipedia  Five pillars  Citing sources  Copying text from other sources  Core content policies  Identifying reliable sources  Manual of Style  Neutral point of view  Notability  No original research  Verifiability  Words to watch  What Wikipedia is not | [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the ap"
+          },
+          {
+            "title": "Wikipedia:List of policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_policies",
+            "snippet": "| Administrators and noticeboards |  Administrators' noticeboard   + Incidents   + Edit warring   + Vandalism  Admin dashboard  Admin requests   + Closure   + Page protection   + User permissions   + Sockpuppets   + Open proxies  Revision deletion  Oversight   + Request  Usernames   + Changing   + Title blacklist  OTRS  Bureaucrats'   + Requests for adminship and bureaucratship  Arbitration Committee   + Requests   + Enforcement |\n| Content dispute resolution |  Requests for comment  Third opinion  Dispute resolution noticeboard   + Biographies of living persons   + Conflict of interest   + External links   + Fringe theories   + Neutral point of view   + No original research   + Reliable sources | [...] Conduct, which describes how editors can successfully collaborate and what behavior is acceptable\n Content, which defines the scope of the encyclopedia and the material that is suitable for it\n Deletion, which explains the processes by which pages, revisions, and logs may be deleted\n Enforcement, which accounts for various means by which standards may be enforced\n Legal, which includes rules influenced by legal considerations, and remedies for their misuse\n Procedural, which documen"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "content": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\nSee also: Wikipedia:Notability/Historical\n\n| External videos |\n\n| Jimmy Wales: The birth of Wikipedia, 2005 TED (conference), 20 mins. | [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ |",
+            "score": 0.9998785
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "content": "### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] 2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated platforms (like the ascendant Reddit) are rarely considered credible, though there are exceptions for verified accounts of prominent individuals in specific contexts. Sometimes. It’s a gray area.\n\n3. What happens if my edits violate a core policy?  \nIf your content breaches NPOV, Verifiability, or No Original Research, other editors or Wikipedia administrators will probably revert it to an earlier version of the page. Probably the one just before your edit. Repeated violations can lead to warnings, loss of editing privileges, or even bans from Wikipedia.",
+            "score": 0.99921453
+          },
+          {
+            "title": "Wikipedia:Strategic issues with core policies, guidelines ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Strategic_issues_with_core_policies,_guidelines_and_structures",
+            "content": "So, the only way that content policies and guidelines affect content is by affecting these three actions. Most operative clauses of core content policies and guidelines operate only by placing conditions on the presence of content. (one rare exception is the balancing provisions of wp:npov) So, to simplify even further, content policies and guidelines act by influencing against the addition of material or for the removal of material. Here are 3 different levels of strength of this \"influencing\":\n\n1. Give carte blanch for removal/exclusion. I.E. empower an editor to remove it, even over the objections of others\n2. Give a strong argument for removal/exclusion. Not #1, but gives an argument that would weigh heavily in a discussion\n3. Give a not-strong argument for removal/exclusion [...] are not wikilawyering and strengthens your case for that action. [...] fact coverage of Limbaugh's statement and the 2nd cousin's conviction.",
+            "score": 0.9986541
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "content": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Wikipedia policy pages |  About Wikipedia  Five pillars  Citing sources  Copying text from other sources  Core content policies  Identifying reliable sources  Manual of Style  Neutral point of view  Notability  No original research  Verifiability  Words to watch  What Wikipedia is not | [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\n[edit]",
+            "score": 0.9970421
+          },
+          {
+            "title": "Wikipedia:List of policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_policies",
+            "content": "| Administrators and noticeboards |  Administrators' noticeboard   + Incidents   + Edit warring   + Vandalism  Admin dashboard  Admin requests   + Closure   + Page protection   + User permissions   + Sockpuppets   + Open proxies  Revision deletion  Oversight   + Request  Usernames   + Changing   + Title blacklist  OTRS  Bureaucrats'   + Requests for adminship and bureaucratship  Arbitration Committee   + Requests   + Enforcement |\n| Content dispute resolution |  Requests for comment  Third opinion  Dispute resolution noticeboard   + Biographies of living persons   + Conflict of interest   + External links   + Fringe theories   + Neutral point of view   + No original research   + Reliable sources | [...] Conduct, which describes how editors can successfully collaborate and what behavior is acceptable\n Content, which defines the scope of the encyclopedia and the material that is suitable for it\n Deletion, which explains the processes by which pages, revisions, and logs may be deleted\n Enforcement, which accounts for various means by which standards may be enforced\n Legal, which includes rules influenced by legal considerations, and remedies for their misuse\n Procedural, which documents various processes by which the English Wikipedia operates\n\nPolicies can also be navigated via the other directory, categories, the navigation template or by a custom search box (as seen below).\n\n## Conduct\n\nShortcuts\n\n WP:CONDUCTWP:CONDUCT\n WP:BEHAVEWP:BEHAVE [...] | Policies and guidelines (list) |\n\n| Principles |\n|  Five pillars  Ignore all rules |\n| Content policies |\n|  Article titles  Biographies of living persons  Image use  Neutral point of view  No original research  Verifiability  What Wikipedia is not (Not a dictionary) |\n| Conduct policies |\n|  Civility  Clean start  Consensus  Dispute resolution  Edit warring  Editing policy  Harassment  No legal threats  No personal attacks  Ownership of content  Username policy  Vandalism |\n| Other policy categories |\n|  Deletion  Enforcement  Legal  Procedural |\n| Directories |\n|  List of policies  List of guidelines  Manual of Style contents  Searching |\n|  v  t  e |\n\nFor an explanatory supplement of this page, see Wikipedia:Simplified ruleset. This page is broken into the following categories:",
+            "score": 0.993255
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "score": 0.9998785
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "score": 0.99921453
+          },
+          {
+            "title": "Wikipedia:Strategic issues with core policies, guidelines ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Strategic_issues_with_core_policies,_guidelines_and_structures",
+            "score": 0.9986541
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "score": 0.9970421
+          },
+          {
+            "title": "Wikipedia:List of policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_policies",
+            "score": 0.993255
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core"
+          },
+          {
+            "type": "name_like",
+            "value": "Editors"
+          },
+          {
+            "type": "name_like",
+            "value": "These"
+          },
+          {
+            "type": "name_like",
+            "value": "Because"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "History"
+          },
+          {
+            "type": "name_like",
+            "value": "See"
+          },
+          {
+            "type": "name_like",
+            "value": "Notability"
+          },
+          {
+            "type": "name_like",
+            "value": "Historical"
+          },
+          {
+            "type": "name_like",
+            "value": "External"
+          },
+          {
+            "type": "name_like",
+            "value": "Jimmy Wales"
+          },
+          {
+            "type": "name_like",
+            "value": "List"
+          },
+          {
+            "type": "name_like",
+            "value": "Summaries"
+          },
+          {
+            "type": "name_like",
+            "value": "What You Should Know"
+          },
+          {
+            "type": "name_like",
+            "value": "About Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core Policies"
+          },
+          {
+            "type": "name_like",
+            "value": "What Are Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Think"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutrality"
+          },
+          {
+            "type": "name_like",
+            "value": "The Neutral Point"
+          },
+          {
+            "type": "name_like",
+            "value": "View"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Can"
+          },
+          {
+            "type": "name_like",
+            "value": "Generally"
+          },
+          {
+            "type": "name_like",
+            "value": "Social"
+          },
+          {
+            "type": "name_like",
+            "value": "Strategic"
+          },
+          {
+            "type": "name_like",
+            "value": "Most"
+          },
+          {
+            "type": "name_like",
+            "value": "Here"
+          },
+          {
+            "type": "name_like",
+            "value": "Give"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the meaning of 'R' from the three core policies found in the previous search.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Build a logical reasoning based on the extracted information about what 'R' stands for.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding what 'R' stands for in the context of the Legume Wikipedia page.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "R stands for 'reliability' in the context of the core policies.",
+        "final_answer_strict": "reliability",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 250,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 250,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "reliability",
+    "gt_norm": "research"
+  }
+}

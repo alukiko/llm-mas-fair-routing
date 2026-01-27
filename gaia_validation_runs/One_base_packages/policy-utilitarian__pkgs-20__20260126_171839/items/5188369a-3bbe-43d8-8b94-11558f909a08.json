@@ -1,0 +1,340 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "Annie Levin",
+    "final_answer_strict": "Annie Levin",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Annie Levin",
+  "error": null,
+  "duration_sec": 45.999194622039795,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Word of the Day for June 27, 2022, is 'jingoism'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "Jingoism is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "The pronunciation of 'jingoism' is JING-goh-iz-im.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "summary": "On June 27, 2022, Merriam-Webster's Word of the Day was 'jingoism', defined as excessive patriotism or nationalism, particularly with a belligerent foreign policy, and pronounced as JING-goh-iz-im.",
+        "sources": [
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "snippet": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spe"
+          },
+          {
+            "title": "Word of the Day: Languid",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "snippet": "Est. 1828\n\n# Word of the Day\n\n : October 3, 2022\n\n## languid\n\nplay \"Listen to the pronunciation of languid\")\n\nadjective LANG-gwid\n\nPrev Next\n\n## What It Means\n\nLanguid means “showing or having very little strength, energy, or activity.” It is generally used in formal and literary contexts.\n\n// The trial proceeded at a languid pace as each attorney called up a whole roster of witnesses to testify.\n\nSee the entry >\n\n## languid in Context\n\n“Wölffer’s rosés—the company now has eight varieties—have become a fixture at backyard parties and beach picnics, a symbol of languid days on Long Island’s South Fork.” — Alex Williams, The New York Times, 27 June 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words [...] Lack, lack, lack. Languid is all about lack. Depending on its context, the word can suggest a lack of strength, lack of energy, or lack of activity. The lack-of-strength sense of languid describes the kind of sluggishness that often results from fatigue or weakness, as in “the illness left her feeling languid.” The lack-of-energy sense is synonymous with listless, and often describes someone’s "
+          },
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "We define sleeper cell as “a terrorist cell whose members work under cover in an area until sent into action.” The relevant definition of cell is “a basic and usually small unit of an organization or movement.”\n\n## ‘Obliterate’\n\nObliterate saw a spike in lookups after President Trump used the word with respect to the bombing of Iranian nuclear facilities. [...] We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the bu"
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01\n\n  ## convoluted\n #### May 02\n\n  ## ziggurat\n #### May 03\n\n  ## sleuth\n #### May 04\n\n  ## risible\n #### May 05\n\n  ## plethora\n #### May 06\n\n  ## exculpate\n #### May 07\n\n  ## bumptious\n #### May 08\n\n  ## modicum\n #### May 09\n\n  ## gloss\n #### May 10\n\n  ## uncanny\n #### May 11\n\n  ## darling\n #### May 12\n\n  ## fester\n #### May 13\n\n  ## apotropaic\n #### May 14\n\n  ## scuttlebutt\n #### May 15\n\n  ## impervious\n #### May 16\n\n  ## junket\n #### May 17\n\n  ## mercurial\n #### May 18\n\n  ## talisman\n #### May 19\n\n  ## antithetical\n #### May 20\n\n  ## chagrin\n #### May 21\n\n  ## hapless\n #### May 22\n\n  ## voluble\n #### May 23 [...] ## petulant\n\n### June 2025\n\n #### Jun 01\n\n  ## proscribe\n #### Jun 02\n\n  ## Herculean\n #### Jun 03\n\n  ## tutelage\n #### Jun 04\n\n  ## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### "
+          },
+          {
+            "title": "Word of the Day: Oaf - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "snippet": "Pick the best words!\n\nPLAY\n\n## Did You Know?\n\nResplendent shares a root with splendid (meaning, among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, meaning “to shine back.” Splendent, splendor, and resplendent were first used in English during the 15th century, but splendid didn’t light up our language until almost 200 years later; its earliest known use dates from the early 1600s.\n\n## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words [...] ### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words\n\n Despite the cacophony, the student tried to study.\n\n Loud sounds Late hour\n Low lighting Difficult subject\n\nYou know what it looks like… but what is it called?\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know? [...] Merriam-Webster unabridged\n\n## Games &"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "content": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] Secure space Costly burden\n Cure-all Obstacle\n\nYou know what it looks like… but what is it called?\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know?\n\nJingoism originated during the Russo-Turkish War of 1877-1878, when many British citizens were hostile toward Russia and felt Britain should intervene in the conflict. Supporters of the cause expressed their sentiments in a music-hall ditty with this refrain:\n\n> We don't want to fight, yet by jingo if we do,\n>\n> We've got the ships, we've got the men,\n>\n> We've got the money, too!\n\nSomeone holding the attitude implied in the song became known as a jingo or jingoist, and the attitude itself was dubbed jingoism. The jingo in the tune is probably a euphemism for Jesus.\n\n## Test Your Vocabulary with M-W Quizzes",
+            "score": 0.9195344
+          },
+          {
+            "title": "Word of the Day: Languid",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "content": "Est. 1828\n\n# Word of the Day\n\n : October 3, 2022\n\n## languid\n\nplay \"Listen to the pronunciation of languid\")\n\nadjective LANG-gwid\n\nPrev Next\n\n## What It Means\n\nLanguid means “showing or having very little strength, energy, or activity.” It is generally used in formal and literary contexts.\n\n// The trial proceeded at a languid pace as each attorney called up a whole roster of witnesses to testify.\n\nSee the entry >\n\n## languid in Context\n\n“Wölffer’s rosés—the company now has eight varieties—have become a fixture at backyard parties and beach picnics, a symbol of languid days on Long Island’s South Fork.” — Alex Williams, The New York Times, 27 June 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words [...] Lack, lack, lack. Languid is all about lack. Depending on its context, the word can suggest a lack of strength, lack of energy, or lack of activity. The lack-of-strength sense of languid describes the kind of sluggishness that often results from fatigue or weakness, as in “the illness left her feeling languid.” The lack-of-energy sense is synonymous with listless, and often describes someone’s character or disposition as a result of dissatisfaction or sadness. Lastly, there’s the lack-of-activity sense of languid, as in “investors are worried about the languid stock market.” So languid is a total bummer, right? Not so (ahem) fast! Sometimes it’s a good thing to dillydally, and languid has also long been used to describe stretches of time—think afternoons, days, summers, etc.—that are [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nWhich Came First? Vol. 2 “Tighty-whities” or “loosey-goosey”? “J...\n\nSee All",
+            "score": 0.85157084
+          },
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "content": "We define sleeper cell as “a terrorist cell whose members work under cover in an area until sent into action.” The relevant definition of cell is “a basic and usually small unit of an organization or movement.”\n\n## ‘Obliterate’\n\nObliterate saw a spike in lookups after President Trump used the word with respect to the bombing of Iranian nuclear facilities. [...] We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century.",
+            "score": 0.83225065
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "content": "## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01\n\n  ## convoluted\n #### May 02\n\n  ## ziggurat\n #### May 03\n\n  ## sleuth\n #### May 04\n\n  ## risible\n #### May 05\n\n  ## plethora\n #### May 06\n\n  ## exculpate\n #### May 07\n\n  ## bumptious\n #### May 08\n\n  ## modicum\n #### May 09\n\n  ## gloss\n #### May 10\n\n  ## uncanny\n #### May 11\n\n  ## darling\n #### May 12\n\n  ## fester\n #### May 13\n\n  ## apotropaic\n #### May 14\n\n  ## scuttlebutt\n #### May 15\n\n  ## impervious\n #### May 16\n\n  ## junket\n #### May 17\n\n  ## mercurial\n #### May 18\n\n  ## talisman\n #### May 19\n\n  ## antithetical\n #### May 20\n\n  ## chagrin\n #### May 21\n\n  ## hapless\n #### May 22\n\n  ## voluble\n #### May 23 [...] ## petulant\n\n### June 2025\n\n #### Jun 01\n\n  ## proscribe\n #### Jun 02\n\n  ## Herculean\n #### Jun 03\n\n  ## tutelage\n #### Jun 04\n\n  ## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### Jun 14\n\n  ## vexillology\n #### Jun 15\n\n  ## progeny\n #### Jun 16\n\n  ## garrulous\n #### Jun 17\n\n  ## apologia\n #### Jun 18\n\n  ## jeopardize\n #### Jun 19\n\n  ## emancipation\n #### Jun 20\n\n  ## convivial\n #### Jun 21\n\n  ## litmus test\n #### Jun 22\n\n  ## bemuse\n #### Jun 23\n\n  ## wherewithal\n #### Jun 24\n\n  ## noisome\n #### Jun 25\n\n  ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27 [...] ## canard\n #### Feb 06\n\n  ## ad-lib\n #### Feb 07\n\n  ## malapropism\n #### Feb 08\n\n  ## finesse\n #### Feb 09\n\n  ## ecstatic\n #### Feb 10\n\n  ## vestige\n #### Feb 11\n\n  ## ruminate\n #### Feb 12\n\n  ## hagiography\n #### Feb 13\n\n  ## gallant\n #### Feb 14\n\n  ## billet-doux\n #### Feb 15\n\n  ## livid\n #### Feb 16\n\n  ## non sequitur\n #### Feb 17\n\n  ## pertain\n #### Feb 18\n\n  ## chutzpah\n #### Feb 19\n\n  ## obtuse\n #### Feb 20\n\n  ## flounder\n #### Feb 21\n\n  ## jabberwocky\n #### Feb 22\n\n  ## astute\n #### Feb 23\n\n  ## tousle\n #### Feb 24\n\n  ## quip\n #### Feb 25\n\n  ## superfluous\n #### Feb 26\n\n  ## ignoramus\n #### Feb 27\n\n  ## doff\n #### Feb 28\n\n  ## cryptic\n\n### January 2025\n\n #### Jan 01\n\n  ## rejuvenate\n #### Jan 02\n\n  ## potpourri\n #### Jan 03\n\n  ## addlepated\n #### Jan 04",
+            "score": 0.5798055
+          },
+          {
+            "title": "Word of the Day: Oaf - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "content": "Pick the best words!\n\nPLAY\n\n## Did You Know?\n\nResplendent shares a root with splendid (meaning, among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, meaning “to shine back.” Splendent, splendor, and resplendent were first used in English during the 15th century, but splendid didn’t light up our language until almost 200 years later; its earliest known use dates from the early 1600s.\n\n## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words [...] ### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words\n\n Despite the cacophony, the student tried to study.\n\n Loud sounds Late hour\n Low lighting Difficult subject\n\nYou know what it looks like… but what is it called?\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know? [...] Merriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All",
+            "score": 0.4635177
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "score": 0.9195344
+          },
+          {
+            "title": "Word of the Day: Languid",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "score": 0.85157084
+          },
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "score": 0.83225065
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "score": 0.5798055
+          },
+          {
+            "title": "Word of the Day: Oaf - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "score": 0.4635177
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Day"
+          },
+          {
+            "type": "name_like",
+            "value": "Jingoism"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster\nEst"
+          },
+          {
+            "type": "name_like",
+            "value": "June"
+          },
+          {
+            "type": "name_like",
+            "value": "Listen"
+          },
+          {
+            "type": "name_like",
+            "value": "Prev Next"
+          },
+          {
+            "type": "name_like",
+            "value": "What It Means"
+          },
+          {
+            "type": "name_like",
+            "value": "When"
+          },
+          {
+            "type": "name_like",
+            "value": "See"
+          },
+          {
+            "type": "name_like",
+            "value": "Context"
+          },
+          {
+            "type": "name_like",
+            "value": "War"
+          },
+          {
+            "type": "name_like",
+            "value": "Not"
+          },
+          {
+            "type": "name_like",
+            "value": "Annie Levin"
+          },
+          {
+            "type": "name_like",
+            "value": "The New York Observer"
+          },
+          {
+            "type": "name_like",
+            "value": "Mar"
+          },
+          {
+            "type": "name_like",
+            "value": "Build"
+          },
+          {
+            "type": "name_like",
+            "value": "Get Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Test Your Vocabulary"
+          },
+          {
+            "type": "name_like",
+            "value": "Challenging Standardized Test Words"
+          },
+          {
+            "type": "name_like",
+            "value": "Vol"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Secure"
+          },
+          {
+            "type": "name_like",
+            "value": "Costly"
+          },
+          {
+            "type": "name_like",
+            "value": "Cure"
+          },
+          {
+            "type": "name_like",
+            "value": "Obstacle"
+          },
+          {
+            "type": "name_like",
+            "value": "Love"
+          },
+          {
+            "type": "name_like",
+            "value": "Need"
+          },
+          {
+            "type": "name_like",
+            "value": "Subscribe"
+          },
+          {
+            "type": "name_like",
+            "value": "America"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the quoted writer associated with the Word of the Day from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\"date\", \"word\"],\n  \"entities\": [\n    {\n      \"name\": \"Annie Levin\",\n      \"type\": \"person\",\n      \"evidence\": \"\\\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\\\" — Annie Levin, The New York Observer, 7 Mar. 2022\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n    }\n  ],\n  \"key_points\": [\n    \"The Word of the Day for June 27, 2022, was 'jingoism'.\",\n    \"'Jingoism' is defined as excessive patriotism or nationalism, especially marked by a belligerent foreign policy.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [\n    {\n      \"term\": \"jingoism\",\n      \"definition\": \"excessive patriotism or nationalism, especially marked by a belligerent foreign policy.\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n    }\n  ],\n  \"evidence_spans\": [\n    {\n      \"text\": \"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\",\n"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding the quoted writer.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Annie Levin",
+        "final_answer_strict": "Annie Levin",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 2,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "annie levin",
+    "gt_norm": "annie levin"
+  }
+}

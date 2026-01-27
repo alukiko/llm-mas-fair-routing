@@ -1,0 +1,185 @@
+{
+  "id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+  "query": "How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?",
+  "ground_truth": "519",
+  "answer_raw": {
+    "final_answer": "Willie Randolph had 151 at bats in the 1977 season.",
+    "final_answer_strict": "151.0",
+    "used_evidence": [
+      "Willie Randolph had the most walks for the Yankees in the 1977 season with 81.",
+      "Willie Randolph had 151 at bats in the 1977 season."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "151.0",
+  "error": null,
+  "duration_sec": 32.01436161994934,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the New York Yankees players with the most walks in the 1977 regular season.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the New York Yankees players with the most walks in the 1977 regular season.",
+        "facts": [
+          {
+            "fact": "Willie Randolph had the most walks for the Yankees in the 1977 season with 81.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "Reggie Jackson recorded 66 walks during the 1977 regular season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "Roy White had 61 walks in the 1977 season.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          },
+          {
+            "fact": "The Yankees finished the 1977 season with a total of 646 walks as a team.",
+            "source_url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977"
+          }
+        ],
+        "sources": [
+          {
+            "title": "[PDF] New York Yankees Yearbook (1977) - DigitalOcean",
+            "url": "https://library.sfo2.cdn.digitaloceanspaces.com/publications/baseball/yearbooks/BNEWYYB-1977-new-york-yankees-yearbook.pdf",
+            "snippet": "The 1927 Yankees had five .300-hitters (Combs, Lazzeri and Meusel in addi tion to Ruth and Gehrig). They had a .307 team batting average and their .489 slugging percentage is the highest in history. Ruth and Gehrig finished 1-2 in slug ging with .772 and .765 respectively, total bases with 417-447 and walks with 138-109. Combs led the league with 231 hits and 23 triples with Gehrig second in both departments. Ruth was the home run leader, of course, with Gehrig leading in runs batted in. The Yankees scored the most runs, 975, and allowed their opponents the fewest, 599-Overwhelming as the Yank"
+          },
+          {
+            "title": "1977 New York Yankees Roster - Baseball Almanac",
+            "url": "https://www.baseball-almanac.com/teamstats/roster.php?y=1977&t=NYA",
+            "snippet": "| 17 | Mickey Rivers | 5-10 | 165 | Left | Left | 1948-10-30 |\n| 6 | Roy White | 5-10 | 172 | Right | Both | 1943-12-27 |\n| # | Other Positions | Height | Weight | Throws | Bats | Date Of Birth |\n| 27, 59 | Dell Alston | 6-00 | 180 | Right | Left | 1952-09-22 |\n| 41 | Cliff Johnson | 6-04 | 225 | Right | Right | 1947-07-22 |\n| 48 | Dave Kingman | 6-06 | 210 | Right | Right | 1948-12-21 |\n| 38 | Carlos May | 6-00 | 215 | Right | Left | 1948-05-17 |\n| 24 | Jimmy Wynn | 5-09 | 170 | Right | Right | 1942-03-12 |\n| # | Pitchers | Height | Weight | Throws | Bats | Date Of Birth |\n| 1977 New York Yan"
+          },
+          {
+            "title": "New York Yankees 1977 Team & Player Stats | StatMuse",
+            "url": "https://www.statmuse.com/mlb/team/new-york-yankees-76/stats/1977",
+            "snippet": "|  | Ken Clay K. Clay | 2 | 0 | 0 | 0 | 2.45 | 0 | 0 | 0 | 0 | 3.2 | 2 | 1 | 1 | 0 | 1 | 0 |\n|  | Ed Figueroa E. Figueroa | 1 | 1 | 0 | 0 | 10.80 | 3 | 0 | 0 | 0 | 3.1 | 5 | 4 | 4 | 0 | 2 | 0 | [...] |  | Catfish Hunter C. Hunter | 22 | 22 | 9 | 9 | 4.71 | 52 | 8 | 1 | 0 | 143.1 | 137 | 75 | 83 | 29 | 47 | 3 |\n|  | Sparky Lyle S. Lyle | 72 | 0 | 13 | 5 | 2.17 | 68 | 0 | 0 | 26 | 137.0 | 131 | 33 | 41 | 7 | 33 | 2 |\n|  | Ken Holtzman K. Holtzman | 18 | 11 | 2 | 3 | 5.78 | 14 | 0 | 0 | 0 | 71.2 | 105 | 46 | 55 | 7 | 24 | 1 |\n|  | Ken Clay K. Clay | 21 | 3 | 2 | 3 | 4.37 | 20 | 0 | 0 | 1 | 55.2 |"
+          },
+          {
+            "title": "1977 Yankees Player Hitting Stat Leaders - MLB.com",
+            "url": "https://www.mlb.com/yankees/stats/1977",
+            "snippet": "| 15 Mickey M Klutts Klutts 3B 15 ‌ ‌ ‌ | NYY | 5 | 15 | 3 | 4 | 1 | 0 | 1 | 4 | 2 | 1 | 0 | 1 | .267 | .389 | .533 | .922 |\n| 15 Fred F Stanley Stanley SS 15 ‌ ‌ ‌ | NYY | 48 | 46 | 6 | 12 | 0 | 0 | 1 | 7 | 8 | 6 | 1 | 1 | .261 | .370 | .326 | .696 |\n| 15 Jimmy J Wynn Wynn X 15 ‌ ‌ ‌ | NYY | 30 | 77 | 7 | 11 | 2 | 1 | 1 | 3 | 15 | 16 | 1 | 0 | .143 | .283 | .234 | .517 |\n| 20 Dave D Bergman Bergman 1B 20 ‌ ‌ ‌ | NYY | 5 | 4 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | .250 | .200 | .250 | .450 |\n| 20 Ron R Guidry Guidry P 20 ‌ ‌ ‌ | NYY | 36 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | .000 | ."
+          },
+          {
+            "title": "New York Yankees All-Time Batting Leaders - YankeeNumbers.com",
+            "url": "https://www.yankeenumbers.com/season-average-Leaders-Decade.asp?fltr=&Decade=197",
+            "snippet": "156 | 1971 | | Thurman Munson | 156 | 1973 | | 18. | Chris Chambliss | 155 | 1979 | | Horace Clarke | 155 | 1973 | | Graig Nettles | 155 | 1975 | | Willie Randolph | 155 | 1979 | | 19. | Roy White | 153 | 1971 | | 20. | Willie Randolph | 151 | 1977 | | 21. | Reggie Jackson | 150 | 1977 | | Graig Nettles | 150 | 1977 | | Roy White | 150 | 1972 | | 22. | Graig Nettles | 148 | 1976 | | Lou Piniella | 148 | 1978 | | Mickey Rivers | 148 | 1978 | | 23. | Matty Alou | 147 | 1973 | | 24. | Bobby Murcer | 146 | 1970 | | 25. | Bobby Bonds | 143 | 1975 | | Thurman Munson | 143 | 1972 | | 26. | Elliott Ma"
+          }
+        ],
+        "summary": "In the 1977 regular season, Willie Randolph led the New York Yankees with 81 walks, followed by Reggie Jackson with 66 and Roy White with 61."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the name of the player with the most walks and their statistics, including at bats, from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Willie Randolph",
+            "type": "player",
+            "evidence": "Willie Randolph had the most walks for the Yankees in the 1977 season with 81."
+          }
+        ],
+        "key_points": [
+          "Willie Randolph led the New York Yankees with 81 walks in the 1977 regular season."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "81",
+            "unit": "walks",
+            "context": "Willie Randolph's total walks in the 1977 season"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the number of at bats for the Yankee with the most walks in the 1977 regular season.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Willie Randolph had 151 at bats in the 1977 season.",
+        "final_answer_strict": "151.0",
+        "used_evidence": [
+          "Willie Randolph had the most walks for the Yankees in the 1977 season with 81.",
+          "Willie Randolph had 151 at bats in the 1977 season."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "151.0",
+    "gt_norm": "519"
+  }
+}

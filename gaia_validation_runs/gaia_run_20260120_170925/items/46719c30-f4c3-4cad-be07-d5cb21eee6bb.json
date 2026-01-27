@@ -1,0 +1,296 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Not available",
+    "final_answer_strict": "Not available",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the title of the first paper authored by Pietro Murano?",
+      "What is the title of the first paper authored by Iram Khan?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Not available",
+  "error": null,
+  "duration_sec": 74.44993472099304,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          },
+          {
+            "fact": "The paper was published on September 9, 2015.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          },
+          {
+            "fact": "Pietro Murano is affiliated with the Department of Computer Science at Oslo and Akershus University College of Applied Sciences.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Iram Khan is affiliated with the University of Salford, School of Computing, Science and Engineering.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Skip to search formSkip to account menu\n\n Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO, title={Pie Menus or Linear Menus, Which Is Better?}, author={Pietro Murano and Iram Khan}, year={2015}, url={ }\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n7 Citations\n\nBackground Citations\n\n2\n\nMethods Citati"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or "
+          },
+          {
+            "title": "An Empirical Comparison of Pie vs. Linear Menus | by Don Hopkins",
+            "url": "https://donhopkins.medium.com/an-empirical-comparison-of-pie-vs-linear-menus-466c6fdbba4b",
+            "snippet": "Distance to and size of the target are important factors that give pie menus the advantage over traditional linear menus. Even with linear menu initial cursor placement schemes where the cursor may initially be in the middle or at the last item selected, there remain target items at relatively great distances from the cursor location.\n\nPie menus enjoy a two fold advantage because of their unique design items are placed at equal radial distances, from the center of the menu and the user need only move the cursor by a small amount in some direction for the system to recognize the intended select"
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus (1988) | J. Callahan ...",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=24",
+            "snippet": "42\n\nProceedings Article•10.1145/2733373.2806266\n\n## Ubii: Towards Seamless Interaction between Digital and Physical Worlds\n\nZhanpeng Huang,Weikai Li,Pan Hui +2 moreHong Kong University of Science and Technology\n\n- 13 Oct 2015\n\nShow Less\n\nTL;DR: Ubii (Ubiquitous interface and interaction), an interface system that aims to expand people's perception and interaction from the digital space to the physical world, is presented by converging wearable devices and augmented reality (AR) technology.\n\n42\n\nJournal Article•10.1080/00140138808966713\n\n## We can design better user interfaces: A review of huma"
+          },
+          {
+            "title": "‪Pietro Murano‬ - ‪Google Scholar‬",
+            "url": "https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en",
+            "snippet": "0\n\n40\n\n20\n\n20012002200320042005200620072008200920102011201220132014201520162017201820192020202120222023202420251)6)6)1)5)12)7)13)13)36)11)3)4)9)18)9)14)22)26)33)21)31)32)39)\n\nPublic access\n\nView all\n\n1 article\n\n0 articles\n\navailable\n\nnot available\n\nBased on funding mandates\n\nFollow)\n\nPietro Murano\n\nProfessor (Full) of Human Computer Interaction\n\nVerified email at oslomet.no - Homepage\n\nHuman Computer InteractionUsabilityInteractionUXUser Experience\n\nArticles)Cited by)Public access)\n\nPrivacyTermsHelp)\n\nAbout ScholarSearch help [...] The system can't perform the operation now. Try again later.\n\n"
+          }
+        ],
+        "summary": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan and published in 2015, with Murano affiliated with Oslo and Akershus University and Khan with the University of Salford."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Pietro Murano",
+            "type": "author",
+            "evidence": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan."
+          },
+          {
+            "name": "Iram Khan",
+            "type": "author",
+            "evidence": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan."
+          }
+        ],
+        "key_points": [
+          "The paper 'Pie Menus or Linear Menus, Which Is Better?' was published in 2015.",
+          "Pietro Murano is affiliated with the Department of Computer Science at Oslo and Akershus University College of Applied Sciences.",
+          "Iram Khan is affiliated with the University of Salford, School of Computing, Science and Engineering."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2015",
+            "unit": "year",
+            "context": "The paper was published in 2015."
+          },
+          {
+            "value": "September 9, 2015",
+            "unit": "date",
+            "context": "The paper was published on September 9, 2015."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the identified authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the identified authors.",
+        "facts": [
+          {
+            "fact": "Python 3.6 or above is required to run the script for searching publications.",
+            "source_url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors"
+          },
+          {
+            "fact": "Scopus and Google Scholar are recommended databases for reviewing publications by key authors.",
+            "source_url": "https://libguides.sjf.edu/advanced-literature-searching/known-author-search"
+          },
+          {
+            "fact": "Authors must meet all four criteria for authorship as defined by ICMJE.",
+            "source_url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html"
+          },
+          {
+            "fact": "Authors are required to read original papers they cite in their manuscripts.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5510206/"
+          },
+          {
+            "fact": "The GW Law guide provides methods to find journal articles by author or title.",
+            "source_url": "https://law.gwu.libguides.com/articles/author-title"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "snippet": "You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like [...] search_results = json.loads(r.text) #show some statistics print(f\"{search_results['esearchresult']['count']} publications found.\") if RETMAX < search_results['esearchresult']['count']: print(f\"Warning: Only the first {RETMAX} publications are processed.\") # walk through all rerieved ids "
+          },
+          {
+            "title": "Known Author Search - Advanced Literature Searching",
+            "url": "https://libguides.sjf.edu/advanced-literature-searching/known-author-search",
+            "snippet": "When you identify these key authors or researchers, it can be valuable to review their other publications to see if they are relevant to your topic. You have a number of options when compiling a list of these types of publications. The two big ones available through Lavery Library are Scopus and Google Scholar.\n\n Scopus  This link opens in a new window\n\n  Multidisciplinary database of peer-reviewed research literature such as scholarly journals, books and chapters, conference proceedings, and trade publications, along with metrics and analytical tools to work with those citations. Fields cover"
+          },
+          {
+            "title": "Defining the Role of Authors and Contributors - ICMJE",
+            "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+            "snippet": "All those designated as authors should meet all four criteria for authorship, and all who meet the four criteria should be identified as authors. Those who do not meet all four criteria should be acknowledged—see Section II.A.3 below. These authorship criteria are intended to reserve the status of authorship for those who deserve credit and can take responsibility for the work. The criteria are not intended for use as a means to disqualify colleagues from authorship who otherwise meet authorship criteria by denying them the opportunity to meet criterion #s 2 or 3. Therefore, all individuals wh"
+          },
+          {
+            "title": "Publication Practices and Responsible Authorship: A Review Article",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5510206/",
+            "snippet": "According to the committee on publication practice, this practice requires the author(s) to read the original papers that are cited in the submitted manuscript rather than using reference citations based on someone else’s review article. When using figures from prior publications, obtaining permission from the publisher, or copyright holder, is required and, as a courtesy, informing the original author is of the essence. Republishing one’s own publication in another language needs to be carefully considered in order to avoid loss of fidelity of the meaning in the translation. Republishing of a"
+          },
+          {
+            "title": "Find by Article Author or Title - Journal Articles Research - GW Law ...",
+            "url": "https://law.gwu.libguides.com/articles/author-title",
+            "snippet": "Skip to Main Content\n\n# Journal Articles Research\n\nA basic guide to locating journal articles.\n\n Getting Started\n Find by Citation\n Find by Journal Title\n Find by Article Author or Title \n  + Find by Author\n  + Find by Article Title\n Find by Topic or Keyword(s)\n Find Current & Historical News\n Find Law-Related Articles\n What About Blogs?\n Updating\n Obtaining Articles not found @ GW\n\n## Access Icon Key\n\n|  |\n\n| These linked icons indicate your access to the resources discussed in this guide. |\n| Library Collection |\n| Website |\n| Subscription Database   (Law School Only) |\n| Subscription Databa"
+          }
+        ],
+        "summary": "The sources provide guidance on finding publications by authors, the criteria for authorship, and the responsibilities of authors in citing works."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who has prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan.\"\n    },\n    {\n      \"name\": \"Iram Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan.\"\n    }\n  ],\n  \"key_points\": [\n    \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was published in 2015.\",\n    \"Pietro Murano is affiliated with the Department of Computer Science at Oslo and Akershus University College of Applied Sciences.\",\n    \"Iram Khan is affiliated with the University of Salford, School of Computing, Science and Engineering.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"2015\",\n      \"unit\": \"year\",\n      \"context\": \"The paper was published in 2015.\"\n    },\n    {\n      \"value\": \"September 9, 2015\",\n      \"unit\": \"date\",\n      \"context\": \"The paper was published on September 9, 2015.\"\n    }\n  ],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the title of the first paper authored by the identified author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Not available",
+        "final_answer_strict": "Not available",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the title of the first paper authored by Pietro Murano?",
+          "What is the title of the first paper authored by Iram Khan?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not available",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

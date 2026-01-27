@@ -1,0 +1,615 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 55.18938970565796,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram Khan.\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matte"
+          },
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a"
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "snippet": "### Navigational User Interface Elements on the Left Side: Intuition of Designers or Experimental Evidence?\n\nAndreas HolzingerReinhold SchererM. Ziefle\n\nPsychology, Computer Science\n\nINTERACT\n\n 2011\n\nThe results of this study suggest that the presentation of elements on the left side is advantageous for the speed of information processing only in the case of single elements.\n\n 7\n Highly Influenced\n PDF\n\n### Pie Menus or Linear Menus, Which Is Better?\n\nPietro MuranoIram Khan\n\nComputer Science\n\n 2015\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n 7\n PDF"
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE"
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/An-empirical-comparison-of-pie-vs.-linear-menus-Callahan-Hopkins/be639190844c2f0654563db3d0a7f166811dd645",
+            "snippet": "[PDF] An empirical comparison of pie vs. linear menus | Semantic Scholar\n\nSkip to search formSkip to main contentSkip to account menuLinear Menus (opens in a new tab)Font (opens in a new tab)\n\n465 Citations\n\nCitation Type\n\nHas PDF\n\nAuthor\n\nMore Filters\n\nMore Filters\n\nFilters\n\n### Visual Search in Radial Menus\nK. SampS. Decker\n\nComputer Science\n\nIFIP TC13 International Conference on Human…\n\n   2011\n\nTLDR\n\nThe paper investigates the order in which users find items in radial menus and defines serial position for items laid out in a circular fashion and discusses the results in the context of radial menu design.Expand\n\n   9\n   Highly Influenced \n   PDF \n\n   3 Excerpts\n\nSave\n\n### Improving Menu Placement Strategies for Pen Input\nMark S. HancockK. Booth\n\nComputer Science\n\nGraphics Interface [...] Computer Science\n\nINTERCHI\n\n   1993\n\nTLDR\n\nThis paper experimentally investigates the bounds on how many items can be in each level, and how deep the hierarchy can be, before using a marking to select an item becomes too slow or prone to errors.Expand\n\n   338\n   PDF \n\n   1 Excerpt\n\nSave\n\n### Supporting menu design with radial layouts\nK. SampS. Decker\n\nComputer Science\n\nInternational Working Conf"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matter\n\nPietro MuranoTracey J. Lomas\n\nComputer Science\n\n 2015\n\nThe design and results of an empirical experiment, investigating the usability of menu positioning on web pages, suggest that the top horizontal and left vertical positioned menus incurred fewer errors and fewer mouse clicks.\n\n 6\n PDF\n\n### When left might not be right\n\nX. FaulknerClive Hayton\n\nComputer Science\n\n 2011 [...] Computer Science\n\nInt. J. Hum. Comput. Interact.\n\n 2024\n\nThe results indicated that the pie menu offered notable advantages by reducing muscular loads, achieving shorter task completion times, and delivering an overall more enjoyable user experience, making it a preferable choice for mid-air interaction in photo booth settings.\n\n 6\n\n### Breadth and orientation of pie menus for mid-air interaction: effects on upper extremity biomechanics, performance, and subjective assessment\n\nLujin MaoK. OnoMengyao QiJinghua HuangMakoto Watanabe\n\nComputer Science\n\nBehav. Inf. Technol.\n\n 2025\n\nABSTRACT The number and layout of options within pie menus are crucial for determining the direction of radial swiping in mid-air interactions, influencing the physical demands imposed on users. This…\n\n 1",
+            "score": 0.950342
+          },
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a feature allowing the user to lock the pie menu open and deploy several commands on one object. This was in the context of a ‘graphical schema editor for modelling spatio-temporal databases’ . The ideas described in the paper are very interesting; however it would have been also interesting and useful if some evaluation of this design had been done. In Samp and Decker  a comparison by means of an [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.94289196
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "content": "### Navigational User Interface Elements on the Left Side: Intuition of Designers or Experimental Evidence?\n\nAndreas HolzingerReinhold SchererM. Ziefle\n\nPsychology, Computer Science\n\nINTERACT\n\n 2011\n\nThe results of this study suggest that the presentation of elements on the left side is advantageous for the speed of information processing only in the case of single elements.\n\n 7\n Highly Influenced\n PDF\n\n### Pie Menus or Linear Menus, Which Is Better?\n\nPietro MuranoIram Khan\n\nComputer Science\n\n 2015\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n 7\n PDF",
+            "score": 0.8923472
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE",
+            "score": 0.7574541
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/An-empirical-comparison-of-pie-vs.-linear-menus-Callahan-Hopkins/be639190844c2f0654563db3d0a7f166811dd645",
+            "content": "[PDF] An empirical comparison of pie vs. linear menus | Semantic Scholar\n\nSkip to search formSkip to main contentSkip to account menuLinear Menus (opens in a new tab)Font (opens in a new tab)\n\n465 Citations\n\nCitation Type\n\nHas PDF\n\nAuthor\n\nMore Filters\n\nMore Filters\n\nFilters\n\n### Visual Search in Radial Menus\nK. SampS. Decker\n\nComputer Science\n\nIFIP TC13 International Conference on Human…\n\n   2011\n\nTLDR\n\nThe paper investigates the order in which users find items in radial menus and defines serial position for items laid out in a circular fashion and discusses the results in the context of radial menu design.Expand\n\n   9\n   Highly Influenced \n   PDF \n\n   3 Excerpts\n\nSave\n\n### Improving Menu Placement Strategies for Pen Input\nMark S. HancockK. Booth\n\nComputer Science\n\nGraphics Interface [...] Computer Science\n\nINTERCHI\n\n   1993\n\nTLDR\n\nThis paper experimentally investigates the bounds on how many items can be in each level, and how deep the hierarchy can be, before using a marking to select an item becomes too slow or prone to errors.Expand\n\n   338\n   PDF \n\n   1 Excerpt\n\nSave\n\n### Supporting menu design with radial layouts\nK. SampS. Decker\n\nComputer Science\n\nInternational Working Conference on Advanced…\n\n   2010\n\nTLDR\n\nThis paper compares two main characteristics of radial and linear layouts, and presents requirements and the Compact Radial Layout (CRL) design which supports menu hierarchies.Expand\n\n   33\n\nSave\n\n### Effects of Menu Types and Item Lengths on Operation Efficiency\nYu-Hsuan ChangT. K. Philip Hwang\n\nComputer Science\n\nInteracción\n\n   2011\n\nTLDR [...] Computer Science\n\nInteracción\n\n   2011\n\nTLDR\n\nThis study investigated the operation efficiency of pop-up menus through examining human’s superior physical characteristics of visual search and mouse movement and revealed a new style of menu type, Elliptic-Pie Menu, which occurs significant improvement of operation efficiency with the use of short items.Expand\n\n   2\n   Highly Influenced \n\n   4 Excerpts\n\nSave\n\n### Design issues related to pie menus for 5-way joysticks\nTuomas VaittinenTimo-Pekka ViljamaaPetri Piippo\n\nComputer Science\n\nInternational Conference on Mobile Technology…\n\n   2007\n\nTLDR",
+            "score": 0.6399392
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.950342
+          },
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better?",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.94289196
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "score": 0.8923472
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.7574541
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/An-empirical-comparison-of-pie-vs.-linear-menus-Callahan-Hopkins/be639190844c2f0654563db3d0a7f166811dd645",
+            "score": 0.6399392
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Semantic Scholar\nCorpus"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Pose"
+          },
+          {
+            "type": "name_like",
+            "value": "Illumination"
+          },
+          {
+            "type": "name_like",
+            "value": "And Expression"
+          },
+          {
+            "type": "name_like",
+            "value": "Pie Menu"
+          },
+          {
+            "type": "name_like",
+            "value": "Citations"
+          },
+          {
+            "type": "name_like",
+            "value": "User Interface Menu Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Performance"
+          },
+          {
+            "type": "name_like",
+            "value": "User Preferences"
+          },
+          {
+            "type": "name_like",
+            "value": "Review"
+          },
+          {
+            "type": "name_like",
+            "value": "Ways Forward"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro"
+          },
+          {
+            "type": "name_like",
+            "value": "Sander"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform First"
+          },
+          {
+            "type": "name_like",
+            "value": "Design Guidelines"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform Games"
+          },
+          {
+            "type": "name_like",
+            "value": "Andersson"
+          },
+          {
+            "type": "name_like",
+            "value": "Console"
+          },
+          {
+            "type": "name_like",
+            "value": "References"
+          },
+          {
+            "type": "name_like",
+            "value": "Menu Positioning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find all papers authored by the identified authors prior to 2015.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find all papers authored by the identified authors prior to 2015.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"You will need python 3.6 or above to run this script.\",\n      \"source_url\": \"https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors\"\n    },\n    {\n      \"fact\": \"Enter a four-digit year or a range of years for searching in Web of Science.\",\n      \"source_url\": \"https://webofscience.zendesk.com/h",
+        "sources": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "snippet": "You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like [...] 1. If no warning flashes on pressing enter, the code has probably worked and the single-author articles among all articles currently loaded on the page are saved in result variable.\n2. Type `result` in next line and press enter.\n\nFor shorlisting papers with no more than, say; 6 authors,\n\n`let text = document.getElementsByClassName('docsum-authors full-authors'); let result = []; for(i=0;i`\n\nwhere the same code works when replacing `<6` with `==7` for papers having exactly six authors.\n\nHaven't checked with other databases, but provided the format of entries is similar (list of authors separated by commas in an html tag with unique class name) above code should work with replacement of class name (`\"docsum-authors full-authors\"` for Pubmed) and maybe the loop range/if conditions. [...] search_results = json.loads(r.text) #show some statistics print(f\"{search_results['esearchre"
+          },
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "snippet": "Enter 10.14489/vkit.2014.12.pp.018-023 to the record of the article whose DOI is 10.14489/vkit.2014.12.pp.018-023\n\nEnter 10.14489/vkit.2014.12\\ to find records of articles whose DOI begins with the string 10.14489/vkit.2014.12, including:\n\n 10.14489/vkit.2014.12.pp.010-017\n 10.14489/vkit.2014.12.pp.018-023\n 10.14489/vkit.2014.12.pp.024-029\n\n# Year Published\n\nEnter a four-digit year or a range of years. For example:\n\n2015\n\n2010-2015\n\nYou should always combine a search by Year Published with a search by another field such as Topic, Author or Publication Name.\n\nIf your search by Year Published retrieves no results, check the timespan setting. The timespan setting may exclude records in the year range you specify. [...] ## Searching for Proceedings Authors\n\nTo restrict your search to authors of conference papers, select only the two conference proceedings citation indexes. Deselect all other citation indexes. Web of Science contains the names of all authors associated with a source document such as journal articles, proceeding papers, books, and book chapters.\n\n## Author Names 1964-1975\n\nWhen you view the full record of articles from data years 1964-1975, you will notice surnames conta"
+          },
+          {
+            "title": "Citation Styles: APA Articles - O'Kelly Library Resources by Subject",
+            "url": "https://wssu.libguides.com/citationstyles/apaarticles",
+            "snippet": "| Online Article with an Assigned DOI (6th Edition) | Format:  Author, A. A., & Author, B. B. (Date of publication). Title of article. Title of journal, volume number(issue number), page range. doi: 0000000/000000000000  Example:  Wang, L., Wang, M., & Wen, H. (2015). Teaching practice of physical education teachers for students with special needs: An application of the theory of planned behavior. International Journal of Disability, Development and Education, 62(6), 590-607. doi:   In-Text Citation:  (Wang, Wang, & Wen, 2015) | [...] |  |  |\n --- |\n| Journal Article from a Library Database with a DOI (7th Edition) | Format:  Author, A. A., & Author, B. B. (Date of publication). Title of article. Title of journal, volume number(issue number), page range. doi: 0000000/000000000000  Example:  Wang, L., Wang, M., & Wen, H. (2015). Teaching practice of physical education teachers for students with special needs: An application of the theory of planned behavior. International Journal of Disability, Development and Education, 62(6), 590-607. doi:   In-Text Citation:  (Wang et al., 2015) | [...] |  |  |\n --- |\n| Journal Article from a Library Database (6th Edition) | Format:  Author, A. A"
+          },
+          {
+            "title": "Citing Your Sources: Chicago: Author-Date (18th) - Research Guides",
+            "url": "https://libguides.williams.edu/citing/chicago-author-date",
+            "snippet": "Library of Congress. n.d. \"Slave Narratives from Slavery to the Great Depression.\" An Introduction to the WPA Slave Narratives. Accessed June 27, 2019. \n Place: Use n.p. if it is unknown. If it can be surmised, put in brackets with a question mark. (CMOS, 14.132)\n Publisher: If not listed on the title page or copyright page, use \"self-published\" or \"printed by author.\" (CMOS, 14.137)\n\n#### More than one author [...] Du Bois, W. E. B. 1898. \"The Study of the Negro Problems.\" Annals of the American Academy of Political and Social Science 11 (January): 1-23. \n\n  ———. 1903. The Souls of Black Folk: Essays and Sketches. Chicago: A. C. McClurg.\n\n  ———. 1947. The World and Africa: An Inquiry into the Part Which Africa Has Played in World History. New York: Viking.\n Multiple works by same author in same year are arranged alphabetically by title, and then a, b, c, etc. is added to the year to help make each entry unique for the in-text citation.\n\n  Olney, William W. 2015a. \"Impact of Corruption on Firm-Level Export Decisions.\" Economic Inquiry 54 (2): 1105–27.\n\n  Olney, William W. 2015b. \"Remittances and the Wage Impact of Immigration.\" Journal of Human Resources 50 (3): 694-727. [...] (Hum"
+          },
+          {
+            "title": "Chicago style: author-date system - University Library Lugano",
+            "url": "https://en.bul.sbu.usi.ch/learning/chicago_date",
+            "snippet": "Specify the meeting name and place.\n\nO'Guinn, T. C. 1987. \"Touching Greatness: Some Aspects of Star Worship in Contemporary Consumption.\" Paper presented at the annual meeting of the American Psychological Association, New York.\n\nIn-text citation  \n (O'Guinn 1987)\n\nWorking papers\n\nSpecify the type of material and the academic institution.\n\nLucki, Deborah D., and Richard, W. Pollay. 1980. “Content Analysis of Advertising: A Review of the Literature.” Working paper, History of Advertising Archives, Faculty of Commerce, University of British Columbia.\n\nIn-text citation  \n (Lucki and Pollay 1980)\n\n## Dictionaries and encyclopedias [...] Cite the document URL. The date of access is not required.\n\nMitchell, Alison, and Frank, Bruni. 2001. \"Scars Still Raw, Bush Clashes with McCain.\" New York Times, March 25. .\n\nIn-text citation  \n (Mitchell and Bruni 2001)\n\n## Reviews\n\nCite the review author and title, if given.\n\nBoehnke, Michael. 2000. Review of Analysis of Human Genetic Linkage, 3rd ed., by Jurg Ott. Am J HumGenet 66:1725. .\n\nIn-text citation  \n (Boehnke 2000)\n\n## Theses, papers\n\nTheses\n\nSpecify the type of thesis and the academic institution.\n\nChoi, Mihwa. 2008. “Contesting Imaginaire"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "content": "You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like [...] 1. If no warning flashes on pressing enter, the code has probably worked and the single-author articles among all articles currently loaded on the page are saved in result variable.\n2. Type `result` in next line and press enter.\n\nFor shorlisting papers with no more than, say; 6 authors,\n\n`let text = document.getElementsByClassName('docsum-authors full-authors'); let result = []; for(i=0;i`\n\nwhere the same code works when replacing `<6` with `==7` for papers having exactly six authors.\n\nHaven't checked with other databases, but provided the format of entries is similar (list of authors separated by commas in an html tag with unique class name) above code should work with replacement of class name (`\"docsum-authors full-authors\"` for Pubmed) and maybe the loop range/if conditions. [...] search_results = json.loads(r.text) #show some statistics print(f\"{search_results['esearchresult']['count']} publications found.\") if RETMAX < search_results['esearchresult']['count']: print(f\"Warning: Only the first {RETMAX} publications are processed.\") # walk through all rerieved ids and fetch detailed publication information # An alternative soloution could use one single query based on the previous search results as shown in #  # This would reduce the server load histogram = Counter() for pub_id in search_results['esearchresult']['idlist']: #print(f\"Fetching {pub_id}\", end=\" \") # uncomment for a more verbose versione # Now build the fetch URL: fetch_url = eutils_basepath + 'esummary.fcgi?db=' + DB + '&retmode=json&id=' + pub_id r = s.get(fetch_url) if r.status_code != 200: raise",
+            "score": 0.98866826
+          },
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "content": "Enter 10.14489/vkit.2014.12.pp.018-023 to the record of the article whose DOI is 10.14489/vkit.2014.12.pp.018-023\n\nEnter 10.14489/vkit.2014.12\\ to find records of articles whose DOI begins with the string 10.14489/vkit.2014.12, including:\n\n 10.14489/vkit.2014.12.pp.010-017\n 10.14489/vkit.2014.12.pp.018-023\n 10.14489/vkit.2014.12.pp.024-029\n\n# Year Published\n\nEnter a four-digit year or a range of years. For example:\n\n2015\n\n2010-2015\n\nYou should always combine a search by Year Published with a search by another field such as Topic, Author or Publication Name.\n\nIf your search by Year Published retrieves no results, check the timespan setting. The timespan setting may exclude records in the year range you specify. [...] ## Searching for Proceedings Authors\n\nTo restrict your search to authors of conference papers, select only the two conference proceedings citation indexes. Deselect all other citation indexes. Web of Science contains the names of all authors associated with a source document such as journal articles, proceeding papers, books, and book chapters.\n\n## Author Names 1964-1975\n\nWhen you view the full record of articles from data years 1964-1975, you will notice surnames containing more than eight characters are truncated. For example, a search for Wilkinson PN appears in the full record as WILKINSO.PN.\n\nAuthor Search Tip: To restrict the results of your search, combine an Author search with another field such as Topic, Title, or Address.\n\n## Guidelines for Searching Names [...] ## Searching for Authors Using Analyze Results\n\nTo narrow your search to authors (or inventors) of specific types of published papers (for example, nature articles), use the Analyze Results function.\n\nFrom the Results page, click the Analyze Results link.\n\nFrom the Analyze Results page, rank the records by the Source Title field.\n\nSelect records to view or select records to exclude.\n\nGo to the Results page to analyze your results.\n\n# Author Identifiers\n\nAn author identifier is a Web of Science ResearcherID number or ORCID.\n\nA-1009-2008 finds records of documents authored by a researcher whose Web of Science ResearcherID number is A-1009-2008.\n\n0000-0003-3768-1316 finds records of documents authored by a researcher whose ORCID is 0000-0003-3768-1316.",
+            "score": 0.9724148
+          },
+          {
+            "title": "Citation Styles: APA Articles - O'Kelly Library Resources by Subject",
+            "url": "https://wssu.libguides.com/citationstyles/apaarticles",
+            "content": "| Online Article with an Assigned DOI (6th Edition) | Format:  Author, A. A., & Author, B. B. (Date of publication). Title of article. Title of journal, volume number(issue number), page range. doi: 0000000/000000000000  Example:  Wang, L., Wang, M., & Wen, H. (2015). Teaching practice of physical education teachers for students with special needs: An application of the theory of planned behavior. International Journal of Disability, Development and Education, 62(6), 590-607. doi:   In-Text Citation:  (Wang, Wang, & Wen, 2015) | [...] |  |  |\n --- |\n| Journal Article from a Library Database with a DOI (7th Edition) | Format:  Author, A. A., & Author, B. B. (Date of publication). Title of article. Title of journal, volume number(issue number), page range. doi: 0000000/000000000000  Example:  Wang, L., Wang, M., & Wen, H. (2015). Teaching practice of physical education teachers for students with special needs: An application of the theory of planned behavior. International Journal of Disability, Development and Education, 62(6), 590-607. doi:   In-Text Citation:  (Wang et al., 2015) | [...] |  |  |\n --- |\n| Journal Article from a Library Database (6th Edition) | Format:  Author, A. A., & Author, B. B. (Date of publication). Title of article. Title of journal, volume number(issue number), page range. doi (if available). Retrieved from Database Name.  Example:  Oliver, R. M., & Reschly, D. J. (2010). Special education teacher preparation in classroom management: Implications for students with emotional and behavioral disorders. Behavioral Disorders, 35(3), 188-199. Retrieved from ProQuest.  In-Text Citation:  (Oliver & Reschly, 2010) |",
+            "score": 0.18126321
+          },
+          {
+            "title": "Citing Your Sources: Chicago: Author-Date (18th) - Research Guides",
+            "url": "https://libguides.williams.edu/citing/chicago-author-date",
+            "content": "Library of Congress. n.d. \"Slave Narratives from Slavery to the Great Depression.\" An Introduction to the WPA Slave Narratives. Accessed June 27, 2019. \n Place: Use n.p. if it is unknown. If it can be surmised, put in brackets with a question mark. (CMOS, 14.132)\n Publisher: If not listed on the title page or copyright page, use \"self-published\" or \"printed by author.\" (CMOS, 14.137)\n\n#### More than one author [...] Du Bois, W. E. B. 1898. \"The Study of the Negro Problems.\" Annals of the American Academy of Political and Social Science 11 (January): 1-23. \n\n  ———. 1903. The Souls of Black Folk: Essays and Sketches. Chicago: A. C. McClurg.\n\n  ———. 1947. The World and Africa: An Inquiry into the Part Which Africa Has Played in World History. New York: Viking.\n Multiple works by same author in same year are arranged alphabetically by title, and then a, b, c, etc. is added to the year to help make each entry unique for the in-text citation.\n\n  Olney, William W. 2015a. \"Impact of Corruption on Firm-Level Export Decisions.\" Economic Inquiry 54 (2): 1105–27.\n\n  Olney, William W. 2015b. \"Remittances and the Wage Impact of Immigration.\" Journal of Human Resources 50 (3): 694-727. [...] (Human Rights Campaign, n.d.)\n\n  Human Rights Campaign. n.d. \"Maps of State Laws and Policies.\" Accessed April 25, 2019. \n Page numbers: For unpaginated works, such as online resources, include a descriptive phrase using one of the divisions used in the work (chapter, paragraph number, section heading, etc.) in the in-text citation. If the work is short, such locators may not be necessary. (CMOS, 15.23)\n\n  (Library of Congress, n.d., under \"Slave Narratives and the New Debate about Slavery\")",
+            "score": 0.05014425
+          },
+          {
+            "title": "Chicago style: author-date system - University Library Lugano",
+            "url": "https://en.bul.sbu.usi.ch/learning/chicago_date",
+            "content": "Specify the meeting name and place.\n\nO'Guinn, T. C. 1987. \"Touching Greatness: Some Aspects of Star Worship in Contemporary Consumption.\" Paper presented at the annual meeting of the American Psychological Association, New York.\n\nIn-text citation  \n (O'Guinn 1987)\n\nWorking papers\n\nSpecify the type of material and the academic institution.\n\nLucki, Deborah D., and Richard, W. Pollay. 1980. “Content Analysis of Advertising: A Review of the Literature.” Working paper, History of Advertising Archives, Faculty of Commerce, University of British Columbia.\n\nIn-text citation  \n (Lucki and Pollay 1980)\n\n## Dictionaries and encyclopedias [...] Cite the document URL. The date of access is not required.\n\nMitchell, Alison, and Frank, Bruni. 2001. \"Scars Still Raw, Bush Clashes with McCain.\" New York Times, March 25. .\n\nIn-text citation  \n (Mitchell and Bruni 2001)\n\n## Reviews\n\nCite the review author and title, if given.\n\nBoehnke, Michael. 2000. Review of Analysis of Human Genetic Linkage, 3rd ed., by Jurg Ott. Am J HumGenet 66:1725. .\n\nIn-text citation  \n (Boehnke 2000)\n\n## Theses, papers\n\nTheses\n\nSpecify the type of thesis and the academic institution.\n\nChoi, Mihwa. 2008. “Contesting Imaginaires in Death Rituals during the Northern Song Dynasty.” PhD diss., University of Chicago. ProQuest (AAT 3300426).\n\nIn-text citation  \n (Choi 2008)\n\nPapers presented at meetings\n\nSpecify the meeting name and place. [...] Borel, Brooke. Infested: How the Bed Bug Infiltrated Our Bedrooms and Took Over the World. University of Chicago Press, 2015. Adobe Digital Editions EPUB.\n\nIn-text citation  \n (Borel 2015)\n\nFor books consulted online, cite the document DOI (if available) or URL.\n\nFelleisen, Matthias, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi. 2003. How to Design Programs: an Introduction to Programming and Computing.The MIT Press.  /.\n\nIn-text citation  \n (Felleisen et al. 2003, sec. 4.1)\n\n## Contribution to a book\n\nCite the individual title of the chapter, if there is one.\n\nPhibbs, Brendan. 1987. “Herrlisheim: Diary of a Battle.” In The Other Side of Time: A Combat Surgeon in World War II. Little, Brown.\n\nIn-text citation  \n (Phibbs 1987)",
+            "score": 0.043204036
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "score": 0.98866826
+          },
+          {
+            "title": "Web of Science Core Collection Search Fields",
+            "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+            "score": 0.9724148
+          },
+          {
+            "title": "Citation Styles: APA Articles - O'Kelly Library Resources by Subject",
+            "url": "https://wssu.libguides.com/citationstyles/apaarticles",
+            "score": 0.18126321
+          },
+          {
+            "title": "Citing Your Sources: Chicago: Author-Date (18th) - Research Guides",
+            "url": "https://libguides.williams.edu/citing/chicago-author-date",
+            "score": 0.05014425
+          },
+          {
+            "title": "Chicago style: author-date system - University Library Lugano",
+            "url": "https://en.bul.sbu.usi.ch/learning/chicago_date",
+            "score": 0.043204036
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Find"
+          },
+          {
+            "type": "name_like",
+            "value": "You"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Type"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Haven"
+          },
+          {
+            "type": "name_like",
+            "value": "Pubmed"
+          },
+          {
+            "type": "name_like",
+            "value": "Web"
+          },
+          {
+            "type": "name_like",
+            "value": "Science Core Collection Search"
+          },
+          {
+            "type": "name_like",
+            "value": "Fields\nEnter"
+          },
+          {
+            "type": "name_like",
+            "value": "Enter"
+          },
+          {
+            "type": "name_like",
+            "value": "Year Published"
+          },
+          {
+            "type": "name_like",
+            "value": "Topic"
+          },
+          {
+            "type": "name_like",
+            "value": "Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Publication Name"
+          },
+          {
+            "type": "name_like",
+            "value": "Searching"
+          },
+          {
+            "type": "name_like",
+            "value": "Proceedings Authors"
+          },
+          {
+            "type": "name_like",
+            "value": "Deselect"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Author Names"
+          },
+          {
+            "type": "name_like",
+            "value": "When"
+          },
+          {
+            "type": "name_like",
+            "value": "Citation Styles"
+          },
+          {
+            "type": "name_like",
+            "value": "Articles"
+          },
+          {
+            "type": "name_like",
+            "value": "Kelly Library Resources"
+          },
+          {
+            "type": "name_like",
+            "value": "Subject"
+          },
+          {
+            "type": "name_like",
+            "value": "Online Article"
+          },
+          {
+            "type": "name_like",
+            "value": "Assigned"
+          },
+          {
+            "type": "name_like",
+            "value": "Edition"
+          },
+          {
+            "type": "name_like",
+            "value": "Format"
+          },
+          {
+            "type": "name_like",
+            "value": "Date"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the authors who have prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine the title of the first paper authored by the author who had authored prior papers.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer with the title of the first paper.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T6": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

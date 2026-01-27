@@ -1,0 +1,148 @@
+{
+  "id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+  "query": "In the fictional language of Tizin, basic sentences are arranged with the Verb first, followed by the direct object, followed by the subject of the sentence. I want to express my love for apples to my Tizin friend. \n\nThe word that indicates oneself is \"Pa\" is the nominative form, \"Mato\" is the accusative form, and \"Sing\" is the genitive form. \n\nThe root verb that indicates an intense like for something is \"Maktay\". When it is used in the present, it is used in it's root form, when it is used in the preterit past, it is \"Tay\", and when it is used in the imperfect past, it is \"Aktay\". It is used differently than in English, and is better translated as \"is pleasing to\", meaning that the thing doing the liking is actually the object of the sentence rather than the subject.\n\nThe word for apples is borrowed from English in Tizin, and so it is \"Apple\" is the nominative form, \"Zapple\" is the accusative form, and \"Izapple\" is the genitive form. \n\nPlease translate \"I like apples\" to Tizin.",
+  "ground_truth": "Maktay mato apple",
+  "answer_raw": {
+    "final_answer": "Zapple Maktay Pa",
+    "final_answer_strict": "Zapple Maktay Pa",
+    "used_evidence": [
+      "In Tizin, basic sentences are arranged with the Verb first, followed by the direct object, followed by the subject.",
+      "The word for apples in accusative form is \"Zapple\" (direct object).",
+      "The root verb for \"is pleasing to\" (like) in present tense is \"Maktay\".",
+      "The nominative form for oneself is \"Pa\" (subject)."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Zapple Maktay Pa",
+  "error": null,
+  "duration_sec": 20.09990692138672,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Construct the Tizin sentence structure using the provided rules.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The Tizin sentence structure is defined by specific grammatical rules that are provided.",
+          "The rules for constructing a Tizin sentence are clear and unambiguous."
+        ],
+        "reasoning_steps": [
+          "Identify the key components of a Tizin sentence as per the provided rules.",
+          "Determine the order and relationship of these components based on the Tizin grammar.",
+          "Construct a sample Tizin sentence using the identified components and their correct order."
+        ],
+        "conclusions": [
+          "A Tizin sentence can be constructed by following the specified grammatical rules.",
+          "The structure of the Tizin sentence is distinct and must adhere to the defined syntax."
+        ],
+        "proposed_answer_outline": [
+          "Define the key components of a Tizin sentence.",
+          "List the grammatical rules for constructing Tizin sentences.",
+          "Provide a step-by-step example of constructing a Tizin sentence."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the specific grammatical rules for constructing a Tizin sentence?",
+          "Can you provide examples of key components used in Tizin sentences?"
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the correct forms of the words for 'I', 'like', and 'apples' in Tizin.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": false,\n  \"matched_on\": [\n    \"Tizin\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Tizin\",\n      \"type\": \"language\",\n      \"evidence\": \"Extract the correct forms of the words for 'I', 'like', and 'apples' in Tizin.\"\n    }\n  ],\n  \"key_points\": [\n    \"No search snippets or source text were provided that define Tizin vocabulary or morphology for the words 'I', 'like', or 'apples'.\",\n    \"Without a Tizin lexicon/grammar reference, the correct forms cannot be extracted in a machine-checkable way.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"Extract the correct forms of the words for 'I', 'like', and 'apples' in Tizin.\"\n    }\n  ],\n  \"open_questions\": [\n    \"What source (grammar, dictionary, or example sentences) defines the Tizin forms for 'I', 'like', and 'apples'?\",\n    \"Does Tizin require specific case/number marking for 'apples' ("
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final translated sentence in Tizin.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Zapple Maktay Pa",
+        "final_answer_strict": "Zapple Maktay Pa",
+        "used_evidence": [
+          "In Tizin, basic sentences are arranged with the Verb first, followed by the direct object, followed by the subject.",
+          "The word for apples in accusative form is \"Zapple\" (direct object).",
+          "The root verb for \"is pleasing to\" (like) in present tense is \"Maktay\".",
+          "The nominative form for oneself is \"Pa\" (subject)."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 8,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 300,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 900,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "zapple maktay pa",
+    "gt_norm": "maktay mato apple"
+  }
+}

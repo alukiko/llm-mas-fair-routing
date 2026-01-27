@@ -1,0 +1,391 @@
+{
+  "id": "cf106601-ab4f-4af9-b045-5295fe67b37d",
+  "query": "What country had the least number of athletes at the 1928 Summer Olympics? If there's a tie for a number of athletes, return the first in alphabetical order. Give the IOC country code as your answer.",
+  "ground_truth": "CUB",
+  "answer_raw": {
+    "final_answer": "Haiti",
+    "final_answer_strict": "HAI",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "HAI",
+  "error": null,
+  "duration_sec": 32.5344443321228,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find sources with information about the number of athletes from each country at the 1928 Summer Olympics.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find sources with information about the number of athletes from each country at the 1928 Summer Olympics.",
+        "facts": [
+          {
+            "fact": "Germany had 296 athletes competing in the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          },
+          {
+            "fact": "The United States sent 280 athletes to the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          },
+          {
+            "fact": "A total of 2,883 athletes from 46 countries participated in the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          },
+          {
+            "fact": "The Netherlands had 264 athletes at the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          },
+          {
+            "fact": "France was represented by 255 athletes during the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          },
+          {
+            "fact": "Great Britain had 232 athletes competing in the 1928 Summer Olympics.",
+            "source_url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+          }
+        ],
+        "summary": "The 1928 Summer Olympics featured 2,883 athletes from 46 countries, with Germany, the United States, and the Netherlands having the highest athlete counts.",
+        "sources": [
+          {
+            "title": "1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics",
+            "snippet": "| Country | Athletes |\n --- |\n| Germany | 296 |\n| United States | 280 |\n| Netherlands | 264 |\n| France | 255 |\n| Great Britain | 232 |\n| Belgium | 186 |\n| Italy | 174 |\n| Switzerland | 133 |\n| Hungary | 109 |\n| Sweden | 100 |\n| Poland | 93 |\n| Denmark | 91 |\n| Argentina | 81 |\n| Spain | 80 |\n| Austria | 73 |\n| Czechoslovakia | 70 |\n| Canada | 69 |\n| Finland | 69 |\n| Norway | 52 |\n| Luxembourg | 46 |\n| Japan | 43 |\n| Chile | 38 |\n| Yugoslavia | 34 |\n| Egypt | 32 |\n| Portugal | 31 |\n| Turkey | 31 |\n| Mexico | 30 |\n| Romania | 29 |\n| Ireland | 27 |\n| South Africa | 24 |\n| Greece | 23 |\n| Uruguay | 22 |\n| India | 21 |\n| Estonia | 20 |\n| Australia | 18 |\n| Latvia | 14 |\n| Lithuania | 12 |\n| New Zealand | 10 |\n| Malta | 9 |\n| Monaco | 7 |\n| Bulgaria | 5 |\n| Philippines | 4 |\n| Haiti | 2 | [...] Games of the IX Olympiad\n\n| Poster for the 1928 Summer Olympics |\n| Location | Amsterdam, Netherlands |\n| Nations | 46 |\n| Athletes | 2,883 (2,606 men, 277 women) |\n| Events | 109 in 14 sports (20 disciplines) |\n| Opening | 28 July 1928 |\n| Closing | 12 August 1928 |\n| Opened by | Prince Hendrik |\n| Stadium | Olympisch Stadion \"Olympic Stadium (Amsterdam)\") |\n| Summer  ← Paris 1924  Los Angeles 19"
+          },
+          {
+            "title": "1928 Summer Olympics Overview - Olympedia",
+            "url": "https://www.olympedia.org/editions/9",
+            "snippet": "| NOC | Gold | Silver | Bronze | Total |\n ---  --- \n| United States | USA | 22 | 18 | 16 | 56 |\n| Germany | GER | 11 | 9 | 19 | 39 |\n| Netherlands | NED | 8 | 10 | 5 | 23 |\n| Finland | FIN | 8 | 8 | 9 | 25 |\n| France | FRA | 7 | 12 | 6 | 25 |\n| Sweden | SWE | 7 | 6 | 12 | 25 |\n| Italy | ITA | 7 | 6 | 7 | 20 |\n| Switzerland | SUI | 7 | 6 | 4 | 17 |\n| Hungary | HUN | 5 | 5 | 0 | 10 |\n| Great Britain | GBR | 4 | 11 | 7 | 22 |\n| Canada | CAN | 4 | 4 | 7 | 15 |\n| Argentina | ARG | 3 | 3 | 1 | 7 |\n| Denmark | DEN | 3 | 2 | 4 | 9 |\n| Austria | AUT | 3 | 0 | 1 | 4 |\n| Czechoslovakia | TCH | 2 | 5 | 2 | 9 |\n| Japan | JPN | 2 | 2 | 1 | 5 |\n| Poland | POL | 2 | 1 | 4 | 7 |\n| Estonia | EST | 2 | 1 | 2 | 5 |\n| Egypt | EGY | 2 | 1 | 1 | 4 |\n| Australia | AUS | 1 | 2 | 1 | 4 | [...] # 1928 Summer Olympics\n\n## Facts\n\n|  |  |\n --- |\n| Competition type | Olympic Games |\n| Number and Year | IX / 1928 |\n| Host city | Amsterdam, Netherlands (Venues) |\n| Opening ceremony | 28 July |\n| Closing ceremony | 12 August |\n| Competition dates | 17 May – 12 August |\n| OCOG | Nederlands Olympisch Comité (Comité 1928) |\n| Participants | 3296 from 46 countries |\n| Medal events | 125 in 20 disciplines |\n| Other even"
+          },
+          {
+            "title": "1928 Summer Olympics medal table - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics_medal_table",
+            "snippet": "The 1928 Summer Olympics were held in and around Amsterdam in the Netherlands from 17 May 1928 to 22 August 1928. A total of 2,883 athletes from 46 countries participated in the sports competition, in 14 sports and 109 events. Additionally, five art competitions were held with 13 events combined. 327 sports medals and 29 arts medals were awarded during the 1928 Summer Olympics. A total of 5,901 souvenir medals were given; 5,139 medals to contestants and officials, and 762 medals to persons that contributed to the Olympics by rendering their services. The souvenir medals are not displayed in the medal tables.\n\n## Medal table\n\n[edit] [...] | Rank | Nation | Gold | Silver | Bronze | Total |\n| 1 | United States | 22 | 18 | 16 | 56 |\n| 2 | Germany | 10 | 7 | 14 | 31 |\n| 3 | Finland | 8 | 8 | 9 | 25 |\n| 4 | Sweden | 7 | 6 | 12 | 25 |\n| 5 | Italy | 7 | 5 | 7 | 19 |\n| 6 | Switzerland | 7 | 4 | 4 | 15 |\n| 7 | France | 6 | 10 | 5 | 21 |\n| 8 | Netherlands\\ | 6 | 9 | 4 | 19 |\n| 9 | Hungary | 4 | 5 | 0 | 9 |\n| 10 | Canada | 4 | 4 | 7 | 15 |\n| 11 | Great Britain | 3 | 10 | 7 | 20 |\n| 12 | Argentina | 3 | 3 | 1 | 7 |\n| 13 | Denmark | 3 | 1 | 2 | 6 |\n| 14 | Czechoslovakia | 2 | 5 | 2 | 9 |\n| 15 | "
+          },
+          {
+            "title": "Athletics at the 1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Athletics_at_the_1928_Summer_Olympics",
+            "snippet": "### Women's world records\n\n[edit]\n\n| Event | Date | Round | Name | Nationality | Result |\n ---  ---  --- |\n| 800 metres | August 2 | Final | Lina Radke | Germany | 2:16.8 |\n| 4 × 100 metres relay | August 5 | Final | Myrtle Cook Ethel Smith \"Ethel Smith (athlete)\") Bobbie Rosenfeld Jane Bell \"Jane Bell (athlete)\") | Canada | 48.4 |\n| High jump | August 5 | Final | Ethel Catherwood | Canada | 1.595 m |\n| Discus throw | July 31 | Final | Halina Konopacka | Poland | 39.62 m |\n\n## Participating nations\n\n[edit]\n\n706 athletes from 40 nations competed. Lithuania and Romania competed in athletics for the first time. Bulgaria, Egypt, Malta, Panama, Rhodesia, and Uruguay were the only six nations not to compete in athletics. [...] Print/export\n\n Download as PDF\n Printable version\n\nIn other projects\n\n Wikimedia Commons\n Wikidata item\n\nAppearance\n\nCoordinates: 52°20′36″N 4°51′15″E﻿ / ﻿52.3434°N 4.8542°E﻿ / 52.3434; 4.8542\n\nFrom Wikipedia, the free encyclopedia\n\n| Athletics  at the Games of the IX Olympiad |\n\n| Athletics at the 1928 Summer Olympics on a stamp of the Netherlands |\n| Venue | Olympic Stadium \"Olympic Stadium (Amsterdam)\") |\n| Dates | 29 July–5 August |\n| Competitors | 706 (611 men"
+          },
+          {
+            "title": "Athlete count for 1928 Summer Olympics - Olympedia",
+            "url": "https://www.olympedia.org/counts/edition/9",
+            "snippet": "| FIN  - | 35  3  1  -  1 | 1  -  - | 1  -  2  8  -  3  -  1  - | 1  -  - | 13  67 | 2 | 69 |\n| FRA | 58 | 5 | 41 | 9 | 8  4  7  3 | 1 | 3  3  3  11  17 | 3 | 8 | 12 | 15  3  26  12 | 1 | 7 | 6 | 10  9  13  257 | 37 | 294 |\n| GBR | 37 | 2 | 55  8  4  8  4 | 3  -  -  -  - | 16 | 3 | 8 | 12  - | 3  22  7 | 1 | 11 | 10 | 5  9  6  201 | 31 | 232 |\n| GER | 80 | 4 | 46 | 16 | 8  4  6  5 | 4 | 3  3  3  11  10 | 3  - | 19  3  23  6  11 | 8 | 10  8  6  263 | 35 | 298 |\n| GRE  - | 13  2  -  -  -  -  -  -  -  5  -  -  -  -  -  -  -  -  3  23  23 |\n| HAI  - | 2  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  2  2 |\n| HUN | 5  25 | 1 | 4  -  -  -  -  3  3  -  14 | 3 | 8 | 10  - | 1  6  6  6 | 2  - | 7  6  93 | 16 | 109 | [...] | BEL | 15 | 1 | 24 | 8 | 6  4  5  -  3  3  3  14  18 | 3  - | 18  3  21  6  5  8  10  13  175 | 12 | 187 |\n| BUL  -  -  -  -  -  - | 1  -  3  -  2  -  -  -  -  -  -  -  -  -  5  5 |\n| CAN  - | 26 | 6 | 7  4  4  1  -  -  -  -  -  -  -  -  11  -  5 | 1  -  - | 5  61 | 7 | 68 |\n| CHI  - | 8  4  -  5  -  -  -  -  11  6  -  -  -  -  -  4  -  -  -  38  38 |\n| CUB  - | 1  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  1  1 |\n| DEN | 13  10  6  4  1  - | 1 | 1  -  "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics",
+            "content": "| Country | Athletes |\n --- |\n| Germany | 296 |\n| United States | 280 |\n| Netherlands | 264 |\n| France | 255 |\n| Great Britain | 232 |\n| Belgium | 186 |\n| Italy | 174 |\n| Switzerland | 133 |\n| Hungary | 109 |\n| Sweden | 100 |\n| Poland | 93 |\n| Denmark | 91 |\n| Argentina | 81 |\n| Spain | 80 |\n| Austria | 73 |\n| Czechoslovakia | 70 |\n| Canada | 69 |\n| Finland | 69 |\n| Norway | 52 |\n| Luxembourg | 46 |\n| Japan | 43 |\n| Chile | 38 |\n| Yugoslavia | 34 |\n| Egypt | 32 |\n| Portugal | 31 |\n| Turkey | 31 |\n| Mexico | 30 |\n| Romania | 29 |\n| Ireland | 27 |\n| South Africa | 24 |\n| Greece | 23 |\n| Uruguay | 22 |\n| India | 21 |\n| Estonia | 20 |\n| Australia | 18 |\n| Latvia | 14 |\n| Lithuania | 12 |\n| New Zealand | 10 |\n| Malta | 9 |\n| Monaco | 7 |\n| Bulgaria | 5 |\n| Philippines | 4 |\n| Haiti | 2 | [...] Games of the IX Olympiad\n\n| Poster for the 1928 Summer Olympics |\n| Location | Amsterdam, Netherlands |\n| Nations | 46 |\n| Athletes | 2,883 (2,606 men, 277 women) |\n| Events | 109 in 14 sports (20 disciplines) |\n| Opening | 28 July 1928 |\n| Closing | 12 August 1928 |\n| Opened by | Prince Hendrik |\n| Stadium | Olympisch Stadion \"Olympic Stadium (Amsterdam)\") |\n| Summer  ← Paris 1924  Los Angeles 1932 →  Winter  ← St Moritz 1928  Lake Placid 1932 → | [...] | Participating National Olympic Committees |\n\n|  Argentina (81 athletes)  Australia (18)  Austria (73)  Belgium (186)  Bulgaria (5)  Canada (69)  Chile (38)  Cuba (1)  Czechoslovakia (70)  Denmark (91)  Estonia (20)  Egypt (32)  Finland (69)  France (255)  Germany (296)  Great Britain (232)  Greece (23)  Haiti (2)  Hungary (109)  India (21)  Ireland (27)  Italy (174)  Japan (43)  Latvia (14)  Lithuania (12)  Luxembourg (46)  Malta (9)  Mexico (30)  Monaco (7)  Netherlands (264) (host)  New Zealand (10)  Norway (52)  Panama (1)  Philippines (4)  Poland (93)  Portugal (31)  Rhodesia (2)  Romania (29)  South Africa (24)  Spain (80)  Switzerland (133)  Sweden (100)  Turkey (31)  United States (280)  Uruguay (22)  Yugoslavia (34) |\n\n### Number of athletes by National Olympic Committees",
+            "score": 0.89279664
+          },
+          {
+            "title": "1928 Summer Olympics Overview - Olympedia",
+            "url": "https://www.olympedia.org/editions/9",
+            "content": "| NOC | Gold | Silver | Bronze | Total |\n ---  --- \n| United States | USA | 22 | 18 | 16 | 56 |\n| Germany | GER | 11 | 9 | 19 | 39 |\n| Netherlands | NED | 8 | 10 | 5 | 23 |\n| Finland | FIN | 8 | 8 | 9 | 25 |\n| France | FRA | 7 | 12 | 6 | 25 |\n| Sweden | SWE | 7 | 6 | 12 | 25 |\n| Italy | ITA | 7 | 6 | 7 | 20 |\n| Switzerland | SUI | 7 | 6 | 4 | 17 |\n| Hungary | HUN | 5 | 5 | 0 | 10 |\n| Great Britain | GBR | 4 | 11 | 7 | 22 |\n| Canada | CAN | 4 | 4 | 7 | 15 |\n| Argentina | ARG | 3 | 3 | 1 | 7 |\n| Denmark | DEN | 3 | 2 | 4 | 9 |\n| Austria | AUT | 3 | 0 | 1 | 4 |\n| Czechoslovakia | TCH | 2 | 5 | 2 | 9 |\n| Japan | JPN | 2 | 2 | 1 | 5 |\n| Poland | POL | 2 | 1 | 4 | 7 |\n| Estonia | EST | 2 | 1 | 2 | 5 |\n| Egypt | EGY | 2 | 1 | 1 | 4 |\n| Australia | AUS | 1 | 2 | 1 | 4 | [...] # 1928 Summer Olympics\n\n## Facts\n\n|  |  |\n --- |\n| Competition type | Olympic Games |\n| Number and Year | IX / 1928 |\n| Host city | Amsterdam, Netherlands (Venues) |\n| Opening ceremony | 28 July |\n| Closing ceremony | 12 August |\n| Competition dates | 17 May – 12 August |\n| OCOG | Nederlands Olympisch Comité (Comité 1928) |\n| Participants | 3296 from 46 countries |\n| Medal events | 125 in 20 disciplines |\n| Other events | 3 in 3 disciplines |\n\n## Overview [...] | Australia | AUS | 1 | 2 | 1 | 4 |\n| Norway | NOR | 1 | 2 | 1 | 4 |\n| Yugoslavia | YUG | 1 | 1 | 3 | 5 |\n| South Africa | RSA | 1 | 0 | 2 | 3 |\n| India | IND | 1 | 0 | 0 | 1 |\n| Ireland | IRL | 1 | 0 | 0 | 1 |\n| Luxembourg | LUX | 1 | 0 | 0 | 1 |\n| New Zealand | NZL | 1 | 0 | 0 | 1 |\n| Spain | ESP | 1 | 0 | 0 | 1 |\n| Uruguay | URU | 1 | 0 | 0 | 1 |\n| Belgium | BEL | 0 | 1 | 2 | 3 |\n| Chile | CHI | 0 | 1 | 0 | 1 |\n| Haiti | HAI | 0 | 1 | 0 | 1 |\n| Philippines | PHI | 0 | 0 | 1 | 1 |\n| Portugal | POR | 0 | 0 | 1 | 1 |",
+            "score": 0.8464638
+          },
+          {
+            "title": "1928 Summer Olympics medal table - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics_medal_table",
+            "content": "The 1928 Summer Olympics were held in and around Amsterdam in the Netherlands from 17 May 1928 to 22 August 1928. A total of 2,883 athletes from 46 countries participated in the sports competition, in 14 sports and 109 events. Additionally, five art competitions were held with 13 events combined. 327 sports medals and 29 arts medals were awarded during the 1928 Summer Olympics. A total of 5,901 souvenir medals were given; 5,139 medals to contestants and officials, and 762 medals to persons that contributed to the Olympics by rendering their services. The souvenir medals are not displayed in the medal tables.\n\n## Medal table\n\n[edit] [...] | Rank | Nation | Gold | Silver | Bronze | Total |\n| 1 | United States | 22 | 18 | 16 | 56 |\n| 2 | Germany | 10 | 7 | 14 | 31 |\n| 3 | Finland | 8 | 8 | 9 | 25 |\n| 4 | Sweden | 7 | 6 | 12 | 25 |\n| 5 | Italy | 7 | 5 | 7 | 19 |\n| 6 | Switzerland | 7 | 4 | 4 | 15 |\n| 7 | France | 6 | 10 | 5 | 21 |\n| 8 | Netherlands\\ | 6 | 9 | 4 | 19 |\n| 9 | Hungary | 4 | 5 | 0 | 9 |\n| 10 | Canada | 4 | 4 | 7 | 15 |\n| 11 | Great Britain | 3 | 10 | 7 | 20 |\n| 12 | Argentina | 3 | 3 | 1 | 7 |\n| 13 | Denmark | 3 | 1 | 2 | 6 |\n| 14 | Czechoslovakia | 2 | 5 | 2 | 9 |\n| 15 | Japan | 2 | 2 | 1 | 5 |\n| 16 | Estonia | 2 | 1 | 2 | 5 |\n| 17 | Egypt | 2 | 1 | 1 | 4 |\n| 18 | Austria | 2 | 0 | 1 | 3 |\n| 19 | Australia | 1 | 2 | 1 | 4 |\n| Norway | 1 | 2 | 1 | 4 |\n| 21 | Poland | 1 | 1 | 3 | 5 | [...] For the 109 sports events a total of 327 medals were awarded: 110 gold medals, 108 silver medals, and 109 bronze medals. These numbers are unequal, because two gold medals and no silver medals were awarded in the lightweight category of weightlifting, after a first-place tie in the event. The athletes of 33 countries won one or more medals. The most medals (56) and the most gold medals (22) were won by athletes from the United States.\n\nThe countries are ranked by the number of gold medals won by the athletes of that country. If countries are tied, first the number of silver medals is taken into consideration and then the number of bronze medals. If, after the above, countries are still tied, equal ranking is given and they are listed alphabetically.",
+            "score": 0.8412138
+          },
+          {
+            "title": "Athletics at the 1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Athletics_at_the_1928_Summer_Olympics",
+            "content": "### Women's world records\n\n[edit]\n\n| Event | Date | Round | Name | Nationality | Result |\n ---  ---  --- |\n| 800 metres | August 2 | Final | Lina Radke | Germany | 2:16.8 |\n| 4 × 100 metres relay | August 5 | Final | Myrtle Cook Ethel Smith \"Ethel Smith (athlete)\") Bobbie Rosenfeld Jane Bell \"Jane Bell (athlete)\") | Canada | 48.4 |\n| High jump | August 5 | Final | Ethel Catherwood | Canada | 1.595 m |\n| Discus throw | July 31 | Final | Halina Konopacka | Poland | 39.62 m |\n\n## Participating nations\n\n[edit]\n\n706 athletes from 40 nations competed. Lithuania and Romania competed in athletics for the first time. Bulgaria, Egypt, Malta, Panama, Rhodesia, and Uruguay were the only six nations not to compete in athletics. [...] Print/export\n\n Download as PDF\n Printable version\n\nIn other projects\n\n Wikimedia Commons\n Wikidata item\n\nAppearance\n\nCoordinates: 52°20′36″N 4°51′15″E﻿ / ﻿52.3434°N 4.8542°E﻿ / 52.3434; 4.8542\n\nFrom Wikipedia, the free encyclopedia\n\n| Athletics  at the Games of the IX Olympiad |\n\n| Athletics at the 1928 Summer Olympics on a stamp of the Netherlands |\n| Venue | Olympic Stadium \"Olympic Stadium (Amsterdam)\") |\n| Dates | 29 July–5 August |\n| Competitors | 706 (611 men, 95 women) from 40 nations |\n| ← 1924  1932 → |\n\n| Athletics at the 1928 Summer Olympics | [...] ## Medal summary\n\n[edit]\n\n| Rank | Nation | Gold | Silver | Bronze | Total |\n ---  ---  --- |\n| 1 | United States | 9 | 8 | 8 | 25 |\n| 2 | Finland | 5 | 5 | 4 | 14 |\n| 3 | Canada | 4 | 2 | 2 | 8 |\n| 4 | Great Britain | 2 | 2 | 1 | 5 |\n| 5 | Germany | 1 | 2 | 6 | 9 |\n| 6 | Sweden | 1 | 2 | 4 | 7 |\n| 7 | France | 1 | 1 | 1 | 3 |\n| 8 | Japan | 1 | 1 | 0 | 2 |\n| 9 | Ireland | 1 | 0 | 0 | 1 |\n| Poland | 1 | 0 | 0 | 1 |\n| South Africa | 1 | 0 | 0 | 1 |\n| 12 | Chile | 0 | 1 | 0 | 1 |\n| Haiti | 0 | 1 | 0 | 1 |\n| Hungary | 0 | 1 | 0 | 1 |\n| Netherlands | 0 | 1 | 0 | 1 |\n| 16 | Norway | 0 | 0 | 1 | 1 |\n| Totals (16 entries) | 27 | 27 | 27 | 81 |\n\n### Men\n\n[edit]",
+            "score": 0.83290404
+          },
+          {
+            "title": "Athlete count for 1928 Summer Olympics - Olympedia",
+            "url": "https://www.olympedia.org/counts/edition/9",
+            "content": "| FIN  - | 35  3  1  -  1 | 1  -  - | 1  -  2  8  -  3  -  1  - | 1  -  - | 13  67 | 2 | 69 |\n| FRA | 58 | 5 | 41 | 9 | 8  4  7  3 | 1 | 3  3  3  11  17 | 3 | 8 | 12 | 15  3  26  12 | 1 | 7 | 6 | 10  9  13  257 | 37 | 294 |\n| GBR | 37 | 2 | 55  8  4  8  4 | 3  -  -  -  - | 16 | 3 | 8 | 12  - | 3  22  7 | 1 | 11 | 10 | 5  9  6  201 | 31 | 232 |\n| GER | 80 | 4 | 46 | 16 | 8  4  6  5 | 4 | 3  3  3  11  10 | 3  - | 19  3  23  6  11 | 8 | 10  8  6  263 | 35 | 298 |\n| GRE  - | 13  2  -  -  -  -  -  -  -  5  -  -  -  -  -  -  -  -  3  23  23 |\n| HAI  - | 2  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  2  2 |\n| HUN | 5  25 | 1 | 4  -  -  -  -  3  3  -  14 | 3 | 8 | 10  - | 1  6  6  6 | 2  - | 7  6  93 | 16 | 109 | [...] | BEL | 15 | 1 | 24 | 8 | 6  4  5  -  3  3  3  14  18 | 3  - | 18  3  21  6  5  8  10  13  175 | 12 | 187 |\n| BUL  -  -  -  -  -  - | 1  -  3  -  2  -  -  -  -  -  -  -  -  -  5  5 |\n| CAN  - | 26 | 6 | 7  4  4  1  -  -  -  -  -  -  -  -  11  -  5 | 1  -  - | 5  61 | 7 | 68 |\n| CHI  - | 8  4  -  5  -  -  -  -  11  6  -  -  -  -  -  4  -  -  -  38  38 |\n| CUB  - | 1  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  1  1 |\n| DEN | 13  10  6  4  1  - | 1 | 1  -  2  -  7 | 3  - | 13  2  10  5  - | 5 | 1  -  7  82 | 9 | 91 |\n| EGY  -  -  -  -  - | 2  -  -  -  16  8  -  -  -  -  -  -  2  -  4  32  32 |\n| ESP  - | 10  6  -  1  -  -  3  3  17  9  -  15  -  -  6  5  -  7  -  80  80 |\n| EST  - | 4  1  -  -  -  -  -  -  -  -  -  -  -  -  5  -  4  -  6  20  20 | [...] | IND  - | 7  -  -  -  -  -  -  -  -  -  -  14  -  -  -  -  -  -  -  21  21 |\n| IRL | 5 | 4 | 10  8  1  1  -  -  -  -  -  -  -  -  -  -  -  1 | 1  - | 7  -  33 | 5 | 38 |\n| ITA | 11  18 | 6 | 7  4  8  3  -  3  3  17  18  8 | 12  - | 3  26  12  5  6  -  5  156 | 18 | 174 |\n| JPN  - | 15 | 1 | 2  -  -  1  2  1  1  -  -  -  -  -  6  -  10  -  -  1  39 | 1 | 40 |\n| LAT | 2  4 | 2  -  - | 5  -  -  -  -  -  -  -  -  -  -  1  -  1  -  2  15 | 2 | 17 |\n| LTU  - | 4 | 1 | 2  4  -  -  -  -  -  -  -  -  -  -  -  -  -  1  -  -  11 | 1 | 12 |\n| LUX | 1  4  5  4  -  -  -  -  -  11  -  8  -  -  -  -  1 | 2 | 3  7  3  46 | 2 | 48 |\n| MEX | 1  11  4  -  -  1  -  -  -  11  2  -  -  -  -  -  -  -  -  -  30  30 |\n| MLT  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - | 9  -  9  9 |",
+            "score": 0.8232293
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics",
+            "score": 0.89279664
+          },
+          {
+            "title": "1928 Summer Olympics Overview - Olympedia",
+            "url": "https://www.olympedia.org/editions/9",
+            "score": 0.8464638
+          },
+          {
+            "title": "1928 Summer Olympics medal table - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/1928_Summer_Olympics_medal_table",
+            "score": 0.8412138
+          },
+          {
+            "title": "Athletics at the 1928 Summer Olympics - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Athletics_at_the_1928_Summer_Olympics",
+            "score": 0.83290404
+          },
+          {
+            "title": "Athlete count for 1928 Summer Olympics - Olympedia",
+            "url": "https://www.olympedia.org/counts/edition/9",
+            "score": 0.8232293
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Summer Olympics"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Country"
+          },
+          {
+            "type": "name_like",
+            "value": "Athletes"
+          },
+          {
+            "type": "name_like",
+            "value": "Germany"
+          },
+          {
+            "type": "name_like",
+            "value": "United States"
+          },
+          {
+            "type": "name_like",
+            "value": "Netherlands"
+          },
+          {
+            "type": "name_like",
+            "value": "France"
+          },
+          {
+            "type": "name_like",
+            "value": "Great Britain"
+          },
+          {
+            "type": "name_like",
+            "value": "Belgium"
+          },
+          {
+            "type": "name_like",
+            "value": "Italy"
+          },
+          {
+            "type": "name_like",
+            "value": "Switzerland"
+          },
+          {
+            "type": "name_like",
+            "value": "Hungary"
+          },
+          {
+            "type": "name_like",
+            "value": "Sweden"
+          },
+          {
+            "type": "name_like",
+            "value": "Poland"
+          },
+          {
+            "type": "name_like",
+            "value": "Denmark"
+          },
+          {
+            "type": "name_like",
+            "value": "Argentina"
+          },
+          {
+            "type": "name_like",
+            "value": "Spain"
+          },
+          {
+            "type": "name_like",
+            "value": "Austria"
+          },
+          {
+            "type": "name_like",
+            "value": "Czechoslovakia"
+          },
+          {
+            "type": "name_like",
+            "value": "Canada"
+          },
+          {
+            "type": "name_like",
+            "value": "Finland"
+          },
+          {
+            "type": "name_like",
+            "value": "Norway"
+          },
+          {
+            "type": "name_like",
+            "value": "Luxembourg"
+          },
+          {
+            "type": "name_like",
+            "value": "Japan"
+          },
+          {
+            "type": "name_like",
+            "value": "Chile"
+          },
+          {
+            "type": "name_like",
+            "value": "Yugoslavia"
+          },
+          {
+            "type": "name_like",
+            "value": "Egypt"
+          },
+          {
+            "type": "name_like",
+            "value": "Portugal"
+          },
+          {
+            "type": "name_like",
+            "value": "Turkey"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the number of athletes from each country from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"number of athletes\",\n    \"countries\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Germany\",\n      \"type\": \"country\",\n      \"evidence\": \"Germany | 296\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"United States\",\n      \"type\": \"country\",\n      \"evidence\": \"United States | 280\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"Netherlands\",\n      \"type\": \"country\",\n      \"evidence\": \"Netherlands | 264\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"France\",\n      \"type\": \"country\",\n      \"evidence\": \"France | 255\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"Great Britain\",\n      \"type\": \"country\",\n      \"evidence\": \"Great Britain | 232\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"Belgium\",\n      \"type\": \"country\",\n      \"evidence\": \"Belgium | 186\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"Italy\",\n      \"type\": \"country\",\n      \"evidence\": \"Italy | 174\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/1928_Summer_Olympics\"\n    },\n    {\n      \"name\": \"Switzerland\",\n     "
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine which country had the least number of athletes, resolving ties by alphabetical order.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The data provided is complete and accurate regarding the number of athletes from each country at the 1928 Summer Olympics."
+        ],
+        "reasoning_steps": [
+          "List the number of athletes from each country participating in the 1928 Summer Olympics.",
+          "Identify the country with the least number of athletes.",
+          "In case of a tie, apply alphabetical order to determine the final answer."
+        ],
+        "conclusions": [
+          "The countries with the least number of athletes are Haiti (2 athletes) and the Philippines (4 athletes).",
+          "Since Haiti comes before the Philippines alphabetically, Haiti is the country with the least number of athletes."
+        ],
+        "proposed_answer_outline": [
+          "The country with the least number of athletes at the 1928 Summer Olympics is Haiti, with 2 athletes."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the IOC country code of the country with the least number of athletes.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Haiti",
+        "final_answer_strict": "HAI",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "hai",
+    "gt_norm": "cub"
+  }
+}

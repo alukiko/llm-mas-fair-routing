@@ -1,0 +1,269 @@
+{
+  "id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+  "query": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+  "ground_truth": "22",
+  "answer_raw": {
+    "final_answer": "The exact number of years is not specified.",
+    "final_answer_strict": "not specified",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not specified",
+  "error": null,
+  "duration_sec": 69.59204888343811,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find sources on the percentage of computer scientists that are women according to Girls Who Code.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find sources on the percentage of computer scientists that are women according to Girls Who Code.",
+        "facts": [
+          {
+            "fact": "In 1995, 37% of computer scientists were women; today, it's only 24%.",
+            "source_url": "https://girlswhocode.com/about-us"
+          },
+          {
+            "fact": "The percentage of women in computer science-related professions declined from 35% in 1990 to 26% in 2013.",
+            "source_url": "https://www.computerscience.org/resources/women-in-computer-science/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Girls Who Code | About Us",
+            "url": "https://girlswhocode.com/about-us",
+            "snippet": "The gender gap in computing is getting worse. In 1995, 37% of computer scientists were women. Today, it's only 24%. The percent will continue to decline if we do nothing. We know that the biggest drop off of girls in computer science is between the ages of 13 and 17."
+          },
+          {
+            "title": "NCWIT Scorecard: The Status of Women's Participation in Computing",
+            "url": "https://ncwit.org/resource/scorecard/",
+            "snippet": "While the standard CIP code 11 category of Computer and Information Sciences offers the most narrow definition of computing (e.g., Computer and Information Sciences), there are additional CIP codes that also require students to demonstrate mastery of computing skills (e.g., CIP code 30.7001 - Data Science). In order to capture the broadest set of students who become technologists via college ..."
+          },
+          {
+            "title": "What percent of computer science majors are female?",
+            "url": "https://www.clrn.org/what-percent-of-computer-science-majors-are-female/",
+            "snippet": "The underrepresentation of women in computer science (CS) has been a persistent issue, impacting innovation, diversity of thought, and ultimately, the evolution of the technology landscape. While progress has been made, a significant gender gap persists. This article provides a data-driven analysis of female representation in CS degree programs, explores the multifaceted factors contributing ..."
+          },
+          {
+            "title": "Women in Computer Science & Programming | ComputerScience.org",
+            "url": "https://www.computerscience.org/resources/women-in-computer-science/",
+            "snippet": "The percentage of women working in computer science-related professions has declined since the 1990s, dropping from 35% to 26% between 1990 and 2013. According to the American Association of University Women, we can reverse this trend by removing negative connotations around women in computer science."
+          },
+          {
+            "title": "Women in Tech Statistics: Girls Get Tech - DataProt",
+            "url": "https://dataprot.net/blog/women-in-tech-statistics/",
+            "snippet": "The percentage of women working in engineering is disappointingly low, both in academia and in the profession of engineering, according to the latest female engineers statistics."
+          }
+        ],
+        "summary": "The representation of women in computer science has significantly decreased over the years, with current statistics showing only 24% of computer scientists are women."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the relevant data regarding the percentage change and time frame from the retrieved sources.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "percentage of computer scientists that are women",
+            "type": "percentage",
+            "evidence": "In 1995, 37% of computer scientists were women; today, it's only 24%."
+          },
+          {
+            "name": "percentage of women in computer science-related professions",
+            "type": "percentage",
+            "evidence": "The percentage of women in computer science-related professions declined from 35% in 1990 to 26% in 2013."
+          }
+        ],
+        "key_points": "The representation of women in computer science has significantly decreased over the years.",
+        "numbers_and_units": [
+          {
+            "value": "37",
+            "unit": "%",
+            "context": "percentage of computer scientists that were women in 1995"
+          },
+          {
+            "value": "24",
+            "unit": "%",
+            "context": "percentage of computer scientists that are women today"
+          },
+          {
+            "value": "35",
+            "unit": "%",
+            "context": "percentage of women in computer science-related professions in 1990"
+          },
+          {
+            "value": "26",
+            "unit": "%",
+            "context": "percentage of women in computer science-related professions in 2013"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the time in years it took for the percentage of women computer scientists to change by 13% from a starting point of 37%.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The percentage change from 37% to 24% represents a decline of 13% over a certain number of years.",
+          "The decline in percentage is linear over the years considered."
+        ],
+        "reasoning_steps": [
+          "Identify the starting percentage of women computer scientists (37%).",
+          "Identify the final percentage of women computer scientists (24%).",
+          "Calculate the percentage change: 37% - 24% = 13%.",
+          "Determine the time frame over which this change occurred."
+        ],
+        "conclusions": [
+          "The percentage of women computer scientists decreased by 13% from 37% to 24%.",
+          "The time frame for this change is not explicitly provided in the facts."
+        ],
+        "proposed_answer_outline": [
+          "The change in percentage of women computer scientists from 37% to 24% represents a decline of 13%.",
+          "The exact number of years over which this change occurred is not specified, but it can be inferred that it spans from 1995 to the present."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the exact number of years from 1995 to the current year?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "calc",
+      "description": "Perform calculations to find the number of years required for the percentage change.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "python_code": "from datetime import datetime\n\n# Define the starting year and the current year\nstart_year = 1995\ncurrent_year = datetime.now().year\n\n# Calculate the number of years\nnumber_of_years = current_year - start_year\n\n# Print the result\nprint(f'The number of years from {start_year} to {current_year} is {number_of_years} years.')",
+        "sandbox_ok": false,
+        "sandbox_id": null,
+        "output": null,
+        "error": "Code execution failed: Failed to initialize sandbox: ",
+        "sandbox_raw": {
+          "error": "Code execution failed: Failed to initialize sandbox: ",
+          "operation": "execute",
+          "sandbox_id": null,
+          "file_path": null,
+          "code_snippet": "from datetime import datetime\n\n# Define the starting year and the current year\nstart_year = 1995\ncurrent_year = datetime.now().year\n\n# Calculate the number of years\nnumber_of_years = current_year - start_year\n\n# Print the result\nprint(f'The number of years from {start_year} to {current_year} is {number_of_years} years.')"
+        }
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Produce the final answer regarding the time taken for the percentage change.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "The exact number of years is not specified.",
+        "final_answer_strict": "not specified",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not specified",
+    "gt_norm": "22"
+  }
+}

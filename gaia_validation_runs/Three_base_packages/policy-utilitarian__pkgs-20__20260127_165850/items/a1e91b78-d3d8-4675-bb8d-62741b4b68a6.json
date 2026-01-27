@@ -1,0 +1,168 @@
+{
+  "id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+  "query": "In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?",
+  "ground_truth": "3",
+  "answer_raw": {
+    "final_answer": "{ \"final_answer\": \"Cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"Upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"Upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed\": true, \"follow_up_queries\": [ \"Provide timestamps or screenshots/frames from the video showing the maximum number of species visible at once, or an analysis log",
+    "final_answer_strict": "{ \"final_answer\": \"Cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"Upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"Upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed\":",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "{ \"final_answer\": \"Cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"Upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"Upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed\":",
+  "error": null,
+  "duration_sec": 36.2271523475647,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the video to extract relevant information about bird species shown.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the number of bird species that appear on camera simultaneously from the processed video.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": false,\n  \"matched_on\": [],\n  \"entities\": [],\n  \"key_points\": [\n    \"No processed video or extracted metadata was provided in the intermediate results.\",\n    \"Search context contains no snippets or sources to extract the number of bird species appearing simultaneously on camera.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [\n    {\n      \"term\": \"bird species that appear on camera simultaneously\",\n      \"definition\": \"The count of distinct bird species visible in the same video frame at the same time.\",\n      \"source_url\": null\n    }\n  ],\n  \"evidence_spans\": [],\n  \"open_questions\": [\n    \"What is the processed video (or its analysis output) from which to extract the maximum number of bird species visible simultaneously on camera?\",\n    \"If an analysis already exists (e"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Analyze the extracted information to determine the highest number of bird species on camera simultaneously.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "No video footage or metadata was provided for analysis.",
+          "No prior processing or extraction of bird species from camera footage has been performed.",
+          "The absence of data implies that no simultaneous bird species count can be determined from available inputs."
+        ],
+        "reasoning_steps": [
+          "The task requires determining the highest number of bird species visible on camera simultaneously.",
+          "Intermediate results confirm that no files, video, or extracted metadata were provided.",
+          "No entities, numbers, or evidence spans related to bird species counts were identified.",
+          "Without any data source (e.g., video frames, detection logs, or analysis outputs), it is impossible to compute or estimate the maximum number of bird species appearing at once.",
+          "The only defined term is conceptual and lacks operational data for application."
+        ],
+        "conclusions": [
+          "The highest number of bird species on camera simultaneously cannot be determined due to absence of input data.",
+          "No factual basis exists to support any numerical conclusion."
+        ],
+        "proposed_answer_outline": [
+          "The query cannot be answered with available information.",
+          "A valid answer requires processed video data or automated detection output identifying bird species per frame.",
+          "Without such data, the result is undefined."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide the video footage or the extracted metadata (e.g., JSON with detected species per frame) from the camera system?",
+          "Is there an existing analysis output (e.g., from a bird detection AI model) that logs species sightings per time stamp?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the final answer regarding the highest number of bird species on camera simultaneously.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "{ \"final_answer\": \"Cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"Upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"Upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed\": true, \"follow_up_queries\": [ \"Provide timestamps or screenshots/frames from the video showing the maximum number of species visible at once, or an analysis log",
+        "final_answer_strict": "{ \"final_answer\": \"Cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"Upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"Upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed\":",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 900,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "qwen"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 250,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "final_answer\": \"cannot be determined from the provided materials (no video analysis/frames or metadata were supplied).\", \"final_answer_strict\": \"unknown\", \"used_evidence\": [ \"upstream extract result: no processed video or extracted metadata provided; no numbers/entities found related to simultaneous bird species count.\", \"upstream reason result: concludes the maximum simultaneous bird species count cannot be determined due to absence of input data.\" ], \"confidence\": \"low\", \"follow_up_needed",
+    "gt_norm": "3"
+  }
+}

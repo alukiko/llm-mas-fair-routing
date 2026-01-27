@@ -1,0 +1,589 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+    "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Menu Positioning on Web Pages. Does it Matter?",
+  "error": null,
+  "duration_sec": 43.47916030883789,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram Khan.\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matte"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a"
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "snippet": "Pie menus are most suited for actions that have been laid out by humans, and have logical grouping choices. Linear menus are most suited for dynamic, large menus that have many possible options, without any logical grouping, since pie menus can only show a limited number of menu items. Around 3-12 items can be reasonably accommodated in a radial layout, but additional items past that tend to counteract the benefits of using pie menus in the first place. This can be overcome with related techniques that allow chaining commands in one single gesture through submenus. [...] Pie menus show available options, in contrast to invisible mouse gestures. Pie menus, which delay appearance until the pointer is not moving, reduce intrusiveness to the same level as mouse gestures for experienced users. Pie menus take up more screen space than linear menus, and the number of slices in an individual menu must be kept low for effectiveness by using submenus. When using pie menus, submenus may overlap with the parent menu, but the parent menu may become translucent or hidden. [...] ## History\n\n[edit]\n\nThe first documented radial menu is attributed to a system called PIXIE in 1969. Some universities "
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "snippet": "Search or ask a question\n\nAgent GalleryChat with PDFLiterature ReviewAI WriterFind TopicsCitation GeneratorExtract DataAI Detector\n\niOS AppChrome ExtensionUse on ChatGPT\n\nAffiliate ProgramLive Workshop\n\nTopic\n\n# Pie menu\n\nAbout: Pie menu is a research topic. Over the lifetime, 53 publications have been published within this topic receiving 2075 citations. The topic is also known as: pie menu.\n\n##### Papers published on a yearly basis\n\n 2020\n 2019\n 2018\n 2017\n 2015\n 2014\n 2013\n 2012\n 2011\n 2010\n 2009\n 2008\n 2007\n 2006\n 2004\n 2003\n 1999\n 1996\n 1994\n 1993\n 1992\n 1991\n 1988\n\n##### Papers\n\nProceedings Article•10.1145/57167.57182•\n\n##### An empirical comparison of pie vs. linear menus\n\n[...]\n\nJ. Callahan1, Don Hopkins1, M. Weiser1, Ben Shneiderman1•\n\nUniversity of Maryland, College Park1 [...] University of Maryland, College Park1\n\n1 May 1988\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law."
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matter\n\nPietro MuranoTracey J. Lomas\n\nComputer Science\n\n 2015\n\nThe design and results of an empirical experiment, investigating the usability of menu positioning on web pages, suggest that the top horizontal and left vertical positioned menus incurred fewer errors and fewer mouse clicks.\n\n 6\n PDF\n\n### When left might not be right\n\nX. FaulknerClive Hayton\n\nComputer Science\n\n 2011 [...] Computer Science\n\nInt. J. Hum. Comput. Interact.\n\n 2024\n\nThe results indicated that the pie menu offered notable advantages by reducing muscular loads, achieving shorter task completion times, and delivering an overall more enjoyable user experience, making it a preferable choice for mid-air interaction in photo booth settings.\n\n 6\n\n### Breadth and orientation of pie menus for mid-air interaction: effects on upper extremity biomechanics, performance, and subjective assessment\n\nLujin MaoK. OnoMengyao QiJinghua HuangMakoto Watanabe\n\nComputer Science\n\nBehav. Inf. Technol.\n\n 2025\n\nABSTRACT The number and layout of options within pie menus are crucial for determining the direction of radial swiping in mid-air interactions, influencing the physical demands imposed on users. This…\n\n 1",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a feature allowing the user to lock the pie menu open and deploy several commands on one object. This was in the context of a ‘graphical schema editor for modelling spatio-temporal databases’ . The ideas described in the paper are very interesting; however it would have been also interesting and useful if some evaluation of this design had been done. In Samp and Decker  a comparison by means of an [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.9412289
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "content": "Pie menus are most suited for actions that have been laid out by humans, and have logical grouping choices. Linear menus are most suited for dynamic, large menus that have many possible options, without any logical grouping, since pie menus can only show a limited number of menu items. Around 3-12 items can be reasonably accommodated in a radial layout, but additional items past that tend to counteract the benefits of using pie menus in the first place. This can be overcome with related techniques that allow chaining commands in one single gesture through submenus. [...] Pie menus show available options, in contrast to invisible mouse gestures. Pie menus, which delay appearance until the pointer is not moving, reduce intrusiveness to the same level as mouse gestures for experienced users. Pie menus take up more screen space than linear menus, and the number of slices in an individual menu must be kept low for effectiveness by using submenus. When using pie menus, submenus may overlap with the parent menu, but the parent menu may become translucent or hidden. [...] ## History\n\n[edit]\n\nThe first documented radial menu is attributed to a system called PIXIE in 1969. Some universities explored alternative visual layouts.\n\nIn 1986, Mike Gallaher and Don Hopkins together independently arrived at the concept of a context menu based on the angle to the origin where the exact angle and radius could be passed as parameters to a command, and a mouse click could be used to trigger an item or submenu.\n\nThe first performance comparison to linear menus was performed in 1988, and showed an increase in performance of 15% less time and a reduction of selection errors.\n\nThe role-playing video game Secret of Mana featured an innovative icon-based radial menu system in 1993. Its ring menu system was adopted by later video games.\n\n## Usage\n\n[edit]\n\n|  |",
+            "score": 0.75723875
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "content": "Search or ask a question\n\nAgent GalleryChat with PDFLiterature ReviewAI WriterFind TopicsCitation GeneratorExtract DataAI Detector\n\niOS AppChrome ExtensionUse on ChatGPT\n\nAffiliate ProgramLive Workshop\n\nTopic\n\n# Pie menu\n\nAbout: Pie menu is a research topic. Over the lifetime, 53 publications have been published within this topic receiving 2075 citations. The topic is also known as: pie menu.\n\n##### Papers published on a yearly basis\n\n 2020\n 2019\n 2018\n 2017\n 2015\n 2014\n 2013\n 2012\n 2011\n 2010\n 2009\n 2008\n 2007\n 2006\n 2004\n 2003\n 1999\n 1996\n 1994\n 1993\n 1992\n 1991\n 1988\n\n##### Papers\n\nProceedings Article•10.1145/57167.57182•\n\n##### An empirical comparison of pie vs. linear menus\n\n[...]\n\nJ. Callahan1, Don Hopkins1, M. Weiser1, Ben Shneiderman1•\n\nUniversity of Maryland, College Park1 [...] University of Maryland, College Park1\n\n1 May 1988\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.",
+            "score": 0.74563974
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE",
+            "score": 0.7230167
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.9412289
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "score": 0.75723875
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "score": 0.74563974
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.7230167
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Semantic Scholar\nCorpus"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Pose"
+          },
+          {
+            "type": "name_like",
+            "value": "Illumination"
+          },
+          {
+            "type": "name_like",
+            "value": "And Expression"
+          },
+          {
+            "type": "name_like",
+            "value": "Pie Menu"
+          },
+          {
+            "type": "name_like",
+            "value": "Citations"
+          },
+          {
+            "type": "name_like",
+            "value": "User Interface Menu Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Performance"
+          },
+          {
+            "type": "name_like",
+            "value": "User Preferences"
+          },
+          {
+            "type": "name_like",
+            "value": "Review"
+          },
+          {
+            "type": "name_like",
+            "value": "Ways Forward"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro"
+          },
+          {
+            "type": "name_like",
+            "value": "Sander"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform First"
+          },
+          {
+            "type": "name_like",
+            "value": "Design Guidelines"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform Games"
+          },
+          {
+            "type": "name_like",
+            "value": "Andersson"
+          },
+          {
+            "type": "name_like",
+            "value": "Console"
+          },
+          {
+            "type": "name_like",
+            "value": "References"
+          },
+          {
+            "type": "name_like",
+            "value": "Menu Positioning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram Khan.\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the extracted authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the extracted authors.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Google Scholar can help find journal articles written by a specific author by searching with the author's name and using the appropriate filters.\",\n      \"source_url\": \"https://answers.library.american.edu/faq/174388\"\n    },\n    {\n      \"fact\": \"To effectively limit search results for an author on Google Scholar, one can add co-author names or topical keywords.\",\n      \"source_url\": \"https://scholar.google.com/",
+        "sources": [
+          {
+            "title": "How do I find journal articles written by a specific author?",
+            "url": "https://answers.library.american.edu/faq/174388",
+            "snippet": "Google Scholar links to many EBSCO databases; however, you might want to manually search the EBSCO family of databases next because they cover such a wide range of topics.  From the library's homepage select Databasesand enterAcademic Search Premier.  On the search page, select the small, blue CHOOSE DATABASES link toward the top left of the page.  Select the SEARCH ALL at at the top of the database list. In the first search box type the author's name (last name, then first name) and select AU Author from the dropdown menu to the right of the search box and search.  If you retrieve too many irrelevant hits, then go back and include a keyword in your search.\n\nYou might also want to check ProQuest Central and Science Direct. [...] If the author has been publishing for many years, you will want to look in JSTOR.  Use the advanced search option and select author.  Note that JSTOR does not have the last three to six years of many articles.\n\nFor more suggestions, we recommend looking at the Subject Guide \"Who Cited Whom\", which explains how to use Web of Science and Scopus.  From the library's homepage select Subject Guides and enter Who Cited Whom.  Also look at Scholarly Research Impac"
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "snippet": "If they don't have a profile, do a search by author, e.g., [author:s-hawking], and click on the mighty envelope in the left sidebar of the search results page. If you find that several different people share the same name, you may need to add co-author names or topical keywords to limit results to the author you wish to follow.\n\nHow often do you send the alerts?\n\nWe send the alerts right after we add new papers to Google Scholar. This usually happens several times a week, except that our search robots meticulously observe holidays.\n\nHow do I unsubscribe?\n\nThere's a link to cancel the alert at the bottom of every notification email.\n\nHow do I change my alerts? [...] In addition to Google Scholar search results, off-campus access links can also appear on articles from publishers participating in the off-campus subscription access program. Look for links labeled [PDF] or [HTML] on the right hand side of article pages.\n\n### A paper that you need to read\n\nAnne Author, John Doe, Jane Smith, Someone Else\n\nIn this fascinating paper, we investigate various topics that would be of interest to you. We also describe new methods relevant to your project, and attempt to address several questions"
+          },
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "snippet": "I can of course go through the researcher's publication and get the names one by one, but just wonder if there is a shortcut way of doing this.\n\n collaboration\n authorship\n\nShare\n\nImprove this question\n\nedited Sep 4, 2013 at 18:35\n\nF'x\n\n75k2424 gold badges272272 silver badges399399 bronze badges\n\nasked Sep 4, 2013 at 16:20\n\nChrisG\n\n6111 silver badge22 bronze badges\n\n1\n\n 3\n\n  Most bibliographic systems include this, for example, Google Scholar has a co-authors network, as well as Microsoft Academic Search.\n\n  Irwin\n\n  –  Irwin\n\n  2013-09-04 17:38:43 +00:00\n\n   Commented Sep 4, 2013 at 17:38\n\nAdd a comment   |\n\n## 4 Answers 4\n\nReset to default\n\n7 [...] First, find the author page. I find this easiest by searching for the title of any publications by the said author, because most names are far from unique.\n\nHere, you can click on co-authors. This will give you a list. For example, I currently have 31 co-authors, here sorted by number of publications:\n\nNote that this doesn't state how many documents in particular I have in common with this co-author. To get that, click instead on Documents, then, under Author Name, on More:\n\nYou can get similar information through the Author Evaluator "
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "snippet": "> Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44.\n\nThe solution is to reference one's past work in the third person. This allows setting the context for your submission, while at the same time preserving anonymity:\n\n> In previous work [1, 2], algorithms were presented for ... In this paper, we build on that work by ...\n\n> Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44. [...] It is the responsibility of authors to do their very best to preserve anonymity. Papers that do not follow these guidelines, or otherwise potentially reveal the identity of the authors, are subject to immediate rejection.\n\nNo exceptions will be made to the double anonymity requirement for Research Track papers. If the authors of a submission feel that double anonymity needs to be violated, for example to reveal the identity of a system, they may consider submission to a SIGMOD track that does no"
+          },
+          {
+            "title": "AI Essay Writer | Undetectable AI Essay Generator – Aithor",
+            "url": "https://aithor.com/",
+            "snippet": "AI Essay Writer | Undetectable AI Essay Generator – Aithor\n\n# Your undetectable AI writer\n\n Quick structure\n Originality checker\n 10M+ free sources with PDFs\n Automatic reference lists\n Grammar & spelling checker\n\nAI drafts, you refine for submission\n\nSuggested topics\nProcessing...\n\nCheck out our other tools\n\nParaphraserAI DetectorAI HumanizerCitation GeneratorTopic Generator\n\n### Real academic sources from 12,000+ providers\n\n## Aithor can help you with\n\n### Essays\n\nBuild a clear structure, gather key information, and develop strong arguments with a compelling conclusion. AI helps maintain your tone while ensuring your ideas stand out.\n\n### Literature reviews [...] English"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "How do I find journal articles written by a specific author?",
+            "url": "https://answers.library.american.edu/faq/174388",
+            "content": "Google Scholar links to many EBSCO databases; however, you might want to manually search the EBSCO family of databases next because they cover such a wide range of topics.  From the library's homepage select Databasesand enterAcademic Search Premier.  On the search page, select the small, blue CHOOSE DATABASES link toward the top left of the page.  Select the SEARCH ALL at at the top of the database list. In the first search box type the author's name (last name, then first name) and select AU Author from the dropdown menu to the right of the search box and search.  If you retrieve too many irrelevant hits, then go back and include a keyword in your search.\n\nYou might also want to check ProQuest Central and Science Direct. [...] If the author has been publishing for many years, you will want to look in JSTOR.  Use the advanced search option and select author.  Note that JSTOR does not have the last three to six years of many articles.\n\nFor more suggestions, we recommend looking at the Subject Guide \"Who Cited Whom\", which explains how to use Web of Science and Scopus.  From the library's homepage select Subject Guides and enter Who Cited Whom.  Also look at Scholarly Research Impact Metrics.\n\nWe have over 600 databases, so there are many places to look! For subject-specific database recommendations, select Subject Guideson the library homepage. \n\nIf you have any questions or would like additional help, please visit our Ask a Librarian page.\n\n## Related Topics\n\n Journals\n\nFAQ Actions [...] Q. How do I find journal articles written by a specific author?\n\n## Answered By: Kathryn Ray Last Updated: Sep 26, 2024     Views: 21005\n\nSome authors maintain websites that include a list of their published works.  Check that first.\n\nThe next place to try is Google Scholar (it's different from regular Google.)  AU contracts with Google Scholar to link to many of our databases.  To use the AU version of Google Scholar, go to the library's homepage and select Databases and enter Google Scholar.  In the upper left of the Google Scholar landing page, select the three horizontal, parallel lines (\"hamburger\" icon) to select Advanced Search.  This function allows you to search by author.",
+            "score": 0.83867973
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "content": "If they don't have a profile, do a search by author, e.g., [author:s-hawking], and click on the mighty envelope in the left sidebar of the search results page. If you find that several different people share the same name, you may need to add co-author names or topical keywords to limit results to the author you wish to follow.\n\nHow often do you send the alerts?\n\nWe send the alerts right after we add new papers to Google Scholar. This usually happens several times a week, except that our search robots meticulously observe holidays.\n\nHow do I unsubscribe?\n\nThere's a link to cancel the alert at the bottom of every notification email.\n\nHow do I change my alerts? [...] In addition to Google Scholar search results, off-campus access links can also appear on articles from publishers participating in the off-campus subscription access program. Look for links labeled [PDF] or [HTML] on the right hand side of article pages.\n\n### A paper that you need to read\n\nAnne Author, John Doe, Jane Smith, Someone Else\n\nIn this fascinating paper, we investigate various topics that would be of interest to you. We also describe new methods relevant to your project, and attempt to address several questions which you would also like to know the answer to. Lastly, we analyze …\n\n[PDF] Help [...] How do I get notified when a particular paper is cited?\n\nSearch for the title of your paper, e.g., \"Anti de Sitter space and holography\"; click on the \"Cited by\" link at the bottom of the search result; and then click on the envelope icon in the left sidebar of the search results page.\n\nHow do I get notified of new papers published by my competitors, err, respected colleagues?\n\nFirst, do a search for your colleague's name, and see if they have a Scholar profile. If they do, click on it, click the \"Follow\" button next to their name, select \"New articles by this author\", and click \"Done\".",
+            "score": 0.10374863
+          },
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "content": "I can of course go through the researcher's publication and get the names one by one, but just wonder if there is a shortcut way of doing this.\n\n collaboration\n authorship\n\nShare\n\nImprove this question\n\nedited Sep 4, 2013 at 18:35\n\nF'x\n\n75k2424 gold badges272272 silver badges399399 bronze badges\n\nasked Sep 4, 2013 at 16:20\n\nChrisG\n\n6111 silver badge22 bronze badges\n\n1\n\n 3\n\n  Most bibliographic systems include this, for example, Google Scholar has a co-authors network, as well as Microsoft Academic Search.\n\n  Irwin\n\n  –  Irwin\n\n  2013-09-04 17:38:43 +00:00\n\n   Commented Sep 4, 2013 at 17:38\n\nAdd a comment   |\n\n## 4 Answers 4\n\nReset to default\n\n7 [...] First, find the author page. I find this easiest by searching for the title of any publications by the said author, because most names are far from unique.\n\nHere, you can click on co-authors. This will give you a list. For example, I currently have 31 co-authors, here sorted by number of publications:\n\nNote that this doesn't state how many documents in particular I have in common with this co-author. To get that, click instead on Documents, then, under Author Name, on More:\n\nYou can get similar information through the Author Evaluator → co-authors.\n\nNeedless to say, 100% of my publications have myself as an author ;)\n\nShare\n\nImprove this answer\n\nedited Sep 4, 2013 at 19:09\n\nanswered Sep 4, 2013 at 16:32\n\ngerrit\n\n44.8k1414 gold badges136136 silver badges229229 bronze badges\n\n2\n\n 1 [...] 2\n\n 1\n\n  Web of Science has the same feature\n\n  F'x\n\n  –  F'x\n\n  2013-09-04 18:36:13 +00:00\n\n   Commented Sep 4, 2013 at 18:36\n 1\n\n  Both Scopus and Web of Science are commercial systems. By default, you assume that the OP has an appropriate academic access to these, but this may not be so. Sometimes, coverage between the systems may differ. Scopus, an Elsevier product, would be adamant in promoting Elsevier titles, but not so much Wiley or Springer titles that it may be parsing for co-authors with a lesser accuracy.\n\n  StasK\n\n  –  StasK\n\n  2013-09-04 20:21:15 +00:00\n\n   Commented Sep 4, 2013 at 20:21\n\nAdd a comment   |\n\n1",
+            "score": 0.042722195
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "content": "> Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44.\n\nThe solution is to reference one's past work in the third person. This allows setting the context for your submission, while at the same time preserving anonymity:\n\n> In previous work [1, 2], algorithms were presented for ... In this paper, we build on that work by ...\n\n> Bibliography  \n>    Jane Smith, \"A Simple Algorithm for ...,\" Proceedings of ACM SIGMOD 1997, pp. 1 - 10.  \n>   Jane Smith, \"A More Complicated Algorithm for ...,\" Proceedings of ACM SIGMOD 1998, pp. 34 - 44. [...] It is the responsibility of authors to do their very best to preserve anonymity. Papers that do not follow these guidelines, or otherwise potentially reveal the identity of the authors, are subject to immediate rejection.\n\nNo exceptions will be made to the double anonymity requirement for Research Track papers. If the authors of a submission feel that double anonymity needs to be violated, for example to reveal the identity of a system, they may consider submission to a SIGMOD track that does not impose a double anonymity requirement, such as the Industry Track.\n\n### 6. ARTIFACTS and REPRODUCIBILITY [...] To avoid compromising the double-anonymity requirement, we request that the authors refrain from publicizing and uploading versions of their submitted manuscripts to pre-publication servers, such as arXiv, and other online forums during the reviewing period. If a version of a submission already resides on a pre-publication server, such as arXiv, the authors do not need to remove it before submitting to SIGMOD.\n\nYou must also use care in referring to related past work, particularly your own, in the paper. For example, if you are Jane Smith, the following text gives away the authorship of the submitted paper:\n\n> In our previous work [1, 2], we presented two algorithms for ... In this paper, we build on that work by ...",
+            "score": 0.04115289
+          },
+          {
+            "title": "AI Essay Writer | Undetectable AI Essay Generator – Aithor",
+            "url": "https://aithor.com/",
+            "content": "AI Essay Writer | Undetectable AI Essay Generator – Aithor\n\n# Your undetectable AI writer\n\n Quick structure\n Originality checker\n 10M+ free sources with PDFs\n Automatic reference lists\n Grammar & spelling checker\n\nAI drafts, you refine for submission\n\nSuggested topics\nProcessing...\n\nCheck out our other tools\n\nParaphraserAI DetectorAI HumanizerCitation GeneratorTopic Generator\n\n### Real academic sources from 12,000+ providers\n\n## Aithor can help you with\n\n### Essays\n\nBuild a clear structure, gather key information, and develop strong arguments with a compelling conclusion. AI helps maintain your tone while ensuring your ideas stand out.\n\n### Literature reviews [...] English",
+            "score": 0.026861202
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "How do I find journal articles written by a specific author?",
+            "url": "https://answers.library.american.edu/faq/174388",
+            "score": 0.83867973
+          },
+          {
+            "title": "Google Scholar Search Help",
+            "url": "https://scholar.google.com/intl/en/scholar/help.html",
+            "score": 0.10374863
+          },
+          {
+            "title": "collaboration - Is there a quick way to search for a given researcher's ...",
+            "url": "https://academia.stackexchange.com/questions/12461/is-there-a-quick-way-to-search-for-a-given-researchers-past-collaborators-co-au",
+            "score": 0.042722195
+          },
+          {
+            "title": "The 2026 ACM SIGMOD/PODS Conference: Bengaluru, India - Call for...",
+            "url": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+            "score": 0.04115289
+          },
+          {
+            "title": "AI Essay Writer | Undetectable AI Essay Generator – Aithor",
+            "url": "https://aithor.com/",
+            "score": 0.026861202
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "How"
+          },
+          {
+            "type": "name_like",
+            "value": "Google Scholar"
+          },
+          {
+            "type": "name_like",
+            "value": "From"
+          },
+          {
+            "type": "name_like",
+            "value": "Databasesand"
+          },
+          {
+            "type": "name_like",
+            "value": "Search Premier"
+          },
+          {
+            "type": "name_like",
+            "value": "Select"
+          },
+          {
+            "type": "name_like",
+            "value": "Author"
+          },
+          {
+            "type": "name_like",
+            "value": "You"
+          },
+          {
+            "type": "name_like",
+            "value": "Central"
+          },
+          {
+            "type": "name_like",
+            "value": "Science Direct"
+          },
+          {
+            "type": "name_like",
+            "value": "Use"
+          },
+          {
+            "type": "name_like",
+            "value": "Note"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Subject Guide"
+          },
+          {
+            "type": "name_like",
+            "value": "Who Cited Whom"
+          },
+          {
+            "type": "name_like",
+            "value": "Web"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Scopus"
+          },
+          {
+            "type": "name_like",
+            "value": "Subject Guides"
+          },
+          {
+            "type": "name_like",
+            "value": "Also"
+          },
+          {
+            "type": "name_like",
+            "value": "Scholarly Research Impac\nGoogle"
+          },
+          {
+            "type": "name_like",
+            "value": "Scholar Search Help\nIf"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "There"
+          },
+          {
+            "type": "name_like",
+            "value": "Look"
+          },
+          {
+            "type": "name_like",
+            "value": "Anne Author"
+          },
+          {
+            "type": "name_like",
+            "value": "John Doe"
+          },
+          {
+            "type": "name_like",
+            "value": "Jane Smith"
+          },
+          {
+            "type": "name_like",
+            "value": "Someone Else"
+          },
+          {
+            "type": "name_like",
+            "value": "Share"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who had authored prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram Khan.\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Produce the final answer with the title of the first paper authored by the selected author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+        "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "menu positioning on web pages. does it matter",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

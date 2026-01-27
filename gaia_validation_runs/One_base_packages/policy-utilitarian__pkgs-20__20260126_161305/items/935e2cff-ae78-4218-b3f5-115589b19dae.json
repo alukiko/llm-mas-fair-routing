@@ -1,0 +1,344 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": {
+    "final_answer": "R stands for Verifiability.",
+    "final_answer_strict": "Verifiability",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Verifiability",
+  "error": null,
+  "duration_sec": 27.45873737335205,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information on the Legume Wikipedia page regarding the three core policies and the type of content that was violated in 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information on the Legume Wikipedia page regarding the three core policies and the type of content that was violated in 2022.",
+        "facts": [
+          {
+            "fact": "Wikipedia's three core content policies are Neutral Point of View, Verifiability, and No Original Research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The Neutral Point of View policy requires that all Wikipedia articles represent significant views fairly, proportionately, and without bias.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The Verifiability policy states that material challenged or likely to be challenged must be attributed to a reliable, published source.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The No Original Research policy prohibits Wikipedia from publishing original thought, meaning all material must be attributable to a reliable source.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          }
+        ],
+        "summary": "In 2022, Wikipedia enforced its core content policies, which include Neutral Point of View, Verifiability, and No Original Research, to maintain the quality and reliability of its content.",
+        "sources": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "snippet": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source. [...] 3. No original research (WP:NOR) – Wikipedia does not publish original thought: all material in Wikipedia must be attributable to a reliable, published source. Articles may not contain any new analysis or synthesis of published material that serves to advance a position not clearly advanced by the sources."
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "snippet": "If you believe that critical information is missing from your page, the recommended course of action is to propose edits on the article’s talk page, a public forum attached to every Wikipedia article where discussions about content take place. This allows the broader editing community to evaluate your suggestions in light of Wikipedia’s guidelines. Keep in mind, though, that reliable third-party sources are required to substantiate any claims or additions. Personal anecdotes or unpublished data won’t meet the site’s rigorous standards for verifiability. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound t"
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "snippet": "| Related |  Cultured meat  Juice fasting  Low-carbon  Plant-based action plan  Plant-based diet  Planetary health  Sustainable diet  Vegaphobia  Vegetarian and vegan dog diet  Vegetarian and vegan symbolism | [...] | Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  | [...] |  v  t  e  Plant-based diets |"
+          },
+          {
+            "title": "Wikipedia in the Health Sciences: What are the Core Content Policies?",
+            "url": "https://hsls.libguides.com/c.php?g=1224160&p=8954357",
+            "snippet": "## What are the Core Content Policies?\n\nWhile Wikipedia may at first seem like a bit of a Wild West of the internet where anyone can post anything, there are actually well-defined guidelines governing what type of content should be on Wikipedia and how articles should be written. Wikipedia has three Core Content Policies:Neutral Point of View, No Original Research, and Verifiability.\n\n## Neutral Point of View\n\nAll Wikipedia articles and other encylopedic content must be written from a neutral point of view, representing significant views fairly, proportionately, and without bias. [...] This doesn’t mean that every viewpoint must or should be represented on Wikipedia – note that this guideline says significant views must be represented proportionately. For instance, if there’s valid academic disagreement about a topic, content about it should portray that accurately.\n\n## No Original Research\n\nThe No Original Research policy means that Wikipedia articles should not contain new analysis or synthesis of materials - if an editor wishes to describe or advance a particular position on Wikipedia, they must cite an appropriate source that has already made that argument.\n\n## Verifiability [."
+          },
+          {
+            "title": "Governance structure of Wikipedia: Who has power in ... - YouTube",
+            "url": "https://www.youtube.com/watch?v=mTU2A_fM5cA",
+            "snippet": "that help with this one is essays and here are a couple of examples of essays what they look like they just look like wikipedia pages but they're non-authoritative they can't be referenced to sanction someone they're just really trying to orient people to the values that wikipedia is trying to uphold the second type of rule is guidelines and these actually are actionable norms if you violate one of these a mod can come in and say don't do that i'm going to undo your edit or if you do it often enough you could end up getting kicked out of the community and these are approved by the general consensus of the community and the third type of rule is a policy and the policies have wide acceptance among the administrators and everybody is expected to follow the policies so the three basic [...] is expected to follow the policies so the three basic policies are neutral point of view verifiability and no original research and by the way i did a lot of research for this video by reading the book the wikipedia revolution by andrew lee so i highly recommend this book if you're interested in these topics so that's basically how wikipedia works it's who has power within the organization now one "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "content": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source. [...] 3. No original research (WP:NOR) – Wikipedia does not publish original thought: all material in Wikipedia must be attributable to a reliable, published source. Articles may not contain any new analysis or synthesis of published material that serves to advance a position not clearly advanced by the sources.",
+            "score": 0.9994887
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "content": "If you believe that critical information is missing from your page, the recommended course of action is to propose edits on the article’s talk page, a public forum attached to every Wikipedia article where discussions about content take place. This allows the broader editing community to evaluate your suggestions in light of Wikipedia’s guidelines. Keep in mind, though, that reliable third-party sources are required to substantiate any claims or additions. Personal anecdotes or unpublished data won’t meet the site’s rigorous standards for verifiability. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] ### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information.",
+            "score": 0.9987453
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "content": "| Related |  Cultured meat  Juice fasting  Low-carbon  Plant-based action plan  Plant-based diet  Planetary health  Sustainable diet  Vegaphobia  Vegetarian and vegan dog diet  Vegetarian and vegan symbolism | [...] | Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  | [...] |  v  t  e  Plant-based diets |",
+            "score": 0.9976769
+          },
+          {
+            "title": "Wikipedia in the Health Sciences: What are the Core Content Policies?",
+            "url": "https://hsls.libguides.com/c.php?g=1224160&p=8954357",
+            "content": "## What are the Core Content Policies?\n\nWhile Wikipedia may at first seem like a bit of a Wild West of the internet where anyone can post anything, there are actually well-defined guidelines governing what type of content should be on Wikipedia and how articles should be written. Wikipedia has three Core Content Policies:Neutral Point of View, No Original Research, and Verifiability.\n\n## Neutral Point of View\n\nAll Wikipedia articles and other encylopedic content must be written from a neutral point of view, representing significant views fairly, proportionately, and without bias. [...] This doesn’t mean that every viewpoint must or should be represented on Wikipedia – note that this guideline says significant views must be represented proportionately. For instance, if there’s valid academic disagreement about a topic, content about it should portray that accurately.\n\n## No Original Research\n\nThe No Original Research policy means that Wikipedia articles should not contain new analysis or synthesis of materials - if an editor wishes to describe or advance a particular position on Wikipedia, they must cite an appropriate source that has already made that argument.\n\n## Verifiability [...] Skip to Main Content\n\n# Wikipedia in the Health Sciences\n\nThis guide covers what Wikipedia is, what its core and biomedical content policies are, how to use it responsibly as an information resource, and how to contribute to it.\n\n Home\n What is Wikipedia?\n Who uses Wikipedia?\n What are Wikipedia's strengths & weaknesses?\n What is WikiProject Medicine?\n What are the Core Content Policies?\n What are Wikipedia's policies for biomedical content?\n How do you evaluate the quality of a Wikipedia article?\n How can you use Wikipedia in your research or studies?\n Why edit Wikipedia?\n How do you edit Wikipedia?\n What opportunities for editing are there?\n\n## For additional information, contact:\n\nKelsey Cowles, Research and Instruction Librarian: kelsey.cowles@pitt.edu",
+            "score": 0.99440175
+          },
+          {
+            "title": "Governance structure of Wikipedia: Who has power in ... - YouTube",
+            "url": "https://www.youtube.com/watch?v=mTU2A_fM5cA",
+            "content": "that help with this one is essays and here are a couple of examples of essays what they look like they just look like wikipedia pages but they're non-authoritative they can't be referenced to sanction someone they're just really trying to orient people to the values that wikipedia is trying to uphold the second type of rule is guidelines and these actually are actionable norms if you violate one of these a mod can come in and say don't do that i'm going to undo your edit or if you do it often enough you could end up getting kicked out of the community and these are approved by the general consensus of the community and the third type of rule is a policy and the policies have wide acceptance among the administrators and everybody is expected to follow the policies so the three basic [...] is expected to follow the policies so the three basic policies are neutral point of view verifiability and no original research and by the way i did a lot of research for this video by reading the book the wikipedia revolution by andrew lee so i highly recommend this book if you're interested in these topics so that's basically how wikipedia works it's who has power within the organization now one really interesting page about this is this page which lists the way that wikipedia is a bit of a mixture of all these types of power structures anarchy precedent bureaucracy despotism democracy republic meritocracy plutocracy and technocracy and to oversimplify things a little bit what is each of these things anarchy is when nobody has power precedent is when people have power who are doing",
+            "score": 0.9856076
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "score": 0.9994887
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "score": 0.9987453
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "score": 0.9976769
+          },
+          {
+            "title": "Wikipedia in the Health Sciences: What are the Core Content Policies?",
+            "url": "https://hsls.libguides.com/c.php?g=1224160&p=8954357",
+            "score": 0.99440175
+          },
+          {
+            "title": "Governance structure of Wikipedia: Who has power in ... - YouTube",
+            "url": "https://www.youtube.com/watch?v=mTU2A_fM5cA",
+            "score": 0.9856076
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core"
+          },
+          {
+            "type": "name_like",
+            "value": "Editors"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutral"
+          },
+          {
+            "type": "name_like",
+            "value": "All Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Verifiability"
+          },
+          {
+            "type": "name_like",
+            "value": "Material"
+          },
+          {
+            "type": "name_like",
+            "value": "In Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Articles"
+          },
+          {
+            "type": "name_like",
+            "value": "What You Should Know"
+          },
+          {
+            "type": "name_like",
+            "value": "About Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core Policies\nIf"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Keep"
+          },
+          {
+            "type": "name_like",
+            "value": "Personal"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Think"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutrality"
+          },
+          {
+            "type": "name_like",
+            "value": "The Neutral Point"
+          },
+          {
+            "type": "name_like",
+            "value": "View"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Legume"
+          },
+          {
+            "type": "name_like",
+            "value": "Related"
+          },
+          {
+            "type": "name_like",
+            "value": "Cultured"
+          },
+          {
+            "type": "name_like",
+            "value": "Juice"
+          },
+          {
+            "type": "name_like",
+            "value": "Low"
+          },
+          {
+            "type": "name_like",
+            "value": "Plant"
+          },
+          {
+            "type": "name_like",
+            "value": "Planetary"
+          },
+          {
+            "type": "name_like",
+            "value": "Sustainable"
+          },
+          {
+            "type": "name_like",
+            "value": "Vegaphobia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the specific meaning of 'R' from the three core policies related to the content violation on the Legume Wikipedia page.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"Wikipedia\",\n    \"Core content policies\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Wikipedia\",\n      \"type\": \"organization\",\n      \"evidence\": \"Wikipedia's content is governed by three principal core content policies.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies\"\n    },\n    {\n      \"name\": \"Neutral Point of View\",\n      \"type\": \"policy\",\n      \"evidence\": \"Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies\"\n    },\n    {\n      \"name\": \"Verifiability\",\n      \"type\": \"policy\",\n      \"evidence\": \"Verifiability (WP:V) – Material challenged or likely to be challenged must be attributed to a reliable, published source.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies\"\n    },\n    {\n      \"name\": \"No Original Research\",\n      \"type\": \"policy\",\n      \"evidence\": \"No original research (WP:NOR) – Wikipedia does not publish original thought.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies\"\n    }\n  ],\n "
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding what 'R' stands for in the context of the Legume Wikipedia page violations.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "R stands for Verifiability.",
+        "final_answer_strict": "Verifiability",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 2,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "verifiability",
+    "gt_norm": "research"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "id": "7673d772-ef80-4f0f-a602-1bf4485c9b43",
+  "query": "On Cornell Law School website's legal information institute, under the fifth section of federal rules alphabetically, what word was deleted in the last amendment to the first rule in the article that has \"witnesses\" in the most titles as of 2021?",
+  "ground_truth": "inference",
+  "answer_raw": {
+    "final_answer": "deleted word not found",
+    "final_answer_strict": "not_found",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the deleted word in the last amendment to the first rule in the article with the most titles containing 'witnesses'?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not_found",
+  "error": null,
+  "duration_sec": 75.75395798683167,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Cornell Law School website's legal information institute and locate the federal rules section alphabetically.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Cornell Law School website's legal information institute and locate the federal rules section alphabetically.",
+        "facts": [
+          {
+            "fact": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "LII provides no-cost access to current American and international legal research sources online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure.",
+            "source_url": "https://www.law.cornell.edu/lii/"
+          },
+          {
+            "fact": "The Legal Information Institute was founded in 1992 by Thomas R. Bruce and Peter W. Martin.",
+            "source_url": "https://liicornell.org/tour.html"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Welcome to LII | Legal Information Institute",
+            "url": "https://www.law.cornell.edu/",
+            "snippet": "The Wex Legal Dictionary and Encyclopedia has new entries on statutory interpretation, corruption, and summaries of recent U.S. Supreme Court decisions. The LII Supreme Court Bulletin students prepare and publish previews of upcoming oral arguments before the U.S. Supreme Court."
+          },
+          {
+            "title": "Introduction to the Legal Information Institute",
+            "url": "https://liicornell.org/tour.html",
+            "snippet": "Your Comments What is the Legal Information Institute? The Legal Information Institute (LII) is a research and electronic publishing activity of the Cornell Law School, founded in 1992 by co-directors Thomas R. Bruce and Peter W. Martin (now Director and Director Emeritus, respectively). Its work is supported by the National Center for Automated Information Research, a growing number of ..."
+          },
+          {
+            "title": "Legal Information Institute - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legal_Information_Institute",
+            "snippet": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School that provides no-cost access to current American and international legal research sources online."
+          },
+          {
+            "title": "LII | Legal Information Institute",
+            "url": "https://www.law.cornell.edu/lii/",
+            "snippet": "Federal Rules Federal Rules of Appellate Procedure Federal Rules of Civil Procedure Federal Rules of Criminal Procedure Federal Rules of Evidence Federal Rules of Bankruptcy Procedure U.C.C."
+          },
+          {
+            "title": "Cornell University Legal Information Institute - How to Find Cases ...",
+            "url": "https://lawlibguides.usc.edu/c.php?g=542692&p=3718870",
+            "snippet": "Cornell University Law School's Legal Information Institute has put together a federal courts webpage that provides access to each federal court's webpage for its own judicial opinions (as shown below)."
+          }
+        ],
+        "summary": "The Legal Information Institute at Cornell Law School offers free access to legal resources and was established in 1992."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the titles of the articles under the fifth section of federal rules.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Federal Rules of Appellate Procedure",
+            "type": "article_title",
+            "evidence": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure."
+          },
+          {
+            "name": "Federal Rules of Civil Procedure",
+            "type": "article_title",
+            "evidence": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure."
+          },
+          {
+            "name": "Federal Rules of Criminal Procedure",
+            "type": "article_title",
+            "evidence": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure."
+          },
+          {
+            "name": "Federal Rules of Evidence",
+            "type": "article_title",
+            "evidence": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure."
+          },
+          {
+            "name": "Federal Rules of Bankruptcy Procedure",
+            "type": "article_title",
+            "evidence": "The LII includes sections for Federal Rules of Appellate Procedure, Civil Procedure, Criminal Procedure, Evidence, and Bankruptcy Procedure."
+          }
+        ],
+        "key_points": [
+          "The Legal Information Institute provides access to various federal rules."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Search for the article that has 'witnesses' in the most titles as of 2021.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Search for the article that has 'witnesses' in the most titles as of 2021.",
+        "facts": [
+          {
+            "fact": "The Jan. 6 panel interviewed around 1,000 witnesses.",
+            "source_url": "https://apnews.com/article/jan-6-hearing-targets-interviews-029d6a76146b4735b9e05bb70f41916f"
+          },
+          {
+            "fact": "The House voted to pursue contempt charges against four witnesses.",
+            "source_url": "https://apnews.com/article/jan-6-hearing-targets-interviews-029d6a76146b4735b9e05bb70f41916f"
+          },
+          {
+            "fact": "The Justice Department is prosecuting two witnesses for refusing to comply with subpoenas.",
+            "source_url": "https://apnews.com/article/jan-6-hearing-targets-interviews-029d6a76146b4735b9e05bb70f41916f"
+          },
+          {
+            "fact": "Eyewitness testimonies are assessed for accuracy by law enforcement.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9451081/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Google Scholar",
+            "url": "https://scholar.google.com/",
+            "snippet": "Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions."
+          },
+          {
+            "title": "JSTOR Home",
+            "url": "https://www.jstor.org/",
+            "snippet": "JSTOR is a digital library of academic journals, books, and primary sources."
+          },
+          {
+            "title": "Eyewitness accuracy and retrieval effort: Effects of time and ...",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9451081/",
+            "snippet": "An important task for the law enforcement is to assess the accuracy of eyewitness testimonies. Recent research show that indicators of effortful memory retrieval, such as pausing and hedging (e.g. \"I think\", \"maybe\"), are more common in incorrect ..."
+          },
+          {
+            "title": "ARTICLE VI. WITNESSES | Federal Rules of Evidence | US Law | LII ...",
+            "url": "https://www.law.cornell.edu/rules/fre/article_VI",
+            "snippet": "A Witness's Character for Truthfulness or Untruthfulness Rule 609. Impeachment by Evidence of a Criminal Conviction Rule 610. Religious Beliefs or Opinions Rule 611. Mode and Order of Examining Witnesses and Presenting Evidence Rule 612. Writing Used to Refresh a Witness Rule 613. Witness's Prior Statement Rule 614. Court's Calling or ..."
+          },
+          {
+            "title": "Jan. 6 panel's 1,000 witnesses: From Trump aides to rioters",
+            "url": "https://apnews.com/article/jan-6-hearing-targets-interviews-029d6a76146b4735b9e05bb70f41916f",
+            "snippet": "Most of the witnesses sat for voluntary interviews, but the panel has issued more than 100 subpoenas. The House voted to pursue contempt charges against four people who refused to comply, and the Justice Department is prosecuting two of them — former Trump aides Steve Bannon and Peter Navarro."
+          }
+        ],
+        "summary": "The Jan. 6 panel engaged with numerous witnesses, including issuing subpoenas and pursuing legal actions against non-compliant individuals, while the accuracy of eyewitness testimonies remains a critical focus for law enforcement."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "search",
+      "description": "Find the last amendment to the first rule of the identified article.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the last amendment to the first rule of the identified article.",
+        "facts": [
+          {
+            "fact": "The First Amendment was ratified in 1791.",
+            "source_url": "https://www.law.cornell.edu/constitution/billofrights"
+          },
+          {
+            "fact": "The Bill of Rights consists of the first 10 amendments to the U.S. Constitution.",
+            "source_url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+          },
+          {
+            "fact": "Article 2 was ratified as the 27th Amendment in 1992.",
+            "source_url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Bill of Rights | U.S. Constitution - LII / Legal Information Institute",
+            "url": "https://www.law.cornell.edu/constitution/billofrights",
+            "snippet": "Bill of Rights First Amendment [Religion, Speech, Press, Assembly, Petition (1791)] (see explanation) Second Amendment [Right to Bear Arms (1791)] (see explanation) Third Amendment [Quartering of Troops (1791)] (see explanation) Fourth Amendment [Search and Seizure (1791)] (see explanation)"
+          },
+          {
+            "title": "The Bill of Rights: A Transcription | National Archives",
+            "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+            "snippet": "The ratified Articles (Articles 3-12) constitute the first 10 amendments of the Constitution, or the U.S. Bill of Rights. In 1992, 203 years after it was proposed, Article 2 was ratified as the 27th Amendment to the Constitution."
+          },
+          {
+            "title": "what word was deleted in last amendment to the first rule in article ...",
+            "url": "https://www.wordplays.com/crossword-solver/what-word-was-deleted-in-last-amendment-to-the-first-rule-in-article-with-most-titles-containing-witnesses-on-cornell",
+            "snippet": "Answers for what word was deleted in last amendment to the first rule in article with most titles containing witnesses on cornell crossword clue, 6 letters. Search for crossword clues found in the Daily Celebrity, NY Times, Daily Mirror, Telegraph and major publications. Find clues for what word was deleted in last amendment to the first rule in article with most titles containing witnesses on ..."
+          },
+          {
+            "title": "Library of Congress - Browse | Constitution Annotated",
+            "url": "https://constitution.congress.gov/browse/",
+            "snippet": "The Constitution Annotated provides a legal analysis and interpretation of the United States Constitution based on a comprehensive review of Supreme Court case law."
+          },
+          {
+            "title": "The Bill of Rights (Amendments 1 - 10) - National Center for ...",
+            "url": "https://nccs.net/blogs/americas-founding-documents/bill-of-rights-amendments-1-10",
+            "snippet": "Preamble to the Bill of Rights *Congress of the United States begun and held at the City of New-York, on Wednesday the fourth of March, one thousand seven hundred and eighty nine. THE Conventions of a number of the States, having at the time of their adopting the Constitution, expressed a desire, in order to prevent mi"
+          }
+        ],
+        "summary": "The First Amendment, part of the Bill of Rights ratified in 1791, is one of the first 10 amendments to the U.S. Constitution, with the last amendment (27th) ratified in 1992."
+      }
+    },
+    {
+      "id": "T5",
+      "role": "extract",
+      "description": "Extract the word that was deleted in the last amendment to the first rule.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What word was deleted in the last amendment to the first rule?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the deleted word.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "deleted word not found",
+        "final_answer_strict": "not_found",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the deleted word in the last amendment to the first rule in the article with the most titles containing 'witnesses'?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not_found",
+    "gt_norm": "inference"
+  }
+}

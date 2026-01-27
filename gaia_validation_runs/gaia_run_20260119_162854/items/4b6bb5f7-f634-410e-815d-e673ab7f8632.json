@@ -1,0 +1,217 @@
+{
+  "id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+  "query": "In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shifting maze. What is this location called in the official script for the episode? Give the setting exactly as it appears in the first scene heading.",
+  "ground_truth": "THE CASTLE",
+  "answer_raw": {
+    "final_answer": "The Confession Dial",
+    "final_answer_strict": "The Confession Dial",
+    "used_evidence": [
+      "The official script for Doctor Who Season 9, Episode 11 titled 'Heaven Sent' is available online."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the first scene heading in the official script for Doctor Who Series 9, Episode 11?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "The Confession Dial",
+  "error": null,
+  "duration_sec": 42.420287132263184,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the official script for Series 9, Episode 11 of Doctor Who.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the official script for Series 9, Episode 11 of Doctor Who.",
+        "facts": [
+          {
+            "fact": "The official script for Doctor Who Season 9, Episode 11 titled 'Heaven Sent' is available online.",
+            "source_url": "https://subslikescript.com/series/Doctor_Who-436992/season-9/episode-11-Heaven_Sent"
+          },
+          {
+            "fact": "The script for 'Heaven Sent' can also be found on the TvT website.",
+            "source_url": "https://tvshowtranscripts.ourboard.org/viewtopic.php%3Ff%3D53%26t%3D24027"
+          },
+          {
+            "fact": "BBC Writers' Room provides access to scripts for Doctor Who episodes, including Series 9.",
+            "source_url": "https://www.bbc.com/writers/scripts/whoniverse/doctor-who-2005-2022"
+          },
+          {
+            "fact": "Scripts for Doctor Who Series 9, 10, and 11 are available for download from BBC Writers' Room.",
+            "source_url": "https://thedoctorwhocompanion.com/2019/02/10/doctor-who-series-9-10-and-11-scripts-available-on-bbc-writers-room/"
+          },
+          {
+            "fact": "The script for 'Heaven Sent' is also hosted on the Simplified Remix transcripts website.",
+            "source_url": "https://transcripts.simpleremix.com/script.php/doctor-who-2005-1pgG/s9/e11"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Doctor Who: Season 9, Episode 11 script | Subs like Script",
+            "url": "https://subslikescript.com/series/Doctor_Who-436992/season-9/episode-11-Heaven_Sent",
+            "snippet": "Doctor Who (2005–…): Season 9, Episode 11 - Heaven Sent - full transcript. Trapped in a world unlike any other he has seen, the Doctor faces the greatest ..."
+          },
+          {
+            "title": "s09e11 - Heaven Sent - Doctor Who Transcript - TvT",
+            "url": "https://tvshowtranscripts.ourboard.org/viewtopic.php%3Ff%3D53%26t%3D24027",
+            "snippet": "28 нояб. 2015 г. — s09e11 - Heaven Sent script. The Doctor (O.C.): As you come into this world, something else is also born. ( Rumbling ) You begin your life, and ..."
+          },
+          {
+            "title": "Script Library - Doctor Who (2005-2022) - BBC",
+            "url": "https://www.bbc.com/writers/scripts/whoniverse/doctor-who-2005-2022",
+            "snippet": "View Doctor Who scripts by series... Here you will find TV scripts for Doctor Who - including episodes from Eccleston, Tennant, Smith, Capaldi, and Whittaker's tenures in the iconic role. Please ..."
+          },
+          {
+            "title": "Doctor Who Series 9, 10, and 11 Scripts Available on BBC Writers' Room",
+            "url": "https://thedoctorwhocompanion.com/2019/02/10/doctor-who-series-9-10-and-11-scripts-available-on-bbc-writers-room/",
+            "snippet": "The scripts for episodes of Doctor Who Series 9, 10 and 11, starring Peter Capaldi's Twelfth Doctor and Jodie Whittaker's Thirteenth, can now be enjoyed online. Now available to download from BBC Writers' Room, the scripts for Under the Lake / Before the Flood and The Lie of the Land by Toby Whithouse, who is best known for bringing back Sarah Jane Smith and K9 in School Reunion; and The ..."
+          },
+          {
+            "title": "Doctor Who S9E11 Script - transcripts.simpleremix.com",
+            "url": "https://transcripts.simpleremix.com/script.php/doctor-who-2005-1pgG/s9/e11",
+            "snippet": "It's dictatorship for inadequates. Or to put it another way, it's dictatorship. Come on! Chop, chop! The Doctor will see you now! Show me what you've got! I just watched my best friend die in agony. My day can't get any worse. Let's see what we can do about yours! I know you."
+          }
+        ],
+        "summary": "The official script for Doctor Who Season 9, Episode 11, 'Heaven Sent', is accessible through multiple sources including Subs like Script, TvT, BBC Writers' Room, and Simplified Remix."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the retrieved script to extract text from it.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the setting as it appears in the first scene heading of the script.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Doctor Who",
+            "type": "TV Series",
+            "evidence": "The official script for Doctor Who Season 9, Episode 11 titled 'Heaven Sent' is available online."
+          },
+          {
+            "name": "Heaven Sent",
+            "type": "Episode Title",
+            "evidence": "The official script for Doctor Who Season 9, Episode 11 titled 'Heaven Sent' is available online."
+          }
+        ],
+        "key_points": [
+          "The script for 'Heaven Sent' is accessible through multiple sources."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer with the extracted setting.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "The Confession Dial",
+        "final_answer_strict": "The Confession Dial",
+        "used_evidence": [
+          "The official script for Doctor Who Season 9, Episode 11 titled 'Heaven Sent' is available online."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the first scene heading in the official script for Doctor Who Series 9, Episode 11?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "the confession dial",
+    "gt_norm": "the castle"
+  }
+}

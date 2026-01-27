@@ -1,0 +1,112 @@
+{
+  "id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+  "query": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI",
+  "ground_truth": "Right",
+  "answer_raw": {
+    "final_answer": "right",
+    "final_answer_strict": "right",
+    "used_evidence": [
+      "The opposite of the word 'left' in a directional context is 'right'."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "right",
+  "error": null,
+  "duration_sec": 19.46136498451233,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Analyze the request to understand the opposite of the word 'left' and construct a logical reasoning based on that.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The task is to determine the opposite of the word 'left'.",
+          "The word 'left' can be interpreted in different contexts (directional, political, etc.), but the primary context here is directional."
+        ],
+        "reasoning_steps": [
+          "Identify the common meanings of the word 'left'.",
+          "In a directional context, 'left' refers to a position or direction opposite to 'right'.",
+          "Consider the opposite of 'left' in this context, which is 'right'."
+        ],
+        "conclusions": [
+          "The opposite of the word 'left' in a directional context is 'right'."
+        ],
+        "proposed_answer_outline": [
+          "Define 'left' in the context of direction.",
+          "Identify that the opposite of 'left' is 'right'.",
+          "Conclude that 'right' is the answer."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Provide the final answer which is the opposite of the word 'left'.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "right",
+        "final_answer_strict": "right",
+        "used_evidence": [
+          "The opposite of the word 'left' in a directional context is 'right'."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 10,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 10,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "right",
+    "gt_norm": "right"
+  }
+}

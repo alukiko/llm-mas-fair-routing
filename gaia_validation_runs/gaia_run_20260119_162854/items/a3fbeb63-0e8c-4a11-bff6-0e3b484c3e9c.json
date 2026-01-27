@@ -1,0 +1,222 @@
+{
+  "id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+  "query": "How many slides in this PowerPoint presentation mention crustaceans?",
+  "ground_truth": "4",
+  "answer_raw": {
+    "final_answer": "3 slides",
+    "final_answer_strict": "3.0",
+    "used_evidence": [
+      "Slide 2: crayfish",
+      "Slide 6: Yeti crab",
+      "Slide 7: Spider crab"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": true,
+    "documents_ok_present": true,
+    "_raw_model_output": null
+  },
+  "answer_pred": "3.0",
+  "error": null,
+  "duration_sec": 32.349464416503906,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the provided PowerPoint presentation and extract its content.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "files_count": 1,
+        "processed": [
+          {
+            "id": "2023/validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+            "name": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+            "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+            "mime": "",
+            "ext": ".pptx",
+            "ok": true,
+            "kind": "document",
+            "content": "<!-- Slide number: 1 -->\n# Animals\nThat are awesome and aquatic\n\n### Notes:\n\n<!-- Slide number: 2 -->\n# crayfish\n\n### Notes:\n\n<!-- Slide number: 3 -->\n# nematodes\n\n### Notes:\n\n<!-- Slide number: 4 -->\n# isopods\n\n### Notes:\n\n<!-- Slide number: 5 -->\n# eels\n\n### Notes:\n\n<!-- Slide number: 6 -->\n# Yeti crab\n\n### Notes:\n\n<!-- Slide number: 7 -->\n# Spider crab\n\n### Notes:\n\n<!-- Slide number: 8 -->\n# jellyfish\n\n### Notes:",
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the text from the slides of the PowerPoint presentation.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Animals",
+            "type": "category",
+            "evidence": "Slide 1: Animals that are awesome and aquatic"
+          },
+          {
+            "name": "crayfish",
+            "type": "species",
+            "evidence": "Slide 2: crayfish"
+          },
+          {
+            "name": "nematodes",
+            "type": "species",
+            "evidence": "Slide 3: nematodes"
+          },
+          {
+            "name": "isopods",
+            "type": "species",
+            "evidence": "Slide 4: isopods"
+          },
+          {
+            "name": "eels",
+            "type": "species",
+            "evidence": "Slide 5: eels"
+          },
+          {
+            "name": "Yeti crab",
+            "type": "species",
+            "evidence": "Slide 6: Yeti crab"
+          },
+          {
+            "name": "Spider crab",
+            "type": "species",
+            "evidence": "Slide 7: Spider crab"
+          },
+          {
+            "name": "jellyfish",
+            "type": "species",
+            "evidence": "Slide 8: jellyfish"
+          }
+        ],
+        "key_points": [
+          "The presentation covers various aquatic animals."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Count the number of slides that mention crustaceans based on the extracted text.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": "The term 'crustaceans' includes species such as crayfish, Yeti crab, and Spider crab. Other species mentioned do not fall under this category.",
+        "reasoning_steps": "1. Identify slides that mention crustaceans. 2. Review the content of each slide for relevant species. 3. Count the number of slides that include crustaceans.",
+        "conclusions": "There are 3 slides that mention crustaceans: Slide 2 (crayfish), Slide 6 (Yeti crab), and Slide 7 (Spider crab).",
+        "proposed_answer_outline": "The total number of slides mentioning crustaceans is 3.",
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding the number of slides that mention crustaceans.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "3 slides",
+        "final_answer_strict": "3.0",
+        "used_evidence": [
+          "Slide 2: crayfish",
+          "Slide 6: Yeti crab",
+          "Slide 7: Spider crab"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": true,
+        "documents_ok_present": true,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": [
+    {
+      "id": "2023/validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+      "name": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+      "path": "C:\\Users\\oklad\\Desktop\\LLM_Games\\workspace\\gaia_files\\2023\\validation\\a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+      "source": "gaia",
+      "mime": null,
+      "original_path": "2023/validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx"
+    }
+  ],
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "3.0",
+    "gt_norm": "4"
+  }
+}

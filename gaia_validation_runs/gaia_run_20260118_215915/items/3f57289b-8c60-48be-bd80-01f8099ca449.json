@@ -1,0 +1,231 @@
+{
+  "id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+  "query": "How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?",
+  "ground_truth": "519",
+  "answer_raw": {
+    "final_answer": "Insufficient data for at bats",
+    "final_answer_strict": "0",
+    "used_evidence": [
+      "Крис Шамбой получил 97 walks в сезоне 1977 года.",
+      "Крис Шамбой и Рой Уайт стали лидерами по количеству walks среди игроков Нью-Йорк Янки в 1977 году."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Какое количество at bats у Криса Шамбоя в сезоне 1977 года?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 47.304044008255005,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о игроках Нью-Йорк Янки, которые имели наибольшее количество walks в регулярном сезоне 1977 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о игроках Нью-Йорк Янки, которые имели наибольшее количество walks в регулярном сезоне 1977 года.",
+        "facts": [
+          {
+            "fact": "В регулярном сезоне 1977 года игроки Нью-Йорк Янки, такие как Крис Шамбой и Рой Уайт, имели наибольшее количество walks.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA_%D0%AF%D0%BD%D0%BA%D0%B8%D1%81"
+          },
+          {
+            "fact": "Крис Шамбой получил 97 walks в сезоне 1977 года.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA_%D0%AF%D0%BD%D0%BA%D0%B8%D1%81"
+          },
+          {
+            "fact": "Рой Уайт получил 85 walks в сезоне 1977 года.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA_%D0%AF%D0%BD%D0%BA%D0%B8%D1%81"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Уэйд, Дуэйн",
+            "url": "https://ru.wikipedia.org/wiki/%25D0%25A3%25D1%258D%25D0%25B9%25D0%25B4,_%25D0%2594%25D1%2583%25D1%258D%25D0%25B9%25D0%25BD",
+            "snippet": "Дуэ́йн Та́йрон Уэ́йд-младший (англ. Dwyane Tyrone Wade, Jr.; род. 17 января 1982 года, Чикаго, Иллинойс, США) — американский баскетболист, атакующий защитник ..."
+          },
+          {
+            "title": "Нью-Йорк Янкис — Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA_%D0%AF%D0%BD%D0%BA%D0%B8%D1%81",
+            "snippet": "На всем протяжении своего существования за команду выступала целая плеяда самых знаменитых игроков в истории Главной лиги бейсбола, в числе которых: Бейб Рут, Лу Гериг, Джо Ди Маджо ..."
+          },
+          {
+            "title": "Нью-Йорк Янкиз - бейсбольный клуб, новости и состав команды 2026 ...",
+            "url": "https://www.sports.ru/baseball/club/new-york-yankees/",
+            "snippet": "Нью-Йорк Янкиз - бейсбольный клуб, все новости о команде на Sports.ru, состав, календарь, интервью, фото и видео. История, трансферы, статистика, форма команды, форумы и блоги болельщиков."
+          },
+          {
+            "title": "Наибольшее количество очков, набранных за сезон в истории «Нью-Йорка ...",
+            "url": "https://vk.com/wall-133428159_80678",
+            "snippet": "15-04-2024 • Наибольшее количество очков, набранных за сезон в истории «Нью-Йорка»:"
+          },
+          {
+            "title": "Вестник НГПИ № 24",
+            "url": "https://f.tatngpi.ru/%25D0%2591%25D0%25B8%25D0%25B1%25D0%25BB%25D0%25B8%25D0%25BE%25D1%2582%25D0%25B5%25D0%25BA%25D0%25B0/%25D0%25A0%25D0%25B5%25D1%2581%25D1%2583%25D1%2580%25D1%2581%25D1%258B/%25D0%2592%25D0%25B5%25D1%2581%25D1%2582%25D0%25BD%25D0%25B8%25D0%25BA%25D0%259D%25D0%2593%25D0%259F%25D0%25A3/%25D0%2592%25D0%25B5%25D1%2581%25D1%2582%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%259D%25D0%2593%25D0%259F%25D0%2598%252024.pdf",
+            "snippet": "В очередном выпуске научно-методического сборника НИСПТР опубликованы статьи преподавателей, аспирантов и студентов института. Как всегда, Вестник открыт ..."
+          }
+        ],
+        "summary": "В 1977 году Крис Шамбой и Рой Уайт стали лидерами по количеству walks среди игроков Нью-Йорк Янки."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имя игрока с наибольшим количеством walks и его статистику за сезон 1977 года.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Крис Шамбой",
+            "type": "игрок",
+            "evidence": "Крис Шамбой получил 97 walks в сезоне 1977 года."
+          }
+        ],
+        "key_points": [
+          "Крис Шамбой и Рой Уайт стали лидерами по количеству walks среди игроков Нью-Йорк Янки в 1977 году."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "97",
+            "unit": "walks",
+            "context": "Количество walks, полученных Крисом Шамбоем в сезоне 1977 года."
+          },
+          {
+            "value": "85",
+            "unit": "walks",
+            "context": "Количество walks, полученных Роем Уайтом в сезоне 1977 года."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о количестве at bats у игрока с наибольшим количеством walks в сезоне 1977 года.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "Количество at bats у игрока с наибольшим количеством walks может быть определено на основе доступной статистики."
+        ],
+        "reasoning_steps": [
+          "1. Определены игроки Нью-Йорк Янки с наибольшим количеством walks в 1977 году: Крис Шамбой (97 walks) и Рой Уайт (85 walks).",
+          "2. Известно, что Крис Шамбой имеет наибольшее количество walks среди этих игроков.",
+          "3. Для определения количества at bats Крис Шамбоем необходимо найти соответствующую статистику."
+        ],
+        "conclusions": [
+          "Без дополнительной информации о количестве at bats у Криса Шамбоя в 1977 году невозможно сделать окончательный вывод о его статистике."
+        ],
+        "proposed_answer_outline": [
+          "Необходимо найти данные о количестве at bats у Криса Шамбоя в сезоне 1977 года для завершения анализа."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Какое количество at bats у Криса Шамбоя в сезоне 1977 года?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю о количестве at bats у игрока с наибольшим количеством walks в сезоне 1977 года.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Insufficient data for at bats",
+        "final_answer_strict": "0",
+        "used_evidence": [
+          "Крис Шамбой получил 97 walks в сезоне 1977 года.",
+          "Крис Шамбой и Рой Уайт стали лидерами по количеству walks среди игроков Нью-Йорк Янки в 1977 году."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Какое количество at bats у Криса Шамбоя в сезоне 1977 года?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "519"
+  }
+}

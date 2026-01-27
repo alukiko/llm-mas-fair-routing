@@ -1,0 +1,168 @@
+{
+  "id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+  "query": "In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?",
+  "ground_truth": "3",
+  "answer_raw": {
+    "final_answer": "Cannot determine",
+    "final_answer_strict": "0",
+    "used_evidence": "No data provided regarding bird species captured on camera.",
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Can you provide data or documents regarding the bird species captured on camera?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "0",
+  "error": null,
+  "duration_sec": 27.639504194259644,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Process the video to extract relevant content.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the number of bird species shown on camera simultaneously from the video content.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Analyze the extracted information to determine the highest number of bird species on camera simultaneously.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "There is no specific data provided regarding the number of bird species captured on camera.",
+          "The analysis is based solely on the information extracted, which is currently empty."
+        ],
+        "reasoning_steps": [
+          "Since there are no documents or data provided, it is impossible to analyze any information regarding bird species.",
+          "Without any numerical data or species identification, no conclusions can be drawn."
+        ],
+        "conclusions": [
+          "It cannot be determined how many bird species were captured on camera simultaneously due to lack of data."
+        ],
+        "proposed_answer_outline": [
+          "1. Acknowledge the absence of data.",
+          "2. State that no analysis can be performed.",
+          "3. Suggest that data collection or further information is needed."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide data or documents regarding the bird species captured on camera?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding the highest number of bird species on camera simultaneously.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Cannot determine",
+        "final_answer_strict": "0",
+        "used_evidence": "No data provided regarding bird species captured on camera.",
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Can you provide data or documents regarding the bird species captured on camera?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "0",
+    "gt_norm": "3"
+  }
+}

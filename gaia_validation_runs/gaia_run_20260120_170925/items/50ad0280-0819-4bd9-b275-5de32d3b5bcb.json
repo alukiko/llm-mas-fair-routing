@@ -1,0 +1,121 @@
+{
+  "id": "50ad0280-0819-4bd9-b275-5de32d3b5bcb",
+  "query": "Pull out the sentence in the following 5x7 block of text. Read from left to right and use all of the letters in order:\n\nTHESE\nAGULL\nGLIDE\nDPEAC\nEFULL\nYTOMY\nCHAIR",
+  "ground_truth": "The seagull glided peacefully to my chair.",
+  "answer_raw": {
+    "final_answer": "THE AGULL GLIDE DEEP FULLY TO MY CHAIR",
+    "final_answer_strict": "THE AGULL GLIDE DEEP FULLY TO MY CHAIR",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "THE AGULL GLIDE DEEP FULLY TO MY CHAIR",
+  "error": null,
+  "duration_sec": 21.23182725906372,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "document",
+      "description": "Read the provided block of text and extract the content.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the sentence formed by reading the letters from the block of text in order.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer containing the extracted sentence.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "THE AGULL GLIDE DEEP FULLY TO MY CHAIR",
+        "final_answer_strict": "THE AGULL GLIDE DEEP FULLY TO MY CHAIR",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "documents",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "the agull glide deep fully to my chair",
+    "gt_norm": "the seagull glided peacefully to my chair"
+  }
+}

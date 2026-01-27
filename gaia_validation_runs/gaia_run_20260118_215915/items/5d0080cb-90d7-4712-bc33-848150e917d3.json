@@ -1,0 +1,192 @@
+{
+  "id": "5d0080cb-90d7-4712-bc33-848150e917d3",
+  "query": "What was the volume in m^3 of the fish bag that was calculated in the University of Leicester paper \"Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?\"",
+  "ground_truth": "0.1777",
+  "answer_raw": {
+    "final_answer": "Volume not found",
+    "final_answer_strict": "not_found",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not_found",
+  "error": null,
+  "duration_sec": 30.848419666290283,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти статью 'Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?' из Университета Лестера.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "error",
+        "reason": "MCP Web search failed: unhandled errors in a TaskGroup (1 sub-exception)",
+        "facts": [],
+        "sources": [],
+        "summary": ""
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Обработать найденную статью и получить текст.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь информацию о объеме рыбы в м^3 из текста статьи.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "reason",
+      "description": "Построить логический вывод о значении объема рыбы на основе извлеченной информации.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The volume of fish can be an indicator of its health and sustainability.",
+          "The volume of fish in a given area can affect the local ecosystem and economy."
+        ],
+        "reasoning_steps": [
+          "Identify the significance of fish volume in ecological and economic contexts.",
+          "Consider how changes in fish volume can impact biodiversity and food supply.",
+          "Evaluate the implications of fish volume on fishing practices and regulations."
+        ],
+        "conclusions": [
+          "The volume of fish is crucial for maintaining ecological balance.",
+          "Sustainable fish volume supports local economies and food security."
+        ],
+        "proposed_answer_outline": [
+          "Define the importance of fish volume.",
+          "Discuss ecological impacts of fish volume changes.",
+          "Analyze economic implications of fish volume."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю о объеме рыбы в м^3.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Volume not found",
+        "final_answer_strict": "not_found",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not_found",
+    "gt_norm": "0.1777"
+  }
+}

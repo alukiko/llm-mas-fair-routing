@@ -1,0 +1,12 @@
+{
+  "run_dir": "gaia_validation_runs\\policy-nash__pkgs-20__20260127_171854",
+  "total": 30,
+  "completed_without_error": 30,
+  "exact_match_acc": 0.06666666666666667,
+  "normalized_match_acc": 0.06666666666666667,
+  "numeric_match_acc_applicable": 0.6666666666666666,
+  "numeric_applicable": 3,
+  "timestamp": "20260127_171854",
+  "oracle_strategy": "nash",
+  "total_package_budget": 20
+}

@@ -1,0 +1,340 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "Annie Levin",
+    "final_answer_strict": "Annie Levin",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Annie Levin",
+  "error": null,
+  "duration_sec": 39.5155463218689,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Word of the Day from Merriam-Webster for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Word of the Day for June 27, 2022, is 'jingoism'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "Jingoism is defined as excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "Jingoism originated during the Russo-Turkish War of 1877-1878.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "summary": "On June 27, 2022, 'jingoism' was the Word of the Day, defined as excessive patriotism often associated with aggressive foreign policy, a term that originated in the late 19th century.",
+        "sources": [
+          {
+            "title": "Word of the Day: Jingoism",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "snippet": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Secure space Costly burden\n Cure-all Obstacle\n\nYou know what it looks like… but what is it called?\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know?\n\nJingoism originated during the Russo-Turkish War of 1877-1878, when many British citizens were hostile toward Russia and felt Britain should intervene in the conflict. Supporters of the cause expressed their sentiments in a music-ha"
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler)",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "snippet": "The Wordle answer for June 27 is “RETRO.”\n\nAccording to the Merriam-Webster, retro means “relating to, reviving, or being the styles and especially the fashions of the past: fashionably nostalgic or old-fashioned.”\n\nWordle’s word of the day for Saturday was “BEADY” and Sunday’s was “RUSTY.”\n\nWordle releases a new word of the day every day. Players must wait until midnight for a new word of the day and can only play once a day.\n\nRelated Content:\n\n Wordle’s word of the day for June 22, game #368 (Spoiler)\n Best five letter starting word for Wordle has been confirmed by the New York Times’ WordleBot\n ‘Everyone is cheating on Wordle,’ especially New England residents, Google data indicates\n\nTaylor Sanzo [...] Monday’s Wordle is taking players back in time.\n\nThe objective of the online word game is to guess a secret five-letter word in six tries or less, using a series of guesses to figure it out. Once you guess a word, if any of the letters in that word appear highlighted in green, it means that letter is in the right place. If any of the letters are highlighted yellow, that letter is in the word, but it’s in the wrong space. If one of your letters is highlighted in gray, it means that"
+          },
+          {
+            "title": "Words of the Week - June 27",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "We define sleeper cell as “a terrorist cell whose members work under cover in an area until sent into action.” The relevant definition of cell is “a basic and usually small unit of an organization or movement.”\n\n## ‘Obliterate’\n\nObliterate saw a spike in lookups after President Trump used the word with respect to the bombing of Iranian nuclear facilities. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century. [...] We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probabl"
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/ca/podcast/merriam-websters-word-of-the-day/id164829166",
+            "snippet": "among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, meaning “to shine back.” Splendent, splendor, and resplendent were first used in English during the 15th century, but splendid didn’t light up our language until almost 200 years later; its earliest known use dates from the early 1600s. [...] disheveled appearance, as in Colson Whitehead’s novel Crook Manifesto, when the comedian Roscoe Pope walks onstage “disheveled, in wrinkled green corduroy pants.” Apartments, desks, bedsheets, you name it—all can be disheveled when not at their neatest and tidiest. Hair, however, is the most common noun to which disheveled is applied (along with hairdo terms like bun and beard), a fact that makes etymological sense. Disheveled comes from the Middle English adjective discheveled, meaning “bareheaded” or “with disordered hair.” That word is a partial translation of the Anglo-French word deschevelé, a combination of the prefix des- (“dis-“) and chevo"
+          },
+          {
+            "title": "Word of the Day Calendar",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "#### Jun 17\n\n## apologia\n\n#### Jun 18\n\n## jeopardize\n\n#### Jun 19\n\n## emancipation\n\n#### Jun 20\n\n## convivial\n\n#### Jun 21\n\n## litmus test\n\n#### Jun 22\n\n## bemuse\n\n#### Jun 23\n\n## wherewithal\n\n#### Jun 24\n\n## noisome\n\n#### Jun 25\n\n## flotsam\n\n#### Jun 26\n\n## sumptuous\n\n#### Jun 27\n\n## oblige\n\n#### Jun 28\n\n## restive\n\n#### Jun 29\n\n## impetus\n\n#### Jun 30\n\n## expunge\n\n### May 2025\n\n#### May 01\n\n## convoluted\n\n#### May 02\n\n## ziggurat\n\n#### May 03\n\n## sleuth\n\n#### May 04\n\n## risible\n\n#### May 05\n\n## plethora\n\n#### May 06\n\n## exculpate\n\n#### May 07\n\n## bumptious\n\n#### May 08\n\n## modicum\n\n#### May 09\n\n## gloss\n\n#### May 10\n\n## uncanny\n\n#### May 11\n\n## darling\n\n#### May 12\n\n## fester\n\n#### May 13\n\n## apotropaic\n\n#### May 14\n\n## scuttlebutt\n\n#### May 15\n\n## impervious\n\n#### May 16\n\n## junket"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Word of the Day: Jingoism",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "content": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Secure space Costly burden\n Cure-all Obstacle\n\nYou know what it looks like… but what is it called?\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know?\n\nJingoism originated during the Russo-Turkish War of 1877-1878, when many British citizens were hostile toward Russia and felt Britain should intervene in the conflict. Supporters of the cause expressed their sentiments in a music-hall ditty with this refrain:\n\n> We don't want to fight, yet by jingo if we do,\n>\n> We've got the ships, we've got the men,\n>\n> We've got the money, too!\n\nSomeone holding the attitude implied in the song became known as a jingo or jingoist, and the attitude itself was dubbed jingoism. The jingo in the tune is probably a euphemism for Jesus.\n\n## Test Your Vocabulary with M-W Quizzes [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All",
+            "score": 0.8941352
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler)",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "content": "The Wordle answer for June 27 is “RETRO.”\n\nAccording to the Merriam-Webster, retro means “relating to, reviving, or being the styles and especially the fashions of the past: fashionably nostalgic or old-fashioned.”\n\nWordle’s word of the day for Saturday was “BEADY” and Sunday’s was “RUSTY.”\n\nWordle releases a new word of the day every day. Players must wait until midnight for a new word of the day and can only play once a day.\n\nRelated Content:\n\n Wordle’s word of the day for June 22, game #368 (Spoiler)\n Best five letter starting word for Wordle has been confirmed by the New York Times’ WordleBot\n ‘Everyone is cheating on Wordle,’ especially New England residents, Google data indicates\n\nTaylor Sanzo [...] Monday’s Wordle is taking players back in time.\n\nThe objective of the online word game is to guess a secret five-letter word in six tries or less, using a series of guesses to figure it out. Once you guess a word, if any of the letters in that word appear highlighted in green, it means that letter is in the right place. If any of the letters are highlighted yellow, that letter is in the word, but it’s in the wrong space. If one of your letters is highlighted in gray, it means that letter isn’t included anywhere in the puzzle.\n\nHere’s a hint to Monday’s Wordle:\n\nThe word is used to describe something as old — particularly old clothes. The word of the day also contains two vowels.\n\n\\Warning: Spoiler below\\\n\nThe Wordle answer for June 27 is “RETRO.” [...] Taylor Sanzo\n\nTaylor Sanzo is a social media producer and entertainment reporter for MassLive. She is a graduate of Springfield College and joined MassLive in early 2022. She primarily focuses on topics like entertainment,...\n\ntsanzo@masslive.com",
+            "score": 0.8875269
+          },
+          {
+            "title": "Words of the Week - June 27",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "content": "We define sleeper cell as “a terrorist cell whose members work under cover in an area until sent into action.” The relevant definition of cell is “a basic and usually small unit of an organization or movement.”\n\n## ‘Obliterate’\n\nObliterate saw a spike in lookups after President Trump used the word with respect to the bombing of Iranian nuclear facilities. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century. [...] We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City.",
+            "score": 0.79293
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/ca/podcast/merriam-websters-word-of-the-day/id164829166",
+            "content": "among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, meaning “to shine back.” Splendent, splendor, and resplendent were first used in English during the 15th century, but splendid didn’t light up our language until almost 200 years later; its earliest known use dates from the early 1600s. [...] disheveled appearance, as in Colson Whitehead’s novel Crook Manifesto, when the comedian Roscoe Pope walks onstage “disheveled, in wrinkled green corduroy pants.” Apartments, desks, bedsheets, you name it—all can be disheveled when not at their neatest and tidiest. Hair, however, is the most common noun to which disheveled is applied (along with hairdo terms like bun and beard), a fact that makes etymological sense. Disheveled comes from the Middle English adjective discheveled, meaning “bareheaded” or “with disordered hair.” That word is a partial translation of the Anglo-French word deschevelé, a combination of the prefix des- (“dis-“) and chevoil, meaning “hair.” [...] know? “Thyn Astrolabie hath a ring to putten on the thombe of thi right hond in taking the height of thinges.” Thus begins a description of an astrolabe in A Treatise on the Astrolabe, a medieval user’s guide penned by an amateur astronomer by the name of Geoffrey Chaucer. Chaucer is best known for his Middle English poetic masterpiece The Canterbury Tales, but when his nose wasn’t buried in his writing, Chaucer was stargazing, and some of his passion for the heavens rubbed off on his son Lewis, who had displayed a special “abilite to lerne sciences touching nombres and proporciouns.” Chaucer dedicated his treatise to the 10-year-old boy, setting his instructions not in the usual Latin, but in “naked wordes in Englissh” so that little Lewis could understand. When he got older, Lewis may",
+            "score": 0.5360463
+          },
+          {
+            "title": "Word of the Day Calendar",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "content": "#### Jun 17\n\n## apologia\n\n#### Jun 18\n\n## jeopardize\n\n#### Jun 19\n\n## emancipation\n\n#### Jun 20\n\n## convivial\n\n#### Jun 21\n\n## litmus test\n\n#### Jun 22\n\n## bemuse\n\n#### Jun 23\n\n## wherewithal\n\n#### Jun 24\n\n## noisome\n\n#### Jun 25\n\n## flotsam\n\n#### Jun 26\n\n## sumptuous\n\n#### Jun 27\n\n## oblige\n\n#### Jun 28\n\n## restive\n\n#### Jun 29\n\n## impetus\n\n#### Jun 30\n\n## expunge\n\n### May 2025\n\n#### May 01\n\n## convoluted\n\n#### May 02\n\n## ziggurat\n\n#### May 03\n\n## sleuth\n\n#### May 04\n\n## risible\n\n#### May 05\n\n## plethora\n\n#### May 06\n\n## exculpate\n\n#### May 07\n\n## bumptious\n\n#### May 08\n\n## modicum\n\n#### May 09\n\n## gloss\n\n#### May 10\n\n## uncanny\n\n#### May 11\n\n## darling\n\n#### May 12\n\n## fester\n\n#### May 13\n\n## apotropaic\n\n#### May 14\n\n## scuttlebutt\n\n#### May 15\n\n## impervious\n\n#### May 16\n\n## junket",
+            "score": 0.48425868
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Word of the Day: Jingoism",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "score": 0.8941352
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler)",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "score": 0.8875269
+          },
+          {
+            "title": "Words of the Week - June 27",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "score": 0.79293
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/ca/podcast/merriam-websters-word-of-the-day/id164829166",
+            "score": 0.5360463
+          },
+          {
+            "title": "Word of the Day Calendar",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "score": 0.48425868
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Day"
+          },
+          {
+            "type": "name_like",
+            "value": "Jingoism\nEst"
+          },
+          {
+            "type": "name_like",
+            "value": "June"
+          },
+          {
+            "type": "name_like",
+            "value": "Listen"
+          },
+          {
+            "type": "name_like",
+            "value": "Prev Next"
+          },
+          {
+            "type": "name_like",
+            "value": "What It Means"
+          },
+          {
+            "type": "name_like",
+            "value": "Jingoism"
+          },
+          {
+            "type": "name_like",
+            "value": "When"
+          },
+          {
+            "type": "name_like",
+            "value": "See"
+          },
+          {
+            "type": "name_like",
+            "value": "Context"
+          },
+          {
+            "type": "name_like",
+            "value": "War"
+          },
+          {
+            "type": "name_like",
+            "value": "Not"
+          },
+          {
+            "type": "name_like",
+            "value": "Annie Levin"
+          },
+          {
+            "type": "name_like",
+            "value": "The New York Observer"
+          },
+          {
+            "type": "name_like",
+            "value": "Mar"
+          },
+          {
+            "type": "name_like",
+            "value": "Build"
+          },
+          {
+            "type": "name_like",
+            "value": "Get Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Test Your Vocabulary"
+          },
+          {
+            "type": "name_like",
+            "value": "Challenging Standardized Test Words"
+          },
+          {
+            "type": "name_like",
+            "value": "Vol"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Secure"
+          },
+          {
+            "type": "name_like",
+            "value": "Costly"
+          },
+          {
+            "type": "name_like",
+            "value": "Cure"
+          },
+          {
+            "type": "name_like",
+            "value": "Obstacle"
+          },
+          {
+            "type": "name_like",
+            "value": "You"
+          },
+          {
+            "type": "name_like",
+            "value": "Pick"
+          },
+          {
+            "type": "name_like",
+            "value": "Did You Know"
+          },
+          {
+            "type": "name_like",
+            "value": "Russo-Turkish War"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the quoted writer associated with the Word of the Day from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"quoted writer name in 'jingoism in Context' section\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Annie Levin\",\n      \"type\": \"person\",\n      \"evidence\": \"“War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.” — Annie Levin, The New York Observer, 7 Mar. 2022\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n    },\n    {\n      \"name\": \"The New York Observer\",\n      \"type\": \"organization\",\n      \"evidence\": \"— Annie Levin, The New York Observer, 7 Mar. 2022\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n   "
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding the quoted writer.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Annie Levin",
+        "final_answer_strict": "Annie Levin",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 300,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 1050,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "annie levin",
+    "gt_norm": "annie levin"
+  }
+}

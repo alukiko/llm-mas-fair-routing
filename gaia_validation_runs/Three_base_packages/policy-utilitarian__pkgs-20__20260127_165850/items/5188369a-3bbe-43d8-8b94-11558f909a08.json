@@ -1,0 +1,336 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "Annie Levin",
+    "final_answer_strict": "Annie Levin",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Annie Levin",
+  "error": null,
+  "duration_sec": 31.20151376724243,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Merriam-Webster Word of the Day for June 27, 2022, is 'jingoism'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          },
+          {
+            "fact": "'Jingoism' is defined as excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"
+          }
+        ],
+        "summary": "On June 27, 2022, Merriam-Webster's Word of the Day was 'jingoism', referring to an extreme form of patriotism often associated with aggressive foreign policies.",
+        "sources": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century."
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### Jun 14\n\n  ## vexillology\n #### Jun 15\n\n  ## progeny\n #### Jun 16\n\n  ## garrulous\n #### Jun 17\n\n  ## apologia\n #### Jun 18\n\n  ## jeopardize\n #### Jun 19\n\n  ## emancipation\n #### Jun 20\n\n  ## convivial\n #### Jun 21\n\n  ## litmus test\n #### Jun 22\n\n  ## bemuse\n #### Jun 23\n\n  ## wherewithal\n #### Jun 24\n\n  ## noisome\n #### Jun 25\n\n  ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01 [...] ## simulacrum\n #### Jul 10\n\n  ## boffo\n #### Jul 11\n\n  ## rescind\n #### Jul 12\n\n  ## impunity\n #### Jul 13\n\n  ## contrite\n #### Jul 14\n\n  ## nuance\n #### Jul 15\n\n  ## tantalize\n #### Jul 16\n\n  ## abject\n #### Jul 17\n\n  ## fugitive\n #### Jul 18\n\n  ## meritorious\n #### Jul 19\n\n  ## devise\n #### Jul 20\n\n  ## utmost\n #### Jul 21\n\n  ## hubris\n #### Jul 22\n\n  ## jettison\n #### Jul 23\n\n  ## logy\n #### Jul 24\n\n  ## pana"
+          },
+          {
+            "title": "Word of the Day: Fiduciary | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "snippet": "Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] ## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\n## Name That Synonym\n\nFill in the blanks to complete a synonym of oaf: p \\_ \\_ o \\_ k \\_.\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 25\n\n  ## resplendent\n #### Jan 24\n\n  ## garner\n #### Jan 23\n\n  ## astrolabe\n #### Jan 22\n\n  ## disheveled\n #### Jan 21\n\n  ## schmooze\n #### Jan 20\n\n  ## quiddity\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions? [...] ### Build your vocabulary! Get Word of the Day in your inbox"
+          },
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "snippet": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spe"
+          },
+          {
+            "title": "Word of the Day: Behest | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/behest-2022-06-01",
+            "snippet": "## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\n## Name That Synonym\n\nFill in the blanks to complete a synonym of behest: \\_ i \\_ \\_ c t \\_ \\_ e.\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 26\n\n  ## oaf\n #### Jan 25\n\n  ## resplendent\n #### Jan 24\n\n  ## garner\n #### Jan 23\n\n  ## astrolabe\n #### Jan 22\n\n  ## disheveled\n #### Jan 21\n\n  ## schmooze\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions? [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] Est. 1828\n\n# Word of the Day\n\n : June 1, 2022\n\n## behest\n"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "content": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century.",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "content": "## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### Jun 14\n\n  ## vexillology\n #### Jun 15\n\n  ## progeny\n #### Jun 16\n\n  ## garrulous\n #### Jun 17\n\n  ## apologia\n #### Jun 18\n\n  ## jeopardize\n #### Jun 19\n\n  ## emancipation\n #### Jun 20\n\n  ## convivial\n #### Jun 21\n\n  ## litmus test\n #### Jun 22\n\n  ## bemuse\n #### Jun 23\n\n  ## wherewithal\n #### Jun 24\n\n  ## noisome\n #### Jun 25\n\n  ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01 [...] ## simulacrum\n #### Jul 10\n\n  ## boffo\n #### Jul 11\n\n  ## rescind\n #### Jul 12\n\n  ## impunity\n #### Jul 13\n\n  ## contrite\n #### Jul 14\n\n  ## nuance\n #### Jul 15\n\n  ## tantalize\n #### Jul 16\n\n  ## abject\n #### Jul 17\n\n  ## fugitive\n #### Jul 18\n\n  ## meritorious\n #### Jul 19\n\n  ## devise\n #### Jul 20\n\n  ## utmost\n #### Jul 21\n\n  ## hubris\n #### Jul 22\n\n  ## jettison\n #### Jul 23\n\n  ## logy\n #### Jul 24\n\n  ## panacea\n #### Jul 25\n\n  ## sui generis\n #### Jul 26\n\n  ## embellish\n #### Jul 27\n\n  ## brouhaha\n #### Jul 28\n\n  ## facile\n #### Jul 29\n\n  ## quibble\n #### Jul 30\n\n  ## doppelgänger\n #### Jul 31\n\n  ## petulant\n\n### June 2025\n\n #### Jun 01\n\n  ## proscribe\n #### Jun 02\n\n  ## Herculean\n #### Jun 03\n\n  ## tutelage\n #### Jun 04\n\n  ## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06 [...] Est. 1828\n\n# Word of the Day\n\nJanuary 27, 2026 \n\n## fiduciary play \"Listen to the pronunciation of fiduciary\")\n\nrelating to or involving trust\n\nJanuary 26, 2026 \n\n## oaf play \"Listen to the pronunciation of oaf\")\n\na big clumsy slow-witted person\n\nJanuary 25, 2026 \n\n## resplendent play \"Listen to the pronunciation of resplendent\")\n\nvery bright and attractive\n\nJanuary 24, 2026 \n\n## garner play \"Listen to the pronunciation of garner\")\n\nto acquire by effort; earn\n\nJanuary 23, 2026 \n\n## astrolabe play \"Listen to the pronunciation of astrolabe\")\n\na device formerly used to observe the positions of stars\n\nJanuary 22, 2026 \n\n## disheveled play \"Listen to the pronunciation of disheveled\")\n\nnot neat or tidy\n\nJanuary 21, 2026 \n\n## schmooze play \"Listen to the pronunciation of schmooze\")",
+            "score": 0.98282325
+          },
+          {
+            "title": "Word of the Day: Fiduciary | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "content": "Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] ## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\n## Name That Synonym\n\nFill in the blanks to complete a synonym of oaf: p \\_ \\_ o \\_ k \\_.\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 25\n\n  ## resplendent\n #### Jan 24\n\n  ## garner\n #### Jan 23\n\n  ## astrolabe\n #### Jan 22\n\n  ## disheveled\n #### Jan 21\n\n  ## schmooze\n #### Jan 20\n\n  ## quiddity\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions? [...] ### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Commonly Misspelled Words Vol. 2 Quiz\n\n Rachel seemed to be \\_\\_\\_\\_\\_ in every endeavor she started.\n\n succesful sucessful\n successful successfull\n\nTest your vocabulary with our 10-question quiz!\n\nTAKE THE QUIZ\n\nPick the best words!\n\nPLAY\n\n## Did You Know?",
+            "score": 0.9235924
+          },
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "content": "Est. 1828\n\n# Word of the Day\n\n : June 27, 2022\n\n## jingoism\n\nplay \"Listen to the pronunciation of jingoism\")\n\nnoun JING-goh-iz-im\n\nPrev Next\n\n## What It Means\n\nJingoism is excessive patriotism or nationalism, especially when marked by a belligerent foreign policy.\n\n// When the war began many people were caught up in a wave of jingoism.\n\nSee the entry >\n\n## jingoism in Context\n\n\"War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.\" — Annie Levin, The New York Observer, 7 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Standardized Test Words, Vol. 2\n\n The business’s new computer system proved not to be a panacea.\n\n Secure space Costly burden\n Cure-all Obstacle [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] ## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\n## Quiz\n\nUnscramble the letters to find a word that means \"a supporter of a war or warlike policy\": KWAH\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 25\n\n  ## resplendent\n #### Jan 24\n\n  ## garner\n #### Jan 23\n\n  ## astrolabe\n #### Jan 22\n\n  ## disheveled\n #### Jan 21\n\n  ## schmooze\n #### Jan 20\n\n  ## quiddity\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions?",
+            "score": 0.8976953
+          },
+          {
+            "title": "Word of the Day: Behest | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/behest-2022-06-01",
+            "content": "## Test Your Vocabulary with M-W Quizzes\n\nPeople of Interest Quiz\n\nPlay Now\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\n## Name That Synonym\n\nFill in the blanks to complete a synonym of behest: \\_ i \\_ \\_ c t \\_ \\_ e.\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 26\n\n  ## oaf\n #### Jan 25\n\n  ## resplendent\n #### Jan 24\n\n  ## garner\n #### Jan 23\n\n  ## astrolabe\n #### Jan 22\n\n  ## disheveled\n #### Jan 21\n\n  ## schmooze\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions? [...] Love words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist\n\nPeople of Interest Quiz Can you tell the \"sommeliers\" from the \"spelunkers\"?\n\nSee All [...] Est. 1828\n\n# Word of the Day\n\n : June 1, 2022\n\n## behest\n\nplay \"Listen to the pronunciation of behest\")\n\nnoun bih-HEST\n\nPrev Next\n\n## What It Means\n\nA behest is an authoritative order or an urgent prompting.\n\n// The committee met again at the behest of the senator.\n\nSee the entry >\n\n## behest in Context\n\n\"Earmarks were banned on Capitol Hill 11 years ago at the behest of House Republicans and then-President Obama in response to scandals surrounding how lawmakers were using them.\" — Jennifer Haberkorn, The Los Angeles Times, 16 Mar. 2022\n\n### Build your vocabulary! Get Word of the Day in your inbox every day.\n\nTest Your Vocabulary\n\n#### Challenging Words You Should Know\n\n Often used to describe “the march of time,” what does inexorable mean?\n\n Swift Slow\n Unpredictable Relentless",
+            "score": 0.88161486
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "score": 0.98282325
+          },
+          {
+            "title": "Word of the Day: Fiduciary | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day",
+            "score": 0.9235924
+          },
+          {
+            "title": "Word of the Day: Jingoism | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27",
+            "score": 0.8976953
+          },
+          {
+            "title": "Word of the Day: Behest | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/behest-2022-06-01",
+            "score": 0.88161486
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Words"
+          },
+          {
+            "type": "name_like",
+            "value": "Week"
+          },
+          {
+            "type": "name_like",
+            "value": "June"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster\nWe"
+          },
+          {
+            "type": "name_like",
+            "value": "Socialism"
+          },
+          {
+            "type": "name_like",
+            "value": "Lookups"
+          },
+          {
+            "type": "name_like",
+            "value": "Zohran Mamdani"
+          },
+          {
+            "type": "name_like",
+            "value": "Democratic"
+          },
+          {
+            "type": "name_like",
+            "value": "New York City"
+          },
+          {
+            "type": "name_like",
+            "value": "Draft"
+          },
+          {
+            "type": "name_like",
+            "value": "Word Worth Knowing"
+          },
+          {
+            "type": "name_like",
+            "value": "Culet"
+          },
+          {
+            "type": "name_like",
+            "value": "Yet"
+          },
+          {
+            "type": "name_like",
+            "value": "French"
+          },
+          {
+            "type": "name_like",
+            "value": "Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Day Calendar"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster"
+          },
+          {
+            "type": "name_like",
+            "value": "Jun"
+          },
+          {
+            "type": "name_like",
+            "value": "May"
+          },
+          {
+            "type": "name_like",
+            "value": "Jul"
+          },
+          {
+            "type": "name_like",
+            "value": "Day"
+          },
+          {
+            "type": "name_like",
+            "value": "Fiduciary"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster\nLove"
+          },
+          {
+            "type": "name_like",
+            "value": "Need"
+          },
+          {
+            "type": "name_like",
+            "value": "Subscribe"
+          },
+          {
+            "type": "name_like",
+            "value": "America"
+          },
+          {
+            "type": "name_like",
+            "value": "Games"
+          },
+          {
+            "type": "name_like",
+            "value": "Quizzes"
+          },
+          {
+            "type": "name_like",
+            "value": "See All"
+          },
+          {
+            "type": "name_like",
+            "value": "Quordle Can"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the writer quoted by Merriam-Webster for the Word of the Day from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"Merriam-Webster Word of the Day (June 27, 2022)\",\n    \"jingoism in Context quote attribution\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Annie Levin\",\n      \"type\": \"person\",\n      \"evidence\": \"“War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism.” — Annie Levin, The New York Observer, 7 Mar. 2022\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n    },\n    {\n      \"name\": \"Merriam-Webster\",\n      \"type\": \"organization\",\n      \"evidence\": \"Word of the Day\",\n      \"source_url\": \"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27\"\n    },\n    {\n      \"name\": \"The New York Observer\",\n      \"type\": \"organization\",\n      \"evidence\": \"— Annie Levin, The New York Observer, 7 Mar. 2022\",\n      \"source"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding the writer quoted by Merriam-Webster.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Annie Levin",
+        "final_answer_strict": "Annie Levin",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 350,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 1200,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 8,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "annie levin",
+    "gt_norm": "annie levin"
+  }
+}

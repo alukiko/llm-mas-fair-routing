@@ -1,0 +1,152 @@
+{
+  "id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+  "query": "My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.",
+  "ground_truth": "2",
+  "answer_raw": {
+    "final_answer": "2",
+    "final_answer_strict": "2.0",
+    "used_evidence": [
+      "Total mashed potatoes needed: 2.75 kg",
+      "Number of whole bags of potatoes needed: 2.0"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "2.0",
+  "error": null,
+  "duration_sec": 35.155309200286865,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "extract",
+      "description": "Extract the number of adults and children from the user request.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "calc",
+      "description": "Calculate the total amount of mashed potatoes needed based on the number of adults and children.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "python_code": "def calculate_mashed_potatoes(adults, children):\n    # Assuming each adult needs 0.5 kg and each child needs 0.25 kg of mashed potatoes\n    adult_portion = 0.5  # kg per adult\n    child_portion = 0.25  # kg per child\n    total_potatoes = (adults * adult_portion) + (children * child_portion)\n    return total_potatoes\n\n# Example usage:\nnumber_of_adults = 4\nnumber_of_children = 3\nresult = calculate_mashed_potatoes(number_of_adults, number_of_children)\nprint(f'Total mashed potatoes needed: {result} kg')",
+        "output": "Total mashed potatoes needed: 2.75 kg\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T3",
+      "role": "calc",
+      "description": "Calculate the number of whole bags of potatoes needed based on the total weight of potatoes required.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "python_code": "def calculate_bags_of_potatoes(total_weight, bag_weight):\n    # Calculate the number of whole bags needed\n    bags_needed = total_weight // bag_weight\n    if total_weight % bag_weight > 0:\n        bags_needed += 1  # Add an extra bag if there's a remainder\n    return bags_needed\n\n# Example usage:\ntotal_weight_of_potatoes = 2.75  # kg from previous calculation\nweight_per_bag = 2.0  # kg per bag\nresult = calculate_bags_of_potatoes(total_weight_of_potatoes, weight_per_bag)\nprint(f'Number of whole bags of potatoes needed: {result}')",
+        "output": "Number of whole bags of potatoes needed: 2.0\n",
+        "error": null
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the final answer for the number of whole bags of potatoes needed.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "2",
+        "final_answer_strict": "2.0",
+        "used_evidence": [
+          "Total mashed potatoes needed: 2.75 kg",
+          "Number of whole bags of potatoes needed: 2.0"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": true,
+    "pred_norm": "2.0",
+    "gt_norm": "2"
+  }
+}

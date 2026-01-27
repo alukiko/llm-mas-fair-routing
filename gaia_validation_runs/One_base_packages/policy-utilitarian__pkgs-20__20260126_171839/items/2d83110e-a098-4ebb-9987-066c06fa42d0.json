@@ -1,0 +1,91 @@
+{
+  "id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+  "query": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI",
+  "ground_truth": "Right",
+  "answer_raw": {
+    "final_answer": "right",
+    "final_answer_strict": "right",
+    "used_evidence": [],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "right",
+  "error": null,
+  "duration_sec": 13.33998417854309,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Understand the request and identify the opposite of the word 'left'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"The word 'left' refers to a direction or side.\",\n    \"The opposite of a direction can be determined based on conventional understanding of spatial orientation.\"\n  ],\n  \"reasoning_steps\": [\n    \"Identify the meaning of the word 'left'.\",\n    \"Consider the standard definitions of spatial directions: left, right, forward, backward, up, and down.\",\n    \"Determine what would be the opposite direction of left in a two-dimensional space",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T2",
+      "role": "answer",
+      "description": "Provide the final answer which is the opposite of the word 'left'.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "final_answer": "right",
+        "final_answer_strict": "right",
+        "used_evidence": [],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 1900,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 19,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "right",
+    "gt_norm": "right"
+  }
+}

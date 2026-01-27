@@ -1,0 +1,453 @@
+{
+  "id": "c365c1c7-a3db-4d5e-a9a1-66f56eae7865",
+  "query": "Of the cities within the United States where U.S. presidents were born, which two are the farthest apart from the westernmost to the easternmost going east, giving the city names only? Give them to me in alphabetical order, in a comma-separated list",
+  "ground_truth": "Braintree, Honolulu",
+  "answer_raw": {
+    "final_answer": "Cincinnati, New York City",
+    "final_answer_strict": "Cincinnati,New York City",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "ok",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Cincinnati,New York City",
+  "error": null,
+  "duration_sec": 46.5689914226532,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find a list of U.S. cities where U.S. presidents were born.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find a list of U.S. cities where U.S. presidents were born.",
+        "facts": [
+          {
+            "fact": "George Washington was born near Bridges Creek in Virginia.",
+            "source_url": "https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html"
+          },
+          {
+            "fact": "Abraham Lincoln was born near Hodgenville, Kentucky.",
+            "source_url": "https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html"
+          },
+          {
+            "fact": "Theodore Roosevelt was born in New York City, New York.",
+            "source_url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"
+          },
+          {
+            "fact": "William Howard Taft was born in Cincinnati, Ohio.",
+            "source_url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"
+          },
+          {
+            "fact": "Franklin D. Roosevelt was born in Hyde Park, New York.",
+            "source_url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"
+          },
+          {
+            "fact": "John Adams was born in Quincy, Massachusetts.",
+            "source_url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"
+          }
+        ],
+        "summary": "U.S. presidents were born in various locations, including cities like New York City and Cincinnati, as well as towns and rural areas across the country.",
+        "sources": [
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789–Present)",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOoqaPhZIKkE-CGSyeMBxOiFm3QZaKij8e8TvUhFx_xK2XzwgjkCC",
+            "snippet": "Born in Arkansas\n\n43) George W. Bush (2001–2009)\n\nBorn in Connecticut\n\n44) Barack Obama (2009–2017)\n\nBorn in Hawaii\n\n45) Donald J. Trump (2017–2021)\n\nBorn in New York\n\n46) Joe Biden (2021–2025)\n\nBorn in Pennsylvania\n\n47) Donald J. Trump (2025 - Present)\n\nBorn in New York\n\nNote: Andrew Jackson’s birthplace is debated between South Carolina and North Carolina, as he was born near the border. For consistency, South Carolina is listed based on historical consensus. All birthplaces reflect modern state boundaries, even if the area was a territory or colony at the time of birth.\n\nFun Facts About Presidential Birthplaces\n\n## Quick Links\n\n##### Shop Products\n\n##### About Us\n\n##### Our Partners\n\n##### Education Scholarship Accounts (ESAs) - ClassWallet\n\n## Support\n\n##### Contact Us [...] 28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia\n\n29) Warren G. Harding (1921–1923)\n\nBorn in Ohio\n\n30) Calvin Coolidge (1923–1929)\n\nBorn in Vermont\n\n31) Herbert Hoover (1929–1933)\n\nBorn in Iowa\n\n32) Franklin D. Roosevelt (1933–1945)\n\nBorn in New York\n\n33) Harry S. Truman (1945–1953)\n\nBorn in Missouri\n\n34) Dwight D. Eisenhower (1953–1961)\n\nBorn in Texas\n\n35) John F. Kennedy (1961–1963)\n\nBorn in Massachusetts"
+          },
+          {
+            "title": "BIRTHPLACES OF PRESIDENTS. - The New York Times",
+            "url": "https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html",
+            "snippet": "THEODORE ROOSEVELT is the only President of the United States who was born in a great city. The only other President born in a city of considerable size was Mr. TAFT: Cincinnati at the time of his birth had a population of not more than 150,000. Three Presidents were born in towns that had not then grown into cities. The two ADAMSES in Quincy, Mass., and ANDREW JOHNSON in Raleigh, N. C. All the other Presidents were born in villages or small towns or the actual country. WASHINGTON was born near Bridges Creek in Virginia; JACKSON near Cureton's Pond, N. C.; LINCOLN near Hodgenville, Ky.; HARDING near Blooming Grove, Ohio, and COOLIDGE amid the silences of a granitic cradle near the village of Plymouth, Vt. Among those born in villages or small towns were VAN BUREN in Kinderhook, N. Y.;"
+          },
+          {
+            "title": "List of presidents of the United States by home state - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state",
+            "snippet": "| William McKinley |  | McKinley Birthplace Home and Research Center, Niles, Ohio |\n| Theodore Roosevelt |  | Theodore Roosevelt Birthplace National Historic Site, New York City, New York |\n| William Howard Taft |  | William Howard Taft National Historic Site, Cincinnati, Ohio |\n| Woodrow Wilson |  | Woodrow Wilson Birthplace and Presidential Library, Staunton, Virginia |\n|  | Woodrow Wilson Boyhood Home, Augusta, Georgia |\n| Calvin Coolidge |  | Calvin Coolidge Homestead District, Plymouth, Vermont |\n| Herbert Hoover |  | Herbert Hoover National Historic Site, West Branch, Iowa |\n|  | Hoover–Minthorn House, Newberg, Oregon |\n| Franklin D. Roosevelt |  | Home of Franklin D. Roosevelt National Historic Site, Hyde Park, New York | [...] | President | Image | Historic site |\n --- \n| George Washington |  | George Washington Birthplace National Monument, Colonial Beach, Virginia |\n| John Adams |  | John Adams Birthplace, Quincy, Massachusetts |\n| James Madison |  | Belle Grove Plantation \"Belle Grove (Port Conway, Virginia)\"), Port Conway, Virginia |\n| James Monroe |  | James Monroe Birthplace Park & Museum, Colonial Beach, Virginia |\n| John Quincy Adams |  | John Quincy Adams Birthplac"
+          },
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789 ...",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOorUYj3eTmrneuupJUTISndv3wmqAPwXeISbqi8J5oHYLO-VMzhW",
+            "snippet": "Born in Arkansas\n\n43) George W. Bush (2001–2009)\n\nBorn in Connecticut\n\n44) Barack Obama (2009–2017)\n\nBorn in Hawaii\n\n45) Donald J. Trump (2017–2021)\n\nBorn in New York\n\n46) Joe Biden (2021–2025)\n\nBorn in Pennsylvania\n\n47) Donald J. Trump (2025 - Present)\n\nBorn in New York\n\nNote: Andrew Jackson’s birthplace is debated between South Carolina and North Carolina, as he was born near the border. For consistency, South Carolina is listed based on historical consensus. All birthplaces reflect modern state boundaries, even if the area was a territory or colony at the time of birth.\n\nFun Facts About Presidential Birthplaces\n\n## Quick Links\n\n##### Shop Products\n\n##### About Us\n\n##### Our Partners\n\n##### Education Scholarship Accounts (ESAs) - ClassWallet\n\n## Support\n\n##### Contact Us [...] 28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia\n\n29) Warren G. Harding (1921–1923)\n\nBorn in Ohio\n\n30) Calvin Coolidge (1923–1929)\n\nBorn in Vermont\n\n31) Herbert Hoover (1929–1933)\n\nBorn in Iowa\n\n32) Franklin D. Roosevelt (1933–1945)\n\nBorn in New York\n\n33) Harry S. Truman (1945–1953)\n\nBorn in Missouri\n\n34) Dwight D. Eisenhower (1953–1961)\n\nBorn in Texas\n\n35) John F. Kennedy (1961–1963)\n\nBorn in Massachusetts"
+          },
+          {
+            "title": "US Presidents Birthplaces and Location of Death - PresidentsUSA.net",
+            "url": "https://www.presidentsusa.net/birth.html",
+            "snippet": "| Harry S. Truman | May 8, 1884 | Lamar, Missouri | Dec 26, 1972 | Kansas City, Missouri |\n| Dwight Eisenhower | Oct 14, 1890 | Denison, Texas | Mar 28, 1969 | Washington, D.C. |\n| John F. Kennedy | May 29, 1917 | Brookline, Mass. | Nov 22, 1963 | Dallas, Texas |\n| Lyndon B. Johnson | Aug 27, 1908 | Gillespie Co., Texas | Jan 22, 1973 | Gillespie Co., Texas |\n| Richard Nixon | Jan 9, 1913 | Yorba Linda, Cal. | Apr 22, 1994 | New York, New York |\n| Gerald Ford | July 14, 1913 | Omaha, Nebraska | Dec 26, 2006 | Rancho Mirage, Cal. |\n| Jimmy Carter | Oct 1, 1924 | Plains, Georgia | Dec 29, 2024 | Plains, Georgia |\n| Ronald Reagan | Feb 6, 1911 | Tampico, Illinois | June 5, 2004 | Los Angeles, Cal. |\n| George Bush | June 12, 1924 | Milton, Mass. | Nov 30, 2018 | Houston, Texas | [...] | William McKinley | Jan 29, 1843 | Niles, Ohio | Sep 14, 1901 | Buffalo, New York |\n| Theodore Roosevelt | Oct 27, 1858 | New York, New York | Jan 6, 1919 | Oyster Bay, New York |\n| William Howard Taft | Sep 15, 1857 | Cincinnati, Ohio | Mar 8, 1930 | Washington, D.C. |\n| Woodrow Wilson | Dec 28, 1856 | Staunton, Virginia | Feb 3, 1924 | Washington, D.C. |\n| Warren G. Harding | Nov 2, 1865 | Morrow Count"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789–Present)",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOoqaPhZIKkE-CGSyeMBxOiFm3QZaKij8e8TvUhFx_xK2XzwgjkCC",
+            "content": "Born in Arkansas\n\n43) George W. Bush (2001–2009)\n\nBorn in Connecticut\n\n44) Barack Obama (2009–2017)\n\nBorn in Hawaii\n\n45) Donald J. Trump (2017–2021)\n\nBorn in New York\n\n46) Joe Biden (2021–2025)\n\nBorn in Pennsylvania\n\n47) Donald J. Trump (2025 - Present)\n\nBorn in New York\n\nNote: Andrew Jackson’s birthplace is debated between South Carolina and North Carolina, as he was born near the border. For consistency, South Carolina is listed based on historical consensus. All birthplaces reflect modern state boundaries, even if the area was a territory or colony at the time of birth.\n\nFun Facts About Presidential Birthplaces\n\n## Quick Links\n\n##### Shop Products\n\n##### About Us\n\n##### Our Partners\n\n##### Education Scholarship Accounts (ESAs) - ClassWallet\n\n## Support\n\n##### Contact Us [...] 28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia\n\n29) Warren G. Harding (1921–1923)\n\nBorn in Ohio\n\n30) Calvin Coolidge (1923–1929)\n\nBorn in Vermont\n\n31) Herbert Hoover (1929–1933)\n\nBorn in Iowa\n\n32) Franklin D. Roosevelt (1933–1945)\n\nBorn in New York\n\n33) Harry S. Truman (1945–1953)\n\nBorn in Missouri\n\n34) Dwight D. Eisenhower (1953–1961)\n\nBorn in Texas\n\n35) John F. Kennedy (1961–1963)\n\nBorn in Massachusetts\n\n36) Lyndon B. Johnson (1963–1969)\n\nBorn in Texas\n\n37) Richard Nixon (1969–1974)\n\nBorn in California\n\n38) Gerald Ford (1974–1977)\n\nBorn in Nebraska\n\n39) Jimmy Carter (1977–1981)\n\nBorn in Georgia\n\n40) Ronald Reagan (1981–1989)\n\nBorn in Illinois\n\n41) George H. W. Bush (1989–1993)\n\nBorn in Massachusetts\n\n42) Bill Clinton (1993–2001)\n\nBorn in Arkansas\n\n43) George W. Bush (2001–2009) [...] Born in New York\n\n14) Franklin Pierce (1853–1857)\n\nBorn in New Hampshire\n\n15) James Buchanan (1857–1861)\n\nBorn in Pennsylvania\n\n16) Abraham Lincoln (1861–1865)\n\nBorn in Kentucky\n\n17) Andrew Johnson (1865–1869)\n\nBorn in North Carolina\n\n18) Ulysses S. Grant (1869–1877)\n\nBorn in Ohio\n\n19) Rutherford B. Hayes (1877–1881)\n\nBorn in Ohio\n\n20) James A. Garfield (1881)\n\nBorn in Ohio\n\n21) Chester A. Arthur (1881–1885)\n\nBorn in Vermont\n\n22) Grover Cleveland (1885–1889)\n\nBorn in New Jersey\n\n23) Benjamin Harrison (1889–1893)\n\nBorn in Ohio\n\n24) Grover Cleveland (1893–1897)\n\nBorn in New Jersey\n\n25) William McKinley (1897–1901)\n\nBorn in Ohio\n\n26) Theodore Roosevelt (1901–1909)\n\nBorn in New York\n\n27) William Howard Taft (1909–1913)\n\nBorn in Ohio\n\n28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia",
+            "score": 0.84948516
+          },
+          {
+            "title": "BIRTHPLACES OF PRESIDENTS. - The New York Times",
+            "url": "https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html",
+            "content": "THEODORE ROOSEVELT is the only President of the United States who was born in a great city. The only other President born in a city of considerable size was Mr. TAFT: Cincinnati at the time of his birth had a population of not more than 150,000. Three Presidents were born in towns that had not then grown into cities. The two ADAMSES in Quincy, Mass., and ANDREW JOHNSON in Raleigh, N. C. All the other Presidents were born in villages or small towns or the actual country. WASHINGTON was born near Bridges Creek in Virginia; JACKSON near Cureton's Pond, N. C.; LINCOLN near Hodgenville, Ky.; HARDING near Blooming Grove, Ohio, and COOLIDGE amid the silences of a granitic cradle near the village of Plymouth, Vt. Among those born in villages or small towns were VAN BUREN in Kinderhook, N. Y.;",
+            "score": 0.84858394
+          },
+          {
+            "title": "List of presidents of the United States by home state - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state",
+            "content": "| William McKinley |  | McKinley Birthplace Home and Research Center, Niles, Ohio |\n| Theodore Roosevelt |  | Theodore Roosevelt Birthplace National Historic Site, New York City, New York |\n| William Howard Taft |  | William Howard Taft National Historic Site, Cincinnati, Ohio |\n| Woodrow Wilson |  | Woodrow Wilson Birthplace and Presidential Library, Staunton, Virginia |\n|  | Woodrow Wilson Boyhood Home, Augusta, Georgia |\n| Calvin Coolidge |  | Calvin Coolidge Homestead District, Plymouth, Vermont |\n| Herbert Hoover |  | Herbert Hoover National Historic Site, West Branch, Iowa |\n|  | Hoover–Minthorn House, Newberg, Oregon |\n| Franklin D. Roosevelt |  | Home of Franklin D. Roosevelt National Historic Site, Hyde Park, New York | [...] | President | Image | Historic site |\n --- \n| George Washington |  | George Washington Birthplace National Monument, Colonial Beach, Virginia |\n| John Adams |  | John Adams Birthplace, Quincy, Massachusetts |\n| James Madison |  | Belle Grove Plantation \"Belle Grove (Port Conway, Virginia)\"), Port Conway, Virginia |\n| James Monroe |  | James Monroe Birthplace Park & Museum, Colonial Beach, Virginia |\n| John Quincy Adams |  | John Quincy Adams Birthplace, Quincy, Massachusetts |\n| William Henry Harrison |  | Berkeley Plantation, Charles City County, Virginia |\n| Zachary Taylor |  | Hare Forest Farm, Orange County, Virginia |\n|  | Zachary Taylor House, Louisville, Kentucky |\n| John Tyler |  | Greenway Plantation, Charles City County, Virginia | [...] | Harry S. Truman |  | Harry S Truman Birthplace State Historic Site, Lamar, Missouri |\n| Dwight D. Eisenhower |  | Eisenhower Boyhood Home, Abilene, Kansas |\n| John F. Kennedy |  | John Fitzgerald Kennedy National Historic Site, Brookline, Massachusetts |\n| Lyndon B. Johnson |  | Lyndon B. Johnson National Historical Park, Stonewall, Texas |\n| Ronald Reagan |  | Birthplace of Ronald Reagan, Tampico, Illinois |\n| Richard Nixon |  | Birthplace of Richard Nixon, Yorba Linda, California |\n| Gerald Ford |  | President Gerald R. Ford Jr. Boyhood Home, Grand Rapids, Michigan |\n| Jimmy Carter |  | Jimmy Carter National Historical Park, Plains, Georgia |\n| George W. Bush |  | George W. Bush Childhood Home, Midland, Texas |",
+            "score": 0.8377398
+          },
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789 ...",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOorUYj3eTmrneuupJUTISndv3wmqAPwXeISbqi8J5oHYLO-VMzhW",
+            "content": "Born in Arkansas\n\n43) George W. Bush (2001–2009)\n\nBorn in Connecticut\n\n44) Barack Obama (2009–2017)\n\nBorn in Hawaii\n\n45) Donald J. Trump (2017–2021)\n\nBorn in New York\n\n46) Joe Biden (2021–2025)\n\nBorn in Pennsylvania\n\n47) Donald J. Trump (2025 - Present)\n\nBorn in New York\n\nNote: Andrew Jackson’s birthplace is debated between South Carolina and North Carolina, as he was born near the border. For consistency, South Carolina is listed based on historical consensus. All birthplaces reflect modern state boundaries, even if the area was a territory or colony at the time of birth.\n\nFun Facts About Presidential Birthplaces\n\n## Quick Links\n\n##### Shop Products\n\n##### About Us\n\n##### Our Partners\n\n##### Education Scholarship Accounts (ESAs) - ClassWallet\n\n## Support\n\n##### Contact Us [...] 28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia\n\n29) Warren G. Harding (1921–1923)\n\nBorn in Ohio\n\n30) Calvin Coolidge (1923–1929)\n\nBorn in Vermont\n\n31) Herbert Hoover (1929–1933)\n\nBorn in Iowa\n\n32) Franklin D. Roosevelt (1933–1945)\n\nBorn in New York\n\n33) Harry S. Truman (1945–1953)\n\nBorn in Missouri\n\n34) Dwight D. Eisenhower (1953–1961)\n\nBorn in Texas\n\n35) John F. Kennedy (1961–1963)\n\nBorn in Massachusetts\n\n36) Lyndon B. Johnson (1963–1969)\n\nBorn in Texas\n\n37) Richard Nixon (1969–1974)\n\nBorn in California\n\n38) Gerald Ford (1974–1977)\n\nBorn in Nebraska\n\n39) Jimmy Carter (1977–1981)\n\nBorn in Georgia\n\n40) Ronald Reagan (1981–1989)\n\nBorn in Illinois\n\n41) George H. W. Bush (1989–1993)\n\nBorn in Massachusetts\n\n42) Bill Clinton (1993–2001)\n\nBorn in Arkansas\n\n43) George W. Bush (2001–2009) [...] Born in New York\n\n14) Franklin Pierce (1853–1857)\n\nBorn in New Hampshire\n\n15) James Buchanan (1857–1861)\n\nBorn in Pennsylvania\n\n16) Abraham Lincoln (1861–1865)\n\nBorn in Kentucky\n\n17) Andrew Johnson (1865–1869)\n\nBorn in North Carolina\n\n18) Ulysses S. Grant (1869–1877)\n\nBorn in Ohio\n\n19) Rutherford B. Hayes (1877–1881)\n\nBorn in Ohio\n\n20) James A. Garfield (1881)\n\nBorn in Ohio\n\n21) Chester A. Arthur (1881–1885)\n\nBorn in Vermont\n\n22) Grover Cleveland (1885–1889)\n\nBorn in New Jersey\n\n23) Benjamin Harrison (1889–1893)\n\nBorn in Ohio\n\n24) Grover Cleveland (1893–1897)\n\nBorn in New Jersey\n\n25) William McKinley (1897–1901)\n\nBorn in Ohio\n\n26) Theodore Roosevelt (1901–1909)\n\nBorn in New York\n\n27) William Howard Taft (1909–1913)\n\nBorn in Ohio\n\n28) Woodrow Wilson (1913–1921)\n\nBorn in Virginia",
+            "score": 0.83290404
+          },
+          {
+            "title": "US Presidents Birthplaces and Location of Death - PresidentsUSA.net",
+            "url": "https://www.presidentsusa.net/birth.html",
+            "content": "| Harry S. Truman | May 8, 1884 | Lamar, Missouri | Dec 26, 1972 | Kansas City, Missouri |\n| Dwight Eisenhower | Oct 14, 1890 | Denison, Texas | Mar 28, 1969 | Washington, D.C. |\n| John F. Kennedy | May 29, 1917 | Brookline, Mass. | Nov 22, 1963 | Dallas, Texas |\n| Lyndon B. Johnson | Aug 27, 1908 | Gillespie Co., Texas | Jan 22, 1973 | Gillespie Co., Texas |\n| Richard Nixon | Jan 9, 1913 | Yorba Linda, Cal. | Apr 22, 1994 | New York, New York |\n| Gerald Ford | July 14, 1913 | Omaha, Nebraska | Dec 26, 2006 | Rancho Mirage, Cal. |\n| Jimmy Carter | Oct 1, 1924 | Plains, Georgia | Dec 29, 2024 | Plains, Georgia |\n| Ronald Reagan | Feb 6, 1911 | Tampico, Illinois | June 5, 2004 | Los Angeles, Cal. |\n| George Bush | June 12, 1924 | Milton, Mass. | Nov 30, 2018 | Houston, Texas | [...] | William McKinley | Jan 29, 1843 | Niles, Ohio | Sep 14, 1901 | Buffalo, New York |\n| Theodore Roosevelt | Oct 27, 1858 | New York, New York | Jan 6, 1919 | Oyster Bay, New York |\n| William Howard Taft | Sep 15, 1857 | Cincinnati, Ohio | Mar 8, 1930 | Washington, D.C. |\n| Woodrow Wilson | Dec 28, 1856 | Staunton, Virginia | Feb 3, 1924 | Washington, D.C. |\n| Warren G. Harding | Nov 2, 1865 | Morrow County, Ohio | Aug 2, 1923 | San Francisco, Cal. |\n| Calvin Coolidge | July 4, 1872 | Plymouth, Vermont | Jan 5, 1933 | Northampton, Mass. |\n| Herbert Hoover | Aug 10, 1874 | West Branch, Iowa | Oct 20, 1964 | New York, New York |\n| Franklin Roosevelt | Jan 30, 1882 | Hyde Park, New York | Apr 12, 1945 | Warm Springs, Ga. | [...] | Martin Van Buren | Dec 5, 1782 | Kinderhook, New York | July 24, 1862 | Kinderhook, New York |\n| William Henry Harrison | Feb 9, 1773 | Charles City Co., Va. | Apr 4, 1841 | Washington, D.C. |\n| John Tyler | Mar 29, 1790 | Charles City Co., Va. | Jan 18, 1862 | Richmond, Va. |\n| James K. Polk | Nov 2, 1795 | Mecklenburg Co., N.C. | June 15, 1849 | Nashville, Tennessee |\n| Zachary Taylor | Nov 24, 1784 | Orange County, Va. | July 9, 1850 | Washington, D.C |\n| Millard Fillmore | Jan 7, 1800 | Cayuga Co., New York | Mar 8, 1874 | Buffalo, New York |\n| Franklin Pierce | Nov 23, 1804 | Hillsborough, N.H. | Oct 8, 1869 | Concord, New Hamp. |\n| James Buchanan | Apr 23, 1791 | Cove Gap, Pa. | June 1, 1868 | Lancaster, Pa. |",
+            "score": 0.82728493
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789–Present)",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOoqaPhZIKkE-CGSyeMBxOiFm3QZaKij8e8TvUhFx_xK2XzwgjkCC",
+            "score": 0.84948516
+          },
+          {
+            "title": "BIRTHPLACES OF PRESIDENTS. - The New York Times",
+            "url": "https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html",
+            "score": 0.84858394
+          },
+          {
+            "title": "List of presidents of the United States by home state - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state",
+            "score": 0.8377398
+          },
+          {
+            "title": "Complete List of U.S. Presidents and Their Birth States (1789 ...",
+            "url": "https://presidentsforkids.com/blogs/news/complete-list-of-u-s-presidents-and-their-birth-states-1789-present?srsltid=AfmBOorUYj3eTmrneuupJUTISndv3wmqAPwXeISbqi8J5oHYLO-VMzhW",
+            "score": 0.83290404
+          },
+          {
+            "title": "US Presidents Birthplaces and Location of Death - PresidentsUSA.net",
+            "url": "https://www.presidentsusa.net/birth.html",
+            "score": 0.82728493
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Complete List"
+          },
+          {
+            "type": "name_like",
+            "value": "Presidents"
+          },
+          {
+            "type": "name_like",
+            "value": "Their Birth States"
+          },
+          {
+            "type": "name_like",
+            "value": "Present"
+          },
+          {
+            "type": "name_like",
+            "value": "Born"
+          },
+          {
+            "type": "name_like",
+            "value": "Arkansas"
+          },
+          {
+            "type": "name_like",
+            "value": "George"
+          },
+          {
+            "type": "name_like",
+            "value": "Bush"
+          },
+          {
+            "type": "name_like",
+            "value": "Connecticut"
+          },
+          {
+            "type": "name_like",
+            "value": "Barack Obama"
+          },
+          {
+            "type": "name_like",
+            "value": "Hawaii"
+          },
+          {
+            "type": "name_like",
+            "value": "Donald"
+          },
+          {
+            "type": "name_like",
+            "value": "Trump"
+          },
+          {
+            "type": "name_like",
+            "value": "New York"
+          },
+          {
+            "type": "name_like",
+            "value": "Joe Biden"
+          },
+          {
+            "type": "name_like",
+            "value": "Pennsylvania"
+          },
+          {
+            "type": "name_like",
+            "value": "Note"
+          },
+          {
+            "type": "name_like",
+            "value": "Andrew Jackson"
+          },
+          {
+            "type": "name_like",
+            "value": "South Carolina"
+          },
+          {
+            "type": "name_like",
+            "value": "North Carolina"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Fun Facts About Presidential"
+          },
+          {
+            "type": "name_like",
+            "value": "Birthplaces"
+          },
+          {
+            "type": "name_like",
+            "value": "Quick Links"
+          },
+          {
+            "type": "name_like",
+            "value": "Shop Products"
+          },
+          {
+            "type": "name_like",
+            "value": "About Us"
+          },
+          {
+            "type": "name_like",
+            "value": "Our Partners"
+          },
+          {
+            "type": "name_like",
+            "value": "Education Scholarship Accounts"
+          },
+          {
+            "type": "name_like",
+            "value": "Support"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the cities from the retrieved list.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\"city\"],\n  \"entities\": [\n    {\n      \"name\": \"New York City\",\n      \"type\": \"city\",\n      \"evidence\": \"Theodore Roosevelt was born in New York City, New York.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state\"\n    },\n    {\n      \"name\": \"Cincinnati\",\n      \"type\": \"city\",\n      \"evidence\": \"William Howard Taft was born in Cincinnati, Ohio.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state\"\n    },\n    {\n      \"name\": \"Hyde Park\",\n      \"type\": \"city\",\n      \"evidence\": \"Franklin D. Roosevelt was born in Hyde Park, New York.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state\"\n    },\n    {\n      \"name\": \"Quincy\",\n      \"type\": \"city\",\n      \"evidence\": \"John Adams was born in Quincy, Massachusetts.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state\"\n    }\n  ],\n  \"key_points\": [\n    \"U.S. presidents were born in various cities including New York City and Cincinnati.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"The only other President born in a city of considerable size was Mr. TAFT: Cincinnati at the time of his birth had a population of not more than 150,000.\",\n      \"source_url\": \"https://www.nytimes.com/1923/10/29/archives/birthplaces-of-presidents.html\"\n    },\n    {\n     "
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine the westernmost and easternmost cities from the extracted list.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The cities mentioned in the facts are the only ones considered for determining the westernmost and easternmost locations.",
+          "The geographical coordinates of the cities are used to determine their positions."
+        ],
+        "reasoning_steps": [
+          "Identify the cities from the extracted facts: New York City, Cincinnati, Hyde Park, and Quincy.",
+          "Determine the geographical coordinates of each city.",
+          "Compare the longitudes of the cities to find the westernmost and easternmost."
+        ],
+        "conclusions": [
+          "Cincinnati, Ohio is the westernmost city.",
+          "New York City, New York is the easternmost city."
+        ],
+        "proposed_answer_outline": [
+          "Westernmost City: Cincinnati, Ohio",
+          "Easternmost City: New York City, New York"
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "calc",
+      "description": "Calculate the distance between the westernmost and easternmost cities.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "python_code": "",
+        "output": "",
+        "error": null
+      }
+    },
+    {
+      "id": "T5",
+      "role": "critic",
+      "description": "Verify the accuracy of the identified cities and their distances.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "overall_verdict": "ok",
+        "issues": [],
+        "confirmed_points": [
+          "Theodore Roosevelt was born in New York City, New York.",
+          "William Howard Taft was born in Cincinnati, Ohio.",
+          "Franklin D. Roosevelt was born in Hyde Park, New York.",
+          "John Adams was born in Quincy, Massachusetts."
+        ],
+        "risk_notes": [],
+        "follow_up_queries": [],
+        "recommendations_for_answer_agent": []
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Provide the names of the two cities in alphabetical order, in a comma-separated list.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Cincinnati, New York City",
+        "final_answer_strict": "Cincinnati,New York City",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "ok",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "cincinnati,new york city",
+    "gt_norm": "braintree, honolulu"
+  }
+}

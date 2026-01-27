@@ -1,0 +1,410 @@
+{
+  "id": "b415aba4-4b68-4fc6-9b89-2c812e55a3e1",
+  "query": "In Nature journal's Scientific Reports conference proceedings from 2012, in the article that did not mention plasmons or plasmonics, what nano-compound is studied? Don't use the prefix nano in your answer if there is one.",
+  "ground_truth": "diamond",
+  "answer_raw": {
+    "final_answer": "Diamond photonic crystal slab",
+    "final_answer_strict": "Diamond photonic crystal slab",
+    "used_evidence": [
+      "### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots"
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Diamond photonic crystal slab",
+  "error": null,
+  "duration_sec": 35.40997290611267,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Nature journal's Scientific Reports conference proceedings from 2012.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Nature journal's Scientific Reports conference proceedings from 2012.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"In 2012, there were 4 conference proceedings published in Scientific Reports.\",\n      \"source_url\": \"https://www.nature.com/srep/articles?type=conference-proceeding&year=2012\"\n    },\n    {\n      \"fact\": \"One of the conference proceedings is titled 'Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots' by",
+        "sources": [
+          {
+            "title": "Conference Proceedings in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=conference-proceeding&year=2012",
+            "snippet": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   browse articles\n\nConference Proceedings in 2012\n\nFilter By:\n\nArticle Type\n\nConference Proceeding (4)\n\n   All\n   Conference Proceeding (4)\n\nYear\n\n2012 (4)\n\n   All\n   2012 (4)\n\n   \nImage 3 [...] Year\n\n2012 (4)\n\n   All\n   2012 (4)\n\n   \nImage 3 \n\n### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\n\n       Lukáš Ondič\n       Oleg Babchenko\n       Ivan Pelant\n\nConference Proceeding Open Access 03 Dec 2012\n\n   \nImage 4 \n\n### Efficient light coupling for optically excited high-density metallic nanotip arrays\n\n       Anna Mustonen\n       Paul Beaud\n       Soichiro Tsujino\n\nCo"
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=6",
+            "snippet": "Skip to main content\n\n# Articles in 2012\n\n## Filter By:\n\nArticle Type\n\nYear\n\n ### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\n\n  + Lukáš Ondič\n  + Oleg Babchenko\n  + Ivan Pelant\n\n  Conference ProceedingOpen Access\n ### Efficient light coupling for optically excited high-density metallic nanotip arrays\n\n  + Anna Mustonen\n  + Paul Beaud\n  + Soichiro Tsujino\n\n  Conference ProceedingOpen Access\n ### 2D quasiperiodic plasmonic crystals\n\n  + Christina Bauer\n  + Georg Kobiela\n  + Harald Giessen\n\n  Conference ProceedingOpen Access\n ### Layered plasmonic cloaks to tailor the optical scattering at the nanoscale\n\n  + F. Monticone\n  + C. Argyropoulos\n  + A. Alù [...] + F. Monticone\n  + C. Argyropoulos\n  + A. Alù\n\n  Conference ProceedingOpen Access\n ### PMA-induced dissociation of Ku86 from the promoter causes transcriptional up-regulation of histamine H1 receptor\n\n  + Hiroyuki Mizuguchi\n  + Kohei Miyagi\n  + Hiroyuki Fukui\n\n  ArticleOpen Access\n ### Gassing in Li4Ti5O12-based batteries and its remedy\n\n  + Yan-Bing He\n  + Baohua Li\n  + Feiyu Kang\n\n  ArticleOpen Access\n ### Accelerated crossing of fitness valleys through div"
+          },
+          {
+            "title": "Volume 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/volumes/2012",
+            "snippet": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   volumes\n4.   volume 2012\n\nScientific Reports  (_Sci Rep_)\n\nISSN 2045-2322 (online)\n\nnature.com sitemap\n\n### About Nature Portfolio\n\n   About us\n   Press releases\n   Press office\n   Contact us\n\n### Discover content [...] Skip to main content\n\nThank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.\n\nAdvertisement\n\nImage 2: Scientific Reports\n\n   View all journals\n"
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=12",
+            "snippet": "Skip to main content\n\n# Articles in 2012\n\n## Filter By:\n\nArticle Type\n\nYear\n\n ### A functioning artificial secretory cell\n\n  + Lisa Simonsson\n  + Michael E. Kurczy\n  + Ann-Sofie Cans\n\n  ArticleOpen Access\n ### In science “there is no bad publicity”: Papers criticized in comments have high scientific impact\n\n  + Filippo Radicchi\n\n  ArticleOpen Access\n ### A real-time dynamic holographic material using a fast photochromic molecule\n\n  + Norihito Ishii\n  + Tetsuya Kato\n  + Jiro Abe\n\n  ArticleOpen Access\n ### RRM2B Suppresses Activation of the Oxidative Stress Pathway and is Up-regulated by P53 During Senescence\n\n  + Mei-Ling Kuo\n  + Alexander J. Sy\n  + Yun Yen [...] ArticleOpen Access\n ### Multiple mutations and mutation combinations in the sodium channel of permethrin resistant mosquitoes, Culex quinquefasciatus\n\n  + Ting Li\n  + Lee Zhang\n  + Nannan Liu\n\n  ArticleOpen Access\n ### Transparent, flexible supercapacitors from nano-engineered carbon films\n\n  + Hyun Young Jung\n  + Majid B. Karimi\n  + Yung Joon Jung\n\n  ArticleOpen Access\n ### Counterflow Dielectrophoresis for Trypanosome Enrichment and Detection in Blood\n\n  + Anoop Menachery\n  + Clemens Kremer\n  + Jonathan M. Cooper\n\n  Artic"
+          },
+          {
+            "title": "Retractions in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=retraction&year=2012",
+            "snippet": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   browse articles\n\nRetractions in 2012\n\nFilter By:\n\nArticle Type\n\nRetraction (2)\n\n   All\n   Retraction (2)\n\nYear\n\n2012 (2)\n\n   All\n   2012 (2) [...] Year\n\n2012 (2)\n\n   All\n   2012 (2)\n\n   \n### Retraction Note to: A therapeutic method for the direct reprogramming of human liver cancer cells with only chemicals\n\n       Hisashi Moriguchi\n       Yue Zhang\n       Chifumi Sato\n\nRetraction 09 Nov 2012\n\n   \n### Retraction Note to: Successful cryopreservation of human ovarian cortex tissues using supercooling\n\n       Hisashi Moriguchi\n       Yue Zhang\n       Chifumi Sato\n\nRetraction 09 Nov 2012\n\nScientific Reports  (_Sci Rep_)\n\nISSN 2045-2322 (o"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Conference Proceedings in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=conference-proceeding&year=2012",
+            "content": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   browse articles\n\nConference Proceedings in 2012\n\nFilter By:\n\nArticle Type\n\nConference Proceeding (4)\n\n   All\n   Conference Proceeding (4)\n\nYear\n\n2012 (4)\n\n   All\n   2012 (4)\n\n   \nImage 3 [...] Year\n\n2012 (4)\n\n   All\n   2012 (4)\n\n   \nImage 3 \n\n### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\n\n       Lukáš Ondič\n       Oleg Babchenko\n       Ivan Pelant\n\nConference Proceeding Open Access 03 Dec 2012\n\n   \nImage 4 \n\n### Efficient light coupling for optically excited high-density metallic nanotip arrays\n\n       Anna Mustonen\n       Paul Beaud\n       Soichiro Tsujino\n\nConference Proceeding Open Access 03 Dec 2012\n\n   \nImage 5 \n\n### 2D quasiperiodic plasmonic crystals\n\n       Christina Bauer\n       Georg Kobiela\n       Harald Giessen\n\nConference Proceeding Open Access 03 Dec 2012\n\n   \nImage 6 \n\n### Layered plasmonic cloaks to tailor the optical scattering at the nanoscale [...] Skip to main content\n\nThank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.\n\nAdvertisement\n\nImage 2: Scientific Reports\n\n   View all journals\n   Search\n\nSearch\n\nSearch articles by subject, keyword or author  Show results from  Search   Advanced search \n### Quick links\n\n       Explore articles by subject\n       Find a job\n       Guide to authors\n       Editorial policies\n\n   Log in\n\n   Content Explore content\n\nExplore content\n\n       Research articles\n       News & Comment\n       Collections\n       Subjects",
+            "score": 0.9999008
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=6",
+            "content": "Skip to main content\n\n# Articles in 2012\n\n## Filter By:\n\nArticle Type\n\nYear\n\n ### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\n\n  + Lukáš Ondič\n  + Oleg Babchenko\n  + Ivan Pelant\n\n  Conference ProceedingOpen Access\n ### Efficient light coupling for optically excited high-density metallic nanotip arrays\n\n  + Anna Mustonen\n  + Paul Beaud\n  + Soichiro Tsujino\n\n  Conference ProceedingOpen Access\n ### 2D quasiperiodic plasmonic crystals\n\n  + Christina Bauer\n  + Georg Kobiela\n  + Harald Giessen\n\n  Conference ProceedingOpen Access\n ### Layered plasmonic cloaks to tailor the optical scattering at the nanoscale\n\n  + F. Monticone\n  + C. Argyropoulos\n  + A. Alù [...] + F. Monticone\n  + C. Argyropoulos\n  + A. Alù\n\n  Conference ProceedingOpen Access\n ### PMA-induced dissociation of Ku86 from the promoter causes transcriptional up-regulation of histamine H1 receptor\n\n  + Hiroyuki Mizuguchi\n  + Kohei Miyagi\n  + Hiroyuki Fukui\n\n  ArticleOpen Access\n ### Gassing in Li4Ti5O12-based batteries and its remedy\n\n  + Yan-Bing He\n  + Baohua Li\n  + Feiyu Kang\n\n  ArticleOpen Access\n ### Accelerated crossing of fitness valleys through division of labor and cheating in asexual populations\n\n  + Natalia L. Komarova\n  + Erin Urwin\n  + Dominik Wodarz\n\n  ArticleOpen Access\n ### Age-dependent α-synuclein aggregation in the Microcebus murinus lemur primate\n\n  + Marie-Hélène Canron\n  + Martine Perret\n  + Benjamin Dehay [...] + Rachel A. Walker\n  + Karen Wilson\n  + Andrew Dent\n\n  ArticleOpen Access\n ### In vivo assessment of cancerous tumors using boron doped diamond microelectrode\n\n  + Stéphane Fierro\n  + Momoko Yoshikawa\n  + Yasuaki Einaga\n\n  ArticleOpen Access\n ### Spin-based Optomechanics with Carbon Nanotubes\n\n  + Jin-Jin Li\n  + Ka-Di Zhu\n\n  ArticleOpen Access\n ### Juxtanodin is an intrinsically disordered F-actin-binding protein\n\n  + Salla Ruskamo\n  + Maryna Chukhlieb\n  + Petri Kursula\n\n  ArticleOpen Access\n ### World citation and collaboration networks: uncovering the role of geography in science\n\n  + Raj Kumar Pan\n  + Kimmo Kaski\n  + Santo Fortunato\n\n  ArticleOpen Access",
+            "score": 0.9988305
+          },
+          {
+            "title": "Volume 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/volumes/2012",
+            "content": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   volumes\n4.   volume 2012\n\nScientific Reports  (_Sci Rep_)\n\nISSN 2045-2322 (online)\n\nnature.com sitemap\n\n### About Nature Portfolio\n\n   About us\n   Press releases\n   Press office\n   Contact us\n\n### Discover content [...] Skip to main content\n\nThank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.\n\nAdvertisement\n\nImage 2: Scientific Reports\n\n   View all journals\n   Search\n\nSearch\n\nSearch articles by subject, keyword or author  Show results from  Search   Advanced search \n### Quick links\n\n       Explore articles by subject\n       Find a job\n       Guide to authors\n       Editorial policies\n\n   Log in\n\n   Content Explore content\n\nExplore content\n\n       Research articles\n       News & Comment\n       Collections\n       Subjects",
+            "score": 0.998487
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=12",
+            "content": "Skip to main content\n\n# Articles in 2012\n\n## Filter By:\n\nArticle Type\n\nYear\n\n ### A functioning artificial secretory cell\n\n  + Lisa Simonsson\n  + Michael E. Kurczy\n  + Ann-Sofie Cans\n\n  ArticleOpen Access\n ### In science “there is no bad publicity”: Papers criticized in comments have high scientific impact\n\n  + Filippo Radicchi\n\n  ArticleOpen Access\n ### A real-time dynamic holographic material using a fast photochromic molecule\n\n  + Norihito Ishii\n  + Tetsuya Kato\n  + Jiro Abe\n\n  ArticleOpen Access\n ### RRM2B Suppresses Activation of the Oxidative Stress Pathway and is Up-regulated by P53 During Senescence\n\n  + Mei-Ling Kuo\n  + Alexander J. Sy\n  + Yun Yen [...] ArticleOpen Access\n ### Multiple mutations and mutation combinations in the sodium channel of permethrin resistant mosquitoes, Culex quinquefasciatus\n\n  + Ting Li\n  + Lee Zhang\n  + Nannan Liu\n\n  ArticleOpen Access\n ### Transparent, flexible supercapacitors from nano-engineered carbon films\n\n  + Hyun Young Jung\n  + Majid B. Karimi\n  + Yung Joon Jung\n\n  ArticleOpen Access\n ### Counterflow Dielectrophoresis for Trypanosome Enrichment and Detection in Blood\n\n  + Anoop Menachery\n  + Clemens Kremer\n  + Jonathan M. Cooper\n\n  ArticleOpen Access\n ### Use of Direct Gradient Analysis to Uncover Biological Hypotheses in 16S Survey Data and Beyond\n\n  + John R. Erb-Downward\n  + Amir A. Sadighi Akha\n  + Gary B. Huffnagle\n\n  ArticleOpen Access [...] + Hongyi Xu\n  + Xingjue Wang\n  + Baile Zhang\n\n  ArticleOpen Access\n ### Fluorescence laser microdissection reveals a distinct pattern of gene activation in the mouse hippocampal region\n\n  + Wataru Yoshioka\n  + Nozomi Endo\n  + Chiharu Tohyama\n\n  ArticleOpen Access\n ### Non-randomized mtDNA damage after ionizing radiation via charge transport\n\n  + Xin Zhou\n  + Xinguo Liu\n  + Hong Zhang\n\n  ArticleOpen Access\n ### Neutron diffraction studies of the interaction between amphotericin B and lipid-sterol model membranes\n\n  + Fabrizia Foglia\n  + M. Jayne Lawrence\n  + David Barlow\n\n  ArticleOpen Access\n ### Sequential origin in the high performance properties of orb spider dragline silk\n\n  + Todd A. Blackledge\n  + José Pérez-Rigueiro\n  + Manuel Elices",
+            "score": 0.99821776
+          },
+          {
+            "title": "Retractions in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=retraction&year=2012",
+            "content": "Follow us on Facebook\n       Follow us on Twitter\n       Sign up for alerts\n       RSS feed\n\n   About the journal\n\nAbout the journal\n\n       About Scientific Reports\n       Contact\n       Journal policies\n       Guide to referees\n       Calls for Papers\n       Editor's Choice\n       Journal highlights\n       Open Access Fees and Funding\n\n   Publish with us\n\nPublish with us\n\n       For authors\n       Language editing services\n       Open access funding\n       Submit manuscript\n\n   Sign up for alerts\n   RSS feed\n\n1.   nature\n2.   scientific reports\n3.   browse articles\n\nRetractions in 2012\n\nFilter By:\n\nArticle Type\n\nRetraction (2)\n\n   All\n   Retraction (2)\n\nYear\n\n2012 (2)\n\n   All\n   2012 (2) [...] Year\n\n2012 (2)\n\n   All\n   2012 (2)\n\n   \n### Retraction Note to: A therapeutic method for the direct reprogramming of human liver cancer cells with only chemicals\n\n       Hisashi Moriguchi\n       Yue Zhang\n       Chifumi Sato\n\nRetraction 09 Nov 2012\n\n   \n### Retraction Note to: Successful cryopreservation of human ovarian cortex tissues using supercooling\n\n       Hisashi Moriguchi\n       Yue Zhang\n       Chifumi Sato\n\nRetraction 09 Nov 2012\n\nScientific Reports  (_Sci Rep_)\n\nISSN 2045-2322 (online)\n\nnature.com sitemap\n\n### About Nature Portfolio\n\n   About us\n   Press releases\n   Press office\n   Contact us\n\n### Discover content\n\n   Journals A-Z\n   Articles by subject\n   protocols.io\n   Nature Index\n\n### Publishing policies\n\n   Nature portfolio policies\n   Open access",
+            "score": 0.998103
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Conference Proceedings in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=conference-proceeding&year=2012",
+            "score": 0.9999008
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=6",
+            "score": 0.9988305
+          },
+          {
+            "title": "Volume 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/volumes/2012",
+            "score": 0.998487
+          },
+          {
+            "title": "Articles in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?searchType=journalSearch&sort=PubDate&year=2012&page=12",
+            "score": 0.99821776
+          },
+          {
+            "title": "Retractions in 2012 | Scientific Reports - Nature",
+            "url": "https://www.nature.com/srep/articles?type=retraction&year=2012",
+            "score": 0.998103
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Conference Proceedings"
+          },
+          {
+            "type": "name_like",
+            "value": "Scientific Reports"
+          },
+          {
+            "type": "name_like",
+            "value": "Nature\nFollow"
+          },
+          {
+            "type": "name_like",
+            "value": "Facebook"
+          },
+          {
+            "type": "name_like",
+            "value": "Follow"
+          },
+          {
+            "type": "name_like",
+            "value": "Twitter"
+          },
+          {
+            "type": "name_like",
+            "value": "Sign"
+          },
+          {
+            "type": "name_like",
+            "value": "About"
+          },
+          {
+            "type": "name_like",
+            "value": "About Scientific Reports"
+          },
+          {
+            "type": "name_like",
+            "value": "Contact"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Guide"
+          },
+          {
+            "type": "name_like",
+            "value": "Calls"
+          },
+          {
+            "type": "name_like",
+            "value": "Papers"
+          },
+          {
+            "type": "name_like",
+            "value": "Editor"
+          },
+          {
+            "type": "name_like",
+            "value": "Choice"
+          },
+          {
+            "type": "name_like",
+            "value": "Open Access Fees"
+          },
+          {
+            "type": "name_like",
+            "value": "Funding"
+          },
+          {
+            "type": "name_like",
+            "value": "Publish"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Language"
+          },
+          {
+            "type": "name_like",
+            "value": "Open"
+          },
+          {
+            "type": "name_like",
+            "value": "Submit"
+          },
+          {
+            "type": "name_like",
+            "value": "Filter By"
+          },
+          {
+            "type": "name_like",
+            "value": "Article Type"
+          },
+          {
+            "type": "name_like",
+            "value": "Conference Proceeding"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Year"
+          },
+          {
+            "type": "name_like",
+            "value": "Image"
+          },
+          {
+            "type": "name_like",
+            "value": "Diamond"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the retrieved conference proceedings to extract articles.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the titles and content of articles that do not mention plasmons or plasmonics.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"article titles and content\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\",\n      \"type\": \"article_title\",\n      \"evidence\": \"### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\",\n"
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Identify the nano-compound studied in the relevant articles.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"article titles and content\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\",\n      \"type\": \"article_title\",\n      \"evidence\": \"### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots\",\n"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine the name of the compound without the prefix nano.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"assumptions\": [\n    \"The compound name to be determined should not include the prefix 'nano'.\",\n    \"The compound name may be among the titles of conference proceedings from the Scientific Reports journal.\"\n  ],\n  \"reasoning_steps\": [\n    \"I reviewed the titles of conference proceedings from the Scientific Reports journal in 2012.\",\n    \"I identified potential compound names within the titles, focusing on notable phrases.\",\n    \"One title stands out with relevance to the task:",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer with the name of the compound.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "Diamond photonic crystal slab",
+        "final_answer_strict": "Diamond photonic crystal slab",
+        "used_evidence": [
+          "### Diamond photonic crystal slab: Leaky modes and modified photoluminescence emission of surface-deposited quantum dots"
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "diamond photonic crystal slab",
+    "gt_norm": "diamond"
+  }
+}

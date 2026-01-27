@@ -1,0 +1,173 @@
+{
+  "id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+  "query": "What was the complete title of the book in which two James Beard Award winners recommended the restaurant where Ali Khan enjoyed a New Mexican staple in his cost-conscious TV show that started in 2015? Write the numbers in plain text if there are some in the title.",
+  "ground_truth": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+  "answer_raw": {
+    "final_answer": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+    "final_answer_strict": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+  "error": null,
+  "duration_sec": 28.565221786499023,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the TV show started by Ali Khan in 2015 and its connection to James Beard Award winners.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the TV show started by Ali Khan in 2015 and its connection to James Beard Award winners.",
+        "facts": [
+          {
+            "fact": "Ali Khan's TV show 'Cheap Eats' started on September 22, 2015.",
+            "source_url": "https://en.wikipedia.org/wiki/Cheap_Eats"
+          },
+          {
+            "fact": "'Cheap Eats' aired on the Cooking Channel and ran for 5 seasons.",
+            "source_url": "https://en.wikipedia.org/wiki/Cheap_Eats"
+          },
+          {
+            "fact": "The book 'Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them' features recommendations from two James Beard Award winners.",
+            "source_url": "https://huggingface.co/datasets/m-ric/agents_medium_benchmark_3"
+          },
+          {
+            "fact": "Ali Khan is also a regular on the Food Network's 'Chopped', which has won two James Beard Awards.",
+            "source_url": "https://en.wikipedia.org/wiki/Chopped_(TV_series)"
+          }
+        ],
+        "sources": [
+          {
+            "title": "m-ric/agents_medium_benchmark_3 · Datasets at Hugging Face",
+            "url": "https://huggingface.co/datasets/m-ric/agents_medium_benchmark_3",
+            "snippet": "| What was the complete title of the book in which two James Beard Award winners recommended the restaurant where Ali Khan enjoyed a New Mexican staple in his cost-conscious TV show that started in 2015? Write the numbers in plain text if there are some in the title. | GAIA | Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them | None |\n| How many at bats did the Yankee with the most walks in the 1977 regular season have that same season? | GAIA | 519 | None |\n| In Audre Lorde’s poem “Father Son and Holy Ghost”, what is the number of the stanza in which some li"
+          },
+          {
+            "title": "WebVoyager/data/GAIA_web.jsonl at main - GitHub",
+            "url": "https://github.com/MinorJerry/WebVoyager/blob/main/data/GAIA_web.jsonl",
+            "snippet": "{\"task\\_id\": \"7d4a7d1d-cac6-44a8-96e8-ea9584a70825\", \"Level\": 1, \"Final answer\": \"22\", \"id\": \"level1-19\", \"web\": \" \"ques\": \"According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?\"}\n\n{\"task\\_id\": \"dc22a632-937f-4e6a-b72f-ba0ff3f5ff97\", \"Level\": 1, \"Final answer\": \"Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them\", \"id\": \"level1-20\", \"web\": \" \"ques\": \"What was the complete title of the book in which two James Beard Award winners recommended the restaur"
+          },
+          {
+            "title": "Ali Khan - FoodAllergy.org",
+            "url": "https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan",
+            "snippet": "Television Host and Food Writer/Blogger/Influencer\n\nAli Khan is a television host and food writer/blogger/influencer sharing his love for food across multiple digital platforms. His breakout series, Cheap Eats ran for 5 seasons on Cooking Channel. He is a regular on The Best Thing I Ever Ate, a judge on Food Network’s Chopped + Chopped Junior and served as host of the fourth season of Spring Baking Championship, also on Food Network.\n\nHis food writing has appeared in Black Book Magazine, Urban Daddy, James Beard winner LA TACO, You Gotta Eat This as well as authoring his own food blog, Bang fo"
+          },
+          {
+            "title": "Cheap Eats - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cheap_Eats",
+            "snippet": "American television series\n\n| Cheap Eats |\n\n| Genre | Reality |\n| Presented by | Ali Khan |\n| No. of seasons | 5 |\n| No. of episodes | 59 |\n| Production |\n| Producer | Ali Khan |\n| Production company | Sirens Media |\n| Original release |\n| Network | Cooking Channel |\n| Release | September 22, 2015 (2015-09-22) – November 7, 2018 (2018-11-07) |\n\nCheap Eats is a food travelogue television series on Cooking Channel. Ali Khan, author of the blog Bang for Your Burger Buck, is the host (and co-executive producer). Each episode is in a different city in the US where, within 12 hours, Khan finds great"
+          },
+          {
+            "title": "Chopped (TV series) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chopped_(TV_series)",
+            "snippet": "## Awards\n\n[edit&action=edit&section=21 \"Edit section: Awards\")]\n\nChopped won two James Beard Awards in 2012 from the James Beard Foundation: one medal for Best Show, In-Studio or Fixed Location, given to Ted Allen, the team of judges, Food Network, and producers Linda Lea, Dave Noll, and Vivian Sorenson; the other for Media Personality or Host, given to Allen. Additionally, Chopped was inducted into the Culinary Hall of Fame in 2012.\n\n## Chopped Sweets\n\n[edit&action=edit&section=22 \"Edit section: Chopped Sweets\")]\n\nFurther information: List of Chopped Sweets episodes [...] | Robert Irvine | S"
+          }
+        ],
+        "summary": "Ali Khan's 'Cheap Eats' premiered in 2015 on the Cooking Channel and has connections to James Beard Award winners through a recommended book."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the complete title of the book recommended by the James Beard Award winners.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "book_title",
+            "type": "str",
+            "evidence": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them"
+          }
+        ],
+        "key_points": [
+          "Ali Khan's TV show 'Cheap Eats' premiered in 2015 and is connected to James Beard Award winners through a recommended book."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer with the complete title of the book.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+        "final_answer_strict": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "five hundred things to eat before it's too late: and the very best places to eat them",
+    "gt_norm": "five hundred things to eat before it's too late: and the very best places to eat them"
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 39.07639527320862,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram N. Khan.\",\n      \"source_url\": \"https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf\"\n    },\n    {\n      \"fact\": \"The paper was published in September 2015 in the Journal of Emerging Trends in Computing and Information Sciences.\",\n      \"",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were require"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two mai"
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "snippet": "### Navigational User Interface Elements on the Left Side: Intuition of Designers or Experimental Evidence?\n\nAndreas HolzingerReinhold SchererM. Ziefle\n\nPsychology, Computer Science\n\nINTERACT\n\n 2011\n\nThe results of this study suggest that the presentation of elements on the left side is advantageous for the speed of information processing only in the case of single elements.\n\n 7\n Highly Influenced\n PDF\n\n### Pie Menus or Linear Menus, Which Is Better?\n\nPietro MuranoIram Khan\n\nComputer Science\n\n 2015\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n 7\n PDF"
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "downloadDownload free PDFView PDFchevron\\_right [...] that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] Menu, or Dartboard Menu, in more detail. We report on two experiments, one to calibrate the sizes of the rings, the other showing that it performs faster than the Zone and Flower menus but is less accurate than the Zone menu."
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "snippet": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The l"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] PC, o Windows Vista Home Premium 64-bit English, o Intel® CoreTM2 Duo CPU @ 2.00GHz, o 4 GB RAM, o 14.5” Screen.  A stopwatch.  A pre experiment questionnaire.  A post experiment questionnaire.  A consent form.  The tasks sheets containing four tasks for each menu type. The tasks were formulated to be performed at both website versions separately. In each task participants were required to find particular products having specific characteristics. For each menu type four different tasks were devised. The tasks were equivalent to each other in terms of efficiency, difficulty, time taken to search menu items and in terms of where the required items appeared on the screen. This approach was used to minimize Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] X. FaulknerClive Hayton\n\nComputer Science\n\n 2011\n\nThere was no significant time savings in sticking to the convention of placing menus on the left-hand side of a Web site, and there might be advantages to placing menu panels on the right side of the Web site.\n\n 9\n PDF\n\n### Supporting menu design with radial layouts\n\nK. SampS. Decker\n\nComputer Science\n\nAVI\n\n 2010\n\nThis paper compares two main characteristics of radial and linear layouts, and presents requirements and the Compact Radial Layout (CRL) design which supports menu hierarchies.\n\n 33\n\n### Flower menus: a new type of marking menu with large menu breadth, within groups and efficient expert mode memorization\n\nG. BaillyÉ. LecolinetL. Nigay\n\nComputer Science\n\nAVI '08\n\n 2008 [...] Pietro MuranoMargrete Sander\n\nComputer Science\n\n 2016\n\nThis review paper aims to provide the reader with a succinct summary of the major research in this area along with an easy to read tabulation of the most important studies and some suggestions for future research regarding how menus and their positioning on the screen could be improved.\n\n 14\n PDF\n\n### A usability evaluation of Web user interface scrolling types\n\nSushil SharmaPietro Murano\n\nComputer Science\n\nFirst Monday\n\n 2020\n\nThe evaluation was principally about the ‘raw’ performance and participant perceptions, where no single scrolling method stood out as being the most usable.\n\n 6\n PDF\n\n### Effects of Menu Organization and Visibility on Web Navigation for People with Dyslexia\n\nH. PetrieIli Farhana Md Mahtar",
+            "score": 0.9997603
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "content": "### Navigational User Interface Elements on the Left Side: Intuition of Designers or Experimental Evidence?\n\nAndreas HolzingerReinhold SchererM. Ziefle\n\nPsychology, Computer Science\n\nINTERACT\n\n 2011\n\nThe results of this study suggest that the presentation of elements on the left side is advantageous for the speed of information processing only in the case of single elements.\n\n 7\n Highly Influenced\n PDF\n\n### Pie Menus or Linear Menus, Which Is Better?\n\nPietro MuranoIram Khan\n\nComputer Science\n\n 2015\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n 7\n PDF",
+            "score": 0.99860066
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "downloadDownload free PDFView PDFchevron\\_right [...] that geometric stroke recognition techniques, associated to other calibrations, can significantly improve the accuracy achievable using a simple target-based method. [...] Menu, or Dartboard Menu, in more detail. We report on two experiments, one to calibrate the sizes of the rings, the other showing that it performs faster than the Zone and Flower menus but is less accurate than the Zone menu.",
+            "score": 0.99827254
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "content": "Proceedings Article10.1145/57167.57182\n\n# An empirical comparison of pie vs. linear menus\n\nJ. Callahan,Don Hopkins,M. Weiser,Ben Shneiderman +3 moreUniversity of Maryland, College Park\n\n- 01 May 1988\n\n- pp 95-100\n\nShow Less\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.\n\nread more [...] 147\n\nJournal Article•10.1177/154193128302700919\n\n## Searching for Items in Menus: The Effects of Organization and Type of Target:\n\nJames E. McDonald,Jim D. Stone,Linda S. Liebelt +2 moreIBM\n\n- 01 Oct 1983\n\nShow Less\n\nTL;DR: Categorical menu organization was found to be superior to an alphabetical ordering, particularly when definitions are provided as stimuli, when defined as stimuli.\n\n143\n\n•Journal Article\n\n## Making the right choices with menus\n\nG. PerlmanBell Labs\n\n- 01 Dec 1987\n\n- Human-Computer Interaction\n\nShow Less\n\n45\n\n##### Related Papers (5)\n\n###### An Empirical Comparison\n\n[...]\n\nThomas Bäck\n\n- 15 Feb 1996\n\nShow Less\n\n###### The limits of expert performance using hierarchic marking menus\n\n[...]\n\nGordon Kurtenbach,William Buxton +1 more\n\n- 01 May 1993\n\nShow Less [...] 7\n\nProceedings Article•10.1145/3419249.3420146\n\n## An Evaluation of Pie Menus for System Control in Virtual Reality\n\nMartin Mundt,Tintu Mathew +1 more\n\n- 25 Oct 2020\n\nShow Less\n\nTL;DR: This work designs and examines the four pie menus pick ray (PR), pick hand (PH), hand rotation (HR) and stick rotation (SR), addressing usability, user experience (UX), presence, error rate and selection time, and finds that PH was rated significantly better compared to HR and SR; PR was rated betterCompared to SR.\n\n7\n\n...\n\n...\n\n##### References\n\nJournal Article•10.2307/2529119\n\n## Experimental Design: Procedures for the Behavioral Sciences\n\nA. S. Hedayat,Roger E. Kirk +1 more\n\n- 01 Sep 1970\n\n- Biometrics\n\nShow Less\n\n9.2K\n\n•Book\n\n## The Psychology of Human-Computer Interaction",
+            "score": 0.9981614
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.999936
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.9997603
+          },
+          {
+            "title": "Web Page Layout: A Comparison Between Left- and Right-justified ...",
+            "url": "https://www.semanticscholar.org/paper/Web-Page-Layout%3A-A-Comparison-Between-Left-and-Site-Kalbach-Bosenick/c53837f7610847a13c35cd5add02825e78ba05eb",
+            "score": 0.99860066
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.99827254
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - SciSpace",
+            "url": "https://scispace.com/papers/an-empirical-comparison-of-pie-vs-linear-menus-1c18t6emgs?citations_page=54",
+            "score": 0.9981614
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano\nVol"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Journal"
+          },
+          {
+            "type": "name_like",
+            "value": "Emerging Trends"
+          },
+          {
+            "type": "name_like",
+            "value": "Computing"
+          },
+          {
+            "type": "name_like",
+            "value": "Information Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "All"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram"
+          },
+          {
+            "type": "name_like",
+            "value": "Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Department"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Universal Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Research Group"
+          },
+          {
+            "type": "name_like",
+            "value": "Oslo"
+          },
+          {
+            "type": "name_like",
+            "value": "Akershus University College"
+          },
+          {
+            "type": "name_like",
+            "value": "Applied Sciences"
+          },
+          {
+            "type": "name_like",
+            "value": "Norway"
+          },
+          {
+            "type": "name_like",
+            "value": "University"
+          },
+          {
+            "type": "name_like",
+            "value": "Salford"
+          },
+          {
+            "type": "name_like",
+            "value": "School"
+          },
+          {
+            "type": "name_like",
+            "value": "Science"
+          },
+          {
+            "type": "name_like",
+            "value": "Engineering"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Although"
+          },
+          {
+            "type": "name_like",
+            "value": "Windows Vista Home Premium"
+          },
+          {
+            "type": "name_like",
+            "value": "English"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the identified authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the identified authors.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Tanenbaum published 83 papers before changing her name in 2019.\",\n      \"source_url\": \"https://www.science.org/content/article/new-more-inclusive-journal-policies-ease-author-name-changes-published-papers\"\n    },\n    {\n      \"fact\": \"Scopus is a multidisciplinary database of peer-reviewed research literature.\",\n      \"source_url\": \"https://libguides.sjf.edu/advanced-literature",
+        "sources": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "snippet": "You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like [...] search_results = json.loads(r.text) #show some statistics print(f\"{search_results['esearchresult']['count']} publications found.\") if RETMAX < search_results['esearchresult']['count']: print(f\"Warning: Only the first {RETMAX} publications are processed.\") # walk through all rerieved ids and fetch detailed publication information # An alternative soloution could use one single query based on the previous search results as shown in #  # This would reduce the server load histogram = Counter() for pub_id in search_results['esearchresult']['idlist']: #print(f\"Fetching {pub_id}\", end=\" \") # uncomment for a more verbose versione # Now build the fetch URL: fetch_url = eutils_basepath + 'esummary.fcgi?db=' + DB + '&retmode=json&id=' + pub_id r = s.get(fetch_url) if r.status_code != 200: raise [...] Commented Mar 27, 2018 at 7:52\n 2\n\n  @flow have you tried to contact support team of sc"
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "snippet": "TRiG\n\n53544 silver badges1717 bronze badges\n\nasked Dec 17, 2018 at 9:05\n\nAgelos\n\n46744 silver badges77 bronze badges\n\n5\n\n 10\n\n  ‘Harvesting papers’ - what, really, are you trying to do?\n\n  Jon Custer\n\n  –  Jon Custer\n\n  2018-12-17 13:17:39 +00:00\n\n   Commented Dec 17, 2018 at 13:17\n @Jon Custer Get the metadata of papers provided by different sources .\n\n  Agelos\n\n  –  Agelos\n\n  2018-12-17 17:30:09 +00:00\n\n   Commented Dec 17, 2018 at 17:30\n 9\n\n  See J. Pfeffer & J. Pfeffer, \"Another Article that Makes Bibliometric Analysis a Bit Harder,\" SIGBOVIK 2015, pp. 79-82. April 1, 2015. \\Note: The specific date within that year is not a coincidence; it's a humor venue. PDF page numbers are +8.\n\n  WBT\n\n  –  WBT\n\n  2018-12-17 18:27:30 +00:00 [...] Find the answer to your question by asking.\n\nAsk question\n\nExplore related questions\n\n publications\n digital-researcher-id\n\nSee similar questions with these tags.\n\n Featured on Meta\n AI Assist: recent updates (January 2026)\n Community Engagement Across the Network: Focus for 2026\n\n#### Linked\n\n21\") How are scientific papers uniquely identified?\n\n#### Related\n\nHow many co-authors are enough?\n\n8\") Are there any researcher digital identification servic"
+          },
+          {
+            "title": "Known Author Search - Advanced Literature Searching",
+            "url": "https://libguides.sjf.edu/advanced-literature-searching/known-author-search",
+            "snippet": "When you identify these key authors or researchers, it can be valuable to review their other publications to see if they are relevant to your topic. You have a number of options when compiling a list of these types of publications. The two big ones available through Lavery Library are Scopus and Google Scholar.\n\n Scopus  This link opens in a new window\n\n  Multidisciplinary database of peer-reviewed research literature such as scholarly journals, books and chapters, conference proceedings, and trade publications, along with metrics and analytical tools to work with those citations. Fields covered include the sciences, social sciences, health, arts, and humanities.\n Google Scholar  This link opens in a new window [...] Skip to Main Content\n\n# Advanced Literature Searching\n\n Home\n Citation Tracking\n Known Author Search \n  + Key Researchers (or authors)\n  + Scopus Author Search\n  + Google Scholar Author Search\n\n## Key Researchers (or authors)\n\nAs your knowledge about a topic expands, you will identify key authors or researchers who publish on the topic. This is a crucial step in entering the scholarly conversation. It helps you understand the scope of an area of research.\n\nOften you wi"
+          },
+          {
+            "title": "New, more inclusive journal policies ease author name changes on ...",
+            "url": "https://www.science.org/content/article/new-more-inclusive-journal-policies-ease-author-name-changes-published-papers",
+            "snippet": "Even with inclusive name change policies, the process of requesting changes on all prior publications is still daunting for scientists who are far along in their careers. Tanenbaum, for instance, published 83 papers that have collectively been cited thousands of times before she transitioned and changed her name in 2019—and it's been a massive undertaking to correct the record. Some scientists would like to see publishers move toward an even larger-scale change: using a number, such as an ORCID identifier, as the primary digital identifier for an author rather than a name. That way, authors could change their name in one central place—ORCID's website, for instance—and their name would repopulate everywhere it appears in author lists."
+          },
+          {
+            "title": "[PDF] First Author Advantage: Citation Labeling in Research - DIMACS",
+            "url": "https://dimacs.rutgers.edu/~graham/pubs/papers/firstauthor.pdf",
+            "snippet": "We ﬁrst introduce terminologies used through the paper. The References are a list of citations in a paper. A Bib Entry is a citation in the references. A Citation Key is the user-deﬁned key to label the citation. Bib Meta is a collection of meta information of a Bib Entry, such as, the citation key, author names, title, year, publishing organization, and so on. Author Text is the piece of text in a Bib Entry about authors. Authors is a list of authors identiﬁed from Author Text. Year shows the publication year of the citation.\nOur approach includes several steps.\n(1) Bib entry identiﬁcation: identify bib entries in references.\n(2) Bib meta segmentation: segment the bib entry into pieces of meta info.\n(3) Author recognition: ﬁnd author names (ﬁrst and last names) in author text. [...] The result shows that the ﬁrst author is dramatically more likely to be included in the citation key than any subsequent author. For a two author paper, it is three times more likely that the ﬁrst author will be identiﬁed in the key. For four or ﬁve author papers, the ﬁrst author is approximately ten times more likely to be identiﬁed than any one of the subsequent authors. Although the ﬁrst author’s pr"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "content": "You will need python 3.6 or above to run this script (please remove f-strings for earlier versions, and you'll hvae to install \"requests\" via `pip install requests`.\n\nThe script searches for the SEARCHTERM in pubmed and for the search term `concrete` (I like this running gag ;-) ) produces an output like [...] search_results = json.loads(r.text) #show some statistics print(f\"{search_results['esearchresult']['count']} publications found.\") if RETMAX < search_results['esearchresult']['count']: print(f\"Warning: Only the first {RETMAX} publications are processed.\") # walk through all rerieved ids and fetch detailed publication information # An alternative soloution could use one single query based on the previous search results as shown in #  # This would reduce the server load histogram = Counter() for pub_id in search_results['esearchresult']['idlist']: #print(f\"Fetching {pub_id}\", end=\" \") # uncomment for a more verbose versione # Now build the fetch URL: fetch_url = eutils_basepath + 'esummary.fcgi?db=' + DB + '&retmode=json&id=' + pub_id r = s.get(fetch_url) if r.status_code != 200: raise [...] Commented Mar 27, 2018 at 7:52\n 2\n\n  @flow have you tried to contact support team of science direct or ISI? they are fast with replies\n\n  SSimon\n\n  –  SSimon\n\n  2018-03-28 17:10:32 +00:00\n\n   Commented Mar 28, 2018 at 17:10\n\n|   Show 4 more comments\n\n## 3 Answers 3\n\nReset to default\n\n3\n\n+100\n\nPubMed has an interface which you can call from a script. The intend to develop it is exactly your class of problem, which cannot be solved from the provided user interface.\n\nThis is the main page of NCBI Entrez API: \n\nWhat you need to do is to query PubMed by keyword(s), for example this is a search by \"concrete\":\n\nDo multiple queries, to cover your field, for example you can also consider \"brick\" or \"cement\".",
+            "score": 0.6213807
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "content": "TRiG\n\n53544 silver badges1717 bronze badges\n\nasked Dec 17, 2018 at 9:05\n\nAgelos\n\n46744 silver badges77 bronze badges\n\n5\n\n 10\n\n  ‘Harvesting papers’ - what, really, are you trying to do?\n\n  Jon Custer\n\n  –  Jon Custer\n\n  2018-12-17 13:17:39 +00:00\n\n   Commented Dec 17, 2018 at 13:17\n @Jon Custer Get the metadata of papers provided by different sources .\n\n  Agelos\n\n  –  Agelos\n\n  2018-12-17 17:30:09 +00:00\n\n   Commented Dec 17, 2018 at 17:30\n 9\n\n  See J. Pfeffer & J. Pfeffer, \"Another Article that Makes Bibliometric Analysis a Bit Harder,\" SIGBOVIK 2015, pp. 79-82. April 1, 2015. \\Note: The specific date within that year is not a coincidence; it's a humor venue. PDF page numbers are +8.\n\n  WBT\n\n  –  WBT\n\n  2018-12-17 18:27:30 +00:00 [...] Find the answer to your question by asking.\n\nAsk question\n\nExplore related questions\n\n publications\n digital-researcher-id\n\nSee similar questions with these tags.\n\n Featured on Meta\n AI Assist: recent updates (January 2026)\n Community Engagement Across the Network: Focus for 2026\n\n#### Linked\n\n21\") How are scientific papers uniquely identified?\n\n#### Related\n\nHow many co-authors are enough?\n\n8\") Are there any researcher digital identification services or directories, similar to ORCID and ResearcherID?\n\nHow does ORCID work?\n\n10\") How do I add my ORCID to papers authored by myself?\n\nIf it is stated that two authors have contributed the same on a research paper, are both authors co-first authors?\n\nHow often are authors not allowed to send their paper by email upon request? [...] burger\n\n  –  burger\n\n  2018-12-17 23:46:27 +00:00\n\n   Commented Dec 17, 2018 at 23:46\n From the link in my answer: 'As part of our efforts to improve transparency in authorship, we request that all corresponding authors of published papers provide their Open Researcher and Contributor Identifier (ORCID) ID, before resubmitting the final version of the manuscript'. I don't know if this applies to all journal of the nature publishing group. And I also can't say how strictly this rule is enforced. But thanks, I changed require to request!\n\n  L\\_W\n\n  –  L\\_W\n\n  2018-12-18 06:34:16 +00:00\n\n   Commented Dec 18, 2018 at 6:34\n\nAdd a comment   |\n\n## You must log in to answer this question.\n\nStart asking to get answers\n\nFind the answer to your question by asking.\n\nAsk question",
+            "score": 0.30557346
+          },
+          {
+            "title": "Known Author Search - Advanced Literature Searching",
+            "url": "https://libguides.sjf.edu/advanced-literature-searching/known-author-search",
+            "content": "When you identify these key authors or researchers, it can be valuable to review their other publications to see if they are relevant to your topic. You have a number of options when compiling a list of these types of publications. The two big ones available through Lavery Library are Scopus and Google Scholar.\n\n Scopus  This link opens in a new window\n\n  Multidisciplinary database of peer-reviewed research literature such as scholarly journals, books and chapters, conference proceedings, and trade publications, along with metrics and analytical tools to work with those citations. Fields covered include the sciences, social sciences, health, arts, and humanities.\n Google Scholar  This link opens in a new window [...] Skip to Main Content\n\n# Advanced Literature Searching\n\n Home\n Citation Tracking\n Known Author Search \n  + Key Researchers (or authors)\n  + Scopus Author Search\n  + Google Scholar Author Search\n\n## Key Researchers (or authors)\n\nAs your knowledge about a topic expands, you will identify key authors or researchers who publish on the topic. This is a crucial step in entering the scholarly conversation. It helps you understand the scope of an area of research.\n\nOften you will identify authors or researchers while reading publications you have already collected as part of your literature review. You may see the same names of authors show up over and over. You can also note the authors that appear in the references list. [...] Once you identify the correct researcher, select their name to be redirected to their author profile page. There is a lot of information on this page, but what is important for our use are the documents listed -- these are the articles, books, book chapters, etc. the author has published. In the case of Kimberlé Crenshaw, there are 29 documents available in this search. They will be organized by date, with the newest at the top, or you can use the drop-down menu to reorder the results. You can also look at documents that cite one (or more) of the documents listed.\n\n#### Tip\n\nYou can review articles by selecting their title and reading the abstract. Use the Get It @ Fisher link to find full text in another library database or through our Interlibrary Loan service.",
+            "score": 0.25639462
+          },
+          {
+            "title": "New, more inclusive journal policies ease author name changes on ...",
+            "url": "https://www.science.org/content/article/new-more-inclusive-journal-policies-ease-author-name-changes-published-papers",
+            "content": "Even with inclusive name change policies, the process of requesting changes on all prior publications is still daunting for scientists who are far along in their careers. Tanenbaum, for instance, published 83 papers that have collectively been cited thousands of times before she transitioned and changed her name in 2019—and it's been a massive undertaking to correct the record. Some scientists would like to see publishers move toward an even larger-scale change: using a number, such as an ORCID identifier, as the primary digital identifier for an author rather than a name. That way, authors could change their name in one central place—ORCID's website, for instance—and their name would repopulate everywhere it appears in author lists.",
+            "score": 0.20769678
+          },
+          {
+            "title": "[PDF] First Author Advantage: Citation Labeling in Research - DIMACS",
+            "url": "https://dimacs.rutgers.edu/~graham/pubs/papers/firstauthor.pdf",
+            "content": "We ﬁrst introduce terminologies used through the paper. The References are a list of citations in a paper. A Bib Entry is a citation in the references. A Citation Key is the user-deﬁned key to label the citation. Bib Meta is a collection of meta information of a Bib Entry, such as, the citation key, author names, title, year, publishing organization, and so on. Author Text is the piece of text in a Bib Entry about authors. Authors is a list of authors identiﬁed from Author Text. Year shows the publication year of the citation.\nOur approach includes several steps.\n(1) Bib entry identiﬁcation: identify bib entries in references.\n(2) Bib meta segmentation: segment the bib entry into pieces of meta info.\n(3) Author recognition: ﬁnd author names (ﬁrst and last names) in author text. [...] The result shows that the ﬁrst author is dramatically more likely to be included in the citation key than any subsequent author. For a two author paper, it is three times more likely that the ﬁrst author will be identiﬁed in the key. For four or ﬁve author papers, the ﬁrst author is approximately ten times more likely to be identiﬁed than any one of the subsequent authors. Although the ﬁrst author’s pres-ence decreases with the number of authors, it remains high (40%).\nThis supports the notion of “ﬁrst author advantage”: the idea that the ﬁrst named author is much more strongly associated with the work than subsequent authors. This seems to hold, at least as far as presence in citation key is concerned. We study this issue further in our subsequent experiments. [...] Author Text. There is some prior work on identifying author text in a citation. Sarawagi et al.  used hand-tuned regular expression which exploit the pattern that single letter initials before or after a word denoting last name. However, this method only handles one type of author names in citation. The authors did not provide any results on the accuracy or coverage of the method. We saw that in fact there are many different ordering of last name, ﬁrst name and initials. Taking one broadly cited author for example, we found many distinct variations on the ordering: “D. E. Knuth.” , “Don-ald E. Knuth”, “D. E. Knuth”, “Knuth, D.”, “D. Knuth”, “Knuth, D. E.,”, “D. Knuth”, “Knuth, D.E.”, “D.E. Knuth”.",
+            "score": 0.2043899
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Find papers authored by a specific number of authors",
+            "url": "https://academia.stackexchange.com/questions/106928/find-papers-authored-by-a-specific-number-of-authors",
+            "score": 0.6213807
+          },
+          {
+            "title": "How are paper authors uniquely identified?",
+            "url": "https://academia.stackexchange.com/questions/121740/how-are-paper-authors-uniquely-identified",
+            "score": 0.30557346
+          },
+          {
+            "title": "Known Author Search - Advanced Literature Searching",
+            "url": "https://libguides.sjf.edu/advanced-literature-searching/known-author-search",
+            "score": 0.25639462
+          },
+          {
+            "title": "New, more inclusive journal policies ease author name changes on ...",
+            "url": "https://www.science.org/content/article/new-more-inclusive-journal-policies-ease-author-name-changes-published-papers",
+            "score": 0.20769678
+          },
+          {
+            "title": "[PDF] First Author Advantage: Citation Labeling in Research - DIMACS",
+            "url": "https://dimacs.rutgers.edu/~graham/pubs/papers/firstauthor.pdf",
+            "score": 0.2043899
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Find"
+          },
+          {
+            "type": "name_like",
+            "value": "You"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Warning"
+          },
+          {
+            "type": "name_like",
+            "value": "Only"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Counter"
+          },
+          {
+            "type": "name_like",
+            "value": "Fetching"
+          },
+          {
+            "type": "name_like",
+            "value": "Now"
+          },
+          {
+            "type": "name_like",
+            "value": "Commented Mar"
+          },
+          {
+            "type": "name_like",
+            "value": "How"
+          },
+          {
+            "type": "name_like",
+            "value": "Dec"
+          },
+          {
+            "type": "name_like",
+            "value": "Agelos"
+          },
+          {
+            "type": "name_like",
+            "value": "Harvesting"
+          },
+          {
+            "type": "name_like",
+            "value": "Jon Custer"
+          },
+          {
+            "type": "name_like",
+            "value": "Commented Dec"
+          },
+          {
+            "type": "name_like",
+            "value": "Jon Custer Get"
+          },
+          {
+            "type": "name_like",
+            "value": "See"
+          },
+          {
+            "type": "name_like",
+            "value": "Pfeffer"
+          },
+          {
+            "type": "name_like",
+            "value": "Another Article"
+          },
+          {
+            "type": "name_like",
+            "value": "Makes Bibliometric Analysis"
+          },
+          {
+            "type": "name_like",
+            "value": "Bit Harder"
+          },
+          {
+            "type": "name_like",
+            "value": "April"
+          },
+          {
+            "type": "name_like",
+            "value": "Note"
+          },
+          {
+            "type": "name_like",
+            "value": "Ask"
+          },
+          {
+            "type": "name_like",
+            "value": "Explore"
+          },
+          {
+            "type": "name_like",
+            "value": "Featured"
+          },
+          {
+            "type": "name_like",
+            "value": "Meta"
+          },
+          {
+            "type": "name_like",
+            "value": "Assist"
+          },
+          {
+            "type": "name_like",
+            "value": "January"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who has prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Produce the final answer with the title of the first paper authored by the identified author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

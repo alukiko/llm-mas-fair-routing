@@ -1,0 +1,364 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "sumptuous",
+    "final_answer_strict": "sumptuous",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "sumptuous",
+  "error": null,
+  "duration_sec": 26.1768536567688,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Merriam-Webster Word of the Day for June 27, 2022, is 'sumptuous'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          },
+          {
+            "fact": "The term 'sumptuous' is defined as 'expensively or extravagantly rich and beautiful'.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "summary": "On June 27, 2022, the Word of the Day from Merriam-Webster was 'sumptuous', which refers to something that is expensively or extravagantly rich and beautiful.",
+        "sources": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century."
+          },
+          {
+            "title": "Word of the Day: Languid | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "snippet": "of time—think afternoons, days, summers, etc.—that are relatively and perhaps pleasantly chill. [...] Lack, lack, lack. Languid is all about lack. Depending on its context, the word can suggest a lack of strength, lack of energy, or lack of activity. The lack-of-strength sense of languid describes the kind of sluggishness that often results from fatigue or weakness, as in “the illness left her feeling languid.” The lack-of-energy sense is synonymous with listless, and often describes someone’s character or disposition as a result of dissatisfaction or sadness. Lastly, there’s the lack-of-activity sense of languid, as in “investors are worried about the languid stock market.” So languid is a total bummer, right? Not so (ahem) fast! Sometimes it’s a good thing to dillydally, and languid has also long been used to describe stretches of time—think afternoons, days, summers, etc.—that are [...] ## Test Your Vocabulary with M-W Quizzes\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\nName That Animal: Volume 3\n\nPlay Now\n\n## Name That Antonym\n\nFill in the b"
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "snippet": "## Words Worth Knowing: ‘Samara’\n\n“Key,” “whirlybird,” “helicopter,” “whirligig,” “spinning jenny”—these are all words people use for a particular type of tree seed that botanists refer to as a samara, defined as the “dry indehiscent usually one-seeded winged fruit” of trees including ash, sycamore, elm, and notably at this time of year, maple. From late spring to early summer, for example, red, silver, sugar, and other maple samaras ripen before catching the breeze.\n\nShare\n\n#### Word of the Day\n\n#### resplendent\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist [...] Est. 1828\n\nPopular in\n\nArts & Culture\n\n2025 Word of the Year: Slop\n\n17 Words for Dog Breeds\n\n15 Cheffy Words for Chefs (and Everyone Else)\n\nThe Words of the Week - Jan. 23\n\n12 Words and Phrases for Romantic Relationships\n\nSee All\n\nPopular in\n\nWordplay\n\nWords For Things You Didn't Know Have Names, Vol. 3\n\nObscure Words for Everyday Feelings\n\nTop 10 Sophisticated Insults\n\n‘Fascism’: The Word’s Meaning and History\n\nTen Kinds of Happiness\n\nSee All\n\nPopular in"
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "## petulant\n\n### June 2025\n\n #### Jun 01\n\n  ## proscribe\n #### Jun 02\n\n  ## Herculean\n #### Jun 03\n\n  ## tutelage\n #### Jun 04\n\n  ## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### Jun 14\n\n  ## vexillology\n #### Jun 15\n\n  ## progeny\n #### Jun 16\n\n  ## garrulous\n #### Jun 17\n\n  ## apologia\n #### Jun 18\n\n  ## jeopardize\n #### Jun 19\n\n  ## emancipation\n #### Jun 20\n\n  ## convivial\n #### Jun 21\n\n  ## litmus test\n #### Jun 22\n\n  ## bemuse\n #### Jun 23\n\n  ## wherewithal\n #### Jun 24\n\n  ## noisome\n #### Jun 25\n\n  ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27 [...] ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01\n\n  ## convoluted\n #### May 02\n\n  ## ziggurat\n #### May 03\n\n  ## sleuth\n #### May 04\n\n  ## risible\n #### May 05\n\n  ## plethora\n #### May 06\n\n  ## exculpate\n #### May 07\n\n  ## bumptious\n #### May 08\n\n  ## modicum\n #### May 09\n\n  ## gl"
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/merriam-websters-word-of-the-day/id164829166",
+            "snippet": "or \"rumor.\" Although originally used to indicate simply talking in an informal and warm manner, the word now commonly suggests conversation for the purpose of gaining favor, business, or connections. Schmooze is one of a number of English schm- words originating from Yiddish; other classics include schmaltz (referring to rendered animal fat or excessively sentimental music or art), schmuck (a slang word for \"jerk\"), schmutz (\"a filthy or soiling substance\"), and schmear (\"a layer of cream cheese\"). [...] “to come to know”) can be a synonym of famous, it’s more often a synonym of infamous, having long ago developed the additional implication of someone or something disreputable. The Book of Common Prayer of 1549 includes one of the first known uses of the unfavorable meaning in print, referring to “notorious synners.” You know what they say: more notorious synners, more problems. [...] among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, "
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "content": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century.",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day: Languid | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "content": "of time—think afternoons, days, summers, etc.—that are relatively and perhaps pleasantly chill. [...] Lack, lack, lack. Languid is all about lack. Depending on its context, the word can suggest a lack of strength, lack of energy, or lack of activity. The lack-of-strength sense of languid describes the kind of sluggishness that often results from fatigue or weakness, as in “the illness left her feeling languid.” The lack-of-energy sense is synonymous with listless, and often describes someone’s character or disposition as a result of dissatisfaction or sadness. Lastly, there’s the lack-of-activity sense of languid, as in “investors are worried about the languid stock market.” So languid is a total bummer, right? Not so (ahem) fast! Sometimes it’s a good thing to dillydally, and languid has also long been used to describe stretches of time—think afternoons, days, summers, etc.—that are [...] ## Test Your Vocabulary with M-W Quizzes\n\nWhich Came First? Vol. 2\n\nPlay Now\n\nFarm Idioms Quiz\n\nPlay Now\n\nWeather Words\n\nPlay Now\n\nDutch, Yiddish, Japanese, or Hindi? Quiz\n\nPlay Now\n\nAre you naughty or nice? Quiz\n\nPlay Now\n\nName That Animal: Volume 3\n\nPlay Now\n\n## Name That Antonym\n\nFill in the blanks to complete an antonym of languid: e \\_ \\_ er \\_ r \\_ si \\_ \\_.\n\nVIEW THE ANSWER\n\n## Podcast\n\n## More Words of the Day\n\n #### Jan 16\n\n  ## vendetta\n #### Jan 15\n\n  ## cloying\n #### Jan 14\n\n  ## delegate\n #### Jan 13\n\n  ## umbrage\n #### Jan 12\n\n  ## brackish\n #### Jan 11\n\n  ## paradox\n\nSEE ALL WORDS OF THE DAY\n\n### Can you solve 4 words at once?\n\n### Can you solve 4 words at once?\n\nLove words? Need even more definitions?",
+            "score": 0.99664956
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "content": "## Words Worth Knowing: ‘Samara’\n\n“Key,” “whirlybird,” “helicopter,” “whirligig,” “spinning jenny”—these are all words people use for a particular type of tree seed that botanists refer to as a samara, defined as the “dry indehiscent usually one-seeded winged fruit” of trees including ash, sycamore, elm, and notably at this time of year, maple. From late spring to early summer, for example, red, silver, sugar, and other maple samaras ripen before catching the breeze.\n\nShare\n\n#### Word of the Day\n\n#### resplendent\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist [...] Est. 1828\n\nPopular in\n\nArts & Culture\n\n2025 Word of the Year: Slop\n\n17 Words for Dog Breeds\n\n15 Cheffy Words for Chefs (and Everyone Else)\n\nThe Words of the Week - Jan. 23\n\n12 Words and Phrases for Romantic Relationships\n\nSee All\n\nPopular in\n\nWordplay\n\nWords For Things You Didn't Know Have Names, Vol. 3\n\nObscure Words for Everyday Feelings\n\nTop 10 Sophisticated Insults\n\n‘Fascism’: The Word’s Meaning and History\n\nTen Kinds of Happiness\n\nSee All\n\nPopular in\n\nGrammar & Usage\n\nMore Words You Always Have to Look Up\n\nMore Commonly Mispronounced Words\n\n5 Verbal Slip Ups and Language Mistakes\n\nWhat’s the difference between ‘cemetery’ and ‘graveyard’?\n\n'Buck naked' or 'butt naked'?\n\nSee All\n\nWordplay Arts & Culture\n\n# Words of the Week - June 10 [...] We define sedition as “incitement of resistance to or insurrection against lawful authority.” As we’ve noted in the past, many people differentiate between this word and treason, which we define as “the offense of attempting by overt acts to overthrow the government of the state to which the offender owes allegiance or to kill or personally injure the sovereign or the sovereign's family.” Because sedition is limited to organizing and encouraging opposition to government rather than directly participating in its overthrow, many view it as falling one step short of the more serious crime of treason. One who incites or promotes sedition is a seditionist, or, less commonly, a seditionary.\n\n## ‘Folie à Deux’",
+            "score": 0.99014014
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "content": "## petulant\n\n### June 2025\n\n #### Jun 01\n\n  ## proscribe\n #### Jun 02\n\n  ## Herculean\n #### Jun 03\n\n  ## tutelage\n #### Jun 04\n\n  ## bogus\n #### Jun 05\n\n  ## sea change\n #### Jun 06\n\n  ## festoon\n #### Jun 07\n\n  ## abstruse\n #### Jun 08\n\n  ## cataract\n #### Jun 09\n\n  ## eloquent\n #### Jun 10\n\n  ## minutia\n #### Jun 11\n\n  ## debilitating\n #### Jun 12\n\n  ## impute\n #### Jun 13\n\n  ## rambunctious\n #### Jun 14\n\n  ## vexillology\n #### Jun 15\n\n  ## progeny\n #### Jun 16\n\n  ## garrulous\n #### Jun 17\n\n  ## apologia\n #### Jun 18\n\n  ## jeopardize\n #### Jun 19\n\n  ## emancipation\n #### Jun 20\n\n  ## convivial\n #### Jun 21\n\n  ## litmus test\n #### Jun 22\n\n  ## bemuse\n #### Jun 23\n\n  ## wherewithal\n #### Jun 24\n\n  ## noisome\n #### Jun 25\n\n  ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27 [...] ## flotsam\n #### Jun 26\n\n  ## sumptuous\n #### Jun 27\n\n  ## oblige\n #### Jun 28\n\n  ## restive\n #### Jun 29\n\n  ## impetus\n #### Jun 30\n\n  ## expunge\n\n### May 2025\n\n #### May 01\n\n  ## convoluted\n #### May 02\n\n  ## ziggurat\n #### May 03\n\n  ## sleuth\n #### May 04\n\n  ## risible\n #### May 05\n\n  ## plethora\n #### May 06\n\n  ## exculpate\n #### May 07\n\n  ## bumptious\n #### May 08\n\n  ## modicum\n #### May 09\n\n  ## gloss\n #### May 10\n\n  ## uncanny\n #### May 11\n\n  ## darling\n #### May 12\n\n  ## fester\n #### May 13\n\n  ## apotropaic\n #### May 14\n\n  ## scuttlebutt\n #### May 15\n\n  ## impervious\n #### May 16\n\n  ## junket\n #### May 17\n\n  ## mercurial\n #### May 18\n\n  ## talisman\n #### May 19\n\n  ## antithetical\n #### May 20\n\n  ## chagrin\n #### May 21\n\n  ## hapless\n #### May 22\n\n  ## voluble\n #### May 23 [...] ## Yankee\n #### Jul 05\n\n  ## cantankerous\n #### Jul 06\n\n  ## antic\n #### Jul 07\n\n  ## procrastinate\n #### Jul 08\n\n  ## exemplary\n #### Jul 09\n\n  ## simulacrum\n #### Jul 10\n\n  ## boffo\n #### Jul 11\n\n  ## rescind\n #### Jul 12\n\n  ## impunity\n #### Jul 13\n\n  ## contrite\n #### Jul 14\n\n  ## nuance\n #### Jul 15\n\n  ## tantalize\n #### Jul 16\n\n  ## abject\n #### Jul 17\n\n  ## fugitive\n #### Jul 18\n\n  ## meritorious\n #### Jul 19\n\n  ## devise\n #### Jul 20\n\n  ## utmost\n #### Jul 21\n\n  ## hubris\n #### Jul 22\n\n  ## jettison\n #### Jul 23\n\n  ## logy\n #### Jul 24\n\n  ## panacea\n #### Jul 25\n\n  ## sui generis\n #### Jul 26\n\n  ## embellish\n #### Jul 27\n\n  ## brouhaha\n #### Jul 28\n\n  ## facile\n #### Jul 29\n\n  ## quibble\n #### Jul 30\n\n  ## doppelgänger\n #### Jul 31\n\n  ## petulant\n\n### June 2025\n\n #### Jun 01",
+            "score": 0.9868787
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/merriam-websters-word-of-the-day/id164829166",
+            "content": "or \"rumor.\" Although originally used to indicate simply talking in an informal and warm manner, the word now commonly suggests conversation for the purpose of gaining favor, business, or connections. Schmooze is one of a number of English schm- words originating from Yiddish; other classics include schmaltz (referring to rendered animal fat or excessively sentimental music or art), schmuck (a slang word for \"jerk\"), schmutz (\"a filthy or soiling substance\"), and schmear (\"a layer of cream cheese\"). [...] “to come to know”) can be a synonym of famous, it’s more often a synonym of infamous, having long ago developed the additional implication of someone or something disreputable. The Book of Common Prayer of 1549 includes one of the first known uses of the unfavorable meaning in print, referring to “notorious synners.” You know what they say: more notorious synners, more problems. [...] among other things, “shining” or “brilliant”), splendent (“shining” or “glossy”), and splendor (“brightness” or “luster”). Each of these glowing terms gets its shine from the Latin verb splendēre (“to shine”). In the case of resplendent, the prefix re- added to splendēre formed the Latin resplendēre, meaning “to shine back.” Splendent, splendor, and resplendent were first used in English during the 15th century, but splendid didn’t light up our language until almost 200 years later; its earliest known use dates from the early 1600s.",
+            "score": 0.98625773
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day: Languid | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/languid-2022-10-03",
+            "score": 0.99664956
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "score": 0.99014014
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "score": 0.9868787
+          },
+          {
+            "title": "Merriam-Webster's Word of the Day - Apple Podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/merriam-websters-word-of-the-day/id164829166",
+            "score": 0.98625773
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Words"
+          },
+          {
+            "type": "name_like",
+            "value": "Week"
+          },
+          {
+            "type": "name_like",
+            "value": "June"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster\nWe"
+          },
+          {
+            "type": "name_like",
+            "value": "Socialism"
+          },
+          {
+            "type": "name_like",
+            "value": "Lookups"
+          },
+          {
+            "type": "name_like",
+            "value": "Zohran Mamdani"
+          },
+          {
+            "type": "name_like",
+            "value": "Democratic"
+          },
+          {
+            "type": "name_like",
+            "value": "New York City"
+          },
+          {
+            "type": "name_like",
+            "value": "Draft"
+          },
+          {
+            "type": "name_like",
+            "value": "Word Worth Knowing"
+          },
+          {
+            "type": "name_like",
+            "value": "Culet"
+          },
+          {
+            "type": "name_like",
+            "value": "Yet"
+          },
+          {
+            "type": "name_like",
+            "value": "French"
+          },
+          {
+            "type": "name_like",
+            "value": "Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Day"
+          },
+          {
+            "type": "name_like",
+            "value": "Languid"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster"
+          },
+          {
+            "type": "name_like",
+            "value": "Lack"
+          },
+          {
+            "type": "name_like",
+            "value": "Depending"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Lastly"
+          },
+          {
+            "type": "name_like",
+            "value": "Not"
+          },
+          {
+            "type": "name_like",
+            "value": "Sometimes"
+          },
+          {
+            "type": "name_like",
+            "value": "Test Your Vocabulary"
+          },
+          {
+            "type": "name_like",
+            "value": "Quizzes"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Came First"
+          },
+          {
+            "type": "name_like",
+            "value": "Vol"
+          },
+          {
+            "type": "name_like",
+            "value": "Play Now"
+          },
+          {
+            "type": "name_like",
+            "value": "Farm Idioms Quiz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the writer quoted for the Word of the Day from the retrieved information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "date"
+        ],
+        "entities": [
+          {
+            "name": "sumptuous",
+            "type": "word",
+            "evidence": "\"sumptuous\"",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "key_points": [
+          "The Merriam-Webster Word of the Day for June 27, 2022, is 'sumptuous'."
+        ],
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "sumptuous",
+            "definition": "expensively or extravagantly rich and beautiful",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "evidence_spans": [
+          {
+            "text": "On June 27, 2022, the Word of the Day from Merriam-Webster was 'sumptuous', which refers to something that is expensively or extravagantly rich and beautiful.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer with the writer's name.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "sumptuous",
+        "final_answer_strict": "sumptuous",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "sumptuous",
+    "gt_norm": "annie levin"
+  }
+}

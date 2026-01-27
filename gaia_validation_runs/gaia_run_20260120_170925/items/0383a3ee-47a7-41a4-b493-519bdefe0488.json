@@ -1,0 +1,207 @@
+{
+  "id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+  "query": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?",
+  "ground_truth": "Rockhopper penguin",
+  "answer_raw": {
+    "final_answer": "rockhopper penguins",
+    "final_answer_strict": "rockhopper penguins",
+    "used_evidence": [
+      "The video features rockhopper penguins and their climbing abilities."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "rockhopper penguins",
+  "error": null,
+  "duration_sec": 48.49438190460205,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+        "facts": [
+          {
+            "fact": "The video titled 'Top 5 Silliest Animal Moments' is available on YouTube.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video has 1,429 comments.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video features rockhopper penguins and their climbing abilities.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "snippet": "1429 comments\n### Transcript: [...] [Music] but before being reunited with her family she still has a mountain to climb it's a big ask for a bird that can't fly standing less than half a meter tall but it's now that rockhoppers live up to their name incredibly strong toenails grip the rock the beak makes a good climbing tool the more experienced penguins make it look easy but it's a steep learning curve [Music] it takes youngsters a while to get the hang of it [Music] judge it and it's back to square one [Music] at the top of the cliff the going gets a little easier following the footsteps of "
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzTube",
+            "url": "https://www.kidzsearch.com/kidztube/mobile/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "snippet": "### How Baby Turtles Find Their Way Home\n\n  1,773 Views\n\n   Featured\n 09:04   \n\n  ### Inside A Kangaroo Pouch - Smarter Every Day 139\n\n  1,375 Views\n\n   Featured\n 10:08   \n\n  ### Why can't the Titanic be recovered from the bottom of the ocean\n\n  1,661 Views [...] 2,309 Views\n 03:44   \n\n  ### The Most Powerful Tornado Recorded on Earth\n\n  2,553 Views\n 02:15   \n\n  ### 360° Great Hammerhead Shark Encounter | National Geographic\n\n  3,362 Views\n\n   Featured\n 04:14   \n\n  ### How To Play Like A Polar Bears! - Animal Attraction - BBC\n\n  2,141 Views\n 07:58   \n\n  ### Extremely Rare White Lions Caught On"
+          },
+          {
+            "title": "Top 5 David Attenborough Moments | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=-tvA3Ezqjl8",
+            "snippet": "5620 comments\n### Transcript: [...] break for freedom [Music] [Applause] [Music] two hours and 20 miles later the minke is still alive and swimming strongly it's only real defense is its endurance but the killer's work as a team with fresh ones replacing the outriders in relays and as the minke tires the battery and the biting begins [Music] [Applause] [Music] seabirds are attracted by the smell of fresh blood rising from the water [Music] The Killers tried to flip the minke over if they can manage to keep its blowhole underwater it will drown [Music] one forces that make his whole body down b"
+          },
+          {
+            "title": "Top 5 Funniest Animal Outtakes | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=NbHRKRrpyy8",
+            "snippet": "373 comments\n### Transcript: [...] # Top 5 Funniest Animal Outtakes | BBC Earth\n## BBC Earth\n14300000 subscribers\n6746 likes\n\n### Description\n465010 views\nPosted: 1 Feb 2020\nFrom bear cubs trying to climb up trees to penguins pooping everywhere, the natural world has no shortage of hilarious animal behaviour! Here are our top 5 funniest animal outtakes.\nSubscribe:  \n\n#funniestanimalouttakes #top5compilation #bbcearth\n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here"
+          },
+          {
+            "title": "Weirdest Animal Relationships | Top 5 | BBC Earth",
+            "url": "https://www.youtube.com/watch?v=s9KvEg102Tc",
+            "snippet": "3884 comments\n### Transcript: [...] they lived their life these animals were showing me how to live my life also [Music] two meters 83 meters just an hour into their dive and the team has found a sunfish they've never observed one this deep before it's really elegant despite the fact that it just looks like a big dinner plate with two offense on either size sunfish can grow to be over three metres long and weighed two and a half tons it's the world's largest bony fish as it grows it gains an incredible 1 kilogram per day it's mean food is jellyfish so T Ernie thinks sunfish might be venturing "
+          }
+        ],
+        "summary": "The BBC Earth video 'Top 5 Silliest Animal Moments' showcases humorous animal behaviors, including rockhopper penguins climbing, and has garnered significant viewer engagement."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the YouTube video to extract its content.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract information about the species of bird featured in the video.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "rockhopper penguins",
+            "type": "species",
+            "evidence": "The video features rockhopper penguins and their climbing abilities."
+          }
+        ],
+        "key_points": [
+          "The video showcases humorous animal behaviors.",
+          "Rockhopper penguins are highlighted for their climbing skills."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "1,429",
+            "unit": "comments",
+            "context": "The number of comments on the video."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding the species of bird featured.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "rockhopper penguins",
+        "final_answer_strict": "rockhopper penguins",
+        "used_evidence": [
+          "The video features rockhopper penguins and their climbing abilities."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "rockhopper penguins",
+    "gt_norm": "rockhopper penguin"
+  }
+}

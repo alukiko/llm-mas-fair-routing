@@ -1,0 +1,643 @@
+{
+  "id": "11af4e1a-5f45-467d-9aeb-46f4bb0bf034",
+  "query": "How many more blocks (also denoted as layers) in BERT base encoder than the encoder from the architecture proposed in Attention is All You Need?",
+  "ground_truth": "6",
+  "answer_raw": {
+    "final_answer": "6",
+    "final_answer_strict": "6.0",
+    "used_evidence": [
+      "The BERT base model consists of 12 layers.",
+      "The Transformer architecture proposed in 'Attention Is All You Need' consists of 6 blocks (layers) in the encoder."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "6.0",
+  "error": null,
+  "duration_sec": 102.98246216773987,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the number of blocks (layers) in BERT base encoder.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the number of blocks (layers) in BERT base encoder.",
+        "facts": [
+          {
+            "fact": "The BERT base model consists of 12 layers.",
+            "source_url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model"
+          },
+          {
+            "fact": "The BERT base model has 110 million parameters.",
+            "source_url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model"
+          },
+          {
+            "fact": "The hidden size (H) for the BERT base model is 768.",
+            "source_url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model"
+          }
+        ],
+        "summary": "BERT base is an architecture with 12 layers and a hidden size of 768, totaling 110 million parameters.",
+        "sources": [
+          {
+            "title": "How is the number of parameters be calculated in BERT model?",
+            "url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model",
+            "snippet": "The paper \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Devlin & Co. calculated for the base model size 110M parameters (i.e. L=12, H=768, A=12) where L = number of layers, H = hidden size and A = number of self-attention operations. As far as I know parameters in a neural network are usually the count of \"weights and biases\" between the layers. Let's look at individual elements of an encoder block for BERT to visualize the number weight matrices as well as the bias vectors. 5. Position-wise feedforward network will have one hidden layer, that will correspond to two weight matrices and two bias vectors. Let's calculate the actual number of parameters by associating the right dimensions to the weight matrices and bias vectors for the BERT base model. * Embedding Layer Normalization, weight and Bias [768] + [768] = 1536. * Value Weight Matrix size [768, 64] = 49152 and Bias [768] = 768."
+          },
+          {
+            "title": "Pretrained models — transformers 2.9.1 documentation",
+            "url": "https://huggingface.co/transformers/v2.9.1/pretrained_models.html",
+            "snippet": "| `bert-large-cased-whole-word-masking-finetuned-squad` | 24-layer, 1024-hidden, 16-heads, 340M parameters  The `bert-large-cased-whole-word-masking` model fine-tuned on SQuAD  (see details of fine-tuning in the example section) |. | `distilbert-base-cased` | 6-layer, 768-hidden, 12-heads, 65M parameters  The DistilBERT model distilled from the BERT model bert-base-cased checkpoint  (see details) |. | `albert-base-v2` | 12 repeating layers, 128 embedding, 768-hidden, 12-heads, 11M parameters  ALBERT base model with no dropout, additional training data and longer training  (see details) |. | `albert-large-v2` | 24 repeating layers, 128 embedding, 1024-hidden, 16-heads, 17M parameters  ALBERT large model with no dropout, additional training data and longer training  (see details) |. | `albert-xlarge-v2` | 24 repeating layers, 128 embedding, 2048-hidden, 16-heads, 58M parameters  ALBERT xlarge model with no dropout, additional training data and longer training  (see details) |. | `albert-xxlarge-v2` | 12 repeating layer, 128 embedding, 4096-hidden, 64-heads, 223M parameters  ALBERT xxlarge model with no dropout, additional training data and longer training  (see details) |."
+          },
+          {
+            "title": "BERT (language model) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/BERT_(language_model)",
+            "snippet": "| | Development | | --- | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | | Software | | | | | --- | --- | | A–C | * Accelerated Linear Algebra * AMP * *Actions on Google* * ALTS * American Fuzzy Lop \"American Fuzzy Lop (software)\") * *Android Cloud to Device Messaging* * Android Debug Bridge * Android NDK * Android Runtime * Android SDK * Android Studio * Angular \"Angular (web framework)\") * *AngularJS* * Apache Beam * APIs * App Engine * App Inventor * *App Maker* * App Runtime for Chrome * *AppJet* * Apps Script * AppSheet * ARCore * *Base* * Bazel \"Bazel (software)\") * BeyondCorp * Bigtable * BigQuery * Bionic \"Bionic (software)\") * Blockly * *Borg \"Borg (cluster manager)\")* * *Caja* * Cameyo * Chart API * Charts * *Chrome Frame* * Chromium \"Chromium (web browser)\") + Blink \"Blink (browser engine)\") * Closure Tools * *Cloud Connect* * Cloud Dataflow * Cloud Datastore * *Cloud Messaging* * Cloud Shell * Cloud Storage * *Code Search* * Compute Engine * Cpplint | | D–N | * *Dalvik \"Dalvik (software)\")* * Data Protocol * Dialogflow * Exposure Notification * Fast Pair * Fastboot * Federated Learning of Cohorts * File System * Firebase * Firebase Studio * Fireba"
+          },
+          {
+            "title": "Dissecting BERT Part 1: The Encoder | by Miguel Romero Calvo",
+            "url": "https://medium.com/dissecting-bert/dissecting-bert-part-1-the-encoder-d3c3d495cdb3",
+            "snippet": "We will start by looking at the information flow in the architecture and we will dive into the inputs and outputs of the **Encoder** as presented in the paper**.** Next, we will look into each of the encoder blocks and understand how *Multi-Head Attention* is used. With one embedding vector for each of the input tokens, we have a matrix of dimensions *(input\\_length) x (emb\\_dim)* for a specific input sequence. Afterwards, a linear layer with weight matrix W⁰ of dimensions *(h\\*d\\_v) x (emb\\_dim)* will be applied leading to a final result of dimensions *(input\\_length) x (emb\\_dim)*. Another way of thinking about this matrix product is as the encoding of a specific relationship between each of the tokens in the input sequence (the relationship is defined by the matrices *K\\_i*, *Q\\_i*). Applying the same logic in the rest of the rows/tokens representations we obtain a matrix of dimensions *(input\\_length) x (emb\\_dim)*."
+          },
+          {
+            "title": "Understanding BERT architecture - Medium",
+            "url": "https://medium.com/analytics-vidhya/understanding-bert-architecture-3f35a264b187",
+            "snippet": "import kerasfrom keras_bert import get_base_dict, get_model, compile_model, gen_batch_inputs# Build & train the modelmodel = get_model( token_num=30000, head_num=12, transformer_num=12, embed_dim=768, feed_forward_dim=3072, seq_len=512, pos_num=512, dropout_rate=0.05,)compile_model(model)model.summary(). 4. Following these 12 layers, there are two outputs — one for NSP (Next Sentence Prediction) and one for MLM (Masked Language Modeling). 2. Token embeddings parameters= 23040000 (H \\* T) — because each of 30k (T) tokens needs a representation in dimension 768 (H). The position embeddings in BERT are trained and not fixed as in *Attention is all you need;* There’s a dropout applied, and then Layer Normalization is done. 5. Layer Normalization parameters = 1536 (2\\*H). So total parameters with biases = (H \\* FFD + FFD) + (FFD \\* H + H) = (768 \\* 3072 + 3072) + (3072 \\* 768 + 768) = 4722432; This follows another Dropout layer. MLM-Norm: Normalization layer, with parameter count following same logic as #5. NSP: Dense: The output D length embedding of previous layer then gets transformed to two vectors, each representing IsNext and NotNext respectively."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "How is the number of parameters be calculated in BERT model?",
+            "url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model",
+            "content": "The paper \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Devlin & Co. calculated for the base model size 110M parameters (i.e. L=12, H=768, A=12) where L = number of layers, H = hidden size and A = number of self-attention operations. As far as I know parameters in a neural network are usually the count of \"weights and biases\" between the layers. Let's look at individual elements of an encoder block for BERT to visualize the number weight matrices as well as the bias vectors. 5. Position-wise feedforward network will have one hidden layer, that will correspond to two weight matrices and two bias vectors. Let's calculate the actual number of parameters by associating the right dimensions to the weight matrices and bias vectors for the BERT base model. * Embedding Layer Normalization, weight and Bias [768] + [768] = 1536. * Value Weight Matrix size [768, 64] = 49152 and Bias [768] = 768.",
+            "score": 0.98586
+          },
+          {
+            "title": "Pretrained models — transformers 2.9.1 documentation",
+            "url": "https://huggingface.co/transformers/v2.9.1/pretrained_models.html",
+            "content": "| `bert-large-cased-whole-word-masking-finetuned-squad` | 24-layer, 1024-hidden, 16-heads, 340M parameters  The `bert-large-cased-whole-word-masking` model fine-tuned on SQuAD  (see details of fine-tuning in the example section) |. | `distilbert-base-cased` | 6-layer, 768-hidden, 12-heads, 65M parameters  The DistilBERT model distilled from the BERT model bert-base-cased checkpoint  (see details) |. | `albert-base-v2` | 12 repeating layers, 128 embedding, 768-hidden, 12-heads, 11M parameters  ALBERT base model with no dropout, additional training data and longer training  (see details) |. | `albert-large-v2` | 24 repeating layers, 128 embedding, 1024-hidden, 16-heads, 17M parameters  ALBERT large model with no dropout, additional training data and longer training  (see details) |. | `albert-xlarge-v2` | 24 repeating layers, 128 embedding, 2048-hidden, 16-heads, 58M parameters  ALBERT xlarge model with no dropout, additional training data and longer training  (see details) |. | `albert-xxlarge-v2` | 12 repeating layer, 128 embedding, 4096-hidden, 64-heads, 223M parameters  ALBERT xxlarge model with no dropout, additional training data and longer training  (see details) |.",
+            "score": 0.98578
+          },
+          {
+            "title": "BERT (language model) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/BERT_(language_model)",
+            "content": "| | Development | | --- | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | | Software | | | | | --- | --- | | A–C | * Accelerated Linear Algebra * AMP * *Actions on Google* * ALTS * American Fuzzy Lop \"American Fuzzy Lop (software)\") * *Android Cloud to Device Messaging* * Android Debug Bridge * Android NDK * Android Runtime * Android SDK * Android Studio * Angular \"Angular (web framework)\") * *AngularJS* * Apache Beam * APIs * App Engine * App Inventor * *App Maker* * App Runtime for Chrome * *AppJet* * Apps Script * AppSheet * ARCore * *Base* * Bazel \"Bazel (software)\") * BeyondCorp * Bigtable * BigQuery * Bionic \"Bionic (software)\") * Blockly * *Borg \"Borg (cluster manager)\")* * *Caja* * Cameyo * Chart API * Charts * *Chrome Frame* * Chromium \"Chromium (web browser)\") + Blink \"Blink (browser engine)\") * Closure Tools * *Cloud Connect* * Cloud Dataflow * Cloud Datastore * *Cloud Messaging* * Cloud Shell * Cloud Storage * *Code Search* * Compute Engine * Cpplint | | D–N | * *Dalvik \"Dalvik (software)\")* * Data Protocol * Dialogflow * Exposure Notification * Fast Pair * Fastboot * Federated Learning of Cohorts * File System * Firebase * Firebase Studio * Firebase Cloud Messaging * FlatBuffers * Flutter \"Flutter (software)\") * *Freebase \"Freebase (database)\")* * Gadgets * Ganeti * *Gears \"Gears (software)\")* * Gerrit \"Gerrit (software)\") * GLOP * gRPC * Gson * Guava * Guetzli * Guice * gVisor * GYP \"GYP (software)\") * JAX \"JAX (software)\") * Jetpack Compose * Keyhole Markup Language * Kubernetes * Kythe * LevelDB * Lighthouse \"Lighthouse (software)\") * Looker Studio * *lmctfy* * MapReduce * *Mashup Editor* * Matter \"Matter (standard)\") * Mobile Services * Namebench * Native Client",
+            "score": 0.98402
+          },
+          {
+            "title": "Dissecting BERT Part 1: The Encoder | by Miguel Romero Calvo",
+            "url": "https://medium.com/dissecting-bert/dissecting-bert-part-1-the-encoder-d3c3d495cdb3",
+            "content": "We will start by looking at the information flow in the architecture and we will dive into the inputs and outputs of the **Encoder** as presented in the paper**.** Next, we will look into each of the encoder blocks and understand how *Multi-Head Attention* is used. With one embedding vector for each of the input tokens, we have a matrix of dimensions *(input\\_length) x (emb\\_dim)* for a specific input sequence. Afterwards, a linear layer with weight matrix W⁰ of dimensions *(h\\*d\\_v) x (emb\\_dim)* will be applied leading to a final result of dimensions *(input\\_length) x (emb\\_dim)*. Another way of thinking about this matrix product is as the encoding of a specific relationship between each of the tokens in the input sequence (the relationship is defined by the matrices *K\\_i*, *Q\\_i*). Applying the same logic in the rest of the rows/tokens representations we obtain a matrix of dimensions *(input\\_length) x (emb\\_dim)*.",
+            "score": 0.98271
+          },
+          {
+            "title": "Understanding BERT architecture - Medium",
+            "url": "https://medium.com/analytics-vidhya/understanding-bert-architecture-3f35a264b187",
+            "content": "import kerasfrom keras_bert import get_base_dict, get_model, compile_model, gen_batch_inputs# Build & train the modelmodel = get_model( token_num=30000, head_num=12, transformer_num=12, embed_dim=768, feed_forward_dim=3072, seq_len=512, pos_num=512, dropout_rate=0.05,)compile_model(model)model.summary(). 4. Following these 12 layers, there are two outputs — one for NSP (Next Sentence Prediction) and one for MLM (Masked Language Modeling). 2. Token embeddings parameters= 23040000 (H \\* T) — because each of 30k (T) tokens needs a representation in dimension 768 (H). The position embeddings in BERT are trained and not fixed as in *Attention is all you need;* There’s a dropout applied, and then Layer Normalization is done. 5. Layer Normalization parameters = 1536 (2\\*H). So total parameters with biases = (H \\* FFD + FFD) + (FFD \\* H + H) = (768 \\* 3072 + 3072) + (3072 \\* 768 + 768) = 4722432; This follows another Dropout layer. MLM-Norm: Normalization layer, with parameter count following same logic as #5. NSP: Dense: The output D length embedding of previous layer then gets transformed to two vectors, each representing IsNext and NotNext respectively.",
+            "score": 0.98235
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "How is the number of parameters be calculated in BERT model?",
+            "url": "https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model",
+            "score": 0.98586
+          },
+          {
+            "title": "Pretrained models — transformers 2.9.1 documentation",
+            "url": "https://huggingface.co/transformers/v2.9.1/pretrained_models.html",
+            "score": 0.98578
+          },
+          {
+            "title": "BERT (language model) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/BERT_(language_model)",
+            "score": 0.98402
+          },
+          {
+            "title": "Dissecting BERT Part 1: The Encoder | by Miguel Romero Calvo",
+            "url": "https://medium.com/dissecting-bert/dissecting-bert-part-1-the-encoder-d3c3d495cdb3",
+            "score": 0.98271
+          },
+          {
+            "title": "Understanding BERT architecture - Medium",
+            "url": "https://medium.com/analytics-vidhya/understanding-bert-architecture-3f35a264b187",
+            "score": 0.98235
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "How"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Pre"
+          },
+          {
+            "type": "name_like",
+            "value": "Deep Bidirectional Transformers"
+          },
+          {
+            "type": "name_like",
+            "value": "Language Understanding"
+          },
+          {
+            "type": "name_like",
+            "value": "Devlin"
+          },
+          {
+            "type": "name_like",
+            "value": "Let"
+          },
+          {
+            "type": "name_like",
+            "value": "Position"
+          },
+          {
+            "type": "name_like",
+            "value": "Embedding Layer Normalization"
+          },
+          {
+            "type": "name_like",
+            "value": "Bias"
+          },
+          {
+            "type": "name_like",
+            "value": "Value Weight Matrix"
+          },
+          {
+            "type": "name_like",
+            "value": "Pretrained"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Development"
+          },
+          {
+            "type": "name_like",
+            "value": "Software"
+          },
+          {
+            "type": "name_like",
+            "value": "Accelerated Linear Algebra"
+          },
+          {
+            "type": "name_like",
+            "value": "Actions"
+          },
+          {
+            "type": "name_like",
+            "value": "Google"
+          },
+          {
+            "type": "name_like",
+            "value": "American Fuzzy Lop"
+          },
+          {
+            "type": "name_like",
+            "value": "Android Cloud"
+          },
+          {
+            "type": "name_like",
+            "value": "Device Messaging"
+          },
+          {
+            "type": "name_like",
+            "value": "Android Debug Bridge"
+          },
+          {
+            "type": "name_like",
+            "value": "Android"
+          },
+          {
+            "type": "name_like",
+            "value": "Android Runtime"
+          },
+          {
+            "type": "name_like",
+            "value": "Android Studio"
+          },
+          {
+            "type": "name_like",
+            "value": "Angular"
+          },
+          {
+            "type": "name_like",
+            "value": "Apache Beam"
+          },
+          {
+            "type": "name_like",
+            "value": "App Engine"
+          },
+          {
+            "type": "name_like",
+            "value": "App Inventor"
+          },
+          {
+            "type": "name_like",
+            "value": "App Maker"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find the number of blocks (layers) in the encoder from the architecture proposed in Attention is All You Need.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the number of blocks (layers) in the encoder from the architecture proposed in Attention is All You Need.",
+        "facts": [
+          {
+            "fact": "The Transformer architecture proposed in 'Attention Is All You Need' consists of 6 blocks (layers) in the encoder.",
+            "source_url": "https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer"
+          },
+          {
+            "fact": "The paper 'Attention Is All You Need' was authored by Ashish Vaswani and 7 other authors.",
+            "source_url": "https://arxiv.org/abs/1706.03762"
+          },
+          {
+            "fact": "The Transformer model replaces recurrent layers with multi-headed self-attention layers.",
+            "source_url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf"
+          }
+        ],
+        "summary": "The Transformer architecture introduced in 'Attention Is All You Need' features 6 encoder blocks and utilizes multi-headed self-attention, marking a significant shift from traditional recurrent layers.",
+        "sources": [
+          {
+            "title": "Encoder Block in Transformer - Medium",
+            "url": "https://medium.com/@varunsivamani/encoder-block-in-transformer-c9c8b5b9d589",
+            "snippet": "class MultiHeadAttentionBlock(nn.Module): def __init__(self, d_model: int, h: int, dropout: float) -> None: super().__init__() self.d_model = d_model # Embedding vector size self.h = h # Number of heads # Make sure d_model is divisible by h assert d_model % h == 0, \"d_model is not divisible by h\" self.d_k = d_model // h # Dimension of vector seen by each head self.w_q = nn.Linear(d_model, d_model, bias=False) # Wq self.w_k = nn.Linear(d_model, d_model, bias=False) # Wk self.w_v = nn.Linear(d_model, d_model, bias=False) # Wv self.w_o = nn.Linear(d_model, d_model, bias=False) # Wo self.dropout = nn.Dropout(dropout) @staticmethod def attention(query, key, value, mask, dropout: nn.Dropout): d_k = query.shape[-1] # Just apply the formula from the paper # (batch, h, seq_len, d_k) --> (batch, h, seq_len, seq_len) attention_scores = (query @ key.transpose(-2, -1)) / math.sqrt(d_k) if mask is not None: # Write a very low value (indicating -inf) to the positions where mask == 0 attention_scores.masked_fill_(mask == 0, -1e9) attention_scores = attention_scores.softmax(dim=-1) # (batch, h, seq_len, seq_len) # Apply softmax if dropout is not None: attention_scores = dropout(attention_scores) # "
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "snippet": "Image 2: arxiv logo>cs> arXiv:1706.03762. View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors. The best performing models also connect the encoder and decoder through an attention mechanism. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. Cite as:arXiv:1706.03762 [cs.CL]. (or arXiv:1706.03762v7 [cs.CL] for this version). **** Mon, 12 Jun 2017 17:57:34 UTC (1,102 KB). **** Mon, 19 Jun 2017 16:49:45 UTC (1,125 KB). **[v7]** Wed, 2 Aug 2023 00:41:18 UTC (1,124 KB). View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors. - [x] Links to Code Toggle. - [x] Links to Code Toggle. - [x] Link to Influence Flower. Have an idea for a project that will add value for arXiv's community?"
+          },
+          {
+            "title": "[PDF] Attention is All you Need - NIPS",
+            "url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf",
+            "snippet": "3.2.3 Applications of Attention in our Model The Transformer uses multi-head attention in three different ways: • In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [31] and byte-pair [25] representations. 7 Conclusion In this work, we presented the Transformer, the ﬁrst sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention."
+          },
+          {
+            "title": "What is purpose of stacking N=6 blocks of encoder and decoder in ...",
+            "url": "https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer",
+            "snippet": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers. # What is purpose of stacking N=6 blocks of encoder and decoder in transformer? What is purpose of stacking $N=6$ blocks of encoder and decoder? Does higher blocks represent longer phrases and learns what longer phrases attend to? > Does higher blocks represent longer phrases and learns what longer phrases attend to? The layers that are closer to the token embeddings represent lower-level token relations, while deeper layers learn to represent higher-level information present in the input sequences. You can check the studies that probe Transformer models to understand what kind of language information is best represented in each layer, e.g.:. Find the answer to your question by asking. What is the difference between GPT blocks and Transformer Decoder blocks? What are the inputs to the first decoder layer in a Transformer model during the training phase?"
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+            "snippet": "The paper introduced a new deep learning architecture known as the transformer \"Transformer (machine learning model)\"), based on the attention mechanism proposed in 2014 by Bahdanau *et al.* It is considered a foundational paper in modern artificial intelligence, and a main contributor to the AI boom, as the transformer approach has become the main architecture of a wide variety of AI, such as large language models. Seq2seq models with attention (including self-attention) still suffered from the same issue with recurrent networks, which is that they are hard to parallelize, which prevented them from being accelerated on GPUs. In 2016, *decomposable attention* applied a self-attention mechanism to feedforward networks, which are easy to parallelize, and achieved SOTA result in textual entailment with an order of magnitude fewer parameters than LSTMs. One of its authors, Jakob Uszkoreit, suspected that attention *without* recurrence would be sufficient for language translation, thus the title \"attention is *all* you need\"."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Encoder Block in Transformer - Medium",
+            "url": "https://medium.com/@varunsivamani/encoder-block-in-transformer-c9c8b5b9d589",
+            "content": "class MultiHeadAttentionBlock(nn.Module): def __init__(self, d_model: int, h: int, dropout: float) -> None: super().__init__() self.d_model = d_model # Embedding vector size self.h = h # Number of heads # Make sure d_model is divisible by h assert d_model % h == 0, \"d_model is not divisible by h\" self.d_k = d_model // h # Dimension of vector seen by each head self.w_q = nn.Linear(d_model, d_model, bias=False) # Wq self.w_k = nn.Linear(d_model, d_model, bias=False) # Wk self.w_v = nn.Linear(d_model, d_model, bias=False) # Wv self.w_o = nn.Linear(d_model, d_model, bias=False) # Wo self.dropout = nn.Dropout(dropout) @staticmethod def attention(query, key, value, mask, dropout: nn.Dropout): d_k = query.shape[-1] # Just apply the formula from the paper # (batch, h, seq_len, d_k) --> (batch, h, seq_len, seq_len) attention_scores = (query @ key.transpose(-2, -1)) / math.sqrt(d_k) if mask is not None: # Write a very low value (indicating -inf) to the positions where mask == 0 attention_scores.masked_fill_(mask == 0, -1e9) attention_scores = attention_scores.softmax(dim=-1) # (batch, h, seq_len, seq_len) # Apply softmax if dropout is not None: attention_scores = dropout(attention_scores) # (batch, h, seq_len, seq_len) --> (batch, h, seq_len, d_k) # return attention scores which can be used for visualization return (attention_scores @ value), attention_scores def forward(self, q, k, v, mask): query = self.w_q(q) # (batch, seq_len, d_model) --> (batch, seq_len, d_model) key = self.w_k(k) # (batch, seq_len, d_model) --> (batch, seq_len, d_model) value = self.w_v(v) # (batch, seq_len, d_model) --> (batch, seq_len, d_model) # (batch, seq_len, d_model) --> (batch, seq_len, h, d_k) --> (batch, h, seq_len, d_k) query = query.view(query.shape[0], query.shape[1], self.h, self.d_k).transpose(1, 2) key = key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1, 2) value = value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2) # Calculate attention x, self.attention_scores = MultiHeadAttentionBlock.attention(query, key, value, mask, self.dropout) # Combine all the heads together # (batch, h, seq_len, d_k) --> (batch, seq_len, h, d_k) --> (batch, seq_len, d_model) x = x.transpose(1, 2).contiguous().view(x.shape[0], -1, self.h * self.d_k) # Multiply by Wo # (batch, seq_len, d_model) --> (batch, seq_len,",
+            "score": 0.98586
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "content": "Image 2: arxiv logo>cs> arXiv:1706.03762. View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors. The best performing models also connect the encoder and decoder through an attention mechanism. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. Cite as:arXiv:1706.03762 [cs.CL]. (or arXiv:1706.03762v7 [cs.CL] for this version). **** Mon, 12 Jun 2017 17:57:34 UTC (1,102 KB). **** Mon, 19 Jun 2017 16:49:45 UTC (1,125 KB). **[v7]** Wed, 2 Aug 2023 00:41:18 UTC (1,124 KB). View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors. - [x] Links to Code Toggle. - [x] Links to Code Toggle. - [x] Link to Influence Flower. Have an idea for a project that will add value for arXiv's community?",
+            "score": 0.9857
+          },
+          {
+            "title": "[PDF] Attention is All you Need - NIPS",
+            "url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf",
+            "content": "3.2.3 Applications of Attention in our Model The Transformer uses multi-head attention in three different ways: • In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [31] and byte-pair [25] representations. 7 Conclusion In this work, we presented the Transformer, the ﬁrst sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.",
+            "score": 0.98559
+          },
+          {
+            "title": "What is purpose of stacking N=6 blocks of encoder and decoder in ...",
+            "url": "https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer",
+            "content": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers. # What is purpose of stacking N=6 blocks of encoder and decoder in transformer? What is purpose of stacking $N=6$ blocks of encoder and decoder? Does higher blocks represent longer phrases and learns what longer phrases attend to? > Does higher blocks represent longer phrases and learns what longer phrases attend to? The layers that are closer to the token embeddings represent lower-level token relations, while deeper layers learn to represent higher-level information present in the input sequences. You can check the studies that probe Transformer models to understand what kind of language information is best represented in each layer, e.g.:. Find the answer to your question by asking. What is the difference between GPT blocks and Transformer Decoder blocks? What are the inputs to the first decoder layer in a Transformer model during the training phase?",
+            "score": 0.98439
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+            "content": "The paper introduced a new deep learning architecture known as the transformer \"Transformer (machine learning model)\"), based on the attention mechanism proposed in 2014 by Bahdanau *et al.* It is considered a foundational paper in modern artificial intelligence, and a main contributor to the AI boom, as the transformer approach has become the main architecture of a wide variety of AI, such as large language models. Seq2seq models with attention (including self-attention) still suffered from the same issue with recurrent networks, which is that they are hard to parallelize, which prevented them from being accelerated on GPUs. In 2016, *decomposable attention* applied a self-attention mechanism to feedforward networks, which are easy to parallelize, and achieved SOTA result in textual entailment with an order of magnitude fewer parameters than LSTMs. One of its authors, Jakob Uszkoreit, suspected that attention *without* recurrence would be sufficient for language translation, thus the title \"attention is *all* you need\".",
+            "score": 0.98201
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Encoder Block in Transformer - Medium",
+            "url": "https://medium.com/@varunsivamani/encoder-block-in-transformer-c9c8b5b9d589",
+            "score": 0.98586
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "score": 0.9857
+          },
+          {
+            "title": "[PDF] Attention is All you Need - NIPS",
+            "url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf",
+            "score": 0.98559
+          },
+          {
+            "title": "What is purpose of stacking N=6 blocks of encoder and decoder in ...",
+            "url": "https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer",
+            "score": 0.98439
+          },
+          {
+            "title": "Attention Is All You Need",
+            "url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+            "score": 0.98201
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Encoder Block"
+          },
+          {
+            "type": "name_like",
+            "value": "Transformer"
+          },
+          {
+            "type": "name_like",
+            "value": "Medium"
+          },
+          {
+            "type": "name_like",
+            "value": "Module"
+          },
+          {
+            "type": "name_like",
+            "value": "None"
+          },
+          {
+            "type": "name_like",
+            "value": "Embedding"
+          },
+          {
+            "type": "name_like",
+            "value": "Number"
+          },
+          {
+            "type": "name_like",
+            "value": "Make"
+          },
+          {
+            "type": "name_like",
+            "value": "Dimension"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear"
+          },
+          {
+            "type": "name_like",
+            "value": "False"
+          },
+          {
+            "type": "name_like",
+            "value": "Dropout"
+          },
+          {
+            "type": "name_like",
+            "value": "Just"
+          },
+          {
+            "type": "name_like",
+            "value": "Write"
+          },
+          {
+            "type": "name_like",
+            "value": "Apply"
+          },
+          {
+            "type": "name_like",
+            "value": "Attention Is All You"
+          },
+          {
+            "type": "name_like",
+            "value": "Need\nImage"
+          },
+          {
+            "type": "name_like",
+            "value": "View"
+          },
+          {
+            "type": "name_like",
+            "value": "Need"
+          },
+          {
+            "type": "name_like",
+            "value": "Ashish Vaswani"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "English"
+          },
+          {
+            "type": "name_like",
+            "value": "French"
+          },
+          {
+            "type": "name_like",
+            "value": "Cite"
+          },
+          {
+            "type": "name_like",
+            "value": "Mon"
+          },
+          {
+            "type": "name_like",
+            "value": "Jun"
+          },
+          {
+            "type": "name_like",
+            "value": "Wed"
+          },
+          {
+            "type": "name_like",
+            "value": "Aug"
+          },
+          {
+            "type": "name_like",
+            "value": "Links"
+          },
+          {
+            "type": "name_like",
+            "value": "Code Toggle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the number of layers from the results of T1.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"number\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"BERT\",\n      \"type\": \"model\",\n      \"evidence\": \"BERT base is an architecture with 12 layers\",\n      \"source_url\": \"https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model\"\n    },\n    {\n      \"name\": \"Transformer\",\n      \"type\": \"architecture\",\n      \"evidence\": \"The Transformer architecture introduced in 'Attention Is All You Need' features 6 encoder blocks\",\n      \"source_url\": \"https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer\"\n    }\n  ],\n  \"key_points\": [\n    \"BERT base model consists of 12 layers.\",\n    \"The Transformer architecture consists of "
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the number of layers from the results of T2.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"number\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"BERT\",\n      \"type\": \"model\",\n      \"evidence\": \"BERT base is an architecture with 12 layers.\",\n      \"source_url\": \"https://stackoverflow.com/questions/64485777/how-is-the-number-of-parameters-be-calculated-in-bert-model\"\n    },\n    {\n      \"name\": \"Transformer\",\n      \"type\": \"architecture\",\n      \"evidence\": \"The Transformer architecture introduced in 'Attention Is All You Need' features 6 encoder blocks.\",\n      \"source_url\": \"https://datascience.stackexchange.com/questions/121015/what-is-purpose-of-stacking-n-6-blocks-of-encoder-and-decoder-in-transformer\"\n    }\n  ],\n  \"key_points\": [\n    \"BERT base model consists of 12 layers.\",\n    \"The Transformer architecture consists of "
+      }
+    },
+    {
+      "id": "T5",
+      "role": "calc",
+      "description": "Calculate the difference in the number of layers between BERT base encoder and the encoder from Attention is All You Need.",
+      "depends_on": [
+        "T3",
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "python_code": "",
+        "output": "",
+        "error": null
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding how many more blocks are in BERT base encoder than in the encoder from Attention is All You Need.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "6",
+        "final_answer_strict": "6.0",
+        "used_evidence": [
+          "The BERT base model consists of 12 layers.",
+          "The Transformer architecture proposed in 'Attention Is All You Need' consists of 6 blocks (layers) in the encoder."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 200,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": true,
+    "pred_norm": "6.0",
+    "gt_norm": "6"
+  }
+}

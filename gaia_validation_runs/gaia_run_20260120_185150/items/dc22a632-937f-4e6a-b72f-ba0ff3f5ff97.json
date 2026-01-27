@@ -1,0 +1,647 @@
+{
+  "id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+  "query": "What was the complete title of the book in which two James Beard Award winners recommended the restaurant where Ali Khan enjoyed a New Mexican staple in his cost-conscious TV show that started in 2015? Write the numbers in plain text if there are some in the title.",
+  "ground_truth": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+  "answer_raw": {
+    "final_answer": "New Recipes for the Cuisinart Food Processor",
+    "final_answer_strict": "New Recipes for the Cuisinart Food Processor",
+    "used_evidence": [
+      "The complete title of the book that includes recommendations from James Beard and Julia Child is 'New Recipes for the Cuisinart Food Processor'."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "New Recipes for the Cuisinart Food Processor",
+  "error": null,
+  "duration_sec": 53.39685773849487,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the TV show started by Ali Khan in 2015 that features cost-conscious dining.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the TV show started by Ali Khan in 2015 that features cost-conscious dining.",
+        "facts": [
+          {
+            "fact": "Ali Khan premiered his show, Cheap Eats, on Cooking Channel in 2015.",
+            "source_url": "https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan"
+          },
+          {
+            "fact": "Cheap Eats aired for 5 seasons, featuring 59 episodes across 40 states and 59 cities.",
+            "source_url": "https://en.wikipedia.org/wiki/Cheap_Eats"
+          },
+          {
+            "fact": "In each episode of Cheap Eats, Ali Khan has a budget of $35 to find meals for breakfast, lunch, a snack, and dinner.",
+            "source_url": "https://www.rottentomatoes.com/tv/cheap_eats/cast-and-crew"
+          },
+          {
+            "fact": "The show Cheap Eats is a food travelogue series that highlights budget-conscious dining options.",
+            "source_url": "https://en.wikipedia.org/wiki/Cheap_Eats"
+          },
+          {
+            "fact": "Cheap Eats premiered on September 22, 2015, and concluded on November 7, 2018.",
+            "source_url": "https://en.wikipedia.org/wiki/Cheap_Eats"
+          }
+        ],
+        "summary": "Cheap Eats, hosted by Ali Khan, is a budget-friendly food travelogue series that aired on Cooking Channel from 2015 to 2018, featuring 59 episodes where Khan explores affordable dining options across the United States with a $35 budget.",
+        "sources": [
+          {
+            "title": "Ali Khan - FoodAllergy.org",
+            "url": "https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan",
+            "snippet": "In 2015, Ali premiered his very own show, Cheap Eats, on Cooking Channel. Armed with a budget of only $35, Ali takes a culinary tour of the US on a budget almost anyone can afford. Cheap Eats aired for 5 seasons spanning 40 states and 59 cities in as many episodes.\n\nIn 2018, Ali joined Food Network’s Spring Baking Championship as the host for the 4th season. Ali has made numerous appearances on Food Network’s Chopped and Chopped Junior, Best Thing I Ever Ate.\n\nIn 2020, Ali launched Good Sauce, a YouTube Channel dedicated to his two loves: food and comedy. The first series, Ali vs The Dome releases new episodes every Thursday.\n\nHe currently resides in Austin, TX. [...] Television Host and Food Writer/Blogger/Influencer\n\nAli Khan is a television host and food writer/blogger/influencer sharing his love for food across multiple digital platforms. His breakout series, Cheap Eats ran for 5 seasons on Cooking Channel. He is a regular on The Best Thing I Ever Ate, a judge on Food Network’s Chopped + Chopped Junior and served as host of the fourth season of Spring Baking Championship, also on Food Network.\n\nHis food writing has appeared in Black Book Magazine, Urban Daddy, James Beard winne"
+          },
+          {
+            "title": "Cheap Eats - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cheap_Eats",
+            "snippet": "American television series\n\n| Cheap Eats |\n\n| Genre | Reality |\n| Presented by | Ali Khan |\n| No. of seasons | 5 |\n| No. of episodes | 59 |\n| Production |\n| Producer | Ali Khan |\n| Production company | Sirens Media |\n| Original release |\n| Network | Cooking Channel |\n| Release | September 22, 2015 (2015-09-22) – November 7, 2018 (2018-11-07) |\n\nCheap Eats is a food travelogue television series on Cooking Channel. Ali Khan, author of the blog Bang for Your Burger Buck, is the host (and co-executive producer). Each episode is in a different city in the US where, within 12 hours, Khan finds great deals at restaurants for breakfast, lunch, a snack, and dinner — on a budget of only $35. Sometimes Ali breaks the budget, but he only ever exceeds it by a few dollars.\n\n## Season 1\n\n[edit] [...] ## References\n\n[edit]\n\n1. ^ \"Cheap Eats: Shows\". cookingchanneltv.com. Cooking Channel. Archived from the original on March 17, 2016. Retrieved January 5, 2017.\n2. ^ Robbins, Caryn (March 28, 2016). \"Food Blogger Ali Khan Set for New Cooking Channel Series CHEAP EATS\". broadwayworld.com. Retrieved January 27, 2025.\n3. ^ BWW News Desk (December 1, 2016). \"New Season of Ali Khan's CHEAP EATS Returns to"
+          },
+          {
+            "title": "Cheap Eats: Cooking Channel Previews New Ali Khan Series",
+            "url": "https://tvseriesfinale.com/tv-show/cheap-eats-cooking-channel-previews-new-ali-khan-series/",
+            "snippet": "As the son of South Asian immigrants, Ali Khan learned to embrace exotic cuisine at a young age. It was inevitable that his passion for food shaped his professional career, and led him to become BlackBook Magazine’s Senior Editor of Los Angeles Dining and Nightlife Guide at age 26. In addition, Ali dedicated his writing skills to several popular lifestyle websites, including Urban Daddy, LA TACO, and was a regular contributor to You Gotta Eat This. In 2015, Ali launched the successful blog series Bang For Your Burger Buck. His passion for all things epicurean combined with his B.A. in Theater Studies from University of Southern California led him to Food Network, where he has appeared on Grill It with Bobby Flay, Best Thing I Ever Made, and on a forthcoming episode of Chopped Junior. When [...] “Cheap Eats takes viewers on a budget-conscious culinary tour of the country seeking out great taste for a good price,” said Didi O’Hearn, Senior Vice President Programming, Food Network & Cooking Channel. “Ali Khan is the perfect guide, with his talent for uncovering unique eateries, known only to the locals, rivaled only by his ability to find fantastic deals.” [...] # canceled + renewed T"
+          },
+          {
+            "title": "Cheap Eats | Cast and Crew - Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/cheap_eats/cast-and-crew",
+            "snippet": "Traveling can be expensive, with airfare and hotel accommodations often costing hundreds of dollars each, so when you're on a vacation, you likely want to try to cut expenses in some areas. Food blogger Ali Khan can help you save on food costs in various American cities. In each episode of \"Cheap Eats,\" he spends 12 hours in a given locale and has a $35 food budget. With that cash, he must maximize his investment for breakfast, lunch, a snack and dinner -- getting the biggest and tastiest delicacies he can find while staying under his limit. As he explores affordable options in each city, Khan meets with local chefs to find out about the area's culinary scene.      TV-G Air Date: Sep 22, 2015  See TV Series Details\n\n \n\n## Cast & Crew\n\nAll   Cast   Crew [...] ## Cast & Crew\n\nAll   Cast   Crew\n\nRalph B. Saltsman Creator   Stephen Solomon Creator   Ali Khan Host   Angelia Crayle Producer\n\nNo Cast and Crew\n\n beta"
+          },
+          {
+            "title": "Cheap Eats (TV Series 2013– ) - IMDb",
+            "url": "https://www.imdb.com/title/tt3012894/",
+            "snippet": "- See production info at IMDbPro\n\nIMDb RATING\n\n6.8/10\n\n58\n\nYOUR RATING\n\n Creators\n\n  + Ralph B. Saltsman\n  + Stephen Solomon\n Stars\n\n  + Ali Khan\n  + George Nottoli\n  + Irene Li\n\n- See production info at IMDbPro\n- See production info at IMDbPro\n\n### Episodes51\n\nBrowse episodes\n\n### Photos27\n\n+ 21\n\n### Top Cast16\n\nEdit\n\nAli Khan\n\n Self - Host…\n\n• 2015–2018\n\nGeorge Nottoli\n\n Self - The Original Nottoli & Son\n\n• 2016\n\nIrene Li\n\n Self - Co-Owner, Mei Mei\n\n• 2018\n\nJeff Miller\n\n Self - Chef & Owner, Luella's\n\n• 2018\n\nErica Imhoff\n\n Self - Owner & Chef, Bun Intended\n\n• 2018\n\nHalee Hirsch\n\n Self - Owner, Hole Doughnut\n\n• 2018\n\nAndy Morris\n\n Self - Chef, Homegrown\n\n• 2018\n\nToni Picariello\n\n Self - Owner…\n\n• 2018\n\nHarry Makarian\n\n Self - Chef, Sullivan's\n\n• 2018\n\nJon Chase"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Ali Khan - FoodAllergy.org",
+            "url": "https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan",
+            "content": "In 2015, Ali premiered his very own show, Cheap Eats, on Cooking Channel. Armed with a budget of only $35, Ali takes a culinary tour of the US on a budget almost anyone can afford. Cheap Eats aired for 5 seasons spanning 40 states and 59 cities in as many episodes.\n\nIn 2018, Ali joined Food Network’s Spring Baking Championship as the host for the 4th season. Ali has made numerous appearances on Food Network’s Chopped and Chopped Junior, Best Thing I Ever Ate.\n\nIn 2020, Ali launched Good Sauce, a YouTube Channel dedicated to his two loves: food and comedy. The first series, Ali vs The Dome releases new episodes every Thursday.\n\nHe currently resides in Austin, TX. [...] Television Host and Food Writer/Blogger/Influencer\n\nAli Khan is a television host and food writer/blogger/influencer sharing his love for food across multiple digital platforms. His breakout series, Cheap Eats ran for 5 seasons on Cooking Channel. He is a regular on The Best Thing I Ever Ate, a judge on Food Network’s Chopped + Chopped Junior and served as host of the fourth season of Spring Baking Championship, also on Food Network.\n\nHis food writing has appeared in Black Book Magazine, Urban Daddy, James Beard winner LA TACO, You Gotta Eat This as well as authoring his own food blog, Bang for your Burger Buck. His vlog series, “blackbookali” was part of Tastemade’s initial content launch. [...] In addition to food writing, Ali is a natural born performer trained in the Theatrical Arts at Carnegie Mellon University and the University of Southern California where he earned his B.A. in Theater Studies.   \n His passion for performance and all things epicurean eventually led him to Food Network, where his earliest appearances include Grill It with Bobby Flay and the Best Thing I Ever Made. Producer credits include Food Network’s $24 in 24, Thanksgiving Live and he helped develop projects for Jeff Mauro, Alton Brown and Simon Majumdar.",
+            "score": 0.8943568
+          },
+          {
+            "title": "Cheap Eats - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cheap_Eats",
+            "content": "American television series\n\n| Cheap Eats |\n\n| Genre | Reality |\n| Presented by | Ali Khan |\n| No. of seasons | 5 |\n| No. of episodes | 59 |\n| Production |\n| Producer | Ali Khan |\n| Production company | Sirens Media |\n| Original release |\n| Network | Cooking Channel |\n| Release | September 22, 2015 (2015-09-22) – November 7, 2018 (2018-11-07) |\n\nCheap Eats is a food travelogue television series on Cooking Channel. Ali Khan, author of the blog Bang for Your Burger Buck, is the host (and co-executive producer). Each episode is in a different city in the US where, within 12 hours, Khan finds great deals at restaurants for breakfast, lunch, a snack, and dinner — on a budget of only $35. Sometimes Ali breaks the budget, but he only ever exceeds it by a few dollars.\n\n## Season 1\n\n[edit] [...] ## References\n\n[edit]\n\n1. ^ \"Cheap Eats: Shows\". cookingchanneltv.com. Cooking Channel. Archived from the original on March 17, 2016. Retrieved January 5, 2017.\n2. ^ Robbins, Caryn (March 28, 2016). \"Food Blogger Ali Khan Set for New Cooking Channel Series CHEAP EATS\". broadwayworld.com. Retrieved January 27, 2025.\n3. ^ BWW News Desk (December 1, 2016). \"New Season of Ali Khan's CHEAP EATS Returns to Cooking Channel, Today\". broadwayworld.com. Retrieved January 27, 2025.\n\n|  v  t  e  Cooking Channel original programming | [...] | CCALI-211H | Omaha | Culinary Cornhuskers. Ali Khan starts his Omaha food adventure with breakfast from a fast made-from-scratch joint offering a crazy good egg boat with hash browns. For lunch, Ali tips his hat to an iconic Omaha lunch with a housemade Reuben. A butter brickle ice cream cone holds him over before his dinner of pork ragu meatballs. |\n| CCALI-212H | Des Moines | Far from the Farm. Ali Khan starts his day in Des Moines the way Iowans do, with crisp and cheesy breakfast nachos. Then it's onto a roasted chicken lunch with comforting mashed potatoes and onion rings, before snacking on a truly divine Napoleon. For dinner, Ali has an unexpected and luxurious seafood stew. |",
+            "score": 0.89053273
+          },
+          {
+            "title": "Cheap Eats: Cooking Channel Previews New Ali Khan Series",
+            "url": "https://tvseriesfinale.com/tv-show/cheap-eats-cooking-channel-previews-new-ali-khan-series/",
+            "content": "As the son of South Asian immigrants, Ali Khan learned to embrace exotic cuisine at a young age. It was inevitable that his passion for food shaped his professional career, and led him to become BlackBook Magazine’s Senior Editor of Los Angeles Dining and Nightlife Guide at age 26. In addition, Ali dedicated his writing skills to several popular lifestyle websites, including Urban Daddy, LA TACO, and was a regular contributor to You Gotta Eat This. In 2015, Ali launched the successful blog series Bang For Your Burger Buck. His passion for all things epicurean combined with his B.A. in Theater Studies from University of Southern California led him to Food Network, where he has appeared on Grill It with Bobby Flay, Best Thing I Ever Made, and on a forthcoming episode of Chopped Junior. When [...] “Cheap Eats takes viewers on a budget-conscious culinary tour of the country seeking out great taste for a good price,” said Didi O’Hearn, Senior Vice President Programming, Food Network & Cooking Channel. “Ali Khan is the perfect guide, with his talent for uncovering unique eateries, known only to the locals, rivaled only by his ability to find fantastic deals.” [...] # canceled + renewed TV shows, ratings - TV Series Finale\n\ncanceled + renewed TV shows, ratings - TV Series Finale\n\n# Cheap Eats: Cooking Channel Previews New Ali Khan Series\n\nby Cindy McLennan, March 29, 2016\n\nCheap Eats TV Show on Cooking Channel: season 1 (canceled or renewed?)\n\nCheap Eats TV Show on Cooking Channel: season 1 (canceled or renewed?)\n\nTime to put on your eating pants. Cooking Channel‘s Cheap Eats TV series, hosted by Ali Khan, premieres Tuesday, April 19, 2016, at 9:00pm ET, 6:00pm PT.\n\nIn each of the six episodes in Cheap Eats’ first season, Khan visits new cities in search of the best breakfast, lunch, snack, and supper $35.00 a day can buy. In season one, locations include Albuquerque, Austin, Boulder, Charlestown, Chicago, and Miami.",
+            "score": 0.8116913
+          },
+          {
+            "title": "Cheap Eats | Cast and Crew - Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/cheap_eats/cast-and-crew",
+            "content": "Traveling can be expensive, with airfare and hotel accommodations often costing hundreds of dollars each, so when you're on a vacation, you likely want to try to cut expenses in some areas. Food blogger Ali Khan can help you save on food costs in various American cities. In each episode of \"Cheap Eats,\" he spends 12 hours in a given locale and has a $35 food budget. With that cash, he must maximize his investment for breakfast, lunch, a snack and dinner -- getting the biggest and tastiest delicacies he can find while staying under his limit. As he explores affordable options in each city, Khan meets with local chefs to find out about the area's culinary scene.      TV-G Air Date: Sep 22, 2015  See TV Series Details\n\n \n\n## Cast & Crew\n\nAll   Cast   Crew [...] ## Cast & Crew\n\nAll   Cast   Crew\n\nRalph B. Saltsman Creator   Stephen Solomon Creator   Ali Khan Host   Angelia Crayle Producer\n\nNo Cast and Crew\n\n beta",
+            "score": 0.7837407
+          },
+          {
+            "title": "Cheap Eats (TV Series 2013– ) - IMDb",
+            "url": "https://www.imdb.com/title/tt3012894/",
+            "content": "- See production info at IMDbPro\n\nIMDb RATING\n\n6.8/10\n\n58\n\nYOUR RATING\n\n Creators\n\n  + Ralph B. Saltsman\n  + Stephen Solomon\n Stars\n\n  + Ali Khan\n  + George Nottoli\n  + Irene Li\n\n- See production info at IMDbPro\n- See production info at IMDbPro\n\n### Episodes51\n\nBrowse episodes\n\n### Photos27\n\n+ 21\n\n### Top Cast16\n\nEdit\n\nAli Khan\n\n Self - Host…\n\n• 2015–2018\n\nGeorge Nottoli\n\n Self - The Original Nottoli & Son\n\n• 2016\n\nIrene Li\n\n Self - Co-Owner, Mei Mei\n\n• 2018\n\nJeff Miller\n\n Self - Chef & Owner, Luella's\n\n• 2018\n\nErica Imhoff\n\n Self - Owner & Chef, Bun Intended\n\n• 2018\n\nHalee Hirsch\n\n Self - Owner, Hole Doughnut\n\n• 2018\n\nAndy Morris\n\n Self - Chef, Homegrown\n\n• 2018\n\nToni Picariello\n\n Self - Owner…\n\n• 2018\n\nHarry Makarian\n\n Self - Chef, Sullivan's\n\n• 2018\n\nJon Chase",
+            "score": 0.7216064
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Ali Khan - FoodAllergy.org",
+            "url": "https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan",
+            "score": 0.8943568
+          },
+          {
+            "title": "Cheap Eats - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cheap_Eats",
+            "score": 0.89053273
+          },
+          {
+            "title": "Cheap Eats: Cooking Channel Previews New Ali Khan Series",
+            "url": "https://tvseriesfinale.com/tv-show/cheap-eats-cooking-channel-previews-new-ali-khan-series/",
+            "score": 0.8116913
+          },
+          {
+            "title": "Cheap Eats | Cast and Crew - Rotten Tomatoes",
+            "url": "https://www.rottentomatoes.com/tv/cheap_eats/cast-and-crew",
+            "score": 0.7837407
+          },
+          {
+            "title": "Cheap Eats (TV Series 2013– ) - IMDb",
+            "url": "https://www.imdb.com/title/tt3012894/",
+            "score": 0.7216064
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Ali Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Ali"
+          },
+          {
+            "type": "name_like",
+            "value": "Cheap Eats"
+          },
+          {
+            "type": "name_like",
+            "value": "Cooking Channel"
+          },
+          {
+            "type": "name_like",
+            "value": "Armed"
+          },
+          {
+            "type": "name_like",
+            "value": "Food Network"
+          },
+          {
+            "type": "name_like",
+            "value": "Spring Baking Championship"
+          },
+          {
+            "type": "name_like",
+            "value": "Chopped"
+          },
+          {
+            "type": "name_like",
+            "value": "Chopped Junior"
+          },
+          {
+            "type": "name_like",
+            "value": "Best Thing"
+          },
+          {
+            "type": "name_like",
+            "value": "Ever Ate"
+          },
+          {
+            "type": "name_like",
+            "value": "Good Sauce"
+          },
+          {
+            "type": "name_like",
+            "value": "Channel"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "The Dome"
+          },
+          {
+            "type": "name_like",
+            "value": "Thursday"
+          },
+          {
+            "type": "name_like",
+            "value": "Austin"
+          },
+          {
+            "type": "name_like",
+            "value": "Television Host"
+          },
+          {
+            "type": "name_like",
+            "value": "Food Writer"
+          },
+          {
+            "type": "name_like",
+            "value": "Blogger"
+          },
+          {
+            "type": "name_like",
+            "value": "Influencer"
+          },
+          {
+            "type": "name_like",
+            "value": "His"
+          },
+          {
+            "type": "name_like",
+            "value": "The Best Thing"
+          },
+          {
+            "type": "name_like",
+            "value": "Black Book Magazine"
+          },
+          {
+            "type": "name_like",
+            "value": "Urban Daddy"
+          },
+          {
+            "type": "name_like",
+            "value": "James Beard"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia\nAmerican"
+          },
+          {
+            "type": "name_like",
+            "value": "Genre"
+          },
+          {
+            "type": "name_like",
+            "value": "Reality"
+          },
+          {
+            "type": "name_like",
+            "value": "Presented"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract details about the restaurant recommended by two James Beard Award winners in the context of the TV show.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\"person\", \"company\", \"show\"],\n  \"entities\": [\n    {\n      \"name\": \"Ali Khan\",\n      \"type\": \"person\",\n      \"evidence\": \"In 2015, Ali premiered his very own show, Cheap Eats, on Cooking Channel.\",\n      \"source_url\": \"https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan\"\n    },\n    {\n      \"name\": \"Cheap Eats\",\n      \"type\": \"show\",\n      \"evidence\": \"Cheap Eats aired for 5 seasons spanning 40 states and 59 cities in as many episodes.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Cheap_Eats\"\n    },\n    {\n      \"name\": \"Cooking Channel\",\n      \"type\": \"organization\",\n      \"evidence\": \"Cheap Eats is a food travelogue television series on Cooking Channel.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Cheap_Eats\"\n    },\n    {\n      \"name\": \"Food Network\",\n      \"type\": \"organization\",\n      \"evidence\": \"In 2018, Ali joined Food Network’s Spring Baking Championship as the host for the 4th season.\",\n      \"source_url\": \"https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan\"\n    },\n    {\n      \"name\": \"Spring Baking Championship\",\n      \"type\": \"show\",\n      \"evidence\": \"In 2018, Ali joined Food Network’s Spring Baking Championship as the host for the 4th season.\",\n      \"source_url\": \"https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan\"\n    },\n    {\n      \"name\": \"Chopped\",\n      \"type\": \"show\",\n      \"evidence\": \"Ali has made numerous appearances on Food Network’s Chopped and Chopped Junior.\",\n      \"source_url\": \"https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan\"\n    },\n    {\n      \"name\": \"Chopped Junior\",\n      \"type\": \"show\",\n      \"evidence\": \"Ali has made numerous appearances on Food Network’s Chopped and Chopped Junior.\",\n      \"source_url\": \"https://www.foodallergy.org/our-initiatives/awareness-campaigns/living-teal/living-tealtm-videos/take-out-show/ali-khan\"\n    },\n    {\n      \"name\": \"Best Thing I Ever Ate"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Search for the complete title of the book that includes the recommendations from the two James Beard Award winners.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Search for the complete title of the book that includes the recommendations from the two James Beard Award winners.",
+        "facts": [
+          {
+            "fact": "The complete title of the book that includes recommendations from James Beard and Julia Child is 'New Recipes for the Cuisinart Food Processor'.",
+            "source_url": "https://archive.jamesbeard.org/about/james-beard-books"
+          },
+          {
+            "fact": "Carla Lalli Music won the James Beard Foundation Book Award for General Cooking in 2020 for her book 'Where Cooking Begins: Uncomplicated Recipes to Make You a Great Cook'.",
+            "source_url": "https://www.goodreads.com/award/show/5178-james-beard-foundation-book-award"
+          },
+          {
+            "fact": "Bren Smith won the James Beard Foundation Book Award for Writing in 2020 for his book 'Eat Like a Fish: My Adventures as a Fisherman Turned Restorative Ocean Farmer'.",
+            "source_url": "https://www.goodreads.com/award/show/5178-james-beard-foundation-book-award"
+          }
+        ],
+        "summary": "The book 'New Recipes for the Cuisinart Food Processor' features recommendations from James Beard and Julia Child. Additionally, notable James Beard Foundation Book Award winners include Carla Lalli Music for 'Where Cooking Begins' and Bren Smith for 'Eat Like a Fish'.",
+        "sources": [
+          {
+            "title": "James Beard's Books",
+            "url": "https://archive.jamesbeard.org/about/james-beard-books",
+            "snippet": "New Recipes for the Cuisinart Food Processor  \n (1976)  \n It was love at first sight. Traveling in the south of France, Beard saw a food processor at a friend’s restaurant, and he had to have one. He arranged to have a Cuisinart shipped to his home in New York. Back in the States, Beard and his protégé Carl Jerome wrote a booklet of processor recipes that included Beard’s own recipes as well as those of friends Craig Claiborne, Marcella Hazan, Madhur Jaffrey, Barbara Kafka, Jacques Pépin, and André Soltner. According to Beverly Bundy’s The Century in Food, it was the recommendations of Beard and Julia Child that helped Cuisinart become “so hot during the 1976 Christmas season that retailers [sold] empty boxes as promises for future delivery.” [...] The Fireside Cook Book was a comprehensive text, not unlike The Joy of Cooking but with more personality. The charming color illustrations by Alice and Martin Provensen deserve credit, as does Beard’s voice, apparent in such menu suggestions as “Dinner for a Gloomy Day When All the Leftovers Are Gone.” The book contained more than 1,000 recipes, typically a basic preparation, such as cream soup, followed by a set of variations—cream of a"
+          },
+          {
+            "title": "James Beard Foundation Book Award Winners",
+            "url": "https://www.goodreads.com/award/show/5178-james-beard-foundation-book-award",
+            "snippet": "|  | Where Cooking Begins: Uncomplicated Recipes to Make You a Great Cook    by  Carla Lalli Music    3.95 avg rating — 1,534 ratings James Beard Foundation Book Award for General Cooking (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n|  | Eat Like a Fish: My Adventures as a Fisherman Turned Restorative Ocean Farmer    by  Bren Smith    4.39 avg rating — 1,972 ratings James Beard Foundation Book Award for Writing (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] |  | American Sfoglino: A Master Class in Handmade Pasta    by  Evan Funke    4.39 avg rating — 243 ratings James Beard Foundation Book Award for Photography (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n|  | Living Bread: Tradition and Innovation in Artisan Bread Making: A Baking Book    by  Daniel Leader    4.16 avg rating — 125 ratings James Beard Foundation Book Award for Baking and Dessert (2020) | Error rating book. Refresh a"
+          },
+          {
+            "title": "James Beard Cookbook and Media Award winners",
+            "url": "https://www.eatyourbooks.com/blog/2025/06/14/james-beard-cookbook-and-media-award-winners-2",
+            "snippet": "Single Subject: Jang The Soul of Korean Cooking: More than 60 Recipes Featuring Gochujang, Doenjang, and Ganjang by Mingoo Kang\n Restaurant and Professional: Convivir: Modern Mexican Cuisine in California’s Wine Country by Rogelio Garcia and Andrea Lawson Gray\n Beverages With Recipes: The Bartender’s Pantry: A Beverage Handbook for the Universal Bar by Jim Meehan and Bart Sasso with Emma Janzen\n Beverages Without Recipes: Sake: The Art and Craft of Japan’s National Drink by Yoshiko Ueno-Müller\n Reference, History and Scholarship and Visuals: McAtlas: A Global Guide to the Golden Arches by Gary He\n Food Issues and Advocacy: Ruin Their Crops on the Ground: The Politics of Food in the United States, from the Trail of Tears to School Lunch by Andrea Freeman [...] Food Writing: Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves by Nicola Twilley [...] Joe Yonan won the Vegetable-focused category with Mastering the Art of Plant-Based Cooking: Vegan Recipes, Tips, and Techniques, while Irina Janakievska walked away with the award in the International category for The Balkan Kitchen: Recipes and Stories from the Heart of the Balkans. That cover is a stunner, and it ap"
+          },
+          {
+            "title": "2025 James Beard Award Winners (14 books)",
+            "url": "https://www.goodreads.com/list/show/229204.2025_James_Beard_Award_Winners",
+            "snippet": "|  |  |  |  |\n ---  --- |\n| 1 |  | Sift: The Elements of Great Baking    by  Nicola Lamb    4.48 avg rating — 203 ratings  score: 100, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n| 2 |  | The Bartender's Pantry: A Beverage Handbook for the Universal Bar    by  Jim Meehan    4.48 avg rating — 21 ratings  score: 99, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] | 5 |  | Ruin Their Crops on the Ground: The Politics of Food in the United States, from the Trail of Tears to School Lunch    by  Andrea Freeman    3.98 avg rating — 596 ratings  score: 96, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n| 6 |  | Pass the Plate: 100 Delicious, Highly Shareable, Everyday Recipes    by  Carolina Gelen    4.33 avg rating — 248 ratings  score: 95, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars"
+          },
+          {
+            "title": "13 James Beard Award-Winning Books to Add to Your Library",
+            "url": "https://food52.com/story/25324-james-beard-award-winning-cookbooks-2020",
+            "snippet": "#### by Toni Tipton-Martin\n\n\"Though few writers are better at using recipes as a way to look at the past, Jubilee isn’t a history lesson,\" writes Tejal Rao in her review of Toni Tipton-Martin's work. \"It’s a celebration of African-American cuisine right now, in all of its abundance and variety, and a vital reminder that creative cooks are constantly adapting and updating it.\"\n\n### Baking and Desserts\n\n#### Living Bread: Tradition and Innovation in Artisan Bread Making\n\n#### By Daniel Leader and Lauren Chattman\n\nThis in-depth book on artisan bread, complete with 60 recipes, from Daniel Leader (founder of the iconic bakery, Bread Alone) and Lauren Chattman (a cookbook author and former professional pastry chef) is an essential resource for any serious home baker.\n\n### Beverage with Recipes [...] This debut cookbook from pasta guru Evan Funke highlights the techniques he learned while training in Bologna, the capital of Italy's Emilia-Romagna region. The incredibly detailed tutorials, introductions to rarer shapes, and crisp photographs make for an absolutely stunning, artful book.\n\n### Reference, History, and Scholarship\n\n#### The Whole Okra: A Seed to Stem Celebration\n\n#### By Chris"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "James Beard's Books",
+            "url": "https://archive.jamesbeard.org/about/james-beard-books",
+            "content": "New Recipes for the Cuisinart Food Processor  \n (1976)  \n It was love at first sight. Traveling in the south of France, Beard saw a food processor at a friend’s restaurant, and he had to have one. He arranged to have a Cuisinart shipped to his home in New York. Back in the States, Beard and his protégé Carl Jerome wrote a booklet of processor recipes that included Beard’s own recipes as well as those of friends Craig Claiborne, Marcella Hazan, Madhur Jaffrey, Barbara Kafka, Jacques Pépin, and André Soltner. According to Beverly Bundy’s The Century in Food, it was the recommendations of Beard and Julia Child that helped Cuisinart become “so hot during the 1976 Christmas season that retailers [sold] empty boxes as promises for future delivery.” [...] The Fireside Cook Book was a comprehensive text, not unlike The Joy of Cooking but with more personality. The charming color illustrations by Alice and Martin Provensen deserve credit, as does Beard’s voice, apparent in such menu suggestions as “Dinner for a Gloomy Day When All the Leftovers Are Gone.” The book contained more than 1,000 recipes, typically a basic preparation, such as cream soup, followed by a set of variations—cream of asparagus, cream of corn, and cream of celery. Beard made no bones about his desire to create an American cuisine, writing, “America has the opportunity, as well as the resources, to create for herself a truly national cuisine that will incorporate all that is best in the traditions of the many people who have crossed the seas to form our new, still young [...] The Fireside Cook Book: A Complete Guide to Fine Cooking for Beginner and Expert  \n (Simon and Schuster, 1949. Retitled in 1982 as The Fireside Cookbook. Reprinted in 2008, in hardcover.)",
+            "score": 0.7869018
+          },
+          {
+            "title": "James Beard Foundation Book Award Winners",
+            "url": "https://www.goodreads.com/award/show/5178-james-beard-foundation-book-award",
+            "content": "|  | Where Cooking Begins: Uncomplicated Recipes to Make You a Great Cook    by  Carla Lalli Music    3.95 avg rating — 1,534 ratings James Beard Foundation Book Award for General Cooking (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n|  | Eat Like a Fish: My Adventures as a Fisherman Turned Restorative Ocean Farmer    by  Bren Smith    4.39 avg rating — 1,972 ratings James Beard Foundation Book Award for Writing (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] |  | American Sfoglino: A Master Class in Handmade Pasta    by  Evan Funke    4.39 avg rating — 243 ratings James Beard Foundation Book Award for Photography (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n|  | Living Bread: Tradition and Innovation in Artisan Bread Making: A Baking Book    by  Daniel Leader    4.16 avg rating — 125 ratings James Beard Foundation Book Award for Baking and Dessert (2020) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] |  | Modernist Bread    by  Nathan Myhrvold    4.67 avg rating — 99 ratings James Beard Foundation Book Award for Restaurant and Professional (2018) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n|  | Deepa's Secrets: 70 Slow-Carb New Indian Recipes to Heal Your Gut    by  Deepa Thomas (Goodreads Author)    3.92 avg rating — 78 ratings James Beard Foundation Book Award for Health and Special Diets (2018) | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |",
+            "score": 0.7366474
+          },
+          {
+            "title": "James Beard Cookbook and Media Award winners",
+            "url": "https://www.eatyourbooks.com/blog/2025/06/14/james-beard-cookbook-and-media-award-winners-2",
+            "content": "Single Subject: Jang The Soul of Korean Cooking: More than 60 Recipes Featuring Gochujang, Doenjang, and Ganjang by Mingoo Kang\n Restaurant and Professional: Convivir: Modern Mexican Cuisine in California’s Wine Country by Rogelio Garcia and Andrea Lawson Gray\n Beverages With Recipes: The Bartender’s Pantry: A Beverage Handbook for the Universal Bar by Jim Meehan and Bart Sasso with Emma Janzen\n Beverages Without Recipes: Sake: The Art and Craft of Japan’s National Drink by Yoshiko Ueno-Müller\n Reference, History and Scholarship and Visuals: McAtlas: A Global Guide to the Golden Arches by Gary He\n Food Issues and Advocacy: Ruin Their Crops on the Ground: The Politics of Food in the United States, from the Trail of Tears to School Lunch by Andrea Freeman [...] Food Writing: Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves by Nicola Twilley [...] Joe Yonan won the Vegetable-focused category with Mastering the Art of Plant-Based Cooking: Vegan Recipes, Tips, and Techniques, while Irina Janakievska walked away with the award in the International category for The Balkan Kitchen: Recipes and Stories from the Heart of the Balkans. That cover is a stunner, and it appears that in this case, you can judge a book by its cover.",
+            "score": 0.69795954
+          },
+          {
+            "title": "2025 James Beard Award Winners (14 books)",
+            "url": "https://www.goodreads.com/list/show/229204.2025_James_Beard_Award_Winners",
+            "content": "|  |  |  |  |\n ---  --- |\n| 1 |  | Sift: The Elements of Great Baking    by  Nicola Lamb    4.48 avg rating — 203 ratings  score: 100, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n| 2 |  | The Bartender's Pantry: A Beverage Handbook for the Universal Bar    by  Jim Meehan    4.48 avg rating — 21 ratings  score: 99, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] | 5 |  | Ruin Their Crops on the Ground: The Politics of Food in the United States, from the Trail of Tears to School Lunch    by  Andrea Freeman    3.98 avg rating — 596 ratings  score: 96, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n| 6 |  | Pass the Plate: 100 Delicious, Highly Shareable, Everyday Recipes    by  Carolina Gelen    4.33 avg rating — 248 ratings  score: 95, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars | [...] | 7 |  | The Balkan Kitchen: Recipes and Stories from the Heart of the Balkans    by  Irina Janakievska    4.50 avg rating — 18 ratings  score: 94, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |\n| 8 |  | Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves    by  Nicola Twilley    4.21 avg rating — 2,545 ratings  score: 93, and 1 person voted | Error rating book. Refresh and try again.  Rate this book  Clear rating  1 of 5 stars2 of 5 stars3 of 5 stars4 of 5 stars5 of 5 stars |",
+            "score": 0.67269784
+          },
+          {
+            "title": "13 James Beard Award-Winning Books to Add to Your Library",
+            "url": "https://food52.com/story/25324-james-beard-award-winning-cookbooks-2020",
+            "content": "#### by Toni Tipton-Martin\n\n\"Though few writers are better at using recipes as a way to look at the past, Jubilee isn’t a history lesson,\" writes Tejal Rao in her review of Toni Tipton-Martin's work. \"It’s a celebration of African-American cuisine right now, in all of its abundance and variety, and a vital reminder that creative cooks are constantly adapting and updating it.\"\n\n### Baking and Desserts\n\n#### Living Bread: Tradition and Innovation in Artisan Bread Making\n\n#### By Daniel Leader and Lauren Chattman\n\nThis in-depth book on artisan bread, complete with 60 recipes, from Daniel Leader (founder of the iconic bakery, Bread Alone) and Lauren Chattman (a cookbook author and former professional pastry chef) is an essential resource for any serious home baker.\n\n### Beverage with Recipes [...] This debut cookbook from pasta guru Evan Funke highlights the techniques he learned while training in Bologna, the capital of Italy's Emilia-Romagna region. The incredibly detailed tutorials, introductions to rarer shapes, and crisp photographs make for an absolutely stunning, artful book.\n\n### Reference, History, and Scholarship\n\n#### The Whole Okra: A Seed to Stem Celebration\n\n#### By Chris Smith\n\nChris Smith knows just about everything there is to know about okra—from its centuries-long history to the many delicious ways you can cook with it. This deep-dive celebration of a single ingredient is an unexpectedly captivating read.\n\n### Restaurant and Professional | Book of the Year\n\n#### The Whole Fish Cookbook: New Ways to Cook, Eat and Think\n\n#### By Josh Niland [...] ### Beverage with Recipes\n\n#### The NoMad Cocktail Book\n\n#### By Leo Robitschek\n\nThis comprehensive cocktail guide from Leo Robitschek, award-winning bar director of The NoMad Bar, covers everything from aperitifs and classic drinks to syrups and infusions.\n\n### Beverage without Recipes\n\n#### World Atlas of Wine 8th Edition\n\n#### By Hugh Johnson and Jancis Robinson\n\nThis edition of the World Atlas of Wine from Hugh Johnson and Jancis Robinson, who was also added to the James Beard Foundation's Cookbook Hall of Fame this year, is considered to be one of the most important—if not the most important—reference books on wine.\n\nFood | Recipes\n\n## This Is, Definitively, the Best Bread Book in All the Land\n\nRead More\n\n### General",
+            "score": 0.6638657
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "James Beard's Books",
+            "url": "https://archive.jamesbeard.org/about/james-beard-books",
+            "score": 0.7869018
+          },
+          {
+            "title": "James Beard Foundation Book Award Winners",
+            "url": "https://www.goodreads.com/award/show/5178-james-beard-foundation-book-award",
+            "score": 0.7366474
+          },
+          {
+            "title": "James Beard Cookbook and Media Award winners",
+            "url": "https://www.eatyourbooks.com/blog/2025/06/14/james-beard-cookbook-and-media-award-winners-2",
+            "score": 0.69795954
+          },
+          {
+            "title": "2025 James Beard Award Winners (14 books)",
+            "url": "https://www.goodreads.com/list/show/229204.2025_James_Beard_Award_Winners",
+            "score": 0.67269784
+          },
+          {
+            "title": "13 James Beard Award-Winning Books to Add to Your Library",
+            "url": "https://food52.com/story/25324-james-beard-award-winning-cookbooks-2020",
+            "score": 0.6638657
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "James Beard"
+          },
+          {
+            "type": "name_like",
+            "value": "Books\nNew Recipes"
+          },
+          {
+            "type": "name_like",
+            "value": "Cuisinart Food Processor"
+          },
+          {
+            "type": "name_like",
+            "value": "Traveling"
+          },
+          {
+            "type": "name_like",
+            "value": "France"
+          },
+          {
+            "type": "name_like",
+            "value": "Beard"
+          },
+          {
+            "type": "name_like",
+            "value": "Cuisinart"
+          },
+          {
+            "type": "name_like",
+            "value": "New York"
+          },
+          {
+            "type": "name_like",
+            "value": "Back"
+          },
+          {
+            "type": "name_like",
+            "value": "States"
+          },
+          {
+            "type": "name_like",
+            "value": "Carl Jerome"
+          },
+          {
+            "type": "name_like",
+            "value": "Craig Claiborne"
+          },
+          {
+            "type": "name_like",
+            "value": "Marcella Hazan"
+          },
+          {
+            "type": "name_like",
+            "value": "Madhur Jaffrey"
+          },
+          {
+            "type": "name_like",
+            "value": "Barbara Kafka"
+          },
+          {
+            "type": "name_like",
+            "value": "Jacques"
+          },
+          {
+            "type": "name_like",
+            "value": "Soltner"
+          },
+          {
+            "type": "name_like",
+            "value": "According"
+          },
+          {
+            "type": "name_like",
+            "value": "Beverly Bundy"
+          },
+          {
+            "type": "name_like",
+            "value": "The Century"
+          },
+          {
+            "type": "name_like",
+            "value": "Food"
+          },
+          {
+            "type": "name_like",
+            "value": "Julia Child"
+          },
+          {
+            "type": "name_like",
+            "value": "Christmas"
+          },
+          {
+            "type": "name_like",
+            "value": "The Fireside Cook Book"
+          },
+          {
+            "type": "name_like",
+            "value": "The Joy"
+          },
+          {
+            "type": "name_like",
+            "value": "Cooking"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Alice"
+          },
+          {
+            "type": "name_like",
+            "value": "Martin Provensen"
+          },
+          {
+            "type": "name_like",
+            "value": "Dinner"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the complete title of the book found in the previous search.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "person",
+          "book"
+        ],
+        "entities": [
+          {
+            "name": "New Recipes for the Cuisinart Food Processor",
+            "type": "book",
+            "evidence": "The complete title of the book that includes recommendations from James Beard and Julia Child is 'New Recipes for the Cuisinart Food Processor'.",
+            "source_url": "https://archive.jamesbeard.org/about/james-beard-books"
+          }
+        ],
+        "key_points": [
+          "The book features recommendations from James Beard and Julia Child."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "New Recipes for the Cuisinart Food Processor",
+            "source_url": "https://archive.jamesbeard.org/about/james-beard-books"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Produce the final answer with the complete title of the book.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "New Recipes for the Cuisinart Food Processor",
+        "final_answer_strict": "New Recipes for the Cuisinart Food Processor",
+        "used_evidence": [
+          "The complete title of the book that includes recommendations from James Beard and Julia Child is 'New Recipes for the Cuisinart Food Processor'."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "new recipes for the cuisinart food processor",
+    "gt_norm": "five hundred things to eat before it's too late: and the very best places to eat them"
+  }
+}

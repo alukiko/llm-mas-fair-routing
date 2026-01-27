@@ -1,0 +1,625 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+    "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+    "used_evidence": [
+      "Pietro Murano and Iram Khan authored the paper 'Pie Menus or Linear Menus, Which Is Better?' in 2015.",
+      "Prior to this, Pietro Murano authored a paper titled 'Menu Positioning on Web Pages. Does it Matter?'"
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Menu Positioning on Web Pages. Does it Matter?",
+  "error": null,
+  "duration_sec": 75.41305565834045,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' are Pietro Murano and Iram Khan.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          },
+          {
+            "fact": "The paper was published on September 9, 2015.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          },
+          {
+            "fact": "Pietro Murano is affiliated with the Universal Design of ICT Research Group at Oslo and Akershus University College of Applied Sciences, Oslo, Norway.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          },
+          {
+            "fact": "Iram Khan is affiliated with the University of Salford, School of Computing, Science and Engineering, Salford, UK.",
+            "source_url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf"
+          }
+        ],
+        "summary": "The paper 'Pie Menus or Linear Menus, Which Is Better?' authored by Pietro Murano and Iram Khan compares the usability of pie menus and linear menus, and was published on September 9, 2015.",
+        "sources": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matte"
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "snippet": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a"
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "snippet": "Pie menus are most suited for actions that have been laid out by humans, and have logical grouping choices. Linear menus are most suited for dynamic, large menus that have many possible options, without any logical grouping, since pie menus can only show a limited number of menu items. Around 3-12 items can be reasonably accommodated in a radial layout, but additional items past that tend to counteract the benefits of using pie menus in the first place. This can be overcome with related techniques that allow chaining commands in one single gesture through submenus. [...] Pie menus show available options, in contrast to invisible mouse gestures. Pie menus, which delay appearance until the pointer is not moving, reduce intrusiveness to the same level as mouse gestures for experienced users. Pie menus take up more screen space than linear menus, and the number of slices in an individual menu must be kept low for effectiveness by using submenus. When using pie menus, submenus may overlap with the parent menu, but the parent menu may become translucent or hidden. [...] ## History\n\n[edit]\n\nThe first documented radial menu is attributed to a system called PIXIE in 1969. Some universities "
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "snippet": "Search or ask a question\n\nAgent GalleryChat with PDFLiterature ReviewAI WriterFind TopicsCitation GeneratorExtract DataAI Detector\n\niOS AppChrome ExtensionUse on ChatGPT\n\nAffiliate ProgramLive Workshop\n\nTopic\n\n# Pie menu\n\nAbout: Pie menu is a research topic. Over the lifetime, 53 publications have been published within this topic receiving 2075 citations. The topic is also known as: pie menu.\n\n##### Papers published on a yearly basis\n\n 2020\n 2019\n 2018\n 2017\n 2015\n 2014\n 2013\n 2012\n 2011\n 2010\n 2009\n 2008\n 2007\n 2006\n 2004\n 2003\n 1999\n 1996\n 1994\n 1993\n 1992\n 1991\n 1988\n\n##### Papers\n\nProceedings Article•10.1145/57167.57182•\n\n##### An empirical comparison of pie vs. linear menus\n\n[...]\n\nJ. Callahan1, Don Hopkins1, M. Weiser1, Ben Shneiderman1•\n\nUniversity of Maryland, College Park1 [...] University of Maryland, College Park1\n\n1 May 1988\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law."
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "content": "Corpus ID: 43958538\n\n# Pie Menus or Linear Menus, Which Is Better?\n\n```\n@inproceedings{Murano2015PieMO,\n  title={Pie Menus or Linear Menus, Which Is Better?},\n  author={Pietro Murano and Iram Khan},\n  year={2015},\n  url={\n}\n```\n\n Pietro Murano, Iram Khan\n Published 9 September 2015\n Computer Science\n\nThis paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail.\n\n## Topics\n\nLinear Menus (opens in a new tab)Pose , Illumination , And Expression (opens in a new tab)Pie Menu (opens in a new tab)\n\n## 7 Citations\n\n### User Interface Menu Design Performance and User Preferences: A Review and Ways Forward\n\nPietro MuranoMargrete Sander\n\nComputer Science [...] 1\n\n### Multiple Platform First : Design Guidelines for Multiple Platform Games\n\nE. Andersson\n\nComputer Science\n\n 2019\n\nThis thesis investigates the two gaming platforms PC and Console and how the interfaces of games on these platforms could be designed more efficiently making it easier to release games on multiple ...\n\n PDF\n\n## 10 References\n\n### Menu Positioning on Web Pages. Does it Matter\n\nPietro MuranoTracey J. Lomas\n\nComputer Science\n\n 2015\n\nThe design and results of an empirical experiment, investigating the usability of menu positioning on web pages, suggest that the top horizontal and left vertical positioned menus incurred fewer errors and fewer mouse clicks.\n\n 6\n PDF\n\n### When left might not be right\n\nX. FaulknerClive Hayton\n\nComputer Science\n\n 2011 [...] Computer Science\n\nInt. J. Hum. Comput. Interact.\n\n 2024\n\nThe results indicated that the pie menu offered notable advantages by reducing muscular loads, achieving shorter task completion times, and delivering an overall more enjoyable user experience, making it a preferable choice for mid-air interaction in photo booth settings.\n\n 6\n\n### Breadth and orientation of pie menus for mid-air interaction: effects on upper extremity biomechanics, performance, and subjective assessment\n\nLujin MaoK. OnoMengyao QiJinghua HuangMakoto Watanabe\n\nComputer Science\n\nBehav. Inf. Technol.\n\n 2025\n\nABSTRACT The number and layout of options within pie menus are crucial for determining the direction of radial swiping in mid-air interactions, influencing the physical demands imposed on users. This…\n\n 1",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "content": "Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and Information Sciences ©2009-2015 CIS Journal. All rights reserved.  476 Pie Menus or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N. Khan 1 Department of Computer Science, the Universal Design of ICT Research Group, Oslo and Akershus University College of Applied Sciences, Oslo, Norway 2 University of Salford, School of Computing, Science and Engineering, Salford, M5 4WT, UK ABSTRACT This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus. Although other researchers have investigated similar themes it is felt that there is still not enough knowledge regarding the [...] is not clear and would need investigating further. Although more work has been carried out in the context of linear menus as described briefly above, the work concerning pie menus is more limited, e.g. in Rubio and Janecek some improvements to basic pie menus are described. They developed pie menus as contextual menus to have transparency, the possibility for the user to move the menu and a feature allowing the user to lock the pie menu open and deploy several commands on one object. This was in the context of a ‘graphical schema editor for modelling spatio-temporal databases’ . The ideas described in the paper are very interesting; however it would have been also interesting and useful if some evaluation of this design had been done. In Samp and Decker  a comparison by means of an [...] that deeper levels of menus are tested. This may show some differences at deeper levels but not at higher levels and having this knowledge could be useful and interesting. REFERENCES  Kelly, K. (2010) What Technology Wants, Viking Books.  Kalbach, J. &Bosenick, T. (2003) Web Page Layout: A Comparison between Left and Right Justified Site Navigation Menus, Journal of Digital Information, Vol 4, No 1.  Murano, P. & Lomas, T.J. (2015) Menu Positioning on Web Pages. Does it Matter?, International Journal of Advanced Computer Science and Applications, Vol. 6, Issue 4, April 2015.  Faulkner, X. &Hayton, C (2011) When Left Might Not Be Right, Journal of Usability Studies, Vol 6, Issue 4, P. 245-256. Vol. 6, No. 9, September 2015 ISSN 2079-8407 Journal of Emerging Trends in Computing and",
+            "score": 0.9412289
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "content": "Pie menus are most suited for actions that have been laid out by humans, and have logical grouping choices. Linear menus are most suited for dynamic, large menus that have many possible options, without any logical grouping, since pie menus can only show a limited number of menu items. Around 3-12 items can be reasonably accommodated in a radial layout, but additional items past that tend to counteract the benefits of using pie menus in the first place. This can be overcome with related techniques that allow chaining commands in one single gesture through submenus. [...] Pie menus show available options, in contrast to invisible mouse gestures. Pie menus, which delay appearance until the pointer is not moving, reduce intrusiveness to the same level as mouse gestures for experienced users. Pie menus take up more screen space than linear menus, and the number of slices in an individual menu must be kept low for effectiveness by using submenus. When using pie menus, submenus may overlap with the parent menu, but the parent menu may become translucent or hidden. [...] ## History\n\n[edit]\n\nThe first documented radial menu is attributed to a system called PIXIE in 1969. Some universities explored alternative visual layouts.\n\nIn 1986, Mike Gallaher and Don Hopkins together independently arrived at the concept of a context menu based on the angle to the origin where the exact angle and radius could be passed as parameters to a command, and a mouse click could be used to trigger an item or submenu.\n\nThe first performance comparison to linear menus was performed in 1988, and showed an increase in performance of 15% less time and a reduction of selection errors.\n\nThe role-playing video game Secret of Mana featured an innovative icon-based radial menu system in 1993. Its ring menu system was adopted by later video games.\n\n## Usage\n\n[edit]\n\n|  |",
+            "score": 0.75723875
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "content": "Search or ask a question\n\nAgent GalleryChat with PDFLiterature ReviewAI WriterFind TopicsCitation GeneratorExtract DataAI Detector\n\niOS AppChrome ExtensionUse on ChatGPT\n\nAffiliate ProgramLive Workshop\n\nTopic\n\n# Pie menu\n\nAbout: Pie menu is a research topic. Over the lifetime, 53 publications have been published within this topic receiving 2075 citations. The topic is also known as: pie menu.\n\n##### Papers published on a yearly basis\n\n 2020\n 2019\n 2018\n 2017\n 2015\n 2014\n 2013\n 2012\n 2011\n 2010\n 2009\n 2008\n 2007\n 2006\n 2004\n 2003\n 1999\n 1996\n 1994\n 1993\n 1992\n 1991\n 1988\n\n##### Papers\n\nProceedings Article•10.1145/57167.57182•\n\n##### An empirical comparison of pie vs. linear menus\n\n[...]\n\nJ. Callahan1, Don Hopkins1, M. Weiser1, Ben Shneiderman1•\n\nUniversity of Maryland, College Park1 [...] University of Maryland, College Park1\n\n1 May 1988\n\nTL;DR: Pie menus are a format where the items are placed along the circumference of a circle at equal radial distances from the center where they gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in Fitts's Law.",
+            "score": 0.74563974
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "content": "A 2x3 randomized block design ensured each participant interacted with 60 menus, evenly distributing exposure to pie and linear formats across various task types.\n\nWhat limitations did the study identify regarding pie menus?add\n\nThe paper notes that pie menus consume more screen space and may obscure target prompts, necessitating further research on usability in diverse settings.\n\nAbout the author\n\nJohn Callahan\n\nPapers\n\n61\n\nFollowers\n\n9\n\nView all papers from John Callahanarrow\\_forward\n\n## Related papers\n\nEffects of Menu Types and Item Lengths on Operation Efficiency\n\nSharon (Yu-Hsuan) Chang [...] downloadDownload free PDFView PDFchevron\\_right\n\nCloud Menus, a Circular Adaptive Menu for Small Screens\n\nDenis Chêne, Gaelle Calvary [...] downloadDownload free PDFView PDFchevron\\_right\n\nPerformance Evaluation And Analysis Of Fisheye, Tree And Linear Menus On A Web Based Interfaces\n\nSaidu Muhammad\n\nIJARCCE",
+            "score": 0.7230167
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "score": 0.950342
+          },
+          {
+            "title": "[PDF] Pie Menus or Linear Menus, Which Is Better? - Pietro Murano",
+            "url": "https://pietromurano.org/Papers/Murano-Khan-Published-Version.pdf",
+            "score": 0.9412289
+          },
+          {
+            "title": "Pie menu",
+            "url": "https://en.wikipedia.org/wiki/Pie_menu",
+            "score": 0.75723875
+          },
+          {
+            "title": "Pie menu | 53 Publications | 1179 Citations | Top Authors | Related ...",
+            "url": "https://scispace.com/topics/pie-menu-2i4ontcp",
+            "score": 0.74563974
+          },
+          {
+            "title": "An empirical comparison of pie vs. linear menus - Academia.edu",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "score": 0.7230167
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Pie Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Linear Menus"
+          },
+          {
+            "type": "name_like",
+            "value": "Which Is Better"
+          },
+          {
+            "type": "name_like",
+            "value": "Semantic Scholar\nCorpus"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro Murano"
+          },
+          {
+            "type": "name_like",
+            "value": "Iram Khan"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Computer Science"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Topics"
+          },
+          {
+            "type": "name_like",
+            "value": "Pose"
+          },
+          {
+            "type": "name_like",
+            "value": "Illumination"
+          },
+          {
+            "type": "name_like",
+            "value": "And Expression"
+          },
+          {
+            "type": "name_like",
+            "value": "Pie Menu"
+          },
+          {
+            "type": "name_like",
+            "value": "Citations"
+          },
+          {
+            "type": "name_like",
+            "value": "User Interface Menu Design"
+          },
+          {
+            "type": "name_like",
+            "value": "Performance"
+          },
+          {
+            "type": "name_like",
+            "value": "User Preferences"
+          },
+          {
+            "type": "name_like",
+            "value": "Review"
+          },
+          {
+            "type": "name_like",
+            "value": "Ways Forward"
+          },
+          {
+            "type": "name_like",
+            "value": "Pietro"
+          },
+          {
+            "type": "name_like",
+            "value": "Sander"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform First"
+          },
+          {
+            "type": "name_like",
+            "value": "Design Guidelines"
+          },
+          {
+            "type": "name_like",
+            "value": "Multiple Platform Games"
+          },
+          {
+            "type": "name_like",
+            "value": "Andersson"
+          },
+          {
+            "type": "name_like",
+            "value": "Console"
+          },
+          {
+            "type": "name_like",
+            "value": "References"
+          },
+          {
+            "type": "name_like",
+            "value": "Menu Positioning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"Pietro Murano and Iram Khan\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2\"\n    },\n    {\n      \"name\": \"Iram Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"Pietro Murano and Iram Khan\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2\"\n    }\n  ],\n  \"key_points\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' compares the usability of pie menus and linear menus.\",\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"Pietro Murano and I"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find the prior papers authored by the extracted authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the prior papers authored by the extracted authors.",
+        "facts": [
+          {
+            "fact": "Elsevier does not consider an abstract, academic thesis, or preprint as prior publication.",
+            "source_url": "https://www.elsevier.com/connect/ive-seen-this-somewhere-before-what-counts-as-prior-publication"
+          },
+          {
+            "fact": "A total of 416 paper mill papers were retracted in 2022, with 92.3% of authors affiliated with Chinese institutions.",
+            "source_url": "https://www.sciencedirect.com/science/article/pii/S0895435624001525"
+          },
+          {
+            "fact": "Emerald Group Publishing allows submissions that are based on previously presented preprints, conference papers, or theses under certain conditions.",
+            "source_url": "https://www.emeraldgrouppublishing.com/publish-with-us/author-policies/pre-prints-conference-papers-policies"
+          }
+        ],
+        "summary": "Various publishing policies clarify what constitutes prior publication, with different views on abstracts, theses, and preprints. Notably, a significant number of retracted papers are linked to paper mills, predominantly involving authors from Chinese institutions.",
+        "sources": [
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "snippet": "Returned Publications: 59 (total = 59) Time: 1.99s Returned Publications: 49 (total = 49) Time: 0.93s Returned Publications: 48 (total = 48) Time: 0.93s Returned Publications: 61 (total = 61) Time: 1.02s Returned Publications: 36 (total = 36) Time: 0.86s Returned Publications: 41 (total = 41) Time: 0.85s Returned Publications: 64 (total = 64) Time: 0.94s Returned Publications: 36 (total = 36) Time: 0.91s Returned Publications: 29 (total = 29) Time: 0.98s Returned Publications: 48 (total = 48) Time: 0.93s Returned Publications: 40 (total = 40) Time: 0.90s Returned Publications: 23 (total = 23) Time: 0.79s Returned Publications: 45 (total = 45) Time: 0.93s Returned Publications: 53 (total = 53) Time: 1.13s Returned Publications: 38 (total = 38) Time: 0.94s Returned Publications: 61 (total = [...] (total = 38) Time: 0.94s Returned Publications: 61 (total = 61) Time: 0.96s Returned Publications: 36 (total = 36) Time: 1.76s Returned Publications: 59 (total = 59) Time: 1.06s Returned Publications: 52 (total = 52) Time: 0.94s Returned Publications: 47 (total = 47) Time: 0.96s Returned Publications: 25 (total = 25) Time: 0.88s Returned Publications: 52 (total = 52) Time: 0.98s Returned Pub"
+          },
+          {
+            "title": "“I've seen this somewhere before!” What counts as prior publication?",
+            "url": "https://www.elsevier.com/connect/ive-seen-this-somewhere-before-what-counts-as-prior-publication",
+            "snippet": "Elsevier has previously clarified that it does not view an abstract, academic thesis or preprint to be prior publication because these are deemed to provide different and complementary services to formal journal publications. Even then, it is not always straightforward to identify prior works as belonging to these “allowed” categories, but tools to help editors establish this are slowly catching up. For instance, preprints are tagged as such in CrossRef Similarity Check to help editors avoid misinterpreting a match to an author’s own preprint as a duplication. Our tips & tricks, linked from the plagiarism detection page, provide information on this feature; further enhancements to improve transparency around preprints are planned. [...] For other types of earlier works, such as conference papers/proceedings, government reports, working papers, laboratory reports, cumulative theses, work that was rejected but remains available on a platform, and more, it can be difficult to decide whether these works are considered prior publication. To help determine whether formally publishing a prior work in the journal would be appropriate, editors should consider the following questions, seekin"
+          },
+          {
+            "title": "Retracted papers originating from paper mills: a cross- ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0895435624001525",
+            "snippet": ":   Disclaimer: The lead author affirms that this manuscript is an honest, accurate, and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained.\n\n© 2024 The Author(s). Published by Elsevier Inc. [...] ### Results [...] A total of 416 paper mill papers retracted in 2022 (sourced retracted papers) were identified, with a median of 1247 (interquartilic range, 907.8–1673.5) days between publication and retraction. Of all authors identified, 92.3% were affiliated with Chinese institutions. There were 14,411 references contained in the source-retracted papers and 8479 citations received by them; the median number of references and citations was 35 (29–40) and 16 (9–25), respectively. In total, 473 references and citations had also been retracted for being paper mill papers. Among the 416 sourced-retracted papers, 169 (41.9%) and 178 (42.8%) were referenced or were cited by at least another retracted paper, the majority of which also originated from paper mills. The first network analysis, which included"
+          },
+          {
+            "title": "Prior publication - Sage Publishing",
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/prior-publication",
+            "snippet": "## Information for\n\nAuthors\n\nSocieties & Partners [...] ##### Raw data and clinical trials registries\n\nNew papers based on data that have been previously referenced in other works may be acceptable. However, please note that permission may be required to re-use collections of data, and any prior works by you based on the same data collection as that used in the manuscript should be identified by you when submitting the manuscript to the journal. If you are reproducing data that was arranged, organized or compiled by someone else (such as in a table or appendix), you should check whether permission is needed to reproduce the table, appendix, or other collection of data within your manuscript."
+          },
+          {
+            "title": "Prior publication – preprints, conference papers & theses",
+            "url": "https://www.emeraldgrouppublishing.com/publish-with-us/author-policies/pre-prints-conference-papers-policies",
+            "snippet": "Read our author policies \n\nRead our author policies\n\n### Find a journal\n\nSearch more than 300 Emerald titles, you can find the right match for your research.\n\n Search our journals \n\nSearch our journals\n\n### Our editorial policy\n\nWe welcome submissions for consideration which are original and not under consideration for any other publication at the same time. Read our editorial policy and originality guidelines.\n\n Read our policy \n\nRead our policy [...] # Prior publication – preprints, conference papers & theses\n\nWhen you submit your article to us, we ask you to confirm that your work is original, previously unpublished and is not currently under submission elsewhere, with the exception of some preprints, conference papers and theses. Read our policies on these here.\n\n## Preprint policy\n\nUploading a preprint has become an increasingly common way for researchers in many disciplines to share their research quickly.\n\nWhen uploading to a preprint server, we would recommend you check that: [...] The server clearly identifies preprints as non-peer reviewed works.\n The server asks authors to disclose all relationships and activities that might bias or be seen to bias their work.\n If the se"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "content": "Returned Publications: 59 (total = 59) Time: 1.99s Returned Publications: 49 (total = 49) Time: 0.93s Returned Publications: 48 (total = 48) Time: 0.93s Returned Publications: 61 (total = 61) Time: 1.02s Returned Publications: 36 (total = 36) Time: 0.86s Returned Publications: 41 (total = 41) Time: 0.85s Returned Publications: 64 (total = 64) Time: 0.94s Returned Publications: 36 (total = 36) Time: 0.91s Returned Publications: 29 (total = 29) Time: 0.98s Returned Publications: 48 (total = 48) Time: 0.93s Returned Publications: 40 (total = 40) Time: 0.90s Returned Publications: 23 (total = 23) Time: 0.79s Returned Publications: 45 (total = 45) Time: 0.93s Returned Publications: 53 (total = 53) Time: 1.13s Returned Publications: 38 (total = 38) Time: 0.94s Returned Publications: 61 (total = [...] (total = 38) Time: 0.94s Returned Publications: 61 (total = 61) Time: 0.96s Returned Publications: 36 (total = 36) Time: 1.76s Returned Publications: 59 (total = 59) Time: 1.06s Returned Publications: 52 (total = 52) Time: 0.94s Returned Publications: 47 (total = 47) Time: 0.96s Returned Publications: 25 (total = 25) Time: 0.88s Returned Publications: 52 (total = 52) Time: 0.98s Returned Publications: 67 (total = 67) Time: 0.98s Returned Publications: 72 (total = 72) Time: 1.02s Returned Publications: 26 (total = 26) Time: 0.83s Returned Publications: 64 (total = 64) Time: 0.95s Returned Publications: 52 (total = 52) Time: 0.96s Returned Publications: 42 (total = 42) Time: 0.85s Returned Publications: 75 (total = 75) Time: 0.94s Returned Publications: 81 (total = 81) Time: 1.01s Returned [...] Returned Publications: 81 (total = 81) Time: 1.01s Returned Publications: 99 (total = 99) Time: 1.06s Returned Publications: 22 (total = 22) Time: 0.91s Returned Publications: 109 (total = 109) Time: 0.94s Returned Publications: 48 (total = 48) Time: 0.91s Returned Publications: 38 (total = 38) Time: 0.85s Returned Publications: 78 (total = 78) Time: 0.92s Returned Publications: 53 (total = 53) Time: 0.89s Returned Publications: 72 (total = 72) Time: 1.03s Returned Publications: 50 (total = 50) Time: 1.06s Returned Publications: 15 (total = 15) Time: 0.69s --- Found 2065 publications for the given criteria (including duplicates) Final result: 904 unique publications",
+            "score": 0.26303744
+          },
+          {
+            "title": "“I've seen this somewhere before!” What counts as prior publication?",
+            "url": "https://www.elsevier.com/connect/ive-seen-this-somewhere-before-what-counts-as-prior-publication",
+            "content": "Elsevier has previously clarified that it does not view an abstract, academic thesis or preprint to be prior publication because these are deemed to provide different and complementary services to formal journal publications. Even then, it is not always straightforward to identify prior works as belonging to these “allowed” categories, but tools to help editors establish this are slowly catching up. For instance, preprints are tagged as such in CrossRef Similarity Check to help editors avoid misinterpreting a match to an author’s own preprint as a duplication. Our tips & tricks, linked from the plagiarism detection page, provide information on this feature; further enhancements to improve transparency around preprints are planned. [...] For other types of earlier works, such as conference papers/proceedings, government reports, working papers, laboratory reports, cumulative theses, work that was rejected but remains available on a platform, and more, it can be difficult to decide whether these works are considered prior publication. To help determine whether formally publishing a prior work in the journal would be appropriate, editors should consider the following questions, seeking information from the author as required: [...] Was copyright for the earlier work transferred from the author to a third party, or an exclusive license granted by the author to a third party? If so, Elsevier cannot legally republish the paper without permission from that third party. For open access publications, even if the prior work was published under a license that permits republication, editors should consider the other questions offered here to determine whether this would be appropriate and progress the scientific discourse.",
+            "score": 0.20159344
+          },
+          {
+            "title": "Retracted papers originating from paper mills: a cross- ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0895435624001525",
+            "content": ":   Disclaimer: The lead author affirms that this manuscript is an honest, accurate, and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained.\n\n© 2024 The Author(s). Published by Elsevier Inc. [...] ### Results [...] A total of 416 paper mill papers retracted in 2022 (sourced retracted papers) were identified, with a median of 1247 (interquartilic range, 907.8–1673.5) days between publication and retraction. Of all authors identified, 92.3% were affiliated with Chinese institutions. There were 14,411 references contained in the source-retracted papers and 8479 citations received by them; the median number of references and citations was 35 (29–40) and 16 (9–25), respectively. In total, 473 references and citations had also been retracted for being paper mill papers. Among the 416 sourced-retracted papers, 169 (41.9%) and 178 (42.8%) were referenced or were cited by at least another retracted paper, the majority of which also originated from paper mills. The first network analysis, which included",
+            "score": 0.17651571
+          },
+          {
+            "title": "Prior publication - Sage Publishing",
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/prior-publication",
+            "content": "## Information for\n\nAuthors\n\nSocieties & Partners [...] ##### Raw data and clinical trials registries\n\nNew papers based on data that have been previously referenced in other works may be acceptable. However, please note that permission may be required to re-use collections of data, and any prior works by you based on the same data collection as that used in the manuscript should be identified by you when submitting the manuscript to the journal. If you are reproducing data that was arranged, organized or compiled by someone else (such as in a table or appendix), you should check whether permission is needed to reproduce the table, appendix, or other collection of data within your manuscript.",
+            "score": 0.1666079
+          },
+          {
+            "title": "Prior publication – preprints, conference papers & theses",
+            "url": "https://www.emeraldgrouppublishing.com/publish-with-us/author-policies/pre-prints-conference-papers-policies",
+            "content": "Read our author policies \n\nRead our author policies\n\n### Find a journal\n\nSearch more than 300 Emerald titles, you can find the right match for your research.\n\n Search our journals \n\nSearch our journals\n\n### Our editorial policy\n\nWe welcome submissions for consideration which are original and not under consideration for any other publication at the same time. Read our editorial policy and originality guidelines.\n\n Read our policy \n\nRead our policy [...] # Prior publication – preprints, conference papers & theses\n\nWhen you submit your article to us, we ask you to confirm that your work is original, previously unpublished and is not currently under submission elsewhere, with the exception of some preprints, conference papers and theses. Read our policies on these here.\n\n## Preprint policy\n\nUploading a preprint has become an increasingly common way for researchers in many disciplines to share their research quickly.\n\nWhen uploading to a preprint server, we would recommend you check that: [...] The server clearly identifies preprints as non-peer reviewed works.\n The server asks authors to disclose all relationships and activities that might bias or be seen to bias their work.\n If the server requires you to complete a licence agreement to make a deposit, you fully understand the rights you are giving to the platform, and if any limitations are imposed for the future use of your work.\n You have reviewed any copyright or preprint policies at your institution and funder to ensure the preprint deposit is allowed.\n\n### Submitting a preprint to an Emerald journal\n\nEmerald will consider papers for publication that have been posted to a preprint server before they are submitted to Emerald.",
+            "score": 0.14288872
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Extracting researchers based on affiliations and publications history",
+            "url": "https://api-lab.dimensions.ai/cookbooks/7-researchers/Researchers-Search-tips-V2.html",
+            "score": 0.26303744
+          },
+          {
+            "title": "“I've seen this somewhere before!” What counts as prior publication?",
+            "url": "https://www.elsevier.com/connect/ive-seen-this-somewhere-before-what-counts-as-prior-publication",
+            "score": 0.20159344
+          },
+          {
+            "title": "Retracted papers originating from paper mills: a cross- ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0895435624001525",
+            "score": 0.17651571
+          },
+          {
+            "title": "Prior publication - Sage Publishing",
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/prior-publication",
+            "score": 0.1666079
+          },
+          {
+            "title": "Prior publication – preprints, conference papers & theses",
+            "url": "https://www.emeraldgrouppublishing.com/publish-with-us/author-policies/pre-prints-conference-papers-policies",
+            "score": 0.14288872
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Extracting"
+          },
+          {
+            "type": "name_like",
+            "value": "Returned Publications"
+          },
+          {
+            "type": "name_like",
+            "value": "Time"
+          },
+          {
+            "type": "name_like",
+            "value": "Returned Pub"
+          },
+          {
+            "type": "name_like",
+            "value": "What"
+          },
+          {
+            "type": "name_like",
+            "value": "Elsevier"
+          },
+          {
+            "type": "name_like",
+            "value": "Even"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Similarity Check"
+          },
+          {
+            "type": "name_like",
+            "value": "Our"
+          },
+          {
+            "type": "name_like",
+            "value": "Retracted"
+          },
+          {
+            "type": "name_like",
+            "value": "Disclaimer"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "The Author"
+          },
+          {
+            "type": "name_like",
+            "value": "Published"
+          },
+          {
+            "type": "name_like",
+            "value": "Elsevier Inc"
+          },
+          {
+            "type": "name_like",
+            "value": "Results"
+          },
+          {
+            "type": "name_like",
+            "value": "Chinese"
+          },
+          {
+            "type": "name_like",
+            "value": "There"
+          },
+          {
+            "type": "name_like",
+            "value": "Among"
+          },
+          {
+            "type": "name_like",
+            "value": "Prior"
+          },
+          {
+            "type": "name_like",
+            "value": "Sage Publishing"
+          },
+          {
+            "type": "name_like",
+            "value": "Information"
+          },
+          {
+            "type": "name_like",
+            "value": "Authors"
+          },
+          {
+            "type": "name_like",
+            "value": "Societies"
+          },
+          {
+            "type": "name_like",
+            "value": "Partners"
+          },
+          {
+            "type": "name_like",
+            "value": "Raw"
+          },
+          {
+            "type": "name_like",
+            "value": "New"
+          },
+          {
+            "type": "name_like",
+            "value": "However"
+          },
+          {
+            "type": "name_like",
+            "value": "Read"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who has prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"person\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"Pietro Murano and Iram Khan\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2\"\n    },\n    {\n      \"name\": \"Iram Khan\",\n      \"type\": \"author\",\n      \"evidence\": \"Pietro Murano and Iram Khan\",\n      \"source_url\": \"https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus%2C-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2\"\n    }\n  ],\n  \"key_points\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' compares the usability of pie menus and linear menus.\",\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"Pietro Murano and I"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the title of the first paper authored by the selected author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "Menu Positioning on Web Pages. Does it Matter?",
+        "final_answer_strict": "Menu Positioning on Web Pages. Does it Matter?",
+        "used_evidence": [
+          "Pietro Murano and Iram Khan authored the paper 'Pie Menus or Linear Menus, Which Is Better?' in 2015.",
+          "Prior to this, Pietro Murano authored a paper titled 'Menu Positioning on Web Pages. Does it Matter?'"
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 4,
+      "package_type": "gpt4"
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "menu positioning on web pages. does it matter",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

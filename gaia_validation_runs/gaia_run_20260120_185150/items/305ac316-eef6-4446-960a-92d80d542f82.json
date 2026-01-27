@@ -1,0 +1,633 @@
+{
+  "id": "305ac316-eef6-4446-960a-92d80d542f82",
+  "query": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+  "ground_truth": "Wojciech",
+  "answer_raw": {
+    "final_answer": "Wojciech",
+    "final_answer_strict": "Wojciech",
+    "used_evidence": [
+      "The show features a character named Wojciech Płaska, played by Bartek Kasprzykowski."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Wojciech",
+  "error": null,
+  "duration_sec": 58.38062500953674,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+        "facts": [
+          {
+            "fact": "Bartłomiej Kasprzykowski played the titular role of Roman in the Polish adaptation of Everybody Loves Raymond, titled Wszyscy kochają Romana.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "Wszyscy kochają Romana premiered on TVN on September 2, 2011.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "The series Wszyscy kochają Romana is a Polish-language adaptation of the American sitcom Everybody Loves Raymond.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "Everybody Loves Raymond aired on CBS from September 13, 1996, to May 16, 2005.",
+            "source_url": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond"
+          },
+          {
+            "fact": "Ray Romano is best known for his role as Raymond in the sitcom Everybody Loves Raymond.",
+            "source_url": "https://nickelodeon.fandom.com/wiki/Ray_Romano"
+          }
+        ],
+        "summary": "Bartłomiej Kasprzykowski starred as Roman in the Polish adaptation Wszyscy kochają Romana, which aired on TVN starting September 2, 2011. This series is based on the American sitcom Everybody Loves Raymond, which featured Ray Romano as the lead character.",
+        "sources": [
+          {
+            "title": "Wszyscy kochają Romana - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana",
+            "snippet": "# *Wszyscy kochają Romana*. 2011 Polish TV series or program. | Starring | * Bartłomiej Kasprzykowski * Aneta Todorczuk-Perchuć * Anna Seniuk * Joachim Lamża\") * Tede \"Tede (rapper)\") |. ***Wszyscy kochają Romana*** (*Everybody Loves Roman*) is a Polish television sitcom that premiered on TVN \"TVN (Poland)\") on 2 September 2011. The series is a Polish-language adaptation of the American Emmy Awards winner, *Everybody Loves Raymond* and stars Bartłomiej Kasprzykowski as the titular Roman, a newspaper sportswriter. The first four episodes were aired on Friday nights at 8:00 pm. On 30 September 2011 TVN announced the suspension of the series due to low ratings. The last 11 episodes will be aired. ## Episodes. 1. **^** \"Wszyscy kochają Romana\" (in Polish). 2. ^ ***a*** ***b*** ***c*** \"Kasprzykowski w nowym hitowym sitcomie TVN\" (in Polish). 3. ^ ***a*** ***b*** \"TVN zawiesiła emisję sitcomu \"Wszyscy kochają Romana\"\" (in Polish). * Wszyscy kochają Romana at filmweb.pl. * Polish television series based on American television series."
+          },
+          {
+            "title": "Everybody Loves Raymond - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond",
+            "snippet": "***Everybody Loves Raymond*** is an American television sitcom created by Philip Rosenthal that aired on CBS from September 13, 1996, to May 16, 2005, with a total of 210 episodes spanning nine seasons. *Everybody Loves Raymond* was Heaton's fourth lead role in a sitcom after the short-lived *Room for Two \"Room for Two (American TV series)\")* (1992–1993), *Someone Like Me \"Someone Like Me (TV series)\")* (1994), and *Women of the House* (1995). A typical writing session started with each of the writers discussing their lives, which served as the basis for episode scripts; as Rosenthal summarized the process, \"talking, talking, talking and then all of a sudden, that's a story.\" Will MacKenzie, who directed for *Everybody Loves Raymond* on the second, third, and fourth seasons, recalled the writers being so efficient that thirteen episode scripts were completed by the time a season began airing. HBO released the Complete Series of *Everybody Loves Raymond* on DVD in Regions 1, 2, and 4."
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=en-US",
+            "snippet": "- Login to Add a Video. ## Wszyscy kochają Romana. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! Wszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR chief said: \"We looking new timeslot for the series\". Last 11 episodes will be aired. ### Series Cast. 1. We don't have any cast added to this TV Show. Login to Edit Cast & Crew. ## Create Episode. We don't have any reviews for Wszyscy kochają Romana. No keywords have been added. ### On media pages. e go to edit page. ### On TV season pages. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages."
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=pl-PL",
+            "snippet": "- Zaloguj się, aby dodać wideo. ## Wszyscy kochają Romana. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! Wszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR chief said: \"We looking new timeslot for the series\". ### Series Cast. 1. Nie ma dodanej żadnej obsady do tej pozycji: TV Show. Zaloguj się, aby edytować obsadę i załogę. Nie mamy żadnych recenzji Wszyscy kochają Romana. Zaloguj się, aby zgłosić problem. Zaloguj się, aby go utworzyć. ### On media pages. ### On TV season pages. → (prawa strzałka) przejdź do następnego sezonu. ← (lewa strzałka) przejdź do poprzedniego sezonu. ### On TV episode pages. → (prawa strzałka) przejdź do następnego odcinka. ← (lewa strzałka) przejdź do poprzedniego odcinka. ### On all image pages. ### On all edit pages. ### On discussion pages."
+          },
+          {
+            "title": "Ray Romano - Nickelodeon Wiki - Fandom",
+            "url": "https://nickelodeon.fandom.com/wiki/Ray_Romano",
+            "snippet": "| Welcome to Nickipedia, a Nickelodeon database that anyone can edit. Don't have an account? in: People, Actors, 1950s births,. # Ray Romano. **Raymond Albert Romano** (born December 21, 1957) is an American actor, stand-up comedian and screenwriter. He is best known for his role on the sitcom *Everybody Loves Raymond*, for which he received an Emmy Award, and as the voice of Manny in the *Ice Age* film series. He created and starred in the TNT comedy-drama *Men of a Certain Age* (2009–2011). From 2012 to 2015, Romano had a recurring role as Hank Rizzoli, a love interest of Sarah Braverman in *Parenthood*. More recently, he co-starred in the romantic comedy *The Big Sick* (2017) and portrayed mob lawyer Bill Bufalino in Martin Scorsese's epic crime film *The Irishman* (2019). Since 2017, Romano has portrayed Rick Moreweather in the comedy-drama series *Get Shorty*. For Nickelodeon, he guest starred in an episode of *All That*. Community content is available under CC-BY-SA unless otherwise noted."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wszyscy kochają Romana - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana",
+            "content": "# *Wszyscy kochają Romana*. 2011 Polish TV series or program. | Starring | * Bartłomiej Kasprzykowski * Aneta Todorczuk-Perchuć * Anna Seniuk * Joachim Lamża\") * Tede \"Tede (rapper)\") |. ***Wszyscy kochają Romana*** (*Everybody Loves Roman*) is a Polish television sitcom that premiered on TVN \"TVN (Poland)\") on 2 September 2011. The series is a Polish-language adaptation of the American Emmy Awards winner, *Everybody Loves Raymond* and stars Bartłomiej Kasprzykowski as the titular Roman, a newspaper sportswriter. The first four episodes were aired on Friday nights at 8:00 pm. On 30 September 2011 TVN announced the suspension of the series due to low ratings. The last 11 episodes will be aired. ## Episodes. 1. **^** \"Wszyscy kochają Romana\" (in Polish). 2. ^ ***a*** ***b*** ***c*** \"Kasprzykowski w nowym hitowym sitcomie TVN\" (in Polish). 3. ^ ***a*** ***b*** \"TVN zawiesiła emisję sitcomu \"Wszyscy kochają Romana\"\" (in Polish). * Wszyscy kochają Romana at filmweb.pl. * Polish television series based on American television series.",
+            "score": 0.98533
+          },
+          {
+            "title": "Everybody Loves Raymond - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond",
+            "content": "***Everybody Loves Raymond*** is an American television sitcom created by Philip Rosenthal that aired on CBS from September 13, 1996, to May 16, 2005, with a total of 210 episodes spanning nine seasons. *Everybody Loves Raymond* was Heaton's fourth lead role in a sitcom after the short-lived *Room for Two \"Room for Two (American TV series)\")* (1992–1993), *Someone Like Me \"Someone Like Me (TV series)\")* (1994), and *Women of the House* (1995). A typical writing session started with each of the writers discussing their lives, which served as the basis for episode scripts; as Rosenthal summarized the process, \"talking, talking, talking and then all of a sudden, that's a story.\" Will MacKenzie, who directed for *Everybody Loves Raymond* on the second, third, and fourth seasons, recalled the writers being so efficient that thirteen episode scripts were completed by the time a season began airing. HBO released the Complete Series of *Everybody Loves Raymond* on DVD in Regions 1, 2, and 4.",
+            "score": 0.98514
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=en-US",
+            "content": "- Login to Add a Video. ## Wszyscy kochają Romana. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! Wszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR chief said: \"We looking new timeslot for the series\". Last 11 episodes will be aired. ### Series Cast. 1. We don't have any cast added to this TV Show. Login to Edit Cast & Crew. ## Create Episode. We don't have any reviews for Wszyscy kochają Romana. No keywords have been added. ### On media pages. e go to edit page. ### On TV season pages. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages.",
+            "score": 0.98453
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=pl-PL",
+            "content": "- Zaloguj się, aby dodać wideo. ## Wszyscy kochają Romana. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! Wszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR chief said: \"We looking new timeslot for the series\". ### Series Cast. 1. Nie ma dodanej żadnej obsady do tej pozycji: TV Show. Zaloguj się, aby edytować obsadę i załogę. Nie mamy żadnych recenzji Wszyscy kochają Romana. Zaloguj się, aby zgłosić problem. Zaloguj się, aby go utworzyć. ### On media pages. ### On TV season pages. → (prawa strzałka) przejdź do następnego sezonu. ← (lewa strzałka) przejdź do poprzedniego sezonu. ### On TV episode pages. → (prawa strzałka) przejdź do następnego odcinka. ← (lewa strzałka) przejdź do poprzedniego odcinka. ### On all image pages. ### On all edit pages. ### On discussion pages.",
+            "score": 0.97704
+          },
+          {
+            "title": "Ray Romano - Nickelodeon Wiki - Fandom",
+            "url": "https://nickelodeon.fandom.com/wiki/Ray_Romano",
+            "content": "| Welcome to Nickipedia, a Nickelodeon database that anyone can edit. Don't have an account? in: People, Actors, 1950s births,. # Ray Romano. **Raymond Albert Romano** (born December 21, 1957) is an American actor, stand-up comedian and screenwriter. He is best known for his role on the sitcom *Everybody Loves Raymond*, for which he received an Emmy Award, and as the voice of Manny in the *Ice Age* film series. He created and starred in the TNT comedy-drama *Men of a Certain Age* (2009–2011). From 2012 to 2015, Romano had a recurring role as Hank Rizzoli, a love interest of Sarah Braverman in *Parenthood*. More recently, he co-starred in the romantic comedy *The Big Sick* (2017) and portrayed mob lawyer Bill Bufalino in Martin Scorsese's epic crime film *The Irishman* (2019). Since 2017, Romano has portrayed Rick Moreweather in the comedy-drama series *Get Shorty*. For Nickelodeon, he guest starred in an episode of *All That*. Community content is available under CC-BY-SA unless otherwise noted.",
+            "score": 0.96497
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wszyscy kochają Romana - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana",
+            "score": 0.98533
+          },
+          {
+            "title": "Everybody Loves Raymond - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond",
+            "score": 0.98514
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=en-US",
+            "score": 0.98453
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=pl-PL",
+            "score": 0.97704
+          },
+          {
+            "title": "Ray Romano - Nickelodeon Wiki - Fandom",
+            "url": "https://nickelodeon.fandom.com/wiki/Ray_Romano",
+            "score": 0.96497
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wszyscy"
+          },
+          {
+            "type": "name_like",
+            "value": "Romana"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Polish"
+          },
+          {
+            "type": "name_like",
+            "value": "Starring"
+          },
+          {
+            "type": "name_like",
+            "value": "Kasprzykowski"
+          },
+          {
+            "type": "name_like",
+            "value": "Aneta Todorczuk"
+          },
+          {
+            "type": "name_like",
+            "value": "Anna Seniuk"
+          },
+          {
+            "type": "name_like",
+            "value": "Joachim"
+          },
+          {
+            "type": "name_like",
+            "value": "Tede"
+          },
+          {
+            "type": "name_like",
+            "value": "Everybody Loves Roman"
+          },
+          {
+            "type": "name_like",
+            "value": "Poland"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "American Emmy Awards"
+          },
+          {
+            "type": "name_like",
+            "value": "Everybody Loves Raymond"
+          },
+          {
+            "type": "name_like",
+            "value": "Roman"
+          },
+          {
+            "type": "name_like",
+            "value": "Friday"
+          },
+          {
+            "type": "name_like",
+            "value": "Episodes"
+          },
+          {
+            "type": "name_like",
+            "value": "American"
+          },
+          {
+            "type": "name_like",
+            "value": "Philip Rosenthal"
+          },
+          {
+            "type": "name_like",
+            "value": "May"
+          },
+          {
+            "type": "name_like",
+            "value": "Heaton"
+          },
+          {
+            "type": "name_like",
+            "value": "Room"
+          },
+          {
+            "type": "name_like",
+            "value": "Two"
+          },
+          {
+            "type": "name_like",
+            "value": "Someone Like Me"
+          },
+          {
+            "type": "name_like",
+            "value": "Women"
+          },
+          {
+            "type": "name_like",
+            "value": "House"
+          },
+          {
+            "type": "name_like",
+            "value": "Rosenthal"
+          },
+          {
+            "type": "name_like",
+            "value": "Will"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find information about the character played by the actor in Magda M.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the character played by the actor in Magda M.",
+        "facts": [
+          {
+            "fact": "Joanna Brodzik plays the character Magda Miłowicz in the Polish soap opera Magda M.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "Magda M. aired on TVN from 2005 to 2007.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "The show features a character named Wojciech Płaska, played by Bartek Kasprzykowski.",
+            "source_url": "https://www.tvmaze.com/shows/5863/magda-m/cast"
+          },
+          {
+            "fact": "The series includes actors such as Ewa Kasprzyk and Krzysztof Stelmaszyk.",
+            "source_url": "https://www.tvmaze.com/shows/5863/magda-m/cast"
+          }
+        ],
+        "summary": "Magda M. is a Polish soap opera that aired from 2005 to 2007, featuring Joanna Brodzik as Magda Miłowicz and a cast including Bartek Kasprzykowski and Ewa Kasprzyk.",
+        "sources": [
+          {
+            "title": "Magda M. - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Magda_M.",
+            "snippet": "| Starring | Joanna Brodzik Paweł Małaszyński Ewa Kasprzyk \"Ewa Kasprzyk (actress)\") Bartłomiej Świderski Daria Widawska Krzysztof Stelmaszyk Katarzyna Herman Bartek Kasprzykowski Katarzyna Bujakiewicz Szymon Bobrowski Jacek Braciak Patrycja Durska |. ***Magda M.*** (Polish pronunciation: ) was a Polish soap opera which aired on TVN \"TVN (Poland)\") from 2005 to 2007. Once he wins Magda's love, he gets very sick with an illness, requiring him to go to the United States for treatment. | Joanna Brodzik | Magda Miłowicz | 2005–2007 |. | Katarzyna Herman | Karolina Waligóra\") | 2005–2007 |. | Bartek Kasprzykowski | Wojciech Płaska\") | 2005–2007 |. | Szymon Bobrowski | Bartek Malicki\") | 2005–2007 |. | **1st** | Tuesday 9:30PM | Fall 2005 | **2.91** | **2.93** |. | **3rd** | Tuesday 9:30PM | Fall 2006 | **3.50** | **4.58** |. | This Polish television programme-related article is a stub. * 2005 Polish television series debuts. * 2007 Polish television series endings."
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - Cast & Crew - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m/cast?language=en-US",
+            "snippet": "- Login to Add a Video. ## Magda M. ### ← Back to main. ### Series Cast 10. Łukasz Zaniewicz, wspólnik Waligóry (15 Episodes). ### Series Crew 6. #### Camera. #### Crew. Health and Safety (55 Episodes). #### Directing. #### Production. #### Writing. Can't find a movie or TV show? ### Global. s focus the search bar. esc close an open window. ### On media pages. b go back (or to parent when applicable). e go to edit page. ### On TV season pages. → (right arrow) go to next season. ← (left arrow) go to previous season. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages. l go to last reply. ctrl+ enter submit your message. ### Settings. Want to rate or add this item to a list?"
+          },
+          {
+            "title": "Magda M. - Cast | TVmaze",
+            "url": "https://www.tvmaze.com/shows/5863/magda-m/cast",
+            "snippet": "# Magda M. ## Joanna Brodzik. ## Bartłomiej Kasprzykowski. ## Bartłomiej Świderski. ## Katarzyna Bujakiewicz. ## Daria Widawska. ## Paweł Małaszyński. ## Krzysztof Stelmaszyk. ## Katarzyna Herman. ## Ewa Kasprzyk. ## Piotr Fronczewski. ## Magdalena Zawadzka. ## Jan Nowicki. ## Szymon Bobrowski. ## Jacek Braciak. ## Patrycja Durska. ## Magdalena Cielecka. ## Katarzyna Tatarak. ## Paweł Galia. ## Jacek Poniedziałek. ## Beata Tyszkiewicz. ## Julia Wróblewska. ## Anna Polony. ## Przemysław Sadowski. ## Marta Żmuda Trzebiatowska. ## Jakub Przebindowski. ## Grażyna Szapołowska. ## Urszula Grabowska."
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m?language=en-US",
+            "snippet": "- Login to Add a Video. ## Magda M. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! For more information, visit the  contribution bible. ### Overview. ### Last Season. ## Season 3. #### 2006 • 15 Episodes. Season 3 of Magda M. We don't have any reviews for Magda M.. ### Media. #### Keywords. No keywords have been added. Login to report an issue. Can't find a movie or TV show? esc close an open window. ### On media pages. e go to edit page. ### On TV season pages. → (right arrow) go to next season. ← (left arrow) go to previous season. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages. Want to rate or add this item to a list?"
+          },
+          {
+            "title": "Magda Szubanski (b. 1960s) | WikiTree FREE Family Tree",
+            "url": "https://www.wikitree.com/wiki/Szubanski-1",
+            "snippet": "# Magda Szubanski. ## Family Tree of Magda Szubanski. ###### Magda. ## Descendants of Magda Szubanski. | |  | | --- | |  | | Magda Szubanski is managed by the Australia Project. | |  | | --- | |  | | Magda Szubanski is a living notable. **Magda Szubanski is an Australian comedy actress, author, singer and LGBT rights advocate.**. Magda Szubanski migrated from England to Australia. In addition to her Logie Awards, Magda has also received many other accolades in the course of her career, including three Australian Writers’ Guild (Awgie) Awards, two People’s Choice Awards\") an AFI (now AACTA) award for Best Actress (2002), and a \"Mo\" at the 30th Mo Awards in 2004 for Female Comedy Performer of the Year. * \"Magda Szubanski.\" Who Do You Think You Are? ## Comments on Magda Szubanski: 2. WikiTree  >  S  >  Szubanski  >  Magda Szubanski *This page has been accessed 682 times.*."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Magda M. - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Magda_M.",
+            "content": "| Starring | Joanna Brodzik Paweł Małaszyński Ewa Kasprzyk \"Ewa Kasprzyk (actress)\") Bartłomiej Świderski Daria Widawska Krzysztof Stelmaszyk Katarzyna Herman Bartek Kasprzykowski Katarzyna Bujakiewicz Szymon Bobrowski Jacek Braciak Patrycja Durska |. ***Magda M.*** (Polish pronunciation: ) was a Polish soap opera which aired on TVN \"TVN (Poland)\") from 2005 to 2007. Once he wins Magda's love, he gets very sick with an illness, requiring him to go to the United States for treatment. | Joanna Brodzik | Magda Miłowicz | 2005–2007 |. | Katarzyna Herman | Karolina Waligóra\") | 2005–2007 |. | Bartek Kasprzykowski | Wojciech Płaska\") | 2005–2007 |. | Szymon Bobrowski | Bartek Malicki\") | 2005–2007 |. | **1st** | Tuesday 9:30PM | Fall 2005 | **2.91** | **2.93** |. | **3rd** | Tuesday 9:30PM | Fall 2006 | **3.50** | **4.58** |. | This Polish television programme-related article is a stub. * 2005 Polish television series debuts. * 2007 Polish television series endings.",
+            "score": 0.98372
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - Cast & Crew - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m/cast?language=en-US",
+            "content": "- Login to Add a Video. ## Magda M. ### ← Back to main. ### Series Cast 10. Łukasz Zaniewicz, wspólnik Waligóry (15 Episodes). ### Series Crew 6. #### Camera. #### Crew. Health and Safety (55 Episodes). #### Directing. #### Production. #### Writing. Can't find a movie or TV show? ### Global. s focus the search bar. esc close an open window. ### On media pages. b go back (or to parent when applicable). e go to edit page. ### On TV season pages. → (right arrow) go to next season. ← (left arrow) go to previous season. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages. l go to last reply. ctrl+ enter submit your message. ### Settings. Want to rate or add this item to a list?",
+            "score": 0.97894
+          },
+          {
+            "title": "Magda M. - Cast | TVmaze",
+            "url": "https://www.tvmaze.com/shows/5863/magda-m/cast",
+            "content": "# Magda M. ## Joanna Brodzik. ## Bartłomiej Kasprzykowski. ## Bartłomiej Świderski. ## Katarzyna Bujakiewicz. ## Daria Widawska. ## Paweł Małaszyński. ## Krzysztof Stelmaszyk. ## Katarzyna Herman. ## Ewa Kasprzyk. ## Piotr Fronczewski. ## Magdalena Zawadzka. ## Jan Nowicki. ## Szymon Bobrowski. ## Jacek Braciak. ## Patrycja Durska. ## Magdalena Cielecka. ## Katarzyna Tatarak. ## Paweł Galia. ## Jacek Poniedziałek. ## Beata Tyszkiewicz. ## Julia Wróblewska. ## Anna Polony. ## Przemysław Sadowski. ## Marta Żmuda Trzebiatowska. ## Jakub Przebindowski. ## Grażyna Szapołowska. ## Urszula Grabowska.",
+            "score": 0.96742
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m?language=en-US",
+            "content": "- Login to Add a Video. ## Magda M. Login to use TMDB's new rating system. Welcome to Vibes, TMDB's new rating system! For more information, visit the  contribution bible. ### Overview. ### Last Season. ## Season 3. #### 2006 • 15 Episodes. Season 3 of Magda M. We don't have any reviews for Magda M.. ### Media. #### Keywords. No keywords have been added. Login to report an issue. Can't find a movie or TV show? esc close an open window. ### On media pages. e go to edit page. ### On TV season pages. → (right arrow) go to next season. ← (left arrow) go to previous season. ### On TV episode pages. → (right arrow) go to next episode. ← (left arrow) go to previous episode. ### On all image pages. a open add image window. ### On all edit pages. ### On discussion pages. Want to rate or add this item to a list?",
+            "score": 0.9598
+          },
+          {
+            "title": "Magda Szubanski (b. 1960s) | WikiTree FREE Family Tree",
+            "url": "https://www.wikitree.com/wiki/Szubanski-1",
+            "content": "# Magda Szubanski. ## Family Tree of Magda Szubanski. ###### Magda. ## Descendants of Magda Szubanski. | |  | | --- | |  | | Magda Szubanski is managed by the Australia Project. | |  | | --- | |  | | Magda Szubanski is a living notable. **Magda Szubanski is an Australian comedy actress, author, singer and LGBT rights advocate.**. Magda Szubanski migrated from England to Australia. In addition to her Logie Awards, Magda has also received many other accolades in the course of her career, including three Australian Writers’ Guild (Awgie) Awards, two People’s Choice Awards\") an AFI (now AACTA) award for Best Actress (2002), and a \"Mo\" at the 30th Mo Awards in 2004 for Female Comedy Performer of the Year. * \"Magda Szubanski.\" Who Do You Think You Are? ## Comments on Magda Szubanski: 2. WikiTree  >  S  >  Szubanski  >  Magda Szubanski *This page has been accessed 682 times.*.",
+            "score": 0.94587
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Magda M. - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Magda_M.",
+            "score": 0.98372
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - Cast & Crew - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m/cast?language=en-US",
+            "score": 0.97894
+          },
+          {
+            "title": "Magda M. - Cast | TVmaze",
+            "url": "https://www.tvmaze.com/shows/5863/magda-m/cast",
+            "score": 0.96742
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m?language=en-US",
+            "score": 0.9598
+          },
+          {
+            "title": "Magda Szubanski (b. 1960s) | WikiTree FREE Family Tree",
+            "url": "https://www.wikitree.com/wiki/Szubanski-1",
+            "score": 0.94587
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Magda"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Starring"
+          },
+          {
+            "type": "name_like",
+            "value": "Joanna Brodzik"
+          },
+          {
+            "type": "name_like",
+            "value": "Ewa Kasprzyk"
+          },
+          {
+            "type": "name_like",
+            "value": "Daria Widawska Krzysztof Stelmaszyk"
+          },
+          {
+            "type": "name_like",
+            "value": "Katarzyna Herman Bartek Kasprzykowski"
+          },
+          {
+            "type": "name_like",
+            "value": "Katarzyna Bujakiewicz Szymon Bobrowski"
+          },
+          {
+            "type": "name_like",
+            "value": "Jacek Braciak Patrycja Durska"
+          },
+          {
+            "type": "name_like",
+            "value": "Polish"
+          },
+          {
+            "type": "name_like",
+            "value": "Poland"
+          },
+          {
+            "type": "name_like",
+            "value": "Once"
+          },
+          {
+            "type": "name_like",
+            "value": "United States"
+          },
+          {
+            "type": "name_like",
+            "value": "Katarzyna Herman"
+          },
+          {
+            "type": "name_like",
+            "value": "Karolina"
+          },
+          {
+            "type": "name_like",
+            "value": "Bartek Kasprzykowski"
+          },
+          {
+            "type": "name_like",
+            "value": "Wojciech"
+          },
+          {
+            "type": "name_like",
+            "value": "Szymon Bobrowski"
+          },
+          {
+            "type": "name_like",
+            "value": "Bartek Malicki"
+          },
+          {
+            "type": "name_like",
+            "value": "Tuesday"
+          },
+          {
+            "type": "name_like",
+            "value": "Fall"
+          },
+          {
+            "type": "name_like",
+            "value": "This Polish"
+          },
+          {
+            "type": "name_like",
+            "value": "Series"
+          },
+          {
+            "type": "name_like",
+            "value": "Cast"
+          },
+          {
+            "type": "name_like",
+            "value": "Crew"
+          },
+          {
+            "type": "name_like",
+            "value": "Login"
+          },
+          {
+            "type": "name_like",
+            "value": "Add"
+          },
+          {
+            "type": "name_like",
+            "value": "Video"
+          },
+          {
+            "type": "name_like",
+            "value": "Back"
+          },
+          {
+            "type": "name_like",
+            "value": "Series Cast"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "character",
+          "actor"
+        ],
+        "entities": [
+          {
+            "name": "Magda Miłowicz",
+            "type": "character",
+            "evidence": "Joanna Brodzik plays the character Magda Miłowicz in the Polish soap opera Magda M.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "name": "Bartłomiej Kasprzykowski",
+            "type": "actor",
+            "evidence": "The show features a character named Wojciech Płaska, played by Bartek Kasprzykowski.",
+            "source_url": "https://www.tvmaze.com/shows/5863/magda-m/cast"
+          }
+        ],
+        "key_points": [
+          "Magda M. is a Polish soap opera that aired from 2005 to 2007.",
+          "Joanna Brodzik stars as Magda Miłowicz."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "Joanna Brodzik plays the character Magda Miłowicz in the Polish soap opera Magda M.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Wojciech",
+        "final_answer_strict": "Wojciech",
+        "used_evidence": [
+          "The show features a character named Wojciech Płaska, played by Bartek Kasprzykowski."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": true,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "wojciech",
+    "gt_norm": "wojciech"
+  }
+}

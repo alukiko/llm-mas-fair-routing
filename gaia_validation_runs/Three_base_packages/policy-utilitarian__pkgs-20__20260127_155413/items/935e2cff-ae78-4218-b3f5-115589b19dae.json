@@ -1,0 +1,665 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": {
+    "final_answer": "Research",
+    "final_answer_strict": "Research",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Research",
+  "error": null,
+  "duration_sec": 72.39727687835693,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the three core policies of content violations on Wikipedia.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the three core policies of content violations on Wikipedia.",
+        "facts": [
+          {
+            "fact": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "Neutral point of view means that all Wikipedia articles must represent significant views fairly, proportionately, and without bias.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "Verifiability requires that material added to Wikipedia articles must be based on reliable sources.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The no original research policy prohibits editors from including their own theories or original ideas in Wikipedia articles.",
+            "source_url": "https://ncarchivists.org/primer"
+          }
+        ],
+        "summary": "Wikipedia's core content policies ensure that articles maintain neutrality, rely on verifiable sources, and do not include original research, which collectively uphold the encyclopedia's standards for accuracy and fairness.",
+        "sources": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "snippet": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Conduct (?) | |  |  |  --- | | P |  Civility  Consensus  Harassment  Vandalism  Ignore all rules  No personal attacks  Ownership of content  Edit warring  Dispute resolution  Sockpuppetry  No legal threats  Child protection  Paid-contribution disclosure | | G |  Assume good faith  Conflict of interest  Disruptive editing  Do not disrupt Wikipedia to illustrate a point  Etiquette  Gaming the system  Please do not bite the newcomers  Courtesy vanishing  Responding to threats of harm  Talk page guidelines   + Signatures | |\n| Deletion (?) | |  |  |  --- | | P |  Deletion policy  Proposed deletion   + Biographies  Speedy deletion  Attack page  Oversight  Revision deletion | |\n| Enforcement (?) | |  |  |  --- | | P |  Administrators  Banning  Blocking  Page protection | | [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and"
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "snippet": "For more information on the benefits of creating an account, please see this article from Wikipedia as well as Chapter 3: Setting up your account and personal workspace from Wikipedia: The Missing Manual.\n\nContent Policies\n\nNow that you have made an account (or not!), let’s go over some content policies.\n\nWikipedia has three core content policies:\n\n1. Neutral point of view\n2. Verifiability\n3. No original research\n\nAs an encyclopedia, Wikipedia is a tertiary source of information. It strives to maintain an encyclopedic style and formal, neutral tone in its articles. It is not the place to make arguments or share original work. Wikipedia’s article on its core content policies provides more information on the history and motivations behind these core content policies."
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "snippet": "2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated platforms (like the ascendant Reddit) are rarely considered credible, though there are exceptions for verified accounts of prominent individuals in specific contexts. Sometimes. It’s a gray area.\n\n3. What happens if my edits violate a core policy?  \nIf your content breaches NPOV, Verifiability, or No Original Research, other editors or Wikipedia administrators will probably revert it to an earlier version of the page. Probably the one just before your edit. Repeated violations can lead to warnings, loss of editing privileges, or even bans from Wikipedia. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content "
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "snippet": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\n[edit] [...] 1. Neutral point of view – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability – Materi"
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "snippet": "| Conduct (?) | |  |  |  --- | | P |  Civility  Consensus  Harassment  Vandalism  Ignore all rules  No personal attacks  Ownership of content  Edit warring  Dispute resolution  Sockpuppetry  No legal threats  Child protection  Paid-contribution disclosure | | G |  Assume good faith  Conflict of interest  Disruptive editing  Do not disrupt Wikipedia to illustrate a point  Etiquette  Gaming the system  Please do not bite the newcomers  Courtesy vanishing  Responding to threats of harm  Talk page guidelines   + Signatures | |\n| Deletion (?) | |  |  |  --- | | P |  Deletion policy  Proposed deletion   + Biographies  Speedy deletion  Attack page  Oversight  Revision deletion | |\n| Enforcement (?) | |  |  |  --- | | P |  Administrators  Banning  Blocking  Page protection | | [...] ## Not part of the encyclopedia\n\nShortcut\n\n WP:NOTPARTWP:NOTPART\n\nFurther information: Wikipedia:Project namespace § Content\n\nWikipedia has many policies and guidelines about encyclopedic content. These standards require verifiability, neutrality, respect for living people, and more. [...] | Policies and guidelines (list) |\n\n| Principles |\n|  Five pillars  Ignore all rules |\n| Content policies |\n|  Article titl"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "content": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Conduct (?) | |  |  |  --- | | P |  Civility  Consensus  Harassment  Vandalism  Ignore all rules  No personal attacks  Ownership of content  Edit warring  Dispute resolution  Sockpuppetry  No legal threats  Child protection  Paid-contribution disclosure | | G |  Assume good faith  Conflict of interest  Disruptive editing  Do not disrupt Wikipedia to illustrate a point  Etiquette  Gaming the system  Please do not bite the newcomers  Courtesy vanishing  Responding to threats of harm  Talk page guidelines   + Signatures | |\n| Deletion (?) | |  |  |  --- | | P |  Deletion policy  Proposed deletion   + Biographies  Speedy deletion  Attack page  Oversight  Revision deletion | |\n| Enforcement (?) | |  |  |  --- | | P |  Administrators  Banning  Blocking  Page protection | | [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source.",
+            "score": 0.90018827
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "content": "For more information on the benefits of creating an account, please see this article from Wikipedia as well as Chapter 3: Setting up your account and personal workspace from Wikipedia: The Missing Manual.\n\nContent Policies\n\nNow that you have made an account (or not!), let’s go over some content policies.\n\nWikipedia has three core content policies:\n\n1. Neutral point of view\n2. Verifiability\n3. No original research\n\nAs an encyclopedia, Wikipedia is a tertiary source of information. It strives to maintain an encyclopedic style and formal, neutral tone in its articles. It is not the place to make arguments or share original work. Wikipedia’s article on its core content policies provides more information on the history and motivations behind these core content policies.",
+            "score": 0.8851659
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "content": "2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated platforms (like the ascendant Reddit) are rarely considered credible, though there are exceptions for verified accounts of prominent individuals in specific contexts. Sometimes. It’s a gray area.\n\n3. What happens if my edits violate a core policy?  \nIf your content breaches NPOV, Verifiability, or No Original Research, other editors or Wikipedia administrators will probably revert it to an earlier version of the page. Probably the one just before your edit. Repeated violations can lead to warnings, loss of editing privileges, or even bans from Wikipedia. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] Understanding these key principles not only saves you from missteps but positions you as a contributor who adds real value.\n\n## Understanding Wikipedia’s Core Policies and Guidelines\n\nNavigating Wikipedia successfully requires a strong grasp of its foundational policies and guidelines, which ensure the platform remains a credible, collaborative, and balanced resource. While Wikipedia is often seen as an open encyclopedia that anyone can edit, this openness comes with necessary rules to foster reliability and fairness. At the base of Wikipedia’s structure lie three core content policies—Neutral Point of View (NPOV), Verifiability, and No Original Research—which dictate how information is created and maintained on the platform.\n\n### What Are Wikipedia’s Core Policies?",
+            "score": 0.8649622
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "content": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\n[edit] [...] 1. Neutral point of view – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source.\n3. No original research – Wikipedia does |not publish original thought: all material in Wikipedia must be attributable to a reliable, published source. Articles may not contain any new analysis or synthesis of published material that serves to advance a position not clearly advanced by the sources.",
+            "score": 0.85797083
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "content": "| Conduct (?) | |  |  |  --- | | P |  Civility  Consensus  Harassment  Vandalism  Ignore all rules  No personal attacks  Ownership of content  Edit warring  Dispute resolution  Sockpuppetry  No legal threats  Child protection  Paid-contribution disclosure | | G |  Assume good faith  Conflict of interest  Disruptive editing  Do not disrupt Wikipedia to illustrate a point  Etiquette  Gaming the system  Please do not bite the newcomers  Courtesy vanishing  Responding to threats of harm  Talk page guidelines   + Signatures | |\n| Deletion (?) | |  |  |  --- | | P |  Deletion policy  Proposed deletion   + Biographies  Speedy deletion  Attack page  Oversight  Revision deletion | |\n| Enforcement (?) | |  |  |  --- | | P |  Administrators  Banning  Blocking  Page protection | | [...] ## Not part of the encyclopedia\n\nShortcut\n\n WP:NOTPARTWP:NOTPART\n\nFurther information: Wikipedia:Project namespace § Content\n\nWikipedia has many policies and guidelines about encyclopedic content. These standards require verifiability, neutrality, respect for living people, and more. [...] | Policies and guidelines (list) |\n\n| Principles |\n|  Five pillars  Ignore all rules |\n| Content policies |\n|  Article titles  Biographies of living persons  Image use  Neutral point of view  No original research  Verifiability  What Wikipedia is not (Not a dictionary) |\n| Conduct policies |\n|  Civility  Clean start  Consensus  Dispute resolution  Edit warring  Editing policy  Harassment  No legal threats  No personal attacks  Ownership of content  Username policy  Vandalism |\n| Other policy categories |\n|  Deletion  Enforcement  Legal  Procedural |\n| Directories |\n|  List of policies  List of guidelines  Manual of Style contents  Searching |\n|  v  t  e |",
+            "score": 0.7625837
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "score": 0.90018827
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "score": 0.8851659
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "score": 0.8649622
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "score": 0.85797083
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "score": 0.7625837
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core"
+          },
+          {
+            "type": "name_like",
+            "value": "Editors"
+          },
+          {
+            "type": "name_like",
+            "value": "Conduct"
+          },
+          {
+            "type": "name_like",
+            "value": "Civility"
+          },
+          {
+            "type": "name_like",
+            "value": "Consensus"
+          },
+          {
+            "type": "name_like",
+            "value": "Harassment"
+          },
+          {
+            "type": "name_like",
+            "value": "Vandalism"
+          },
+          {
+            "type": "name_like",
+            "value": "Ignore"
+          },
+          {
+            "type": "name_like",
+            "value": "Ownership"
+          },
+          {
+            "type": "name_like",
+            "value": "Edit"
+          },
+          {
+            "type": "name_like",
+            "value": "Dispute"
+          },
+          {
+            "type": "name_like",
+            "value": "Sockpuppetry"
+          },
+          {
+            "type": "name_like",
+            "value": "Child"
+          },
+          {
+            "type": "name_like",
+            "value": "Paid"
+          },
+          {
+            "type": "name_like",
+            "value": "Assume"
+          },
+          {
+            "type": "name_like",
+            "value": "Conflict"
+          },
+          {
+            "type": "name_like",
+            "value": "Disruptive"
+          },
+          {
+            "type": "name_like",
+            "value": "Etiquette"
+          },
+          {
+            "type": "name_like",
+            "value": "Gaming"
+          },
+          {
+            "type": "name_like",
+            "value": "Please"
+          },
+          {
+            "type": "name_like",
+            "value": "Courtesy"
+          },
+          {
+            "type": "name_like",
+            "value": "Responding"
+          },
+          {
+            "type": "name_like",
+            "value": "Talk"
+          },
+          {
+            "type": "name_like",
+            "value": "Signatures"
+          },
+          {
+            "type": "name_like",
+            "value": "Deletion"
+          },
+          {
+            "type": "name_like",
+            "value": "Proposed"
+          },
+          {
+            "type": "name_like",
+            "value": "Biographies"
+          },
+          {
+            "type": "name_like",
+            "value": "Speedy"
+          },
+          {
+            "type": "name_like",
+            "value": "Attack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find the public logs related to the Legume Wikipedia page for the year 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the public logs related to the Legume Wikipedia page for the year 2022.",
+        "facts": [
+          {
+            "fact": "A request was made to find all public log entries containing the keyword 'Legume' from January 1, 2022, to November 30, 2022.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Request_a_query/Archive_6"
+          },
+          {
+            "fact": "Phaseolus vulgaris, known as the common bean, is a member of the legume family, Fabaceae.",
+            "source_url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris"
+          },
+          {
+            "fact": "In 2022, 28 million tonnes of dry common beans were produced worldwide, with India contributing 23% of the total production.",
+            "source_url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris"
+          }
+        ],
+        "summary": "In 2022, significant public log entries regarding 'Legume' were sought on Wikipedia, while the common bean (Phaseolus vulgaris) was highlighted as a major legume crop, with substantial production primarily in India.",
+        "sources": [
+          {
+            "title": "Wikipedia:Request a query/Archive 6",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Request_a_query/Archive_6",
+            "snippet": ":   I've replied. Thank you for doing this. I really appreciate it. Clovermoss🍀 (talk) 08:25, 2 December 2025 (UTC)\n\n                                :   And re-sent. Remember, you inflicted this on yourself! —Cryptic 08:28, 2 December 2025 (UTC)\n\n## Request for log entries containing \"Legume\" in 2022\n\nHello, I am trying to answer a research question that requires finding a specific public log entry. Could someone please run a query to find all public log entries (from any log type) that meet the following criteria?\n\n \\\\Date Range:\\\\ From January 1, 2022, to November 30, 2022.\n \\\\Keyword:\\\\ The log summary, comment, or description must contain the keyword \"Legume\"."
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "snippet": "| Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  | [...] of the Ark  Haridwar  New Vrindaban  Palitana  Pushkar  Rishikesh  Tirumala  The Farm (Tennessee) \"The Farm (Tennessee)\") | | [...] 41. ^ a b \"The International Year of Pulses\". United Nations. Archived from the original on 28 January 2020. Retrieved 14 December 2015.\n42. ^ \"International Year of Pulses 2016 – IYP2016\". Archived from the original on 6 December 2017. Retrieved 14 December 2015."
+          },
+          {
+            "title": "Help:Log - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Help:Log",
+            "snippet": "Logs can list actions done by a user (or IP editor), actions done to a user (or IP editor), and actions done to a wiki page.\n\n## Viewing logs\n\n[edit]\n\nTo view Wikipedia's logs, go to Special:Log. From there you can decide which actions you wish to see logged, and filter by certain other parameters, such as date and time, user and affected page. When a log type is selected and you click \"Show\", the top of the page describes the log. You can also go directly to a selected log with a search term or link like Special:Log/block, which displays the block log. Other parameters that can be used in a similar way include delete, move, protect, rights, upload and patrol. [...] 1. The type of log to display. By default, all public logs will be shown, except the patrol, review, tag and thanks logs. They can be enabled at \"Show additional logs\" when \"All public logs\" is selected. The example is set to only show the deletion log, which lists page deletions and undeletions.\n2. The Performer field lets you search the logs for entries that were performed by a specified user. Type the username of the user you want to look up the logs for.\n3. The Target field lets you search the logs for entries that "
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "snippet": "Retrieved from \"\"\n\nCategories:\n\n Fruits\n Vegetables\n Fabaceae\n\nAdd topic [...] | List of fruits | Apple ·  Apricot ·  Banana ·  Bilberry ·  Blackberry ·  Blackcurrant ·  Blueberry ·  Coconut ·  Currant ·  Cherry ·  Cherimoya ·  Clementine ·  Cloudberry  · Date ·  Damson ·  Dragonfruit ·  Durian ·  Elderberry ·  Fig ·  Feijoa ·  Gooseberry ·  Grape ·  Grapefruit ·  Huckleberry ·  Jackfruit ·  Jambul ·  Jujube ·  Kiwifruit ·  Kumquat ·  Lemon ·  Lime ·  Loquat ·  Lychee ·  Mango ·  Mangosteen ·  Melon ·  Cantaloupe ·  Honeydew \"Honeydew (melon)\") ·  Watermelon ·  Rock melon ·  Nectarine ·  Orange \"Orange (fruit)\") ·  Passionfruit ·  Peach ·  Pear ·  Plum ·  Plumcot ·  Prune ·  Pineapple ·  Pomegranate ·  Pomelo ·  Raisin ·  Raspberry ·  Rambutan ·  Redcurrant ·  Satsuma ·  Strawberry ·  Tangerine · Tomato ·  Ugli fruit · |\n| Category: Fruits | [...] | Types of fruits | Achene ·  Berry ·  Capsule ·  Caryopsis ·  Drupe ·  Follicle ·  Hesperidium · Legume ·  Loment ·  Nut \"Nut (fruit)\") ·  Pome ·  Samara \"Samara (fruit)\") ·  Schizocarp ·  Silique ·  Syconium |\n| Categories of fruits | Accessory fruit ·  Simple fruit ·  Aggregate or compound fruit ·  Multiple fruit ·  Dehiscent fruit |"
+          },
+          {
+            "title": "Phaseolus vulgaris - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+            "snippet": "Phaseolus vulgaris, the common bean, is a herbaceous annual plant. Its botanical classification, along with other Phaseolus species, is as a member of the legume family, Fabaceae. It forms a green-leaved vine which produces beans inside of pods.\n\nThe common bean has a long history of cultivation. All wild members of the species have a climbing habit, but many cultivars are classified either as bush beans or climbing beans, depending on their style of growth. In 2022, 28 million tonnes of dry common beans were produced worldwide, led by India with 23% of the total. [...] 17. ^ a b Taylor, Colin Duncan (2021). Menu from the Midi: A gastronomic journey through the south of France. Matador. ISBN \"ISBN (identifier)\") 978-1-80046-496-4.\n18. ^ Food and Agriculture Organization of the United Nations (2023). \"Bean\". www.fao.org. Retrieved 2023-11-18.\n19. ^ a b Pearman, Georgina (2005). Prance, Ghillean; Nesbitt, Mark (eds.). The Cultural History of Plants. Routledge. pp. 143–144. ISBN \"ISBN (identifier)\") 0-415-92746-3.\n20. ^ \"Taxon - Legume Data Portal\". www.legumedata.org. Retrieved 2024-10-01.\n21. ^ Wittenberg, Margaret M. (2013). The Essential Good Food Guide (3 ed.). Berkeley: Ten Spee"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Request a query/Archive 6",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Request_a_query/Archive_6",
+            "content": ":   I've replied. Thank you for doing this. I really appreciate it. Clovermoss🍀 (talk) 08:25, 2 December 2025 (UTC)\n\n                                :   And re-sent. Remember, you inflicted this on yourself! —Cryptic 08:28, 2 December 2025 (UTC)\n\n## Request for log entries containing \"Legume\" in 2022\n\nHello, I am trying to answer a research question that requires finding a specific public log entry. Could someone please run a query to find all public log entries (from any log type) that meet the following criteria?\n\n \\\\Date Range:\\\\ From January 1, 2022, to November 30, 2022.\n \\\\Keyword:\\\\ The log summary, comment, or description must contain the keyword \"Legume\".",
+            "score": 0.9995987
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "content": "| Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  | [...] of the Ark  Haridwar  New Vrindaban  Palitana  Pushkar  Rishikesh  Tirumala  The Farm (Tennessee) \"The Farm (Tennessee)\") | | [...] 41. ^ a b \"The International Year of Pulses\". United Nations. Archived from the original on 28 January 2020. Retrieved 14 December 2015.\n42. ^ \"International Year of Pulses 2016 – IYP2016\". Archived from the original on 6 December 2017. Retrieved 14 December 2015.",
+            "score": 0.9986223
+          },
+          {
+            "title": "Help:Log - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Help:Log",
+            "content": "Logs can list actions done by a user (or IP editor), actions done to a user (or IP editor), and actions done to a wiki page.\n\n## Viewing logs\n\n[edit]\n\nTo view Wikipedia's logs, go to Special:Log. From there you can decide which actions you wish to see logged, and filter by certain other parameters, such as date and time, user and affected page. When a log type is selected and you click \"Show\", the top of the page describes the log. You can also go directly to a selected log with a search term or link like Special:Log/block, which displays the block log. Other parameters that can be used in a similar way include delete, move, protect, rights, upload and patrol. [...] 1. The type of log to display. By default, all public logs will be shown, except the patrol, review, tag and thanks logs. They can be enabled at \"Show additional logs\" when \"All public logs\" is selected. The example is set to only show the deletion log, which lists page deletions and undeletions.\n2. The Performer field lets you search the logs for entries that were performed by a specified user. Type the username of the user you want to look up the logs for.\n3. The Target field lets you search the logs for entries that were performed on a page or user. Type the name of the page you want to look up the logs for. If you want to look up the logs performed on a user, add User: (note the colon) to the start of your search query, then type in the username. [...] 4. The From date field can be used to show only the logs created on or before a specified date.\n5. The Tag filter allows you to show only logs that have been tagged with the specified name of the tag.\n6. Some logs will have additional filtering options to show only specific kinds of actions. In this case, the deletion log can be further filtered to show only page deletions, page undeletions, revision deletions, and the overwriting of redirects.\n7. The newest / oldest links let you quickly jump to the newest log entries or to the oldest log entries. The newer n / older n links take you to the next or previous page of entries. The blue numbers list the number of entries displayed on the page. You can choose to display 20, 50, 100, 250 or 500 entries at once.",
+            "score": 0.9961456
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "content": "Retrieved from \"\"\n\nCategories:\n\n Fruits\n Vegetables\n Fabaceae\n\nAdd topic [...] | List of fruits | Apple ·  Apricot ·  Banana ·  Bilberry ·  Blackberry ·  Blackcurrant ·  Blueberry ·  Coconut ·  Currant ·  Cherry ·  Cherimoya ·  Clementine ·  Cloudberry  · Date ·  Damson ·  Dragonfruit ·  Durian ·  Elderberry ·  Fig ·  Feijoa ·  Gooseberry ·  Grape ·  Grapefruit ·  Huckleberry ·  Jackfruit ·  Jambul ·  Jujube ·  Kiwifruit ·  Kumquat ·  Lemon ·  Lime ·  Loquat ·  Lychee ·  Mango ·  Mangosteen ·  Melon ·  Cantaloupe ·  Honeydew \"Honeydew (melon)\") ·  Watermelon ·  Rock melon ·  Nectarine ·  Orange \"Orange (fruit)\") ·  Passionfruit ·  Peach ·  Pear ·  Plum ·  Plumcot ·  Prune ·  Pineapple ·  Pomegranate ·  Pomelo ·  Raisin ·  Raspberry ·  Rambutan ·  Redcurrant ·  Satsuma ·  Strawberry ·  Tangerine · Tomato ·  Ugli fruit · |\n| Category: Fruits | [...] | Types of fruits | Achene ·  Berry ·  Capsule ·  Caryopsis ·  Drupe ·  Follicle ·  Hesperidium · Legume ·  Loment ·  Nut \"Nut (fruit)\") ·  Pome ·  Samara \"Samara (fruit)\") ·  Schizocarp ·  Silique ·  Syconium |\n| Categories of fruits | Accessory fruit ·  Simple fruit ·  Aggregate or compound fruit ·  Multiple fruit ·  Dehiscent fruit |",
+            "score": 0.9856076
+          },
+          {
+            "title": "Phaseolus vulgaris - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+            "content": "Phaseolus vulgaris, the common bean, is a herbaceous annual plant. Its botanical classification, along with other Phaseolus species, is as a member of the legume family, Fabaceae. It forms a green-leaved vine which produces beans inside of pods.\n\nThe common bean has a long history of cultivation. All wild members of the species have a climbing habit, but many cultivars are classified either as bush beans or climbing beans, depending on their style of growth. In 2022, 28 million tonnes of dry common beans were produced worldwide, led by India with 23% of the total. [...] 17. ^ a b Taylor, Colin Duncan (2021). Menu from the Midi: A gastronomic journey through the south of France. Matador. ISBN \"ISBN (identifier)\") 978-1-80046-496-4.\n18. ^ Food and Agriculture Organization of the United Nations (2023). \"Bean\". www.fao.org. Retrieved 2023-11-18.\n19. ^ a b Pearman, Georgina (2005). Prance, Ghillean; Nesbitt, Mark (eds.). The Cultural History of Plants. Routledge. pp. 143–144. ISBN \"ISBN (identifier)\") 0-415-92746-3.\n20. ^ \"Taxon - Legume Data Portal\". www.legumedata.org. Retrieved 2024-10-01.\n21. ^ Wittenberg, Margaret M. (2013). The Essential Good Food Guide (3 ed.). Berkeley: Ten Speed Press. p. 145. ISBN \"ISBN (identifier)\") 978-1-60774-434-4. Retrieved June 10, 2019. [...] 41. ^ \"Appeal 2007-3938\" (PDF). Retrieved 2012-01-14.\n42. ^ a b \"Dry bean production in 2022, Crops/Regions/World list/Production Quantity/Year (pick lists)\". UN Food and Agriculture Organization, Corporate Statistical Database (FAOSTAT). 2024. Retrieved 20 February 2024.\n43. ^ \"Bad Bug Book (2012)\" (PDF). Foodborne Pathogenic Microorganisms and Natural Toxins Handbook: Phytohaemagglutinin. Food and Drug Administration. 2012. Archived from the original (PDF) on April 18, 2013. Retrieved 26 December 2013. Consumers should boil the beans for at least 30 minutes to ensure that the product reaches sufficient temperature\n44. ^ \"Be Careful With Red Kidney Beans in The Slow Cooker\". Mother Earth News. 31 January 2013.",
+            "score": 0.9830851
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Request a query/Archive 6",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Request_a_query/Archive_6",
+            "score": 0.9995987
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "score": 0.9986223
+          },
+          {
+            "title": "Help:Log - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Help:Log",
+            "score": 0.9961456
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "score": 0.9856076
+          },
+          {
+            "title": "Phaseolus vulgaris - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+            "score": 0.9830851
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Request"
+          },
+          {
+            "type": "name_like",
+            "value": "Archive"
+          },
+          {
+            "type": "name_like",
+            "value": "Thank"
+          },
+          {
+            "type": "name_like",
+            "value": "Clovermoss"
+          },
+          {
+            "type": "name_like",
+            "value": "December"
+          },
+          {
+            "type": "name_like",
+            "value": "And"
+          },
+          {
+            "type": "name_like",
+            "value": "Remember"
+          },
+          {
+            "type": "name_like",
+            "value": "Cryptic"
+          },
+          {
+            "type": "name_like",
+            "value": "Legume"
+          },
+          {
+            "type": "name_like",
+            "value": "Hello"
+          },
+          {
+            "type": "name_like",
+            "value": "Could"
+          },
+          {
+            "type": "name_like",
+            "value": "Date Range"
+          },
+          {
+            "type": "name_like",
+            "value": "From January"
+          },
+          {
+            "type": "name_like",
+            "value": "November"
+          },
+          {
+            "type": "name_like",
+            "value": "Keyword"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Drink"
+          },
+          {
+            "type": "name_like",
+            "value": "Cacao"
+          },
+          {
+            "type": "name_like",
+            "value": "Coffee"
+          },
+          {
+            "type": "name_like",
+            "value": "Plant"
+          },
+          {
+            "type": "name_like",
+            "value": "Tea"
+          },
+          {
+            "type": "name_like",
+            "value": "Related"
+          },
+          {
+            "type": "name_like",
+            "value": "James Beard Awards"
+          },
+          {
+            "type": "name_like",
+            "value": "Winners"
+          },
+          {
+            "type": "name_like",
+            "value": "Nominees"
+          },
+          {
+            "type": "name_like",
+            "value": "List"
+          },
+          {
+            "type": "name_like",
+            "value": "Ark"
+          },
+          {
+            "type": "name_like",
+            "value": "Haridwar"
+          },
+          {
+            "type": "name_like",
+            "value": "New Vrindaban"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the relevant content violation details from the public logs of the Legume Wikipedia page.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the definitions of the three core policies from the information found about Wikipedia's content violations.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"Wikipedia:Core content policies\",\n    \"neutral point of view\",\n    \"verifiability\",\n    \"no original research\"\n  ],\n  \"entities\": [\n"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "reason",
+      "description": "Determine what 'R' stands for in the context of the three core policies based on the extracted information.",
+      "depends_on": [
+        "T3",
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The 'R' in the context of the three core policies refers to the first letter of one of the three policies: 'neutral point of view', 'verifiability', or 'no original research'.",
+          "The query seeks to identify what 'R' stands for based on standard Wikipedia policy abbreviations or common shorthand, not arbitrary interpretation."
+        ],
+        "reasoning_steps": [
+          "Wikipedia's three core content policies are: Neutral Point of View (NPOV), Verifiability (V), and No Original Research (NOR).",
+          "The first letters of these policies are: N (for Neutral Point of View), V (for Verifiability), and N (for No Original Research).",
+          "None of the three policies start with 'R', but 'No Original Research' contains the word 'Research', which begins with 'R'.",
+          "In Wikipedia's internal shorthand and policy page references, 'No Original Research' is commonly abbreviated as 'NOR', where 'R' stands for 'Research'.",
+          "Therefore, within the context of the three core policies, 'R' is the first letter of 'Research' in 'No Original Research'."
+        ],
+        "conclusions": [
+          "The 'R' in the context of Wikipedia's three core content policies stands for 'Research'.",
+          "It is part of the abbreviation 'NOR' (No Original Research), which is one of the three core policies."
+        ],
+        "proposed_answer_outline": [
+          "Identify the three core policies: Neutral Point of View, Verifiability, No Original Research.",
+          "Note that 'R' is not the first letter of any policy, but appears in 'Research' within 'No Original Research'.",
+          "Confirm that 'No Original Research' is abbreviated as 'NOR' in Wikipedia documentation.",
+          "Conclude that 'R' stands for 'Research' as part of the NOR policy abbreviation."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Provide the final answer regarding what 'R' stands for in the context of the content violations.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Research",
+        "final_answer_strict": "Research",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 3,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 150,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 3,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 600,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "qwen"
+    },
+    "T6": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "max_tokens": 600,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 4,
+      "package_type": "qwen"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": true,
+    "numeric_match": null,
+    "pred_norm": "research",
+    "gt_norm": "research"
+  }
+}

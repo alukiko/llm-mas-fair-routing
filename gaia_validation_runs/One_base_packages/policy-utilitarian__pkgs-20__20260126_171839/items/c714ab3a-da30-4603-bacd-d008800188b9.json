@@ -1,0 +1,150 @@
+{
+  "id": "c714ab3a-da30-4603-bacd-d008800188b9",
+  "query": "You are Van Helsing, a renowned vampire hunter. A Count of Moldova, Lațcu IV, son of  Costea, has tasked you with investigating the village of Șirnea in neighboring Wallachia. The Count's advisors have reported that a vampire was spotted crossing the border near the village, and would like you to investigate it.\n\nYou travel to the village of Șirnea, and you begin your investigation. One night, just before dawn, you catch a glimpse of a man in a long black cape with red lining leaping from roof-top to roof-top with superhuman agility. It's a vampire! You try to chase the creature back to its home, but the creature is too fast. However, because of the remoteness of the village, you know with absolute certainty that the vampire must be a resident of the village. You decide that your best course of action will be to visit all 100 residents of the town during the day. You know something about vampires and humans that will make your investigation possible; humans always tell the truth, but vampires always lie.\n\nIn the afternoon, you go from house to house, speaking with all 100 residents of Șirnea. You ask everyone the same question: \"How many vampires are living in Șirnea\". Everyone in the village gives the same response, \"At least one of us is a human.\"\n\nHow many residents of Șirnea have been turned into vampires?",
+  "ground_truth": "100",
+  "answer_raw": {
+    "final_answer": "99 residents have been turned into vampires.",
+    "final_answer_strict": "99.0",
+    "used_evidence": [
+      "The residents of Șirnea all claimed, \"At least one of us is a human,\" which implies that all but one resident could be a vampire."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "99.0",
+  "error": null,
+  "duration_sec": 25.914672136306763,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "reason",
+      "description": "Analyze the statements made by the residents regarding the number of vampires in the village.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The statements made by the residents are based on their personal observations or beliefs.",
+          "Some residents may exaggerate or understate the number of vampires present for various reasons, such as fear or superstition.",
+          "The village has a defined and limited population, which means there is a maximum number of vampires that can realistically exist."
+        ],
+        "reasoning_steps": [
+          "Gather all statements made by the residents regarding the number of vampires.",
+          "Identify any contradictions or commonalities in the statements.",
+          "Evaluate the credibility of each resident based on their relationship to the vampire phenomenon (e.g., are they directly affected, are they outsiders, etc.).",
+          "Consider the overall context of the village, including its history and any known incidents related to vampires."
+        ],
+        "conclusions": [
+          "There is likely a discrepancy in the number of vampires reported by different residents.",
+          "The residents' statements may reflect their fears rather than an accurate count of vampires.",
+          "A consensus may be reached on the existence of vampires, but the exact number remains uncertain."
+        ],
+        "proposed_answer_outline": [
+          "1. Summarize the statements made by the residents.",
+          "2. Analyze the credibility and motivations behind these statements.",
+          "3. Discuss the implications of the differing reports on community perception.",
+          "4. Suggest the need for further investigation to determine the actual number of vampires."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What specific statements did the residents make about the number of vampires?",
+          "Are there any historical records or evidence supporting the existence of vampires in the village?",
+          "How do the residents' personal experiences with the vampires differ?"
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "calc",
+      "description": "Calculate the number of residents who are vampires based on the reasoning from T1.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "python_code": "final_answer = None\nprint(final_answer)",
+        "output": "None\n",
+        "final_line": "None",
+        "error": null,
+        "llm_raw": "{\n  \"python_code\": \"final_answer = None\\nprint(final_answer)\"\n}"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the final answer regarding how many residents of Șirnea have been turned into vampires.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "99 residents have been turned into vampires.",
+        "final_answer_strict": "99.0",
+        "used_evidence": [
+          "The residents of Șirnea all claimed, \"At least one of us is a human,\" which implies that all but one resident could be a vampire."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 5,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": true
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 8,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": false,
+    "pred_norm": "99.0",
+    "gt_norm": "100"
+  }
+}

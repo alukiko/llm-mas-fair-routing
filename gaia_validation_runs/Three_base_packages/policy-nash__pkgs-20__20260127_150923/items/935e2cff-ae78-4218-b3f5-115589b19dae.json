@@ -1,0 +1,589 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 53.90382099151611,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information on the three core policies of content violations on Wikipedia.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information on the three core policies of content violations on Wikipedia.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies\"\n    },\n    {\n      \"fact\": \"The Neutral Point of View (NPOV) principle requires that all articles represent significant views fairly and without bias.\",\n      \"source_url\": \"https://blog",
+        "sources": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "snippet": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] In its earliest form, the policy singled out edits for exclusion that:\n\n Introduce a theory or method of solution;\n Introduce original ideas;\n Define existing terms in different ways; or introduce neologisms;\n\nand established as criteria for inclusion edits that present:\n\n Ideas that have been accepted for publication in a peer-reviewed journal; or\n Ideas that have become newsworthy: they have been repeatedly and independently reported in newspapers or news stories (such as the cold fusion story). [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes "
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "snippet": "### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] 2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated pla"
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "snippet": "For more information on the benefits of creating an account, please see this article from Wikipedia as well as Chapter 3: Setting up your account and personal workspace from Wikipedia: The Missing Manual.\n\nContent Policies\n\nNow that you have made an account (or not!), let’s go over some content policies.\n\nWikipedia has three core content policies:\n\n1. Neutral point of view\n2. Verifiability\n3. No original research\n\nAs an encyclopedia, Wikipedia is a tertiary source of information. It strives to maintain an encyclopedic style and formal, neutral tone in its articles. It is not the place to make arguments or share original work. Wikipedia’s article on its core content policies provides more information on the history and motivations behind these core content policies."
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "snippet": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Wikipedia policy pages |  About Wikipedia  Five pillars  Citing sources  Copying text from other sources  Core content policies  Identifying reliable sources  Manual of Style  Neutral point of view  Notability  No original research  Verifiability  Words to watch  What Wikipedia is not | [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the ap"
+          },
+          {
+            "title": "Wikipedia:Vandalism",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Vandalism",
+            "snippet": "The malicious removal of encyclopedic content, or the changing of such content beyond all recognition, without any regard to our core content policies of neutral point of view (which does not mean no point of view), verifiability and no original research, is a deliberate attempt to damage Wikipedia. There are, of course, more juvenile forms of vandalism, such as adding irrelevant obscenities or crude humor to a page, illegitimately blanking pages, and inserting obvious nonsense into a page. Abusive creation or usage of user accounts and temporary accounts may also constitute vandalism. [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ | [...] Even if misguided, willfully against consensus, or disruptive, any good faith effort to improve the encyclopedia is not vandalism. For example, edit warring over how exactly to present encyclopedic content is not vandalism. Careful consideration may be required to differentiate between edits that are beneficial, edits that are detrimental but well-intentioned, and edits that are vandalism. If it is clear that an editor is intending to improve Wikipedia, their"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "content": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] In its earliest form, the policy singled out edits for exclusion that:\n\n Introduce a theory or method of solution;\n Introduce original ideas;\n Define existing terms in different ways; or introduce neologisms;\n\nand established as criteria for inclusion edits that present:\n\n Ideas that have been accepted for publication in a peer-reviewed journal; or\n Ideas that have become newsworthy: they have been repeatedly and independently reported in newspapers or news stories (such as the cold fusion story). [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source.",
+            "score": 0.99992967
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "content": "### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] 2. Can I cite sources like social media or personal blogs?  \nGenerally, that’s a nope. Wikipedia only accepts sources that meet its reliability guidelines. Social media posts, self-published content, and user-generated platforms (like the ascendant Reddit) are rarely considered credible, though there are exceptions for verified accounts of prominent individuals in specific contexts. Sometimes. It’s a gray area.\n\n3. What happens if my edits violate a core policy?  \nIf your content breaches NPOV, Verifiability, or No Original Research, other editors or Wikipedia administrators will probably revert it to an earlier version of the page. Probably the one just before your edit. Repeated violations can lead to warnings, loss of editing privileges, or even bans from Wikipedia.",
+            "score": 0.99939764
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "content": "For more information on the benefits of creating an account, please see this article from Wikipedia as well as Chapter 3: Setting up your account and personal workspace from Wikipedia: The Missing Manual.\n\nContent Policies\n\nNow that you have made an account (or not!), let’s go over some content policies.\n\nWikipedia has three core content policies:\n\n1. Neutral point of view\n2. Verifiability\n3. No original research\n\nAs an encyclopedia, Wikipedia is a tertiary source of information. It strives to maintain an encyclopedic style and formal, neutral tone in its articles. It is not the place to make arguments or share original work. Wikipedia’s article on its core content policies provides more information on the history and motivations behind these core content policies.",
+            "score": 0.9975466
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "content": "Jump to content\n\nWikipedia began as an impossible dream. Today, we celebrate 25 years of humanity at its best. Join us\n\n# Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content policies\n\nAdd links\n\nFrom Wikipedia, the free encyclopedia\n\n< Wikipedia:WikiProject WikiFundi Content\n\nWikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] | Wikipedia policy pages |  About Wikipedia  Five pillars  Citing sources  Copying text from other sources  Core content policies  Identifying reliable sources  Manual of Style  Neutral point of view  Notability  No original research  Verifiability  Words to watch  What Wikipedia is not | [...] These policies determine the type and quality of material that is acceptable in Wikipedia articles. Because they complement each other, they should not be interpreted in isolation from one another. The principles upon which these policy statements are based are not superseded by other policies or guidelines, or by editors' consensus. These three policy pages may be edited only to improve the application and explanation of the principles.\n\n## History\n\n[edit]",
+            "score": 0.99664956
+          },
+          {
+            "title": "Wikipedia:Vandalism",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Vandalism",
+            "content": "The malicious removal of encyclopedic content, or the changing of such content beyond all recognition, without any regard to our core content policies of neutral point of view (which does not mean no point of view), verifiability and no original research, is a deliberate attempt to damage Wikipedia. There are, of course, more juvenile forms of vandalism, such as adding irrelevant obscenities or crude humor to a page, illegitimately blanking pages, and inserting obvious nonsense into a page. Abusive creation or usage of user accounts and temporary accounts may also constitute vandalism. [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ | [...] Even if misguided, willfully against consensus, or disruptive, any good faith effort to improve the encyclopedia is not vandalism. For example, edit warring over how exactly to present encyclopedic content is not vandalism. Careful consideration may be required to differentiate between edits that are beneficial, edits that are detrimental but well-intentioned, and edits that are vandalism. If it is clear that an editor is intending to improve Wikipedia, their edits are not vandalism, even if they violate some core policy of Wikipedia. Mislabeling good faith edits \"vandalism\" can be harmful, as it makes users less likely to respond to corrective advice or to engage collaboratively during a disagreement. For that reason, avoid using the term \"vandalism\" unless it is clear the user means to",
+            "score": 0.9957684
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "score": 0.99992967
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "score": 0.99939764
+          },
+          {
+            "title": "Editing Wikipedia: A Primer - Society of North Carolina Archivists",
+            "url": "https://ncarchivists.org/primer",
+            "score": 0.9975466
+          },
+          {
+            "title": "Wikipedia:WikiProject WikiFundi Content/Wikipedia:Core content ...",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_WikiFundi_Content/Wikipedia:Core_content_policies",
+            "score": 0.99664956
+          },
+          {
+            "title": "Wikipedia:Vandalism",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Vandalism",
+            "score": 0.9957684
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core"
+          },
+          {
+            "type": "name_like",
+            "value": "Editors"
+          },
+          {
+            "type": "name_like",
+            "value": "Introduce"
+          },
+          {
+            "type": "name_like",
+            "value": "Define"
+          },
+          {
+            "type": "name_like",
+            "value": "Ideas"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutral"
+          },
+          {
+            "type": "name_like",
+            "value": "All Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Verifiability"
+          },
+          {
+            "type": "name_like",
+            "value": "Material"
+          },
+          {
+            "type": "name_like",
+            "value": "In Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "What You Should Know"
+          },
+          {
+            "type": "name_like",
+            "value": "About Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core Policies"
+          },
+          {
+            "type": "name_like",
+            "value": "What Are Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "These"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Think"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutrality"
+          },
+          {
+            "type": "name_like",
+            "value": "The Neutral Point"
+          },
+          {
+            "type": "name_like",
+            "value": "View"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "Can"
+          },
+          {
+            "type": "name_like",
+            "value": "Generally"
+          },
+          {
+            "type": "name_like",
+            "value": "Social"
+          },
+          {
+            "type": "name_like",
+            "value": "Editing Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Primer"
+          },
+          {
+            "type": "name_like",
+            "value": "Society"
+          },
+          {
+            "type": "name_like",
+            "value": "North Carolina Archivists\nFor"
+          },
+          {
+            "type": "name_like",
+            "value": "Chapter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find the public logs related to the Legume Wikipedia page for the year 2022.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the public logs related to the Legume Wikipedia page for the year 2022.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"The legume family, known scientifically as Fabaceae, includes a variety of edible plants such as beans, lentils, and peas.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Fabaceae\"\n    },\n    {\n      \"fact\": \"Legumes are characterized by their fruit, which is a simple dry pod that usually splits open along two seams.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/F",
+        "sources": [
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "snippet": "34. ^ Hunt, Katie (2022-11-22). \"Neanderthals cooked meals with pulses 70,000 years ago\". cnn.com.\n35. ^ Albala, Ken (2007). \"Lentils: Fertile Crescent\". Beans: A History. New York: Berg Publishers. p. 18. ISBN \"ISBN (identifier)\") 978-0-85785-078-2. The earliest culinary texts to have survived are in the form of three cuneiform tablets dated to about 1600 BCE. ... [T]ucked away among a series of porridges there is one recipe for husked lentils ... [I]n any case it is the very oldest explicit legume recipe on earth. ... The Egyptians also used lentils as funerary offerings and in meals to feed the dead in the underworld. Large stores were found beneath Zoser's pyramid\n36. ^ Chaudhry, Mat. Green Gold: Value-added pulses. Quantum Media. ISBN \"ISBN (identifier)\") 1-61364-696-8. [...] 1. ^ \"What is a Pulse?\". Pulse Canada. Archived from the original on 3 March 2022. Retrieved 3 March 2022.\n2. ^ \"Legumes and Pulses\". The Nutrition Source, Harvard University, T.H. Chan School of Public Health. 2025. Retrieved 2025-02-07.\n3. ^ \"Leguminous Plant Puns | A list of puns related to \"Leguminous Plant\"\". punstoppable.com. Retrieved 2022-04-07.\n4. ^ \"Pulses and Derived Products\". Definition and C"
+          },
+          {
+            "title": "Bean - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bean",
+            "snippet": "39.   ^\"Tempeh\". BBC Good Food. Retrieved 2 January 2025.\n40.   ^\"Foundation Foods: Legumes and Legume Products\". _FoodData Central_. Retrieved 24 February 2025.\n41.   ^\"Foundation Foods: Legumes and Legume Products\". _FoodData Central_. Retrieved 24 February 2025._[dead link_]\n42.   ^Thombare, Nandkishore; Jha, Usha; Mishra, Sumit; Siddiqui, M.Z. (July 2016). \"Guar gum as a promising starting material for diverse applications: A review\". _International Journal of Biological Macromolecules_. 88: 361–372. Bibcode \"Bibcode (identifier)\"):2016IJBMm..88..361T. doi \"Doi (identifier)\"):10.1016/j.ijbiomac.2016.04.001. PMID \"PMID (identifier)\")27044346.\n43.   ^\"Natural toxins in food\". _www.who.int_. Retrieved 7 April 2022. [...] 25.   ^Shurtleff, William; Aoyagi, Akiko (1 October 2013). _Early Named Soybean Varieties in the United States and Canada: Extensively Annotated Bibliography and Sourcebook_. Soyinfo Center. ISBN \"ISBN (identifier)\")9781928914600. Retrieved 18 November 2017 – via Google Books.\n26.   ^Schneider, Meg. _New York Yesterday & Today_. Voyageur Press. p.114. ISBN \"ISBN (identifier)\")9781616731267. Retrieved 18 November 2017 – via Google Books.\n27.   ^\"The Germination Of "
+          },
+          {
+            "title": "File:Various legumes.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Various_legumes.jpg",
+            "snippet": "Usage on fr.wikipedia.org\n  + Liste de plats à base de légumineuses\n Usage on ga.wikipedia.org\n  + Léagúm\n Usage on gl.wikipedia.org\n  + Legume\n Usage on gl.wiktionary.org\n  + legume\n Usage on ha.wikipedia.org\n  + Legum\n Usage on hy.wikipedia.org\n  + Հատիկաընդեղեն բույսեր\n Usage on ia.wikipedia.org\n  + Legumine\n Usage on id.wikipedia.org\n  + Kue kering\n Usage on ig.wikipedia.org\n  + Ụbọchị Pulses nke Ụwa\n Usage on it.wikiquote.org\n  + Legume\n Usage on ko.wikipedia.org\n  + 협과\n Usage on lv.wikipedia.org\n  + Pupa\n Usage on mg.wikipedia.org\n  + Voamaina\n Usage on ml.wiktionary.org\n  + പയർ\n Usage on mnw.wiktionary.org\n  + ပဲ\n Usage on my.wikipedia.org\n  + ပဲတောင့်ရှည်\n Usage on new.wikipedia.org\n  + बूबः\n  + छ्येलेमि:Eukesh/Auto/NepalScript/बूबः\n Usage on nn.wikipedia.org\n  + Belgfrukt [...] Usage on af.wikipedia.org\n  + Peulgewas\n Usage on ar.wikipedia.org\n  + علم الآثار الحيوية في الشرق الأدنى\n  + قائمة أطباق البقوليات\n Usage on ast.wikipedia.org\n  + Llegume\n Usage on bg.wikipedia.org\n  + Бобови култури\n Usage on bs.wikipedia.org\n  + Mahuna\n Usage on ca.wiktionary.org\n  + llegum\n Usage on da.wikipedia.org\n  + Bælgfrugt\n Usage on en.wikipedia.org\n  + Legume\n  + List of legume dishes\n  "
+          },
+          {
+            "title": "Fabaceae - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fabaceae",
+            "snippet": "30. ^ Herendeen, Patrick S.; Cardoso, Domingos B. O. S.; Herrera, Fabiany; Wing, Scott L. (January 2022). \"Fossil papilionoids of the Bowdichia clade (Leguminosae) from the Paleogene of North America\". American Journal of Botany. 109 (1): 130–150. doi \"Doi (identifier)\"):10.1002/ajb2.1808. ISSN \"ISSN (identifier)\") 0002-9122. PMC \"PMC (identifier)\") 9306462. PMID \"PMID (identifier)\") 35014023.\n31. ^ Bruneau, A., Lewis, G. P., Herendeen, P. S., Schrire, B., & Mercure, M. 2008b. Biogeographic patterns in early-diverging clades of the Leguminosae. Pp. 98–99, in Botany 2008. Botany without Borders. [Botanical Society of America, Abstracts.] [...] ### Fruit\n\n[edit]\n\nMain article: Legume\n\nThe ovary most typically develops into a legume. A legume is a simple dry fruit that usually dehisces \"Dehiscence (botany)\") (opens along a seam) on two sides. A common name for this type of fruit is a \"pod\", although that can also be applied to a few other fruit types. A few species have evolved samarae \"Samara (fruit)\"), loments, follicles \"Follicle (fruit)\"), indehiscent legumes, achenes, drupes, and berries from the basic legume fruit.\n\n### Physiology and biochemistry\n\n[edit] [...] ## External links"
+          },
+          {
+            "title": "Category:Edible legumes - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Edible_legumes",
+            "snippet": "### A\n\n Acacia holosericea\n Adzuki bean\n Alb-Leisa\n Apios americana\n Appaloosa bean\n Arachis hypogaea\n Archidendron pauciflorum\n Asparagus bean\n\n### B\n\n Bean\n Black adzuki bean\n Black turtle bean\n Black-eyed pea\n Bolita bean\n Broad bean\n\n### C\n\n Cajanus cajan\n Cajanus scarabaeoides\n Calypso bean\n Canavalia gladiata\n Canned beans\n Caragana arborescens\n Carob\n Catjang\n Chickpea\n Cicer\n Cicer arietinum\n Cowpea\n Crotalaria longirostrata\n\n### D\n\n Detarium microcarpum\n Detarium senegalense\n Dixie Lee pea\n Dragon tongue bean\n\n### E\n\n Edamame\n Erythrina edulis\n\n### F\n\n Fabes de la Granja\n Fava bean\n Fenugreek\n Fenugreek production in India\n Field pea (Pisum) \"Field pea (Pisum)\")\n Flageolet bean\n Flat bean\n\n### G\n\n Genetically modified soybean\n Glycine max\n Green bean\n Guar\n\n### H\n\n Honey locust [...] ### H\n\n Honey locust\n\n### I\n\n Inga edulis\n Inga feuilleei\n Inocarpus fagifer\n\n### K\n\n Kidney bean\n\n### L\n\n Lablab\n Lablab purpureus\n Lathyrus aphaca\n Lathyrus japonicus\n Lathyrus sativus\n Le Puy green lentil\n Lentil\n Lima bean\n Liquorice\n Lupin bean\n Lupinus luteus\n\n### M\n\n Macrotyloma geocarpum\n Macrotyloma uniflorum\n Mesquite\n Mucuna pruriens\n Mung bean\n\n### N\n\n Neltuma alba\n Neltuma glandul"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "content": "34. ^ Hunt, Katie (2022-11-22). \"Neanderthals cooked meals with pulses 70,000 years ago\". cnn.com.\n35. ^ Albala, Ken (2007). \"Lentils: Fertile Crescent\". Beans: A History. New York: Berg Publishers. p. 18. ISBN \"ISBN (identifier)\") 978-0-85785-078-2. The earliest culinary texts to have survived are in the form of three cuneiform tablets dated to about 1600 BCE. ... [T]ucked away among a series of porridges there is one recipe for husked lentils ... [I]n any case it is the very oldest explicit legume recipe on earth. ... The Egyptians also used lentils as funerary offerings and in meals to feed the dead in the underworld. Large stores were found beneath Zoser's pyramid\n36. ^ Chaudhry, Mat. Green Gold: Value-added pulses. Quantum Media. ISBN \"ISBN (identifier)\") 1-61364-696-8. [...] 1. ^ \"What is a Pulse?\". Pulse Canada. Archived from the original on 3 March 2022. Retrieved 3 March 2022.\n2. ^ \"Legumes and Pulses\". The Nutrition Source, Harvard University, T.H. Chan School of Public Health. 2025. Retrieved 2025-02-07.\n3. ^ \"Leguminous Plant Puns | A list of puns related to \"Leguminous Plant\"\". punstoppable.com. Retrieved 2022-04-07.\n4. ^ \"Pulses and Derived Products\". Definition and Classification of Commodities. Food and Agriculture Organization. 1994. Archived from the original on 2015-12-07. Retrieved 2018-07-22. [...] 29. ^ Sarrantonio, Marianne (1991). Methodologies for screening soil-improving legumes. Kutztown, Pennsylvania: Rodale Institute. p. 15. ISBN \"ISBN (identifier)\") 0-87857-989-3.\n30. ^ \"Gleditsia triacanthos (honey locust)\". CABI. 10 December 2019. Retrieved 10 September 2022.\n31. ^ \"Are black locust trees toxic?\". www.poison.org. Archived from the original on 2022-09-10. Retrieved 2022-09-10.\n32. ^ \"Kentucky coffeetree | Department of Horticulture\". www.uky.edu. Archived from the original on 2022-10-01. Retrieved 2022-09-10.\n33. ^ \"Laburnum anagyroides (Common Laburnum, Golden Chain Tree, Golden Rain Tree)\". North Carolina Extension Gardener Plant Toolbox. Archived from the original on 2022-09-10. Retrieved 2022-09-10.",
+            "score": 0.8127637
+          },
+          {
+            "title": "Bean - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bean",
+            "content": "39.   ^\"Tempeh\". BBC Good Food. Retrieved 2 January 2025.\n40.   ^\"Foundation Foods: Legumes and Legume Products\". _FoodData Central_. Retrieved 24 February 2025.\n41.   ^\"Foundation Foods: Legumes and Legume Products\". _FoodData Central_. Retrieved 24 February 2025._[dead link_]\n42.   ^Thombare, Nandkishore; Jha, Usha; Mishra, Sumit; Siddiqui, M.Z. (July 2016). \"Guar gum as a promising starting material for diverse applications: A review\". _International Journal of Biological Macromolecules_. 88: 361–372. Bibcode \"Bibcode (identifier)\"):2016IJBMm..88..361T. doi \"Doi (identifier)\"):10.1016/j.ijbiomac.2016.04.001. PMID \"PMID (identifier)\")27044346.\n43.   ^\"Natural toxins in food\". _www.who.int_. Retrieved 7 April 2022. [...] 25.   ^Shurtleff, William; Aoyagi, Akiko (1 October 2013). _Early Named Soybean Varieties in the United States and Canada: Extensively Annotated Bibliography and Sourcebook_. Soyinfo Center. ISBN \"ISBN (identifier)\")9781928914600. Retrieved 18 November 2017 – via Google Books.\n26.   ^Schneider, Meg. _New York Yesterday & Today_. Voyageur Press. p.114. ISBN \"ISBN (identifier)\")9781616731267. Retrieved 18 November 2017 – via Google Books.\n27.   ^\"The Germination Of a Bean\"(PDF). _Microscopy-uk.org.uk_. Archived(PDF) from the original on 9 October 2022. Retrieved 18 November 2017.\n28.   ^FAO STAT Production/Crops.\n29.   ^See Legume §Classification.\n30.   ^FAO Pulses and Derived ProductsArchived 7 December 2015 at the Wayback Machine. [...] 10.   ^Kaplan 2008, p.30.\n11.   ^Mt. Pleasant, Jane (2006). \"The science behind the Three Sisters mound system: An agronomic assessment of an indigenous agricultural system in the northeast\". In Staller, John E.; Tykot, Robert H.; Benz, Bruce F. (eds.). _Histories of Maize: Multidisciplinary Approaches to the Prehistory, Linguistics, Biogeography, Domestication, and Evolution of Maize_. Amsterdam: Academic Press. pp.529–537. ISBN \"ISBN (identifier)\")978-0-1236-9364-8.\n12.   ^Pardo B., Oriana; Pizarro, José Luis (2014). _Chile: Plantas alimentarias Prehispánicas_ (in Spanish) (2015 ed.). Arica, Chile: Ediciones Parina. p.162. ISBN \"ISBN (identifier)\")978-9569120022.\n13.   ^\"Legumes and Pulses\". _The Nutrition Source_. 28 October 2019. Retrieved 7 April 2022.",
+            "score": 0.5303587
+          },
+          {
+            "title": "File:Various legumes.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Various_legumes.jpg",
+            "content": "Usage on fr.wikipedia.org\n  + Liste de plats à base de légumineuses\n Usage on ga.wikipedia.org\n  + Léagúm\n Usage on gl.wikipedia.org\n  + Legume\n Usage on gl.wiktionary.org\n  + legume\n Usage on ha.wikipedia.org\n  + Legum\n Usage on hy.wikipedia.org\n  + Հատիկաընդեղեն բույսեր\n Usage on ia.wikipedia.org\n  + Legumine\n Usage on id.wikipedia.org\n  + Kue kering\n Usage on ig.wikipedia.org\n  + Ụbọchị Pulses nke Ụwa\n Usage on it.wikiquote.org\n  + Legume\n Usage on ko.wikipedia.org\n  + 협과\n Usage on lv.wikipedia.org\n  + Pupa\n Usage on mg.wikipedia.org\n  + Voamaina\n Usage on ml.wiktionary.org\n  + പയർ\n Usage on mnw.wiktionary.org\n  + ပဲ\n Usage on my.wikipedia.org\n  + ပဲတောင့်ရှည်\n Usage on new.wikipedia.org\n  + बूबः\n  + छ्येलेमि:Eukesh/Auto/NepalScript/बूबः\n Usage on nn.wikipedia.org\n  + Belgfrukt [...] Usage on af.wikipedia.org\n  + Peulgewas\n Usage on ar.wikipedia.org\n  + علم الآثار الحيوية في الشرق الأدنى\n  + قائمة أطباق البقوليات\n Usage on ast.wikipedia.org\n  + Llegume\n Usage on bg.wikipedia.org\n  + Бобови култури\n Usage on bs.wikipedia.org\n  + Mahuna\n Usage on ca.wiktionary.org\n  + llegum\n Usage on da.wikipedia.org\n  + Bælgfrugt\n Usage on en.wikipedia.org\n  + Legume\n  + List of legume dishes\n  + Lists of foods\n  + Near Eastern bioarchaeology\n Usage on en.wikibooks.org\n  + Healthy eating habits/Importance of Fibre\n  + Healthy eating habits/Cost Effective Healthy Eating for Students and Part Time Workers\n  + Healthy eating habits/Printable version\n Usage on en.wiktionary.org\n  + legume\n  + ပဲ\n Usage on es.wikipedia.org\n  + El plato para comer saludable\n Usage on fr.wikipedia.org [...] Usage on nn.wikipedia.org\n  + Belgfrukt\n Usage on pnb.wikipedia.org\n  + داݪ\n Usage on ps.wikipedia.org\n  + دال (حبوبات))\n Usage on sh.wikipedia.org\n  + Mahuna\n Usage on sl.wikipedia.org\n  + Beljakovina\n Usage on sr.wikipedia.org\n  + Махунарке\n Usage on su.wikipedia.org\n  + Kacang\n Usage on ta.wikipedia.org\n  + இருபுற வெடிக்கனி\n Usage on te.wikipedia.org\n  + పప్పు ధాన్యాలు\n Usage on tr.wikipedia.org\n  + Bakliyat\n Usage on tt.wikipedia.org\n  + Бөртекле-кузаклы культуралар\n Usage on uk.wikipedia.org\n  + Бобові культури\n Usage on ur.wikipedia.org\n  + دال (اناج))\n Usage on vi.wikipedia.org\n  + Cy họ đậu",
+            "score": 0.48572227
+          },
+          {
+            "title": "Fabaceae - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fabaceae",
+            "content": "30. ^ Herendeen, Patrick S.; Cardoso, Domingos B. O. S.; Herrera, Fabiany; Wing, Scott L. (January 2022). \"Fossil papilionoids of the Bowdichia clade (Leguminosae) from the Paleogene of North America\". American Journal of Botany. 109 (1): 130–150. doi \"Doi (identifier)\"):10.1002/ajb2.1808. ISSN \"ISSN (identifier)\") 0002-9122. PMC \"PMC (identifier)\") 9306462. PMID \"PMID (identifier)\") 35014023.\n31. ^ Bruneau, A., Lewis, G. P., Herendeen, P. S., Schrire, B., & Mercure, M. 2008b. Biogeographic patterns in early-diverging clades of the Leguminosae. Pp. 98–99, in Botany 2008. Botany without Borders. [Botanical Society of America, Abstracts.] [...] ### Fruit\n\n[edit]\n\nMain article: Legume\n\nThe ovary most typically develops into a legume. A legume is a simple dry fruit that usually dehisces \"Dehiscence (botany)\") (opens along a seam) on two sides. A common name for this type of fruit is a \"pod\", although that can also be applied to a few other fruit types. A few species have evolved samarae \"Samara (fruit)\"), loments, follicles \"Follicle (fruit)\"), indehiscent legumes, achenes, drupes, and berries from the basic legume fruit.\n\n### Physiology and biochemistry\n\n[edit] [...] ## External links\n\n[edit]\n\nWikispecies has information related to Fabaceae.\n\nWikimedia Commons has media related to Fabaceae.\n\nWikisource has the text of the 1920 Encyclopedia Americana article Leguminosæ/Leguminos%C3%A6 \"s:The Encyclopedia Americana (1920)/Leguminosæ\").\n\n Fabaceae at the Angiosperm Phylogeny Website\n LegumeWeb Database at the International Legume Database & Information Service (ILDIS)\n\n|  v  t  e  Families of flowering plants (APG IV) |",
+            "score": 0.42648935
+          },
+          {
+            "title": "Category:Edible legumes - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Edible_legumes",
+            "content": "### A\n\n Acacia holosericea\n Adzuki bean\n Alb-Leisa\n Apios americana\n Appaloosa bean\n Arachis hypogaea\n Archidendron pauciflorum\n Asparagus bean\n\n### B\n\n Bean\n Black adzuki bean\n Black turtle bean\n Black-eyed pea\n Bolita bean\n Broad bean\n\n### C\n\n Cajanus cajan\n Cajanus scarabaeoides\n Calypso bean\n Canavalia gladiata\n Canned beans\n Caragana arborescens\n Carob\n Catjang\n Chickpea\n Cicer\n Cicer arietinum\n Cowpea\n Crotalaria longirostrata\n\n### D\n\n Detarium microcarpum\n Detarium senegalense\n Dixie Lee pea\n Dragon tongue bean\n\n### E\n\n Edamame\n Erythrina edulis\n\n### F\n\n Fabes de la Granja\n Fava bean\n Fenugreek\n Fenugreek production in India\n Field pea (Pisum) \"Field pea (Pisum)\")\n Flageolet bean\n Flat bean\n\n### G\n\n Genetically modified soybean\n Glycine max\n Green bean\n Guar\n\n### H\n\n Honey locust [...] ### H\n\n Honey locust\n\n### I\n\n Inga edulis\n Inga feuilleei\n Inocarpus fagifer\n\n### K\n\n Kidney bean\n\n### L\n\n Lablab\n Lablab purpureus\n Lathyrus aphaca\n Lathyrus japonicus\n Lathyrus sativus\n Le Puy green lentil\n Lentil\n Lima bean\n Liquorice\n Lupin bean\n Lupinus luteus\n\n### M\n\n Macrotyloma geocarpum\n Macrotyloma uniflorum\n Mesquite\n Mucuna pruriens\n Mung bean\n\n### N\n\n Neltuma alba\n Neltuma glandulosa\n Neltuma nigra\n Neltuma velutina\n Neptunia oleracea\n\n### P\n\n Parkia javanica\n Parkia speciosa\n Parkia timoriana\n Parkinsonia florida\n Parkinsonia microphylla\n Pea\n Pea shoots\n Peanut\n Pediomelum cuspidatum\n Pediomelum esculentum\n Phaseolus acutifolius\n Phaseolus coccineus\n Phaseolus vulgaris\n Pigeon pea\n Pinquito bean\n Pinto bean\n Pithecellobium dulce\n Pochas\n\n### R [...] Jump to content\n\nSearch\n\n# Category:Edible legumes\n\n Afrikaans\n العربية\n Aragonés\n Asturianu\n Azərbaycanca\n বাংলা\n Башҡортса\n Беларуская\n Беларуская (тарашкевіца)\")\n Български\n Bosanski\n Català\n Чӑвашла\n Čeština\n Dansk\n Deutsch\n Ελληνικά\n Español\n Euskara\n فارسی\n Français\n Gaelg\n ગુજરાતી\n 한국어\n Ido\n Bahasa Indonesia\n Italiano\n Lietuvių\n Македонски\n မြန်မာဘာသာ\n Nederlands\n 日本語\n Norsk nynorsk\n Português\n Русский\n Sicilianu\n Simple English\n Slovenčina\n Татарча / tatarça\n ไทย\n Türkçe\n Українська\n Tiếng Việt\n 粵語\n 中文\n\nEdit links\n\n Category\n Talk\n\n Read\n Edit\n View history\n\nTools\n\nActions\n\n Read\n Edit\n View history\n\nGeneral\n\n What links here\n Related changes\n Upload file\n Permanent link\n Page information\n Get shortened URL\n Download QR code\n\nPrint/export\n\n Download as PDF\n Printable version",
+            "score": 0.418341
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "score": 0.8127637
+          },
+          {
+            "title": "Bean - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bean",
+            "score": 0.5303587
+          },
+          {
+            "title": "File:Various legumes.jpg - Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Various_legumes.jpg",
+            "score": 0.48572227
+          },
+          {
+            "title": "Fabaceae - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fabaceae",
+            "score": 0.42648935
+          },
+          {
+            "title": "Category:Edible legumes - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Category:Edible_legumes",
+            "score": 0.418341
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Legume"
+          },
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Hunt"
+          },
+          {
+            "type": "name_like",
+            "value": "Katie"
+          },
+          {
+            "type": "name_like",
+            "value": "Neanderthals"
+          },
+          {
+            "type": "name_like",
+            "value": "Albala"
+          },
+          {
+            "type": "name_like",
+            "value": "Ken"
+          },
+          {
+            "type": "name_like",
+            "value": "Lentils"
+          },
+          {
+            "type": "name_like",
+            "value": "Fertile Crescent"
+          },
+          {
+            "type": "name_like",
+            "value": "Beans"
+          },
+          {
+            "type": "name_like",
+            "value": "History"
+          },
+          {
+            "type": "name_like",
+            "value": "New York"
+          },
+          {
+            "type": "name_like",
+            "value": "Berg Publishers"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "The Egyptians"
+          },
+          {
+            "type": "name_like",
+            "value": "Large"
+          },
+          {
+            "type": "name_like",
+            "value": "Zoser"
+          },
+          {
+            "type": "name_like",
+            "value": "Chaudhry"
+          },
+          {
+            "type": "name_like",
+            "value": "Mat"
+          },
+          {
+            "type": "name_like",
+            "value": "Green Gold"
+          },
+          {
+            "type": "name_like",
+            "value": "Value"
+          },
+          {
+            "type": "name_like",
+            "value": "Quantum Media"
+          },
+          {
+            "type": "name_like",
+            "value": "What"
+          },
+          {
+            "type": "name_like",
+            "value": "Pulse"
+          },
+          {
+            "type": "name_like",
+            "value": "Pulse Canada"
+          },
+          {
+            "type": "name_like",
+            "value": "Archived"
+          },
+          {
+            "type": "name_like",
+            "value": "March"
+          },
+          {
+            "type": "name_like",
+            "value": "Retrieved"
+          },
+          {
+            "type": "name_like",
+            "value": "Legumes"
+          },
+          {
+            "type": "name_like",
+            "value": "Pulses"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the relevant content violation details from the public logs of the Legume Wikipedia page.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T4",
+      "role": "reason",
+      "description": "Determine what 'R' stands for in the context of the three core policies based on the extracted information.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the final answer regarding what 'R' stands for in the context of the content violations.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T5": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "research"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "unknown",
+    "final_answer_strict": "unknown",
+    "used_evidence": [
+      "The word of the day for June 27, 2022, was featured in Merriam-Webster's weekly roundup."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What was the specific word of the day for June 27, 2022, and who was the writer quoted?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "unknown",
+  "error": null,
+  "duration_sec": 31.734973192214966,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о слове дня Merriam-Webster за 27 июня 2022 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о слове дня Merriam-Webster за 27 июня 2022 года.",
+        "facts": [
+          {
+            "fact": "The word of the day for June 27, 2022, was featured in Merriam-Webster's weekly roundup.",
+            "source_url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27"
+          },
+          {
+            "fact": "Merriam-Webster highlighted dictionary lookups related to weather, Iran, and New York City on June 27, 2022.",
+            "source_url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Учим английский с Don't Speak - Podcast",
+            "url": "https://podcasts.apple.com/cy/podcast/%25D1%2583%25D1%2587%25D0%25B8%25D0%25BC-%25D0%25B0%25D0%25BD%25D0%25B3%25D0%25BB%25D0%25B8%25D0%25B9%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9-%25D1%2581-dont-speak/id594163804",
+            "snippet": "Программа об английском и людях, которые на нём говорят. Как выучить английский язык быстро и без лишних усилий. Вы узнаете, как пополнить словарный запас, ..."
+          },
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "The Words of the Week - June 27 Dictionary lookups from the weather, Iran, and New York City"
+          },
+          {
+            "title": "Словарь Уэбстера выбрал словом года «газлайтинг",
+            "url": "https://www.rbc.ru/society/28/11/2022/6384a35f9a79473dd1e6e564",
+            "snippet": "28 нояб. 2022 г. — Помимо слова «газлайтинг», Merriam-Webster выделило еще семь слов, которые стали значимыми для 2022 года. Это: «олигарх» (oligarch), интерес ..."
+          },
+          {
+            "title": "Daily Content Archive as of Monday, June 27, 2022",
+            "url": "https://www.spellingcenter.com/_/archive.htm?d=6%2F27%2F2022",
+            "snippet": "Threats of mob violence followed, and Smith and his brother were jailed for treason. A mob of men stormed the jail on June 27 and killed them, thus elevating them to the status of martyrs. More... Word Trivia"
+          },
+          {
+            "title": "Последние новости США на русском языке",
+            "url": "https://www.vnovomsvete.com/news/",
+            "snippet": "27 июня 2022. 04:19. Верховный суд США отменил федеральное право на аборт · 04 ... Словарю Merriam-Webster угрожают за обновленное определение половой ..."
+          }
+        ],
+        "summary": "On June 27, 2022, Merriam-Webster's word of the day was included in their weekly roundup, which also noted increased interest in terms related to current events."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь имя писателя, цитируемого Merriam-Webster для слова дня 27 июня 2022 года.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "Merriam-Webster's word of the day for June 27, 2022, was included in their weekly roundup."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "What was the specific word of the day for June 27, 2022, and who was the writer quoted?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с именем писателя.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "unknown",
+        "final_answer_strict": "unknown",
+        "used_evidence": [
+          "The word of the day for June 27, 2022, was featured in Merriam-Webster's weekly roundup."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What was the specific word of the day for June 27, 2022, and who was the writer quoted?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "unknown",
+    "gt_norm": "annie levin"
+  }
+}

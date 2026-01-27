@@ -1,0 +1,12 @@
+{
+  "run_dir": "gaia_validation_runs\\policy-envy_free__pkgs-20__20260126_175321",
+  "total": 30,
+  "completed_without_error": 30,
+  "exact_match_acc": 0.16666666666666666,
+  "normalized_match_acc": 0.2,
+  "numeric_match_acc_applicable": 0.4444444444444444,
+  "numeric_applicable": 9,
+  "timestamp": "20260126_175321",
+  "oracle_strategy": "envy_free",
+  "total_package_budget": 20
+}

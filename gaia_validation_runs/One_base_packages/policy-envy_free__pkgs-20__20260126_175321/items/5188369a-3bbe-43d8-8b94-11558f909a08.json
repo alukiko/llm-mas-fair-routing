@@ -1,0 +1,366 @@
+{
+  "id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+  "query": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?",
+  "ground_truth": "Annie Levin",
+  "answer_raw": {
+    "final_answer": "sumptuous",
+    "final_answer_strict": "sumptuous",
+    "used_evidence": [
+      "On June 27, 2022, the Merriam-Webster Word of the Day was 'sumptuous.'"
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "sumptuous",
+  "error": null,
+  "duration_sec": 37.67527747154236,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Merriam-Webster Word of the Day for June 27, 2022.",
+        "facts": [
+          {
+            "fact": "The Merriam-Webster Word of the Day for June 27, 2022, is 'sumptuous.'",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          },
+          {
+            "fact": "The word 'sumptuous' means luxurious or splendid, often used to describe lavish food or furnishings.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "summary": "On June 27, 2022, the Merriam-Webster Word of the Day was 'sumptuous,' which is defined as luxurious or splendid.",
+        "sources": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "snippet": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century."
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "snippet": "## apologia\n\n#### Jun 18\n\n## jeopardize\n\n#### Jun 19\n\n## emancipation\n\n#### Jun 20\n\n## convivial\n\n#### Jun 21\n\n## litmus test\n\n#### Jun 22\n\n## bemuse\n\n#### Jun 23\n\n## wherewithal\n\n#### Jun 24\n\n## noisome\n\n#### Jun 25\n\n## flotsam\n\n#### Jun 26\n\n## sumptuous\n\n#### Jun 27\n\n## oblige\n\n#### Jun 28\n\n## restive\n\n#### Jun 29\n\n## impetus\n\n#### Jun 30\n\n## expunge\n\n### May 2025\n\n#### May 01\n\n## convoluted\n\n#### May 02\n\n## ziggurat\n\n#### May 03\n\n## sleuth\n\n#### May 04\n\n## risible\n\n#### May 05\n\n## plethora\n\n#### May 06\n\n## exculpate\n\n#### May 07\n\n## bumptious\n\n#### May 08\n\n## modicum\n\n#### May 09\n\n## gloss\n\n#### May 10\n\n## uncanny\n\n#### May 11\n\n## darling\n\n#### May 12\n\n## fester\n\n#### May 13\n\n## apotropaic\n\n#### May 14\n\n## scuttlebutt\n\n#### May 15\n\n## impervious\n\n#### May 16\n\n## junket\n\n#### May 17 [...] #### Jul 21\n\n## hubris\n\n#### Jul 22\n\n## jettison\n\n#### Jul 23\n\n## logy\n\n#### Jul 24\n\n## panacea\n\n#### Jul 25\n\n## sui generis\n\n#### Jul 26\n\n## embellish\n\n#### Jul 27\n\n## brouhaha\n\n#### Jul 28\n\n## facile\n\n#### Jul 29\n\n## quibble\n\n#### Jul 30\n\n## doppelgänger\n\n#### Jul 31\n\n## petulant\n\n### June 2025\n\n#### Jun 01\n\n## proscribe\n\n#### Jun 02\n\n## Herculean\n\n#### Jun 03\n\n## tutelage\n\n#### Jun 04\n\n## bog"
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler) - MassLive",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "snippet": "The Wordle answer for June 27 is “RETRO.”\n\nAccording to the Merriam-Webster, retro means “relating to, reviving, or being the styles and especially the fashions of the past: fashionably nostalgic or old-fashioned.”\n\nWordle’s word of the day for Saturday was “BEADY” and Sunday’s was “RUSTY.”\n\nWordle releases a new word of the day every day. Players must wait until midnight for a new word of the day and can only play once a day.\n\nRelated Content:\n\n Wordle’s word of the day for June 22, game #368 (Spoiler)\n Best five letter starting word for Wordle has been confirmed by the New York Times’ WordleBot\n ‘Everyone is cheating on Wordle,’ especially New England residents, Google data indicates\n\nTaylor Sanzo"
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "snippet": "## Words Worth Knowing: ‘Samara’\n\n“Key,” “whirlybird,” “helicopter,” “whirligig,” “spinning jenny”—these are all words people use for a particular type of tree seed that botanists refer to as a samara, defined as the “dry indehiscent usually one-seeded winged fruit” of trees including ash, sycamore, elm, and notably at this time of year, maple. From late spring to early summer, for example, red, silver, sugar, and other maple samaras ripen before catching the breeze.\n\nShare\n\n#### Word of the Day\n\n#### resplendent\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist [...] Est. 1828\n\nPopular in\n\nArts & Culture\n\n2025 Word of the Year: Slop\n\n17 Words for Dog Breeds\n\n15 Cheffy Words for Chefs (and Everyone Else)\n\nThe Words of the Week - Jan. 23\n\n12 Words and Phrases for Romantic Relationships\n\nSee All\n\nPopular in\n\nWordplay\n\nWords For Things You Didn't Know Have Names, Vol. 3\n\nObscure Words for Everyday Feelings\n\nTop 10 Sophisticated Insults\n\n‘Fascism’: The Word’s Meaning and History\n\nTen Kinds of Happiness\n\nSee All\n\nPopular in"
+          },
+          {
+            "title": "Words of the Week - June 24th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/4b78d16e-3a3e-466b-a6af-c5feef52d433",
+            "snippet": "Andrew Gillum, former Tallahassee mayor and Democratic nominee for Florida governor indicted on federal charges of wire fraud, false statements to FBI  \n— (headline) CBS News, 23 Jun. 2022\n\nWe define wire fraud as “fraud committed using a means of electronic communication (such as a telephone or computer).” Our legal definition of fraud is “any act, expression, omission, or concealment calculated to deceive another to his or her disadvantage,” noting that it also has the specific meaning of “a misrepresentation or concealment with reference to some fact material to a transaction that is made with knowledge of its falsity or in reckless disregard of its truth or falsity and with the intent to deceive another and that is reasonably relied on by the other who is injured thereby.” [...] The relevant sense of holiday here is defined as “a period of exemption or relief.” The word has a number of additional meanings, such as “a day on which one is exempt from work,” “vacation” (this sense is chiefly British, and often used in the phrase on holiday), and “holy day.” This last definition points directly to the etymology of the word: holiday comes from the Old English hāligdæg, which is itse"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "content": "We define the relevant sense of obliterate as “to remove from existence; destroy utterly all trace, indication, or significance of.”\n\n## ‘Socialism’\n\nLookups for socialism were also high this week, probably due to the victory of Zohran Mamdani, a democratic socialist, in the Democratic primary for mayor of New York City. [...] paired with limited state ownership produces a fair distribution of income without impairing economic growth. [...] We define the relevant sense of the noun draft as “a system whereby exclusive rights to selected new players are apportioned among professional teams.” Draft can also be used as a verb to mean “to select (a professional athlete) by draft.”\n\n## Word Worth Knowing: ‘Culet’\n\nIt is likely, perhaps even certain, that none of our readers have ever thought “I wonder if the dictionary includes a word for ‘butt armor.’” Yet here we are, presenting you with the word culet (“a piece of plate armor covering the buttocks”), which comes from the diminutive of the French cul (“backside”), and has been in use since the 18th century.",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "content": "## apologia\n\n#### Jun 18\n\n## jeopardize\n\n#### Jun 19\n\n## emancipation\n\n#### Jun 20\n\n## convivial\n\n#### Jun 21\n\n## litmus test\n\n#### Jun 22\n\n## bemuse\n\n#### Jun 23\n\n## wherewithal\n\n#### Jun 24\n\n## noisome\n\n#### Jun 25\n\n## flotsam\n\n#### Jun 26\n\n## sumptuous\n\n#### Jun 27\n\n## oblige\n\n#### Jun 28\n\n## restive\n\n#### Jun 29\n\n## impetus\n\n#### Jun 30\n\n## expunge\n\n### May 2025\n\n#### May 01\n\n## convoluted\n\n#### May 02\n\n## ziggurat\n\n#### May 03\n\n## sleuth\n\n#### May 04\n\n## risible\n\n#### May 05\n\n## plethora\n\n#### May 06\n\n## exculpate\n\n#### May 07\n\n## bumptious\n\n#### May 08\n\n## modicum\n\n#### May 09\n\n## gloss\n\n#### May 10\n\n## uncanny\n\n#### May 11\n\n## darling\n\n#### May 12\n\n## fester\n\n#### May 13\n\n## apotropaic\n\n#### May 14\n\n## scuttlebutt\n\n#### May 15\n\n## impervious\n\n#### May 16\n\n## junket\n\n#### May 17 [...] #### Jul 21\n\n## hubris\n\n#### Jul 22\n\n## jettison\n\n#### Jul 23\n\n## logy\n\n#### Jul 24\n\n## panacea\n\n#### Jul 25\n\n## sui generis\n\n#### Jul 26\n\n## embellish\n\n#### Jul 27\n\n## brouhaha\n\n#### Jul 28\n\n## facile\n\n#### Jul 29\n\n## quibble\n\n#### Jul 30\n\n## doppelgänger\n\n#### Jul 31\n\n## petulant\n\n### June 2025\n\n#### Jun 01\n\n## proscribe\n\n#### Jun 02\n\n## Herculean\n\n#### Jun 03\n\n## tutelage\n\n#### Jun 04\n\n## bogus\n\n#### Jun 05\n\n## sea change\n\n#### Jun 06\n\n## festoon\n\n#### Jun 07\n\n## abstruse\n\n#### Jun 08\n\n## cataract\n\n#### Jun 09\n\n## eloquent\n\n#### Jun 10\n\n## minutia\n\n#### Jun 11\n\n## debilitating\n\n#### Jun 12\n\n## impute\n\n#### Jun 13\n\n## rambunctious\n\n#### Jun 14\n\n## vexillology\n\n#### Jun 15\n\n## progeny\n\n#### Jun 16\n\n## garrulous\n\n#### Jun 17\n\n## apologia\n\n#### Jun 18\n\n## jeopardize\n\n#### Jun 19 [...] ## impervious\n\n#### May 16\n\n## junket\n\n#### May 17\n\n## mercurial\n\n#### May 18\n\n## talisman\n\n#### May 19\n\n## antithetical\n\n#### May 20\n\n## chagrin\n\n#### May 21\n\n## hapless\n\n#### May 22\n\n## voluble\n\n#### May 23\n\n## bastion\n\n#### May 24\n\n## limn\n\n#### May 25\n\n## dyspeptic\n\n#### May 26\n\n## commemorate\n\n#### May 27\n\n## interminable\n\n#### May 28\n\n## fiasco\n\n#### May 29\n\n## nascent\n\n#### May 30\n\n## gust\n\n#### May 31\n\n## opportune\n\n### April 2025\n\n#### Apr 01\n\n## cynosure\n\n#### Apr 02\n\n## effusive\n\n#### Apr 03\n\n## snark\n\n#### Apr 04\n\n## hew\n\n#### Apr 05\n\n## benign\n\n#### Apr 06\n\n## impresario\n\n#### Apr 07\n\n## malleable\n\n#### Apr 08\n\n## apparatchik\n\n#### Apr 09\n\n## vouchsafe\n\n#### Apr 10\n\n## chary\n\n#### Apr 11\n\n## kitsch\n\n#### Apr 12\n\n## gustatory\n\n#### Apr 13\n\n## reminisce\n\n#### Apr 14",
+            "score": 0.9938548
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler) - MassLive",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "content": "The Wordle answer for June 27 is “RETRO.”\n\nAccording to the Merriam-Webster, retro means “relating to, reviving, or being the styles and especially the fashions of the past: fashionably nostalgic or old-fashioned.”\n\nWordle’s word of the day for Saturday was “BEADY” and Sunday’s was “RUSTY.”\n\nWordle releases a new word of the day every day. Players must wait until midnight for a new word of the day and can only play once a day.\n\nRelated Content:\n\n Wordle’s word of the day for June 22, game #368 (Spoiler)\n Best five letter starting word for Wordle has been confirmed by the New York Times’ WordleBot\n ‘Everyone is cheating on Wordle,’ especially New England residents, Google data indicates\n\nTaylor Sanzo",
+            "score": 0.992062
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "content": "## Words Worth Knowing: ‘Samara’\n\n“Key,” “whirlybird,” “helicopter,” “whirligig,” “spinning jenny”—these are all words people use for a particular type of tree seed that botanists refer to as a samara, defined as the “dry indehiscent usually one-seeded winged fruit” of trees including ash, sycamore, elm, and notably at this time of year, maple. From late spring to early summer, for example, red, silver, sugar, and other maple samaras ripen before catching the breeze.\n\nShare\n\n#### Word of the Day\n\n#### resplendent\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Games & Quizzes\n\nSee All\n\nQuordle Can you solve 4 words at once?\n\nBlossom Pick the best words!\n\nThe Missing Letter A daily crossword with a twist [...] Est. 1828\n\nPopular in\n\nArts & Culture\n\n2025 Word of the Year: Slop\n\n17 Words for Dog Breeds\n\n15 Cheffy Words for Chefs (and Everyone Else)\n\nThe Words of the Week - Jan. 23\n\n12 Words and Phrases for Romantic Relationships\n\nSee All\n\nPopular in\n\nWordplay\n\nWords For Things You Didn't Know Have Names, Vol. 3\n\nObscure Words for Everyday Feelings\n\nTop 10 Sophisticated Insults\n\n‘Fascism’: The Word’s Meaning and History\n\nTen Kinds of Happiness\n\nSee All\n\nPopular in\n\nGrammar & Usage\n\nMore Words You Always Have to Look Up\n\nMore Commonly Mispronounced Words\n\n5 Verbal Slip Ups and Language Mistakes\n\nWhat’s the difference between ‘cemetery’ and ‘graveyard’?\n\n'Buck naked' or 'butt naked'?\n\nSee All\n\nWordplay Arts & Culture\n\n# Words of the Week - June 10 [...] We define sedition as “incitement of resistance to or insurrection against lawful authority.” As we’ve noted in the past, many people differentiate between this word and treason, which we define as “the offense of attempting by overt acts to overthrow the government of the state to which the offender owes allegiance or to kill or personally injure the sovereign or the sovereign's family.” Because sedition is limited to organizing and encouraging opposition to government rather than directly participating in its overthrow, many view it as falling one step short of the more serious crime of treason. One who incites or promotes sedition is a seditionist, or, less commonly, a seditionary.\n\n## ‘Folie à Deux’",
+            "score": 0.99014014
+          },
+          {
+            "title": "Words of the Week - June 24th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/4b78d16e-3a3e-466b-a6af-c5feef52d433",
+            "content": "Andrew Gillum, former Tallahassee mayor and Democratic nominee for Florida governor indicted on federal charges of wire fraud, false statements to FBI  \n— (headline) CBS News, 23 Jun. 2022\n\nWe define wire fraud as “fraud committed using a means of electronic communication (such as a telephone or computer).” Our legal definition of fraud is “any act, expression, omission, or concealment calculated to deceive another to his or her disadvantage,” noting that it also has the specific meaning of “a misrepresentation or concealment with reference to some fact material to a transaction that is made with knowledge of its falsity or in reckless disregard of its truth or falsity and with the intent to deceive another and that is reasonably relied on by the other who is injured thereby.” [...] The relevant sense of holiday here is defined as “a period of exemption or relief.” The word has a number of additional meanings, such as “a day on which one is exempt from work,” “vacation” (this sense is chiefly British, and often used in the phrase on holiday), and “holy day.” This last definition points directly to the etymology of the word: holiday comes from the Old English hāligdæg, which is itself from the words for \\_ holy\\_ (hālig) and day (dæg).\n\n## ’Abject’\n\nAbject was also looked up a considerable amount last week, after the response of the Uvalde police department to a school shooting was described as a failure of this type. [...] ## Words Worth Knowing: ‘Makebate’\n\nOur word worth knowing for this week is makebate, defined as “one that excites contention and quarrels.” Dating in use from the early 16th century, makebate is now considered obsolete. However, there are certainly enough people out there exciting quarrels or contention that it remains applicable in everyday life.\n\n#### Word of the Day\n\n#### oaf\n\nListen to the pronunciation of oaf\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Games & Quizzes",
+            "score": 0.9890976
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Words of the Week - June 27 | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/the-words-of-the-week-jun-27",
+            "score": 0.9995453
+          },
+          {
+            "title": "Word of the Day Calendar | Merriam-Webster",
+            "url": "https://www.merriam-webster.com/word-of-the-day/calendar",
+            "score": 0.9938548
+          },
+          {
+            "title": "Wordle's word of the day for June 27, game #373 (Spoiler) - MassLive",
+            "url": "https://www.masslive.com/entertainment/2022/06/wordles-word-of-the-day-for-june-27-game-373-spoiler.html",
+            "score": 0.992062
+          },
+          {
+            "title": "Words of the Week - June 10th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/words-of-the-week-june-10",
+            "score": 0.99014014
+          },
+          {
+            "title": "Words of the Week - June 24th, 2022 - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/wordplay/4b78d16e-3a3e-466b-a6af-c5feef52d433",
+            "score": 0.9890976
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Words"
+          },
+          {
+            "type": "name_like",
+            "value": "Week"
+          },
+          {
+            "type": "name_like",
+            "value": "June"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster\nWe"
+          },
+          {
+            "type": "name_like",
+            "value": "Socialism"
+          },
+          {
+            "type": "name_like",
+            "value": "Lookups"
+          },
+          {
+            "type": "name_like",
+            "value": "Zohran Mamdani"
+          },
+          {
+            "type": "name_like",
+            "value": "Democratic"
+          },
+          {
+            "type": "name_like",
+            "value": "New York City"
+          },
+          {
+            "type": "name_like",
+            "value": "Draft"
+          },
+          {
+            "type": "name_like",
+            "value": "Word Worth Knowing"
+          },
+          {
+            "type": "name_like",
+            "value": "Culet"
+          },
+          {
+            "type": "name_like",
+            "value": "Yet"
+          },
+          {
+            "type": "name_like",
+            "value": "French"
+          },
+          {
+            "type": "name_like",
+            "value": "Word"
+          },
+          {
+            "type": "name_like",
+            "value": "Day Calendar"
+          },
+          {
+            "type": "name_like",
+            "value": "Merriam-Webster"
+          },
+          {
+            "type": "name_like",
+            "value": "Jun"
+          },
+          {
+            "type": "name_like",
+            "value": "May"
+          },
+          {
+            "type": "name_like",
+            "value": "Jul"
+          },
+          {
+            "type": "name_like",
+            "value": "Herculean"
+          },
+          {
+            "type": "name_like",
+            "value": "Wordle"
+          },
+          {
+            "type": "name_like",
+            "value": "Spoiler"
+          },
+          {
+            "type": "name_like",
+            "value": "The Wordle"
+          },
+          {
+            "type": "name_like",
+            "value": "According"
+          },
+          {
+            "type": "name_like",
+            "value": "Saturday"
+          },
+          {
+            "type": "name_like",
+            "value": "Sunday"
+          },
+          {
+            "type": "name_like",
+            "value": "Players"
+          },
+          {
+            "type": "name_like",
+            "value": "Related Content"
+          },
+          {
+            "type": "name_like",
+            "value": "Best"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the quoted writer from the retrieved Word of the Day information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "date"
+        ],
+        "entities": [
+          {
+            "name": "sumptuous",
+            "type": "word",
+            "evidence": "On June 27, 2022, the Merriam-Webster Word of the Day was 'sumptuous.'",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "key_points": "The Merriam-Webster Word of the Day for June 27, 2022, is 'sumptuous,' which is defined as luxurious or splendid.",
+        "numbers_and_units": [],
+        "definitions": [
+          {
+            "term": "sumptuous",
+            "definition": "luxurious or splendid.",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "evidence_spans": [
+          {
+            "text": "On June 27, 2022, the Merriam-Webster Word of the Day was 'sumptuous.'",
+            "source_url": "https://www.merriam-webster.com/word-of-the-day/calendar"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Provide the name of the writer quoted by Merriam-Webster for the Word of the Day from June 27, 2022.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "sumptuous",
+        "final_answer_strict": "sumptuous",
+        "used_evidence": [
+          "On June 27, 2022, the Merriam-Webster Word of the Day was 'sumptuous.'"
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "sumptuous",
+    "gt_norm": "annie levin"
+  }
+}

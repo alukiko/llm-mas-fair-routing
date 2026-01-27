@@ -1,0 +1,391 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": {
+    "final_answer": "verifiability",
+    "final_answer_strict": "verifiability",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "verifiability",
+  "error": null,
+  "duration_sec": 40.16118383407593,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information on the three core policies of content violations on Wikipedia, specifically related to the Legume Wikipedia page in 2022.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information on the three core policies of content violations on Wikipedia, specifically related to the Legume Wikipedia page in 2022.",
+        "facts": [
+          {
+            "fact": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "The Neutral Point of View (NPOV) principle requires that all Wikipedia articles must be written from a neutral perspective, representing significant views fairly and without bias.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "Verifiability means that material challenged or likely to be challenged must be attributed to a reliable, published source.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "fact": "Wikipedia operates on foundational policies that ensure accuracy and balance in content creation and curation.",
+            "source_url": "https://blog.reputationx.com/wikipedia-core-policies"
+          }
+        ],
+        "summary": "In 2022, Wikipedia's core content policies, which include neutrality, reliable sourcing, and no original research, guided the standards for the Legume Wikipedia page and all content creation.",
+        "sources": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "snippet": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source. [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ |"
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "snippet": "The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] ### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] On the other hand, violations of NPOV could take several forms. An article might emphasize unsupported claims about the fasting trend curing diseases, based on anecdotal evidence or unreliable sources, leading to undue wei"
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "snippet": "| Related |  Cultured meat  Juice fasting  Low-carbon  Plant-based action plan  Plant-based diet  Planetary health  Sustainable diet  Vegaphobia  Vegetarian and vegan dog diet  Vegetarian and vegan symbolism | [...] | Magazines and journals |  The Animals' Agenda  The Children's Realm  Naked Food  The Pleasure Boat  Satya \"Satya (magazine)\")  Vegan Journal  The Vegetarian Magazine  Vegetarian Times  VegNews | [...] | Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  |"
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "snippet": "| Policies and guidelines (list) |\n\n| Principles |\n|  Five pillars  Ignore all rules |\n| Content policies |\n|  Article titles  Biographies of living persons  Image use  Neutral point of view  No original research  Verifiability  What Wikipedia is not (Not a dictionary) |\n| Conduct policies |\n|  Civility  Clean start  Consensus  Dispute resolution  Edit warring  Editing policy  Harassment  No legal threats  No personal attacks  Ownership of content  Username policy  Vandalism |\n| Other policy categories |\n|  Deletion  Enforcement  Legal  Procedural |\n| Directories |\n|  List of policies  List of guidelines  Manual of Style contents  Searching |\n|  v  t  e | [...] Jump to content\n\nSearch\n\n## Contents\n\n 1 Derivation\n 2 Role\n 3 Adherence\n 4 Shortcuts\n 5 Enforcement\n 6 Content\n 7 Not part of the encyclopedia\n 8 Life cycle\n  + 8.1 Proposals\n    - 8.1.1 Brainstorming\n    - 8.1.2 Creating a request for comment\n    - 8.1.3 Closing the request for comment\n  + 8.2 Demotion\n  + 8.3 Content changes\n    - 8.3.1 Substantive changes\n  + 8.4 Conflicts between advice pages\n 9 Naming\n 10 Finding policies and guidelines\n 11 See also\n 12 Notes\n 13 Further reading\n\n# Wikipedia:Policies and guidelines"
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "snippet": "Retrieved from \"\"\n\nCategories:\n\n Fruits\n Vegetables\n Fabaceae\n\nAdd topic [...] Jump to content\n\nSearch\n\n## Contents\n\n Beginning\n 1 Description\n 2 Health\n 3 Use\n 4 Related pages\n 5 References\n\n# Legume [...] | Types of fruits | Achene ·  Berry ·  Capsule ·  Caryopsis ·  Drupe ·  Follicle ·  Hesperidium · Legume ·  Loment ·  Nut \"Nut (fruit)\") ·  Pome ·  Samara \"Samara (fruit)\") ·  Schizocarp ·  Silique ·  Syconium |\n| Categories of fruits | Accessory fruit ·  Simple fruit ·  Aggregate or compound fruit ·  Multiple fruit ·  Dehiscent fruit |"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "content": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research. Editors should familiarize themselves with all three, jointly interpreted: [...] 1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.\n2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source. In Wikipedia, verifiability means that people reading and editing the encyclopedia can check that information comes from a reliable source. [...] |  List of all policies and guidelines   + P: List of policies   + G: List of guidelines  Summaries of values and principles  FAQ |",
+            "score": 0.99983
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "content": "The basic rules. At its core, Wikipedia operates on three foundational policies: neutrality, reliable sourcing, and no original research. Think of these as the pillars holding up the “encyclopedia that anyone can edit,” ensuring accuracy and balance no matter who contributes.\n Neutrality isn’t about stripping personality; it’s about fairness. The Neutral Point of View (NPOV) principle doesn’t mean your content needs to be robotic—it means presenting all sides of a topic without favoring any. For instance, describing a controversial topic from just one angle is like building a three-legged stool with only two legs: it’s bound to topple over. [...] ### What Are Wikipedia’s Core Policies?\n\nWikipedia’s core policies are non-negotiable rules that shape every aspect of content creation and curation. These policies transcend specific topics on the platform and establish clear boundaries for how editors should approach writing, sourcing, and presenting information. [...] On the other hand, violations of NPOV could take several forms. An article might emphasize unsupported claims about the fasting trend curing diseases, based on anecdotal evidence or unreliable sources, leading to undue weight for fringe theories. Alternatively, the piece could skew too far in criticizing the practice, ignoring credible studies or testimonials that highlight its potential benefits. Either approach erodes neutrality and contradicts Wikipedia’s commitment to unbiased reporting.",
+            "score": 0.99732697
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "content": "| Related |  Cultured meat  Juice fasting  Low-carbon  Plant-based action plan  Plant-based diet  Planetary health  Sustainable diet  Vegaphobia  Vegetarian and vegan dog diet  Vegetarian and vegan symbolism | [...] | Magazines and journals |  The Animals' Agenda  The Children's Realm  Naked Food  The Pleasure Boat  Satya \"Satya (magazine)\")  Vegan Journal  The Vegetarian Magazine  Vegetarian Times  VegNews | [...] | Drink |  Cacao  Coffee  Plant milk  Tea |\n| Related |  James Beard Awards: Winners and Nominees  List of vegan and plant-based media |\n|  |",
+            "score": 0.9926542
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "content": "| Policies and guidelines (list) |\n\n| Principles |\n|  Five pillars  Ignore all rules |\n| Content policies |\n|  Article titles  Biographies of living persons  Image use  Neutral point of view  No original research  Verifiability  What Wikipedia is not (Not a dictionary) |\n| Conduct policies |\n|  Civility  Clean start  Consensus  Dispute resolution  Edit warring  Editing policy  Harassment  No legal threats  No personal attacks  Ownership of content  Username policy  Vandalism |\n| Other policy categories |\n|  Deletion  Enforcement  Legal  Procedural |\n| Directories |\n|  List of policies  List of guidelines  Manual of Style contents  Searching |\n|  v  t  e | [...] Jump to content\n\nSearch\n\n## Contents\n\n 1 Derivation\n 2 Role\n 3 Adherence\n 4 Shortcuts\n 5 Enforcement\n 6 Content\n 7 Not part of the encyclopedia\n 8 Life cycle\n  + 8.1 Proposals\n    - 8.1.1 Brainstorming\n    - 8.1.2 Creating a request for comment\n    - 8.1.3 Closing the request for comment\n  + 8.2 Demotion\n  + 8.3 Content changes\n    - 8.3.1 Substantive changes\n  + 8.4 Conflicts between advice pages\n 9 Naming\n 10 Finding policies and guidelines\n 11 See also\n 12 Notes\n 13 Further reading\n\n# Wikipedia:Policies and guidelines",
+            "score": 0.967163
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "content": "Retrieved from \"\"\n\nCategories:\n\n Fruits\n Vegetables\n Fabaceae\n\nAdd topic [...] Jump to content\n\nSearch\n\n## Contents\n\n Beginning\n 1 Description\n 2 Health\n 3 Use\n 4 Related pages\n 5 References\n\n# Legume [...] | Types of fruits | Achene ·  Berry ·  Capsule ·  Caryopsis ·  Drupe ·  Follicle ·  Hesperidium · Legume ·  Loment ·  Nut \"Nut (fruit)\") ·  Pome ·  Samara \"Samara (fruit)\") ·  Schizocarp ·  Silique ·  Syconium |\n| Categories of fruits | Accessory fruit ·  Simple fruit ·  Aggregate or compound fruit ·  Multiple fruit ·  Dehiscent fruit |",
+            "score": 0.87578696
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Core content policies",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies",
+            "score": 0.99983
+          },
+          {
+            "title": "What You Should Know About Wikipedia's Core Policies",
+            "url": "https://blog.reputationx.com/wikipedia-core-policies",
+            "score": 0.99732697
+          },
+          {
+            "title": "Legume - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Legume",
+            "score": 0.9926542
+          },
+          {
+            "title": "Wikipedia:Policies and guidelines",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines",
+            "score": 0.967163
+          },
+          {
+            "title": "Legume - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Legume",
+            "score": 0.87578696
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core"
+          },
+          {
+            "type": "name_like",
+            "value": "Editors"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutral"
+          },
+          {
+            "type": "name_like",
+            "value": "All Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Verifiability"
+          },
+          {
+            "type": "name_like",
+            "value": "Material"
+          },
+          {
+            "type": "name_like",
+            "value": "In Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "List"
+          },
+          {
+            "type": "name_like",
+            "value": "Summaries"
+          },
+          {
+            "type": "name_like",
+            "value": "What You Should Know"
+          },
+          {
+            "type": "name_like",
+            "value": "About Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core Policies\nThe"
+          },
+          {
+            "type": "name_like",
+            "value": "Think"
+          },
+          {
+            "type": "name_like",
+            "value": "Neutrality"
+          },
+          {
+            "type": "name_like",
+            "value": "The Neutral Point"
+          },
+          {
+            "type": "name_like",
+            "value": "View"
+          },
+          {
+            "type": "name_like",
+            "value": "For"
+          },
+          {
+            "type": "name_like",
+            "value": "What Are Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Core Policies"
+          },
+          {
+            "type": "name_like",
+            "value": "These"
+          },
+          {
+            "type": "name_like",
+            "value": "Legume"
+          },
+          {
+            "type": "name_like",
+            "value": "Related"
+          },
+          {
+            "type": "name_like",
+            "value": "Cultured"
+          },
+          {
+            "type": "name_like",
+            "value": "Juice"
+          },
+          {
+            "type": "name_like",
+            "value": "Low"
+          },
+          {
+            "type": "name_like",
+            "value": "Plant"
+          },
+          {
+            "type": "name_like",
+            "value": "Planetary"
+          },
+          {
+            "type": "name_like",
+            "value": "Sustainable"
+          },
+          {
+            "type": "name_like",
+            "value": "Vegaphobia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the meaning of 'R' from the three core policies identified in the search.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "Wikipedia",
+          "Core",
+          "Legume"
+        ],
+        "entities": [
+          {
+            "name": "Wikipedia",
+            "type": "organization",
+            "evidence": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "name": "Neutral point of view",
+            "type": "policy",
+            "evidence": "1. Neutral point of view (WP:NPOV) – All Wikipedia articles and other encyclopedic content must be written from a neutral point of view, representing significant views fairly, proportionately and without bias.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "name": "Verifiability",
+            "type": "policy",
+            "evidence": "2. Verifiability (WP:V) – Material challenged or likely to be challenged, and all quotations, must be attributed to a reliable, published source.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "name": "No original research",
+            "type": "policy",
+            "evidence": "Wikipedia operates on foundational policies that ensure accuracy and balance in content creation and curation.",
+            "source_url": "https://blog.reputationx.com/wikipedia-core-policies"
+          }
+        ],
+        "key_points": [
+          "Wikipedia's core content policies include neutrality, verifiability, and no original research.",
+          "These policies guide standards for content creation and ensure unbiased reporting."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "Wikipedia's content is governed by three principal core content policies: neutral point of view, verifiability, and no original research.",
+            "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"
+          },
+          {
+            "text": "Neutrality isn’t about stripping personality; it’s about fairness.",
+            "source_url": "https://blog.reputationx.com/wikipedia-core-policies"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Produce the final answer regarding what 'R' stands for in the context of the content violations on the Legume Wikipedia page.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "verifiability",
+        "final_answer_strict": "verifiability",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 6,
+      "package_type": "gpt4"
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 700,
+      "temperature": 0.6,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 7,
+      "package_type": "gpt4"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "verifiability",
+    "gt_norm": "research"
+  }
+}

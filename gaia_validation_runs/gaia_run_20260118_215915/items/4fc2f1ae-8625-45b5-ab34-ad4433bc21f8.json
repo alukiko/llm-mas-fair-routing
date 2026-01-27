@@ -1,0 +1,154 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": {
+    "final_answer": "No information available",
+    "final_answer_strict": "No information available",
+    "used_evidence": [
+      "Нет информации о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года."
+    ],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "No information available",
+  "error": null,
+  "duration_sec": 27.703826665878296,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года.",
+        "facts": [],
+        "sources": [
+          {
+            "title": "Мозазавры (род)",
+            "url": "https://ru.wikipedia.org/wiki/%25D0%259C%25D0%25BE%25D0%25B7%25D0%25B0%25D0%25B7%25D0%25B0%25D0%25B2%25D1%2580%25D1%258B_(%25D1%2580%25D0%25BE%25D0%25B4)",
+            "snippet": "Мозазавры (лат. Mosasaurus, «ящер с реки Моза», лат. Mosa — название реки Маас, др.-греч. σαῦρος — ящерица) — род вымерших морских пресмыкающихся из ..."
+          },
+          {
+            "title": "Динозавры — Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D1%8B",
+            "snippet": "Динозавры представлены на каждом континенте, как современными видами (птицами), так и ископаемыми."
+          },
+          {
+            "title": "I grew up in USSR in Brezhnev era (1970s). When I immigrated to US ...",
+            "url": "https://www.facebook.com/lev.manovich/posts/i-grew-up-in-ussr-in-brezhnev-era-1970s-when-i-immigrated-to-us-in-1981-the-dive/10160808538042316/",
+            "snippet": "Российские «либералы» могут отправиться на свой любимый Запад только на машине времени (в случае изобретения оной) – поскольку Запада XIX века ..."
+          },
+          {
+            "title": "Рассказ про динозавров на английском языке с переводом",
+            "url": "https://online-teacher.ru/study/english-topics/tema-dinosaurs",
+            "snippet": "Using the results of excavations, paleontologists discovered about 500 different kinds of dinosaurs. Among those that are being most famous and most widely used as monster prototypes in mass culture tyrannosaurus and allosaurus are worth mentioning."
+          },
+          {
+            "title": "Тема - динозавры (рассказ для 8 класса) - Английский язык",
+            "url": "https://s-english.ru/topics/klass-8/dinosaurs",
+            "snippet": "Около 65 млн. лет назад динозавры неожиданно вымерли и исчезли с лица земли навсегда. Причина этого до сих пор остается загадкой."
+          }
+        ],
+        "summary": "Нет информации о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь информацию о том, кто номинировал этот Featured Article.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [
+          "Нет информации о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю о том, кто номинировал статью.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "final_answer": "No information available",
+        "final_answer_strict": "No information available",
+        "used_evidence": [
+          "Нет информации о Featured Article на английском Wikipedia о динозавре, который был продвинут в ноябре 2016 года."
+        ],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no information available",
+    "gt_norm": "funkmonk"
+  }
+}

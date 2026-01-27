@@ -1,0 +1,256 @@
+{
+  "id": "305ac316-eef6-4446-960a-92d80d542f82",
+  "query": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+  "ground_truth": "Wojciech",
+  "answer_raw": {
+    "final_answer": "Magda",
+    "final_answer_strict": "Magda",
+    "used_evidence": [
+      "Joanna Brodzik played the character Magda Miłowicz in the series Magda M."
+    ],
+    "confidence": "high",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Magda",
+  "error": null,
+  "duration_sec": 57.82693147659302,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the actor who played Ray in the Polish-language version of Everybody Loves Raymond.",
+        "facts": [
+          {
+            "fact": "Bartłomiej Kasprzykowski played the role of Roman in the Polish adaptation of Everybody Loves Raymond.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "The Polish version, titled Wszyscy kochają Romana, premiered on September 2, 2011.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "Wszyscy kochają Romana is a Polish-language adaptation of the American sitcom Everybody Loves Raymond.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          },
+          {
+            "fact": "The series was suspended by TVN on September 30, 2011, due to low ratings.",
+            "source_url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wszyscy kochają Romana - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana",
+            "snippet": "Wszyscy kochają Romana (Everybody Loves Roman) is a Polish television sitcom that premiered on TVN \"TVN (Poland)\") on 2 September 2011. The series is a Polish-language adaptation of the American Emmy Awards winner, Everybody Loves Raymond and stars Bartłomiej Kasprzykowski as the titular Roman, a newspaper sportswriter.\n\nThe first four episodes were aired on Friday nights at 8:00 pm. On 30 September 2011 TVN announced the suspension of the series due to low ratings. Joanna Górska, TVN PR chief said that the network was looking for a new timeslot for the series. The last 11 episodes will be air"
+          },
+          {
+            "title": "Everybody Loves Raymond - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Everybody_Loves_Raymond",
+            "snippet": "Everybody Loves Raymond is an American television sitcom created by Philip Rosenthal that aired on CBS from September 13, 1996, to May 16, 2005, with a total of 210 episodes spanning nine seasons. It was produced by Where's Lunch and Worldwide Pants Incorporated, in association with HBO Independent Productions. The cast members were Ray Romano, Patricia Heaton, Brad Garrett, Doris Roberts, Peter Boyle, Madylin Sweeten, and Monica Horan. Most episodes of the series were filmed in front of a live studio audience. [...] Ray Barone (Ray Romano) is a sportswriter for Newsday. He lives in Lynbrook, "
+          },
+          {
+            "title": "'Everybody Loves Raymond' Cast: Where Are They Now? - Yahoo",
+            "url": "https://www.yahoo.com/entertainment/tv/articles/everybody-loves-raymond-cast-where-230000474.html",
+            "snippet": "### Patricia Heaton (Debra Barone)\n\nFor nine seasons, Patricia Heaton played Ray's stressed but loving wife Debra Barone on Everybody Loves Raymond, with the actress — now 67 — earning a whopping nine Primetime Emmy nominations and two wins (in 2000 and 2001) for her performance as the stay-at-home mom. During her tenure on the sitcom, Heaton also led several made-for-TV movies including 2001's A Town Without Christmas and 2004's The Goodbye Girl (for which she received a SAG Award nomination).\n\nRelated: 5 Must-See Holiday Movies on Netflix This Christmas—Your 2025 Guide\n\nAdvertisement\n\nAdvert"
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=pl-PL",
+            "snippet": "What's your Vibe?\n\nLogin to use TMDB's new rating system.\n\nWelcome to Vibes, TMDB's new rating system! For more information, visit the  contribution bible.\n\n### Opis\n\nWszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. The series is a Polish-language adaptation of the American Emmy Awards winner, Everybody Loves Raymond and stars Bartłomiej Kasprzykowski as titular Roman, a newspaper sportswriter.\n\nFirst four episodes was aired on Friday nights at 8:00 pm. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR "
+          },
+          {
+            "title": "Wszyscy kochają Romana (TV Series) - TMDB",
+            "url": "https://www.themoviedb.org/tv/40281-wszyscy-kochaj-romana?language=en-US",
+            "snippet": "### Overview\n\nWszyscy kochają Romana is a Polish television sitcom that premiered on TVN on September 2, 2011. The series is a Polish-language adaptation of the American Emmy Awards winner, Everybody Loves Raymond and stars Bartłomiej Kasprzykowski as titular Roman, a newspaper sportswriter.\n\nFirst four episodes was aired on Friday nights at 8:00 pm. On September 30, 2011, TVN announced suspend series due too low rating. Joanna Górska, TVN PR chief said: \"We looking new timeslot for the series\". Last 11 episodes will be aired.\n\n### Series Cast\n\n1. We don't have any cast added to this TV Show. "
+          }
+        ],
+        "summary": "Bartłomiej Kasprzykowski starred as Roman in the Polish adaptation of Everybody Loves Raymond, which premiered on September 2, 2011, but was suspended shortly after due to low ratings."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Find information about the character played by the actor in Magda M.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find information about the character played by the actor in Magda M.",
+        "facts": [
+          {
+            "fact": "Joanna Brodzik played the character Magda Miłowicz in the series Magda M.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "Magda M. aired from 2005 to 2007.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          },
+          {
+            "fact": "The character Magda Miłowicz appeared in 55 episodes of the show.",
+            "source_url": "https://www.themoviedb.org/tv/12949-magda-m"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Magda M.",
+            "url": "https://en.wikipedia.org/wiki/Magda_M.",
+            "snippet": "## Cast\n\n[edit]\n\n| Actor | Role | Status |\n --- \n| Joanna Brodzik | Magda Miłowicz | 2005–2007 |\n| Paweł Małaszyński | Piotr Korzecki\") | 2005–2007 |\n| Ewa Kasprzyk \"Ewa Kasprzyk (actress)\") | Teresa Miłowicz\") | 2005–2007 |\n| Bartłomiej Świderski | Sebastian Lewicki\") | 2005–2007 |\n| Daria Widawska | Agata Bielecka\") | 2005–2007 |\n| Krzysztof Stelmaszyk | Wiktor Waligóra\") | 2005–2007 |\n| Katarzyna Herman | Karolina Waligóra\") | 2005–2007 |\n| Bartek Kasprzykowski | Wojciech Płaska\") | 2005–2007 |\n| Katarzyna Bujakiewicz | Mariola Adamska-Płaska\") | 2005–2007 |\n| Szymon Bobrowski | Bartek Mali"
+          },
+          {
+            "title": "Magda M. - Cast",
+            "url": "https://www.tvmaze.com/shows/5863/magda-m/cast",
+            "snippet": "Login Register\n\n Shows\n People\n Networks\n Web Channels\n Articles\n Schedule\n Calendar\n Countdown\n Forums\n\n Home\n Shows\n Magda M.\n Cast\n\n# Magda M. - Cast\n\n## Joanna Brodzik\n\nas Magda Miłowicz\n\n## Bartłomiej Kasprzykowski\n\nas Wojciech Płaska\n\n## Bartłomiej Świderski\n\nas Sebastian Lewicki\n\n## Katarzyna Bujakiewicz\n\nas Mariola Adamska\n\n## Daria Widawska\n\nas Agata Bielecka\n\n## Paweł Małaszyński\n\nas Piotr Korzecki\n\n## Krzysztof Stelmaszyk\n\nas Wiktor Waligóra\n\n## Katarzyna Herman\n\nas Karolina Waligóra\n\n## Ewa Kasprzyk\n\nas Teresa Miłowicz\n\n## Piotr Fronczewski\n\nas Jerzy Miłowicz\n\n## Magdalena Zawadzka"
+          },
+          {
+            "title": "Magda M. (TV Series 2005-2007) - Cast & Crew - TMDB",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m/cast?language=en-US",
+            "snippet": "Movies\n  + Popular\n  + Now Playing\n  + Upcoming\n  + Top Rated\n TV Shows\n  + Popular\n  + Airing Today\n  + On TV\n  + Top Rated\n People\n  + Popular\n More\n  + Discussions\n  + Leaderboard\n  + Support\n  + API Documentation\n  + API for Business\n\n Login\n Join TMDB\n\n Overview\n  + Main\n  + Alternative Titles\n  + Cast & Crew\n  + Episode Groups\n  + Seasons\n  + Translations\n  + Changes\n Media\n  + Backdrops 2\n  + Logos 0\n  + Posters 1\n  + Videos\n    - Login to Add a Video\n Fandom\n  + Discussions\n    - Overview\n    - General 0\n    - Content Issues 0\n  + Reviews\n Share\n  + Share Link\n  + Facebook\n  + Tweet\n\n#"
+          },
+          {
+            "title": "Magda M. (TV Series 2005",
+            "url": "https://www.imdb.com/title/tt0471052/",
+            "snippet": "# Magda M.\n\nJoanna Brodzik and Pawel Malaszynski in Magda M. (2005) [...] ### Good as a character study\n\n### Related interests\n\nWill Ferrell in Anchorman: The Legend of Ron Burgundy (2004)\nNaomie Harris, Mahershala Ali, Janelle Monáe, André Holland, Herman Caheej McGloun, Edson Jean, Alex R. Hibbert, and Tanisha Cidel in Moonlight (2016)\nIngrid Bergman and Humphrey Bogart in Casablanca (1942)\n\n### Storyline\n\n### Did you know\n\n### Top picks\n\n### Details\n\n### Tech specs\n\n### Contribute to this page\n\n### More to explore\n\n### Recently viewed\n\nGet the IMDb App\n\n© 1990-2026 by IMDb.com, Inc. [...] h"
+          },
+          {
+            "title": "Magda M. (2005)",
+            "url": "https://www.themoviedb.org/tv/12949-magda-m",
+            "snippet": "### Overview\n\nMagda M. was a Polish soap opera.\n\n### Series Cast\n\n1. Joanna Brodzik\n\n   Magda Miłowicz\n\n   55 Episodes\n2. Paweł Małaszyński\n\n   Piotr Korzecki\n\n   55 Episodes\n3. Krzysztof Stelmaszyk\n\n   55 Episodes\n4. Bartłomiej Kasprzykowski\n\n   55 Episodes\n5. Katarzyna Bujakiewicz\n\n   55 Episodes\n6. Katarzyna Herman\n\n   55 Episodes\n7. Daria Widawska\n\n   55 Episodes\n8. Małgorzata Socha\n\n   Olimpia\n\n   55 Episodes\n9. Szymon Bobrowski\n\n   55 Episodes\n10. View More\n\nFull Cast & Crew\n\n### Last Season\n\n## Season 3\n\n#### 2006 • 15 Episodes\n\nSeason 3 of Magda M. premiered on September 5, 2006.\n\nOdci"
+          }
+        ],
+        "summary": "Magda M. is a Polish soap opera featuring Joanna Brodzik as Magda Miłowicz, who appeared in 55 episodes from 2005 to 2007."
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Magda",
+            "type": "character",
+            "evidence": "Joanna Brodzik played the character Magda Miłowicz in the series Magda M."
+          }
+        ],
+        "key_points": [
+          "Joanna Brodzik portrayed the character Magda Miłowicz in the Polish soap opera Magda M."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "55",
+            "unit": "episodes",
+            "context": "The character Magda Miłowicz appeared in 55 episodes of the show."
+          }
+        ],
+        "definitions": [
+          {
+            "term": "Magda Miłowicz",
+            "definition": "A character played by Joanna Brodzik in the Polish soap opera Magda M.",
+            "source_url": "https://en.wikipedia.org/wiki/Magda_M."
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the first name of the character played by the actor in Magda M.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Magda",
+        "final_answer_strict": "Magda",
+        "used_evidence": [
+          "Joanna Brodzik played the character Magda Miłowicz in the series Magda M."
+        ],
+        "confidence": "high",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "magda",
+    "gt_norm": "wojciech"
+  }
+}

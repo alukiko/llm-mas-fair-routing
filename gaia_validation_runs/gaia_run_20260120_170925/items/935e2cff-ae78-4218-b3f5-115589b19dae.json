@@ -1,0 +1,21 @@
+{
+  "id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+  "query": "In the year 2022, and before December, what does \"R\" stand for in the three core policies of the type of content that was violated in the public logs on the Legume Wikipedia page?",
+  "ground_truth": "research",
+  "answer_raw": null,
+  "answer_pred": "",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\3024560218.py\", line 237, in <module>\n    final_state = _run_with_trace(app, init_state, verbose=VERBOSE_STREAM)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\3024560218.py\", line 129, in _run_with_trace\n    for state in iterator:\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\__init__.py\", line 2461, in stream\n    for _ in runner.tick(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\runner.py\", line 153, in tick\n    run_with_retry(\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\pregel\\retry.py\", line 40, in run_with_retry\n    return task.proc.invoke(task.input, config)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 623, in invoke\n    input = context.run(step.invoke, input, config, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\oklad\\anaconda3\\Lib\\site-packages\\langgraph\\utils\\runnable.py\", line 377, in invoke\n    ret = self.func(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\oklad\\AppData\\Local\\Temp\\ipykernel_23196\\1160646065.py\", line 64, in search_agent_node\n    title = (r.get(\"title\") or \"\").strip()\n             ^^^^^\nAttributeError: 'str' object has no attribute 'get'\nDuring task with name 'search_agent' and id 'f1f16162-669e-2340-8c50-e3f4ee4cb2bd'\n",
+  "duration_sec": 63.794981241226196,
+  "tasks": null,
+  "resources": null,
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "research"
+  }
+}

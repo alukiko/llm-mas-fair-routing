@@ -1,0 +1,23 @@
+{
+  "oracle_strategy": "utilitarian",
+  "total_package_budget": 20,
+  "base_packages": {
+    "gpt4": {
+      "model": "openai/gpt-4o-mini",
+      "tokens_per_package": 100,
+      "cost": 1
+    },
+    "gpt5": {
+      "model": "openai/gpt-5.2",
+      "tokens_per_package": 50,
+      "cost": 1
+    },
+    "qwen": {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "tokens_per_package": 150,
+      "cost": 1
+    }
+  },
+  "timestamp": "20260127_165850",
+  "run_dir": "gaia_validation_runs\\policy-utilitarian__pkgs-20__20260127_165850"
+}

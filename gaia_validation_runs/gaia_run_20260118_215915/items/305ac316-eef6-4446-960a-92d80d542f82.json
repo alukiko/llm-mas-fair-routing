@@ -1,0 +1,242 @@
+{
+  "id": "305ac316-eef6-4446-960a-92d80d542f82",
+  "query": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+  "ground_truth": "Wojciech",
+  "answer_raw": {
+    "final_answer": "Магда",
+    "final_answer_strict": "Магда",
+    "used_evidence": [
+      "Актёры и съёмочная группа сериала «Магда М.» (Magda M., 2005-2007)."
+    ],
+    "confidence": "low",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Магда",
+  "error": null,
+  "duration_sec": 50.91193413734436,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию об актере, который сыграл Рэя в польской версии 'Все любят Рэймонда'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию об актере, который сыграл Рэя в польской версии 'Все любят Рэймонда'.",
+        "facts": [
+          {
+            "fact": "Польская адаптация 'Все любят Рэймонда' вышла в 2011 году.",
+            "source_url": "https://ctclove.ru/news/vse-lyubyat-voroninykh-kakie-oni-v-drugikh-stranakh"
+          },
+          {
+            "fact": "Сюжет и персонажи польской версии 'Все любят Рэймонда' остались прежними.",
+            "source_url": "https://ctclove.ru/news/vse-lyubyat-voroninykh-kakie-oni-v-drugikh-stranakh"
+          },
+          {
+            "fact": "Польская версия 'Все любят Рэймонда' не пользовалась успехом.",
+            "source_url": "https://ctclove.ru/news/vse-lyubyat-voroninykh-kakie-oni-v-drugikh-stranakh"
+          }
+        ],
+        "sources": [
+          {
+            "title": "\"Экспорт Рэймонда\" (2010) - один из самых непреднамеренно бесячих ...",
+            "url": "https://www.reddit.com/r/TrueFilm/comments/1n3n7hq/exporting_raymond_2010_is_one_of_the_most/%3Ftl%3Dru",
+            "snippet": "Экспорт Рэймонда (2010) — это документальный фильм, рассказывающий о Филе Розентале, создателе ситкома Все любят Рэймонда в 90-х годах, ..."
+          },
+          {
+            "title": "Все любят Рэймонда (сериал, 1996 - 2005)",
+            "url": "https://ru.kinorium.com/104640/",
+            "snippet": "Публичный образ главного героя и узнаваемость бренда сериала стали долговременным следствием: имя Рэя Романо для массовой аудитории надолго связалось с форматом «обычный человек в ..."
+          },
+          {
+            "title": "Все любят «Ворониных»: какие они в других странах?",
+            "url": "https://ctclove.ru/news/vse-lyubyat-voroninykh-kakie-oni-v-drugikh-stranakh",
+            "snippet": "13 сент. 2023 г. — В 2011 году вышла польская адаптация «Все любят Рэймонда». Сюжет, как и персонажей, оставили прежними, но в Польше проект не пользовался успехом ..."
+          },
+          {
+            "title": "Все любят Рэймонда (1996, сериал, 9 сезонов) — актеры и съемочная ...",
+            "url": "https://www.kinopoisk.ru/film/277601/cast/",
+            "snippet": "Все любят Рэймонда (1996). Актеры, режиссер, продюсеры и другие участники съемочной группы."
+          },
+          {
+            "title": "Ворониных» — сериала, попавшего в Книгу рекордов Гиннесса",
+            "url": "https://www.kinopoisk.ru/media/article/4000550/",
+            "snippet": "1 мар. 2020 г. — «Рэй Романо сыграл Рэймонда удивительно точно и тонко, — восхищается Георгий Дронов, исполнитель роли Кости Воронина. — Кажется, что эта роль д ..."
+          }
+        ],
+        "summary": "Польская адаптация 'Все любят Рэймонда' вышла в 2011 году, сохранив сюжет и персонажей оригинала, но не имела успеха."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "search",
+      "description": "Найти информацию о персонаже в 'Magda M.', который был сыгран этим актером.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о персонаже в 'Magda M.', который был сыгран этим актером.",
+        "facts": [
+          {
+            "fact": "Сериал 'Магда М.' выходил с 2005 по 2007 год.",
+            "source_url": "https://www.kinopoisk.ru/series/271726/"
+          },
+          {
+            "fact": "В 'Магда М.' снимались актёры Иоанна Бродзик, Дария Видавска и Катажина Буякевич.",
+            "source_url": "https://ru.kinorium.com/354352/cast/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "McDonaldland",
+            "url": "https://ru.wikipedia.org/wiki/McDonaldland",
+            "snippet": "Персонажи · Рональд Макдональд — это протагонист и официальный талисман McDonald's. · Hamburglar — небольшой грабитель, который появился в 1971 году в роли одного ..."
+          },
+          {
+            "title": "Актёры - Магда М.",
+            "url": "https://ru.kinorium.com/354352/cast/",
+            "snippet": "Актёры и съёмочная группа сериала «Магда М.» (Magda M., 2005-2007). Роли, персонажи и озвучка главных героев. Иоанна Бродзик, Дария Видавска, Катажина Буякевич"
+          },
+          {
+            "title": "Мастерская Петра Фоменко: Форум",
+            "url": "https://fomenki.ru/forum/by-tag-%25D0%25BE%25D0%25BB%25D1%258F%25D0%25BC%25D1%2583%25D1%2585%25D0%25B8%25D0%25BD%25D0%25B0/",
+            "snippet": "Но поставлена она хорошо. Так что Цыганов сдал экзамен на \"профпригодность\" - было много очень хороших и тонких моментов (лифт как луч прожектора, балет и весь ..."
+          },
+          {
+            "title": "«Магда М.» (Magda M., 2005) - Кинопоиск",
+            "url": "https://www.kinopoisk.ru/series/271726/",
+            "snippet": "📺 Подробная информация о сериале Магда М. на сайте Кинопоиск."
+          },
+          {
+            "title": "истребительница вампиров\" и/или \"Ангела\", чья игра особенно ...",
+            "url": "https://www.reddit.com/r/buffy/comments/1m2nrpl/is_there_any_buffy_the_vampire_slayer_andor_angel/%3Ftl%3Dru",
+            "snippet": "Думаю, я остановлюсь на Джонатане в эпизоде \"Суперзвезда\" для своего ответа. Я точно ..."
+          }
+        ],
+        "summary": "Сериал 'Магда М.' был выпущен в период с 2005 по 2007 год и включал в себя известных польских актёров."
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь имя персонажа, сыгранного актером в 'Magda M.'.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Магда",
+            "type": "персонаж",
+            "evidence": "Актёры и съёмочная группа сериала «Магда М.» (Magda M., 2005-2007)."
+          }
+        ],
+        "key_points": [
+          "Сериал 'Магда М.' выходил с 2005 по 2007 год."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2005-2007",
+            "unit": "годы",
+            "context": "период выхода сериала 'Магда М.'"
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю, указав только имя персонажа.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Магда",
+        "final_answer_strict": "Магда",
+        "used_evidence": [
+          "Актёры и съёмочная группа сериала «Магда М.» (Magda M., 2005-2007)."
+        ],
+        "confidence": "low",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "магда",
+    "gt_norm": "wojciech"
+  }
+}

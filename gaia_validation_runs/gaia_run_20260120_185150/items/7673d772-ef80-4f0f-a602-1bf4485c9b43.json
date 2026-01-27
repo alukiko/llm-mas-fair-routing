@@ -1,0 +1,667 @@
+{
+  "id": "7673d772-ef80-4f0f-a602-1bf4485c9b43",
+  "query": "On Cornell Law School website's legal information institute, under the fifth section of federal rules alphabetically, what word was deleted in the last amendment to the first rule in the article that has \"witnesses\" in the most titles as of 2021?",
+  "ground_truth": "inference",
+  "answer_raw": {
+    "final_answer": "deleted word not found",
+    "final_answer_strict": "not_found",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the word that was deleted in the last amendment to the first rule?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "not_found",
+  "error": null,
+  "duration_sec": 56.907007932662964,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Cornell Law School website's legal information institute and locate the federal rules section.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Cornell Law School website's legal information institute and locate the federal rules section.",
+        "facts": [
+          {
+            "fact": "The Legal Information Institute (LII) is a non-profit public service of Cornell Law School that provides no-cost access to current American and international legal research sources online.",
+            "source_url": "https://en.wikipedia.org/wiki/Legal_Information_Institute"
+          },
+          {
+            "fact": "The Federal Rules of Civil Procedure were adopted by order of the Supreme Court on December 20, 1937.",
+            "source_url": "https://www.law.cornell.edu/rules/frcp"
+          },
+          {
+            "fact": "The Federal Rules of Evidence were adopted by order of the Supreme Court on November 20, 1972.",
+            "source_url": "https://www.law.cornell.edu/rules/fre"
+          },
+          {
+            "fact": "The Federal Rules section can be accessed at the Cornell Law School website's Legal Information Institute.",
+            "source_url": "https://www.law.cornell.edu/rules"
+          }
+        ],
+        "summary": "The Cornell Law School's Legal Information Institute provides access to various federal rules, including the Federal Rules of Civil Procedure and the Federal Rules of Evidence, which were established by the Supreme Court in the 20th century.",
+        "sources": [
+          {
+            "title": "Federal Rules | US Law | LII / Legal Information Institute",
+            "url": "https://www.law.cornell.edu/rules",
+            "snippet": "Federal Rules | Federal Rules | US Law | LII / Legal Information Institute. This website uses cookies to ensure you get the best experience on our website. Please help us improve our site! Image 1: Cornell University insigniaCornell Law SchoolSearch Cornell. Please help us improve our site! *   Federal Rules of Appellate Procedure. *   Federal Rules of Civil Procedure. *   Federal Rules of Criminal Procedure. *   Federal Rules of Bankruptcy Procedure. *   Federal Rules of Appellate Procedure. *   Federal Rules of Civil Procedure. *   Federal Rules of Criminal Procedure. *   Federal Rules of Bankruptcy Procedure. *   U.S. Supreme Court Rules. Personal Injury, Workers' Compensation, Nursing Home Abuse, Medical Malpractice. DUI & DWI, Criminal Law, Domestic Violence, Traffic Tickets, Cannabis & Marijuana Law, Juvenile Law, Stockbroker & Investment Fraud, White Collar Crime, Personal Injury, Civil Rights. Medical Malpractice, Criminal Law, Personal Injury, Workers' Compensation, Probate. Personal Injury, Construction Law, Nursing Home Abuse. Criminal Law, DUI & DWI, Personal Injury, Domestic Violence, Workers' Compensation."
+          },
+          {
+            "title": "Federal Rules of Civil Procedure - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/frcp",
+            "snippet": "# Federal Rules of Civil Procedure. These are the Federal Rules of Civil Procedure, as amended to December 1, 2025 1. * RULES OF CIVIL PROCEDURE FOR THE UNITED STATES DISTRICT COURTS. SCOPE OF RULES; FORM OF ACTION. Judgment as a Matter of Law in a Jury Trial; Related Motion for a New Trial; Conditional Ruling. Applicability of the Rules in General; Removed Actions. Rules by District Courts; Judge's Directives. The original Rules of Civil Procedure for the District Courts were adopted by order of the Supreme Court on Dec. 20, 1937, transmitted to Congress by the Attorney General on Jan. 3, 1938, and became effective on Sept. The Rules have been amended Dec. 28, 1939, eff. The Federal Rules of Civil Procedure supplant the Equity Rules since in general they cover the field now covered by the Equity Rules and the Conformity Act (former section 724 of this title). | Equity Rules | Federal Rules of Civil Procedure |."
+          },
+          {
+            "title": "Legal Information Institute",
+            "url": "https://en.wikipedia.org/wiki/Legal_Information_Institute",
+            "snippet": "Non-profit free legal information service at Cornell Law School. The **Legal Information Institute** (**LII**) is a non-profit public service of Cornell Law School that provides no-cost access to current American and international legal research sources online. LII was established in 1992 at Cornell Law School by Peter Martin \"Peter Martin (Law Professor)\") and Tom Bruce with a $250,000 multi-year startup grant from the National Center for Automated Information Research. Its original mission included the intent to \"carry out applied research on the use of digital information technology in the distribution of legal information,...[and t]o make law more accessible.\" In the early years of LII, Bruce developed Cello \"Cello (web browser)\") the first web browser for Microsoft Windows. LII has an extensive collection of law from the Supreme Court of the United States. The LII Supreme Court Bulletin is LII's free Supreme Court email-based subscriber and web-based publication service. \"Cornell Legal Information Institute posts previews of Supreme Court cases\"."
+          },
+          {
+            "title": "Federal Rules of Evidence - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/fre",
+            "snippet": "# Federal Rules of Evidence. These are the Federal Rules of Evidence, as amended to December 1, 2024. Mode and Order of Examining Witnesses and Presenting Evidence. Opinion Testimony by Lay Witnesses. Exceptions to the Rule Against Hearsay — Regardless of Whether the Declarant Is Available as a Witness. Admissibility of Other Evidence of Content. These rules apply to actions, cases, and proceedings brought after the rules take effect. These rules also apply to further procedure in actions, cases, and proceedings then pending, except to the extent that application of the rules would not be feasible, or would work injustice, in which event former evidentiary principles apply.”. The Federal Rules of Evidence were adopted by order of the Supreme Court on Nov. 20, 1972, transmitted to Congress by the Chief Justice on Feb. 5, 1973, and to have become effective on July 1, 1973. 1926, enacted the Federal Rules of Evidence proposed by the Supreme Court, with amendments made by Congress, to take effect on July 1, 1975. The Rules have been amended Oct. 16, 1975, Pub. L."
+          },
+          {
+            "title": "Cornell Legal Information Institute - (Mostly) Free Resources",
+            "url": "https://guides.library.law.ua.edu/c.php?g=1380922&p=10239083",
+            "snippet": "It hosts Supreme Court cases from 1990 to present in both HTML and PDF and often provides links to users looking to access various federal and state cases, statutes, and regulations. Another way is to hover over the \"**Get the Law**\" tab at the top of the page and selecting \"**Supreme Court**.\" However, you can also scroll down and find a section titled \"**Legal Resources**,\" where you'll find links to a variety of documents, including the link \"**Supreme Court,**\" which will also lead you to Supreme Court cases. From there, you'll be able to select \"**Federal Law**\" and can scroll down to the \"**Judicial Branch**\" section, where you'll find links to decisions from the **Supreme Court**, **Federal Court of Appeals**, and **other federal courts**. For example, if you select **Alabama**, you will be redirected to a page that has various links to: Alabama's Constitution and Legislation; their Judiciary; Regulations and Other Agency Materials; and Additional Collections of State Legal Resources."
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Federal Rules | US Law | LII / Legal Information Institute",
+            "url": "https://www.law.cornell.edu/rules",
+            "content": "Federal Rules | Federal Rules | US Law | LII / Legal Information Institute. This website uses cookies to ensure you get the best experience on our website. Please help us improve our site! Image 1: Cornell University insigniaCornell Law SchoolSearch Cornell. Please help us improve our site! *   Federal Rules of Appellate Procedure. *   Federal Rules of Civil Procedure. *   Federal Rules of Criminal Procedure. *   Federal Rules of Bankruptcy Procedure. *   Federal Rules of Appellate Procedure. *   Federal Rules of Civil Procedure. *   Federal Rules of Criminal Procedure. *   Federal Rules of Bankruptcy Procedure. *   U.S. Supreme Court Rules. Personal Injury, Workers' Compensation, Nursing Home Abuse, Medical Malpractice. DUI & DWI, Criminal Law, Domestic Violence, Traffic Tickets, Cannabis & Marijuana Law, Juvenile Law, Stockbroker & Investment Fraud, White Collar Crime, Personal Injury, Civil Rights. Medical Malpractice, Criminal Law, Personal Injury, Workers' Compensation, Probate. Personal Injury, Construction Law, Nursing Home Abuse. Criminal Law, DUI & DWI, Personal Injury, Domestic Violence, Workers' Compensation.",
+            "score": 0.9851
+          },
+          {
+            "title": "Federal Rules of Civil Procedure - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/frcp",
+            "content": "# Federal Rules of Civil Procedure. These are the Federal Rules of Civil Procedure, as amended to December 1, 2025 1. * RULES OF CIVIL PROCEDURE FOR THE UNITED STATES DISTRICT COURTS. SCOPE OF RULES; FORM OF ACTION. Judgment as a Matter of Law in a Jury Trial; Related Motion for a New Trial; Conditional Ruling. Applicability of the Rules in General; Removed Actions. Rules by District Courts; Judge's Directives. The original Rules of Civil Procedure for the District Courts were adopted by order of the Supreme Court on Dec. 20, 1937, transmitted to Congress by the Attorney General on Jan. 3, 1938, and became effective on Sept. The Rules have been amended Dec. 28, 1939, eff. The Federal Rules of Civil Procedure supplant the Equity Rules since in general they cover the field now covered by the Equity Rules and the Conformity Act (former section 724 of this title). | Equity Rules | Federal Rules of Civil Procedure |.",
+            "score": 0.98226
+          },
+          {
+            "title": "Legal Information Institute",
+            "url": "https://en.wikipedia.org/wiki/Legal_Information_Institute",
+            "content": "Non-profit free legal information service at Cornell Law School. The **Legal Information Institute** (**LII**) is a non-profit public service of Cornell Law School that provides no-cost access to current American and international legal research sources online. LII was established in 1992 at Cornell Law School by Peter Martin \"Peter Martin (Law Professor)\") and Tom Bruce with a $250,000 multi-year startup grant from the National Center for Automated Information Research. Its original mission included the intent to \"carry out applied research on the use of digital information technology in the distribution of legal information,...[and t]o make law more accessible.\" In the early years of LII, Bruce developed Cello \"Cello (web browser)\") the first web browser for Microsoft Windows. LII has an extensive collection of law from the Supreme Court of the United States. The LII Supreme Court Bulletin is LII's free Supreme Court email-based subscriber and web-based publication service. \"Cornell Legal Information Institute posts previews of Supreme Court cases\".",
+            "score": 0.98164
+          },
+          {
+            "title": "Federal Rules of Evidence - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/fre",
+            "content": "# Federal Rules of Evidence. These are the Federal Rules of Evidence, as amended to December 1, 2024. Mode and Order of Examining Witnesses and Presenting Evidence. Opinion Testimony by Lay Witnesses. Exceptions to the Rule Against Hearsay — Regardless of Whether the Declarant Is Available as a Witness. Admissibility of Other Evidence of Content. These rules apply to actions, cases, and proceedings brought after the rules take effect. These rules also apply to further procedure in actions, cases, and proceedings then pending, except to the extent that application of the rules would not be feasible, or would work injustice, in which event former evidentiary principles apply.”. The Federal Rules of Evidence were adopted by order of the Supreme Court on Nov. 20, 1972, transmitted to Congress by the Chief Justice on Feb. 5, 1973, and to have become effective on July 1, 1973. 1926, enacted the Federal Rules of Evidence proposed by the Supreme Court, with amendments made by Congress, to take effect on July 1, 1975. The Rules have been amended Oct. 16, 1975, Pub. L.",
+            "score": 0.98145
+          },
+          {
+            "title": "Cornell Legal Information Institute - (Mostly) Free Resources",
+            "url": "https://guides.library.law.ua.edu/c.php?g=1380922&p=10239083",
+            "content": "It hosts Supreme Court cases from 1990 to present in both HTML and PDF and often provides links to users looking to access various federal and state cases, statutes, and regulations. Another way is to hover over the \"**Get the Law**\" tab at the top of the page and selecting \"**Supreme Court**.\" However, you can also scroll down and find a section titled \"**Legal Resources**,\" where you'll find links to a variety of documents, including the link \"**Supreme Court,**\" which will also lead you to Supreme Court cases. From there, you'll be able to select \"**Federal Law**\" and can scroll down to the \"**Judicial Branch**\" section, where you'll find links to decisions from the **Supreme Court**, **Federal Court of Appeals**, and **other federal courts**. For example, if you select **Alabama**, you will be redirected to a page that has various links to: Alabama's Constitution and Legislation; their Judiciary; Regulations and Other Agency Materials; and Additional Collections of State Legal Resources.",
+            "score": 0.97892
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Federal Rules | US Law | LII / Legal Information Institute",
+            "url": "https://www.law.cornell.edu/rules",
+            "score": 0.9851
+          },
+          {
+            "title": "Federal Rules of Civil Procedure - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/frcp",
+            "score": 0.98226
+          },
+          {
+            "title": "Legal Information Institute",
+            "url": "https://en.wikipedia.org/wiki/Legal_Information_Institute",
+            "score": 0.98164
+          },
+          {
+            "title": "Federal Rules of Evidence - Law.Cornell.Edu",
+            "url": "https://www.law.cornell.edu/rules/fre",
+            "score": 0.98145
+          },
+          {
+            "title": "Cornell Legal Information Institute - (Mostly) Free Resources",
+            "url": "https://guides.library.law.ua.edu/c.php?g=1380922&p=10239083",
+            "score": 0.97892
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Federal Rules"
+          },
+          {
+            "type": "name_like",
+            "value": "Law"
+          },
+          {
+            "type": "name_like",
+            "value": "Legal Information Institute\nFederal"
+          },
+          {
+            "type": "name_like",
+            "value": "Rules"
+          },
+          {
+            "type": "name_like",
+            "value": "Legal Information Institute"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Please"
+          },
+          {
+            "type": "name_like",
+            "value": "Image"
+          },
+          {
+            "type": "name_like",
+            "value": "Cornell University"
+          },
+          {
+            "type": "name_like",
+            "value": "Cornell"
+          },
+          {
+            "type": "name_like",
+            "value": "Appellate Procedure"
+          },
+          {
+            "type": "name_like",
+            "value": "Civil Procedure"
+          },
+          {
+            "type": "name_like",
+            "value": "Criminal Procedure"
+          },
+          {
+            "type": "name_like",
+            "value": "Bankruptcy Procedure"
+          },
+          {
+            "type": "name_like",
+            "value": "Supreme Court Rules"
+          },
+          {
+            "type": "name_like",
+            "value": "Personal Injury"
+          },
+          {
+            "type": "name_like",
+            "value": "Workers"
+          },
+          {
+            "type": "name_like",
+            "value": "Compensation"
+          },
+          {
+            "type": "name_like",
+            "value": "Nursing Home Abuse"
+          },
+          {
+            "type": "name_like",
+            "value": "Medical Malpractice"
+          },
+          {
+            "type": "name_like",
+            "value": "Criminal Law"
+          },
+          {
+            "type": "name_like",
+            "value": "Domestic Violence"
+          },
+          {
+            "type": "name_like",
+            "value": "Traffic Tickets"
+          },
+          {
+            "type": "name_like",
+            "value": "Cannabis"
+          },
+          {
+            "type": "name_like",
+            "value": "Marijuana Law"
+          },
+          {
+            "type": "name_like",
+            "value": "Juvenile Law"
+          },
+          {
+            "type": "name_like",
+            "value": "Stockbroker"
+          },
+          {
+            "type": "name_like",
+            "value": "Investment Fraud"
+          },
+          {
+            "type": "name_like",
+            "value": "White Collar Crime"
+          },
+          {
+            "type": "name_like",
+            "value": "Civil Rights"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the titles of articles under the fifth section of federal rules alphabetically.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": "{\n  \"match_found\": true,\n  \"matched_on\": [\n    \"federal rules\"\n  ],\n  \"entities\": [\n    {\n      \"name\": \"Federal Rules of Appellate Procedure\",\n      \"type\": \"title\",\n      \"evidence\": \"Federal Rules of Appellate Procedure.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules\"\n    },\n    {\n      \"name\": \"Federal Rules of Bankruptcy Procedure\",\n      \"type\": \"title\",\n      \"evidence\": \"Federal Rules of Bankruptcy Procedure.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules\"\n    },\n    {\n      \"name\": \"Federal Rules of Civil Procedure\",\n      \"type\": \"title\",\n      \"evidence\": \"Federal Rules of Civil Procedure.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules/frcp\"\n    },\n    {\n      \"name\": \"Federal Rules of Criminal Procedure\",\n      \"type\": \"title\",\n      \"evidence\": \"Federal Rules of Criminal Procedure.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules\"\n    },\n    {\n      \"name\": \"U.S. Supreme Court Rules\",\n      \"type\": \"title\",\n      \"evidence\": \"U.S. Supreme Court Rules.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules\"\n    }\n  ],\n  \"key_points\": [\n    \"The federal rules include various procedures established by the Supreme Court.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"evidence_spans\": [\n    {\n      \"text\": \"Federal Rules of Appellate Procedure.\",\n      \"source_url\": \"https://www.law.cornell.edu/rules\"\n    },\n    {\n      \"text\": \"Federal Rules of Bankruptcy Procedure.\",\n      \"source_url\": \"https://www.law.corn"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Identify the article that has 'witnesses' in the most titles.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The task is to identify which article has 'witnesses' in the most titles among the federal rules."
+        ],
+        "reasoning_steps": [
+          "The intermediate results provided information about various federal rules, but none of the titles explicitly mentioned 'witnesses'.",
+          "The titles of the federal rules include: 'Federal Rules of Appellate Procedure', 'Federal Rules of Bankruptcy Procedure', 'Federal Rules of Civil Procedure', 'Federal Rules of Criminal Procedure', and 'U.S. Supreme Court Rules'.",
+          "The Federal Rules of Evidence, which is part of the legal framework, does mention 'witnesses' in its content but is not listed as a title in the provided results."
+        ],
+        "conclusions": [
+          "None of the titles listed in the intermediate results contain the word 'witnesses'. Therefore, it cannot be concluded that any article has 'witnesses' in its title."
+        ],
+        "proposed_answer_outline": [
+          "No article has 'witnesses' in its title based on the provided information."
+        ],
+        "follow_up_needed": false,
+        "follow_up_queries": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "search",
+      "description": "Find the last amendment to the first rule of the identified article.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the last amendment to the first rule of the identified article.",
+        "facts": [
+          {
+            "fact": "The last amendment to the United States Constitution is Amendment XXVII, which was ratified on May 7, 1992.",
+            "source_url": "https://hrlibrary.umn.edu/education/all_amendments_usconst.htm"
+          },
+          {
+            "fact": "Amendment XIX, which grants the right to vote regardless of sex, was passed by Congress on June 4, 1919, and ratified on August 18, 1920.",
+            "source_url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          },
+          {
+            "fact": "The Bill of Rights, which includes the first ten amendments to the Constitution, was ratified on December 15, 1791.",
+            "source_url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+          }
+        ],
+        "summary": "The last amendment to the United States Constitution is Amendment XXVII, ratified on May 7, 1992. Amendment XIX, which ensures voting rights regardless of sex, was ratified on August 18, 1920. The Bill of Rights, comprising the first ten amendments, was ratified on December 15, 1791.",
+        "sources": [
+          {
+            "title": "All Amendments to the United States Constitution",
+            "url": "https://hrlibrary.umn.edu/education/all_amendments_usconst.htm",
+            "snippet": "AMENDMENT V\n\nNo person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.\n\nAMENDMENT VI [...] AMENDMENT III\n\nNo Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.\n\nAMENDMENT IV\n\nThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\n\nAMENDMENT V [...] AMENDMENT VI\n\nIn all criminal prosecut"
+          },
+          {
+            "title": "The Bill of Rights: A Transcription",
+            "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+            "snippet": "### Amendment V\n\nNo person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.\n\n### Amendment VI [...] Article the eighth... In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.\n\nArticle the ninth... In suits at common law, where the value in con"
+          },
+          {
+            "title": "The Constitution: Amendments 11-27 | National Archives",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+            "snippet": "### Section 3.\n\nThis article shall be inoperative unless it shall have been ratified as an amendment to the Constitution by the legislatures of the several States, as provided in the Constitution, within seven years from the date of the submission hereof to the States by the Congress.\n\n## AMENDMENT XIX\n\nPassed by Congress June 4, 1919. Ratified August 18, 1920.\n\nThe right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.\n\nCongress shall have power to enforce this article by appropriate legislation.\n\n## AMENDMENT XX\n\nPassed by Congress March 2, 1932. Ratified January 23, 1933. [...] the certificates and the votes shall then be counted; -- The person having the greatest number of votes for President, shall be the President, if such number be a majority of the whole number of Electors appointed; and if no person have such majority, then from the persons having the highest numbers not exceeding three on the list of those voted for as President, the House of Representatives shall choose immediately, by ballot, the President. But in choosing the President, the votes shall be taken by states, the representation"
+          },
+          {
+            "title": "THE CONSTITUTION ACTS 1867 to 1982",
+            "url": "https://laws-lois.justice.gc.ca/eng/const/page-13.html",
+            "snippet": "## Language selection\n\n Français\n\n## Search\n\n# THE CONSTITUTION ACTS 1867 to 1982\n\nFull Document:\n\n HTMLFull Document: THE CONSTITUTION ACTS 1867 to 1982 (Accessibility Buttons available) |\n PDFFull Document: THE CONSTITUTION ACTS 1867 to 1982 [771 KB]\n\n## PART IIIEqualization and Regional Disparities\n\nMarginal note:Commitment to promote equal opportunities\n\n 36 (1) Without altering the legislative authority of Parliament or of the provincial legislatures, or the rights of any of them with respect to the exercise of their legislative authority, Parliament and the legislatures, together with the government of Canada and the provincial governments, are committed to"
+          },
+          {
+            "title": "Amendments to the Constitution of Canada",
+            "url": "https://en.wikipedia.org/wiki/Amendments_to_the_Constitution_of_Canada",
+            "snippet": "The 1987 Meech Lake Accord, a package of constitutional amendments, intended to address Quebec's objections to the Constitution Act, 1982, failed in 1990 when it was not ratified by all ten provincial governments. The last attempt at a comprehensive package of constitutional amendments was the Charlottetown Accord, which arose out of the failure of the Meech Lake Accord. The Charlottetown Accord was defeated in a national referendum in 1992.\n\n### Notwithstanding clause\n\n[edit] [...] | Constitution Amendment, 2001 (Newfoundland and Labrador) | every instance of the word \"Newfoundland\" in the schedule to Newfoundland Act | Changed the name of the \"Province of Newfoundland\" to the \"Province of Newfoundland and Labrador\". | s. 43: House of Commons, Senate and Newfoundland House of Assembly |\n| Fair Representation Act, 2011 \"Fair Representation Act (Canada)\") | s. 51(1),(1.1) of Constitution Act, 1867 | Modified the formula for apportioning seats in the House of Commons. | s. 44: Parliament of Canada |\n| Constitution Amendment, 2022 (Saskatchewan Act) | s. 24 of the Saskatchewan Act repealed retroactive to August 29, 1966 | Removed a historic tax exemption specific to the Canadian Pacif"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "All Amendments to the United States Constitution",
+            "url": "https://hrlibrary.umn.edu/education/all_amendments_usconst.htm",
+            "content": "AMENDMENT V\n\nNo person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.\n\nAMENDMENT VI [...] AMENDMENT III\n\nNo Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.\n\nAMENDMENT IV\n\nThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\n\nAMENDMENT V [...] AMENDMENT VI\n\nIn all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.\n\nAMENDMENT VII\n\nIn Suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise re-examined in any Court of the United States, than according to the rules of the common law.\n\nAMENDMENT VIII",
+            "score": 0.21514495
+          },
+          {
+            "title": "The Bill of Rights: A Transcription",
+            "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+            "content": "### Amendment V\n\nNo person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.\n\n### Amendment VI [...] Article the eighth... In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.\n\nArticle the ninth... In suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise re-examined in any Court of the United States, than according to the rules of the common law. [...] ### Amendment III\n\nNo Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.\n\n### Amendment IV\n\nThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\n\n### Amendment V",
+            "score": 0.14124614
+          },
+          {
+            "title": "The Constitution: Amendments 11-27 | National Archives",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+            "content": "### Section 3.\n\nThis article shall be inoperative unless it shall have been ratified as an amendment to the Constitution by the legislatures of the several States, as provided in the Constitution, within seven years from the date of the submission hereof to the States by the Congress.\n\n## AMENDMENT XIX\n\nPassed by Congress June 4, 1919. Ratified August 18, 1920.\n\nThe right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.\n\nCongress shall have power to enforce this article by appropriate legislation.\n\n## AMENDMENT XX\n\nPassed by Congress March 2, 1932. Ratified January 23, 1933. [...] the certificates and the votes shall then be counted; -- The person having the greatest number of votes for President, shall be the President, if such number be a majority of the whole number of Electors appointed; and if no person have such majority, then from the persons having the highest numbers not exceeding three on the list of those voted for as President, the House of Representatives shall choose immediately, by ballot, the President. But in choosing the President, the votes shall be taken by states, the representation from each state having one vote; a quorum for this purpose shall consist of a member or members from two-thirds of the states, and a majority of all the states shall be necessary to a choice. [And if the House of Representatives shall not choose a President whenever [...] ### Section 1.\n\nThe right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude--\n\n### Section 2.\n\nThe Congress shall have power to enforce this article by appropriate legislation.\n\n## AMENDMENT XVI\n\nPassed by Congress July 2, 1909. Ratified February 3, 1913.\n\nNote: Article I, section 9, of the Constitution was modified by amendment 16.\n\nThe Congress shall have power to lay and collect taxes on incomes, from whatever source derived, without apportionment among the several States, and without regard to any census or enumeration.\n\n## AMENDMENT XVII\n\nPassed by Congress May 13, 1912. Ratified April 8, 1913.",
+            "score": 0.13455996
+          },
+          {
+            "title": "THE CONSTITUTION ACTS 1867 to 1982",
+            "url": "https://laws-lois.justice.gc.ca/eng/const/page-13.html",
+            "content": "## Language selection\n\n Français\n\n## Search\n\n# THE CONSTITUTION ACTS 1867 to 1982\n\nFull Document:\n\n HTMLFull Document: THE CONSTITUTION ACTS 1867 to 1982 (Accessibility Buttons available) |\n PDFFull Document: THE CONSTITUTION ACTS 1867 to 1982 [771 KB]\n\n## PART IIIEqualization and Regional Disparities\n\nMarginal note:Commitment to promote equal opportunities\n\n 36 (1) Without altering the legislative authority of Parliament or of the provincial legislatures, or the rights of any of them with respect to the exercise of their legislative authority, Parliament and the legislatures, together with the government of Canada and the provincial governments, are committed to",
+            "score": 0.097571015
+          },
+          {
+            "title": "Amendments to the Constitution of Canada",
+            "url": "https://en.wikipedia.org/wiki/Amendments_to_the_Constitution_of_Canada",
+            "content": "The 1987 Meech Lake Accord, a package of constitutional amendments, intended to address Quebec's objections to the Constitution Act, 1982, failed in 1990 when it was not ratified by all ten provincial governments. The last attempt at a comprehensive package of constitutional amendments was the Charlottetown Accord, which arose out of the failure of the Meech Lake Accord. The Charlottetown Accord was defeated in a national referendum in 1992.\n\n### Notwithstanding clause\n\n[edit] [...] | Constitution Amendment, 2001 (Newfoundland and Labrador) | every instance of the word \"Newfoundland\" in the schedule to Newfoundland Act | Changed the name of the \"Province of Newfoundland\" to the \"Province of Newfoundland and Labrador\". | s. 43: House of Commons, Senate and Newfoundland House of Assembly |\n| Fair Representation Act, 2011 \"Fair Representation Act (Canada)\") | s. 51(1),(1.1) of Constitution Act, 1867 | Modified the formula for apportioning seats in the House of Commons. | s. 44: Parliament of Canada |\n| Constitution Amendment, 2022 (Saskatchewan Act) | s. 24 of the Saskatchewan Act repealed retroactive to August 29, 1966 | Removed a historic tax exemption specific to the Canadian Pacific Railway. | s. 43: House of Commons, Senate and Saskatchewan Legislative Assembly | [...] | | Interpretation of the Constitution |  |  Indigenous self-government  Pith and substance  Double aspect  Equal authenticity rule  Paramountcy \"Paramountcy (Canada)\")  Living tree  Implied Bill of Rights  Interjurisdictional immunity  Purposive theory  Dialogue principle | |\n| | Provincial constitutions of Canada |  |  Constitution of Alberta  British Columbia   + Terms of Union, 1871   + Constitution Act, 1996 \"Constitution Act (British Columbia)\")  Constitution of Quebec | |\n|  Canada portal  Category |",
+            "score": 0.08111866
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "All Amendments to the United States Constitution",
+            "url": "https://hrlibrary.umn.edu/education/all_amendments_usconst.htm",
+            "score": 0.21514495
+          },
+          {
+            "title": "The Bill of Rights: A Transcription",
+            "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+            "score": 0.14124614
+          },
+          {
+            "title": "The Constitution: Amendments 11-27 | National Archives",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+            "score": 0.13455996
+          },
+          {
+            "title": "THE CONSTITUTION ACTS 1867 to 1982",
+            "url": "https://laws-lois.justice.gc.ca/eng/const/page-13.html",
+            "score": 0.097571015
+          },
+          {
+            "title": "Amendments to the Constitution of Canada",
+            "url": "https://en.wikipedia.org/wiki/Amendments_to_the_Constitution_of_Canada",
+            "score": 0.08111866
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "All Amendments"
+          },
+          {
+            "type": "name_like",
+            "value": "United States Constitution"
+          },
+          {
+            "type": "name_like",
+            "value": "Grand Jury"
+          },
+          {
+            "type": "name_like",
+            "value": "Militia"
+          },
+          {
+            "type": "name_like",
+            "value": "War"
+          },
+          {
+            "type": "name_like",
+            "value": "No Soldier"
+          },
+          {
+            "type": "name_like",
+            "value": "Owner"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Warrants"
+          },
+          {
+            "type": "name_like",
+            "value": "Oath"
+          },
+          {
+            "type": "name_like",
+            "value": "The Bill"
+          },
+          {
+            "type": "name_like",
+            "value": "Rights"
+          },
+          {
+            "type": "name_like",
+            "value": "Transcription"
+          },
+          {
+            "type": "name_like",
+            "value": "Amendment"
+          },
+          {
+            "type": "name_like",
+            "value": "Article"
+          },
+          {
+            "type": "name_like",
+            "value": "State"
+          },
+          {
+            "type": "name_like",
+            "value": "Assistance"
+          },
+          {
+            "type": "name_like",
+            "value": "Counsel"
+          },
+          {
+            "type": "name_like",
+            "value": "The Constitution"
+          },
+          {
+            "type": "name_like",
+            "value": "Amendments"
+          },
+          {
+            "type": "name_like",
+            "value": "National Archives"
+          },
+          {
+            "type": "name_like",
+            "value": "Section"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Constitution"
+          },
+          {
+            "type": "name_like",
+            "value": "States"
+          },
+          {
+            "type": "name_like",
+            "value": "Congress"
+          },
+          {
+            "type": "name_like",
+            "value": "Passed"
+          },
+          {
+            "type": "name_like",
+            "value": "Congress June"
+          },
+          {
+            "type": "name_like",
+            "value": "Ratified August"
+          },
+          {
+            "type": "name_like",
+            "value": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T5",
+      "role": "extract",
+      "description": "Extract the word that was deleted in the last amendment to the first rule.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "matched_on": [],
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [],
+        "open_questions": [
+          "What is the word that was deleted in the last amendment to the first rule?"
+        ]
+      }
+    },
+    {
+      "id": "T6",
+      "role": "answer",
+      "description": "Produce the final answer regarding the deleted word.",
+      "depends_on": [
+        "T5"
+      ],
+      "priority": 6,
+      "status": "done",
+      "result": {
+        "final_answer": "deleted word not found",
+        "final_answer_strict": "not_found",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the word that was deleted in the last amendment to the first rule?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T6": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "not_found",
+    "gt_norm": "inference"
+  }
+}

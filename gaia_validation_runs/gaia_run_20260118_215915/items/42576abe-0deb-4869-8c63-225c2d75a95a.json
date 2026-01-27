@@ -1,0 +1,139 @@
+{
+  "id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+  "query": "In the fictional language of Tizin, basic sentences are arranged with the Verb first, followed by the direct object, followed by the subject of the sentence. I want to express my love for apples to my Tizin friend. \n\nThe word that indicates oneself is \"Pa\" is the nominative form, \"Mato\" is the accusative form, and \"Sing\" is the genitive form. \n\nThe root verb that indicates an intense like for something is \"Maktay\". When it is used in the present, it is used in it's root form, when it is used in the preterit past, it is \"Tay\", and when it is used in the imperfect past, it is \"Aktay\". It is used differently than in English, and is better translated as \"is pleasing to\", meaning that the thing doing the liking is actually the object of the sentence rather than the subject.\n\nThe word for apples is borrowed from English in Tizin, and so it is \"Apple\" is the nominative form, \"Zapple\" is the accusative form, and \"Izapple\" is the genitive form. \n\nPlease translate \"I like apples\" to Tizin.",
+  "ground_truth": "Maktay mato apple",
+  "answer_raw": {
+    "final_answer": "Maktay Zapple Pa",
+    "final_answer_strict": "Maktay Zapple Pa",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Maktay Zapple Pa",
+  "error": null,
+  "duration_sec": 11.447836875915527,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "extract",
+      "description": "Извлечь структуру предложения на основе правил языка Tizin.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [],
+        "key_points": [],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T2",
+      "role": "reason",
+      "description": "Построить предложение 'I like apples' в Tizin, используя извлеченные данные.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "Tizin is a constructed language or a fictional language that has specific grammatical rules and vocabulary."
+        ],
+        "reasoning_steps": [
+          "Identify the components of the English sentence 'I like apples'.",
+          "Translate each component into Tizin based on its grammatical structure and vocabulary.",
+          "Construct the sentence in Tizin using the translated components."
+        ],
+        "conclusions": [
+          "The sentence 'I like apples' can be constructed in Tizin if the vocabulary and grammatical rules are known."
+        ],
+        "proposed_answer_outline": [
+          "1. Identify the subject: 'I'",
+          "2. Identify the verb: 'like'",
+          "3. Identify the object: 'apples'",
+          "4. Translate each component into Tizin.",
+          "5. Combine the translated components to form a coherent sentence."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the vocabulary and grammatical rules of Tizin?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "answer",
+      "description": "Предоставить финальный перевод предложения на Tizin.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "Maktay Zapple Pa",
+        "final_answer_strict": "Maktay Zapple Pa",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "maktay zapple pa",
+    "gt_norm": "maktay mato apple"
+  }
+}

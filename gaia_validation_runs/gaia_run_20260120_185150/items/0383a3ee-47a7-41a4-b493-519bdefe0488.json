@@ -1,0 +1,397 @@
+{
+  "id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+  "query": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?",
+  "ground_truth": "Rockhopper penguin",
+  "answer_raw": {
+    "final_answer": "cassowary",
+    "final_answer_strict": "cassowary",
+    "used_evidence": [
+      "the world's largest birds the cassowary"
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "cassowary",
+  "error": null,
+  "duration_sec": 35.90968871116638,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the BBC Earth YouTube video titled 'Top 5 Silliest Animal Moments'.",
+        "facts": [
+          {
+            "fact": "The video 'Top 5 Silliest Animal Moments' was posted on January 11, 2020.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video has received 2,429,855 views.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "BBC Earth has 14,300,000 subscribers on YouTube.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video has garnered 33,121 likes.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          }
+        ],
+        "summary": "The 'Top 5 Silliest Animal Moments' video by BBC Earth showcases humorous moments in nature, was posted on January 11, 2020, and has gained significant popularity with over 2.4 million views and 33,121 likes.",
+        "sources": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "snippet": "# Top 5 Silliest Animal Moments! | BBC Earth\n## BBC Earth\n14300000 subscribers\n33121 likes\n\n### Description\n2429855 views\nPosted: 11 Jan 2020\nThe mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world  - and at times, the most ridiculous. Join us as we recount the endearing capers of these incredible animals!\nSubscribe:  \n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here you'll find 50 years worth of entertaining and thought-provoking natural history content. Dramatic, rare, and exclusive, nature doesn't get more exciting than this.\n\nThis is a commercial channel from BBC Studios. Service & Feedback [...] half a million rock hoppers but she knows where she's going returning to the same colony each year unfortunately that happens to be at the very top of the island [Music] [Music] finally after a climb of two kilometers she's made [Music] and at last it's time for dinner it's a messy business but the chicks not complaining the arctic millions of square kilometers of empty ice polar bears are n"
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzTube - KidzSearch",
+            "url": "https://www.kidzsearch.com/kidztube/mobile/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "snippet": "### Monitor Lizard Decomposition Time Lapse - BBC Earth\n\n  1,000 Views\n 02:46   \n\n  ### Reptiles of Britain | BBC Earth\n\n  1,097 Views\n 03:45   \n\n  ### Meerkats are Caught in a Dust Storm | BBC Earth\n\n  809 Views\n 14:00   \n\n  ### Top 10 - Adventure Map Moments\n\n  769 Views\n 03:21   \n\n  ### Giant Horse Conch & Burglar Hermit Crabs | Blue Planet | BBC Earth\n\n  822 Views\n 02:46   \n\n  ### Largest Jumping Spider In The World - BBC Earth\n\n  1,292 Views\n 01:45   \n\n  ### Meerkats can Solve Complex Tasks to Eat Scorpions | BBC Earth\n\n  866 Views\n 02:12   \n\n  ### 360° Elephant Seals And King Penguin Chicks #OurBluePlanet - BBC Earth\n\n  1,009 Views\n 02:29   \n\n  ### Smart Heron Used Bread To Fish - Super Smart Animals - BBC Earth\n\n  883 Views\n 02:58 [...] 1,433 Views\n 03:43   \n\n  ### Gliding Leaf Frogs - Planet Earth - BBC Earth\n\n  1,142 Views\n 03:01   \n\n  ### Sailfish Are Master Hunters - Planet Earth - BBC Earth\n\n  1,034 Views\n 04:57   \n\n  ### Top 5 Weirdest Moments | Jellystone | @cartoonnetworkuk\n\n  97 Views\n 03:59   \n\n  ### Multi-millionaire at 19 - here are my 5 top tips | BBC Ideas\n\n  785 Views\n 02:42   \n\n  ### Teen Titans GO! | Top 5 Best Party Moments! | Cartoon Network\n\n  935 Views\n "
+          },
+          {
+            "title": "Top 5s - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL50KW6aT4UgyO6_dk0D0w1zEhY5t8ndK3",
+            "snippet": "Top 5s - YouTube\n\n Back Image 1\n\nSkip navigation\n\n Search \n\n Search with your voice \n\n With Sir David Attenborough | BBC Earth With Sir David Attenborough | BBC Earth\")\n\nBBC Earth\n\n BBC Earth \n\n•\n\n64K views • 5 years ago\n\n•\n\n44\n\nImage 54: true 12:46 12:46 Now playing\n\n### Best Of Attenborough And The Giant Egg | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n596K views • 4 years ago\n\n•\n\n45\n\nImage 55: true 17:46 17:46 Now playing\n\n### Top 5 Killer Crocodile Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n9.9M views • 4 years ago\n\n•\n\n46\n\nImage 56: true 18:29 18:29 Now playing\n\n### Ferocious Dinosaur Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n33M views • 4 years ago\n\n•\n\n47\n\nImage 57: true 15:31 15:31 Now playing\n\n### Top 5 Slithering Snake Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n• [...] BBC Earth\n\n BBC Earth \n\n•\n\n117K views • 4 years ago\n\n•\n\n53\n\nImage 63: true 16:15 16:15 Now playing\n\n### Best Lion Moments Part 2 | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n190K views • 4 years ago\n\n•\n\n54\n\nImage 64: true 15:12 15:12 Now playing\n\n### Hair-Raising Hyena Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n4M views • 4 years ago\n\n•\n\n55\n\nImage 65: true 13:44 13:44 Now playing\n\n### "
+          },
+          {
+            "title": "Weirdest Animal Relationships | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=s9KvEg102Tc",
+            "snippet": "# Weirdest Animal Relationships | Top 5 | BBC Earth\n## BBC Earth\n14200000 subscribers\n72319 likes\n\n### Description\n5049740 views\nPosted: 20 Jul 2019\nButterflies and Ants, Turkeys and Squirrels, watch these animals be friends, allies and even cleaners of other animals.\nSubscribe:  \n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here you'll find 50 years worth of entertaining and thought-provoking natural history content. Dramatic, rare, and exclusive, nature doesn't get more exciting than this.\n\nThis is a commercial channel from BBC Studios. Service & Feedback [...] the butterfly but if the grass is too long they move out so without sheep to keep the grass short they'd been around and without the ants the large bloom would be lost [Music] they are curious about things that don't benefit their survival directly [Music] the flight tailed errors found late this year and as always turkey boys vying for some reaction but this time he's bitten off more than he can chew [Music] the young deer can give as good as she gets [Music] sweet peas favorite is far more ami"
+          },
+          {
+            "title": "Nature's Oddest Looking Animals | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=GLPjP3hjhMM",
+            "snippet": "This is a commercial page from BBC Studios. Service information and feedback: [...] [Music] wow [Music] um [Music] [Music] [Music] wow [Music] [Applause] [Music] [Applause] you [...] arrive in northern queensland their aim to film one of the world's largest birds the cassowary we are in the daintree rainforest in north queensland and it's one of the oldest patches of rainforest in the world growing to a height of one and a half meters and equipped with enormous dinosaur-like claws cassowaries have been described as the planet's most dangerous birds but these feathered giants are shy and prefer to stay hidden in dense tropical rainforest there are only around 2 000 left in australia [Music] to locate them the team set up a series of camera traps but instead of cassowaries they discover another animal that could threaten the future of the entire forest there's like eight peas in there when was that we put out loads of camera traps around the place and most of the"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "content": "# Top 5 Silliest Animal Moments! | BBC Earth\n## BBC Earth\n14300000 subscribers\n33121 likes\n\n### Description\n2429855 views\nPosted: 11 Jan 2020\nThe mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world  - and at times, the most ridiculous. Join us as we recount the endearing capers of these incredible animals!\nSubscribe:  \n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here you'll find 50 years worth of entertaining and thought-provoking natural history content. Dramatic, rare, and exclusive, nature doesn't get more exciting than this.\n\nThis is a commercial channel from BBC Studios. Service & Feedback [...] half a million rock hoppers but she knows where she's going returning to the same colony each year unfortunately that happens to be at the very top of the island [Music] [Music] finally after a climb of two kilometers she's made [Music] and at last it's time for dinner it's a messy business but the chicks not complaining the arctic millions of square kilometers of empty ice polar bears are normally solitary you might think that just finding a partner in this desolate landscape would be the challenge [Music] but they have an excellent sense of smell and can detect another bear from over the horizon [Music] male bears can spend weeks tracking the scent of a female who's ready to mate they sniff closely to size each other up she'll raise her cubs alone devoting herself to them for two even [...] [Music] but before being reunited with her family she still has a mountain to climb it's a big ask for a bird that can't fly standing less than half a meter tall but it's now that rockhoppers live up to their name incredibly strong toenails grip the rock the beak makes a good climbing tool the more experienced penguins make it look easy but it's a steep learning curve [Music] it takes youngsters a while to get the hang of it [Music] judge it and it's back to square one [Music] at the top of the cliff the going gets a little easier following the footsteps of generations forging deep tunnels through the tussock grass these pathways connect around 20 different colonies spreading up the hillside she's got to find her way through nearly half a million rock hoppers but she knows where she's",
+            "score": 0.885404
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzTube - KidzSearch",
+            "url": "https://www.kidzsearch.com/kidztube/mobile/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "content": "### Monitor Lizard Decomposition Time Lapse - BBC Earth\n\n  1,000 Views\n 02:46   \n\n  ### Reptiles of Britain | BBC Earth\n\n  1,097 Views\n 03:45   \n\n  ### Meerkats are Caught in a Dust Storm | BBC Earth\n\n  809 Views\n 14:00   \n\n  ### Top 10 - Adventure Map Moments\n\n  769 Views\n 03:21   \n\n  ### Giant Horse Conch & Burglar Hermit Crabs | Blue Planet | BBC Earth\n\n  822 Views\n 02:46   \n\n  ### Largest Jumping Spider In The World - BBC Earth\n\n  1,292 Views\n 01:45   \n\n  ### Meerkats can Solve Complex Tasks to Eat Scorpions | BBC Earth\n\n  866 Views\n 02:12   \n\n  ### 360° Elephant Seals And King Penguin Chicks #OurBluePlanet - BBC Earth\n\n  1,009 Views\n 02:29   \n\n  ### Smart Heron Used Bread To Fish - Super Smart Animals - BBC Earth\n\n  883 Views\n 02:58 [...] 1,433 Views\n 03:43   \n\n  ### Gliding Leaf Frogs - Planet Earth - BBC Earth\n\n  1,142 Views\n 03:01   \n\n  ### Sailfish Are Master Hunters - Planet Earth - BBC Earth\n\n  1,034 Views\n 04:57   \n\n  ### Top 5 Weirdest Moments | Jellystone | @cartoonnetworkuk\n\n  97 Views\n 03:59   \n\n  ### Multi-millionaire at 19 - here are my 5 top tips | BBC Ideas\n\n  785 Views\n 02:42   \n\n  ### Teen Titans GO! | Top 5 Best Party Moments! | Cartoon Network\n\n  935 Views\n 03:45   \n\n  ### Swarm Of Locusts Devour Everything In Their Path - Planet Earth - BBC Earth\n\n  1,457 Views\n\n   Featured\n 03:26   \n\n  ### Mystery Of Elephant Infrasounds Revealed - Animal Super Senses - BBC\n\n  1,055 Views\n\n   Featured\n 02:47   \n\n  ### Planet Earth II: Official Extended Trailer - BBC Earth\n\n  1,734 Views\n 02:57 [...] 1,474 Views\n 03:35   \n\n  ### Antlion Cone Ant Trap - The Hunt - BBC Earth\n\n  1,158 Views\n 03:42   \n\n  ### Deep Diving In Underwater Meteorite Caves | Earth: The Power Of The Planet | BBC Earth Lab\n\n  437 Views\n 03:55   \n\n  ### Panda Doesn't Realise She's Had Twins! | BBC Earth\n\n  1,054 Views\n 02:39   \n\n  ### Caring for a Baby Wallaby | BBC Earth\n\n  858 Views\n 09:21   \n\n  ### Wild Monkeys Roaming The Streets Hong Kong | BBC Earth\n\n  757 Views\n 03:51   \n\n  ### Journey 1000m Below The Waves In 360° #OurBluePlanet - BBC Earth\n\n  728 Views\n 01:27   \n\n  ### 'Toy Spy Monkey' Mistaken For Dead Baby And Mourned By Troop | BBC Earth\n\n  1,104 Views\n 04:09   \n\n  ### Spider Shoots 25 Metre Web - The Hunt - BBC Earth\n\n  1,081 Views\n 04:06",
+            "score": 0.8657814
+          },
+          {
+            "title": "Top 5s - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL50KW6aT4UgyO6_dk0D0w1zEhY5t8ndK3",
+            "content": "Top 5s - YouTube\n\n Back Image 1\n\nSkip navigation\n\n Search \n\n Search with your voice \n\n With Sir David Attenborough | BBC Earth With Sir David Attenborough | BBC Earth\")\n\nBBC Earth\n\n BBC Earth \n\n•\n\n64K views • 5 years ago\n\n•\n\n44\n\nImage 54: true 12:46 12:46 Now playing\n\n### Best Of Attenborough And The Giant Egg | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n596K views • 4 years ago\n\n•\n\n45\n\nImage 55: true 17:46 17:46 Now playing\n\n### Top 5 Killer Crocodile Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n9.9M views • 4 years ago\n\n•\n\n46\n\nImage 56: true 18:29 18:29 Now playing\n\n### Ferocious Dinosaur Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n33M views • 4 years ago\n\n•\n\n47\n\nImage 57: true 15:31 15:31 Now playing\n\n### Top 5 Slithering Snake Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n• [...] BBC Earth\n\n BBC Earth \n\n•\n\n117K views • 4 years ago\n\n•\n\n53\n\nImage 63: true 16:15 16:15 Now playing\n\n### Best Lion Moments Part 2 | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n190K views • 4 years ago\n\n•\n\n54\n\nImage 64: true 15:12 15:12 Now playing\n\n### Hair-Raising Hyena Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n4M views • 4 years ago\n\n•\n\n55\n\nImage 65: true 13:44 13:44 Now playing\n\n### Best Cheetah Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n975K views • 4 years ago\n\n•\n\n56\n\nImage 66: true 16:06 16:06 Now playing\n\n### Nail-Biting Leopard Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n791K views • 4 years ago\n\n•\n\n57\n\nImage 67: true 19:03 19:03 Now playing\n\n### Deadly Killer Whale Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n1.5M views • 4 years ago\n\n• [...] •\n\n62\n\nImage 72: true 20:07 20:07 Now playing\n\n### Adorable Baby Animal Moments (Part 2) | Top 5 | BBC Earth | Top 5 | BBC Earth\")\n\nBBC Earth\n\n BBC Earth \n\n•\n\n222K views • 4 years ago\n\n•\n\n63\n\nImage 73: true 13:01 13:01 Now playing\n\n### Bizarre Bat Moments | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n63K views • 4 years ago\n\n•\n\n64\n\nImage 74: true 15:25 15:25 Now playing\n\n### Aquatic Animals Take To Land | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n260K views • 4 years ago\n\n•\n\n65\n\nImage 75: true 17:31 17:31 Now playing\n\n### Best Spider Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n8.4M views • 4 years ago\n\n•\n\n66\n\nImage 76: true 20:19 20:19 Now playing\n\n### Ferocious Hornet Moments | Top 5 | BBC Earth\n\nBBC Earth\n\n BBC Earth \n\n•\n\n2.2M views • 4 years ago\n\n•\n\n67",
+            "score": 0.73914057
+          },
+          {
+            "title": "Weirdest Animal Relationships | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=s9KvEg102Tc",
+            "content": "# Weirdest Animal Relationships | Top 5 | BBC Earth\n## BBC Earth\n14200000 subscribers\n72319 likes\n\n### Description\n5049740 views\nPosted: 20 Jul 2019\nButterflies and Ants, Turkeys and Squirrels, watch these animals be friends, allies and even cleaners of other animals.\nSubscribe:  \n\nWatch more: \nPlanet Earth  \nBlue Planet  \nPlanet Earth II  \nPlanet Dinosaur \n\nWelcome to BBC EARTH! The world is an amazing place full of stories, beauty and natural wonder. Here you'll find 50 years worth of entertaining and thought-provoking natural history content. Dramatic, rare, and exclusive, nature doesn't get more exciting than this.\n\nThis is a commercial channel from BBC Studios. Service & Feedback [...] the butterfly but if the grass is too long they move out so without sheep to keep the grass short they'd been around and without the ants the large bloom would be lost [Music] they are curious about things that don't benefit their survival directly [Music] the flight tailed errors found late this year and as always turkey boys vying for some reaction but this time he's bitten off more than he can chew [Music] the young deer can give as good as she gets [Music] sweet peas favorite is far more amiable the fox squirrel seems to want to play as much as she does [Music] there's no question in my mind that these birds experience joy in their lives [Music] it was learning new things about turkeys every day but this was not just about how they lived their life these animals were showing me how to [...] this cleaning service sunfish would become infested with parasites compromising their health this is the first time that such behavior has been seen at depth in Galapagos like it's sort of it in another world right now it doesn't it doesn't seem like it's very aware of what's going on around it by taking that unusual attitude it's saying to everybody who could potentially clean it I'm ready for my spa treatment come in and exfoliate me I'm not gonna eat you I'm I'm at peace and come do your things for me they underscore how everybody plays a role everyone is what makes this system tick [Music] marine iguanas takin too much salt with their food but with the help of special plans they sneeze it out [Music] they also welcome these resourceful visitors sally lightfoot crabs like to groom them",
+            "score": 0.6350646
+          },
+          {
+            "title": "Nature's Oddest Looking Animals | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=GLPjP3hjhMM",
+            "content": "This is a commercial page from BBC Studios. Service information and feedback: [...] [Music] wow [Music] um [Music] [Music] [Music] wow [Music] [Applause] [Music] [Applause] you [...] arrive in northern queensland their aim to film one of the world's largest birds the cassowary we are in the daintree rainforest in north queensland and it's one of the oldest patches of rainforest in the world growing to a height of one and a half meters and equipped with enormous dinosaur-like claws cassowaries have been described as the planet's most dangerous birds but these feathered giants are shy and prefer to stay hidden in dense tropical rainforest there are only around 2 000 left in australia [Music] to locate them the team set up a series of camera traps but instead of cassowaries they discover another animal that could threaten the future of the entire forest there's like eight peas in there when was that we put out loads of camera traps around the place and most of the",
+            "score": 0.61112726
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "score": 0.885404
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - KidzTube - KidzSearch",
+            "url": "https://www.kidzsearch.com/kidztube/mobile/top-5-silliest-animal-moments-bbc-earth_f21be96ec.html",
+            "score": 0.8657814
+          },
+          {
+            "title": "Top 5s - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PL50KW6aT4UgyO6_dk0D0w1zEhY5t8ndK3",
+            "score": 0.73914057
+          },
+          {
+            "title": "Weirdest Animal Relationships | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=s9KvEg102Tc",
+            "score": 0.6350646
+          },
+          {
+            "title": "Nature's Oddest Looking Animals | Top 5 | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=GLPjP3hjhMM",
+            "score": 0.61112726
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Top"
+          },
+          {
+            "type": "name_like",
+            "value": "Silliest Animal Moments"
+          },
+          {
+            "type": "name_like",
+            "value": "Earth"
+          },
+          {
+            "type": "name_like",
+            "value": "Description"
+          },
+          {
+            "type": "name_like",
+            "value": "Posted"
+          },
+          {
+            "type": "name_like",
+            "value": "Jan"
+          },
+          {
+            "type": "name_like",
+            "value": "The"
+          },
+          {
+            "type": "name_like",
+            "value": "Some"
+          },
+          {
+            "type": "name_like",
+            "value": "Join"
+          },
+          {
+            "type": "name_like",
+            "value": "Subscribe"
+          },
+          {
+            "type": "name_like",
+            "value": "Watch"
+          },
+          {
+            "type": "name_like",
+            "value": "Planet Earth"
+          },
+          {
+            "type": "name_like",
+            "value": "Blue Planet"
+          },
+          {
+            "type": "name_like",
+            "value": "Planet Dinosaur"
+          },
+          {
+            "type": "name_like",
+            "value": "Welcome"
+          },
+          {
+            "type": "name_like",
+            "value": "Here"
+          },
+          {
+            "type": "name_like",
+            "value": "Dramatic"
+          },
+          {
+            "type": "name_like",
+            "value": "This"
+          },
+          {
+            "type": "name_like",
+            "value": "Studios"
+          },
+          {
+            "type": "name_like",
+            "value": "Service"
+          },
+          {
+            "type": "name_like",
+            "value": "Feedback"
+          },
+          {
+            "type": "name_like",
+            "value": "Music"
+          },
+          {
+            "type": "name_like",
+            "value": "Monitor Lizard Decomposition Time"
+          },
+          {
+            "type": "name_like",
+            "value": "Lapse"
+          },
+          {
+            "type": "name_like",
+            "value": "Views"
+          },
+          {
+            "type": "name_like",
+            "value": "Reptiles"
+          },
+          {
+            "type": "name_like",
+            "value": "Britain"
+          },
+          {
+            "type": "name_like",
+            "value": "Meerkats"
+          },
+          {
+            "type": "name_like",
+            "value": "Caught"
+          },
+          {
+            "type": "name_like",
+            "value": "Dust Storm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Process the retrieved YouTube video to extract relevant information.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Extract the species of bird featured in the video.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "match_found": true,
+        "matched_on": [
+          "species of bird",
+          "video description"
+        ],
+        "entities": [
+          {
+            "name": "cassowary",
+            "type": "species",
+            "evidence": "the world's largest birds the cassowary",
+            "source_url": "https://www.youtube.com/watch?v=GLPjP3hjhMM"
+          }
+        ],
+        "key_points": [
+          "The video features the cassowary, described as one of the world's largest birds."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "evidence_spans": [
+          {
+            "text": "the world's largest birds the cassowary",
+            "source_url": "https://www.youtube.com/watch?v=GLPjP3hjhMM"
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding the species of bird featured.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "cassowary",
+        "final_answer_strict": "cassowary",
+        "used_evidence": [
+          "the world's largest birds the cassowary"
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "cassowary",
+    "gt_norm": "rockhopper penguin"
+  }
+}

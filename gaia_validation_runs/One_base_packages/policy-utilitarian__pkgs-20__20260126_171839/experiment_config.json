@@ -1,0 +1,13 @@
+{
+  "oracle_strategy": "utilitarian",
+  "total_package_budget": 20,
+  "base_packages": {
+    "gpt4": {
+      "model": "openai/gpt-4o-mini",
+      "tokens_per_package": 100,
+      "cost": 1
+    }
+  },
+  "timestamp": "20260126_171839",
+  "run_dir": "gaia_validation_runs\\policy-utilitarian__pkgs-20__20260126_171839"
+}

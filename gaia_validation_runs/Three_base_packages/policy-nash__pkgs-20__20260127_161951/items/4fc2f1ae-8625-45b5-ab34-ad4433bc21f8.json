@@ -1,0 +1,353 @@
+{
+  "id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+  "query": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+  "ground_truth": "FunkMonk",
+  "answer_raw": {
+    "final_answer": "",
+    "final_answer_strict": "",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "",
+  "error": null,
+  "duration_sec": 32.491254568099976,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the Featured Articles on English Wikipedia that were promoted in November 2016.",
+        "facts": [],
+        "summary": "{\n  \"facts\": [\n    {\n      \"fact\": \"Emma Stone was promoted to Featured Article status on November 6, 2016.\",\n      \"source_url\": \"https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016\"\n    },\n    {\n      \"fact\": \"Robert Catesby, leader of the failed Gunpowder Plot of 1605, was featured on November 5, 2016.\",\n      \"source_url\": \"https://",
+        "sources": [
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "snippet": "| Millipede | November 10, 2016 | Cwmhiraeth |\n| Heffernan v. City of Paterson | April 26, 2017 | Wugapodes |\n| Slug (song) \"Slug (song)\") | November 7, 2025 | Dream out loud |\n| Mr. Dooley | September 12, 2021 | Wehwalt |\n| The Dawn of Love (painting) \"The Dawn of Love (painting)\") | August 8, 2018 | Iridescent |\n| An Introduction to Animals and Political Theory | September 20, 2016 | J Milburn |\n| Interstate 275 (Michigan) \"Interstate 275 (Michigan)\") | January 14, 2017 | Imzadi1979 |\n| Peter Martyr Vermigli | September 8, 2017 | Jfhutson | [...] | Article | Main page date | Nominator |\n --- \n| Emma Stone | November 6, 2016 | FrB.TG |\n| California State Route 94 | January 14, 2018 | Rschen7754 |\n| Did You Hear What Happened to Charlotte King? | September 26, 2016 | Aoba47 |\n| Canadian National Vimy Memorial | April 9, 2017 | Labattblueboy |\n| No Me Queda Más | December 30, 2016 | AJona1992 |\n| Science-Fiction Plus | July 10, 2018 | Mike Christie |\n| The Boat Races 2016 | The Rambling Man |\n| Wrestle Kingdom 9 | January 4, 2017 | Ribbon Salminen & Starship.paint |\n| Rare Replay | August 4, 2017 | Czar |\n| Lynx (constellation) \"Lynx (constellation)\") | August 10, 2017 | Casliber |\n"
+          },
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "snippet": "Robert Catesby (1572?–1605) was the leader of the failed Gunpowder Plot of 1605, commemorated in Great Britain every 5 November as Guy Fawkes Night. His family were prominent recusant Catholics. He took part in the Essex Rebellion of 1601 but was captured and assessed a large fine, after which he sold his estate at Chastleton. The Protestant James I became King of England in 1603; after he exiled priests and reimposed fines on recusants, Catesby planned to kill him by blowing up the House of Lords with gunpowder as a prelude to a revolt. Early in 1604 Catesby began to recruit English Catholics to his cause, including Thomas Wintour, John Wright, Thomas Percy \"Thomas Percy (Gunpowder Plot)\"), and Guy Fawkes. A letter sent anonymously to William Parker, 4th Baron Monteagle, alerted the [...] Recently featured:\n\n Vampire: The Masquerade – Bloodlines\n Hurricane Kate (1985) \"Hurricane Kate (1985)\")\n \"The Sixth Extinction II: Amor Fati\"\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 18 [...] Recently featured:\n\n \"The Sixth Extinction II: Amor Fati\"\n Heavy metals\n Mughal-e-Azam\n\n Arch"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "snippet": ":   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 22:35, 30 November 2016 (\n\n### Bradley Cooper\n\n[edit]\n\n:   Nominator(s): FrB.TG (talk) 16:55, 4 October 2016 (UTC)[reply] [...] Ian Rose, Nikkimaria -- I don't have a clue what you want me to do. The article's infobox is copied from the Featured Article, Liberty Bell (written by Wehwalt). The info for the cannon's photo is as per the liberty bell. What do you mean when you say \"the copyright status of the artwork\"? It's a photo of a cannon. Anyone can go to Penang and photograph it. Singora (talk) 21:19, 19 November 2016 (UTC)[reply]\n              + Okay, so would this tag apply? Nikkimaria (talk) 23:34, 19 November 2016 (UTC)[reply]\n              + I guess so. What should I do next? Singora (talk) 23:38, 19 November 2016 (UTC)[reply]\n                - Well, if that tag applies, you can add it to the image description page. Nikkimaria (talk) 00:45, 20 November 2016 (UTC)"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "snippet": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 14:41, 19 November 2016 (\n\n### Giganotosaurus\n\n[edit]\n\n:   Nominator(s): FunkMonk (talk) 17:10, 30 September 2016 (UTC)[reply] [...] ~~\"Lake Ezquiel Ramos Mexia\": a Google search suggests this might be a typo for \"Ezequiel\".~~\n\n:   :   Fixed. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n ~~\"estimates in absolute values like newtons was impossible\": either \"estimating ... was impossible\", or \"estimates ... were impossible\".~~\n\n:   :   Took the last option. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n-- Mike Christie (talk - contribs - library) 00:44, 8 November 2016 (UTC)[reply]\n\n:   :   Thanks for the review, I'll respond later today. FunkMonk (talk) 08:55, 8 November 2016 (UTC)[reply]\n    :   I've struck most of the points except the ones about the images; I'll ask at WT:FAC and see what others say. Mike Christie"
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log",
+            "snippet": "2017, 28 promoted  /January 2017, 30 promoted  2016  /December 2016, 15 promoted  /November 2016, 18 promoted  /October 2016, 23 promoted  /September 2016, 28 promoted  /August 2016, 20 promoted  /July 2016, 15 promoted  /June 2016, 14 promoted  /May 2016, 21 promoted  /April 2016, 17 promoted  /March 2016, 22 promoted  /February 2016, 16 promoted  /January 2016, 18 promoted  2015  /December 2015, 22 promoted  /November 2015, 16 promoted  /October 2015, 38 promoted  /September 2015, 27 promoted  /August 2015, 29 promoted  /July 2015, 21 promoted  /June 2015, 18 promoted  /May 2015, 29 promoted  /April 2015, 29 promoted  /March 2015, 25 promoted  /February 2015, 25 promoted  /January 2015, 24 promoted  2014  /December 2014, 12 promoted  /November 2014, 23 promoted  /October 2014, 24"
+          }
+        ],
+        "raw_results": [
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "content": "| Millipede | November 10, 2016 | Cwmhiraeth |\n| Heffernan v. City of Paterson | April 26, 2017 | Wugapodes |\n| Slug (song) \"Slug (song)\") | November 7, 2025 | Dream out loud |\n| Mr. Dooley | September 12, 2021 | Wehwalt |\n| The Dawn of Love (painting) \"The Dawn of Love (painting)\") | August 8, 2018 | Iridescent |\n| An Introduction to Animals and Political Theory | September 20, 2016 | J Milburn |\n| Interstate 275 (Michigan) \"Interstate 275 (Michigan)\") | January 14, 2017 | Imzadi1979 |\n| Peter Martyr Vermigli | September 8, 2017 | Jfhutson | [...] | Article | Main page date | Nominator |\n --- \n| Emma Stone | November 6, 2016 | FrB.TG |\n| California State Route 94 | January 14, 2018 | Rschen7754 |\n| Did You Hear What Happened to Charlotte King? | September 26, 2016 | Aoba47 |\n| Canadian National Vimy Memorial | April 9, 2017 | Labattblueboy |\n| No Me Queda Más | December 30, 2016 | AJona1992 |\n| Science-Fiction Plus | July 10, 2018 | Mike Christie |\n| The Boat Races 2016 | The Rambling Man |\n| Wrestle Kingdom 9 | January 4, 2017 | Ribbon Salminen & Starship.paint |\n| Rare Replay | August 4, 2017 | Czar |\n| Lynx (constellation) \"Lynx (constellation)\") | August 10, 2017 | Casliber |\n| HMS Emerald (1795) \"HMS Emerald (1795)\") | Ykraps |\n| No. 91 Wing RAAF | October 20, 2016 | Ian Rose |\n| Millipede | November 10, 2016 | Cwmhiraeth | [...] | Article | Main page date | Nominator |\n --- \n| Handel's lost Hamburg operas | January 17, 2024 | Brianboulton |\n| Allah jang Palsoe | March 15, 2017 | Crisco 1492 |\n| South Park: The Stick of Truth | August 6, 2021 | Darkwarriorblake |\n| Juan Manuel de Rosas | March 30, 2017 | Lecen & Astynax |\n| Killer Instinct Gold | November 25, 2016 | Czar |\n| Temperatures Rising | May 3, 2017 | Jimknut |\n| Union Station (Erie, Pennsylvania) \"Union Station (Erie, Pennsylvania)\") | December 3, 2016 | Niagara |\n| Palmyra | March 2, 2020 | Attar-Aram syria |\n| Isabella Beeton | March 12, 2016 | SchroCat |\n| Banksia caleyi | October 13, 2019 | Casliber |\n| Lexington-Concord Sesquicentennial half dollar | January 11, 2020 | Wehwalt |\n| Peresvet-class battleship | Sturmvogel 66 |",
+            "score": 0.9456058
+          },
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "content": "Robert Catesby (1572?–1605) was the leader of the failed Gunpowder Plot of 1605, commemorated in Great Britain every 5 November as Guy Fawkes Night. His family were prominent recusant Catholics. He took part in the Essex Rebellion of 1601 but was captured and assessed a large fine, after which he sold his estate at Chastleton. The Protestant James I became King of England in 1603; after he exiled priests and reimposed fines on recusants, Catesby planned to kill him by blowing up the House of Lords with gunpowder as a prelude to a revolt. Early in 1604 Catesby began to recruit English Catholics to his cause, including Thomas Wintour, John Wright, Thomas Percy \"Thomas Percy (Gunpowder Plot)\"), and Guy Fawkes. A letter sent anonymously to William Parker, 4th Baron Monteagle, alerted the [...] Recently featured:\n\n Vampire: The Masquerade – Bloodlines\n Hurricane Kate (1985) \"Hurricane Kate (1985)\")\n \"The Sixth Extinction II: Amor Fati\"\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 18 [...] Recently featured:\n\n \"The Sixth Extinction II: Amor Fati\"\n Heavy metals\n Mughal-e-Azam\n\n Archive\n By email\n More featured articles \"Wikipedia:Featured articles (linked from TFAfooter)\")\n About\n\n view\n talk\")\n edit\n history\n watch\n\nNovember 16\n\nJason Anderson, Tim Cain, and Leonard Boyarsky",
+            "score": 0.90985113
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "content": ":   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 22:35, 30 November 2016 (\n\n### Bradley Cooper\n\n[edit]\n\n:   Nominator(s): FrB.TG (talk) 16:55, 4 October 2016 (UTC)[reply] [...] Ian Rose, Nikkimaria -- I don't have a clue what you want me to do. The article's infobox is copied from the Featured Article, Liberty Bell (written by Wehwalt). The info for the cannon's photo is as per the liberty bell. What do you mean when you say \"the copyright status of the artwork\"? It's a photo of a cannon. Anyone can go to Penang and photograph it. Singora (talk) 21:19, 19 November 2016 (UTC)[reply]\n              + Okay, so would this tag apply? Nikkimaria (talk) 23:34, 19 November 2016 (UTC)[reply]\n              + I guess so. What should I do next? Singora (talk) 23:38, 19 November 2016 (UTC)[reply]\n                - Well, if that tag applies, you can add it to the image description page. Nikkimaria (talk) 00:45, 20 November 2016 (UTC)[reply] [...] Closing note: This candidate has been promoted, but there may be a delay in bot processing of the close. Please see WP:FAC/ar, and leave the {{featured article candidates}} template in place on the talk page until the bot goes through. Ian Rose (talk) 23:11, 30 November 2016 (UTC)[reply]\n\n:   The above discussion is preserved as an archive. Please do not modify it. No further edits should be made to this page.\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 22:47, 30 November 2016 (\n\n### The Pale Emperor\n\n[edit]",
+            "score": 0.87681407
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "content": "< Wikipedia:Featured article candidates\n\n:   The following is an archived discussion of a featured article nomination. Please do not modify it. Subsequent comments should be made on the article's talk page or in Wikipedia talk:Featured article candidates. No further edits should be made to this page.\n\nThe article was promoted by Ian Rose via FACBot (talk) 14:41, 19 November 2016 (\n\n### Giganotosaurus\n\n[edit]\n\n:   Nominator(s): FunkMonk (talk) 17:10, 30 September 2016 (UTC)[reply] [...] ~~\"Lake Ezquiel Ramos Mexia\": a Google search suggests this might be a typo for \"Ezequiel\".~~\n\n:   :   Fixed. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n ~~\"estimates in absolute values like newtons was impossible\": either \"estimating ... was impossible\", or \"estimates ... were impossible\".~~\n\n:   :   Took the last option. FunkMonk (talk) 18:36, 8 November 2016 (UTC)[reply]\n\n-- Mike Christie (talk - contribs - library) 00:44, 8 November 2016 (UTC)[reply]\n\n:   :   Thanks for the review, I'll respond later today. FunkMonk (talk) 08:55, 8 November 2016 (UTC)[reply]\n    :   I've struck most of the points except the ones about the images; I'll ask at WT:FAC and see what others say. Mike Christie (talk - contribs - library) 10:18, 9 November 2016 (UTC)[reply] [...] :   Can you use the pictures here to support the description? The dune buggy shows up there a couple of times, and in at least one shot I can see tools. I know these are user-contributed pictures, but tripadvisor exercises editorial control over what gets displayed, so I think this would count as a reliable source. Mike Christie (talk - contribs - library) 10:57, 9 November 2016 (UTC)[reply]\n\n                    :   In that case, this( Tripadvisor review specifically states \"El Buggy que utilizaba Ruben Carolini cuando encontró al Dinosaurio mas grande del mundo\". So perhaps better than citing an image? FunkMonk (talk) 11:14, 9 November 2016 (UTC)[reply]",
+            "score": 0.79022324
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log",
+            "content": "2017, 28 promoted  /January 2017, 30 promoted  2016  /December 2016, 15 promoted  /November 2016, 18 promoted  /October 2016, 23 promoted  /September 2016, 28 promoted  /August 2016, 20 promoted  /July 2016, 15 promoted  /June 2016, 14 promoted  /May 2016, 21 promoted  /April 2016, 17 promoted  /March 2016, 22 promoted  /February 2016, 16 promoted  /January 2016, 18 promoted  2015  /December 2015, 22 promoted  /November 2015, 16 promoted  /October 2015, 38 promoted  /September 2015, 27 promoted  /August 2015, 29 promoted  /July 2015, 21 promoted  /June 2015, 18 promoted  /May 2015, 29 promoted  /April 2015, 29 promoted  /March 2015, 25 promoted  /February 2015, 25 promoted  /January 2015, 24 promoted  2014  /December 2014, 12 promoted  /November 2014, 23 promoted  /October 2014, 24",
+            "score": 0.78214747
+          }
+        ],
+        "normalized_sources_meta": [
+          {
+            "title": "Wikipedia:Featured articles promoted in 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_promoted_in_2016",
+            "score": 0.9456058
+          },
+          {
+            "title": "Wikipedia:Today's featured article/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/November_2016",
+            "score": 0.90985113
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log/November 2016",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log/November_2016",
+            "score": 0.87681407
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Giganotosaurus/archive1",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1",
+            "score": 0.79022324
+          },
+          {
+            "title": "Wikipedia:Featured article candidates/Featured log",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Featured_log",
+            "score": 0.78214747
+          }
+        ],
+        "extracted_entities": [
+          {
+            "type": "name_like",
+            "value": "Wikipedia"
+          },
+          {
+            "type": "name_like",
+            "value": "Featured"
+          },
+          {
+            "type": "name_like",
+            "value": "Millipede"
+          },
+          {
+            "type": "name_like",
+            "value": "November"
+          },
+          {
+            "type": "name_like",
+            "value": "Cwmhiraeth"
+          },
+          {
+            "type": "name_like",
+            "value": "Heffernan"
+          },
+          {
+            "type": "name_like",
+            "value": "City"
+          },
+          {
+            "type": "name_like",
+            "value": "Paterson"
+          },
+          {
+            "type": "name_like",
+            "value": "April"
+          },
+          {
+            "type": "name_like",
+            "value": "Wugapodes"
+          },
+          {
+            "type": "name_like",
+            "value": "Slug"
+          },
+          {
+            "type": "name_like",
+            "value": "Dream"
+          },
+          {
+            "type": "name_like",
+            "value": "Dooley"
+          },
+          {
+            "type": "name_like",
+            "value": "September"
+          },
+          {
+            "type": "name_like",
+            "value": "Wehwalt"
+          },
+          {
+            "type": "name_like",
+            "value": "The Dawn"
+          },
+          {
+            "type": "name_like",
+            "value": "Love"
+          },
+          {
+            "type": "name_like",
+            "value": "August"
+          },
+          {
+            "type": "name_like",
+            "value": "Iridescent"
+          },
+          {
+            "type": "name_like",
+            "value": "An Introduction"
+          },
+          {
+            "type": "name_like",
+            "value": "Animals"
+          },
+          {
+            "type": "name_like",
+            "value": "Political Theory"
+          },
+          {
+            "type": "name_like",
+            "value": "Milburn"
+          },
+          {
+            "type": "name_like",
+            "value": "Interstate"
+          },
+          {
+            "type": "name_like",
+            "value": "Michigan"
+          },
+          {
+            "type": "name_like",
+            "value": "January"
+          },
+          {
+            "type": "name_like",
+            "value": "Peter Martyr Vermigli"
+          },
+          {
+            "type": "name_like",
+            "value": "Jfhutson"
+          },
+          {
+            "type": "name_like",
+            "value": "Article"
+          },
+          {
+            "type": "name_like",
+            "value": "Main"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the title and nomination details of the dinosaur Featured Article from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "match_found": false,
+        "_raw_text": ""
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Determine who nominated the dinosaur Featured Article based on the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "_raw_text": "",
+        "follow_up_needed": true
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Produce the final answer regarding who nominated the dinosaur Featured Article.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "",
+        "final_answer_strict": "",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 100,
+      "temperature": 0.7,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt4"
+    },
+    "T2": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T3": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    },
+    "T4": {
+      "model": "openai/gpt-5.2",
+      "max_tokens": 50,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      },
+      "num_packages": 1,
+      "package_type": "gpt5"
+    }
+  },
+  "level": "1",
+  "files": null,
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "",
+    "gt_norm": "funkmonk"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "run_dir": "gaia_validation_runs\\policy-utilitarian__pkgs-20__20260126_171839",
+  "total": 30,
+  "completed_without_error": 30,
+  "exact_match_acc": 0.2,
+  "normalized_match_acc": 0.26666666666666666,
+  "numeric_match_acc_applicable": 0.25,
+  "numeric_applicable": 8,
+  "timestamp": "20260126_171839",
+  "oracle_strategy": "utilitarian",
+  "total_package_budget": 20
+}

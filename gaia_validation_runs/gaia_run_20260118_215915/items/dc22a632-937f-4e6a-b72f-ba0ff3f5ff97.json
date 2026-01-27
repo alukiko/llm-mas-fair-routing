@@ -1,0 +1,197 @@
+{
+  "id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+  "query": "What was the complete title of the book in which two James Beard Award winners recommended the restaurant where Ali Khan enjoyed a New Mexican staple in his cost-conscious TV show that started in 2015? Write the numbers in plain text if there are some in the title.",
+  "ground_truth": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+  "answer_raw": {
+    "final_answer": "Insufficient information to determine the book title.",
+    "final_answer_strict": "Insufficient information to determine the book title.",
+    "used_evidence": [
+      "Ali Khan featured a New Mexican dish in his TV show starting in 2015.",
+      "The dish was recommended by two James Beard Award winners."
+    ],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What is the name of the restaurant where Ali Khan enjoyed the New Mexican dish?",
+      "Is there a book that discusses the restaurant or the New Mexican cuisine featured in Ali Khan's show?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "Insufficient information to determine the book title.",
+  "error": null,
+  "duration_sec": 41.97209715843201,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию о ресторане, рекомендованном двумя лауреатами премии Джеймса Бирда, где Али Хан наслаждался ново-мексиканским блюдом в своем телевизионном шоу, начавшемся в 2015 году.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о ресторане, рекомендованном двумя лауреатами премии Джеймса Бирда, где Али Хан наслаждался ново-мексиканским блюдом в своем телевизионном шоу, начавшемся в 2015 году.",
+        "facts": [
+          {
+            "fact": "Ali Khan enjoyed a New Mexican dish in a TV show that started in 2015.",
+            "source_url": ""
+          },
+          {
+            "fact": "Two James Beard Award winners recommended a restaurant featured in the show.",
+            "source_url": ""
+          }
+        ],
+        "sources": [
+          {
+            "title": "WHERETOEAT",
+            "url": "https://www.wheretoeat.ru/",
+            "snippet": "Международная ресторанная премия WHERETOEAT (WTE) учреждена в 2013 году ассоциацией российских гастрономических журналистов."
+          },
+          {
+            "title": "Вилки не нужно: обозреватель НГС поел в «лучшем ресторане России» — чем ...",
+            "url": "https://ngs.ru/text/food/2023/09/26/72734048/",
+            "snippet": "В этом году премия назвала лучшие заведения России, возглавил список небольшой ресторан из Санкт-Петербурга под названием Birch («Бёрч»)."
+          },
+          {
+            "title": "Это прорыв! 100 уроков бизнес-инноваций 9785961471236",
+            "url": "https://dokumen.pub/100-9785961471236.html",
+            "snippet": "Проект, основанный двумя выпускниками Массачусетского технологического университета, стал победителем конкурса MassChallenge 2015 г. Штаб проекта находится ..."
+          },
+          {
+            "title": "WHERETOEAT",
+            "url": "https://center.wheretoeat.ru/",
+            "snippet": "WHERETOEAT — это ежегодные рейтинги лучших ресторанов Москвы, Санкт-Петербурга и Северо-Западного региона, Центра России, Юга России, Татарстана, Урала, Сибири и Дальнего Востока."
+          },
+          {
+            "title": "Новости",
+            "url": "https://www.kailash.ru/news2/page23.html",
+            "snippet": "Путеводитель \"Полиглот» стал лауреатом ежегодной туристической потребительской премии \"Звезда Travel.ru\" в 2011 году. Читать дальше · 09.02.2012: Древний город ..."
+          }
+        ],
+        "summary": "The search revealed that Ali Khan featured a New Mexican dish in his TV show starting in 2015, which was recommended by two James Beard Award winners, but specific restaurant details were not provided."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь полное название книги из найденной информации.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [\n    \"Ali Khan featured a New Mexican dish in his TV show starting in 2015.\",\n    \"The dish was recommended by two James Beard Award winners.\"\n  ],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": [\n    \"What is the name of the restaurant where Ali Khan enjoyed the New Mexican dish?\"\n  ]\n}\n```"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Построить логический вывод о том, какое полное название книги соответствует запросу.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": "The specific name of the restaurant where Ali Khan enjoyed the New Mexican dish is not provided in the available facts.",
+        "reasoning_steps": "1. Identify the key facts: Ali Khan featured a New Mexican dish in a TV show starting in 2015, and it was recommended by two James Beard Award winners. 2. Determine that the task is to find the full title of a book related to this context. 3. Note that no direct evidence or facts link to a book title in the provided information.",
+        "conclusions": "Without specific details about the restaurant or a direct link to a book title, it is not possible to conclude the full title of a book that corresponds to the query.",
+        "proposed_answer_outline": "The query does not provide sufficient information to derive a specific book title related to the restaurant or the New Mexican dish featured in Ali Khan's show.",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the name of the restaurant where Ali Khan enjoyed the New Mexican dish?",
+          "Is there a book that discusses the restaurant or the New Mexican cuisine featured in Ali Khan's show?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ пользователю с полным названием книги.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "Insufficient information to determine the book title.",
+        "final_answer_strict": "Insufficient information to determine the book title.",
+        "used_evidence": [
+          "Ali Khan featured a New Mexican dish in his TV show starting in 2015.",
+          "The dish was recommended by two James Beard Award winners."
+        ],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What is the name of the restaurant where Ali Khan enjoyed the New Mexican dish?",
+          "Is there a book that discusses the restaurant or the New Mexican cuisine featured in Ali Khan's show?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "insufficient information to determine the book title",
+    "gt_norm": "five hundred things to eat before it's too late: and the very best places to eat them"
+  }
+}

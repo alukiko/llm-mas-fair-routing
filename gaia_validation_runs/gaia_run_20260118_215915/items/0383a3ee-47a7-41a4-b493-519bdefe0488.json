@@ -1,0 +1,216 @@
+{
+  "id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+  "query": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?",
+  "ground_truth": "Rockhopper penguin",
+  "answer_raw": {
+    "final_answer": "penguin",
+    "final_answer_strict": "penguin",
+    "used_evidence": [
+      "The video features various animals including penguins."
+    ],
+    "confidence": "medium",
+    "follow_up_needed": false,
+    "follow_up_queries": [],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "penguin",
+  "error": null,
+  "duration_sec": 37.195802211761475,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти видео 'Top 5 Silliest Animal Moments' на YouTube канале BBC Earth.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти видео 'Top 5 Silliest Animal Moments' на YouTube канале BBC Earth.",
+        "facts": [
+          {
+            "fact": "The video 'Top 5 Silliest Animal Moments!' is available on YouTube.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "The video features various animals including polar bears, penguins, and lions.",
+            "source_url": "https://www.youtube.com/watch?v=2Njmx-UuU3M"
+          },
+          {
+            "fact": "BBC Earth is the channel that produced the video.",
+            "source_url": "https://www.youtube.com/bbcearth"
+          },
+          {
+            "fact": "There is another version of the video available on OK.ru.",
+            "source_url": "https://ok.ru/video/6532852812289"
+          }
+        ],
+        "sources": [
+          {
+            "title": "BBC Earth",
+            "url": "https://www.youtube.com/bbcearth",
+            "snippet": "Baby Animals · Cub Swept up in Raging Rapids | 4K UHD | BBC Earth · Piglets Show Off Their Problem-Solving Skills | Secret Life of Farm Animals | BBC Earth."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! | BBC Earth - YouTube",
+            "url": "https://www.youtube.com/watch?v=2Njmx-UuU3M",
+            "snippet": "The mighty polar bear, the tenacious penguin and majestic lion. Some of the most impressive creatures in the natural world - and at times, the most ridiculous. Join us as we recount the endearing ..."
+          },
+          {
+            "title": "ФОНД ОЦЕНОЧНЫХ СРЕДСТВ По дисциплине Практика ...",
+            "url": "https://eduprosvet.ru/sveden/files/vid/FOS_Praktika_angl.yazyka_25.pdf",
+            "snippet": "5 сент. 2025 г. — Перечень компетенций с указанием этапов их формирования в процессе освоения образовательной программы……………………………………………………………. 2."
+          },
+          {
+            "title": "Top 5 Silliest Animal Moments! _ BBC Earth (720p_25fps_H264-192kbit_AAC)",
+            "url": "https://ok.ru/video/6532852812289",
+            "snippet": "Видео с подборкой самых смешных моментов с животными, снятых BBC Earth."
+          },
+          {
+            "title": "11 of the most heartbreaking animal moments filmed for the BBC",
+            "url": "https://www.discoverwildlife.com/tv/most-heartbreaking-animal-moments-filmed-for-the-bbc",
+            "snippet": "10 дек. 2025 г. — 11 of the most heartbreaking animal moments filmed for the BBC – including baby penguins lost in a blizzard. Can you watch these videos without ..."
+          }
+        ],
+        "summary": "The 'Top 5 Silliest Animal Moments!' video showcases humorous animal antics and is produced by BBC Earth, available on YouTube and OK.ru."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "document",
+      "description": "Обработать найденное видео, чтобы получить его содержание.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "ok": true,
+        "note": "No attached files.",
+        "files": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "extract",
+      "description": "Извлечь информацию о видах птиц, упомянутых в видео.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "polar bear",
+            "type": "bird",
+            "evidence": "The video features various animals including polar bears."
+          },
+          {
+            "name": "penguin",
+            "type": "bird",
+            "evidence": "The video features various animals including penguins."
+          },
+          {
+            "name": "lion",
+            "type": "mammal",
+            "evidence": "The video features various animals including lions."
+          }
+        ],
+        "key_points": [
+          "The video showcases humorous animal antics.",
+          "Produced by BBC Earth.",
+          "Available on YouTube and OK.ru."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Написать финальный ответ о виде птицы, представленном в видео.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "penguin",
+        "final_answer_strict": "penguin",
+        "used_evidence": [
+          "The video features various animals including penguins."
+        ],
+        "confidence": "medium",
+        "follow_up_needed": false,
+        "follow_up_queries": [],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "documents",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "penguin",
+    "gt_norm": "rockhopper penguin"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+  "query": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Menus, Which Is Better?\" in 2015, what was the title of the first paper authored by the one that had authored prior papers?",
+  "ground_truth": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+  "answer_raw": {
+    "final_answer": "No prior papers found for Pietro Murano.",
+    "final_answer_strict": "No prior papers found.",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What are the titles of prior papers authored by Pietro Murano?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "No prior papers found.",
+  "error": null,
+  "duration_sec": 59.97653651237488,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find the authors of the paper 'Pie Menus or Linear Menus, Which Is Better?' published in 2015.",
+        "facts": [
+          {
+            "fact": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N.",
+            "source_url": "https://docslib.org/doc/9021566/pie-menus-or-linear-menus-which-is-better-1-pietro-murano-2-iram-n"
+          },
+          {
+            "fact": "The paper was published in 2015.",
+            "source_url": "https://www.researchgate.net/publication/283265537_Pie_Menus_or_Linear_Menus_Which_Is_Better"
+          },
+          {
+            "fact": "The paper compares the usability of pie menus and linear menus.",
+            "source_url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus,-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2"
+          }
+        ],
+        "sources": [
+          {
+            "title": "(PDF) Pie Menus or Linear Menus, Which Is Better? - ResearchGate",
+            "url": "https://www.researchgate.net/publication/283265537_Pie_Menus_or_Linear_Menus_Which_Is_Better",
+            "snippet": "Abstract This paper is about a continuing investigation aiming to find out which menu type is more useable on a web site or application. This paper specifically compares pie menus with linear menus."
+          },
+          {
+            "title": "(PDF) An empirical comparison of pie vs. linear menus",
+            "url": "https://www.academia.edu/96241011/An_empirical_comparison_of_pie_vs_linear_menus",
+            "snippet": "Pie menus gain over traditional linear menus by reducing target seek time, lowering error rates by fixing the distance factor and increasing the target size in ..."
+          },
+          {
+            "title": "Pie Menus Or Linear Menus, Which Is Better? 1 Pietro Murano, 2 Iram N",
+            "url": "https://docslib.org/doc/9021566/pie-menus-or-linear-menus-which-is-better-1-pietro-murano-2-iram-n",
+            "snippet": "The H1: The pie menu will be faster than the horizontal ideas described in the paper are very interesting; however linear menu for task time. it would have been also interesting and useful if some H0: There will be no difference for task time between evaluation of this design had been done. the pie menu and the horizontal linear menu."
+          },
+          {
+            "title": "Pietro Murano",
+            "url": "https://scholar.google.com/citations%3Fuser%3DL9um4xoAAAAJ%26hl%3Den",
+            "snippet": "Pie menus or linear menus, which is better? P Murano, IN Khan. ARPN Publishers, 2015. 8, 2015. Anthropomorphic vs Non-Anthropomorphic User Interface ..."
+          },
+          {
+            "title": "Pie Menus or Linear Menus, Which Is Better? - Semantic Scholar",
+            "url": "https://www.semanticscholar.org/paper/Pie-Menus-or-Linear-Menus,-Which-Is-Better-Murano-Khan/54a14c467ca976cbdd0f1d8a41426e6347a5e4c2",
+            "snippet": "This paper specifically compares pie menus with linear menus and an empirical approach using an experiment to test the effectiveness and user satisfaction of a pie menu and a linear menu is described in detail. This paper is about a continuing investigation aiming to find o ut which menu type is more useable on a web site or application."
+          }
+        ],
+        "summary": "The paper 'Pie Menus or Linear Menus, Which Is Better?' authored by Pietro Murano and Iram N. in 2015 investigates the usability of pie menus compared to linear menus."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract the names of the authors from the search results.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Pietro Murano",
+            "type": "author",
+            "evidence": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N."
+          },
+          {
+            "name": "Iram N.",
+            "type": "author",
+            "evidence": "The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N."
+          }
+        ],
+        "key_points": [
+          "The paper investigates the usability of pie menus compared to linear menus."
+        ],
+        "numbers_and_units": [
+          {
+            "value": "2015",
+            "unit": "year",
+            "context": "The paper was published in 2015."
+          }
+        ],
+        "definitions": [],
+        "open_questions": []
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Find prior papers authored by the identified authors.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find prior papers authored by the identified authors.",
+        "facts": [
+          {
+            "fact": "Connected Papers helps discover relevant prior and derivative works in academic fields.",
+            "source_url": "https://www.connectedpapers.com/"
+          },
+          {
+            "fact": "Cited reference searching allows users to find articles that reference specific authors or papers.",
+            "source_url": "https://guides.lib.uchicago.edu/c.php?g=958643&p=6921197"
+          },
+          {
+            "fact": "To find journal articles by a specific author, search using the author's last name followed by their first name.",
+            "source_url": "https://answers.library.american.edu/faq/174388"
+          },
+          {
+            "fact": "Graduate research literature reviews involve identifying key papers and authors through author and document searches.",
+            "source_url": "https://deakin.libguides.com/lit-review-plan/identify-key-papers-authors"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Connected Papers | Find and explore academic papers",
+            "url": "https://www.connectedpapers.com/",
+            "snippet": "Discover the most relevant prior and derivative works. Use our Prior Works view to find important ancestor works in your field of interest. Use our Derivative ..."
+          },
+          {
+            "title": "Library Guides: How do I find articles?: Cited Reference Searching",
+            "url": "https://guides.lib.uchicago.edu/c.php?g=958643&p=6921197",
+            "snippet": "Cited reference searching is finding articles that reference a particular author, article, or book. Use cited reference searching to: determine who has cited specific papers or authors discover how an idea or innovation has been confirmed, applied, corrected, or developed over time identify seminal papers find researchers with common interests assess the impact of a publication There are many ..."
+          },
+          {
+            "title": "How to find out the corresponding author of a paper?",
+            "url": "https://academia.stackexchange.com/questions/161739/how-to-find-out-the-corresponding-author-of-a-paper",
+            "snippet": "Jan 24, 2021 — I am interested to know how to find out the corresponding author of the following paper (which is just an example for the discussion here):"
+          },
+          {
+            "title": "Q. How do I find journal articles written by a specific author?",
+            "url": "https://answers.library.american.edu/faq/174388",
+            "snippet": "In the first search box type the author's name (last name, then first name) and select AU Author from the dropdown menu to the right of the search box and search. If you retrieve too many irrelevant hits, then go back and include a keyword in your search. You might also want to check ProQuest Central and Science Direct."
+          },
+          {
+            "title": "Graduate research literature review plan: Identify key papers and authors",
+            "url": "https://deakin.libguides.com/lit-review-plan/identify-key-papers-authors",
+            "snippet": "Identify key papers and authors · 1. Author Search · 2. Document Search Search for a key paper and use the built-in links to view the references (i.e. backward ..."
+          }
+        ],
+        "summary": "Various methods and tools exist for finding prior works authored by specific researchers, including cited reference searching and dedicated academic search platforms."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Extract the titles of the first papers authored by the author who has prior papers.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [\n    {\n      \"name\": \"Pietro Murano\",\n      \"type\": \"author\",\n      \"evidence\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N.\"\n    },\n    {\n      \"name\": \"Iram N.\",\n      \"type\": \"author\",\n      \"evidence\": \"The paper 'Pie Menus or Linear Menus, Which Is Better?' was authored by Pietro Murano and Iram N.\"\n    }\n  ],\n  \"key_points\": [\n    \"The paper investigates the usability of pie menus compared to linear menus.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"2015\",\n      \"unit\": \"year\",\n      \"context\": \"The paper was published in 2015.\"\n    }\n  ],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Provide the title of the first paper authored by the identified author.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "final_answer": "No prior papers found for Pietro Murano.",
+        "final_answer_strict": "No prior papers found.",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the titles of prior papers authored by Pietro Murano?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.5,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "no prior papers found",
+    "gt_norm": "mapping human oriented information to software agents for online systems usage"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "id": "7673d772-ef80-4f0f-a602-1bf4485c9b43",
+  "query": "On Cornell Law School website's legal information institute, under the fifth section of federal rules alphabetically, what word was deleted in the last amendment to the first rule in the article that has \"witnesses\" in the most titles as of 2021?",
+  "ground_truth": "inference",
+  "answer_raw": {
+    "final_answer": "неизвестно",
+    "final_answer_strict": "неизвестно",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "Какое слово было удалено в последней поправке к первой статье федеральных правил, содержащих 'witnesses' в заголовке?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "неизвестно",
+  "error": null,
+  "duration_sec": 59.9300262928009,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Найти информацию на сайте Cornell Law School о федеральных правилах, включая разделы и статьи.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию на сайте Cornell Law School о федеральных правилах, включая разделы и статьи.",
+        "facts": [
+          {
+            "fact": "Кодекс Соединённых Штатов обновляется в соответствии с федеральными правилами.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%A1%D0%A8%D0%90"
+          },
+          {
+            "fact": "Один и тот же закон может упоминаться в различных разделах Кодекса США.",
+            "source_url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%A1%D0%A8%D0%90"
+          },
+          {
+            "fact": "Федеральная судебная система США имеет свои особенности и основные черты.",
+            "source_url": "https://cyberleninka.ru/article/n/federalnaya-sudebnaya-sistema-ssha"
+          }
+        ],
+        "sources": [
+          {
+            "title": "конституционный судебный процесс; муниципальное право",
+            "url": "https://zakon.ru/LibraryHome/DownloadPub%3F_id%3D15986",
+            "snippet": "Аннотация. В основу данной работы легли последние исследования в области избира- тельного права США. Автором сделан обзор федерального, регионального и ..."
+          },
+          {
+            "title": "Кодекс США — Википедия",
+            "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%A1%D0%A8%D0%90",
+            "snippet": "В соответствии с этими правилами LRC обновляет Кодекс Соединённых Штатов. В связи с данным подходом один и тот же закон может упоминаться в различных разделах Кодекса."
+          },
+          {
+            "title": "Использование общедоступных интернет-ресурсов в обучении ...",
+            "url": "https://www.researchgate.net/publication/374590419_Ispolzovanie_obsedostupnyh_internet-resursov_v_obucenii_uridiceskomu_anglijskomu_azyku_glava_v_kollektivnoj_monografii_Obucenie_inostrannomu_azyku_v_uridiceskom_vuze_opyt_dostizenia_i_perspektivy",
+            "snippet": "В своей работе автор рассматривает следующие вопросы: – что такое «юридический язык»; – что такое «правовая действительность»; – что такое «общедоступные ..."
+          },
+          {
+            "title": "ФЕДЕРАЛЬНАЯ СУДЕБНАЯ СИСТЕМА США - тема научной статьи по праву читайте ...",
+            "url": "https://cyberleninka.ru/article/n/federalnaya-sudebnaya-sistema-ssha",
+            "snippet": "Статья раскрывает особенности и основные черты современной судебной системы США на федеральном уровне."
+          },
+          {
+            "title": "Круг выборных органов и должностных лиц в штатах США ...",
+            "url": "https://cyberleninka.ru/article/n/krug-vybornyh-organov-i-dolzhnostnyh-lits-v-shtatah-ssha-v-razreze-federativnogo-ustroystva-vlasti",
+            "snippet": "Автор: АВ Шидловский · 2019 · Цитируется: 9 — Автором даны интерпретации некоторых положений законодательства и правопонимания избирательного законодательства США и правоприменительной практики. Озвучены ..."
+          }
+        ],
+        "summary": "Федеральные правила регулируют обновление Кодекса США и определяют особенности судебной системы."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Извлечь информацию о пятом разделе федеральных правил и найти первую статью с 'witnesses' в заголовке.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "entities": [
+          {
+            "name": "Федеральные правила",
+            "type": "правила",
+            "evidence": "Федеральные правила регулируют обновление Кодекса США и определяют особенности судебной системы."
+          },
+          {
+            "name": "Кодекс Соединённых Штатов",
+            "type": "кодекс",
+            "evidence": "Кодекс Соединённых Штатов обновляется в соответствии с федеральными правилами."
+          }
+        ],
+        "key_points": [
+          "Федеральные правила обновляют Кодекс США.",
+          "Федеральная судебная система имеет свои особенности."
+        ],
+        "numbers_and_units": [],
+        "definitions": [],
+        "open_questions": [
+          "Какова структура пятого раздела федеральных правил?",
+          "Какая статья первая с 'witnesses' в заголовке?"
+        ]
+      }
+    },
+    {
+      "id": "T3",
+      "role": "search",
+      "description": "Найти информацию о последних поправках к первой статье выбранного правила.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Найти информацию о последних поправках к первой статье выбранного правила.",
+        "facts": [
+          {
+            "fact": "Поправки к Конституции РФ были предложены Владимиром Путиным 15 января 2020 года.",
+            "source_url": "https://www.rbc.ru/politics/02/03/2020/5e5d010e9a794718c0f57783"
+          },
+          {
+            "fact": "Закон о поправке к Конституции РФ от 14.03.2020 N 1-ФКЗ касается совершенствования регулирования публичной власти.",
+            "source_url": "https://www.consultant.ru/document/cons_doc_LAW_346019/"
+          },
+          {
+            "fact": "Основы правового статуса личности в РФ не могут быть изменены иначе как в установленном порядке.",
+            "source_url": "http://duma.gov.ru/news/48953/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Новый текст Конституции РФ с поправками 2020",
+            "url": "http://duma.gov.ru/news/48953/",
+            "snippet": "3 июл. 2020 г. — Положения настоящей главы составляют основы правового статуса личности в Российской Федерации и не могут быть изменены иначе как в порядке, ..."
+          },
+          {
+            "title": "Официальное опубликование правовых актов",
+            "url": "http://publication.pravo.gov.ru/",
+            "snippet": "Законы Российской Федерации о поправке к Конституции Российской Федерации, федеральные конституционные законы, федеральные законы, указы Президента Российской Федерации, распоряжения ..."
+          },
+          {
+            "title": "Путин внес поправки про бога, русский народ и союз мужчины и ...",
+            "url": "https://www.rbc.ru/politics/02/03/2020/5e5d010e9a794718c0f57783",
+            "snippet": "2 мар. 2020 г. — Владимир Путин предложил внести изменения в Конституцию 15 января, во время послания к Федеральному собранию. В тот же день была создана рабочая ..."
+          },
+          {
+            "title": "Закон Рф О Поправке К Конституции Рф От 14.03.2020 N 1-фкз \"О ...",
+            "url": "https://www.consultant.ru/document/cons_doc_LAW_346019/",
+            "snippet": "Закон РФ о поправке к Конституции РФ от 14.03.2020 N 1-ФКЗ \"О совершенствовании регулирования отдельных вопросов организации и функционирования публичной власти\""
+          },
+          {
+            "title": "Новое в российском законодательстве (ежедневно)",
+            "url": "https://www.consultant.ru/law/review/fed/fd2026-01-13.html",
+            "snippet": "Новое в российском законодательстве ежедневно. Выпуск за 13 января 2026 года \\ Обзоры законодательства."
+          }
+        ],
+        "summary": "В 2020 году были внесены поправки в Конституцию РФ, касающиеся правового статуса личности и регулирования публичной власти."
+      }
+    },
+    {
+      "id": "T4",
+      "role": "extract",
+      "description": "Извлечь информацию о словах, которые были удалены в последней поправке к первой статье.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "_raw_text": "```json\n{\n  \"entities\": [],\n  \"key_points\": [],\n  \"numbers_and_units\": [],\n  \"definitions\": [],\n  \"open_questions\": []\n}\n```"
+      }
+    },
+    {
+      "id": "T5",
+      "role": "answer",
+      "description": "Предоставить пользователю слово, которое было удалено в последней поправке.",
+      "depends_on": [
+        "T4"
+      ],
+      "priority": 5,
+      "status": "done",
+      "result": {
+        "final_answer": "неизвестно",
+        "final_answer_strict": "неизвестно",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "Какое слово было удалено в последней поправке к первой статье федеральных правил, содержащих 'witnesses' в заголовке?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T5": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 800,
+      "temperature": 0.4,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "неизвестно",
+    "gt_norm": "inference"
+  }
+}

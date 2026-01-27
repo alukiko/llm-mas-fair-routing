@@ -1,0 +1,213 @@
+{
+  "id": "72e110e7-464c-453c-a309-90a95aed6538",
+  "query": "Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the others?",
+  "ground_truth": "Guatemala",
+  "answer_raw": {
+    "final_answer": "unknown",
+    "final_answer_strict": "unknown",
+    "used_evidence": [],
+    "confidence": "low",
+    "follow_up_needed": true,
+    "follow_up_queries": [
+      "What are the languages and flags of the articles listed under DDC 633 in BASE?"
+    ],
+    "critic_verdict": "needs_more_evidence",
+    "documents_used": false,
+    "documents_ok_present": false,
+    "_raw_model_output": null
+  },
+  "answer_pred": "unknown",
+  "error": null,
+  "duration_sec": 50.896522521972656,
+  "tasks": [
+    {
+      "id": "T1",
+      "role": "search",
+      "description": "Find articles under DDC 633 in Bielefeld University Library's BASE as of 2020.",
+      "depends_on": [],
+      "priority": 1,
+      "status": "done",
+      "result": {
+        "status": "done",
+        "query": "Find articles under DDC 633 in Bielefeld University Library's BASE as of 2020.",
+        "facts": [
+          {
+            "fact": "Bielefeld University Library operates the Bielefeld Academic Search Engine (BASE).",
+            "source_url": "https://scolary.com/tools/base-(bielefeld-academic-search-engine)"
+          },
+          {
+            "fact": "BASE indexes more than 240 million documents from over eight thousand content providers.",
+            "source_url": "https://library.doc.gov/LitSearch/BASE"
+          },
+          {
+            "fact": "About 60% of the indexed documents in BASE are open access.",
+            "source_url": "https://library.doc.gov/LitSearch/BASE"
+          },
+          {
+            "fact": "Users can filter search results in BASE by DDC number, year of publication, and language.",
+            "source_url": "https://oercommons.org/courseware/lesson/123099/overview"
+          },
+          {
+            "fact": "BASE allows browsing through the first three hierarchical levels of the Dewey Decimal Classification (DDC).",
+            "source_url": "https://www.dnb.de/EN/Professionell/DDC-Deutsch/DDCausserhalbDNB/_content/ddcBASE_akk.html"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Who&When/Hand-Crafted/33.json · Kevin355/Who_and_When at ...",
+            "url": "https://huggingface.co/datasets/Kevin355/Who_and_When/blob/main/Who%26When/Hand-Crafted/33.json",
+            "snippet": "Library's BASE to gather the required information.\\\",\\n \\\"answer\\\": \\\"WebSurfer\\\"\\n },\\n \\\"instruction\\_or\\_question\\\": {\\n \\\"reason\\\": \\\"The first step involves locating DDC 633 section on Bielefeld University Library's BASE and identifying the articles' languages and flags.\\\",\\n \\\"answer\\\": \\\"Please navigate to Bielefeld University Library's BASE and locate the section relevant to DDC 633 as of 2020. Identify and document the languages and associated flags of the articles listed under this section.\\\"\\n }\\n}\", | [...] |  | \"content\": \"I typed 'Bielefeld University Library BASE DDC 633 2020' i"
+          },
+          {
+            "title": "BASE SEARCHING ENGINE",
+            "url": "https://oercommons.org/courseware/lesson/123099/overview",
+            "snippet": "The result list can be sorted using a number of choices (by author, title, date).\n Author, subject, DDC, year of publication, content provider, language, document format, access, and terms of reuse are among the “Refine your search result” choices.\n Browsing by document type, access, DDC (Dewey Decimal Classification), and re-use/licensing terms.\n\nHow to search in BASE\n\nProcess of search in BASE: Use these detailed instructions to efficiently search for academic content using the Bielefeld Academic Search Engine (BASE). This search engine provides a variety of tools, filters, and search choice"
+          },
+          {
+            "title": "DNB - Search engine BASE",
+            "url": "https://www.dnb.de/EN/Professionell/DDC-Deutsch/DDCausserhalbDNB/_content/ddcBASE_akk.html",
+            "snippet": "Catalogue search\")\n\n# Search engine BASE\n\nBASE DDC-Browsing\") (Bielefeld Academic Search Engine) is a service provided by Bielefeld University Library that facilitates DDC browsing through the first three hierarchical levels of the DDC system in order to search for documents. When browsing by document type, the search results can be narrowed down further by using DDC numbers, for example. These DDC numbers are assigned using an automatic classification process; however, data sources that already contain DDC numbers are also used.\n\nShort-URL:  \n\n## Our newsletters\n\nInformative and up-to-date – "
+          },
+          {
+            "title": "Literature Search: BASE Search Engine",
+            "url": "https://library.doc.gov/LitSearch/BASE",
+            "snippet": "## BASE\n\nBASE, a search engine operated by the Bielefeld University Library, indexes more than 240 million documents from over eight thousand content providers. About 60% of indexed documents are open access. Bielefeld Library staff evaluate content providers to ensure that their content meets scholarly standards. < [...] The sorting capabilities of BASE are far more powerful that similar tools like Google Scholar. BASE allows the user to filter results by author, title, subject, Dewey decimal number, year of publication, content provider, language, document type, access and terms of re-use. U"
+          },
+          {
+            "title": "BASE (Bielefeld Academic Search Engine)",
+            "url": "https://scolary.com/tools/base-(bielefeld-academic-search-engine)",
+            "snippet": "BASE (Bielefeld Academic Search Engine) is a multi-disciplinary search engine to scholarly internet resources, created by Bielefeld University Library in Bielefeld, Germany. It is based on free and open-source software such as Apache Solr and VuFind. It harvests OAI metadata from institutional repositories and other academic digital libraries that implement the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH), and then normalizes and indexes the data for searching. You can access the full texts of about 60% of the indexed documents for free (Open Access).\n\nCompany\n\nBielefeld"
+          }
+        ],
+        "summary": "BASE is a comprehensive search engine created by Bielefeld University Library, indexing a vast number of documents, with significant open access availability and advanced filtering options."
+      }
+    },
+    {
+      "id": "T2",
+      "role": "extract",
+      "description": "Extract information about articles with unique flags and their corresponding countries.",
+      "depends_on": [
+        "T1"
+      ],
+      "priority": 2,
+      "status": "done",
+      "result": {
+        "_raw_text": "{\n  \"entities\": [\n    {\n      \"name\": \"Bielefeld University Library\",\n      \"type\": \"Institution\",\n      \"evidence\": \"BASE is a comprehensive search engine created by Bielefeld University Library.\"\n    },\n    {\n      \"name\": \"Bielefeld Academic Search Engine (BASE)\",\n      \"type\": \"Search Engine\",\n      \"evidence\": \"BASE (Bielefeld Academic Search Engine) is a multi-disciplinary search engine to scholarly internet resources.\"\n    }\n  ],\n  \"key_points\": [\n    \"BASE indexes more than 240 million documents from over eight thousand content providers.\",\n    \"About 60% of the indexed documents in BASE are open access.\",\n    \"Users can filter search results in BASE by DDC number, year of publication, and language.\"\n  ],\n  \"numbers_and_units\": [\n    {\n      \"value\": \"240 million\",\n      \"unit\": \"documents\",\n      \"context\": \"BASE indexes more than 240 million documents.\"\n    },\n    {\n      \"value\": \"60%\",\n      \"unit\": \"percentage\",\n      \"context\": \"About 60% of the indexed documents in BASE are open access.\"\n    },\n    {\n      \"value\": \"eight thousand\",\n      \"unit\": \"content providers\",\n      \"context\": \"BASE indexes documents from over eight thousand content providers.\"\n    }\n  ],\n  \"definitions\": [\n    {\n      \"term\": \"BASE\",\n      \"definition\": \"Bielefeld Academic Search Engine, a multi-disciplinary search engine to scholarly internet resources.\",\n      \"source_url\": \"https://scolary.com/tools/base-(bielefeld-academic-search-engine)\"\n    },\n    {\n      \"term\": \"DDC\",\n      \"definition\": \"Dewey Decimal Classification, a system used to categorize books and documents.\",\n      \"source_url\": \"https://www.dnb.de/EN/Professionell/DDC-Deutsch/DDCausserhalbDNB/_content/dd"
+      }
+    },
+    {
+      "id": "T3",
+      "role": "reason",
+      "description": "Identify the unknown language article with a unique flag from the extracted information.",
+      "depends_on": [
+        "T2"
+      ],
+      "priority": 3,
+      "status": "done",
+      "result": {
+        "assumptions": [
+          "The task requires identifying articles under DDC 633 in the Bielefeld University Library's BASE that have a unique language and flag."
+        ],
+        "reasoning_steps": [
+          "Identify the DDC 633 section in BASE.",
+          "Filter the articles by language and flag.",
+          "Determine which language has a unique flag."
+        ],
+        "conclusions": [
+          "Without direct access to the BASE database, I cannot definitively identify the unknown language article with a unique flag."
+        ],
+        "proposed_answer_outline": [
+          "1. Access the Bielefeld Academic Search Engine (BASE).",
+          "2. Navigate to the DDC 633 section.",
+          "3. Filter articles by language and note their flags.",
+          "4. Identify the language with a unique flag."
+        ],
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the languages and flags of the articles listed under DDC 633 in BASE?"
+        ]
+      }
+    },
+    {
+      "id": "T4",
+      "role": "answer",
+      "description": "Provide the country of the unknown language article with a unique flag.",
+      "depends_on": [
+        "T3"
+      ],
+      "priority": 4,
+      "status": "done",
+      "result": {
+        "final_answer": "unknown",
+        "final_answer_strict": "unknown",
+        "used_evidence": [],
+        "confidence": "low",
+        "follow_up_needed": true,
+        "follow_up_queries": [
+          "What are the languages and flags of the articles listed under DDC 633 in BASE?"
+        ],
+        "critic_verdict": "needs_more_evidence",
+        "documents_used": false,
+        "documents_ok_present": false,
+        "_raw_model_output": null
+      }
+    }
+  ],
+  "resources": {
+    "T1": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "tools_policy": {
+        "allow_search": true,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T2": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 400,
+      "temperature": 0.1,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T3": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 300,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    },
+    "T4": {
+      "model": "openai/gpt-4o-mini",
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "tools_policy": {
+        "allow_search": false,
+        "allow_human": false,
+        "allow_python": false
+      }
+    }
+  },
+  "level": "1",
+  "files": null,
+  "intermediate_results_keys": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "metrics": {
+    "exact_match": false,
+    "normalized_match": false,
+    "numeric_match": null,
+    "pred_norm": "unknown",
+    "gt_norm": "guatemala"
+  }
+}
